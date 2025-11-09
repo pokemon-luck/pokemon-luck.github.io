@@ -83,7 +83,9 @@ export class PokemonRenderer {
             for (let j = 0; j < evo.conditions.length; j++) {
                 const cond = evo.conditions[j];
                 
-                conditions[j] = `<div style="font-size:11px;color:#8e99ab;">${await this.languageManager.getTranslation(cond.type)}: <span>${cond.value}</span></div>`;
+                if (["minLevel","minLoyalty","skill1","stone","itemHold","func"].includes(cond.type)) {
+                    conditions[j] = `<div style="font-size:11px;color:#8e99ab;">${await this.languageManager.getTranslation(cond.type)}: <span>${cond.value}</span></div>`;
+                }
             }
 
             evolutionsData[i] = `
