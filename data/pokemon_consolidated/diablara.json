@@ -1,0 +1,652 @@
+{
+  "klass": "Specie",
+  "id": 148,
+  "dbSymbol": "diablara",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 53,
+        "description": 0
+      },
+      "height": 1.48,
+      "weight": 79.3,
+      "type1": "ground",
+      "type2": "__undef__",
+      "baseHp": 105,
+      "baseAtk": 65,
+      "baseDfe": 140,
+      "baseSpd": 55,
+      "baseAts": 60,
+      "baseDfs": 85,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 2,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        5
+      ],
+      "hatchSteps": 8960,
+      "babyDbSymbol": "lutinstable",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "rough_skin",
+        "sand_stream",
+        "sand_force"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "148_2_i",
+        "iconShiny": "148_2_i_s",
+        "front": "148_2",
+        "frontShiny": "148_2_s",
+        "back": "148_2_b",
+        "backShiny": "148_2_b_s",
+        "footprint": "",
+        "character": "148_2_c",
+        "characterShiny": "148_2_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smack_down",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stealth_rock",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "body_slam",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_slide",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic_spikes",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stomping_tantrum",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sandstorm",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "focus_blast",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heavy_slam",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fissure",
+          "level": 70
+        }
+      ],
+      "names": {
+        "en": "Crypthorn",
+        "fr": "Diablara",
+        "it": "Dragonair",
+        "de": "Dragonir",
+        "es": "Dragonair",
+        "ko": "신뇽"
+      },
+      "abilities_data": [
+        {
+          "symbol": "rough_skin",
+          "textId": 24,
+          "names": {
+            "en": "Rough Skin",
+            "fr": "Peau Dure",
+            "it": "Cartavetro",
+            "de": "Rauhaut",
+            "es": "Piel Tosca",
+            "ko": "까칠한피부"
+          },
+          "descriptions": {
+            "en": "This Pokémon inflicts damage with its rough skin to the attacker on contact.",
+            "fr": "Blesse l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon è colpito da un attacco diretto, grazie alla sua pelle ruvida infligge danni a sua volta.",
+            "de": "Angreifer werden durch die raue Haut des Pokémon bei direkten Attacken verletzt.",
+            "es": "Hiere con su piel áspera al rival que lo ataque con un movimiento de contacto.",
+            "ko": "공격을 받았을 때 자신에게 접촉한 상대를 까칠까칠한 피부로 상처를 입힌다."
+          }
+        },
+        {
+          "symbol": "sand_stream",
+          "textId": 45,
+          "names": {
+            "en": "Sand Stream",
+            "fr": "Sable Volant",
+            "it": "Sabbiafiume",
+            "de": "Sandsturm",
+            "es": "Chorro Arena",
+            "ko": "모래날림"
+          },
+          "descriptions": {
+            "en": "The Pokémon summons a sandstorm when it enters a battle.",
+            "fr": "Le Pokémon invoque une tempête de sable quand il entre au combat.",
+            "it": "Quando il Pokémon entra in campo, scatena una tempesta di sabbia.",
+            "de": "Erzeugt bei Kampfantritt Sandstürme.",
+            "es": "Crea una tormenta de arena al entrar en combate.",
+            "ko": "등장했을 때 날씨를 모래바람으로 만든다."
+          }
+        },
+        {
+          "symbol": "sand_force",
+          "textId": 159,
+          "names": {
+            "en": "Sand Force",
+            "fr": "Force Sable",
+            "it": "Silicoforza",
+            "de": "Sandgewalt",
+            "es": "Poder Arena",
+            "ko": "모래의힘"
+          },
+          "descriptions": {
+            "en": "Boosts the power of Rock-, Ground-, and Steel-type moves in a sandstorm.",
+            "fr": "Augmente la puissance des capacités de types Roche, Sol et Acier en cas de tempête de sable.",
+            "it": "Potenzia le mosse di tipo Roccia, Terra e Acciaio durante le tempeste di sabbia.",
+            "de": "Erhöht in Sandstürmen die Stärke von Gesteins-, Boden- und Stahl-Attacken.",
+            "es": "Potencia los movimientos de tipo Tierra, Acero y Roca durante las tormentas de arena.",
+            "ko": "날씨가 모래바람일 때 바위타입과 땅타입과 강철타입의 위력이 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "harden",
+          "id": 106,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smack_down",
+          "id": 479,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Smack Down",
+            "fr": "Anti-Air",
+            "it": "Abbattimento",
+            "de": "Katapult",
+            "es": "Antiaéreo",
+            "ko": "떨어뜨리기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stealth_rock",
+          "id": 446,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Stealth Rock",
+            "fr": "Piège de Roc",
+            "it": "Levitoroccia",
+            "de": "Tarnsteine",
+            "es": "Trampa Rocas",
+            "ko": "스텔스록"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "body_slam",
+          "id": 34,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Body Slam",
+            "fr": "Plaquage",
+            "it": "Corposcontro",
+            "de": "Bodyslam",
+            "es": "Golpe Cuerpo",
+            "ko": "누르기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_slide",
+          "id": 157,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Rock Slide",
+            "fr": "Éboulement",
+            "it": "Frana",
+            "de": "Steinhagel",
+            "es": "Avalancha",
+            "ko": "스톤샤워"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 90
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "stomping_tantrum",
+          "id": 707,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Stomping Tantrum",
+            "fr": "Trépignement",
+            "it": "Battipiedi",
+            "de": "Fruststampfer",
+            "es": "Pataleta",
+            "ko": "분함의발구르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sandstorm",
+          "id": 201,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Sandstorm",
+            "fr": "Tempête de Sable",
+            "it": "Terrempesta",
+            "de": "Sandsturm",
+            "es": "Tormenta Arena",
+            "ko": "모래바람"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "focus_blast",
+          "id": 411,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Focus Blast",
+            "fr": "Exploforce",
+            "it": "Focalcolpo",
+            "de": "Fokusstoß",
+            "es": "Onda Certera",
+            "ko": "기합구슬"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 70
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "heavy_slam",
+          "id": 484,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Heavy Slam",
+            "fr": "Tacle Lourd",
+            "it": "Pesobomba",
+            "de": "Rammboss",
+            "es": "Cuerpo Pesado",
+            "ko": "헤비봄버"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fissure",
+          "id": 90,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Fissure",
+            "fr": "Abîme",
+            "it": "Abisso",
+            "de": "Geofissur",
+            "es": "Fisura",
+            "ko": "땅가르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 30
+        }
+      ]
+    }
+  ]
+}

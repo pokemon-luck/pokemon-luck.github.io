@@ -1,0 +1,567 @@
+{
+  "klass": "Specie",
+  "id": 174,
+  "dbSymbol": "cabotour",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 17,
+        "description": 0
+      },
+      "height": 0.43,
+      "weight": 4.8,
+      "type1": "normal",
+      "type2": "psychic",
+      "baseHp": 35,
+      "baseAtk": 25,
+      "baseDfe": 35,
+      "baseSpd": 20,
+      "baseAts": 55,
+      "baseDfs": 55,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "merlinbrador",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 25
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 55,
+      "baseLoyalty": 70,
+      "catchRate": 220,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        5
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "cabotour",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "synchronize",
+        "magic_bounce",
+        "enlightened_mind"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "174_i",
+        "iconShiny": "174_i_s",
+        "front": "174",
+        "frontShiny": "174_s",
+        "back": "174_b",
+        "backShiny": "174_b_s",
+        "footprint": "",
+        "character": "174_c",
+        "characterShiny": "174_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tail_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "baby_doll_eyes",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psywave",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heal_bell",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "magic_room",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "cosmic_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 50
+        }
+      ],
+      "names": {
+        "en": "Muttrick",
+        "fr": "Cabotour",
+        "it": "Igglybuff",
+        "de": "Fluffeluff",
+        "es": "Igglybuff",
+        "ko": "푸푸린"
+      },
+      "abilities_data": [
+        {
+          "symbol": "synchronize",
+          "textId": 28,
+          "names": {
+            "en": "Synchronize",
+            "fr": "Synchro",
+            "it": "Sincronismo",
+            "de": "Synchro",
+            "es": "Sincronía",
+            "ko": "싱크로"
+          },
+          "descriptions": {
+            "en": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "fr": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "it": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene colpito dallo stesso problema di stato.",
+            "de": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+            "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "ko": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다."
+          }
+        },
+        {
+          "symbol": "magic_bounce",
+          "textId": 156,
+          "names": {
+            "en": "Magic Bounce",
+            "fr": "Miroir Magik",
+            "it": "Magispecchio",
+            "de": "Magiespiegel",
+            "es": "Espejo Mágico",
+            "ko": "매직미러"
+          },
+          "descriptions": {
+            "en": "Reflects status moves instead of getting hit by them.",
+            "fr": "Annule les effets des capacités de statut subies par le Pokémon et les retourne à l’envoyeur.",
+            "it": "Il Pokémon respinge al mittente le mosse di stato senza subirne gli effetti.",
+            "de": "Lenkt Status-Attacken auf den Angreifer um, ohne selbst von ihnen getroffen zu werden.",
+            "es": "Puede devolver los movimientos de estado lanzados por el rival, sin verse afectado por ellos.",
+            "ko": "상대가 쓴 변화 기술을 받지 않고 그대로 되받아칠 수 있다."
+          }
+        },
+        {
+          "symbol": "enlightened_mind",
+          "textId": 275,
+          "names": {
+            "en": "Enlightened Mind",
+            "fr": "Esprit Éveillé",
+            "it": "Esprit Éveillé",
+            "de": "Esprit Éveillé",
+            "es": "Esprit Éveillé",
+            "ko": "Esprit Éveillé"
+          },
+          "descriptions": {
+            "en": "Increases Special Attack and Special Defense by 1 stage if hit by a Dark-type move.",
+            "fr": "Augmente l'Attaque Spéciale et la Défense Spéciale de 1 niveau si le pokémon est touché par une attaque de type Ténèbres.",
+            "it": "Augmente l'Attaque Spéciale et la Défense Spéciale de 1 niveau si le pokémon est touché par une attaque de type Ténèbres.",
+            "de": "Augmente l'Attaque Spéciale et la Défense Spéciale de 1 niveau si le pokémon est touché par une attaque de type Ténèbres.",
+            "es": "Augmente l'Attaque Spéciale et la Défense Spéciale de 1 niveau si le pokémon est touché par une attaque de type Ténèbres.",
+            "ko": "Augmente l'Attaque Spéciale et la Défense Spéciale de 1 niveau si le pokémon est touché par une attaque de type Ténèbres."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "tail_whip",
+          "id": 39,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "baby_doll_eyes",
+          "id": 608,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Baby-Doll Eyes",
+            "fr": "Regard Touchant",
+            "it": "Occhioni Teneri",
+            "de": "Kulleraugen",
+            "es": "Ojitos Tiernos",
+            "ko": "초롱초롱눈동자"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psywave",
+          "id": 149,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Psywave",
+            "fr": "Vague Psy",
+            "it": "Psiconda",
+            "de": "Psywelle",
+            "es": "Psicoonda",
+            "ko": "사이코웨이브"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "heal_bell",
+          "id": 215,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Heal Bell",
+            "fr": "Glas de Soin",
+            "it": "Rintoccasana",
+            "de": "Vitalglocke",
+            "es": "Campana Cura",
+            "ko": "치료방울"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "magic_room",
+          "id": 478,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Magic Room",
+            "fr": "Zone Magique",
+            "it": "Magicozona",
+            "de": "Magieraum",
+            "es": "Zona Mágica",
+            "ko": "매직룸"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "future_sight",
+          "id": 248,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cosmic_power",
+          "id": 322,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Cosmic Power",
+            "fr": "Force Cosmique",
+            "it": "Cosmoforza",
+            "de": "Kosmik-Kraft",
+            "es": "Masa Cósmica",
+            "ko": "코스믹파워"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

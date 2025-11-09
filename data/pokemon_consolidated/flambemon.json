@@ -1,0 +1,556 @@
+{
+  "klass": "Specie",
+  "id": 73,
+  "dbSymbol": "flambemon",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 78,
+        "description": 0
+      },
+      "height": 1.85,
+      "weight": 96.3,
+      "type1": "fire",
+      "type2": "__undef__",
+      "baseHp": 90,
+      "baseAtk": 130,
+      "baseDfe": 70,
+      "baseSpd": 50,
+      "baseAts": 110,
+      "baseDfs": 70,
+      "evHp": 0,
+      "evAtk": 2,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 210,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        1
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "etinspiegle",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "flame_body",
+        "drought",
+        "sheer_force"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "73_i",
+        "iconShiny": "73_i_s",
+        "front": "73",
+        "frontShiny": "73_s",
+        "back": "73_b",
+        "backShiny": "73_b_s",
+        "footprint": "",
+        "character": "73_c",
+        "characterShiny": "73_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ember",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smokescreen",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "feint_attack",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_burst",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_wheel",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "inferno",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flamethrower",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fire_blast",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "focus_blast",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flare_blitz",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_beam",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "outrage",
+          "level": 68
+        }
+      ],
+      "names": {
+        "en": "Hadescorch",
+        "fr": "Flambémon",
+        "it": "Tentacruel",
+        "de": "Tentoxa",
+        "es": "Tentacruel",
+        "ko": "독파리"
+      },
+      "abilities_data": [
+        {
+          "symbol": "flame_body",
+          "textId": 49,
+          "names": {
+            "en": "Flame Body",
+            "fr": "Corps Ardent",
+            "it": "Corpodifuoco",
+            "de": "Flammkörper",
+            "es": "Cuerpo Llama",
+            "ko": "불꽃몸"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon may burn the attacker.",
+            "fr": "Peut brûler l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può scottare chi manda a segno un attacco diretto.",
+            "de": "Fügt dem Angreifer bei Berührung eventuell Verbrennungen zu.",
+            "es": "Puede quemar al mínimo contacto.",
+            "ko": "자신과 접촉한 상대를 화상 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "drought",
+          "textId": 70,
+          "names": {
+            "en": "Drought",
+            "fr": "Sécheresse",
+            "it": "Siccità",
+            "de": "Dürre",
+            "es": "Sequía",
+            "ko": "가뭄"
+          },
+          "descriptions": {
+            "en": "Turns the sunlight harsh when the Pokémon enters a battle.",
+            "fr": "Le soleil se met à briller quand le Pokémon entre au combat.",
+            "it": "Quando il Pokémon entra in campo, la luce solare diventa intensa.",
+            "de": "Erzeugt bei Kampfantritt gleißendes Sonnenlicht.",
+            "es": "Cuando entra en combate, el tiempo pasa a ser soleado.",
+            "ko": "등장했을 때 날씨를 맑음으로 만든다."
+          }
+        },
+        {
+          "symbol": "sheer_force",
+          "textId": 125,
+          "names": {
+            "en": "Sheer Force",
+            "fr": "Sans Limite",
+            "it": "Forzabruta",
+            "de": "Rohe Gewalt",
+            "es": "Potencia Bruta",
+            "ko": "우격다짐"
+          },
+          "descriptions": {
+            "en": "Removes additional effects to increase the power of moves when attacking.",
+            "fr": "Les capacités ayant un effet additionnel le perdent, mais leur puissance augmente.",
+            "it": "Aumenta la potenza delle mosse, ma ne annulla gli effetti aggiuntivi.",
+            "de": "Erhöht die Stärke von Attacken, aber hebt dafür ihre Zusatzeffekte auf.",
+            "es": "Sube la potencia de sus movimientos en detrimento de los efectos secundarios, que se ven anulados.",
+            "ko": "기술의 추가 효과가 없어지지만 그만큼 높은 위력으로 기술을 사용할 수 있다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "ember",
+          "id": 52,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "feint_attack",
+          "id": 185,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Feint Attack",
+            "fr": "Feinte",
+            "it": "Finta",
+            "de": "Finte",
+            "es": "Finta",
+            "ko": "속여때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "flame_burst",
+          "id": 481,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Flame Burst",
+            "fr": "Rebondifeu",
+            "it": "Pirolancio",
+            "de": "Funkenflug",
+            "es": "Pirotecnia",
+            "ko": "불꽃튀기기"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flame_wheel",
+          "id": 172,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Flame Wheel",
+            "fr": "Roue de Feu",
+            "it": "Ruotafuoco",
+            "de": "Flammenrad",
+            "es": "Rueda Fuego",
+            "ko": "화염자동차"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "inferno",
+          "id": 517,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Inferno",
+            "fr": "Feu d’Enfer",
+            "it": "Marchiatura",
+            "de": "Inferno",
+            "es": "Infierno",
+            "ko": "연옥"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 50
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flamethrower",
+          "id": 53,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Flamethrower",
+            "fr": "Lance-Flammes",
+            "it": "Lanciafiamme",
+            "de": "Flammenwurf",
+            "es": "Lanzallamas",
+            "ko": "화염방사"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
+          "symbol": "fire_blast",
+          "id": 126,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Fire Blast",
+            "fr": "Déflagration",
+            "it": "Fuocobomba",
+            "de": "Feuersturm",
+            "es": "Llamarada",
+            "ko": "불대문자"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 85
+        },
+        {
+          "symbol": "focus_blast",
+          "id": 411,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Focus Blast",
+            "fr": "Exploforce",
+            "it": "Focalcolpo",
+            "de": "Fokusstoß",
+            "es": "Onda Certera",
+            "ko": "기합구슬"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 70
+        },
+        {
+          "symbol": "flare_blitz",
+          "id": 394,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Flare Blitz",
+            "fr": "Boutefeu",
+            "it": "Fuococarica",
+            "de": "Flammenblitz",
+            "es": "Envite Ígneo",
+            "ko": "플레어드라이브"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hyper_beam",
+          "id": 63,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Hyper Beam",
+            "fr": "Ultralaser",
+            "it": "Iper Raggio",
+            "de": "Hyperstrahl",
+            "es": "Hiperrayo",
+            "ko": "파괴광선"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "outrage",
+          "id": 200,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Outrage",
+            "fr": "Colère",
+            "it": "Oltraggio",
+            "de": "Wutanfall",
+            "es": "Enfado",
+            "ko": "역린"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

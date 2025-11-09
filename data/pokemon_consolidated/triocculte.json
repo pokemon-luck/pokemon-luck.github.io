@@ -1,0 +1,566 @@
+{
+  "klass": "Specie",
+  "id": 184,
+  "dbSymbol": "triocculte",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 211,
+        "description": 0
+      },
+      "height": 1.33,
+      "weight": 23.4,
+      "type1": "ghost",
+      "type2": "fighting",
+      "baseHp": 80,
+      "baseAtk": 75,
+      "baseDfe": 75,
+      "baseSpd": 90,
+      "baseAts": 110,
+      "baseDfs": 100,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 260,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        1
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "saboo",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "cursed_body",
+        "pressure",
+        "haunting_aura"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "184_2_i",
+        "iconShiny": "184_2_i_s",
+        "front": "184_2",
+        "frontShiny": "184_2_s",
+        "back": "184_2_b",
+        "backShiny": "184_2_b_s",
+        "footprint": "",
+        "character": "184_c",
+        "characterShiny": "184_c_s",
+        "cry": "184Cry.ogg",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "low_kick",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "drain_punch",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aura_sphere",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psyshock",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "focus_blast",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poltergeist",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poltergeist",
+          "level": 75
+        }
+      ],
+      "names": {
+        "en": "Trioccult",
+        "fr": "Triocculte",
+        "it": "Azumarill",
+        "de": "Azumarill",
+        "es": "Azumarill",
+        "ko": "마릴리"
+      },
+      "abilities_data": [
+        {
+          "symbol": "cursed_body",
+          "textId": 130,
+          "names": {
+            "en": "Cursed Body",
+            "fr": "Corps Maudit",
+            "it": "Corpofunesto",
+            "de": "Tastfluch",
+            "es": "Cuerpo Maldito",
+            "ko": "저주받은바디"
+          },
+          "descriptions": {
+            "en": "May disable a move used on the Pokémon.",
+            "fr": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "it": "Può bloccare la mossa subita dal Pokémon.",
+            "de": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "es": "Puede anular el movimiento usado en su contra.",
+            "ko": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "pressure",
+          "textId": 46,
+          "names": {
+            "en": "Pressure",
+            "fr": "Pression",
+            "it": "Pressione",
+            "de": "Erzwinger",
+            "es": "Presión",
+            "ko": "프레셔"
+          },
+          "descriptions": {
+            "en": "By putting pressure on the opposing Pokémon, it raises their PP usage.",
+            "fr": "Met la pression à l’ennemi pour le forcer à dépenser plus de PP.",
+            "it": "Il Pokémon mette pressione al nemico, facendogli consumare più PP.",
+            "de": "Zwingt Gegner dazu, beim Einsatz von Attacken mehr AP zu verbrauchen.",
+            "es": "Presiona al rival para que sus PP se acaben antes.",
+            "ko": "프레셔를 줘서 상대가 쓰는 기술의 PP를 많이 줄인다."
+          }
+        },
+        {
+          "symbol": "haunting_aura",
+          "textId": 278,
+          "names": {
+            "en": "Haunting Aura",
+            "fr": "Aura Inquiétante",
+            "it": "Aura Inquiétante",
+            "de": "Aura Inquiétante",
+            "es": "Aura Inquiétante",
+            "ko": "Aura Inquiétante"
+          },
+          "descriptions": {
+            "en": "Ghost-type moves have a 20% chance to lower either the target’s Defense or Special Defense by 1 stage.",
+            "fr": "Les attaques de type Spectre ont 20% de chances de diminuer la Défense ou la Défense Spéciale de la cible de 1 niveau.",
+            "it": "Les attaques de type Spectre ont 20% de chances de diminuer la Défense ou la Défense Spéciale de la cible de 1 niveau.",
+            "de": "Les attaques de type Spectre ont 20% de chances de diminuer la Défense ou la Défense Spéciale de la cible de 1 niveau.",
+            "es": "Les attaques de type Spectre ont 20% de chances de diminuer la Défense ou la Défense Spéciale de la cible de 1 niveau.",
+            "ko": "Les attaques de type Spectre ont 20% de chances de diminuer la Défense ou la Défense Spéciale de la cible de 1 niveau."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "low_kick",
+          "id": 67,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Low Kick",
+            "fr": "Balayage",
+            "it": "Colpo Basso",
+            "de": "Fußkick",
+            "es": "Patada Baja",
+            "ko": "안다리걸기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "drain_punch",
+          "id": 409,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Drain Punch",
+            "fr": "Vampi-Poing",
+            "it": "Assorbipugno",
+            "de": "Ableithieb",
+            "es": "Puño Drenaje",
+            "ko": "드레인펀치"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psyshock",
+          "id": 473,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Psyshock",
+            "fr": "Choc Psy",
+            "it": "Psicoshock",
+            "de": "Psychoschock",
+            "es": "Psicocarga",
+            "ko": "사이코쇼크"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "focus_blast",
+          "id": 411,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Focus Blast",
+            "fr": "Exploforce",
+            "it": "Focalcolpo",
+            "de": "Fokusstoß",
+            "es": "Onda Certera",
+            "ko": "기합구슬"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 70
+        },
+        {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poltergeist",
+          "id": 725,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Poltergeist",
+            "fr": "Esprit Frappeur",
+            "it": "Poltergeist",
+            "de": "Poltergeist",
+            "es": "Poltergeist",
+            "ko": "Poltergeist"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 90
+        },
+        {
+          "symbol": "future_sight",
+          "id": 248,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

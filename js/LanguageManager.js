@@ -17,7 +17,7 @@ class LanguageManager {
         let lang = urlParams.get('lang');
 
         if (!lang) {
-            lang = 'fr'; // defaults to french if no language in the URL
+            lang = localStorage.getItem('lang') ?? 'fr'; // defaults to french if no language in the URL
             this.updateUrlLanguage(lang);
         }
         return lang;
@@ -25,6 +25,7 @@ class LanguageManager {
 
     // Changes the lang parameter without reloading the page.
     updateUrlLanguage(lang) {
+        localStorage.setItem('lang', lang);
         const url = new URL(window.location.href);
         const urlParams = new URLSearchParams(url.search);
         urlParams.set('lang', lang);
@@ -57,6 +58,7 @@ class LanguageManager {
 
     // Used by the language buttons. Changes the lang parameter and reloads the page
     changeLanguage(language) {
+        localStorage.setItem('lang', language);
         this.currentLanguage = language;
         const url = new URL(window.location.href);
         url.searchParams.set('lang', language);

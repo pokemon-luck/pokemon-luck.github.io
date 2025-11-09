@@ -1,0 +1,508 @@
+{
+  "klass": "Specie",
+  "id": 70,
+  "dbSymbol": "ophiorage",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 141,
+        "description": 0
+      },
+      "height": 4.7,
+      "weight": 53.8,
+      "type1": "electric",
+      "type2": "__undef__",
+      "baseHp": 80,
+      "baseAtk": 130,
+      "baseDfe": 100,
+      "baseSpd": 70,
+      "baseAts": 70,
+      "baseDfs": 60,
+      "evHp": 0,
+      "evAtk": 2,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 210,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        5
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "orveclair",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "intimidate",
+        "magnet_pull",
+        "multiscale"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "70_i",
+        "iconShiny": "70_i_s",
+        "front": "70",
+        "frontShiny": "70_s",
+        "back": "70_b",
+        "backShiny": "70_b_s",
+        "footprint": "",
+        "character": "70_c",
+        "characterShiny": "70_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_fang",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_spray",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glare",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "coil",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "discharge",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_punch",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_beam",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 62
+        }
+      ],
+      "names": {
+        "en": "Quetzap",
+        "fr": "Ophiorage",
+        "it": "Weepinbell",
+        "de": "Ultrigaria",
+        "es": "Weepinbell",
+        "ko": "우츠동"
+      },
+      "abilities_data": [
+        {
+          "symbol": "intimidate",
+          "textId": 22,
+          "names": {
+            "en": "Intimidate",
+            "fr": "Intimidation",
+            "it": "Prepotenza",
+            "de": "Bedroher",
+            "es": "Intimidación",
+            "ko": "위협"
+          },
+          "descriptions": {
+            "en": "The Pokémon intimidates opposing Pokémon upon entering battle, lowering their Attack stat.",
+            "fr": "Le Pokémon rugit lorsqu’il arrive au combat, ce qui intimide l’ennemi et baisse son Attaque.",
+            "it": "Quando il Pokémon entra in campo, la sua prepotenza intimidisce i nemici, riducendone l’Attacco.",
+            "de": "Senkt den Angriff der Gegner, indem es sie gleich zu Kampfantritt bedroht und einschüchtert.",
+            "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
+            "ko": "등장했을 때 위협해서 상대를 위축시켜 상대의 공격을 떨어뜨린다."
+          }
+        },
+        {
+          "symbol": "magnet_pull",
+          "textId": 42,
+          "names": {
+            "en": "Magnet Pull",
+            "fr": "Magnépiège",
+            "it": "Magnetismo",
+            "de": "Magnetfalle",
+            "es": "Imán",
+            "ko": "자력"
+          },
+          "descriptions": {
+            "en": "Prevents Steel-type Pokémon from escaping using its magnetic force.",
+            "fr": "Attire les Pokémon Acier grâce à un champ magnétique, ce qui les empêche de fuir.",
+            "it": "La carica magnetica attrae i Pokémon di tipo Acciaio impedendogli la fuga o la sostituzione.",
+            "de": "Hindert Stahl-Pokémon durch Magnetismus an der Flucht.",
+            "es": "Su magnetismo atrae a los Pokémon de tipo Acero y les impide huir.",
+            "ko": "강철타입의 포켓몬을 자력으로 끌어모아 도망칠 수 없게 한다."
+          }
+        },
+        {
+          "symbol": "multiscale",
+          "textId": 136,
+          "names": {
+            "en": "Multiscale",
+            "fr": "Multiécaille",
+            "it": "Multisquame",
+            "de": "Multischuppe",
+            "es": "Multiescamas",
+            "ko": "멀티스케일"
+          },
+          "descriptions": {
+            "en": "Reduces the amount of damage the Pokémon takes while its HP is full.",
+            "fr": "Le Pokémon reçoit moins de dégâts quand ses PV sont au maximum.",
+            "it": "Se i PS sono al massimo, riduce il danno subito.",
+            "de": "Verringert den erlittenen Schaden bei vollen KP.",
+            "es": "Reduce el daño que sufre si sus PS están al máximo.",
+            "ko": "HP가 꽉 찼을 때 받는 데미지가 줄어든다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid_spray",
+          "id": 491,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spark",
+          "id": 209,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Spark",
+            "fr": "Étincelle",
+            "it": "Scintilla",
+            "de": "Funkensprung",
+            "es": "Chispa",
+            "ko": "스파크"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glare",
+          "id": 137,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Glare",
+            "fr": "Regard Médusant",
+            "it": "Sguardo Feroce",
+            "de": "Schlangenblick",
+            "es": "Deslumbrar",
+            "ko": "뱀눈초리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thunder_wave",
+          "id": 86,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "coil",
+          "id": 489,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Coil",
+            "fr": "Enroulement",
+            "it": "Arrotola",
+            "de": "Einrollen",
+            "es": "Enrosque",
+            "ko": "똬리틀기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "discharge",
+          "id": 435,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Discharge",
+            "fr": "Coup d’Jus",
+            "it": "Scarica",
+            "de": "Ladungsstoß",
+            "es": "Chispazo",
+            "ko": "방전"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thunder_punch",
+          "id": 9,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Thunder Punch",
+            "fr": "Poing Éclair",
+            "it": "Tuonopugno",
+            "de": "Donnerschlag",
+            "es": "Puño Trueno",
+            "ko": "번개펀치"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
+          "symbol": "hyper_beam",
+          "id": 63,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Hyper Beam",
+            "fr": "Ultralaser",
+            "it": "Iper Raggio",
+            "de": "Hyperstrahl",
+            "es": "Hiperrayo",
+            "ko": "파괴광선"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "zap_cannon",
+          "id": 192,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Zap Cannon",
+            "fr": "Élecanon",
+            "it": "Falcecannone",
+            "de": "Blitzkanone",
+            "es": "Electrocañón",
+            "ko": "전자포"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 50
+        }
+      ]
+    }
+  ]
+}

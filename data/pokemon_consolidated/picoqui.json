@@ -1,0 +1,619 @@
+{
+  "klass": "Specie",
+  "id": 170,
+  "dbSymbol": "picoqui",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 171,
+        "description": 0
+      },
+      "height": 0.34,
+      "weight": 10.3,
+      "type1": "dragon",
+      "type2": "poison",
+      "baseHp": 40,
+      "baseAtk": 30,
+      "baseDfe": 60,
+      "baseSpd": 30,
+      "baseAts": 25,
+      "baseDfs": 30,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tarapasque",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            },
+            {
+              "type": "itemHold",
+              "value": "toxic_orb"
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 70,
+      "baseLoyalty": 70,
+      "catchRate": 55,
+      "femaleRate": 50,
+      "breedGroups": [
+        14,
+        14
+      ],
+      "hatchSteps": 10240,
+      "babyDbSymbol": "picoqui",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "poison_point",
+        "rough_skin",
+        "stamina"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "170_i",
+        "iconShiny": "170_i_s",
+        "front": "170",
+        "frontShiny": "170_s",
+        "back": "170_b",
+        "backShiny": "170_b_s",
+        "footprint": "",
+        "character": "170_c",
+        "characterShiny": "170_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withdraw",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_tail",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spiky_shield",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smokescreen",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_breath",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spikes",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic_spikes",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 55
+        }
+      ],
+      "names": {
+        "en": "Caraspike",
+        "fr": "Picoqui",
+        "it": "Chinchou",
+        "de": "Lampi",
+        "es": "Chinchou",
+        "ko": "초라기"
+      },
+      "abilities_data": [
+        {
+          "symbol": "poison_point",
+          "textId": 38,
+          "names": {
+            "en": "Poison Point",
+            "fr": "Point Poison",
+            "it": "Velenopunto",
+            "de": "Giftdorn",
+            "es": "Punto Tóxico",
+            "ko": "독가시"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon may poison the attacker.",
+            "fr": "Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può avvelenare chi manda a segno un attacco diretto.",
+            "de": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "es": "Puede envenenar al mínimo contacto.",
+            "ko": "자신과 접촉한 상대를 독 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "rough_skin",
+          "textId": 24,
+          "names": {
+            "en": "Rough Skin",
+            "fr": "Peau Dure",
+            "it": "Cartavetro",
+            "de": "Rauhaut",
+            "es": "Piel Tosca",
+            "ko": "까칠한피부"
+          },
+          "descriptions": {
+            "en": "This Pokémon inflicts damage with its rough skin to the attacker on contact.",
+            "fr": "Blesse l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon è colpito da un attacco diretto, grazie alla sua pelle ruvida infligge danni a sua volta.",
+            "de": "Angreifer werden durch die raue Haut des Pokémon bei direkten Attacken verletzt.",
+            "es": "Hiere con su piel áspera al rival que lo ataque con un movimiento de contacto.",
+            "ko": "공격을 받았을 때 자신에게 접촉한 상대를 까칠까칠한 피부로 상처를 입힌다."
+          }
+        },
+        {
+          "symbol": "stamina",
+          "textId": 192,
+          "names": {
+            "en": "Stamina",
+            "fr": "Endurance",
+            "it": "Sopportazione",
+            "de": "Zähigkeit",
+            "es": "Firmeza",
+            "ko": "지구력"
+          },
+          "descriptions": {
+            "en": "Boosts the Defense stat when hit by an attack.",
+            "fr": "Augmente la Défense du Pokémon lorsqu’il subit une attaque.",
+            "it": "Se il Pokémon subisce un attacco, la sua Difesa aumenta.",
+            "de": "Wird es von einer Attacke getroffen, steigt seine Verteidigung.",
+            "es": "Aumenta su Defensa al recibir un ataque.",
+            "ko": "공격을 받으면 방어가 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "withdraw",
+          "id": 110,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Withdraw",
+            "fr": "Repli",
+            "it": "Ritirata",
+            "de": "Panzerschutz",
+            "es": "Refugio",
+            "ko": "껍질에숨기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "poison_sting",
+          "id": 40,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Poison Sting",
+            "fr": "Dard-Venin",
+            "it": "Velenospina",
+            "de": "Giftstachel",
+            "es": "Picotazo Veneno",
+            "ko": "독침"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 35,
+          "power": 15,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid",
+          "id": 51,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Acid",
+            "fr": "Acide",
+            "it": "Acido",
+            "de": "Säure",
+            "es": "Ácido",
+            "ko": "용해액"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_tail",
+          "id": 525,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Dragon Tail",
+            "fr": "Draco-Queue",
+            "it": "Codadrago",
+            "de": "Drachenrute",
+            "es": "Cola Dragón",
+            "ko": "드래곤테일"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "spiky_shield",
+          "id": 596,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Spiky Shield",
+            "fr": "Pico-Défense",
+            "it": "Agodifesa",
+            "de": "Schutzstacheln",
+            "es": "Barrera Espinosa",
+            "ko": "니들가드"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_breath",
+          "id": 225,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Dragon Breath",
+            "fr": "Draco-Souffle",
+            "it": "Dragospiro",
+            "de": "Feuerodem",
+            "es": "Dragoaliento",
+            "ko": "용의숨결"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "spikes",
+          "id": 191,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Spikes",
+            "fr": "Picots",
+            "it": "Punte",
+            "de": "Stachler",
+            "es": "Púas",
+            "ko": "압정뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

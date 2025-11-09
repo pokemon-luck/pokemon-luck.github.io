@@ -1,0 +1,157 @@
+{
+  "klass": "Specie",
+  "id": 214,
+  "dbSymbol": "claquatik",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 236,
+        "description": 0
+      },
+      "height": 0.6,
+      "weight": 2.3,
+      "type1": "water",
+      "type2": "undead",
+      "baseHp": 45,
+      "baseAtk": 55,
+      "baseDfe": 45,
+      "baseSpd": 60,
+      "baseAts": 45,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "necrosteus",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 55,
+      "baseLoyalty": 70,
+      "catchRate": 200,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        2
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "claquatik",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "filter",
+        "liquid_ooze",
+        "rattling_bones"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "214_i",
+        "iconShiny": "214_i_s",
+        "front": "214",
+        "frontShiny": "214_s",
+        "back": "214_b",
+        "backShiny": "214_b_s",
+        "footprint": "",
+        "character": "214_c",
+        "characterShiny": "214_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [],
+      "names": {
+        "en": "Claquatik",
+        "fr": "Claquatik",
+        "it": "Heracross",
+        "de": "Skaraborn",
+        "es": "Heracross",
+        "ko": "헤라크로스"
+      },
+      "abilities_data": [
+        {
+          "symbol": "filter",
+          "textId": 111,
+          "names": {
+            "en": "Filter",
+            "fr": "Filtre",
+            "it": "Filtro",
+            "de": "Filter",
+            "es": "Filtro",
+            "ko": "필터"
+          },
+          "descriptions": {
+            "en": "Reduces the power of supereffective attacks taken.",
+            "fr": "Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.",
+            "it": "Riduce i danni subiti dalle mosse superefficaci.",
+            "de": "Reduziert die Stärke von sehr effektiven Attacken und verringert damit den Schaden, den das Pokémon durch sie erleidet.",
+            "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
+            "ko": "효과가 굉장한 공격의 위력을 약하게 만든다."
+          }
+        },
+        {
+          "symbol": "liquid_ooze",
+          "textId": 64,
+          "names": {
+            "en": "Liquid Ooze",
+            "fr": "Suintement",
+            "it": "Melma",
+            "de": "Kloakensoße",
+            "es": "Lodo Líquido",
+            "ko": "해감액"
+          },
+          "descriptions": {
+            "en": "The oozed liquid has a strong stench, which damages attackers using any draining move.",
+            "fr": "Le Pokémon suinte un liquide toxique nauséabond qui blesse tous ceux qui tentent de voler ses PV.",
+            "it": "Il Pokémon secerne delle sostanze tossiche. Se un nemico manda a segno una mossa che assorbe i PS, subisce dei danni.",
+            "de": "Angreifer, die durch Saug-Attacken Kloakensoße in sich aufgenommen haben, nehmen durch deren widerwärtigen Gestank Schaden.",
+            "es": "Exuda una sustancia tóxica de intenso hedor que hiere a quienes intentan drenarle PS.",
+            "ko": "해감액을 흡수한 상대는 강렬한 악취로 데미지를 받아 HP가 줄어든다."
+          }
+        },
+        {
+          "symbol": "rattling_bones",
+          "textId": 305,
+          "names": {
+            "en": "Rattling Bones",
+            "fr": "Cliquet'Os",
+            "it": "Rattling Bones",
+            "de": "Rattling Bones",
+            "es": "Rattling Bones",
+            "ko": "Rattling Bones"
+          },
+          "descriptions": {
+            "en": "Raises speed if at least one opposing pokémon is inflincted by the Decay status effect.",
+            "fr": "Augmente la vitesse si au moins un ennemi possède la condition de statut Décomposition.",
+            "it": "",
+            "de": "",
+            "es": "",
+            "ko": ""
+          }
+        }
+      ],
+      "moves_data": []
+    }
+  ]
+}

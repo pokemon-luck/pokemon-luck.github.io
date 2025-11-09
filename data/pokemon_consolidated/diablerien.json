@@ -1,0 +1,628 @@
+{
+  "klass": "Specie",
+  "id": 146,
+  "dbSymbol": "diablerien",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 56,
+        "description": 0
+      },
+      "height": 1.31,
+      "weight": 26.4,
+      "type1": "flying",
+      "type2": "__undef__",
+      "baseHp": 70,
+      "baseAtk": 80,
+      "baseDfe": 75,
+      "baseSpd": 80,
+      "baseAts": 130,
+      "baseDfs": 75,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        5
+      ],
+      "hatchSteps": 8960,
+      "babyDbSymbol": "lutinstable",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "gale_wings",
+        "air_lock",
+        "tinted_lens"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "146_2_i",
+        "iconShiny": "146_2_i_s",
+        "front": "146_2",
+        "frontShiny": "146_2_s",
+        "back": "146_2_b",
+        "backShiny": "146_2_b_s",
+        "footprint": "",
+        "character": "146_2_c",
+        "characterShiny": "146_2_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "peck",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gust",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tailwind",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wing_attack",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "roost",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aerial_ace",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_slash",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hurricane",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heat_wave",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "defog",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fly",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sky_attack",
+          "level": 70
+        }
+      ],
+      "names": {
+        "en": "Cryptyphoon",
+        "fr": "Diablérien",
+        "it": "Moltres",
+        "de": "Lavados",
+        "es": "Moltres",
+        "ko": "파이어"
+      },
+      "abilities_data": [
+        {
+          "symbol": "gale_wings",
+          "textId": 177,
+          "names": {
+            "en": "Gale Wings",
+            "fr": "Ailes Bourrasque",
+            "it": "Aliraffica",
+            "de": "Orkanschwingen",
+            "es": "Alas Vendaval",
+            "ko": "질풍날개"
+          },
+          "descriptions": {
+            "en": "Gives priority to Flying-type moves when the Pokémon’s HP is full.",
+            "fr": "Quand les PV du Pokémon sont au maximum, ses capacités de type Vol sont prioritaires.",
+            "it": "Se il Pokémon ha tutti i PS, le sue mosse di tipo Volante acquistano priorità alta.",
+            "de": "Kann bei vollen KP einen Erstschlag mit Flug-Attacken ermöglichen.",
+            "es": "Da prioridad a los movimientos de tipo Volador si sus PS están al máximo.",
+            "ko": "HP가 꽉 찼을 때 비행타입의 기술을 먼저 쓸 수 있다."
+          }
+        },
+        {
+          "symbol": "air_lock",
+          "textId": 76,
+          "names": {
+            "en": "Air Lock",
+            "fr": "Air Lock",
+            "it": "Riparo",
+            "de": "Klimaschutz",
+            "es": "Bucle Aire",
+            "ko": "에어록"
+          },
+          "descriptions": {
+            "en": "Eliminates the effects of weather.",
+            "fr": "Annule tous les effets de la météo.",
+            "it": "Neutralizza gli effetti di tutte le condizioni atmosferiche.",
+            "de": "Hebt alle Wetter-Effekte auf.",
+            "es": "Neutraliza todos los efectos del tiempo atmosférico.",
+            "ko": "모든 날씨의 영향이 없어진다."
+          }
+        },
+        {
+          "symbol": "tinted_lens",
+          "textId": 110,
+          "names": {
+            "en": "Tinted Lens",
+            "fr": "Lentiteintée",
+            "it": "Lentifumé",
+            "de": "Aufwertung",
+            "es": "Cromolente",
+            "ko": "색안경"
+          },
+          "descriptions": {
+            "en": "The Pokémon can use “not very effective” moves to deal regular damage.",
+            "fr": "Permet à une capacité « pas très efficace » d’infliger des dégâts comme si elle était efficace normalement.",
+            "it": "Permette alle mosse non molto efficaci di infliggere danni normalmente.",
+            "de": "Bewirkt, dass nicht sehr effektive Attacken dem Ziel trotz des Typennachteils normalen Schaden zufügen.",
+            "es": "Potencia los movimientos que no son muy eficaces, que infligen ahora un daño normal.",
+            "ko": "효과가 별로인 기술을 통상의 위력으로 쓸 수 있다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "peck",
+          "id": 64,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Peck",
+            "fr": "Picpic",
+            "it": "Beccata",
+            "de": "Pikser",
+            "es": "Picotazo",
+            "ko": "쪼기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "gust",
+          "id": 16,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Gust",
+            "fr": "Tornade",
+            "it": "Raffica",
+            "de": "Windstoß",
+            "es": "Tornado",
+            "ko": "바람일으키기"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "tailwind",
+          "id": 366,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Tailwind",
+            "fr": "Vent Arrière",
+            "it": "Ventoincoda",
+            "de": "Rückenwind",
+            "es": "Viento Afín",
+            "ko": "순풍"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "wing_attack",
+          "id": 17,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Wing Attack",
+            "fr": "Cru-Ailes",
+            "it": "Attacco d’Ala",
+            "de": "Flügelschlag",
+            "es": "Ataque Ala",
+            "ko": "날개치기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "roost",
+          "id": 355,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Roost",
+            "fr": "Atterrissage",
+            "it": "Trespolo",
+            "de": "Ruheort",
+            "es": "Respiro",
+            "ko": "날개쉬기"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aerial_ace",
+          "id": 332,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Aerial Ace",
+            "fr": "Aéropique",
+            "it": "Aeroassalto",
+            "de": "Aero-Ass",
+            "es": "Golpe Aéreo",
+            "ko": "제비반환"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "air_slash",
+          "id": 403,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Air Slash",
+            "fr": "Lame d’Air",
+            "it": "Eterelama",
+            "de": "Luftschnitt",
+            "es": "Tajo Aéreo",
+            "ko": "에어슬래시"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hurricane",
+          "id": 542,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Hurricane",
+            "fr": "Vent Violent",
+            "it": "Tifone",
+            "de": "Orkan",
+            "es": "Vendaval",
+            "ko": "폭풍"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
+          "symbol": "heat_wave",
+          "id": 257,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Heat Wave",
+            "fr": "Canicule",
+            "it": "Ondacalda",
+            "de": "Hitzewelle",
+            "es": "Onda Ígnea",
+            "ko": "열풍"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 10,
+          "power": 95,
+          "accuracy": 90
+        },
+        {
+          "symbol": "defog",
+          "id": 432,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Defog",
+            "fr": "Anti-Brume",
+            "it": "Scacciabruma",
+            "de": "Auflockern",
+            "es": "Despejar",
+            "ko": "안개제거"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fly",
+          "id": 19,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Fly",
+            "fr": "Vol",
+            "it": "Volo",
+            "de": "Fliegen",
+            "es": "Vuelo",
+            "ko": "공중날기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 95
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sky_attack",
+          "id": 143,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Sky Attack",
+            "fr": "Piqué",
+            "it": "Aeroattacco",
+            "de": "Himmelsfeger",
+            "es": "Ataque Aéreo",
+            "ko": "불새"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 5,
+          "power": 140,
+          "accuracy": 90
+        }
+      ]
+    }
+  ]
+}

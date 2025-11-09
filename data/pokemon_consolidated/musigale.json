@@ -1,0 +1,532 @@
+{
+  "klass": "Specie",
+  "id": 32,
+  "dbSymbol": "musigale",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 135,
+        "description": 0
+      },
+      "height": 0.75,
+      "weight": 14.2,
+      "type1": "bug",
+      "type2": "fairy",
+      "baseHp": 65,
+      "baseAtk": 50,
+      "baseDfe": 80,
+      "baseSpd": 65,
+      "baseAts": 95,
+      "baseDfs": 60,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "criflet",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "soundproof",
+        "own_tempo",
+        "synchronize"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "32_i",
+        "iconShiny": "32_i_s",
+        "front": "32",
+        "frontShiny": "32_s",
+        "back": "32_b",
+        "backShiny": "32_b_s",
+        "footprint": "",
+        "character": "32_c",
+        "characterShiny": "32_c_s",
+        "cry": "032Cry.ogg",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sing",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "struggle_bug",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "echoed_voice",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "disarming_voice",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "infestation",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "round",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "uproar",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "perish_song",
+          "level": 50
+        }
+      ],
+      "names": {
+        "en": "Cichorda",
+        "fr": "Musigale",
+        "it": "Nidoran♂",
+        "de": "Nidoran♂",
+        "es": "Nidoran♂",
+        "ko": "니드런♂"
+      },
+      "abilities_data": [
+        {
+          "symbol": "soundproof",
+          "textId": 43,
+          "names": {
+            "en": "Soundproof",
+            "fr": "Anti-Bruit",
+            "it": "Antisuono",
+            "de": "Lärmschutz",
+            "es": "Insonorizar",
+            "ko": "방음"
+          },
+          "descriptions": {
+            "en": "Soundproofing gives the Pokémon full immunity to all sound-based moves.",
+            "fr": "Protège le Pokémon de toutes les capacités sonores.",
+            "it": "Il Pokémon è dotato di una sorta di isolamento acustico che lo rende immune alle mosse basate sul suono.",
+            "de": "Bietet durch Schalldämmung volle Immunität gegen alle Lärm-Attacken.",
+            "es": "Su aislamiento acústico lo protege de movimientos que usan sonido.",
+            "ko": "소리를 차단하는 것으로 소리 공격을 받지 않는다."
+          }
+        },
+        {
+          "symbol": "own_tempo",
+          "textId": 20,
+          "names": {
+            "en": "Own Tempo",
+            "fr": "Tempo Perso",
+            "it": "Mente Locale",
+            "de": "Tempomacher",
+            "es": "Ritmo Propio",
+            "ko": "마이페이스"
+          },
+          "descriptions": {
+            "en": "This Pokémon has its own tempo, and that prevents it from becoming confused.",
+            "fr": "Le Pokémon vit sa vie à son propre rythme, ce qui l’immunise contre la confusion.",
+            "it": "Il Pokémon affronta la vita al proprio ritmo e per questo non può essere confuso.",
+            "de": "Das Pokémon lässt sich nicht aus der Ruhe bringen und verhindert so Verwirrung.",
+            "es": "Como le gusta hacer las cosas a su manera, los rivales no logran confundirlo.",
+            "ko": "마이페이스라서 혼란 상태가 되지 않는다."
+          }
+        },
+        {
+          "symbol": "synchronize",
+          "textId": 28,
+          "names": {
+            "en": "Synchronize",
+            "fr": "Synchro",
+            "it": "Sincronismo",
+            "de": "Synchro",
+            "es": "Sincronía",
+            "ko": "싱크로"
+          },
+          "descriptions": {
+            "en": "The attacker will receive the same status condition if it inflicts a burn, poison, or paralysis to the Pokémon.",
+            "fr": "Quand le Pokémon est brûlé, paralysé ou empoisonné par un autre Pokémon, il partage ce statut avec celui-ci.",
+            "it": "Se un nemico avvelena, paralizza o scotta un Pokémon con questa abilità, viene colpito dallo stesso problema di stato.",
+            "de": "Erleidet das Pokémon Verbrennungen, Vergiftungen oder Paralyse, ereilt das jeweilige Statusproblem auch den Verursacher.",
+            "es": "Contagia el envenenamiento, las quemaduras o la parálisis al Pokémon que le cause ese estado.",
+            "ko": "자신이 걸린 독이나 마비, 화상을 상대에게 옮긴다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "sing",
+          "id": 47,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sing",
+            "fr": "Berceuse",
+            "it": "Canto",
+            "de": "Gesang",
+            "es": "Canto",
+            "ko": "노래하기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 55
+        },
+        {
+          "symbol": "struggle_bug",
+          "id": 522,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Struggle Bug",
+            "fr": "Survinsecte",
+            "it": "Entomoblocco",
+            "de": "Käfertrutz",
+            "es": "Estoicismo",
+            "ko": "벌레의저항"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "echoed_voice",
+          "id": 497,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Echoed Voice",
+            "fr": "Écho",
+            "it": "Echeggiavoce",
+            "de": "Widerhall",
+            "es": "Eco Voz",
+            "ko": "에코보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "disarming_voice",
+          "id": 574,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Disarming Voice",
+            "fr": "Voix Enjôleuse",
+            "it": "Incantavoce",
+            "de": "Säuselstimme",
+            "es": "Voz Cautivadora",
+            "ko": "차밍보이스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 0
+        },
+        {
+          "symbol": "infestation",
+          "id": 611,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Infestation",
+            "fr": "Harcèlement",
+            "it": "Assillo",
+            "de": "Plage",
+            "es": "Acoso",
+            "ko": "엉겨붙기"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 20,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "round",
+          "id": 496,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Round",
+            "fr": "Chant Canon",
+            "it": "Coro",
+            "de": "Kanon",
+            "es": "Canon",
+            "ko": "돌림노래"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bug_buzz",
+          "id": 405,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Bug Buzz",
+            "fr": "Bourdon",
+            "it": "Ronzio",
+            "de": "Käfergebrumm",
+            "es": "Zumbido",
+            "ko": "벌레의야단법석"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "uproar",
+          "id": 253,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Uproar",
+            "fr": "Brouhaha",
+            "it": "Baraonda",
+            "de": "Aufruhr",
+            "es": "Alboroto",
+            "ko": "소란피기"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "reflect",
+          "id": 115,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Reflect",
+            "fr": "Protection",
+            "it": "Riflesso",
+            "de": "Reflektor",
+            "es": "Reflejo",
+            "ko": "리플렉터"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "perish_song",
+          "id": 195,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Perish Song",
+            "fr": "Requiem",
+            "it": "Ultimocanto",
+            "de": "Abgesang",
+            "es": "Canto Mortal",
+            "ko": "멸망의노래"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}

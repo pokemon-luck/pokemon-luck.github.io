@@ -12,12 +12,21 @@ export class PokemonDataProcessor {
         
         return {
             form,
+            name: this.processName(form),
             stats: await this.processStats(form),
             abilities: this.processAbilities(form),
             moves: await this.processMoves(form),
-            evolutions: this.processEvolutions(form),
+            evolutions: await this.processEvolutions(form),
             types: this.processTypes(form)
         };
+    }
+
+    processName(form) {
+        const langIndex = this.languageManager.getLangIndex();
+        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+        const lang = languages[langIndex] || 'en';
+
+        return form['names'][lang];
     }
 
     async processStats(form) {
@@ -147,11 +156,26 @@ export class PokemonDataProcessor {
         return `resources/icons/types/${imageMap[category] || 'placeholder.png'}`;
     }
 
-    processEvolutions(form) {
-        return form.evolutions.map(evo => ({
-            dbSymbol: evo.dbSymbol,
-            level: evo.conditions[0]?.value || 'Unknown'
-        }));
+    async processEvolutions(form) {
+        const langIndex = this.languageManager.getLangIndex();
+        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+        const lang = languages[langIndex] || 'en';
+
+        let evolutions = [];
+        for (let index = 0; index < form.evolutions.length; index++) {
+            const evo = form.evolutions[index];
+
+            const response = await fetch(`./data/pokemon_consolidated/${evo.dbSymbol}.json`);
+            const data = await response.json();
+
+            console.log(evo.conditions);
+            evolutions[index] = {
+                dbSymbol: evo.dbSymbol,
+                name: data.forms[0].names[lang],
+                conditions: evo.conditions
+            }
+        }
+        return evolutions;
     }
 
     processTypes(form) {

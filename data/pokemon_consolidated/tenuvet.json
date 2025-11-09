@@ -1,0 +1,489 @@
+{
+  "klass": "Specie",
+  "id": 56,
+  "dbSymbol": "tenuvet",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 200,
+        "description": 0
+      },
+      "height": 0.56,
+      "weight": 8.2,
+      "type1": "normal",
+      "type2": "__undef__",
+      "baseHp": 80,
+      "baseAtk": 40,
+      "baseDfe": 40,
+      "baseSpd": 30,
+      "baseAts": 40,
+      "baseDfs": 40,
+      "evHp": 1,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "simiastoc",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            },
+            {
+              "type": "func",
+              "value": "elv_simiastoc"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "glacinge",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            },
+            {
+              "type": "func",
+              "value": "elv_glacinge"
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 60,
+      "baseLoyalty": 70,
+      "catchRate": 200,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        1
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "tenuvet",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "oblivious",
+        "gluttony",
+        "anger_point"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "56_i",
+        "iconShiny": "56_i_s",
+        "front": "56",
+        "frontShiny": "56_s",
+        "back": "56_b",
+        "backShiny": "56_b_s",
+        "footprint": "",
+        "character": "56_c",
+        "characterShiny": "56_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charm",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ice_fang",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "amnesia",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "facade",
+          "level": 44
+        }
+      ],
+      "names": {
+        "en": "Puffuzz",
+        "fr": "Ténuvet",
+        "it": "Mankey",
+        "de": "Menki",
+        "es": "Mankey",
+        "ko": "망키"
+      },
+      "abilities_data": [
+        {
+          "symbol": "oblivious",
+          "textId": 12,
+          "names": {
+            "en": "Oblivious",
+            "fr": "Benêt",
+            "it": "Indifferenza",
+            "de": "Dösigkeit",
+            "es": "Despiste",
+            "ko": "둔감"
+          },
+          "descriptions": {
+            "en": "The Pokémon is oblivious, and that keeps it from being infatuated or falling for taunts.",
+            "fr": "Le Pokémon est un grand benêt, ce qui l’immunise contre l’attraction ou la provocation.",
+            "it": "L’imperturbabilità del Pokémon lo protegge da infatuazioni e provocazioni.",
+            "de": "Das Pokémon ist so apathisch, dass es nicht betört oder provoziert werden kann.",
+            "es": "Su indiferencia evita que sea provocado o caiga presa del enamoramiento.",
+            "ko": "둔감해서 헤롱헤롱이나 도발 상태가 되지 않는다."
+          }
+        },
+        {
+          "symbol": "gluttony",
+          "textId": 82,
+          "names": {
+            "en": "Gluttony",
+            "fr": "Gloutonnerie",
+            "it": "Voracità",
+            "de": "Völlerei",
+            "es": "Gula",
+            "ko": "먹보"
+          },
+          "descriptions": {
+            "en": "Makes the Pokémon eat a held Berry when its HP drops to half or less, which is sooner than usual.",
+            "fr": "Si le Pokémon tient une Baie à manger en cas de PV bas, il la mange dès qu’il a perdu la moitié de ses PV.",
+            "it": "Il Pokémon non attende di aver perso molti PS per mangiare certe bacche, ma lo fa non appena i suoi PS scendono a metà o meno.",
+            "de": "Setzt bestimmte Beeren nicht erst in einer Notlage ein, sondern bereits dann, wenn seine KP auf die Hälfte des Maximalwerts fallen.",
+            "es": "Cuando sus PS se ven reducidos a la mitad, engulle la baya que normalmente solo se comería cuando le quedasen pocos PS.",
+            "ko": "HP가 줄어들면 먹을 나무열매를 HP가 절반일 때 먹어버린다."
+          }
+        },
+        {
+          "symbol": "anger_point",
+          "textId": 83,
+          "names": {
+            "en": "Anger Point",
+            "fr": "Colérique",
+            "it": "Grancollera",
+            "de": "Kurzschluss",
+            "es": "Irascible",
+            "ko": "분노의경혈"
+          },
+          "descriptions": {
+            "en": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "fr": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "it": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo.",
+            "de": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert.",
+            "es": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "ko": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "growl",
+          "id": 45,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Growl",
+            "fr": "Rugissement",
+            "it": "Ruggito",
+            "de": "Heuler",
+            "es": "Gruñido",
+            "ko": "울음소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "facade",
+          "id": 263,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Facade",
+            "fr": "Façade",
+            "it": "Facciata",
+            "de": "Fassade",
+            "es": "Imagen",
+            "ko": "객기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

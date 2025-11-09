@@ -1,0 +1,519 @@
+{
+  "klass": "Specie",
+  "id": 162,
+  "dbSymbol": "doudouflage",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 65,
+        "description": 0
+      },
+      "height": 0.51,
+      "weight": 4.8,
+      "type1": "psychic",
+      "type2": "dark",
+      "baseHp": 20,
+      "baseAtk": 40,
+      "baseDfe": 35,
+      "baseSpd": 35,
+      "baseAts": 40,
+      "baseDfs": 35,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "deguimal",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 15
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 60,
+      "baseLoyalty": 70,
+      "catchRate": 200,
+      "femaleRate": 50,
+      "breedGroups": [
+        6,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "doudouflage",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "shadow_tag",
+        "infiltrator",
+        "illusion"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "162_i",
+        "iconShiny": "162_i_s",
+        "front": "162",
+        "frontShiny": "162_s",
+        "back": "162_b",
+        "backShiny": "162_b_s",
+        "footprint": "",
+        "character": "162_c",
+        "characterShiny": "162_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "feint_attack",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "disable",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pursuit",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "torment",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hypnosis",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "role_play",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 56
+        }
+      ],
+      "names": {
+        "en": "Plushade",
+        "fr": "Doudouflage",
+        "it": "Furret",
+        "de": "Wiesenior",
+        "es": "Furret",
+        "ko": "다꼬리"
+      },
+      "abilities_data": [
+        {
+          "symbol": "shadow_tag",
+          "textId": 23,
+          "names": {
+            "en": "Shadow Tag",
+            "fr": "Marque Ombre",
+            "it": "Pedinombra",
+            "de": "Wegsperre",
+            "es": "Sombra Trampa",
+            "ko": "그림자밟기"
+          },
+          "descriptions": {
+            "en": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "fr": "Empêche les Pokémon ennemis de quitter le combat.",
+            "it": "Il Pokémon calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+            "de": "Hindert Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihnen den Weg versperrt.",
+            "es": "Impide que el enemigo huya o sea cambiado por otro.",
+            "ko": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다."
+          }
+        },
+        {
+          "symbol": "infiltrator",
+          "textId": 151,
+          "names": {
+            "en": "Infiltrator",
+            "fr": "Infiltration",
+            "it": "Intrapasso",
+            "de": "Schwebedurch",
+            "es": "Allanamiento",
+            "ko": "틈새포착"
+          },
+          "descriptions": {
+            "en": "Passes through the opposing Pokémon’s barrier, substitute, and the like and strikes.",
+            "fr": "Traverse les barrières et les clones de l’ennemi pour attaquer directement.",
+            "it": "Il Pokémon attacca evitando le barriere e il sostituto del nemico.",
+            "de": "Überwindet gegnerische Schilde sowie Delegatoren und greift an.",
+            "es": "Ataca sorteando la barrera o el sustituto del rival.",
+            "ko": "상대의 벽이나 대타출동을 뚫고 공격할 수 있다."
+          }
+        },
+        {
+          "symbol": "illusion",
+          "textId": 149,
+          "names": {
+            "en": "Illusion",
+            "fr": "Illusion",
+            "it": "Illusione",
+            "de": "Trugbild",
+            "es": "Ilusión",
+            "ko": "일루전"
+          },
+          "descriptions": {
+            "en": "Comes out disguised as the Pokémon in the party’s last spot.",
+            "fr": "Le Pokémon prend l’apparence du dernier membre de l’équipe pour tromper l’adversaire.",
+            "it": "Il Pokémon inganna il nemico entrando in campo con le sembianze dell’ultimo Pokémon della propria squadra.",
+            "de": "Führt den Gegner hinters Licht, indem es bei Kampfantritt die Gestalt des Pokémon an der letzten Stelle im Team annimmt.",
+            "es": "Adopta el aspecto del último Pokémon del equipo al entrar en combate para desconcertar al rival.",
+            "ko": "지닌 포켓몬 중 제일 뒤에 있는 포켓몬으로 둔갑하여 나와서 상대를 속인다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "feint_attack",
+          "id": 185,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Feint Attack",
+            "fr": "Feinte",
+            "it": "Finta",
+            "de": "Finte",
+            "es": "Finta",
+            "ko": "속여때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "disable",
+          "id": 50,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Disable",
+            "fr": "Entrave",
+            "it": "Inibitore",
+            "de": "Aussetzer",
+            "es": "Anulación",
+            "ko": "사슬묶기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pursuit",
+          "id": 228,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Pursuit",
+            "fr": "Poursuite",
+            "it": "Inseguimento",
+            "de": "Verfolgung",
+            "es": "Persecución",
+            "ko": "따라가때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "torment",
+          "id": 259,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Torment",
+            "fr": "Tourmente",
+            "it": "Attaccalite",
+            "de": "Folterknecht",
+            "es": "Tormento",
+            "ko": "트집"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
+        },
+        {
+          "symbol": "night_slash",
+          "id": 400,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Night Slash",
+            "fr": "Tranche-Nuit",
+            "it": "Nottesferza",
+            "de": "Nachthieb",
+            "es": "Tajo Umbrío",
+            "ko": "깜짝베기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "extrasensory",
+          "id": 326,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Extrasensory",
+            "fr": "Extrasenseur",
+            "it": "Extrasenso",
+            "de": "Sondersensor",
+            "es": "Paranormal",
+            "ko": "신통력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "role_play",
+          "id": 272,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Role Play",
+            "fr": "Imitation",
+            "it": "Giocodiruolo",
+            "de": "Rollenspiel",
+            "es": "Imitación",
+            "ko": "역할"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "future_sight",
+          "id": 248,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

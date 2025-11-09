@@ -1,0 +1,591 @@
+{
+  "klass": "Specie",
+  "id": 189,
+  "dbSymbol": "martifou",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 119,
+        "description": 0
+      },
+      "height": 0.51,
+      "weight": 7.6,
+      "type1": "psychic",
+      "type2": "fighting",
+      "baseHp": 25,
+      "baseAtk": 50,
+      "baseDfe": 40,
+      "baseSpd": 20,
+      "baseAts": 30,
+      "baseDfs": 60,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "domarti",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "func",
+              "value": "elv_martifou"
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 55,
+      "baseLoyalty": 70,
+      "catchRate": 190,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "martifou",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "contrary",
+        "stamina",
+        "stunning_lash"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "189_i",
+        "iconShiny": "189_i_s",
+        "front": "189",
+        "frontShiny": "189_s",
+        "back": "189_b",
+        "backShiny": "189_b_s",
+        "footprint": "",
+        "character": "189_c",
+        "characterShiny": "189_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wrap",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "low_kick",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "meditate",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psywave",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "force_palm",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tail_slap",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psycho_cut",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aura_sphere",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "whip_lash",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "drain_punch",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_whip",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 65
+        }
+      ],
+      "names": {
+        "en": "Whiptiz",
+        "fr": "Martifou",
+        "it": "Jumpluff",
+        "de": "Papungha",
+        "es": "Jumpluff",
+        "ko": "솜솜코"
+      },
+      "abilities_data": [
+        {
+          "symbol": "contrary",
+          "textId": 126,
+          "names": {
+            "en": "Contrary",
+            "fr": "Contestation",
+            "it": "Inversione",
+            "de": "Umkehrung",
+            "es": "Respondón",
+            "ko": "심술꾸러기"
+          },
+          "descriptions": {
+            "en": "Makes stat changes have an opposite effect.",
+            "fr": "Inverse les changements de stats : les augmentations de stats se transforment en baisses, et vice-versa.",
+            "it": "Le modifiche alle statistiche hanno effetto inverso: le statistiche aumentano quando dovrebbero diminuire e viceversa.",
+            "de": "Statusveränderungen werden umgekehrt: Statuswerte, die eigentlich erhöht werden sollten, sinken und umgekehrt.",
+            "es": "Invierte los cambios en las características: bajan cuando les toca subir y suben cuando les toca bajar.",
+            "ko": "능력의 변화가 역전해서 올라갈 때 떨어지고 떨어질 때 올라간다."
+          }
+        },
+        {
+          "symbol": "stamina",
+          "textId": 192,
+          "names": {
+            "en": "Stamina",
+            "fr": "Endurance",
+            "it": "Sopportazione",
+            "de": "Zähigkeit",
+            "es": "Firmeza",
+            "ko": "지구력"
+          },
+          "descriptions": {
+            "en": "Boosts the Defense stat when hit by an attack.",
+            "fr": "Augmente la Défense du Pokémon lorsqu’il subit une attaque.",
+            "it": "Se il Pokémon subisce un attacco, la sua Difesa aumenta.",
+            "de": "Wird es von einer Attacke getroffen, steigt seine Verteidigung.",
+            "es": "Aumenta su Defensa al recibir un ataque.",
+            "ko": "공격을 받으면 방어가 올라간다."
+          }
+        },
+        {
+          "symbol": "stunning_lash",
+          "textId": 280,
+          "names": {
+            "en": "Stunning Lash",
+            "fr": "Fouet Étourdissant",
+            "it": "Fouet Étourdissant",
+            "de": "Fouet Étourdissant",
+            "es": "Fouet Étourdissant",
+            "ko": "Fouet Étourdissant"
+          },
+          "descriptions": {
+            "en": "Every whip and tail move has a 20% chance of confusing the target.",
+            "fr": "Chaque attaque de fouet et de queue a 20 % de chances de rendre la cible confuse.",
+            "it": "Chaque attaque de fouet et de queue a 20 % de chances de rendre la cible confuse.",
+            "de": "Chaque attaque de fouet et de queue a 20 % de chances de rendre la cible confuse.",
+            "es": "Chaque attaque de fouet et de queue a 20 % de chances de rendre la cible confuse.",
+            "ko": "Chaque attaque de fouet et de queue a 20 % de chances de rendre la cible confuse."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "wrap",
+          "id": 35,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Wrap",
+            "fr": "Ligotage",
+            "it": "Avvolgibotta",
+            "de": "Wickel",
+            "es": "Constricción",
+            "ko": "김밥말이"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 15,
+          "accuracy": 90
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "vine_whip",
+          "id": 22,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "symbol": "low_kick",
+          "id": 67,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Low Kick",
+            "fr": "Balayage",
+            "it": "Colpo Basso",
+            "de": "Fußkick",
+            "es": "Patada Baja",
+            "ko": "안다리걸기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "meditate",
+          "id": 96,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Meditate",
+            "fr": "Yoga",
+            "it": "Meditazione",
+            "de": "Meditation",
+            "es": "Meditación",
+            "ko": "요가포즈"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psywave",
+          "id": 149,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Psywave",
+            "fr": "Vague Psy",
+            "it": "Psiconda",
+            "de": "Psywelle",
+            "es": "Psicoonda",
+            "ko": "사이코웨이브"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "force_palm",
+          "id": 395,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Force Palm",
+            "fr": "Forte-Paume",
+            "it": "Palmoforza",
+            "de": "Kraftwelle",
+            "es": "Palmeo",
+            "ko": "발경"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "tail_slap",
+          "id": 541,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Tail Slap",
+            "fr": "Plumo-Queue",
+            "it": "Spazzasberla",
+            "de": "Kehrschelle",
+            "es": "Plumerazo",
+            "ko": "스위프뺨치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 25,
+          "accuracy": 85
+        },
+        {
+          "symbol": "psycho_cut",
+          "id": 427,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Psycho Cut",
+            "fr": "Coupe Psycho",
+            "it": "Psicotaglio",
+            "de": "Psychoklinge",
+            "es": "Psicocorte",
+            "ko": "사이코커터"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "whip_lash",
+          "id": 726,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Whip Lash",
+            "fr": "Claque-Fouet",
+            "it": "Whip Lash",
+            "de": "Whip Lash",
+            "es": "Whip Lash",
+            "ko": "Whip Lash"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "drain_punch",
+          "id": 409,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Drain Punch",
+            "fr": "Vampi-Poing",
+            "it": "Assorbipugno",
+            "de": "Ableithieb",
+            "es": "Puño Drenaje",
+            "ko": "드레인펀치"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "future_sight",
+          "id": 248,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_whip",
+          "id": 438,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Power Whip",
+            "fr": "Mégafouet",
+            "it": "Vigorcolpo",
+            "de": "Blattgeißel",
+            "es": "Latigazo",
+            "ko": "파워휩"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 85
+        },
+        {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

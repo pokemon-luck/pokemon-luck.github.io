@@ -1,0 +1,647 @@
+{
+  "klass": "Specie",
+  "id": 142,
+  "dbSymbol": "lutinstable",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 114,
+        "description": 0
+      },
+      "height": 0.68,
+      "weight": 18.9,
+      "type1": "normal",
+      "type2": "__undef__",
+      "baseHp": 40,
+      "baseAtk": 50,
+      "baseDfe": 35,
+      "baseSpd": 45,
+      "baseAts": 40,
+      "baseDfs": 35,
+      "evHp": 0,
+      "evAtk": 1,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "diablene",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "insect_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablodon",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "draco_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablinja",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "fist_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablerien",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "sky_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diabloplasme",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "spooky_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablara",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "earth_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablafard",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "toxic_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablazuli",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "stone_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "diablinde",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "iron_plate"
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 60,
+      "baseLoyalty": 70,
+      "catchRate": 110,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        5
+      ],
+      "hatchSteps": 8960,
+      "babyDbSymbol": "lutinstable",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "prankster",
+        "infiltrator",
+        "pickpocket"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "142_2_i",
+        "iconShiny": "142_2_i_s",
+        "front": "142_2",
+        "frontShiny": "142_2_s",
+        "back": "142_2_b",
+        "backShiny": "142_2_b_s",
+        "footprint": "",
+        "character": "142_c",
+        "characterShiny": "142_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "feint_attack",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "echoed_voice",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "work_up",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "headbutt",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sucker_punch",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "encore",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "last_resort",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 58
+        }
+      ],
+      "names": {
+        "en": "Impoly",
+        "fr": "Lutinstable",
+        "it": "Aerodactyl",
+        "de": "Aerodactyl",
+        "es": "Aerodactyl",
+        "ko": "프테라"
+      },
+      "abilities_data": [
+        {
+          "symbol": "prankster",
+          "textId": 158,
+          "names": {
+            "en": "Prankster",
+            "fr": "Farceur",
+            "it": "Burla",
+            "de": "Strolch",
+            "es": "Bromista",
+            "ko": "짓궂은마음"
+          },
+          "descriptions": {
+            "en": "Gives priority to a status move.",
+            "fr": "Rend les capacités de statut prioritaires.",
+            "it": "Le mosse di stato del Pokémon acquistano priorità alta.",
+            "de": "Ermöglicht einen Erstschlag mit Status-Attacken.",
+            "es": "Sus movimientos de estado tienen prioridad alta.",
+            "ko": "변화 기술을 먼저 쓸 수 있다."
+          }
+        },
+        {
+          "symbol": "infiltrator",
+          "textId": 151,
+          "names": {
+            "en": "Infiltrator",
+            "fr": "Infiltration",
+            "it": "Intrapasso",
+            "de": "Schwebedurch",
+            "es": "Allanamiento",
+            "ko": "틈새포착"
+          },
+          "descriptions": {
+            "en": "Passes through the opposing Pokémon’s barrier, substitute, and the like and strikes.",
+            "fr": "Traverse les barrières et les clones de l’ennemi pour attaquer directement.",
+            "it": "Il Pokémon attacca evitando le barriere e il sostituto del nemico.",
+            "de": "Überwindet gegnerische Schilde sowie Delegatoren und greift an.",
+            "es": "Ataca sorteando la barrera o el sustituto del rival.",
+            "ko": "상대의 벽이나 대타출동을 뚫고 공격할 수 있다."
+          }
+        },
+        {
+          "symbol": "pickpocket",
+          "textId": 124,
+          "names": {
+            "en": "Pickpocket",
+            "fr": "Pickpocket",
+            "it": "Arraffalesto",
+            "de": "Langfinger",
+            "es": "Hurto",
+            "ko": "나쁜손버릇"
+          },
+          "descriptions": {
+            "en": "Steals an item from an attacker that made direct contact.",
+            "fr": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "de": "Stiehlt das Item des Angreifers bei Berührung.",
+            "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "ko": "접촉한 상대의 도구를 훔친다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fury_swipes",
+          "id": 154,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "feint_attack",
+          "id": 185,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Feint Attack",
+            "fr": "Feinte",
+            "it": "Finta",
+            "de": "Finte",
+            "es": "Finta",
+            "ko": "속여때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "echoed_voice",
+          "id": 497,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Echoed Voice",
+            "fr": "Écho",
+            "it": "Echeggiavoce",
+            "de": "Widerhall",
+            "es": "Eco Voz",
+            "ko": "에코보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "work_up",
+          "id": 526,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Work Up",
+            "fr": "Rengorgement",
+            "it": "Cuordileone",
+            "de": "Kraftschub",
+            "es": "Avivar",
+            "ko": "분발"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "headbutt",
+          "id": 29,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Headbutt",
+            "fr": "Coup d’Boule",
+            "it": "Bottintesta",
+            "de": "Kopfnuss",
+            "es": "Golpe Cabeza",
+            "ko": "박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "double_edge",
+          "id": 38,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Double-Edge",
+            "fr": "Damoclès",
+            "it": "Sdoppiatore",
+            "de": "Risikotackle",
+            "es": "Doble Filo",
+            "ko": "이판사판태클"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sucker_punch",
+          "id": 389,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "encore",
+          "id": 227,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "last_resort",
+          "id": 387,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Last Resort",
+            "fr": "Dernier Recours",
+            "it": "Ultimascelta",
+            "de": "Zuflucht",
+            "es": "Última Baza",
+            "ko": "뒀다쓰기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 5,
+          "power": 140,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

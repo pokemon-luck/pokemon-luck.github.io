@@ -1,0 +1,652 @@
+{
+  "klass": "Specie",
+  "id": 156,
+  "dbSymbol": "vipereine",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 215,
+        "description": 0
+      },
+      "height": 1.62,
+      "weight": 67.5,
+      "type1": "fairy",
+      "type2": "electric",
+      "baseHp": 110,
+      "baseAtk": 65,
+      "baseDfe": 90,
+      "baseSpd": 85,
+      "baseAts": 140,
+      "baseDfs": 85,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 3,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 230,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        6,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "boadorable",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "cute_charm",
+        "serene_grace"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "156_i",
+        "iconShiny": "156_i_s",
+        "front": "156",
+        "frontShiny": "156_s",
+        "back": "156_b",
+        "backShiny": "156_b_s",
+        "footprint": "",
+        "character": "156_c",
+        "characterShiny": "156_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sweet_kiss",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 2
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glare",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "electro_ball",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nuzzle",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "discharge",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "parabolic_charge",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "misty_terrain",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "foul_play",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 80
+        }
+      ],
+      "names": {
+        "en": "Cabareptile",
+        "fr": "Vipèreine",
+        "it": "Quilava",
+        "de": "Igelavar",
+        "es": "Quilava",
+        "ko": "마그케인"
+      },
+      "abilities_data": [
+        {
+          "symbol": "static",
+          "textId": 9,
+          "names": {
+            "en": "Static",
+            "fr": "Statik",
+            "it": "Statico",
+            "de": "Statik",
+            "es": "Elec. Estática",
+            "ko": "정전기"
+          },
+          "descriptions": {
+            "en": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "fr": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "it": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi.",
+            "de": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren.",
+            "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "ko": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다."
+          }
+        },
+        {
+          "symbol": "cute_charm",
+          "textId": 56,
+          "names": {
+            "en": "Cute Charm",
+            "fr": "Joli Sourire",
+            "it": "Incantevole",
+            "de": "Charmebolzen",
+            "es": "Gran Encanto",
+            "ko": "헤롱헤롱바디"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon may cause infatuation.",
+            "fr": "Peut séduire l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può causare infatuazione a chi manda a segno un attacco diretto.",
+            "de": "Wird dieses Pokémon durch eine direkte Attacke angegriffen, verliebt sich der Gegner eventuell in es.",
+            "es": "Puede causar enamoramiento al rival que lo toque.",
+            "ko": "자신과 접촉한 상대를 헤롱헤롱 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "serene_grace",
+          "textId": 32,
+          "names": {
+            "en": "Serene Grace",
+            "fr": "Sérénité",
+            "it": "Leggiadro",
+            "de": "Edelmut",
+            "es": "Dicha",
+            "ko": "하늘의은총"
+          },
+          "descriptions": {
+            "en": "Boosts the likelihood of additional effects occurring when attacking.",
+            "fr": "Augmente les chances d’infliger des effets additionnels.",
+            "it": "Rende più probabili gli effetti aggiuntivi delle mosse.",
+            "de": "Erhöht die Wahrscheinlichkeit, dass Zusatzeffekte von Attacken auftreten.",
+            "es": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
+            "ko": "하늘의 은총 덕분에 기술의 추가 효과가 나오기 쉽다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "thunder_shock",
+          "id": 84,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sweet_kiss",
+          "id": 186,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sweet Kiss",
+            "fr": "Doux Baiser",
+            "it": "Dolcebacio",
+            "de": "Bitterkuss",
+            "es": "Beso Dulce",
+            "ko": "천사의키스"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "thunder_wave",
+          "id": 86,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 2,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glare",
+          "id": 137,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Glare",
+            "fr": "Regard Médusant",
+            "it": "Sguardo Feroce",
+            "de": "Schlangenblick",
+            "es": "Deslumbrar",
+            "ko": "뱀눈초리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spark",
+          "id": 209,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Spark",
+            "fr": "Étincelle",
+            "it": "Scintilla",
+            "de": "Funkensprung",
+            "es": "Chispa",
+            "ko": "스파크"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "electro_ball",
+          "id": 486,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Electro Ball",
+            "fr": "Boule Élek",
+            "it": "Energisfera",
+            "de": "Elektroball",
+            "es": "Bola Voltio",
+            "ko": "일렉트릭볼"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "nuzzle",
+          "id": 609,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Nuzzle",
+            "fr": "Frotte-Frimousse",
+            "it": "Elettrococcola",
+            "de": "Wangenrubbler",
+            "es": "Moflete Estático",
+            "ko": "볼부비부비"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "discharge",
+          "id": 435,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Discharge",
+            "fr": "Coup d’Jus",
+            "it": "Scarica",
+            "de": "Ladungsstoß",
+            "es": "Chispazo",
+            "ko": "방전"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "parabolic_charge",
+          "id": 570,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Parabolic Charge",
+            "fr": "Parabocharge",
+            "it": "Caricaparabola",
+            "de": "Parabolladung",
+            "es": "Carga Parábola",
+            "ko": "파라볼라차지"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_gem",
+          "id": 408,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "misty_terrain",
+          "id": 581,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Misty Terrain",
+            "fr": "Champ Brumeux",
+            "it": "Campo Nebbioso",
+            "de": "Nebelfeld",
+            "es": "Campo de Niebla",
+            "ko": "미스트필드"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "thunder",
+          "id": 87,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Thunder",
+            "fr": "Fatal-Foudre",
+            "it": "Tuono",
+            "de": "Donner",
+            "es": "Trueno",
+            "ko": "번개"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "foul_play",
+          "id": 492,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Foul Play",
+            "fr": "Tricherie",
+            "it": "Ripicca",
+            "de": "Schmarotzer",
+            "es": "Juego Sucio",
+            "ko": "속임수"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "zap_cannon",
+          "id": 192,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Zap Cannon",
+            "fr": "Élecanon",
+            "it": "Falcecannone",
+            "de": "Blitzkanone",
+            "es": "Electrocañón",
+            "ko": "전자포"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 50
+        }
+      ]
+    }
+  ]
+}

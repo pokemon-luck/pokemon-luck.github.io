@@ -1,0 +1,567 @@
+{
+  "klass": "Specie",
+  "id": 98,
+  "dbSymbol": "minael",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 125,
+        "description": 0
+      },
+      "height": 0.48,
+      "weight": 3.9,
+      "type1": "psychic",
+      "type2": "__undef__",
+      "baseHp": 40,
+      "baseAtk": 40,
+      "baseDfe": 80,
+      "baseSpd": 15,
+      "baseAts": 50,
+      "baseDfs": 80,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "archael",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "stone",
+              "value": "dawn_stone"
+            }
+          ]
+        }
+      ],
+      "experienceType": 0,
+      "baseExperience": 60,
+      "baseLoyalty": 70,
+      "catchRate": 200,
+      "femaleRate": 50,
+      "breedGroups": [
+        6,
+        8
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "minael",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "serene_grace",
+        "healer",
+        "wonder_skin"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "98_i",
+        "iconShiny": "98_i_s",
+        "front": "98",
+        "frontShiny": "98_s",
+        "back": "98_b",
+        "backShiny": "98_b_s",
+        "footprint": "",
+        "character": "98_c",
+        "characterShiny": "98_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heal_pulse",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_slap",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "safeguard",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "body_slam",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gravity",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "recover",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "healing_wish",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "cosmic_power",
+          "level": 56
+        }
+      ],
+      "names": {
+        "en": "Minael",
+        "fr": "Minael",
+        "it": "Krabby",
+        "de": "Krabby",
+        "es": "Krabby",
+        "ko": "크랩"
+      },
+      "abilities_data": [
+        {
+          "symbol": "serene_grace",
+          "textId": 32,
+          "names": {
+            "en": "Serene Grace",
+            "fr": "Sérénité",
+            "it": "Leggiadro",
+            "de": "Edelmut",
+            "es": "Dicha",
+            "ko": "하늘의은총"
+          },
+          "descriptions": {
+            "en": "Boosts the likelihood of additional effects occurring when attacking.",
+            "fr": "Augmente les chances d’infliger des effets additionnels.",
+            "it": "Rende più probabili gli effetti aggiuntivi delle mosse.",
+            "de": "Erhöht die Wahrscheinlichkeit, dass Zusatzeffekte von Attacken auftreten.",
+            "es": "Aumenta la probabilidad de que los movimientos causen efectos secundarios.",
+            "ko": "하늘의 은총 덕분에 기술의 추가 효과가 나오기 쉽다."
+          }
+        },
+        {
+          "symbol": "healer",
+          "textId": 131,
+          "names": {
+            "en": "Healer",
+            "fr": "Cœur Soin",
+            "it": "Curacuore",
+            "de": "Heilherz",
+            "es": "Alma Cura",
+            "ko": "치유의마음"
+          },
+          "descriptions": {
+            "en": "Sometimes heals an ally’s status condition.",
+            "fr": "Soigne parfois une altération de statut d’un allié proche.",
+            "it": "A volte cura i problemi di stato degli alleati.",
+            "de": "Befreit Mitstreiter gelegentlich von Statusproblemen.",
+            "es": "A veces cura los problemas de estado de un aliado.",
+            "ko": "같은 편의 상태 이상을 가끔 회복시킨다."
+          }
+        },
+        {
+          "symbol": "wonder_skin",
+          "textId": 147,
+          "names": {
+            "en": "Wonder Skin",
+            "fr": "Peau Miracle",
+            "it": "Splendicute",
+            "de": "Wunderhaut",
+            "es": "Piel Milagro",
+            "ko": "미라클스킨"
+          },
+          "descriptions": {
+            "en": "Makes status moves more likely to miss.",
+            "fr": "Le Pokémon résiste mieux aux capacités de statut.",
+            "it": "Il Pokémon resiste più facilmente alle mosse di stato.",
+            "de": "Wehrt mit robustem Körper viele Status-Attacken ab.",
+            "es": "Presenta una mayor resistencia ante los movimientos de estado.",
+            "ko": "변화 기술을 받기 어려운 몸으로 되어 있다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "heal_pulse",
+          "id": 505,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Heal Pulse",
+            "fr": "Vibra Soin",
+            "it": "Ondasana",
+            "de": "Heilwoge",
+            "es": "Pulso Cura",
+            "ko": "치유파동"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_slap",
+          "id": 3,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Double Slap",
+            "fr": "Torgnoles",
+            "it": "Doppiasberla",
+            "de": "Duplexhieb",
+            "es": "Doble Bofetón",
+            "ko": "연속뺨치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 15,
+          "accuracy": 85
+        },
+        {
+          "symbol": "safeguard",
+          "id": 219,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Safeguard",
+            "fr": "Rune Protect",
+            "it": "Salvaguardia",
+            "de": "Bodyguard",
+            "es": "Velo Sagrado",
+            "ko": "신비의부적"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "reflect",
+          "id": 115,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Reflect",
+            "fr": "Protection",
+            "it": "Riflesso",
+            "de": "Reflektor",
+            "es": "Reflejo",
+            "ko": "리플렉터"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "body_slam",
+          "id": 34,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Body Slam",
+            "fr": "Plaquage",
+            "it": "Corposcontro",
+            "de": "Bodyslam",
+            "es": "Golpe Cuerpo",
+            "ko": "누르기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "gravity",
+          "id": 356,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Gravity",
+            "fr": "Gravité",
+            "it": "Gravità",
+            "de": "Erdanziehung",
+            "es": "Gravedad",
+            "ko": "중력"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "recover",
+          "id": 105,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Recover",
+            "fr": "Soin",
+            "it": "Ripresa",
+            "de": "Genesung",
+            "es": "Recuperación",
+            "ko": "HP회복"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "healing_wish",
+          "id": 361,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Healing Wish",
+            "fr": "Vœu Soin",
+            "it": "Curardore",
+            "de": "Heilopfer",
+            "es": "Deseo Cura",
+            "ko": "치유소원"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cosmic_power",
+          "id": 322,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Cosmic Power",
+            "fr": "Force Cosmique",
+            "it": "Cosmoforza",
+            "de": "Kosmik-Kraft",
+            "es": "Masa Cósmica",
+            "ko": "코스믹파워"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "klass": "Specie",
+  "id": 172,
+  "dbSymbol": "jeunyip",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 101,
+        "description": 0
+      },
+      "height": 0.38,
+      "weight": 4.2,
+      "type1": "water",
+      "type2": "ground",
+      "baseHp": 55,
+      "baseAtk": 55,
+      "baseDfe": 35,
+      "baseSpd": 25,
+      "baseAts": 30,
+      "baseDfs": 25,
+      "evHp": 1,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "monsterre",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 22
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 55,
+      "baseLoyalty": 70,
+      "catchRate": 225,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        1
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "jeunyip",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mud_dweller",
+        "sludge_stream",
+        "swamp_force"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "172_i",
+        "iconShiny": "172_i_s",
+        "front": "172",
+        "frontShiny": "172_s",
+        "back": "172_b",
+        "backShiny": "172_b_s",
+        "footprint": "",
+        "character": "172_c",
+        "characterShiny": "172_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_gun",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "yawn",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_jet",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_sport",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brine",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "amnesia",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_tail",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "muddy_water",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fissure",
+          "level": 57
+        }
+      ],
+      "names": {
+        "en": "Floatuft",
+        "fr": "Jeunyip",
+        "it": "Pichu",
+        "de": "Pichu",
+        "es": "Pichu",
+        "ko": "피츄"
+      },
+      "abilities_data": [
+        {
+          "symbol": "mud_dweller",
+          "textId": 272,
+          "names": {
+            "en": "Mud Dweller",
+            "fr": "Résident Vaseux",
+            "it": "Résident Vaseux",
+            "de": "Résident Vaseux",
+            "es": "Résident Vaseux",
+            "ko": "Résident Vaseux"
+          },
+          "descriptions": {
+            "en": "This Pokémon moves quickly in muddy conditions. Its speed increases with each Water or Ground-type move it endures.",
+            "fr": "Ce pokémon se déplace rapidement en conditions boueuses. Sa vitesse augmente pour chaque attaque de type eau ou sol encaissée.",
+            "it": "Le pokémon se déplace rapidement en conditions boueuses. Sa vitesse augmente pour chaque attaque de type eau ou sol encaissée.",
+            "de": "Le pokémon se déplace rapidement en conditions boueuses. Sa vitesse augmente pour chaque attaque de type eau ou sol encaissée.",
+            "es": "Le pokémon se déplace rapidement en conditions boueuses. Sa vitesse augmente pour chaque attaque de type eau ou sol encaissée.",
+            "ko": "Le pokémon se déplace rapidement en conditions boueuses. Sa vitesse augmente pour chaque attaque de type eau ou sol encaissée."
+          }
+        },
+        {
+          "symbol": "sludge_stream",
+          "textId": 274,
+          "names": {
+            "en": "Sludge Stream",
+            "fr": "Courant Boueux",
+            "it": "Courant Boueux",
+            "de": "Courant Boueux",
+            "es": "Courant Boueux",
+            "ko": "Courant Boueux"
+          },
+          "descriptions": {
+            "en": "When this Pokémon is hit by a physical move, it has a 20% chance to release a burst of sludge, lowering the attacker’s Speed by two stages.",
+            "fr": "Lorsque ce Pokémon est touché par une attaque physique, il a 20% de chances de libérer une décharge de boue réduisant la vitesse de l'attaquant de deux niveaux.",
+            "it": "",
+            "de": "",
+            "es": "",
+            "ko": ""
+          }
+        },
+        {
+          "symbol": "swamp_force",
+          "textId": 273,
+          "names": {
+            "en": "Swamp Force",
+            "fr": "Force des marais",
+            "it": "Force des marais",
+            "de": "Force des marais",
+            "es": "Force des marais",
+            "ko": "Force des marais"
+          },
+          "descriptions": {
+            "en": "Boosts the power of Water, Ground, and Poison-type moves by 30% when HP is below 50%.",
+            "fr": "Augmente la puissance des attaques de type Eau, Sol et Poison de 30% lorsque les PV sont inférieurs à 50%.",
+            "it": "Augmente la puissance des attaques de type Eau, Sol et Poison de 30% lorsque les PV sont inférieurs à 50%.",
+            "de": "Augmente la puissance des attaques de type Eau, Sol et Poison de 30% lorsque les PV sont inférieurs à 50%.",
+            "es": "Augmente la puissance des attaques de type Eau, Sol et Poison de 30% lorsque les PV sont inférieurs à 50%.",
+            "ko": "Augmente la puissance des attaques de type Eau, Sol et Poison de 30% lorsque les PV sont inférieurs à 50%."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_gun",
+          "id": 55,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "yawn",
+          "id": 281,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Yawn",
+            "fr": "Bâillement",
+            "it": "Sbadiglio",
+            "de": "Gähner",
+            "es": "Bostezo",
+            "ko": "하품"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_sport",
+          "id": 300,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Mud Sport",
+            "fr": "Lance-Boue",
+            "it": "Fangata",
+            "de": "Lehmsuhler",
+            "es": "Chapoteo Lodo",
+            "ko": "흙놀이"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "sludge",
+          "id": 124,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Sludge",
+            "fr": "Détritus",
+            "it": "Fango",
+            "de": "Schlammbad",
+            "es": "Residuos",
+            "ko": "오물공격"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Brine",
+            "fr": "Saumure",
+            "it": "Acquadisale",
+            "de": "Lake",
+            "es": "Salmuera",
+            "ko": "소금물"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aqua_tail",
+          "id": 401,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Aqua Tail",
+            "fr": "Hydro-Queue",
+            "it": "Idrondata",
+            "de": "Nassschweif",
+            "es": "Acua Cola",
+            "ko": "아쿠아테일"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "muddy_water",
+          "id": 330,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Muddy Water",
+            "fr": "Ocroupi",
+            "it": "Fanghiglia",
+            "de": "Lehmbrühe",
+            "es": "Agua Lodosa",
+            "ko": "탁류"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 85
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "fissure",
+          "id": 90,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Fissure",
+            "fr": "Abîme",
+            "it": "Abisso",
+            "de": "Geofissur",
+            "es": "Fisura",
+            "ko": "땅가르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 30
+        }
+      ]
+    }
+  ]
+}

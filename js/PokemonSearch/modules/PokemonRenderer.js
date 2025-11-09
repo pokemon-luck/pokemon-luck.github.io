@@ -8,10 +8,10 @@ export class PokemonRenderer {
     }
 
     async renderPokemon(processedData, pokemonName) {
-        const { form, stats, abilities, moves, evolutions, types } = processedData;
+        const { form, name, stats, abilities, moves, evolutions, types } = processedData;
         
         const sections = await Promise.all([
-            this.renderMainInfo(pokemonName, types),
+            this.renderMainInfo(pokemonName, name, types),
             this.renderStats(stats),
             this.renderDetails(form),
             this.renderEvolution(evolutions),
@@ -24,13 +24,13 @@ export class PokemonRenderer {
         return sections.join('');
     }
 
-    async renderMainInfo(pokemonName, types) {
+    async renderMainInfo(pokemonName, name, types) {
         const typesImages = this.renderTypeImages(types);
         
         return `
         <div class="grid-container-layer1">
             <div class="grid-item grid-item-large">
-                <h2>${this.capitalizeFirstLetter(pokemonName)}</h2>
+                <h2>${name}</h2>
                 <img src="data/pokefront/${pokemonName}.png" alt="${pokemonName}">
                 ${typesImages}
             </div>
@@ -75,18 +75,43 @@ export class PokemonRenderer {
     }
 
     async renderEvolution(evolutions) {
-        const evolutionsData = evolutions.length > 0 ? evolutions.map(evo => `
-            <a href="PokemonSearch.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
-               class="evolution-item" style="text-decoration: none; color: inherit; display: block; pointer-events: auto !important; position: relative; z-index: 999;">
-                <img src="data/pokefront/${evo.dbSymbol}.png" alt="${this.capitalizeFirstLetter(evo.dbSymbol)}">
-                <p>${this.capitalizeFirstLetter(evo.dbSymbol)} (level ${evo.level})</p>
-            </a>
-        `).join('') : 'None';
+        let evolutionsData = [];
+        for (let i = 0; i < evolutions.length; i++) {
+            const evo = evolutions[i];
+
+            let conditions = []
+            for (let j = 0; j < evo.conditions.length; j++) {
+                const cond = evo.conditions[j];
+                
+                conditions[j] = `<div style="font-size:11px;color:#8e99ab;">${await this.languageManager.getTranslation(cond.type)}: <span>${cond.value}</span></div>`;
+            }
+
+            evolutionsData[i] = `
+                <a href="PokemonSearch.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
+                class="evolution-item" style="text-decoration: none; color: inherit; display: block; pointer-events: auto !important; position: relative; z-index: 999; margin:0">
+                    <img src="data/pokefront/${evo.dbSymbol}.png" alt="${this.capitalizeFirstLetter(evo.dbSymbol)}">
+                    <p>${evo.name}</p>
+                    <div style="margin-top:10px;">
+                        ${conditions.join('')}
+                    </div>
+                </a>
+            `;
+        }
+
+        // const evolutionsData = evolutions.length > 0 ? evolutions.map(evo => `
+        //     <a href="PokemonSearch.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
+        //        class="evolution-item" style="text-decoration: none; color: inherit; display: block; pointer-events: auto !important; position: relative; z-index: 999;width:40%;margin:0">
+        //         <img src="data/pokefront/${evo.dbSymbol}.png" alt="${this.capitalizeFirstLetter(evo.dbSymbol)}">
+        //         <p>${evo.name} (level ${evo.level})</p>
+        //     </a>
+        // `).join('') : 'None';
 
         return `
-            <div class="grid-item">
+            <div class="grid-item" style="min-height:0px;height:auto">
                 <h2>${await this.languageManager.getTranslation('Evolution')}</h2>
-                ${evolutionsData}
+                <div class="grid-container-layer3" style="flex-wrap: wrap;">
+                    ${evolutionsData.join('')}
+                </div>
             </div>
         `;
     }

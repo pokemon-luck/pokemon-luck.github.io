@@ -1,0 +1,652 @@
+{
+  "klass": "Specie",
+  "id": 199,
+  "dbSymbol": "mythrefle",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 138,
+        "description": 0
+      },
+      "height": 1.2,
+      "weight": 35.2,
+      "type1": "ice",
+      "type2": "undead",
+      "baseHp": 100,
+      "baseAtk": 85,
+      "baseDfe": 115,
+      "baseSpd": 90,
+      "baseAts": 95,
+      "baseDfs": 135,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 3,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 300,
+      "baseLoyalty": 70,
+      "catchRate": 3,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 30720,
+      "babyDbSymbol": "mythrefle",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "hexed_luck",
+        "frozen_fortune",
+        "lucky_escape"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "199_i",
+        "iconShiny": "199_i_s",
+        "front": "199",
+        "frontShiny": "199_s",
+        "back": "199_b",
+        "backShiny": "199_b_s",
+        "footprint": "",
+        "character": "199_c",
+        "characterShiny": "199_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "powder_snow",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smokescreen",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_tail",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_armor",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "frost_breath",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ice_fang",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "haze",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blizzard",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_omen",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "lucky_chant",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glare",
+          "level": 80
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 85
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 90
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sheer_cold",
+          "level": 95
+        }
+      ],
+      "names": {
+        "en": "Mythrèfle",
+        "fr": "Mythrèfle",
+        "it": "Slowking",
+        "de": "Laschoking",
+        "es": "Slowking",
+        "ko": "야도킹"
+      },
+      "abilities_data": [
+        {
+          "symbol": "hexed_luck",
+          "textId": 289,
+          "names": {
+            "en": "Hexed Luck",
+            "fr": "Chance Corrompue",
+            "it": "Chance Corrompue",
+            "de": "Chance Corrompue",
+            "es": "Chance Corrompue",
+            "ko": "Chance Corrompue"
+          },
+          "descriptions": {
+            "en": "Critical hits inflicted on this Pokémon backfire, reducing the attacker’s Speed and Accuracy by 1 stage each.",
+            "fr": "Les coups critiques infligés à ce Pokémon se retournent contre l'attaquant, réduisant sa Vitesse et sa Précision de 1 niveau.",
+            "it": "Les coups critiques infligés à ce Pokémon se retournent contre l'attaquant, réduisant sa Vitesse et sa Précision de 1 niveau.",
+            "de": "Les coups critiques infligés à ce Pokémon se retournent contre l'attaquant, réduisant sa Vitesse et sa Précision de 1 niveau.",
+            "es": "Les coups critiques infligés à ce Pokémon se retournent contre l'attaquant, réduisant sa Vitesse et sa Précision de 1 niveau.",
+            "ko": "Les coups critiques infligés à ce Pokémon se retournent contre l'attaquant, réduisant sa Vitesse et sa Précision de 1 niveau."
+          }
+        },
+        {
+          "symbol": "frozen_fortune",
+          "textId": 290,
+          "names": {
+            "en": "Frozen Fortune",
+            "fr": "Fortune Glacée",
+            "it": "Fortune Glacée",
+            "de": "Fortune Glacée",
+            "es": "Fortune Glacée",
+            "ko": "Fortune Glacée"
+          },
+          "descriptions": {
+            "en": "All Ice-type moves used by this Pokémon have a 30% chance to reduce the accuracy of the target.",
+            "fr": "Toutes les attaques de type Glace utilisés par ce Pokémon ont 30% de chances de réduire la précision de la cible.",
+            "it": "Toutes les attaques de type Glace utilisés par ce Pokémon ont 30% de chances de réduire la précision de la cible.",
+            "de": "Toutes les attaques de type Glace utilisés par ce Pokémon ont 30% de chances de réduire la précision de la cible.",
+            "es": "Toutes les attaques de type Glace utilisés par ce Pokémon ont 30% de chances de réduire la précision de la cible.",
+            "ko": "Toutes les attaques de type Glace utilisés par ce Pokémon ont 30% de chances de réduire la précision de la cible."
+          }
+        },
+        {
+          "symbol": "lucky_escape",
+          "textId": 291,
+          "names": {
+            "en": "Lucky Escape",
+            "fr": "Échappée Chanceuse",
+            "it": "Échappée Chanceuse",
+            "de": "Échappée Chanceuse",
+            "es": "Échappée Chanceuse",
+            "ko": "Échappée Chanceuse"
+          },
+          "descriptions": {
+            "en": "When this Pokémon’s HP drops below 50%, its Evasion is increased by 1 stage and its Speed by 2 stages.",
+            "fr": "Lorsque les PV de ce Pokémon tombent en dessous de 50%, son Esquive est augmentée de 1 niveau et sa Vitesse de 2 niveaux.",
+            "it": "Lorsque les PV de ce Pokémon tombent en dessous de 50%, son Esquive est augmentée de 1 niveau et sa Vitesse de 2 niveaux.",
+            "de": "Lorsque les PV de ce Pokémon tombent en dessous de 50%, son Esquive est augmentée de 1 niveau et sa Vitesse de 2 niveaux.",
+            "es": "Lorsque les PV de ce Pokémon tombent en dessous de 50%, son Esquive est augmentée de 1 niveau et sa Vitesse de 2 niveaux.",
+            "ko": "Lorsque les PV de ce Pokémon tombent en dessous de 50%, son Esquive est augmentée de 1 niveau et sa Vitesse de 2 niveaux."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "poison_sting",
+          "id": 40,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Poison Sting",
+            "fr": "Dard-Venin",
+            "it": "Velenospina",
+            "de": "Giftstachel",
+            "es": "Picotazo Veneno",
+            "ko": "독침"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 35,
+          "power": 15,
+          "accuracy": 100
+        },
+        {
+          "symbol": "powder_snow",
+          "id": 181,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "poison_tail",
+          "id": 342,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Poison Tail",
+            "fr": "Queue-Poison",
+            "it": "Velenocoda",
+            "de": "Giftschweif",
+            "es": "Cola Veneno",
+            "ko": "포이즌테일"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid_armor",
+          "id": 151,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "frost_breath",
+          "id": 524,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Frost Breath",
+            "fr": "Souffle Glacé",
+            "it": "Alitogelido",
+            "de": "Eisesodem",
+            "es": "Vaho Gélido",
+            "ko": "얼음숨결"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "haze",
+          "id": 114,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
+          },
+          "category": "status",
+          "type": "ice",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "blizzard",
+          "id": 59,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Blizzard",
+            "fr": "Blizzard",
+            "it": "Bora",
+            "de": "Blizzard",
+            "es": "Ventisca",
+            "ko": "눈보라"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icy_omen",
+          "id": 728,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "IcyOmen",
+            "fr": "Présage Glacial",
+            "it": "Dracofonia Divampante",
+            "de": "Rasselnder Seelentanz",
+            "es": "Estruendo Implacable",
+            "ko": "브레이징소울비트"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 10,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "lucky_chant",
+          "id": 381,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Lucky Chant",
+            "fr": "Air Veinard",
+            "it": "Fortuncanto",
+            "de": "Beschwörung",
+            "es": "Conjuro",
+            "ko": "주술"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "glare",
+          "id": 137,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Glare",
+            "fr": "Regard Médusant",
+            "it": "Sguardo Feroce",
+            "de": "Schlangenblick",
+            "es": "Deslumbrar",
+            "ko": "뱀눈초리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 85,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 90,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sheer_cold",
+          "id": 329,
+          "klass": "LevelLearnableMove",
+          "level": 95,
+          "names": {
+            "en": "Sheer Cold",
+            "fr": "Glaciation",
+            "it": "Purogelo",
+            "de": "Eiseskälte",
+            "es": "Frío Polar",
+            "ko": "절대영도"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 30
+        }
+      ]
+    }
+  ]
+}

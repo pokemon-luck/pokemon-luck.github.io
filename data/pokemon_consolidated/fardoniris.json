@@ -1,0 +1,628 @@
+{
+  "klass": "Specie",
+  "id": 198,
+  "dbSymbol": "fardoniris",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 77,
+        "description": 0
+      },
+      "height": 1.96,
+      "weight": 103.9,
+      "type1": "ground",
+      "type2": "fairy",
+      "baseHp": 110,
+      "baseAtk": 115,
+      "baseDfe": 95,
+      "baseSpd": 85,
+      "baseAts": 120,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 3,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 300,
+      "baseLoyalty": 70,
+      "catchRate": 3,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 30720,
+      "babyDbSymbol": "fardoniris",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "bad_luck_aura",
+        "wretched_fate",
+        "cursed_presence"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "198_i",
+        "iconShiny": "198_i_s",
+        "front": "198",
+        "frontShiny": "198_s",
+        "back": "198_b",
+        "backShiny": "198_b_s",
+        "footprint": "",
+        "character": "198_c",
+        "characterShiny": "198_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "disarming_voice",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_tomb",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fairy_wind",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "foul_play",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "misfortune_sand",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "misty_terrain",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 80
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 85
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grudge",
+          "level": 90
+        }
+      ],
+      "names": {
+        "en": "Fardoniris",
+        "fr": "Fardoniris",
+        "it": "Murkrow",
+        "de": "Kramurx",
+        "es": "Murkrow",
+        "ko": "니로우"
+      },
+      "abilities_data": [
+        {
+          "symbol": "bad_luck_aura",
+          "textId": 286,
+          "names": {
+            "en": "Bad Luck Aura",
+            "fr": "Aura d'Infortune",
+            "it": "Aura d'Infortune",
+            "de": "Aura d'Infortune",
+            "es": "Aura d'Infortune",
+            "ko": "Aura d'Infortune"
+          },
+          "descriptions": {
+            "en": "The Accuracy of all opposing Pokémon is reduced by one stage when this Pokémon enters the battlefield.",
+            "fr": "La Précision de tous les Pokémon adverses est réduite d'un niveau lorsque ce Pokémon entre sur le terrain.",
+            "it": "La Précision de tous les Pokémon adverses est réduite d'un niveau lorsque ce Pokémon entre sur le terrain.",
+            "de": "La Précision de tous les Pokémon adverses est réduite d'un niveau lorsque ce Pokémon entre sur le terrain.",
+            "es": "La Précision de tous les Pokémon adverses est réduite d'un niveau lorsque ce Pokémon entre sur le terrain.",
+            "ko": "La Précision de tous les Pokémon adverses est réduite d'un niveau lorsque ce Pokémon entre sur le terrain."
+          }
+        },
+        {
+          "symbol": "wretched_fate",
+          "textId": 287,
+          "names": {
+            "en": "Wretched Fate",
+            "fr": "Destin Misérable",
+            "it": "Destin Misérable",
+            "de": "Destin Misérable",
+            "es": "Destin Misérable",
+            "ko": "Destin Misérable"
+          },
+          "descriptions": {
+            "en": "If this Pokémon is KO'd, the Pokémon that landed the finishing blow is afflicted with Curse, losing 1/4 of its HP every turn.",
+            "fr": "Si ce Pokémon est mis KO, le Pokémon qui a porté le coup de grâce est affecté par la Malédiction, perdant 1/4 de ses PV à chaque tour.",
+            "it": "Si ce Pokémon est mis KO, le Pokémon qui a porté le coup de grâce est affecté par la Malédiction, perdant 1/4 de ses PV à chaque tour.",
+            "de": "Si ce Pokémon est mis KO, le Pokémon qui a porté le coup de grâce est affecté par la Malédiction, perdant 1/4 de ses PV à chaque tour.",
+            "es": "Si ce Pokémon est mis KO, le Pokémon qui a porté le coup de grâce est affecté par la Malédiction, perdant 1/4 de ses PV à chaque tour.",
+            "ko": "Si ce Pokémon est mis KO, le Pokémon qui a porté le coup de grâce est affecté par la Malédiction, perdant 1/4 de ses PV à chaque tour."
+          }
+        },
+        {
+          "symbol": "cursed_presence",
+          "textId": 288,
+          "names": {
+            "en": "Cursed Presence",
+            "fr": "Présence Maudite",
+            "it": "Présence Maudite",
+            "de": "Présence Maudite",
+            "es": "Présence Maudite",
+            "ko": "Présence Maudite"
+          },
+          "descriptions": {
+            "en": "When taking damage, this Pokémon has a 30% chance to inflict a random status condition on the attacker.",
+            "fr": "En prenant des dégâts, ce Pokémon a 30% de chances d'infliger un problème de statut aléatoire à l'adversaire.",
+            "it": "Inflige un problème de statut aléatoire à l'adversaire lorsque ce Pokémon prend des dégâts.",
+            "de": "Inflige un problème de statut aléatoire à l'adversaire lorsque ce Pokémon prend des dégâts.",
+            "es": "Inflige un problème de statut aléatoire à l'adversaire lorsque ce Pokémon prend des dégâts.",
+            "ko": "Inflige un problème de statut aléatoire à l'adversaire lorsque ce Pokémon prend des dégâts."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "disarming_voice",
+          "id": 574,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Disarming Voice",
+            "fr": "Voix Enjôleuse",
+            "it": "Incantavoce",
+            "de": "Säuselstimme",
+            "es": "Voz Cautivadora",
+            "ko": "차밍보이스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 0
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_tomb",
+          "id": 328,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Sand Tomb",
+            "fr": "Tourbi-Sable",
+            "it": "Sabbiotomba",
+            "de": "Sandgrab",
+            "es": "Bucle Arena",
+            "ko": "모래지옥"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 15,
+          "power": 35,
+          "accuracy": 85
+        },
+        {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "foul_play",
+          "id": 492,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Foul Play",
+            "fr": "Tricherie",
+            "it": "Ripicca",
+            "de": "Schmarotzer",
+            "es": "Juego Sucio",
+            "ko": "속임수"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "misfortune_sand",
+          "id": 727,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Splintered Stormshards",
+            "fr": "Malchansable",
+            "it": "Litotempesta Radiale",
+            "de": "Fataler Steinregen",
+            "es": "Tempestad Rocosa",
+            "ko": "레이디얼에지스톰"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 5,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "misty_terrain",
+          "id": 581,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Misty Terrain",
+            "fr": "Champ Brumeux",
+            "it": "Campo Nebbioso",
+            "de": "Nebelfeld",
+            "es": "Campo de Niebla",
+            "ko": "미스트필드"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 85,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grudge",
+          "id": 288,
+          "klass": "LevelLearnableMove",
+          "level": 90,
+          "names": {
+            "en": "Grudge",
+            "fr": "Rancune",
+            "it": "Rancore",
+            "de": "Nachspiel",
+            "es": "Rabia",
+            "ko": "원념"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}

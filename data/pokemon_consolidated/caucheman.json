@@ -1,0 +1,580 @@
+{
+  "klass": "Specie",
+  "id": 119,
+  "dbSymbol": "caucheman",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 23,
+        "description": 0
+      },
+      "height": 2.05,
+      "weight": 225.2,
+      "type1": "ghost",
+      "type2": "ground",
+      "baseHp": 70,
+      "baseAtk": 60,
+      "baseDfe": 100,
+      "baseSpd": 45,
+      "baseAts": 120,
+      "baseDfs": 80,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 175,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        1
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "visipeur",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "shadow_tag",
+        "insomnia",
+        "bad_dreams"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "119_i",
+        "iconShiny": "119_i_s",
+        "front": "119",
+        "frontShiny": "119_s",
+        "back": "119_b",
+        "backShiny": "119_b_s",
+        "footprint": "",
+        "character": "119_c",
+        "characterShiny": "119_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glare",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mean_look",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_tomb",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hypnosis",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dream_eater",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nightmare",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counter",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "perish_song",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "body_press",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 75
+        }
+      ],
+      "names": {
+        "en": "Slumbeast",
+        "fr": "Caucheman",
+        "it": "Seaking",
+        "de": "Golking",
+        "es": "Seaking",
+        "ko": "왕콘치"
+      },
+      "abilities_data": [
+        {
+          "symbol": "shadow_tag",
+          "textId": 23,
+          "names": {
+            "en": "Shadow Tag",
+            "fr": "Marque Ombre",
+            "it": "Pedinombra",
+            "de": "Wegsperre",
+            "es": "Sombra Trampa",
+            "ko": "그림자밟기"
+          },
+          "descriptions": {
+            "en": "This Pokémon steps on the opposing Pokémon’s shadow to prevent it from escaping.",
+            "fr": "Empêche les Pokémon ennemis de quitter le combat.",
+            "it": "Il Pokémon calpesta l’ombra del nemico impedendogli la fuga o la sostituzione.",
+            "de": "Hindert Gegner an der Flucht beziehungsweise am Auswechseln, indem es ihnen den Weg versperrt.",
+            "es": "Impide que el enemigo huya o sea cambiado por otro.",
+            "ko": "상대의 그림자를 밟아 도망치거나 교체할 수 없게 한다."
+          }
+        },
+        {
+          "symbol": "insomnia",
+          "textId": 15,
+          "names": {
+            "en": "Insomnia",
+            "fr": "Insomnia",
+            "it": "Insonnia",
+            "de": "Insomnia",
+            "es": "Insomnio",
+            "ko": "불면"
+          },
+          "descriptions": {
+            "en": "The Pokémon is suffering from insomnia and cannot fall asleep.",
+            "fr": "Le Pokémon est incapable de dormir.",
+            "it": "Il Pokémon soffre d’insonnia e non può addormentarsi.",
+            "de": "Verhindert Einschlafen.",
+            "es": "Su resistencia al sueño le impide quedarse dormido.",
+            "ko": "잠들지 못하는 체질이라 잠듦 상태가 되지 않는다."
+          }
+        },
+        {
+          "symbol": "bad_dreams",
+          "textId": 123,
+          "names": {
+            "en": "Bad Dreams",
+            "fr": "Mauvais Rêve",
+            "it": "Sogniamari",
+            "de": "Alptraum",
+            "es": "Mal Sueño",
+            "ko": "나이트메어"
+          },
+          "descriptions": {
+            "en": "Reduces the HP of sleeping opposing Pokémon.",
+            "fr": "Inflige des dégâts aux ennemis endormis.",
+            "it": "Infligge danni ai nemici addormentati.",
+            "de": "Fügt schlafenden Gegnern Schaden zu.",
+            "es": "Inflige daño a cualquier rival que esté dormido.",
+            "ko": "잠듦 상태의 상대에게 데미지를 준다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glare",
+          "id": 137,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Glare",
+            "fr": "Regard Médusant",
+            "it": "Sguardo Feroce",
+            "de": "Schlangenblick",
+            "es": "Deslumbrar",
+            "ko": "뱀눈초리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mean_look",
+          "id": 212,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Mean Look",
+            "fr": "Regard Noir",
+            "it": "Malosguardo",
+            "de": "Horrorblick",
+            "es": "Mal de Ojo",
+            "ko": "검은눈빛"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sand_tomb",
+          "id": 328,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Sand Tomb",
+            "fr": "Tourbi-Sable",
+            "it": "Sabbiotomba",
+            "de": "Sandgrab",
+            "es": "Bucle Arena",
+            "ko": "모래지옥"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 15,
+          "power": 35,
+          "accuracy": 85
+        },
+        {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
+        },
+        {
+          "symbol": "mirror_coat",
+          "id": 243,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Mirror Coat",
+            "fr": "Voile Miroir",
+            "it": "Specchiovelo",
+            "de": "Spiegelcape",
+            "es": "Manto Espejo",
+            "ko": "미러코트"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dream_eater",
+          "id": 138,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Dream Eater",
+            "fr": "Dévorêve",
+            "it": "Mangiasogni",
+            "de": "Traumfresser",
+            "es": "Comesueños",
+            "ko": "꿈먹기"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "nightmare",
+          "id": 171,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Nightmare",
+            "fr": "Cauchemar",
+            "it": "Incubo",
+            "de": "Nachtmahr",
+            "es": "Pesadilla",
+            "ko": "악몽"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "counter",
+          "id": 68,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Counter",
+            "fr": "Riposte",
+            "it": "Contrattacco",
+            "de": "Konter",
+            "es": "Contraataque",
+            "ko": "카운터"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "perish_song",
+          "id": 195,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Perish Song",
+            "fr": "Requiem",
+            "it": "Ultimocanto",
+            "de": "Abgesang",
+            "es": "Canto Mortal",
+            "ko": "멸망의노래"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "body_press",
+          "id": 720,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Body Press",
+            "fr": "Big Splash",
+            "it": "Body Press",
+            "de": "Body Press",
+            "es": "Body Press",
+            "ko": "Body Press"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

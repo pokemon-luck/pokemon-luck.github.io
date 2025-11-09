@@ -1,0 +1,231 @@
+{
+  "klass": "Specie",
+  "id": 209,
+  "dbSymbol": "angouille",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 231,
+        "description": 0
+      },
+      "height": 0.6,
+      "weight": 6.5,
+      "type1": "water",
+      "type2": "__undef__",
+      "baseHp": 40,
+      "baseAtk": 10,
+      "baseDfe": 35,
+      "baseSpd": 70,
+      "baseAts": 10,
+      "baseDfs": 35,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "hydravage",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 20
+            }
+          ]
+        }
+      ],
+      "experienceType": 2,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 255,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        2
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "angouille",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "swift_swim",
+        "anticipation",
+        "gooey"
+      ],
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flail",
+          "level": 30
+        }
+      ],
+      "resources": {
+        "icon": "209_i",
+        "iconShiny": "209_i_s",
+        "front": "209",
+        "frontShiny": "209_s",
+        "back": "209_b",
+        "backShiny": "209_b_s",
+        "footprint": "",
+        "character": "209_c",
+        "characterShiny": "209_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "names": {
+        "en": "Stupeel",
+        "fr": "Angouille",
+        "it": "Snubbull",
+        "de": "Snubbull",
+        "es": "Snubbull",
+        "ko": "블루"
+      },
+      "abilities_data": [
+        {
+          "symbol": "swift_swim",
+          "textId": 33,
+          "names": {
+            "en": "Swift Swim",
+            "fr": "Glissade",
+            "it": "Nuotovelox",
+            "de": "Wassertempo",
+            "es": "Nado Rápido",
+            "ko": "쓱쓱"
+          },
+          "descriptions": {
+            "en": "Boosts the Pokémon’s Speed stat in rain.",
+            "fr": "Augmente la Vitesse du Pokémon s’il pleut.",
+            "it": "Se piove, la Velocità aumenta.",
+            "de": "Erhöht bei Regen die Initiative.",
+            "es": "Sube su Velocidad cuando llueve.",
+            "ko": "비가 오는 날씨일 때 스피드가 올라간다."
+          }
+        },
+        {
+          "symbol": "anticipation",
+          "textId": 107,
+          "names": {
+            "en": "Anticipation",
+            "fr": "Anticipation",
+            "it": "Presagio",
+            "de": "Vorahnung",
+            "es": "Anticipación",
+            "ko": "위험예지"
+          },
+          "descriptions": {
+            "en": "The Pokémon can sense an opposing Pokémon’s dangerous moves.",
+            "fr": "Le Pokémon devine si l’adversaire connaît une capacité dangereuse pour lui.",
+            "it": "Rivela se il nemico ha mosse pericolose.",
+            "de": "Kann gefährliche gegnerische Attacken erahnen.",
+            "es": "Prevé los movimientos peligrosos del rival.",
+            "ko": "상대가 지닌 위험한 기술을 감지할 수 있다."
+          }
+        },
+        {
+          "symbol": "gooey",
+          "textId": 183,
+          "names": {
+            "en": "Gooey",
+            "fr": "Poisseux",
+            "it": "Viscosità",
+            "de": "Viskosität",
+            "es": "Baba",
+            "ko": "미끈미끈"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon lowers the attacker’s Speed stat.",
+            "fr": "Baisse la Vitesse de l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon viene colpito da un attacco diretto, la Velocità di chi l’ha colpito diminuisce.",
+            "de": "Senkt bei Berührung im Zuge eines Angriffs die Initiative des Angreifers.",
+            "es": "Baja la Velocidad del rival cuando este le ataca con un movimiento de contacto.",
+            "ko": "공격으로 자신과 접촉한 상대의 스피드를 떨어뜨린다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "splash",
+          "id": 150,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Splash",
+            "fr": "Trempette",
+            "it": "Splash",
+            "de": "Platscher",
+            "es": "Salpicadura",
+            "ko": "튀어오르기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flail",
+          "id": 175,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Flail",
+            "fr": "Gigotage",
+            "it": "Flagello",
+            "de": "Dreschflegel",
+            "es": "Azote",
+            "ko": "바둥바둥"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

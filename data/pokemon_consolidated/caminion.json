@@ -1,0 +1,567 @@
+{
+  "klass": "Specie",
+  "id": 123,
+  "dbSymbol": "caminion",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 18,
+        "description": 0
+      },
+      "height": 0.35,
+      "weight": 5.2,
+      "type1": "poison",
+      "type2": "steel",
+      "baseHp": 20,
+      "baseAtk": 50,
+      "baseDfe": 30,
+      "baseSpd": 50,
+      "baseAts": 20,
+      "baseDfs": 30,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "camivol",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 25
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 50,
+      "baseLoyalty": 70,
+      "catchRate": 225,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        5
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "caminion",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "pickpocket",
+        "technician",
+        "quick_feet"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "123_i",
+        "iconShiny": "123_i_s",
+        "front": "123",
+        "frontShiny": "123_s",
+        "back": "123_b",
+        "backShiny": "123_b_s",
+        "footprint": "",
+        "character": "123_c",
+        "characterShiny": "123_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_gas",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "quick_attack",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_claw",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smog",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thief",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_spray",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "feint_attack",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gunk_shot",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "steel_beam",
+          "level": 45
+        }
+      ],
+      "names": {
+        "en": "Caminion",
+        "fr": "Caminion",
+        "it": "Scyther",
+        "de": "Sichlor",
+        "es": "Scyther",
+        "ko": "스라크"
+      },
+      "abilities_data": [
+        {
+          "symbol": "pickpocket",
+          "textId": 124,
+          "names": {
+            "en": "Pickpocket",
+            "fr": "Pickpocket",
+            "it": "Arraffalesto",
+            "de": "Langfinger",
+            "es": "Hurto",
+            "ko": "나쁜손버릇"
+          },
+          "descriptions": {
+            "en": "Steals an item from an attacker that made direct contact.",
+            "fr": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "de": "Stiehlt das Item des Angreifers bei Berührung.",
+            "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "ko": "접촉한 상대의 도구를 훔친다."
+          }
+        },
+        {
+          "symbol": "technician",
+          "textId": 101,
+          "names": {
+            "en": "Technician",
+            "fr": "Technicien",
+            "it": "Tecnico",
+            "de": "Techniker",
+            "es": "Experto",
+            "ko": "테크니션"
+          },
+          "descriptions": {
+            "en": "Powers up the Pokémon’s weaker moves.",
+            "fr": "Augmente la puissance des capacités les plus faibles.",
+            "it": "Potenzia le mosse più deboli del Pokémon.",
+            "de": "Erhöht die Stärke von schwächeren Attacken.",
+            "es": "Potencia sus movimientos más débiles.",
+            "ko": "위력이 약한 기술의 위력을 올려서 공격할 수 있다."
+          }
+        },
+        {
+          "symbol": "quick_feet",
+          "textId": 95,
+          "names": {
+            "en": "Quick Feet",
+            "fr": "Pied Véloce",
+            "it": "Piedisvelti",
+            "de": "Rasanz",
+            "es": "Pies Rápidos",
+            "ko": "속보"
+          },
+          "descriptions": {
+            "en": "Boosts the Speed stat if the Pokémon has a status condition.",
+            "fr": "Augmente la Vitesse du Pokémon en cas d’altération de statut.",
+            "it": "Se il Pokémon è affetto da un problema di stato, la Velocità aumenta.",
+            "de": "Erhöht bei Statusproblemen die Initiative.",
+            "es": "Aumenta la Velocidad si sufre problemas de estado.",
+            "ko": "상태 이상이 되면 스피드가 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_gas",
+          "id": 139,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Poison Gas",
+            "fr": "Gaz Toxik",
+            "it": "Velenogas",
+            "de": "Giftwolke",
+            "es": "Gas Venenoso",
+            "ko": "독가스"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "quick_attack",
+          "id": 98,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Quick Attack",
+            "fr": "Vive-Attaque",
+            "it": "Attacco Rapido",
+            "de": "Ruckzuckhieb",
+            "es": "Ataque Rápido",
+            "ko": "전광석화"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "metal_claw",
+          "id": 232,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Metal Claw",
+            "fr": "Griffe Acier",
+            "it": "Ferrartigli",
+            "de": "Metallklaue",
+            "es": "Garra Metal",
+            "ko": "메탈크로우"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 35,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "smog",
+          "id": 123,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Smog",
+            "fr": "Purédpois",
+            "it": "Smog",
+            "de": "Smog",
+            "es": "Polución",
+            "ko": "스모그"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 30,
+          "accuracy": 70
+        },
+        {
+          "symbol": "thief",
+          "id": 168,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Thief",
+            "fr": "Larcin",
+            "it": "Furto",
+            "de": "Raub",
+            "es": "Ladrón",
+            "ko": "도둑질"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid_spray",
+          "id": 491,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "feint_attack",
+          "id": 185,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Feint Attack",
+            "fr": "Feinte",
+            "it": "Finta",
+            "de": "Finte",
+            "es": "Finta",
+            "ko": "속여때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "metal_sound",
+          "id": 319,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Metal Sound",
+            "fr": "Strido-Son",
+            "it": "Ferrostrido",
+            "de": "Metallsound",
+            "es": "Eco Metálico",
+            "ko": "금속음"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "gunk_shot",
+          "id": 441,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Gunk Shot",
+            "fr": "Détricanon",
+            "it": "Sporcolancio",
+            "de": "Mülltreffer",
+            "es": "Lanzamugre",
+            "ko": "더스트슈트"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 80
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "steel_beam",
+          "id": 724,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Searing Sunraze Smash",
+            "fr": "Métalaser",
+            "it": "Supercollisione Solare",
+            "de": "Schmetternde Sonnenwalze",
+            "es": "Embestida Solar",
+            "ko": "선샤인스매셔"
+          },
+          "category": "special",
+          "type": "steel",
+          "pp": 5,
+          "power": 140,
+          "accuracy": 95
+        }
+      ]
+    }
+  ]
+}

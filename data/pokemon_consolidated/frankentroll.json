@@ -1,0 +1,145 @@
+{
+  "klass": "Specie",
+  "id": 222,
+  "dbSymbol": "frankentroll",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 244,
+        "description": 0
+      },
+      "height": 1.56,
+      "weight": 89.7,
+      "type1": "undead",
+      "type2": "__undef__",
+      "baseHp": 130,
+      "baseAtk": 70,
+      "baseDfe": 110,
+      "baseSpd": 60,
+      "baseAts": 60,
+      "baseDfs": 80,
+      "evHp": 1,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        5
+      ],
+      "hatchSteps": 8960,
+      "babyDbSymbol": "grimelin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "__undef__",
+        "__undef__",
+        "__undef__"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "",
+        "iconShiny": "",
+        "front": "222",
+        "frontShiny": "222_s",
+        "back": "222",
+        "backShiny": "222_s",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fester",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_powder",
+          "level": 2
+        }
+      ],
+      "names": {
+        "en": "Folkenstein",
+        "fr": "Frankentroll",
+        "it": "Corsola",
+        "de": "Corasonn",
+        "es": "Corsola",
+        "ko": "코산호"
+      },
+      "abilities_data": [
+        {
+          "symbol": "__undef__",
+          "names": {
+            "en": "__undef__"
+          },
+          "descriptions": {
+            "en": "Description not found."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "fester",
+          "id": 752,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "poison_powder",
+          "id": 77,
+          "klass": "LevelLearnableMove",
+          "level": 2,
+          "names": {
+            "en": "Poison Powder",
+            "fr": "Poudre Toxik",
+            "it": "Velenpolvere",
+            "de": "Giftpuder",
+            "es": "Polvo Veneno",
+            "ko": "독가루"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 35,
+          "power": 0,
+          "accuracy": 75
+        }
+      ]
+    }
+  ]
+}

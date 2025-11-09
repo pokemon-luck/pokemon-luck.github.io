@@ -1,0 +1,532 @@
+{
+  "klass": "Specie",
+  "id": 34,
+  "dbSymbol": "manduscade",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 117,
+        "description": 0
+      },
+      "height": 0.68,
+      "weight": 12.5,
+      "type1": "bug",
+      "type2": "undead",
+      "baseHp": 60,
+      "baseAtk": 80,
+      "baseDfe": 60,
+      "baseSpd": 75,
+      "baseAts": 80,
+      "baseDfs": 60,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 2,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "dissibule",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "sniper",
+        "super_luck",
+        "long_reach"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "34_i",
+        "iconShiny": "34_i_s",
+        "front": "34",
+        "frontShiny": "34_s",
+        "back": "34_b",
+        "backShiny": "34_b_s",
+        "footprint": "",
+        "character": "34_c",
+        "characterShiny": "34_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "034Cry.ogg",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_cutter",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pin_missile",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_shot",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "x_scissor",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_life",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fell_stinger",
+          "level": 62
+        }
+      ],
+      "names": {
+        "en": "Mandisguise",
+        "fr": "Manduscade",
+        "it": "Nidoking",
+        "de": "Nidoking",
+        "es": "Nidoking",
+        "ko": "니드킹"
+      },
+      "abilities_data": [
+        {
+          "symbol": "sniper",
+          "textId": 97,
+          "names": {
+            "en": "Sniper",
+            "fr": "Sniper",
+            "it": "Cecchino",
+            "de": "Superschütze",
+            "es": "Francotirador",
+            "ko": "스나이퍼"
+          },
+          "descriptions": {
+            "en": "Powers up moves if they become critical hits when attacking.",
+            "fr": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude.",
+            "it": "Aumenta ulteriormente i danni inflitti dai brutti colpi.",
+            "de": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter.",
+            "es": "Potencia los golpes críticos que asesta aún más de lo normal.",
+            "ko": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다."
+          }
+        },
+        {
+          "symbol": "super_luck",
+          "textId": 105,
+          "names": {
+            "en": "Super Luck",
+            "fr": "Chanceux",
+            "it": "Supersorte",
+            "de": "Glückspilz",
+            "es": "Afortunado",
+            "ko": "대운"
+          },
+          "descriptions": {
+            "en": "The Pokémon is so lucky that the critical-hit ratios of its moves are boosted.",
+            "fr": "Le Pokémon est tellement chanceux qu’il inflige plus fréquemment des coups critiques.",
+            "it": "L’incredibile fortuna del Pokémon aumenta la sua probabilità di infliggere brutti colpi.",
+            "de": "Großes Glück erhöht die Wahrscheinlichkeit, einen Volltreffer zu landen.",
+            "es": "Su buena suerte aumenta la probabilidad de asestar golpes críticos.",
+            "ko": "대운을 가지고 있어 상대의 급소에 공격이 맞기 쉽다."
+          }
+        },
+        {
+          "symbol": "long_reach",
+          "textId": 203,
+          "names": {
+            "en": "Long Reach",
+            "fr": "Longue Portée",
+            "it": "Distacco",
+            "de": "Langstrecke",
+            "es": "Remoto",
+            "ko": "원격"
+          },
+          "descriptions": {
+            "en": "The Pokémon uses its moves without making contact with the target.",
+            "fr": "Le Pokémon est capable d’utiliser toutes ses capacités sans entrer en contact direct avec sa cible.",
+            "it": "Il Pokémon è in grado di usare tutte le sue mosse senza entrare in contatto diretto con il bersaglio.",
+            "de": "Ermöglicht dem Pokémon den Einsatz aller seiner Attacken, ohne das Ziel dabei direkt zu berühren.",
+            "es": "Puede usar cualquier movimiento sin entrar en contacto con el rival.",
+            "ko": "모든 기술을 상대에게 접촉하지 않고 사용할 수 있다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "bug_bite",
+          "id": 450,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Bug Bite",
+            "fr": "Piqûre",
+            "it": "Coleomorso",
+            "de": "Käferbiss",
+            "es": "Picadura",
+            "ko": "벌레먹음"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fury_cutter",
+          "id": 210,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Fury Cutter",
+            "fr": "Taillade",
+            "it": "Tagliofuria",
+            "de": "Zornklinge",
+            "es": "Corte Furia",
+            "ko": "연속자르기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 95
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_sting",
+          "id": 40,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Poison Sting",
+            "fr": "Dard-Venin",
+            "it": "Velenospina",
+            "de": "Giftstachel",
+            "es": "Picotazo Veneno",
+            "ko": "독침"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 35,
+          "power": 15,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pin_missile",
+          "id": 42,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Pin Missile",
+            "fr": "Dard-Nuée",
+            "it": "Missilspillo",
+            "de": "Nadelrakete",
+            "es": "Pin Misil",
+            "ko": "바늘미사일"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 25,
+          "accuracy": 95
+        },
+        {
+          "symbol": "mirror_shot",
+          "id": 429,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Mirror Shot",
+            "fr": "Miroi-Tir",
+            "it": "Cristalcolpo",
+            "de": "Spiegelsalve",
+            "es": "Disparo Espejo",
+            "ko": "미러숏"
+          },
+          "category": "special",
+          "type": "steel",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 85
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "x_scissor",
+          "id": 404,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "X-Scissor",
+            "fr": "Plaie Croix",
+            "it": "Forbice X",
+            "de": "Kreuzschere",
+            "es": "Tijera X",
+            "ko": "시저크로스"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fell_stinger",
+          "id": 565,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Fell Stinger",
+            "fr": "Dard Mortel",
+            "it": "Pungiglione",
+            "de": "Stachelfinale",
+            "es": "Aguijón Letal",
+            "ko": "마지막일침"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,519 @@
+{
+  "klass": "Specie",
+  "id": 29,
+  "dbSymbol": "luisanchante",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 110,
+        "description": 0
+      },
+      "height": 0.48,
+      "weight": 1.3,
+      "type1": "bug",
+      "type2": "__undef__",
+      "baseHp": 50,
+      "baseAtk": 40,
+      "baseDfe": 35,
+      "baseSpd": 45,
+      "baseAts": 60,
+      "baseDfs": 80,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 2,
+      "evolutions": [
+        {
+          "dbSymbol": "magiciole",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 24
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 100,
+      "baseLoyalty": 70,
+      "catchRate": 125,
+      "femaleRate": 50,
+      "breedGroups": [
+        3,
+        3
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "luminion",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "vital_spirit",
+        "adaptability",
+        "wonder_skin"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "29_i",
+        "iconShiny": "29_i_s",
+        "front": "29",
+        "frontShiny": "29_s",
+        "back": "29_b",
+        "backShiny": "29_b_s",
+        "footprint": "",
+        "character": "29_c",
+        "characterShiny": "29_c_s",
+        "cry": "029Cry.ogg",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "struggle_bug",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "signal_beam",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonlight",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "baton_pass",
+          "level": 52
+        }
+      ],
+      "names": {
+        "en": "Spellight",
+        "fr": "Luisanchante",
+        "it": "Nidoran♀",
+        "de": "Nidoran♀",
+        "es": "Nidoran♀",
+        "ko": "니드런♀"
+      },
+      "abilities_data": [
+        {
+          "symbol": "vital_spirit",
+          "textId": 72,
+          "names": {
+            "en": "Vital Spirit",
+            "fr": "Esprit Vital",
+            "it": "Spiritovivo",
+            "de": "Munterkeit",
+            "es": "Espíritu Vital",
+            "ko": "의기양양"
+          },
+          "descriptions": {
+            "en": "The Pokémon is full of vitality, and that prevents it from falling asleep.",
+            "fr": "Empêche le Pokémon de s’endormir.",
+            "it": "Il Pokémon è talmente vivace che non può addormentarsi.",
+            "de": "Das Pokémon ist so munter, dass es nicht einschlafen kann.",
+            "es": "Su determinación le impide quedarse dormido.",
+            "ko": "의기양양해져서 잠듦 상태가 되지 않는다."
+          }
+        },
+        {
+          "symbol": "adaptability",
+          "textId": 91,
+          "names": {
+            "en": "Adaptability",
+            "fr": "Adaptabilité",
+            "it": "Adattabilità",
+            "de": "Anpassung",
+            "es": "Adaptable",
+            "ko": "적응력"
+          },
+          "descriptions": {
+            "en": "Powers up moves of the same type as the Pokémon.",
+            "fr": "Quand le Pokémon utilise une capacité du même type que lui, le bonus de puissance qu’elle reçoit est encore plus important que normalement.",
+            "it": "Potenzia di molto le mosse dello stesso tipo del Pokémon.",
+            "de": "Erhöht die Stärke von Attacken, die dem Typ des Pokémon entsprechen.",
+            "es": "Potencia aún más los movimientos cuyo tipo coincida con el suyo.",
+            "ko": "자신과 같은 타입의 기술 위력이 올라간다."
+          }
+        },
+        {
+          "symbol": "wonder_skin",
+          "textId": 147,
+          "names": {
+            "en": "Wonder Skin",
+            "fr": "Peau Miracle",
+            "it": "Splendicute",
+            "de": "Wunderhaut",
+            "es": "Piel Milagro",
+            "ko": "미라클스킨"
+          },
+          "descriptions": {
+            "en": "Makes status moves more likely to miss.",
+            "fr": "Le Pokémon résiste mieux aux capacités de statut.",
+            "it": "Il Pokémon resiste più facilmente alle mosse di stato.",
+            "de": "Wehrt mit robustem Körper viele Status-Attacken ab.",
+            "es": "Presenta una mayor resistencia ante los movimientos de estado.",
+            "ko": "변화 기술을 받기 어려운 몸으로 되어 있다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flash",
+          "id": 148,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Flash",
+            "fr": "Flash",
+            "it": "Flash",
+            "de": "Blitz",
+            "es": "Destello",
+            "ko": "플래시"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "string_shot",
+          "id": 81,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "String Shot",
+            "fr": "Sécrétion",
+            "it": "Millebave",
+            "de": "Fadenschuss",
+            "es": "Disparo Demora",
+            "ko": "실뿜기"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "struggle_bug",
+          "id": 522,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Struggle Bug",
+            "fr": "Survinsecte",
+            "it": "Entomoblocco",
+            "de": "Käfertrutz",
+            "es": "Estoicismo",
+            "ko": "벌레의저항"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Signal Beam",
+            "fr": "Rayon Signal",
+            "it": "Segnoraggio",
+            "de": "Ampelleuchte",
+            "es": "Doble Rayo",
+            "ko": "시그널빔"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "reflect",
+          "id": 115,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Reflect",
+            "fr": "Protection",
+            "it": "Riflesso",
+            "de": "Reflektor",
+            "es": "Reflejo",
+            "ko": "리플렉터"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "moonlight",
+          "id": 236,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bug_buzz",
+          "id": 405,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Bug Buzz",
+            "fr": "Bourdon",
+            "it": "Ronzio",
+            "de": "Käfergebrumm",
+            "es": "Zumbido",
+            "ko": "벌레의야단법석"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "baton_pass",
+          "id": 226,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Baton Pass",
+            "fr": "Relais",
+            "it": "Staffetta",
+            "de": "Stafette",
+            "es": "Relevo",
+            "ko": "바톤터치"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}

@@ -9,14 +9,14 @@ from PIL import Image
 # FANGAME_ROOT_FOLDER: The root directory of your RPG Maker XP PSDK project.
 # WEB_PROJECT_ROOT_FOLDER: The root directory of your web Pokédex project.
 
-FANGAME_ROOT_FOLDER = r'ADD_RMXP_ROOT_FOLDER_HERE' # e.g., r'C:\Users\YourUser\Documents\RPG XP Projects\MyPokemonGame'
-WEB_PROJECT_ROOT_FOLDER = r'ADD_Pokemon-Studio-To-Web-Pokedex_ROOT_FOLDER_HERE' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
+FANGAME_ROOT_FOLDER = r'D:\PokemonFangames\PokemonLuck' # e.g., r'C:\Users\YourUser\Documents\RPG XP Projects\MyPokemonGame'
+WEB_PROJECT_ROOT_FOLDER = r'D:\wamp64\www\pokemon-luck.github.io' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
 
 # Output directory within the web project for processed assets
 OUTPUT_DATA_FOLDER = os.path.join(WEB_PROJECT_ROOT_FOLDER, 'data')
 
 # Source paths relative to FANGAME_ROOT_FOLDER
-PSDK_NATIONAL_DEX_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\dex\national.json')
+PSDK_NATIONAL_DEX_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\dex\regional.json')
 PSDK_CSV_DIALOGS_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Text\Dialogs')
 PSDK_POKEMON_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\pokemon')
 PSDK_MOVES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\moves')
@@ -30,6 +30,7 @@ WEB_POKEMON_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokemon_cons
 WEB_POKEFRONT_UPSCALED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokefront') # Now inside the data folder
 
 # CSV File IDs and their roles
+CSV_POKEMON_NAMES_ID = '100000'
 CSV_ABILITIES_NAMES_ID = '100004'
 CSV_ABILITIES_DESCRIPTIONS_ID = '100005'
 CSV_MOVES_NAMES_ID = '100006'
@@ -81,6 +82,7 @@ def run_setup():
 
     # 3. Load CSV data for translations
     print("Loading CSV translation files...")
+    pokemon_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_POKEMON_NAMES_ID}.csv'))
     abilities_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_NAMES_ID}.csv'))
     abilities_descriptions_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_DESCRIPTIONS_ID}.csv'))
     moves_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_MOVES_NAMES_ID}.csv'))
@@ -127,6 +129,14 @@ def run_setup():
             
             form = pokemon_data['forms'][0] # Get the first form for processing
 
+            # Consolidate Name
+            translated_names = {}
+            text_id = pokemon_data['id']
+            for i, lang in enumerate(LANGUAGES):
+                translated_names[lang] = get_translated_text_from_csv(pokemon_names_csv, text_id + 1, i)
+            form['names'] = translated_names
+            print(form['names'])
+
             # Consolidate Abilities
             consolidated_abilities = []
             processed_ability_symbols = set() # To avoid processing duplicate abilities within a form
@@ -145,9 +155,9 @@ def run_setup():
                     translated_names = {}
                     translated_descriptions = {}
                     for i, lang in enumerate(LANGUAGES):
-                        translated_names[lang] = get_translated_text_from_csv(abilities_names_csv, text_id, i)
+                        translated_names[lang] = get_translated_text_from_csv(abilities_names_csv, text_id + 1, i)
                         # PSDK ability descriptions often use textId directly as CSV row index
-                        translated_descriptions[lang] = get_translated_text_from_csv(abilities_descriptions_csv, text_id, i)
+                        translated_descriptions[lang] = get_translated_text_from_csv(abilities_descriptions_csv, text_id + 1, i)
                     
                     consolidated_abilities.append({
                         'symbol': ability_symbol,
@@ -189,7 +199,7 @@ def run_setup():
                     
                     translated_names = {}
                     for i, lang in enumerate(LANGUAGES):
-                        translated_names[lang] = get_translated_text_from_csv(moves_names_csv, move_id, i)
+                        translated_names[lang] = get_translated_text_from_csv(moves_names_csv, move_id + 1, i)
                     
                     consolidated_moves.append({
                         'symbol': move_symbol,

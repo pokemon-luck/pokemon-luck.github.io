@@ -1,0 +1,652 @@
+{
+  "klass": "Specie",
+  "id": 200,
+  "dbSymbol": "dracosaedre",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 68,
+        "description": 0
+      },
+      "height": 2.56,
+      "weight": 468.4,
+      "type1": "dark",
+      "type2": "dragon",
+      "baseHp": 130,
+      "baseAtk": 125,
+      "baseDfe": 110,
+      "baseSpd": 70,
+      "baseAts": 85,
+      "baseDfs": 100,
+      "evHp": 3,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 300,
+      "baseLoyalty": 70,
+      "catchRate": 3,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 30720,
+      "babyDbSymbol": "dracosaedre",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "dice_roll",
+        "wild_momentum",
+        "chaotic_influence"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "200_i",
+        "iconShiny": "200_i_s",
+        "front": "200",
+        "frontShiny": "200_s",
+        "back": "200_b",
+        "backShiny": "200_b_s",
+        "footprint": "",
+        "character": "200_c",
+        "characterShiny": "200_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "twister",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_tail",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_breath",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_claw",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_dance",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "outrage",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "foul_play",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "chaos_storm",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 80
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_beam",
+          "level": 85
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 90
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draco_meteor",
+          "level": 95
+        }
+      ],
+      "names": {
+        "en": "Dracosaedron",
+        "fr": "Dracosaèdre",
+        "it": "Misdreavus",
+        "de": "Traunfugil",
+        "es": "Misdreavus",
+        "ko": "무우마"
+      },
+      "abilities_data": [
+        {
+          "symbol": "dice_roll",
+          "textId": 293,
+          "names": {
+            "en": "Dice Roll",
+            "fr": "Lancer de Dé",
+            "it": "Lancer de Dé",
+            "de": "Lancer de Dé",
+            "es": "Lancer de Dé",
+            "ko": "Lancer de Dé"
+          },
+          "descriptions": {
+            "en": "Every time this Pokémon uses an attack, there is a 20% chance that the move’s Power will either be raised or lowered by 25%.",
+            "fr": "Chaque fois que ce Pokémon utilise une attaque, il y a 20 % de chances que la puissance de celle-ci soit augmentée ou diminuée de 25 %.",
+            "it": "Chaque fois que ce Pokémon utilise une attaque, il y a 20 % de chances que la puissance de celle-ci soit augmentée ou diminuée de 25 %.",
+            "de": "Chaque fois que ce Pokémon utilise une attaque, il y a 20 % de chances que la puissance de celle-ci soit augmentée ou diminuée de 25 %.",
+            "es": "Chaque fois que ce Pokémon utilise une attaque, il y a 20 % de chances que la puissance de celle-ci soit augmentée ou diminuée de 25 %.",
+            "ko": "Chaque fois que ce Pokémon utilise une attaque, il y a 20 % de chances que la puissance de celle-ci soit augmentée ou diminuée de 25 %."
+          }
+        },
+        {
+          "symbol": "wild_momentum",
+          "textId": 292,
+          "names": {
+            "en": "Wild Momentum",
+            "fr": "Élan Sauvage",
+            "it": "Élan Sauvage",
+            "de": "Élan Sauvage",
+            "es": "Élan Sauvage",
+            "ko": "Élan Sauvage"
+          },
+          "descriptions": {
+            "en": "When this Pokémon knocks out an opponent, it gains a random stat boost by 1 stage, but also suffers a random stat drop by 1 stage.",
+            "fr": "Lorsque ce Pokémon met KO un adversaire, une de ses statistiques aléatoire augmente de 1 niveau, et une autre statistique aléatoire baisse d'un niveau.",
+            "it": "Lorsque ce Pokémon met KO un adversaire, une de ses statistiques aléatoire augmente de 1 niveau, et une autre statistique aléatoire baisse d'un niveau.",
+            "de": "Lorsque ce Pokémon met KO un adversaire, une de ses statistiques aléatoire augmente de 1 niveau, et une autre statistique aléatoire baisse d'un niveau.",
+            "es": "Lorsque ce Pokémon met KO un adversaire, une de ses statistiques aléatoire augmente de 1 niveau, et une autre statistique aléatoire baisse d'un niveau.",
+            "ko": "Lorsque ce Pokémon met KO un adversaire, une de ses statistiques aléatoire augmente de 1 niveau, et une autre statistique aléatoire baisse d'un niveau."
+          }
+        },
+        {
+          "symbol": "chaotic_influence",
+          "textId": 294,
+          "names": {
+            "en": "Chaotic Influence",
+            "fr": "Influence Chaotique",
+            "it": "Influence Chaotique",
+            "de": "Influence Chaotique",
+            "es": "Influence Chaotique",
+            "ko": "Influence Chaotique"
+          },
+          "descriptions": {
+            "en": "At the end of each turn, one random stat of each Pokémon on the field is raised or lowered by 1 stage.",
+            "fr": "À la fin de chaque tour, une statistique aléatoire de chaque Pokémon sur le terrain est augmentée ou diminuée de 1 niveau.",
+            "it": "À la fin de chaque tour, une statistique aléatoire de chaque Pokémon sur le terrain est augmentée ou diminuée de 1 niveau.",
+            "de": "À la fin de chaque tour, une statistique aléatoire de chaque Pokémon sur le terrain est augmentée ou diminuée de 1 niveau.",
+            "es": "À la fin de chaque tour, une statistique aléatoire de chaque Pokémon sur le terrain est augmentée ou diminuée de 1 niveau.",
+            "ko": "À la fin de chaque tour, une statistique aléatoire de chaque Pokémon sur le terrain est augmentée ou diminuée de 1 niveau."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "twister",
+          "id": 239,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Twister",
+            "fr": "Ouragan",
+            "it": "Tornado",
+            "de": "Windhose",
+            "es": "Ciclón",
+            "ko": "회오리"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_tail",
+          "id": 525,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Dragon Tail",
+            "fr": "Draco-Queue",
+            "it": "Codadrago",
+            "de": "Drachenrute",
+            "es": "Cola Dragón",
+            "ko": "드래곤테일"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_breath",
+          "id": 225,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Dragon Breath",
+            "fr": "Draco-Souffle",
+            "it": "Dragospiro",
+            "de": "Feuerodem",
+            "es": "Dragoaliento",
+            "ko": "용의숨결"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "night_slash",
+          "id": 400,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Night Slash",
+            "fr": "Tranche-Nuit",
+            "it": "Nottesferza",
+            "de": "Nachthieb",
+            "es": "Tajo Umbrío",
+            "ko": "깜짝베기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_claw",
+          "id": 337,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Dragon Claw",
+            "fr": "Draco-Griffe",
+            "it": "Dragartigli",
+            "de": "Drachenklaue",
+            "es": "Garra Dragón",
+            "ko": "드래곤크루"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_dance",
+          "id": 349,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Dragon Dance",
+            "fr": "Danse Draco",
+            "it": "Dragodanza",
+            "de": "Drachentanz",
+            "es": "Danza Dragón",
+            "ko": "용의춤"
+          },
+          "category": "status",
+          "type": "dragon",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "outrage",
+          "id": 200,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Outrage",
+            "fr": "Colère",
+            "it": "Oltraggio",
+            "de": "Wutanfall",
+            "es": "Enfado",
+            "ko": "역린"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "foul_play",
+          "id": 492,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Foul Play",
+            "fr": "Tricherie",
+            "it": "Ripicca",
+            "de": "Schmarotzer",
+            "es": "Juego Sucio",
+            "ko": "속임수"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "chaos_storm",
+          "id": 729,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Chaos Storm",
+            "fr": "Tempête Chaotique",
+            "it": "Sprintaboom",
+            "de": "Britzelturbo",
+            "es": "Pikaturbo",
+            "ko": "파찌파찌액셀"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 5,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hyper_beam",
+          "id": 63,
+          "klass": "LevelLearnableMove",
+          "level": 85,
+          "names": {
+            "en": "Hyper Beam",
+            "fr": "Ultralaser",
+            "it": "Iper Raggio",
+            "de": "Hyperstrahl",
+            "es": "Hiperrayo",
+            "ko": "파괴광선"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 5,
+          "power": 150,
+          "accuracy": 90
+        },
+        {
+          "symbol": "destiny_bond",
+          "id": 194,
+          "klass": "LevelLearnableMove",
+          "level": 90,
+          "names": {
+            "en": "Destiny Bond",
+            "fr": "Lien du Destin",
+            "it": "Destinobbligato",
+            "de": "Abgangsbund",
+            "es": "Mismo Destino",
+            "ko": "길동무"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "draco_meteor",
+          "id": 434,
+          "klass": "LevelLearnableMove",
+          "level": 95,
+          "names": {
+            "en": "Draco Meteor",
+            "fr": "Draco-Météore",
+            "it": "Dragobolide",
+            "de": "Draco Meteor",
+            "es": "Cometa Draco",
+            "ko": "용성군"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 5,
+          "power": 130,
+          "accuracy": 90
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2120 @@
+{
+  "klass": "Specie",
+  "id": 120,
+  "dbSymbol": "phosphorune",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 147,
+        "description": 0
+      },
+      "height": 0.48,
+      "weight": 7.5,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 2,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 110,
+      "baseLoyalty": 70,
+      "catchRate": 200,
+      "femaleRate": 50,
+      "breedGroups": [
+        11,
+        10
+      ],
+      "hatchSteps": 3840,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_1_i",
+        "iconShiny": "120_1_i_s",
+        "front": "120_1",
+        "frontShiny": "120_1_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_1_c",
+        "characterShiny": "120_1_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ],
+      "names": {
+        "en": "Phosphorune",
+        "fr": "Phosphorune",
+        "it": "Staryu",
+        "de": "Sterndu",
+        "es": "Staryu",
+        "ko": "별가사리"
+      },
+      "abilities_data": [
+        {
+          "symbol": "static",
+          "textId": 9,
+          "names": {
+            "en": "Static",
+            "fr": "Statik",
+            "it": "Statico",
+            "de": "Statik",
+            "es": "Elec. Estática",
+            "ko": "정전기"
+          },
+          "descriptions": {
+            "en": "The Pokémon is charged with static electricity, so contact with it may cause paralysis.",
+            "fr": "Le Pokémon charge son corps en électricité statique, et tout contact avec lui peut paralyser.",
+            "it": "Il contatto fisico con il corpo percorso dall’elettricità statica del Pokémon può causare paralisi.",
+            "de": "Kann bei Berührung durch statisch aufgeladenen Körper paralysieren.",
+            "es": "La electricidad estática que lo envuelve puede paralizar al mínimo contacto.",
+            "ko": "정전기를 몸에 둘러 접촉한 상대를 마비시킬 때가 있다."
+          }
+        },
+        {
+          "symbol": "lightning_rod",
+          "textId": 31,
+          "names": {
+            "en": "Lightning Rod",
+            "fr": "Paratonnerre",
+            "it": "Parafulmine",
+            "de": "Blitzfänger",
+            "es": "Pararrayos",
+            "ko": "피뢰침"
+          },
+          "descriptions": {
+            "en": "The Pokémon draws in all Electric-type moves. Instead of being hit by Electric-type moves, it boosts its Sp. Atk.",
+            "fr": "Le Pokémon détourne sur lui les capacités de type Électrik et les neutralise, tout en montant son Attaque Spéciale.",
+            "it": "Il Pokémon attira e neutralizza le mosse di tipo Elettro e fa aumentare il suo Attacco Speciale.",
+            "de": "Zieht Elektro-Attacken an. Statt durch diese Schaden zu nehmen, erhöht es den eigenen Spezial-Angriff.",
+            "es": "Atrae y neutraliza los movimientos de tipo Eléctrico, que además le suben el Ataque Especial.",
+            "ko": "전기타입의 기술을 자신에게 끌어모아 데미지를 받지 않고 특수공격을 올린다."
+          }
+        },
+        {
+          "symbol": "electric_surge",
+          "textId": 226,
+          "names": {
+            "en": "Electric Surge",
+            "fr": "Créa-Élec",
+            "it": "Elettrogenesi",
+            "de": "Elektro-Erzeuger",
+            "es": "Electrogénesis",
+            "ko": "일렉트릭메이커"
+          },
+          "descriptions": {
+            "en": "Turns the ground into Electric Terrain when the Pokémon enters a battle.",
+            "fr": "Le Pokémon crée un Champ Électrifié au moment où il entre au combat.",
+            "it": "Quando il Pokémon entra in campo, lo trasforma in un Campo Elettrico.",
+            "de": "Erzeugt bei Kampfantritt ein Elektrofeld.",
+            "es": "Crea un campo eléctrico al entrar en combate.",
+            "ko": "등장했을 때 일렉트릭필드를 사용한다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charge",
+          "id": 268,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Charge",
+            "fr": "Chargeur",
+            "it": "Sottocarica",
+            "de": "Ladevorgang",
+            "es": "Carga",
+            "ko": "충전"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
+          "symbol": "thunder_shock",
+          "id": 84,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "harden",
+          "id": 106,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_polish",
+          "id": 397,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Rock Polish",
+            "fr": "Poliroche",
+            "it": "Lucidatura",
+            "de": "Steinpolitur",
+            "es": "Pulimento",
+            "ko": "록커트"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shock_wave",
+          "id": 351,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thunder_wave",
+          "id": 86,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "spark",
+          "id": 209,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Spark",
+            "fr": "Étincelle",
+            "it": "Scintilla",
+            "de": "Funkensprung",
+            "es": "Chispa",
+            "ko": "스파크"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thunderbolt",
+          "id": 85,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Thunderbolt",
+            "fr": "Tonnerre",
+            "it": "Fulmine",
+            "de": "Donnerblitz",
+            "es": "Rayo",
+            "ko": "10만볼트"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "zap_cannon",
+          "id": 192,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Zap Cannon",
+            "fr": "Élecanon",
+            "it": "Falcecannone",
+            "de": "Blitzkanone",
+            "es": "Electrocañón",
+            "ko": "전자포"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 50
+        }
+      ]
+    },
+    {
+      "form": 1,
+      "formTextId": {
+        "name": 148,
+        "description": 1
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_2_i",
+        "iconShiny": "120_2_i_s",
+        "front": "120_2",
+        "frontShiny": "120_2_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_2_c",
+        "characterShiny": "120_2_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 2,
+      "formTextId": {
+        "name": 149,
+        "description": 2
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_3_i",
+        "iconShiny": "120_3_i_s",
+        "front": "120_3",
+        "frontShiny": "120_3_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_3_c",
+        "characterShiny": "120_3_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 3,
+      "formTextId": {
+        "name": 150,
+        "description": 3
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_4_i",
+        "iconShiny": "120_4_i_s",
+        "front": "120_4",
+        "frontShiny": "120_4_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_4_c",
+        "characterShiny": "120_4_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 4,
+      "formTextId": {
+        "name": 151,
+        "description": 4
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_5_i",
+        "iconShiny": "120_5_i_s",
+        "front": "120_5",
+        "frontShiny": "120_5_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_5_c",
+        "characterShiny": "120_5_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 5,
+      "formTextId": {
+        "name": 152,
+        "description": 5
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_6_i",
+        "iconShiny": "120_6_i_s",
+        "front": "120_6",
+        "frontShiny": "120_6_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_6_c",
+        "characterShiny": "120_6_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 6,
+      "formTextId": {
+        "name": 153,
+        "description": 6
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_7_i",
+        "iconShiny": "120_7_i_s",
+        "front": "120_7",
+        "frontShiny": "120_7_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_7_c",
+        "characterShiny": "120_7_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 7,
+      "formTextId": {
+        "name": 154,
+        "description": 7
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_8_i",
+        "iconShiny": "120_8_i_s",
+        "front": "120_8",
+        "frontShiny": "120_8_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_8_c",
+        "characterShiny": "120_8_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 8,
+      "formTextId": {
+        "name": 155,
+        "description": 8
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_9_i",
+        "iconShiny": "120_9_i_s",
+        "front": "120_9",
+        "frontShiny": "120_9_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_9_c",
+        "characterShiny": "120_9_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 9,
+      "formTextId": {
+        "name": 156,
+        "description": 9
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_10_i",
+        "iconShiny": "120_10_i_s",
+        "front": "120_10",
+        "frontShiny": "120_10_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_10_c",
+        "characterShiny": "120_10_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 10,
+      "formTextId": {
+        "name": 157,
+        "description": 10
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_11_i",
+        "iconShiny": "120_11_i_s",
+        "front": "120_11",
+        "frontShiny": "120_11_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_11_c",
+        "characterShiny": "120_11_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 11,
+      "formTextId": {
+        "name": 158,
+        "description": 11
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_12_i",
+        "iconShiny": "120_12_i_s",
+        "front": "120_12",
+        "frontShiny": "120_12_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_12_c",
+        "characterShiny": "120_12_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 12,
+      "formTextId": {
+        "name": 159,
+        "description": 12
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_13_i",
+        "iconShiny": "120_13_i_s",
+        "front": "120_13",
+        "frontShiny": "120_13_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_13_c",
+        "characterShiny": "120_13_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 13,
+      "formTextId": {
+        "name": 160,
+        "description": 13
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_14_i",
+        "iconShiny": "120_14_i_s",
+        "front": "120_14",
+        "frontShiny": "120_14_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_14_c",
+        "characterShiny": "120_14_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 14,
+      "formTextId": {
+        "name": 161,
+        "description": 14
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_15_i",
+        "iconShiny": "120_15_i_s",
+        "front": "120_15",
+        "frontShiny": "120_15_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_15_c",
+        "characterShiny": "120_15_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 15,
+      "formTextId": {
+        "name": 162,
+        "description": 15
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_16_i",
+        "iconShiny": "120_16_i_s",
+        "front": "120_16",
+        "frontShiny": "120_16_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_16_c",
+        "characterShiny": "120_16_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 16,
+      "formTextId": {
+        "name": 163,
+        "description": 16
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_17_i",
+        "iconShiny": "120_17_i_s",
+        "front": "120_17",
+        "frontShiny": "120_17_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_17_c",
+        "characterShiny": "120_17_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 17,
+      "formTextId": {
+        "name": 164,
+        "description": 17
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_18_i",
+        "iconShiny": "120_18_i_s",
+        "front": "120_18",
+        "frontShiny": "120_18_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_18_c",
+        "characterShiny": "120_18_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 18,
+      "formTextId": {
+        "name": 165,
+        "description": 18
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_19_i",
+        "iconShiny": "120_19_i_s",
+        "front": "120_19",
+        "frontShiny": "120_19_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_19_c",
+        "characterShiny": "120_19_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 19,
+      "formTextId": {
+        "name": 166,
+        "description": 19
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_20_i",
+        "iconShiny": "120_20_i_s",
+        "front": "120_20",
+        "frontShiny": "120_20_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_20_c",
+        "characterShiny": "120_20_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 20,
+      "formTextId": {
+        "name": 167,
+        "description": 20
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_21_i",
+        "iconShiny": "120_21_i_s",
+        "front": "120_21",
+        "frontShiny": "120_21_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_21_c",
+        "characterShiny": "120_21_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 21,
+      "formTextId": {
+        "name": 168,
+        "description": 21
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_22_i",
+        "iconShiny": "120_22_i_s",
+        "front": "120_22",
+        "frontShiny": "120_22_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_22_c",
+        "characterShiny": "120_22_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 22,
+      "formTextId": {
+        "name": 169,
+        "description": 22
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_23_i",
+        "iconShiny": "120_23_i_s",
+        "front": "120_23",
+        "frontShiny": "120_23_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_23_c",
+        "characterShiny": "120_23_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    },
+    {
+      "form": 23,
+      "formTextId": {
+        "name": 170,
+        "description": 23
+      },
+      "height": 1,
+      "weight": 1,
+      "type1": "electric",
+      "type2": "rock",
+      "baseHp": 70,
+      "baseAtk": 55,
+      "baseDfe": 50,
+      "baseSpd": 25,
+      "baseAts": 95,
+      "baseDfs": 50,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 0,
+      "baseExperience": 40,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        15,
+        15
+      ],
+      "hatchSteps": 1024,
+      "babyDbSymbol": "phosphorune",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "static",
+        "lightning_rod",
+        "electric_surge"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "120_24_i",
+        "iconShiny": "120_24_i_s",
+        "front": "120_24",
+        "frontShiny": "120_24_s",
+        "back": "120_b",
+        "backShiny": "120_b_s",
+        "footprint": "",
+        "character": "120_24_c",
+        "characterShiny": "120_24_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": []
+    }
+  ]
+}

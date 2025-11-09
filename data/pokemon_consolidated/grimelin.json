@@ -1,0 +1,618 @@
+{
+  "klass": "Specie",
+  "id": 133,
+  "dbSymbol": "grimelin",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 97,
+        "description": 0
+      },
+      "height": 0.76,
+      "weight": 22.6,
+      "type1": "normal",
+      "type2": "__undef__",
+      "baseHp": 35,
+      "baseAtk": 45,
+      "baseDfe": 30,
+      "baseSpd": 60,
+      "baseAts": 40,
+      "baseDfs": 35,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "abytroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "splash_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "nucletroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "zap_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "vulcatroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "flame_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "funetroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "dread_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "celestroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "mind_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "agritroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "meadow_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "grelotroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "icicle_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "ancestroll",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "pixie_plate"
+            }
+          ]
+        },
+        {
+          "dbSymbol": "frankentroll",
+          "form": 0,
+          "conditions": []
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 60,
+      "baseLoyalty": 70,
+      "catchRate": 110,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        5
+      ],
+      "hatchSteps": 8960,
+      "babyDbSymbol": "grimelin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "rattled",
+        "run_away",
+        "insomnia"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "133_2_i",
+        "iconShiny": "133_2_i_s",
+        "front": "133_2",
+        "frontShiny": "133_2_s",
+        "back": "133_2_b",
+        "backShiny": "133_2_b_s",
+        "footprint": "",
+        "character": "133_2_c",
+        "characterShiny": "133_2_c_s",
+        "egg": "egg",
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growl",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "quick_attack",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swift",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fake_out",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "low_sweep",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sucker_punch",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 56
+        }
+      ],
+      "names": {
+        "en": "Gobelike",
+        "fr": "Grimelin",
+        "it": "Eevee",
+        "de": "Evoli",
+        "es": "Eevee",
+        "ko": "이브이"
+      },
+      "abilities_data": [
+        {
+          "symbol": "rattled",
+          "textId": 155,
+          "names": {
+            "en": "Rattled",
+            "fr": "Phobique",
+            "it": "Paura",
+            "de": "Hasenfuß",
+            "es": "Cobardía",
+            "ko": "주눅"
+          },
+          "descriptions": {
+            "en": "Dark-, Ghost-, and Bug-type moves scare the Pokémon and boost its Speed stat.",
+            "fr": "Si le Pokémon est touché par une capacité de type Ténèbres, Spectre ou Insecte, sa phobie se révèle et sa Vitesse augmente.",
+            "it": "Le mosse di tipo Buio, Spettro e Coleottero spaventano il Pokémon aumentandone la Velocità.",
+            "de": "Wird es von einer Unlicht-, Geister- oder Käfer-Attacke getroffen, bekommt es Angst und seine Initiative steigt.",
+            "es": "Si le alcanza un movimiento de tipo Siniestro, Bicho o Fantasma, el miedo hace que le suba la Velocidad.",
+            "ko": "악타입과 고스트타입과 벌레타입의 기술을 받으면 주눅이 들어 스피드가 올라간다."
+          }
+        },
+        {
+          "symbol": "run_away",
+          "textId": 50,
+          "names": {
+            "en": "Run Away",
+            "fr": "Fuite",
+            "it": "Fugafacile",
+            "de": "Angsthase",
+            "es": "Fuga",
+            "ko": "도주"
+          },
+          "descriptions": {
+            "en": "Enables a sure getaway from wild Pokémon.",
+            "fr": "Permet de fuir n’importe quel Pokémon sauvage.",
+            "it": "Garantisce la fuga dai Pokémon selvatici.",
+            "de": "Die Flucht vor wilden Pokémon gelingt immer.",
+            "es": "Puede escaparse de todos los Pokémon salvajes.",
+            "ko": "야생 포켓몬으로부터 반드시 도망칠 수 있다."
+          }
+        },
+        {
+          "symbol": "insomnia",
+          "textId": 15,
+          "names": {
+            "en": "Insomnia",
+            "fr": "Insomnia",
+            "it": "Insonnia",
+            "de": "Insomnia",
+            "es": "Insomnio",
+            "ko": "불면"
+          },
+          "descriptions": {
+            "en": "The Pokémon is suffering from insomnia and cannot fall asleep.",
+            "fr": "Le Pokémon est incapable de dormir.",
+            "it": "Il Pokémon soffre d’insonnia e non può addormentarsi.",
+            "de": "Verhindert Einschlafen.",
+            "es": "Su resistencia al sueño le impide quedarse dormido.",
+            "ko": "잠들지 못하는 체질이라 잠듦 상태가 되지 않는다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "growl",
+          "id": 45,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Growl",
+            "fr": "Rugissement",
+            "it": "Ruggito",
+            "de": "Heuler",
+            "es": "Gruñido",
+            "ko": "울음소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "quick_attack",
+          "id": 98,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Quick Attack",
+            "fr": "Vive-Attaque",
+            "it": "Attacco Rapido",
+            "de": "Ruckzuckhieb",
+            "es": "Ataque Rápido",
+            "ko": "전광석화"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "fury_swipes",
+          "id": 154,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
+        },
+        {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fake_out",
+          "id": 252,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Fake Out",
+            "fr": "Bluff",
+            "it": "Bruciapelo",
+            "de": "Mogelhieb",
+            "es": "Sorpresa",
+            "ko": "속이다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "low_sweep",
+          "id": 490,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Low Sweep",
+            "fr": "Balayette",
+            "it": "Calciobasso",
+            "de": "Fußtritt",
+            "es": "Puntapié",
+            "ko": "로킥"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sucker_punch",
+          "id": 389,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "double_edge",
+          "id": 38,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Double-Edge",
+            "fr": "Damoclès",
+            "it": "Sdoppiatore",
+            "de": "Risikotackle",
+            "es": "Doble Filo",
+            "ko": "이판사판태클"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}

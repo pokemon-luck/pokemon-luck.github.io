@@ -1,0 +1,604 @@
+{
+  "klass": "Specie",
+  "id": 116,
+  "dbSymbol": "drakalibur",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 69,
+        "description": 0
+      },
+      "height": 6.8,
+      "weight": 252.1,
+      "type1": "dragon",
+      "type2": "steel",
+      "baseHp": 80,
+      "baseAtk": 90,
+      "baseDfe": 110,
+      "baseSpd": 80,
+      "baseAts": 120,
+      "baseDfs": 80,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 4,
+      "baseExperience": 225,
+      "baseLoyalty": 70,
+      "catchRate": 35,
+      "femaleRate": 50,
+      "breedGroups": [
+        14,
+        10
+      ],
+      "hatchSteps": 10240,
+      "babyDbSymbol": "dracier",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "stalwart",
+        "justified",
+        "heatproof"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "116_i",
+        "iconShiny": "116_i_s",
+        "front": "116",
+        "frontShiny": "116_s",
+        "back": "116_b",
+        "backShiny": "116_b_s",
+        "footprint": "",
+        "character": "116_c",
+        "characterShiny": "116_c_s",
+        "cry": "",
+        "hasFemale": false,
+        "egg": "egg",
+        "iconEgg": "egg"
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_claw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_breath",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "slash",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_tail",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_cannon",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_claw",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sacred_sword",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_rush",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aura_sphere",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "steel_beam",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draco_meteor",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "king_s_shield",
+          "level": 75
+        }
+      ],
+      "names": {
+        "en": "Drakalibur",
+        "fr": "Drakalibur",
+        "it": "Horsea",
+        "de": "Seeper",
+        "es": "Horsea",
+        "ko": "쏘드라"
+      },
+      "abilities_data": [
+        {
+          "symbol": "stalwart",
+          "textId": 242,
+          "names": {
+            "en": "Stalwart",
+            "fr": "Nerfs d'Acier",
+            "it": "Volontà di Ferro",
+            "de": "Stahlrückgrat",
+            "es": "Acérrimo",
+            "ko": "굳건한신념"
+          },
+          "descriptions": {
+            "en": "Ignores the effects of opposing Pokémon’s Abilities and moves that draw in moves.",
+            "fr": "Ignore les effets des capacités ou des talents attirant les capacités.",
+            "it": "Permette di ignorare gli effetti di mosse e abilità che attirano altre mosse.",
+            "de": "Ignoriert die Effekte von Fähigkeiten und Attacken anderer Pokémon, die Attacken auf sich lenken.",
+            "es": "Impide que el rival pueda atraer ataques hacia sí mismo por efecto de su habilidad o sus movimientos.",
+            "ko": "상대의 기술을 끌어모으는 특성이나 기술의 영향을 받지 않는다."
+          }
+        },
+        {
+          "symbol": "justified",
+          "textId": 154,
+          "names": {
+            "en": "Justified",
+            "fr": "Cœur Noble",
+            "it": "Giustizia",
+            "de": "Redlichkeit",
+            "es": "Justiciero",
+            "ko": "정의의마음"
+          },
+          "descriptions": {
+            "en": "Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.",
+            "fr": "Réveille la noblesse du Pokémon lorsqu’il subit une capacité de type Ténèbres, ce qui augmente son Attaque.",
+            "it": "Quando il Pokémon viene colpito da una mossa di tipo Buio, il suo forte senso di giustizia fa sì che l’Attacco aumenti.",
+            "de": "Wird es von einer Unlicht-Attacke getroffen, meldet sich sein Sinn für Gerechtigkeit zu Wort und sein Angriff steigt.",
+            "es": "Si le alcanza un movimiento de tipo Siniestro, aumenta el Ataque debido a su integridad.",
+            "ko": "악타입 공격을 받으면 정의감으로 공격이 올라간다."
+          }
+        },
+        {
+          "symbol": "heatproof",
+          "textId": 85,
+          "names": {
+            "en": "Heatproof",
+            "fr": "Ignifugé",
+            "it": "Antifuoco",
+            "de": "Hitzeschutz",
+            "es": "Ignífugo",
+            "ko": "내열"
+          },
+          "descriptions": {
+            "en": "The heatproof body of the Pokémon halves the damage from Fire-type moves that hit it.",
+            "fr": "Diminue de moitié les dégâts infligés au Pokémon par les capacités de type Feu.",
+            "it": "Il corpo termoresistente del Pokémon dimezza i danni che subisce dalle mosse di tipo Fuoco.",
+            "de": "Sein Hitze abweisender Körper halbiert den durch Feuer-Attacken erlittenen Schaden.",
+            "es": "Su cuerpo, resistente al calor, reduce a la mitad el daño recibido por movimientos de tipo Fuego.",
+            "ko": "내열인 몸으로 인해 불꽃타입 공격의 데미지를 반감한다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "harden",
+          "id": 106,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "metal_claw",
+          "id": 232,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Metal Claw",
+            "fr": "Griffe Acier",
+            "it": "Ferrartigli",
+            "de": "Metallklaue",
+            "es": "Garra Metal",
+            "ko": "메탈크로우"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 35,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "dragon_breath",
+          "id": 225,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Dragon Breath",
+            "fr": "Draco-Souffle",
+            "it": "Dragospiro",
+            "de": "Feuerodem",
+            "es": "Dragoaliento",
+            "ko": "용의숨결"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "slash",
+          "id": 163,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Slash",
+            "fr": "Tranche",
+            "it": "Lacerazione",
+            "de": "Schlitzer",
+            "es": "Cuchillada",
+            "ko": "베어가르기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_tail",
+          "id": 525,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Dragon Tail",
+            "fr": "Draco-Queue",
+            "it": "Codadrago",
+            "de": "Drachenrute",
+            "es": "Cola Dragón",
+            "ko": "드래곤테일"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "metal_sound",
+          "id": 319,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Metal Sound",
+            "fr": "Strido-Son",
+            "it": "Ferrostrido",
+            "de": "Metallsound",
+            "es": "Eco Metálico",
+            "ko": "금속음"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "flash_cannon",
+          "id": 430,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Flash Cannon",
+            "fr": "Luminocanon",
+            "it": "Cannonflash",
+            "de": "Lichtkanone",
+            "es": "Foco Resplandor",
+            "ko": "러스터캐논"
+          },
+          "category": "special",
+          "type": "steel",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_claw",
+          "id": 337,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Dragon Claw",
+            "fr": "Draco-Griffe",
+            "it": "Dragartigli",
+            "de": "Drachenklaue",
+            "es": "Garra Dragón",
+            "ko": "드래곤크루"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_head",
+          "id": 442,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Iron Head",
+            "fr": "Tête de Fer",
+            "it": "Metaltestata",
+            "de": "Eisenschädel",
+            "es": "Cabeza de Hierro",
+            "ko": "아이언헤드"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sacred_sword",
+          "id": 533,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Sacred Sword",
+            "fr": "Lame Sainte",
+            "it": "Spadasolenne",
+            "de": "Sanctoklinge",
+            "es": "Espada Santa",
+            "ko": "성스러운칼"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_rush",
+          "id": 407,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Dragon Rush",
+            "fr": "Draco-Charge",
+            "it": "Dragofuria",
+            "de": "Drachenstoß",
+            "es": "Carga Dragón",
+            "ko": "드래곤다이브"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "steel_beam",
+          "id": 724,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Searing Sunraze Smash",
+            "fr": "Métalaser",
+            "it": "Supercollisione Solare",
+            "de": "Schmetternde Sonnenwalze",
+            "es": "Embestida Solar",
+            "ko": "선샤인스매셔"
+          },
+          "category": "special",
+          "type": "steel",
+          "pp": 5,
+          "power": 140,
+          "accuracy": 95
+        },
+        {
+          "symbol": "draco_meteor",
+          "id": 434,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Draco Meteor",
+            "fr": "Draco-Météore",
+            "it": "Dragobolide",
+            "de": "Draco Meteor",
+            "es": "Cometa Draco",
+            "ko": "용성군"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 5,
+          "power": 130,
+          "accuracy": 90
+        },
+        {
+          "symbol": "king_s_shield",
+          "id": 588,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "King’s Shield",
+            "fr": "Bouclier Royal",
+            "it": "Scudo Reale",
+            "de": "Königsschild",
+            "es": "Escudo Real",
+            "ko": "킹실드"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}
