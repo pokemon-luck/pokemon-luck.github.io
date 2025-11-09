@@ -98,14 +98,6 @@ export class PokemonRenderer {
             `;
         }
 
-        // const evolutionsData = evolutions.length > 0 ? evolutions.map(evo => `
-        //     <a href="PokemonSearch.html?pokemon=${evo.dbSymbol}&lang=${this.languageManager.getCurrentLanguage()}" 
-        //        class="evolution-item" style="text-decoration: none; color: inherit; display: block; pointer-events: auto !important; position: relative; z-index: 999;width:40%;margin:0">
-        //         <img src="data/pokefront/${evo.dbSymbol}.png" alt="${this.capitalizeFirstLetter(evo.dbSymbol)}">
-        //         <p>${evo.name} (level ${evo.level})</p>
-        //     </a>
-        // `).join('') : 'None';
-
         return `
             <div class="grid-item" style="min-height:0px;height:auto">
                 <h2>${await this.languageManager.getTranslation('Evolution')}</h2>
