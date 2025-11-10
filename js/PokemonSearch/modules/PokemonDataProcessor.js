@@ -17,7 +17,9 @@ export class PokemonDataProcessor {
             abilities: this.processAbilities(form),
             moves: await this.processMoves(form),
             evolutions: await this.processEvolutions(form),
-            types: this.processTypes(form)
+            breeding: await this.processBreeding(form),
+            types: this.processTypes(form),
+            navigation: await this.processNavigation(data),
         };
     }
 
@@ -168,7 +170,6 @@ export class PokemonDataProcessor {
             const response = await fetch(`./data/pokemon_consolidated/${evo.dbSymbol}.json`);
             const data = await response.json();
 
-            console.log(evo.conditions);
             evolutions[index] = {
                 dbSymbol: evo.dbSymbol,
                 name: data.forms[0].names[lang],
@@ -178,12 +179,73 @@ export class PokemonDataProcessor {
         return evolutions;
     }
 
+    async processBreeding(form) {
+        const langIndex = this.languageManager.getLangIndex();
+        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+        const lang = languages[langIndex] || 'en';
+
+        let groups = [];
+        for (let index = 0; index < form.breedGroups.filter((value, index, array) => array.indexOf(value) === index).length; index++) {
+            const group = form.breedGroups[index];
+
+            groups[index] = await this.languageManager.getTranslation("breed_" + group);
+        }
+
+        const response = await fetch(`./data/pokemon_consolidated/${form.babyDbSymbol}.json`);
+        const data = await response.json();
+
+        return {
+            breedGroups: groups,
+            hatchSteps: form.hatchSteps,
+            babyForm: data.forms[0].names[lang]
+        };
+    }
+
     processTypes(form) {
         const type1French = this.removeAccents(this.translateTypeToFrench(form.type1));
         const type2French = form.type2 !== "__undef__" ? 
             this.removeAccents(this.translateTypeToFrench(form.type2)) : null;
         
         return { type1French, type2French };
+    }
+
+    async processNavigation(pokemon) {
+        const langIndex = this.languageManager.getLangIndex();
+        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+        const lang = languages[langIndex] || 'en';
+
+        const response = await fetch(`./data/national.json`);
+        const data = await response.json();
+
+        const index = data.creatures.findIndex(pk => pk.dbSymbol == pokemon.dbSymbol);
+
+        let previous = null;
+        let next = null;
+
+        if (index > 0) {
+            const res = await fetch(`./data/pokemon_consolidated/${data.creatures[index - 1].dbSymbol}.json`);
+            const pk = await res.json();
+
+            previous = {
+                name: pk.forms[0].names[lang],
+                dbSymbol: pk.dbSymbol
+            };
+        }
+
+        if (index < data.creatures.length - 1) {
+            const res = await fetch(`./data/pokemon_consolidated/${data.creatures[index + 1].dbSymbol}.json`);
+            const pk = await res.json();
+
+            next = {
+                name: pk.forms[0].names[lang],
+                dbSymbol: pk.dbSymbol
+            };
+        }
+
+        return {
+            "previous": previous,
+            "next": next
+        }
     }
 
     translateTypeToFrench(type) {

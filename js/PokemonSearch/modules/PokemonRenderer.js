@@ -8,20 +8,57 @@ export class PokemonRenderer {
     }
 
     async renderPokemon(processedData, pokemonName) {
-        const { form, name, stats, abilities, moves, evolutions, types } = processedData;
+        const { form, name, stats, abilities, moves, evolutions, breeding, types, navigation } = processedData;
         
         const sections = await Promise.all([
+            this.renderNavigation(navigation),
             this.renderMainInfo(pokemonName, name, types),
             this.renderStats(stats),
             this.renderDetails(form),
             this.renderEvolution(evolutions),
             this.renderExperience(form),
-            this.renderBreeding(form),
+            this.renderBreeding(breeding),
             this.renderAbilities(abilities),
             this.renderMoves(moves)
         ]);
 
         return sections.join('');
+    }
+
+    async renderNavigation(navigation) {
+        let nav = [];
+        if (navigation.previous) {
+            nav[0] = `
+            <a style="width:100%;color:white;text-decoration:none;" href="PokemonSearch.html?pokemon=${navigation.previous.dbSymbol}">
+                <div class="grid-item grid-item-large" style="display:flex;justify-content:start;align-items:center;gap:10px;min-height:0px;height:25px;">
+                    <h2><span>&#11207;</span></h2>
+                    <img src="data/pokefront/${navigation.previous.dbSymbol}.png" alt="${navigation.previous.dbSymbol}" style="width:50px;height:50px;position:relative;bottom:10px;">
+                    <p>${navigation.previous.name}</p>
+                </div>
+            </a>
+            `;
+        } else {
+            nav[0] = '<div style="width:100%"></div>'
+        }
+        if (navigation.next) {
+            nav[1] = `
+            <a style="width:100%;color:white;text-decoration:none;" href="PokemonSearch.html?pokemon=${navigation.next.dbSymbol}">
+                <div class="grid-item grid-item-large" style="display:flex;justify-content:end;align-items:center;gap:10px;min-height:0px;height:25px;">
+                    <p>${navigation.next.name}</p>
+                    <img src="data/pokefront/${navigation.next.dbSymbol}.png" alt="${navigation.next.dbSymbol}" style="width:50px;height:50px;position:relative;bottom:10px;">
+                    <h2><span>&#11208;</span></h2>
+                </div>
+            </a>
+            `;
+        } else {
+            nav[1] = '<div style="width:100%"></div>'
+        }
+
+        return `
+        <div class="grid-container-layer1">
+            ${nav.join('')}
+        </div>
+        `;
     }
 
     async renderMainInfo(pokemonName, name, types) {
@@ -115,18 +152,19 @@ export class PokemonRenderer {
             <div class="grid-item">
                 <h2>${await this.languageManager.getTranslation('Experience')}</h2>
                 <p><span>${await this.languageManager.getTranslation("Base Experience")}:</span> ${form.baseExperience}</p>
-                <p><span>${await this.languageManager.getTranslation("Experience Type")}:</span> ${form.experienceType}</p>
+                <p><span>${await this.languageManager.getTranslation("Experience Type")}:</span> ${await this.languageManager.getTranslation("exp_" + form.experienceType)}</p>
             </div>
         `;
     }
 
-    async renderBreeding(form) {
+    async renderBreeding(breeding) {
         return `
             <div class="grid-item">
                 <h2>${await this.languageManager.getTranslation("Breeding Info")}</h2>
-                <p><span>${await this.languageManager.getTranslation("Egg Groups")}:</span> ${form.breedGroups.join(', ')}</p>
-                <p><span>${await this.languageManager.getTranslation("Hatch Steps")}:</span> ${form.hatchSteps}</p>
-                <p><span>${await this.languageManager.getTranslation("Baby form")}:</span> ${this.capitalizeFirstLetter(form.babyDbSymbol)}</p>
+                <p><span>${await this.languageManager.getTranslation("Egg Groups")}:</span> ${breeding.breedGroups.join(', ')}</p>
+                <p><p>
+                <p><span>${await this.languageManager.getTranslation("Hatch Steps")}:</span> ${breeding.hatchSteps}</p>
+                <p><span>${await this.languageManager.getTranslation("Baby form")}:</span> ${breeding.babyForm}</p>
             </div>
         </div>`;
     }
