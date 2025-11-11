@@ -20,6 +20,7 @@ PSDK_NATIONAL_DEX_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\dex\reg
 PSDK_CSV_DIALOGS_PATH = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Text\Dialogs')
 PSDK_POKEMON_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\pokemon')
 PSDK_MOVES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\moves')
+PSDK_ITEMS_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\items')
 PSDK_ABILITIES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\abilities')
 PSDK_POKEFRONT_SPRITES_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'graphics\pokedex\pokefront')
 
@@ -28,12 +29,14 @@ WEB_NATIONAL_DEX_PATH = os.path.join(OUTPUT_DATA_FOLDER, 'national.json')
 WEB_TRANSLATIONS_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'translations')
 WEB_POKEMON_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokemon_consolidated')
 WEB_POKEFRONT_UPSCALED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokefront') # Now inside the data folder
+WEB_FUNC_JSON_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'func')
 
 # CSV File IDs and their roles
 CSV_POKEMON_NAMES_ID = '100000'
 CSV_ABILITIES_NAMES_ID = '100004'
 CSV_ABILITIES_DESCRIPTIONS_ID = '100005'
 CSV_MOVES_NAMES_ID = '100006'
+CSV_ITEMS_NAMES_ID = '100012'
 
 # Language mapping for CSVs (assuming standard PSDK order)
 # Based on previous context: ['en', 'fr', 'it', 'de', 'es', 'ko', 'kana']
@@ -86,6 +89,7 @@ def run_setup():
     abilities_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_NAMES_ID}.csv'))
     abilities_descriptions_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_DESCRIPTIONS_ID}.csv'))
     moves_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_MOVES_NAMES_ID}.csv'))
+    items_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ITEMS_NAMES_ID}.csv'))
 
     # 4. Upscale and copy Pokémon front sprites
     print("Upscaling and copying Pokémon front sprites...")
@@ -135,7 +139,43 @@ def run_setup():
             for i, lang in enumerate(LANGUAGES):
                 translated_names[lang] = get_translated_text_from_csv(pokemon_names_csv, text_id + 1, i)
             form['names'] = translated_names
-            print(form['names'])
+
+            # Consolidate Evolutions
+            for i, evolution in enumerate(form.get('evolutions', [])):
+                for j, condition in enumerate(evolution.get('conditions', [])):
+                    if condition['type'] == 'itemHold' or condition['type'] == 'stone':
+                        item_json_path = os.path.join(PSDK_ITEMS_JSONS_FOLDER, f'{condition['value']}.json')
+                        with open(item_json_path, 'r', encoding='utf-8') as f:
+                            item_data = json.load(f)
+                        translated_items = {}
+                        for k, lang in enumerate(LANGUAGES):
+                            translated_items[lang] = get_translated_text_from_csv(items_names_csv, item_data['id'] + 1, k)
+                        form['evolutions'][i]['conditions'][j]['names'] = translated_items
+                    if condition['type'] == 'func':
+                        func_json_path = os.path.join(WEB_FUNC_JSON_FOLDER, f'func.json')
+                        with open(func_json_path, 'r', encoding='utf-8') as f:
+                            func_data = json.load(f)
+                        form['evolutions'][i]['conditions'][j]['names'] = func_data[condition['value']]
+                    if condition['type'] == 'skill1':
+                        move_json_path = os.path.join(PSDK_MOVES_JSONS_FOLDER, f'{condition['value']}.json')
+                        with open(move_json_path, 'r', encoding='utf-8') as f:
+                            move_details = json.load(f)
+                        translated_moves = {}
+                        for k, lang in enumerate(LANGUAGES):
+                            translated_moves[lang] = get_translated_text_from_csv(moves_names_csv, move_details['id'] + 1, k)
+                        form['evolutions'][i]['conditions'][j]['names'] = translated_moves
+                    if condition['type'] == 'gender':
+                        if condition['value'] == 1:
+                            translated_gender = {
+                                'en': 'Male',
+                                'fr': 'Mâle'
+                            }
+                        else:
+                            translated_gender = {
+                                'en': 'Female',
+                                'fr': 'Femelle'
+                            }
+                        form['evolutions'][i]['conditions'][j]['names'] = translated_gender
 
             # Consolidate Abilities
             consolidated_abilities = []
