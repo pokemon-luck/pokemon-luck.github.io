@@ -27,16 +27,6 @@
       "evDfs": 1,
       "evolutions": [
         {
-          "dbSymbol": "wendhiver",
-          "form": 0,
-          "conditions": [
-            {
-              "type": "minLevel",
-              "value": 26
-            }
-          ]
-        },
-        {
           "dbSymbol": "crampule",
           "form": 0,
           "conditions": [
@@ -46,7 +36,25 @@
             },
             {
               "type": "skill1",
-              "value": "flame_burst"
+              "value": "flame_burst",
+              "names": {
+                "en": "Flame Burst",
+                "fr": "Rebondifeu",
+                "it": "Pirolancio",
+                "de": "Funkenflug",
+                "es": "Pirotecnia",
+                "ko": "불꽃튀기기"
+              }
+            }
+          ]
+        },
+        {
+          "dbSymbol": "wendhiver",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 25
             }
           ]
         }
@@ -89,10 +97,10 @@
         "footprint": "",
         "character": "79_c",
         "characterShiny": "79_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
       "moveSet": [
         {
@@ -134,6 +142,11 @@
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
           "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_burst",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
@@ -387,6 +400,25 @@
           "type": "ice",
           "pp": 30,
           "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flame_burst",
+          "id": 481,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Flame Burst",
+            "fr": "Rebondifeu",
+            "it": "Pirolancio",
+            "de": "Funkenflug",
+            "es": "Pirotecnia",
+            "ko": "불꽃튀기기"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         },
         {
