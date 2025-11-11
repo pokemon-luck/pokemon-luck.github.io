@@ -83,93 +83,88 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "bite",
+          "move": "scratch",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_gas",
+          "move": "rot_claw",
           "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
-          "level": 2
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sucker_punch",
-          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "howl",
-          "level": 6
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "lick",
-          "level": 10
+          "move": "bite",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
+          "move": "fester",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "quick_attack",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "maggot_lash",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 20
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soul_siphon",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
-          "level": 35
+          "move": "bone_fist",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
-          "level": 40
+          "move": "putrid_fangs",
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "night_slash",
-          "level": 45
+          "move": "hone_claws",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_jab",
+          "move": "grave_vengeance",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
           "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "gunk_shot",
-          "level": 55
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 65
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 70
+          "level": 63
         }
       ],
       "names": {
@@ -244,86 +239,48 @@
       ],
       "moves_data": [
         {
-          "symbol": "bite",
-          "id": 44,
+          "symbol": "scratch",
+          "id": 10,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Bite",
-            "fr": "Morsure",
-            "it": "Morso",
-            "de": "Biss",
-            "es": "Mordisco",
-            "ko": "물기"
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
           },
           "category": "physical",
-          "type": "dark",
-          "pp": 25,
-          "power": 60,
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "poison_gas",
-          "id": 139,
+          "symbol": "rot_claw",
+          "id": 732,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Poison Gas",
-            "fr": "Gaz Toxik",
-            "it": "Velenogas",
-            "de": "Giftwolke",
-            "es": "Gas Venenoso",
-            "ko": "독가스"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
-          "symbol": "toxic_spikes",
-          "id": 390,
-          "klass": "LevelLearnableMove",
-          "level": 2,
-          "names": {
-            "en": "Toxic Spikes",
-            "fr": "Pics Toxik",
-            "it": "Fielepunte",
-            "de": "Giftspitzen",
-            "es": "Púas Tóxicas",
-            "ko": "독압정"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sucker_punch",
-          "id": 389,
-          "klass": "LevelLearnableMove",
-          "level": 4,
-          "names": {
-            "en": "Sucker Punch",
-            "fr": "Coup Bas",
-            "it": "Sbigoattacco",
-            "de": "Tiefschlag",
-            "es": "Golpe Bajo",
-            "ko": "기습"
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
           },
           "category": "physical",
-          "type": "dark",
-          "pp": 5,
-          "power": 70,
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "howl",
           "id": 336,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 5,
           "names": {
             "en": "Howl",
             "fr": "Grondement",
@@ -339,48 +296,86 @@
           "accuracy": 0
         },
         {
-          "symbol": "lick",
-          "id": 122,
+          "symbol": "bite",
+          "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
-            "en": "Lick",
-            "fr": "Léchouille",
-            "it": "Leccata",
-            "de": "Schlecker",
-            "es": "Lengüetazo",
-            "ko": "핥기"
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
           },
           "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 30,
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
+          "symbol": "fester",
+          "id": 752,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "quick_attack",
+          "id": 98,
           "klass": "LevelLearnableMove",
           "level": 15,
           "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
+            "en": "Quick Attack",
+            "fr": "Vive-Attaque",
+            "it": "Attacco Rapido",
+            "de": "Ruckzuckhieb",
+            "es": "Ataque Rápido",
+            "ko": "전광석화"
           },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "maggot_lash",
+          "id": 735,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Maggot Lash",
+            "fr": "Fouet Grouillant",
+            "it": "Fiammabam",
+            "de": "Flackerbrand",
+            "es": "Flarembestida",
+            "ko": "이글이글번"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 20,
+          "power": 60,
           "accuracy": 100
         },
         {
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 22,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -396,10 +391,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "soul_siphon",
+          "id": 744,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Soul Siphon",
+            "fr": "Siphon'Âme",
+            "it": "Cannone Dynamax",
+            "de": "Dynamax-Kanone",
+            "es": "Cañón Dinamax",
+            "ko": "다이맥스포"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 30,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -415,135 +429,97 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic",
-          "id": 92,
+          "symbol": "bone_fist",
+          "id": 734,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 34,
           "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "LevelLearnableMove",
-          "level": 35,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
+            "en": "Bone Fist",
+            "fr": "Poing Osseux",
+            "it": "Elettrozap",
+            "de": "Knisterladung",
+            "es": "Joltioparálisis",
+            "ko": "찌릿찌릿일렉"
           },
           "category": "physical",
-          "type": "ghost",
+          "type": "undead",
           "pp": 15,
-          "power": 70,
+          "power": 75,
           "accuracy": 100
         },
         {
-          "symbol": "sludge_bomb",
-          "id": 188,
+          "symbol": "putrid_fangs",
+          "id": 733,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 38,
           "names": {
-            "en": "Sludge Bomb",
-            "fr": "Bombe Beurk",
-            "it": "Fangobomba",
-            "de": "Matschbombe",
-            "es": "Bomba Lodo",
-            "ko": "오물폭탄"
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "hone_claws",
+          "id": 468,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Hone Claws",
+            "fr": "Aiguisage",
+            "it": "Unghiaguzze",
+            "de": "Klauenwetzer",
+            "es": "Afilagarras",
+            "ko": "손톱갈기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grave_vengeance",
+          "id": 748,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "No Retreat",
+            "fr": "Vengeance Tombale",
+            "it": "Spalle al Muro",
+            "de": "Finalformation",
+            "es": "Bastión Final",
+            "ko": "배수의진"
           },
           "category": "special",
-          "type": "poison",
+          "type": "undead",
           "pp": 10,
           "power": 90,
           "accuracy": 100
         },
         {
-          "symbol": "night_slash",
-          "id": 400,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Night Slash",
-            "fr": "Tranche-Nuit",
-            "it": "Nottesferza",
-            "de": "Nachthieb",
-            "es": "Tajo Umbrío",
-            "ko": "깜짝베기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "poison_jab",
-          "id": 398,
+          "symbol": "deaths_favour",
+          "id": 760,
           "klass": "LevelLearnableMove",
           "level": 50,
           "names": {
-            "en": "Poison Jab",
-            "fr": "Direct Toxik",
-            "it": "Velenpuntura",
-            "de": "Gifthieb",
-            "es": "Puya Nociva",
-            "ko": "독찌르기"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "gunk_shot",
-          "id": 441,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Gunk Shot",
-            "fr": "Détricanon",
-            "it": "Sporcolancio",
-            "de": "Mülltreffer",
-            "es": "Lanzamugre",
-            "ko": "더스트슈트"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 5,
-          "power": 120,
-          "accuracy": 80
-        },
-        {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
           },
           "category": "status",
-          "type": "dark",
-          "pp": 20,
+          "type": "undead",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         },
@@ -551,7 +527,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 56,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -570,7 +546,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 63,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",

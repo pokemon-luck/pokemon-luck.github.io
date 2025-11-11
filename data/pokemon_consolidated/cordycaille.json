@@ -9,8 +9,8 @@
         "name": 243,
         "description": 0
       },
-      "height": 0.01,
-      "weight": 0.01,
+      "height": 1.7,
+      "weight": 10.7,
       "type1": "ground",
       "type2": "undead",
       "baseHp": 70,
@@ -26,11 +26,11 @@
       "evAts": 0,
       "evDfs": 1,
       "evolutions": [],
-      "experienceType": 0,
-      "baseExperience": 40,
+      "experienceType": 4,
+      "baseExperience": 165,
       "baseLoyalty": 70,
-      "catchRate": 45,
-      "femaleRate": 50,
+      "catchRate": 70,
+      "femaleRate": -1,
       "breedGroups": [
         15,
         15
@@ -49,9 +49,9 @@
         }
       ],
       "abilities": [
-        "__undef__",
-        "__undef__",
-        "__undef__"
+        "shed_skin",
+        "effect_spore",
+        "poison_heal"
       ],
       "frontOffsetY": 0,
       "resources": {
@@ -69,7 +69,123 @@
         "cry": "",
         "hasFemale": false
       },
-      "moveSet": [],
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_armor",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fester",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rot_claw",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ingrain",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "maggot_lash",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spore",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "revenants_grasp",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stun_spore",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "strength_sap",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grave_rend",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic_spikes",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "miasma_veil",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rearise",
+          "level": 70
+        }
+      ],
       "names": {
         "en": "Cordyshed",
         "fr": "Cordycaille",
@@ -80,16 +196,505 @@
       },
       "abilities_data": [
         {
-          "symbol": "__undef__",
+          "symbol": "shed_skin",
+          "textId": 61,
           "names": {
-            "en": "__undef__"
+            "en": "Shed Skin",
+            "fr": "Mue",
+            "it": "Muta",
+            "de": "Expidermis",
+            "es": "Mudar",
+            "ko": "탈피"
           },
           "descriptions": {
-            "en": "Description not found."
+            "en": "The Pokémon may heal its own status conditions by shedding its skin.",
+            "fr": "Le Pokémon soigne parfois ses altérations de statut en muant.",
+            "it": "Il Pokémon può guarire dai problemi di stato facendo la muta completa della pelle.",
+            "de": "Das Pokémon befreit sich eventuell von Statusproblemen, indem es seine Haut abstreift.",
+            "es": "Puede curar sus problemas de estado al mudar la piel.",
+            "ko": "몸의 껍질을 벗어 던져 상태 이상을 회복할 때가 있다."
+          }
+        },
+        {
+          "symbol": "effect_spore",
+          "textId": 27,
+          "names": {
+            "en": "Effect Spore",
+            "fr": "Pose Spore",
+            "it": "Spargispora",
+            "de": "Sporenwirt",
+            "es": "Efecto Espora",
+            "ko": "포자"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon may inflict poison, sleep, or paralysis on its attacker.",
+            "fr": "Peut paralyser, empoisonner ou endormir l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può causare avvelenamento, paralisi o sonno a chi manda a segno un attacco diretto.",
+            "de": "Wird dieses Pokémon durch eine direkte Attacke angegriffen, kann das beim Gegner Paralyse, Vergiftung oder Schlaf auslösen.",
+            "es": "Puede dormir, envenenar o paralizar al Pokémon con el que entre en contacto al recibir un ataque.",
+            "ko": "공격으로 자신에게 접촉한 상대를 독이나 마비, 잠듦 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "poison_heal",
+          "textId": 90,
+          "names": {
+            "en": "Poison Heal",
+            "fr": "Soin Poison",
+            "it": "Velencura",
+            "de": "Aufheber",
+            "es": "Antídoto",
+            "ko": "포이즌힐"
+          },
+          "descriptions": {
+            "en": "Restores HP if the Pokémon is poisoned instead of losing HP.",
+            "fr": "Quand le Pokémon est empoisonné, il regagne des PV au lieu d’en perdre.",
+            "it": "Se il Pokémon è avvelenato, recupera PS anziché perderli.",
+            "de": "Das Pokémon erleidet keinen Schaden durch Vergiftung, sondern regeneriert KP.",
+            "es": "Si resulta envenenado, recupera PS en vez de perderlos.",
+            "ko": "독 상태가 되면 HP가 줄지 않고 증가한다."
           }
         }
       ],
-      "moves_data": []
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid_armor",
+          "id": 151,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fester",
+          "id": 752,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rot_claw",
+          "id": 732,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ingrain",
+          "id": 275,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Ingrain",
+            "fr": "Racines",
+            "it": "Radicamento",
+            "de": "Verwurzler",
+            "es": "Arraigo",
+            "ko": "뿌리박기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "maggot_lash",
+          "id": 735,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Maggot Lash",
+            "fr": "Fouet Grouillant",
+            "it": "Fiammabam",
+            "de": "Flackerbrand",
+            "es": "Flarembestida",
+            "ko": "이글이글번"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spore",
+          "id": 147,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Spore",
+            "fr": "Spore",
+            "it": "Spora",
+            "de": "Pilzspore",
+            "es": "Espora",
+            "ko": "버섯포자"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "revenants_grasp",
+          "id": 756,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Court Change",
+            "fr": "Poigne Revenant",
+            "it": "Cambiocampo",
+            "de": "Seitenwechsel",
+            "es": "Cambio de Cancha",
+            "ko": "코트체인지"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stun_spore",
+          "id": 78,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Stun Spore",
+            "fr": "Para-Spore",
+            "it": "Paralizzante",
+            "de": "Stachelspore",
+            "es": "Paralizador",
+            "ko": "저리가루"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "splash",
+          "id": 150,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Splash",
+            "fr": "Trempette",
+            "it": "Splash",
+            "de": "Platscher",
+            "es": "Salpicadura",
+            "ko": "튀어오르기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Snipe Shot",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "strength_sap",
+          "id": 668,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Strength Sap",
+            "fr": "Vole-Force",
+            "it": "Assorbiforza",
+            "de": "Kraftabsorber",
+            "es": "Absorbefuerza",
+            "ko": "힘흡수"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grave_rend",
+          "id": 737,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Baddy Bad",
+            "fr": "Explotombe",
+            "it": "Zona Buiabuia",
+            "de": "Quälzone",
+            "es": "Umbreozona",
+            "ko": "아그아그존"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "miasma_veil",
+          "id": 755,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Miasma Veil",
+            "fr": "Voile Miasmique",
+            "it": "Branchiomorso",
+            "de": "Kiemenbiss",
+            "es": "Branquibocado",
+            "ko": "아가미물기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rearise",
+          "id": 757,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Rearise",
+            "fr": "Réviviscence",
+            "it": "Dynafiammata",
+            "de": "Dyna-Brand",
+            "es": "Maxignición",
+            "ko": "다이번"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 1,
+          "power": 0,
+          "accuracy": 100
+        }
+      ]
     }
   ]
 }

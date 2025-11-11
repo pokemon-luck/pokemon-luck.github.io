@@ -9,8 +9,8 @@
         "name": 241,
         "description": 0
       },
-      "height": 0.01,
-      "weight": 0.01,
+      "height": 0.6,
+      "weight": 2.1,
       "type1": "ground",
       "type2": "poison",
       "baseHp": 45,
@@ -29,24 +29,24 @@
         {
           "dbSymbol": "toxiguane",
           "form": 0,
-          "conditions": []
-        },
-        {
-          "dbSymbol": "cordycaille",
-          "form": 0,
-          "conditions": []
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 30
+            }
+          ]
         }
       ],
-      "experienceType": 0,
-      "baseExperience": 40,
+      "experienceType": 4,
+      "baseExperience": 60,
       "baseLoyalty": 70,
-      "catchRate": 45,
+      "catchRate": 255,
       "femaleRate": 50,
       "breedGroups": [
-        15,
-        15
+        1,
+        14
       ],
-      "hatchSteps": 1024,
+      "hatchSteps": 5120,
       "babyDbSymbol": "caimue",
       "babyForm": 0,
       "itemHeld": [
@@ -60,9 +60,9 @@
         }
       ],
       "abilities": [
-        "__undef__",
-        "__undef__",
-        "__undef__"
+        "shed_skin",
+        "poison_point",
+        "dry_skin"
       ],
       "frontOffsetY": 0,
       "resources": {
@@ -80,7 +80,88 @@
         "cry": "",
         "hasFemale": false
       },
-      "moveSet": [],
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_sting",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dig",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic_spikes",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "coil",
+          "level": 45
+        }
+      ],
       "names": {
         "en": "Shedino",
         "fr": "Caïmue",
@@ -91,16 +172,372 @@
       },
       "abilities_data": [
         {
-          "symbol": "__undef__",
+          "symbol": "shed_skin",
+          "textId": 61,
           "names": {
-            "en": "__undef__"
+            "en": "Shed Skin",
+            "fr": "Mue",
+            "it": "Muta",
+            "de": "Expidermis",
+            "es": "Mudar",
+            "ko": "탈피"
           },
           "descriptions": {
-            "en": "Description not found."
+            "en": "The Pokémon may heal its own status conditions by shedding its skin.",
+            "fr": "Le Pokémon soigne parfois ses altérations de statut en muant.",
+            "it": "Il Pokémon può guarire dai problemi di stato facendo la muta completa della pelle.",
+            "de": "Das Pokémon befreit sich eventuell von Statusproblemen, indem es seine Haut abstreift.",
+            "es": "Puede curar sus problemas de estado al mudar la piel.",
+            "ko": "몸의 껍질을 벗어 던져 상태 이상을 회복할 때가 있다."
+          }
+        },
+        {
+          "symbol": "poison_point",
+          "textId": 38,
+          "names": {
+            "en": "Poison Point",
+            "fr": "Point Poison",
+            "it": "Velenopunto",
+            "de": "Giftdorn",
+            "es": "Punto Tóxico",
+            "ko": "독가시"
+          },
+          "descriptions": {
+            "en": "Contact with the Pokémon may poison the attacker.",
+            "fr": "Peut empoisonner l’attaquant lorsque le Pokémon subit une attaque directe.",
+            "it": "Può avvelenare chi manda a segno un attacco diretto.",
+            "de": "Vergiftet den Angreifer bei Berührung eventuell.",
+            "es": "Puede envenenar al mínimo contacto.",
+            "ko": "자신과 접촉한 상대를 독 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "dry_skin",
+          "textId": 87,
+          "names": {
+            "en": "Dry Skin",
+            "fr": "Peau Sèche",
+            "it": "Pellearsa",
+            "de": "Trockenheit",
+            "es": "Piel Seca",
+            "ko": "건조피부"
+          },
+          "descriptions": {
+            "en": "Restores HP in rain or when hit by Water-type moves. Reduces HP in harsh sunlight, and increases the damage received from Fire-type moves.",
+            "fr": "Le Pokémon perd des PV quand le soleil brille, mais il en regagne lorsqu’il pleut ou s’il est touché par une capacité Eau. Il subit aussi plus de dégâts de Feu.",
+            "it": "Il Pokémon recupera PS se piove o se subisce mosse di tipo Acqua, ma perde PS con la luce solare intensa. Subisce più danni da mosse di tipo Fuoco.",
+            "de": "Bei Sonnenschein verliert das Pokémon KP und der Schaden durch Feuer-Attacken steigt. Bei Regen und Treffern durch Wasser-Attacken regeneriert es KP.",
+            "es": "Pierde PS si hace sol y los recupera si llueve o recibe un movimiento de tipo Agua. Los movimientos de tipo Fuego, por su parte, le hacen más daño de lo normal.",
+            "ko": "비가 오는 날씨나 물타입의 기술로 HP가 회복되고 맑을 때나 불꽃타입의 기술로는 줄어든다."
           }
         }
       ],
-      "moves_data": []
+      "moves_data": [
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_sting",
+          "id": 40,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Poison Sting",
+            "fr": "Dard-Venin",
+            "it": "Velenospina",
+            "de": "Giftstachel",
+            "es": "Picotazo Veneno",
+            "ko": "독침"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 35,
+          "power": 15,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acid",
+          "id": 51,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Acid",
+            "fr": "Acide",
+            "it": "Acido",
+            "de": "Säure",
+            "es": "Ácido",
+            "ko": "용해액"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dig",
+          "id": 91,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Dig",
+            "fr": "Tunnel",
+            "it": "Fossa",
+            "de": "Schaufler",
+            "es": "Excavar",
+            "ko": "구멍파기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "screech",
+          "id": 103,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "sludge",
+          "id": 124,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Sludge",
+            "fr": "Détritus",
+            "it": "Fango",
+            "de": "Schlammbad",
+            "es": "Residuos",
+            "ko": "오물공격"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "coil",
+          "id": 489,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Coil",
+            "fr": "Enroulement",
+            "it": "Arrotola",
+            "de": "Einrollen",
+            "es": "Enrosque",
+            "ko": "똬리틀기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
     }
   ]
 }

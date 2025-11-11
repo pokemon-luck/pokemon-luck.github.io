@@ -49,9 +49,9 @@
         }
       ],
       "abilities": [
-        "__undef__",
-        "__undef__",
-        "__undef__"
+        "thick_fat",
+        "guts",
+        "regenerator"
       ],
       "frontOffsetY": 0,
       "resources": {
@@ -72,13 +72,88 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "fester",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_powder",
-          "level": 2
+          "move": "rot_claw",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "miasma_veil",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bone_fist",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "defacement",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "revenants_grasp",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grave_rend",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rearise",
+          "level": 70
         }
       ],
       "names": {
@@ -91,16 +166,86 @@
       },
       "abilities_data": [
         {
-          "symbol": "__undef__",
+          "symbol": "thick_fat",
+          "textId": 47,
           "names": {
-            "en": "__undef__"
+            "en": "Thick Fat",
+            "fr": "Isograisse",
+            "it": "Grassospesso",
+            "de": "Speckschicht",
+            "es": "Sebo",
+            "ko": "두꺼운지방"
           },
           "descriptions": {
-            "en": "Description not found."
+            "en": "The Pokémon is protected by a layer of thick fat, which halves the damage taken from Fire- and Ice-type moves.",
+            "fr": "Le Pokémon est protégé par une épaisse couche de graisse qui diminue de moitié les dégâts qu’il subit des capacités de types Feu et Glace.",
+            "it": "Il Pokémon è protetto da uno spesso strato di grasso che dimezza il danno causato da mosse di tipo Fuoco e Ghiaccio.",
+            "de": "Das Pokémon wird von einer dicken Fettschicht geschützt, was den durch Feuer- und Eis-Attacken erlittenen Schaden halbiert.",
+            "es": "Gracias a la gruesa capa de grasa que lo protege, reduce a la mitad el daño que recibe de ataques de tipo Fuego o Hielo.",
+            "ko": "두꺼운 지방으로 보호되고 있어 불꽃타입과 얼음타입의 기술의 데미지를 반감시킨다."
+          }
+        },
+        {
+          "symbol": "guts",
+          "textId": 62,
+          "names": {
+            "en": "Guts",
+            "fr": "Cran",
+            "it": "Dentistretti",
+            "de": "Adrenalin",
+            "es": "Agallas",
+            "ko": "근성"
+          },
+          "descriptions": {
+            "en": "It’s so gutsy that having a status condition boosts the Pokémon’s Attack stat.",
+            "fr": "Augmente l’Attaque du Pokémon s’il est affecté par une altération de statut.",
+            "it": "Se il Pokémon è affetto da un problema di stato, tira fuori la grinta e aumenta il proprio Attacco.",
+            "de": "Bei Statusproblemen setzt es Adrenalin frei und erhöht so seinen Angriffs-Wert.",
+            "es": "Si sufre un problema de estado, se viene arriba y aumenta su Ataque.",
+            "ko": "상태 이상이 되면 근성을 보여서 공격이 올라간다."
+          }
+        },
+        {
+          "symbol": "regenerator",
+          "textId": 144,
+          "names": {
+            "en": "Regenerator",
+            "fr": "Régé-Force",
+            "it": "Rigenergia",
+            "de": "Belebekraft",
+            "es": "Regeneración",
+            "ko": "재생력"
+          },
+          "descriptions": {
+            "en": "Restores a little HP when withdrawn from battle.",
+            "fr": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "it": "Il Pokémon recupera un po’ di PS quando lascia il campo.",
+            "de": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP.",
+            "es": "Recupera unos pocos PS al ser cambiado por otro Pokémon.",
+            "ko": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다."
           }
         }
       ],
       "moves_data": [
+        {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
         {
           "symbol": "fester",
           "id": 752,
@@ -121,23 +266,289 @@
           "accuracy": 95
         },
         {
-          "symbol": "poison_powder",
-          "id": 77,
+          "symbol": "rot_claw",
+          "id": 732,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 4,
           "names": {
-            "en": "Poison Powder",
-            "fr": "Poudre Toxik",
-            "it": "Velenpolvere",
-            "de": "Giftpuder",
-            "es": "Polvo Veneno",
-            "ko": "독가루"
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
+          "symbol": "miasma_veil",
+          "id": 755,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Miasma Veil",
+            "fr": "Voile Miasmique",
+            "it": "Branchiomorso",
+            "de": "Kiemenbiss",
+            "es": "Branquibocado",
+            "ko": "아가미물기"
           },
           "category": "status",
-          "type": "poison",
-          "pp": 35,
+          "type": "undead",
+          "pp": 10,
           "power": 0,
-          "accuracy": 75
+          "accuracy": 90
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bone_fist",
+          "id": 734,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Bone Fist",
+            "fr": "Poing Osseux",
+            "it": "Elettrozap",
+            "de": "Knisterladung",
+            "es": "Joltioparálisis",
+            "ko": "찌릿찌릿일렉"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "revenants_grasp",
+          "id": 756,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Court Change",
+            "fr": "Poigne Revenant",
+            "it": "Cambiocampo",
+            "de": "Seitenwechsel",
+            "es": "Cambio de Cancha",
+            "ko": "코트체인지"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "grave_rend",
+          "id": 737,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Baddy Bad",
+            "fr": "Explotombe",
+            "it": "Zona Buiabuia",
+            "de": "Quälzone",
+            "es": "Umbreozona",
+            "ko": "아그아그존"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rearise",
+          "id": 757,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Rearise",
+            "fr": "Réviviscence",
+            "it": "Dynafiammata",
+            "de": "Dyna-Brand",
+            "es": "Maxignición",
+            "ko": "다이번"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 1,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

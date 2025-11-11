@@ -80,7 +80,78 @@
         "cry": "",
         "hasFemale": false
       },
-      "moveSet": [],
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tail_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_gun",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fester",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_jet",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "putrid_fangs",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_pulse",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bone_pierce",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brine",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grave_vengeance",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "maggot_lash",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "surf",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
+          "level": 45
+        }
+      ],
       "names": {
         "en": "Claquatik",
         "fr": "Claquatik",
@@ -151,7 +222,274 @@
           }
         }
       ],
-      "moves_data": []
+      "moves_data": [
+        {
+          "symbol": "tail_whip",
+          "id": 39,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_gun",
+          "id": 55,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "harden",
+          "id": 106,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fester",
+          "id": 752,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "water_pulse",
+          "id": 352,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Water Pulse",
+            "fr": "Vibraqua",
+            "it": "Idropulsar",
+            "de": "Aquawelle",
+            "es": "Hidropulso",
+            "ko": "물의파동"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bone_pierce",
+          "id": 736,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Bone Pierce",
+            "fr": "Perce Os",
+            "it": "Auraswoosh",
+            "de": "Pulsieraura",
+            "es": "Espeaura",
+            "ko": "콸콸오라"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Brine",
+            "fr": "Saumure",
+            "it": "Acquadisale",
+            "de": "Lake",
+            "es": "Salmuera",
+            "ko": "소금물"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grave_vengeance",
+          "id": 748,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "No Retreat",
+            "fr": "Vengeance Tombale",
+            "it": "Spalle al Muro",
+            "de": "Finalformation",
+            "es": "Bastión Final",
+            "ko": "배수의진"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "maggot_lash",
+          "id": 735,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Maggot Lash",
+            "fr": "Fouet Grouillant",
+            "it": "Fiammabam",
+            "de": "Flackerbrand",
+            "es": "Flarembestida",
+            "ko": "이글이글번"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "surf",
+          "id": 57,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Surf",
+            "fr": "Surf",
+            "it": "Surf",
+            "de": "Surfer",
+            "es": "Surf",
+            "ko": "파도타기"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Snipe Shot",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 100
+        }
+      ]
     }
   ]
 }

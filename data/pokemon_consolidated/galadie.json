@@ -11,8 +11,8 @@
       },
       "height": 1.86,
       "weight": 98.9,
-      "type1": "poison",
-      "type2": "undead",
+      "type1": "undead",
+      "type2": "__undef__",
       "baseHp": 75,
       "baseAtk": 75,
       "baseDfe": 70,
@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_sting",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -82,73 +82,78 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "smokescreen",
-          "level": 5
+          "move": "rot_claw",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "acid",
-          "level": 9
+          "move": "poison_gas",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
+          "move": "astonish",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stomp",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 17
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "infestation",
-          "level": 21
+          "move": "will_o_wisp",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hex",
-          "level": 33
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "giga_drain",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "venom_drench",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
-          "level": 45
+          "move": "defacement",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 49
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
-          "level": 53
+          "move": "bone_pierce",
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sludge_wave",
-          "level": 57
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blightstorm",
+          "level": 65
         }
       ],
       "names": {
@@ -223,22 +228,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "poison_sting",
-          "id": 40,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Poison Sting",
-            "fr": "Dard-Venin",
-            "it": "Velenospina",
-            "de": "Giftstachel",
-            "es": "Picotazo Veneno",
-            "ko": "독침"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
           "category": "physical",
-          "type": "poison",
+          "type": "normal",
           "pp": 35,
-          "power": 15,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -261,67 +266,124 @@
           "accuracy": 100
         },
         {
-          "symbol": "smokescreen",
-          "id": 108,
+          "symbol": "rot_claw",
+          "id": 732,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
-            "en": "Smokescreen",
-            "fr": "Brouillard",
-            "it": "Muro di Fumo",
-            "de": "Rauchwolke",
-            "es": "Pantalla de Humo",
-            "ko": "연막"
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "acid",
-          "id": 51,
-          "klass": "LevelLearnableMove",
-          "level": 9,
-          "names": {
-            "en": "Acid",
-            "fr": "Acide",
-            "it": "Acido",
-            "de": "Säure",
-            "es": "Ácido",
-            "ko": "용해액"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 30,
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
           "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "toxic_spikes",
-          "id": 390,
+          "symbol": "poison_gas",
+          "id": 139,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 7,
           "names": {
-            "en": "Toxic Spikes",
-            "fr": "Pics Toxik",
-            "it": "Fielepunte",
-            "de": "Giftspitzen",
-            "es": "Púas Tóxicas",
-            "ko": "독압정"
+            "en": "Poison Gas",
+            "fr": "Gaz Toxik",
+            "it": "Velenogas",
+            "de": "Giftwolke",
+            "es": "Gas Venenoso",
+            "ko": "독가스"
           },
           "category": "status",
           "type": "poison",
-          "pp": 20,
+          "pp": 40,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 90
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Snipe Shot",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stomp",
+          "id": 23,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Stomp",
+            "fr": "Écrasement",
+            "it": "Pestone",
+            "de": "Stampfer",
+            "es": "Pisotón",
+            "ko": "짓밟기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
         },
         {
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 24,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -337,143 +399,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "infestation",
-          "id": 611,
+          "symbol": "will_o_wisp",
+          "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 28,
           "names": {
-            "en": "Infestation",
-            "fr": "Harcèlement",
-            "it": "Assillo",
-            "de": "Plage",
-            "es": "Acoso",
-            "ko": "엉겨붙기"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 20,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
-          "symbol": "toxic",
-          "id": 92,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
           },
           "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
-          "symbol": "sludge_bomb",
-          "id": 188,
-          "klass": "LevelLearnableMove",
-          "level": 29,
-          "names": {
-            "en": "Sludge Bomb",
-            "fr": "Bombe Beurk",
-            "it": "Fangobomba",
-            "de": "Matschbombe",
-            "es": "Bomba Lodo",
-            "ko": "오물폭탄"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hex",
-          "id": 506,
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "names": {
-            "en": "Hex",
-            "fr": "Châtiment",
-            "it": "Sciagura",
-            "de": "Bürde",
-            "es": "Infortunio",
-            "ko": "병상첨병"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "giga_drain",
-          "id": 202,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "venom_drench",
-          "id": 599,
-          "klass": "LevelLearnableMove",
-          "level": 41,
-          "names": {
-            "en": "Venom Drench",
-            "fr": "Piège de Venin",
-            "it": "Velenotrappola",
-            "de": "Giftfalle",
-            "es": "Trampa Venenosa",
-            "ko": "베놈트랩"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dark_pulse",
-          "id": 399,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Dark Pulse",
-            "fr": "Vibrobscur",
-            "it": "Neropulsar",
-            "de": "Finsteraura",
-            "es": "Pulso Umbrío",
-            "ko": "악의파동"
-          },
-          "category": "special",
-          "type": "dark",
+          "type": "fire",
           "pp": 15,
-          "power": 80,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
           "accuracy": 100
         },
         {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 36,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -489,42 +456,99 @@
           "accuracy": 100
         },
         {
-          "symbol": "nasty_plot",
-          "id": 417,
+          "symbol": "bone_pierce",
+          "id": 736,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 40,
           "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
+            "en": "Bone Pierce",
+            "fr": "Perce Os",
+            "it": "Auraswoosh",
+            "de": "Pulsieraura",
+            "es": "Espeaura",
+            "ko": "콸콸오라"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
           },
           "category": "status",
-          "type": "dark",
-          "pp": 20,
+          "type": "undead",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "sludge_wave",
-          "id": 482,
+          "symbol": "hex",
+          "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 55,
           "names": {
-            "en": "Sludge Wave",
-            "fr": "Cradovague",
-            "it": "Fangonda",
-            "de": "Schlammwoge",
-            "es": "Onda Tóxica",
-            "ko": "오물웨이브"
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
           },
           "category": "special",
-          "type": "poison",
+          "type": "ghost",
           "pp": 10,
-          "power": 95,
+          "power": 65,
           "accuracy": 100
+        },
+        {
+          "symbol": "blightstorm",
+          "id": 747,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Blightstorm",
+            "fr": "Tempêterreur",
+            "it": "Riempiguance",
+            "de": "Backenstopfer",
+            "es": "Atiborramiento",
+            "ko": "볼가득넣기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 85
         }
       ]
     }

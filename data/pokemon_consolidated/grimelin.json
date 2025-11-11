@@ -109,7 +109,12 @@
         {
           "dbSymbol": "frankentroll",
           "form": 0,
-          "conditions": []
+          "conditions": [
+            {
+              "type": "itemHold",
+              "value": "corrupt_plate"
+            }
+          ]
         }
       ],
       "experienceType": 1,

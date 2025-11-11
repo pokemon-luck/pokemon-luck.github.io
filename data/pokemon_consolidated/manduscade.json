@@ -72,82 +72,82 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_bite",
+          "move": "string_shot",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "rot_claw",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
-          "level": 5
+          "move": "absorb",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fury_cutter",
+          "move": "focus_energy",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fester",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
-          "level": 15
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_sting",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "pin_missile",
-          "level": 30
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mirror_shot",
-          "level": 34
+          "move": "toxic_spikes",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hex",
-          "level": 38
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "x_scissor",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 46
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 50
+          "move": "withering_pulse",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_life",
-          "level": 54
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "phantom_force",
-          "level": 58
+          "move": "psybeam",
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fell_stinger",
+          "move": "bone_pierce",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smart_strike",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "x_scissor",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grave_vengeance",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
           "level": 62
         }
       ],
@@ -223,143 +223,105 @@
       ],
       "moves_data": [
         {
-          "symbol": "bug_bite",
-          "id": 450,
+          "symbol": "string_shot",
+          "id": 81,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Bug Bite",
-            "fr": "Piqûre",
-            "it": "Coleomorso",
-            "de": "Käferbiss",
-            "es": "Picadura",
-            "ko": "벌레먹음"
+            "en": "String Shot",
+            "fr": "Sécrétion",
+            "it": "Millebave",
+            "de": "Fadenschuss",
+            "es": "Disparo Demora",
+            "ko": "실뿜기"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "rot_claw",
+          "id": 732,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
           },
           "category": "physical",
-          "type": "bug",
-          "pp": 20,
-          "power": 60,
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "leer",
-          "id": 43,
+          "symbol": "absorb",
+          "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 1,
+          "level": 4,
           "names": {
-            "en": "Leer",
-            "fr": "Groz’Yeux",
-            "it": "Fulmisguardo",
-            "de": "Silberblick",
-            "es": "Malicioso",
-            "ko": "째려보기"
+            "en": "Absorb",
+            "fr": "Vole-Vie",
+            "it": "Assorbimento",
+            "de": "Absorber",
+            "es": "Absorber",
+            "ko": "흡수"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 25,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "focus_energy",
+          "id": 116,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Focus Energy",
+            "fr": "Puissance",
+            "it": "Focalenergia",
+            "de": "Energiefokus",
+            "es": "Foco Energía",
+            "ko": "기충전"
           },
           "category": "status",
           "type": "normal",
           "pp": 30,
           "power": 0,
-          "accuracy": 100
+          "accuracy": 0
         },
         {
-          "symbol": "shadow_sneak",
-          "id": 425,
-          "klass": "LevelLearnableMove",
-          "level": 5,
-          "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "fury_cutter",
-          "id": 210,
+          "symbol": "fester",
+          "id": 752,
           "klass": "LevelLearnableMove",
           "level": 10,
           "names": {
-            "en": "Fury Cutter",
-            "fr": "Taillade",
-            "it": "Tagliofuria",
-            "de": "Zornklinge",
-            "es": "Corte Furia",
-            "ko": "연속자르기"
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
           },
-          "category": "physical",
-          "type": "bug",
-          "pp": 20,
-          "power": 40,
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
           "accuracy": 95
-        },
-        {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
-          "symbol": "poison_sting",
-          "id": 40,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Poison Sting",
-            "fr": "Dard-Venin",
-            "it": "Velenospina",
-            "de": "Giftstachel",
-            "es": "Picotazo Veneno",
-            "ko": "독침"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 35,
-          "power": 15,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
         },
         {
           "symbol": "pin_missile",
           "id": 42,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 13,
           "names": {
             "en": "Pin Missile",
             "fr": "Dard-Nuée",
@@ -375,105 +337,48 @@
           "accuracy": 95
         },
         {
-          "symbol": "mirror_shot",
-          "id": 429,
+          "symbol": "toxic_spikes",
+          "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 17,
           "names": {
-            "en": "Mirror Shot",
-            "fr": "Miroi-Tir",
-            "it": "Cristalcolpo",
-            "de": "Spiegelsalve",
-            "es": "Disparo Espejo",
-            "ko": "미러숏"
-          },
-          "category": "special",
-          "type": "steel",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 85
-        },
-        {
-          "symbol": "hex",
-          "id": 506,
-          "klass": "LevelLearnableMove",
-          "level": 38,
-          "names": {
-            "en": "Hex",
-            "fr": "Châtiment",
-            "it": "Sciagura",
-            "de": "Bürde",
-            "es": "Infortunio",
-            "ko": "병상첨병"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "x_scissor",
-          "id": 404,
-          "klass": "LevelLearnableMove",
-          "level": 42,
-          "names": {
-            "en": "X-Scissor",
-            "fr": "Plaie Croix",
-            "it": "Forbice X",
-            "de": "Kreuzschere",
-            "es": "Tijera X",
-            "ko": "시저크로스"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "will_o_wisp",
-          "id": 261,
-          "klass": "LevelLearnableMove",
-          "level": 46,
-          "names": {
-            "en": "Will-O-Wisp",
-            "fr": "Feu Follet",
-            "it": "Fuocofatuo",
-            "de": "Irrlicht",
-            "es": "Fuego Fatuo",
-            "ko": "도깨비불"
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
           },
           "category": "status",
-          "type": "fire",
-          "pp": 15,
+          "type": "poison",
+          "pp": 20,
           "power": 0,
-          "accuracy": 85
+          "accuracy": 0
         },
         {
-          "symbol": "shadow_ball",
-          "id": 247,
+          "symbol": "withering_pulse",
+          "id": 745,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 21,
           "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
+            "en": "Snipe Shot",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
           },
           "category": "special",
-          "type": "ghost",
+          "type": "undead",
           "pp": 15,
-          "power": 80,
+          "power": 65,
           "accuracy": 100
         },
         {
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 25,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -489,42 +394,137 @@
           "accuracy": 100
         },
         {
-          "symbol": "phantom_force",
-          "id": 566,
+          "symbol": "psybeam",
+          "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 30,
           "names": {
-            "en": "Phantom Force",
-            "fr": "Hantise",
-            "it": "Spettrotuffo",
-            "de": "Phantomkraft",
-            "es": "Golpe Fantasma",
-            "ko": "고스트다이브"
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bone_pierce",
+          "id": 736,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Bone Pierce",
+            "fr": "Perce Os",
+            "it": "Auraswoosh",
+            "de": "Pulsieraura",
+            "es": "Espeaura",
+            "ko": "콸콸오라"
           },
           "category": "physical",
-          "type": "ghost",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smart_strike",
+          "id": 684,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Smart Strike",
+            "fr": "Estocorne",
+            "it": "Sottilcorno",
+            "de": "Schmalhorn",
+            "es": "Cuerno Certero",
+            "ko": "스마트호른"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 10,
+          "power": 70,
+          "accuracy": 0
+        },
+        {
+          "symbol": "x_scissor",
+          "id": 404,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "X-Scissor",
+            "fr": "Plaie Croix",
+            "it": "Forbice X",
+            "de": "Kreuzschere",
+            "es": "Tijera X",
+            "ko": "시저크로스"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grave_vengeance",
+          "id": 748,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "No Retreat",
+            "fr": "Vengeance Tombale",
+            "it": "Spalle al Muro",
+            "de": "Finalformation",
+            "es": "Bastión Final",
+            "ko": "배수의진"
+          },
+          "category": "special",
+          "type": "undead",
           "pp": 10,
           "power": 90,
           "accuracy": 100
         },
         {
-          "symbol": "fell_stinger",
-          "id": 565,
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
           "klass": "LevelLearnableMove",
           "level": 62,
           "names": {
-            "en": "Fell Stinger",
-            "fr": "Dard Mortel",
-            "it": "Pungiglione",
-            "de": "Stachelfinale",
-            "es": "Aguijón Letal",
-            "ko": "마지막일침"
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
           },
-          "category": "physical",
-          "type": "bug",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     }

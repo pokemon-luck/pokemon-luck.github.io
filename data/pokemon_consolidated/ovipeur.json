@@ -9,8 +9,8 @@
         "name": 239,
         "description": 0
       },
-      "height": 0.01,
-      "weight": 0.01,
+      "height": 0.5,
+      "weight": 1.3,
       "type1": "undead",
       "type2": "fairy",
       "baseHp": 105,
@@ -29,14 +29,19 @@
         {
           "dbSymbol": "symbiophage",
           "form": 0,
-          "conditions": []
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
         }
       ],
       "experienceType": 0,
-      "baseExperience": 40,
+      "baseExperience": 115,
       "baseLoyalty": 70,
-      "catchRate": 45,
-      "femaleRate": 50,
+      "catchRate": 125,
+      "femaleRate": -1,
       "breedGroups": [
         15,
         15
@@ -55,27 +60,128 @@
         }
       ],
       "abilities": [
-        "__undef__",
-        "__undef__",
-        "__undef__"
+        "infiltrator",
+        "cursed_body",
+        "friend_guard"
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "",
-        "iconShiny": "",
+        "icon": "217_i",
+        "iconShiny": "217_i_s",
         "front": "217",
         "frontShiny": "217_s",
-        "back": "",
-        "backShiny": "",
+        "back": "217_b",
+        "backShiny": "217_b_s",
         "footprint": "",
-        "character": "",
-        "characterShiny": "",
+        "character": "217_c",
+        "characterShiny": "217_c_s",
         "egg": "",
         "iconEgg": "",
         "cry": "",
         "hasFemale": false
       },
-      "moveSet": [],
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tail_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charm",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fester",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fairy_wind",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rot_claw",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sweet_kiss",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "defacement",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "maggot_lash",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pain_split",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ingrain",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "revenants_grasp",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wish",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "deaths_favour",
+          "level": 52
+        }
+      ],
       "names": {
         "en": "Ovideous",
         "fr": "Ovipeur",
@@ -86,16 +192,448 @@
       },
       "abilities_data": [
         {
-          "symbol": "__undef__",
+          "symbol": "infiltrator",
+          "textId": 151,
           "names": {
-            "en": "__undef__"
+            "en": "Infiltrator",
+            "fr": "Infiltration",
+            "it": "Intrapasso",
+            "de": "Schwebedurch",
+            "es": "Allanamiento",
+            "ko": "틈새포착"
           },
           "descriptions": {
-            "en": "Description not found."
+            "en": "Passes through the opposing Pokémon’s barrier, substitute, and the like and strikes.",
+            "fr": "Traverse les barrières et les clones de l’ennemi pour attaquer directement.",
+            "it": "Il Pokémon attacca evitando le barriere e il sostituto del nemico.",
+            "de": "Überwindet gegnerische Schilde sowie Delegatoren und greift an.",
+            "es": "Ataca sorteando la barrera o el sustituto del rival.",
+            "ko": "상대의 벽이나 대타출동을 뚫고 공격할 수 있다."
+          }
+        },
+        {
+          "symbol": "cursed_body",
+          "textId": 130,
+          "names": {
+            "en": "Cursed Body",
+            "fr": "Corps Maudit",
+            "it": "Corpofunesto",
+            "de": "Tastfluch",
+            "es": "Cuerpo Maldito",
+            "ko": "저주받은바디"
+          },
+          "descriptions": {
+            "en": "May disable a move used on the Pokémon.",
+            "fr": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "it": "Può bloccare la mossa subita dal Pokémon.",
+            "de": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "es": "Puede anular el movimiento usado en su contra.",
+            "ko": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "friend_guard",
+          "textId": 132,
+          "names": {
+            "en": "Friend Guard",
+            "fr": "Garde-Ami",
+            "it": "Amicoscudo",
+            "de": "Freundeshut",
+            "es": "Compiescolta",
+            "ko": "프렌드가드"
+          },
+          "descriptions": {
+            "en": "Reduces damage done to allies.",
+            "fr": "Diminue les dégâts subis par les alliés.",
+            "it": "I danni inflitti agli alleati del Pokémon vengono ridotti.",
+            "de": "Kann den Schaden, den Mitstreiter erleiden, verringern.",
+            "es": "Reduce el daño que sufren los aliados.",
+            "ko": "같은 편의 데미지를 줄일 수 있다."
           }
         }
       ],
-      "moves_data": []
+      "moves_data": [
+        {
+          "symbol": "tail_whip",
+          "id": 39,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fester",
+          "id": 752,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rot_claw",
+          "id": 732,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sweet_kiss",
+          "id": 186,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Sweet Kiss",
+            "fr": "Doux Baiser",
+            "it": "Dolcebacio",
+            "de": "Bitterkuss",
+            "es": "Beso Dulce",
+            "ko": "천사의키스"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "maggot_lash",
+          "id": 735,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Maggot Lash",
+            "fr": "Fouet Grouillant",
+            "it": "Fiammabam",
+            "de": "Flackerbrand",
+            "es": "Flarembestida",
+            "ko": "이글이글번"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pain_split",
+          "id": 220,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ingrain",
+          "id": 275,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Ingrain",
+            "fr": "Racines",
+            "it": "Radicamento",
+            "de": "Verwurzler",
+            "es": "Arraigo",
+            "ko": "뿌리박기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "revenants_grasp",
+          "id": 756,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Court Change",
+            "fr": "Poigne Revenant",
+            "it": "Cambiocampo",
+            "de": "Seitenwechsel",
+            "es": "Cambio de Cancha",
+            "ko": "코트체인지"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "wish",
+          "id": 273,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Wish",
+            "fr": "Vœu",
+            "it": "Desiderio",
+            "de": "Wunschtraum",
+            "es": "Deseo",
+            "ko": "희망사항"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Snipe Shot",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
     }
   ]
 }
