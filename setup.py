@@ -24,6 +24,7 @@ PSDK_ITEMS_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\items'
 PSDK_ABILITIES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\abilities')
 PSDK_TYPES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\types')
 PSDK_POKEFRONT_SPRITES_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'graphics\pokedex\pokefront')
+PSDK_SHINY_SPRITES_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'graphics\pokedex\pokefrontshiny')
 
 # Destination paths relative to WEB_PROJECT_ROOT_FOLDER (or OUTPUT_DATA_FOLDER)
 WEB_NATIONAL_DEX_PATH = os.path.join(OUTPUT_DATA_FOLDER, 'national.json')
@@ -31,6 +32,7 @@ WEB_TRANSLATIONS_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'translations')
 WEB_POKEMON_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokemon_consolidated')
 WEB_TYPES_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'types')
 WEB_POKEFRONT_UPSCALED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokefront') # Now inside the data folder
+WEB_SHINY_UPSCALED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'shiny')
 WEB_FUNC_JSON_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'func')
 
 # CSV File IDs and their roles
@@ -99,6 +101,21 @@ def run_setup():
         if filename.endswith('.png'):
             src_path = os.path.join(PSDK_POKEFRONT_SPRITES_FOLDER, filename)
             dest_path = os.path.join(WEB_POKEFRONT_UPSCALED_FOLDER, filename.lower())
+            try:
+                with Image.open(src_path) as img:
+                    # Upscale by 4 times
+                    new_size = (img.width * 4, img.height * 4)
+                    upscaled_img = img.resize(new_size, Image.Resampling.NEAREST) # NEAREST for pixel art
+                    upscaled_img.save(dest_path)
+            except Exception as e:
+                print(f"Error processing sprite {filename}: {e}")
+    print("Sprite upscaling complete.")
+
+    print("Upscaling and copying Pokémon shiny sprites...")
+    for filename in os.listdir(PSDK_SHINY_SPRITES_FOLDER):
+        if filename.endswith('.png'):
+            src_path = os.path.join(PSDK_SHINY_SPRITES_FOLDER, filename)
+            dest_path = os.path.join(WEB_SHINY_UPSCALED_FOLDER, filename.lower())
             try:
                 with Image.open(src_path) as img:
                     # Upscale by 4 times

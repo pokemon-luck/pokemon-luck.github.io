@@ -68,7 +68,10 @@ export class PokemonRenderer {
         <div class="grid-container-layer1">
             <div class="grid-item grid-item-large">
                 <h2>${name}</h2>
-                <img src="data/pokefront/${pokemonName}.png" alt="${pokemonName}">
+                <div style="display:flex;align-items:end;justify-content:center;">
+                    <img src="data/pokefront/${pokemonName}.png" alt="${pokemonName}">
+                    <img src="data/shiny/${pokemonName}.png" alt="Shiny ${pokemonName}" style="width:100px;height:100px;margin-bottom:20px;">
+                </div>
                 ${typesImages}
             </div>
         `;
@@ -233,9 +236,10 @@ export class PokemonRenderer {
     renderTypeImages(types) {
         const { type1French, type2French } = types;
         return `
-            <br>
-            <img src="resources/icons/types/${type1French}.png" alt="${type1French}" class="img-pokemon-types-layer1">
-            ${type2French ? `<img src="resources/icons/types/${type2French}.png" alt="${type2French}" class="img-pokemon-types-layer1">` : ''}
+            <div style="margin-top:5px;">
+                <img src="resources/icons/types/${type1French}.png" alt="${type1French}" class="img-pokemon-types-layer1">
+                ${type2French ? `<img src="resources/icons/types/${type2French}.png" alt="${type2French}" class="img-pokemon-types-layer1">` : ''}
+            </div>
         `;
     }
 
