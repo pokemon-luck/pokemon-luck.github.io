@@ -22,12 +22,14 @@ PSDK_POKEMON_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\poke
 PSDK_MOVES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\moves')
 PSDK_ITEMS_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\items')
 PSDK_ABILITIES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\abilities')
+PSDK_TYPES_JSONS_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'Data\Studio\types')
 PSDK_POKEFRONT_SPRITES_FOLDER = os.path.join(FANGAME_ROOT_FOLDER, r'graphics\pokedex\pokefront')
 
 # Destination paths relative to WEB_PROJECT_ROOT_FOLDER (or OUTPUT_DATA_FOLDER)
 WEB_NATIONAL_DEX_PATH = os.path.join(OUTPUT_DATA_FOLDER, 'national.json')
 WEB_TRANSLATIONS_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'translations')
 WEB_POKEMON_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokemon_consolidated')
+WEB_TYPES_CONSOLIDATED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'types')
 WEB_POKEFRONT_UPSCALED_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'pokefront') # Now inside the data folder
 WEB_FUNC_JSON_FOLDER = os.path.join(OUTPUT_DATA_FOLDER, 'func')
 
@@ -284,6 +286,41 @@ def run_setup():
             print(f"Error: Pokémon JSON not found for {pokemon_symbol} at {pokemon_json_path}. Skipping.")
         except Exception as e:
             print(f"An unexpected error occurred while processing {pokemon_symbol}: {e}")
+    
+    #6 Process types for the type chart
+    consolidated_types = {}
+    for type in [
+        'normal',
+        'fire',
+        'water',
+        'electric',
+        'grass',
+        'ice',
+        'fighting',
+        'poison',
+        'ground',
+        'flying',
+        'psychic',
+        'bug',
+        'rock',
+        'ghost',
+        'dragon',
+        'dark',
+        'steel',
+        'fairy',
+        'undead'
+    ]:
+        type_json_path = os.path.join(PSDK_TYPES_JSONS_FOLDER, f'{type}.json')
+        with open(type_json_path, 'r', encoding='utf-8') as f:
+            type_data = json.load(f)
+        
+        consolidated_types[type] = {}
+        for defensive in type_data['damageTo']:
+            consolidated_types[type][defensive['defensiveType']] = defensive['factor']
+
+    output_type_path = os.path.join(WEB_TYPES_CONSOLIDATED_FOLDER, f'types.json')
+    with open(output_type_path, 'w', encoding='utf-8') as f:
+        json.dump(consolidated_types, f, indent=2, ensure_ascii=False)
 
     print("Setup script finished.")
 
