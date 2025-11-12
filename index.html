@@ -6,16 +6,186 @@
     <title data-translate="page_title">Pokédex Hub</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
     <link rel="stylesheet" href="css/styles_main.css">
+    <link rel="stylesheet" href="css/styles_FullPokedex.css">
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="container" style="text-align: center; margin-top: 50px;">
-        <h1 data-translate="welcome_message">Bienvenue sur le Hub du Pokédex</h1>
-        <p data-translate="hub_description">Vous êtes sur le hub.</p>
+    <div style="
+        height:500px;
+        width:100%;
+        background-image:linear-gradient(rgba(29, 28, 34, 0.7), rgba(29, 28, 34, 1)),url('resources/LaemuMap.png');
+        background-size: cover;
+        background-position-y: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    ">
+        <img alt="Pokémon Luck" src="resources/logo.png" style="width:500px">
+    </div>
+
+    <div class="container" style="text-align: justify; margin-top: 50px; width:50%; margin:auto;">
+        <h1 data-translate="welcome_message" style="text-align: center;"></h1>
+        <p data-translate="hub_description" style="color: #8e99ab;"></p>
+        <br>
+        <h1 data-translate="game_contents" style="text-align: center;"></h1>
+        <div style="
+            width:100%;
+            border: 2px solid #24222a;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        ">
+            <h2 data-translate="fakemon"></h2>
+            <p data-translate="fakemon_description" style="color: #8e99ab;"></p>
+        </div>
+        <div style="
+            width:100%;
+            border: 2px solid #24222a;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        ">
+            <h2 data-translate="undead_type"></h2>
+            <p data-translate="undead_type_description" style="color: #8e99ab;"></p>
+        </div>
+        <div style="
+            width:100%;
+            border: 2px solid #24222a;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        ">
+            <h2 data-translate="decay"></h2>
+            <p data-translate="decay_description" style="color: #8e99ab;"></p>
+        </div>
+        <div style="
+            width:100%;
+            border: 2px solid #24222a;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        ">
+            <h2 data-translate="open_world"></h2>
+            <p data-translate="open_world_description" style="color: #8e99ab;"></p>
+        </div>
+        <div style="
+            width:100%;
+            border: 2px solid #24222a;
+            border-radius: 10px;
+            padding: 10px;
+            margin-bottom: 10px;
+        ">
+            <h2 data-translate="scaling"></h2>
+            <p data-translate="scaling_description" style="color: #8e99ab;"></p>
+        </div>
+        <br>
+        <h1 data-translate="starters" style="text-align: center;"></h1>
+        <p data-translate="starters_description" style="color: #8e99ab;"></p>
+        <div id="pokedexGrid" class="grid-container" style="grid-template-columns: auto auto auto;padding:0px;"></div>
     </div>
 
     <script src="js/LanguageManager.js"></script>
     <script src="js/LoadNavbar.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const pokedexGrid = document.getElementById('pokedexGrid');
+
+            fetch('data/national.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const pokemonList = ['marmousse', 'tremplume', 'cramin'];
+
+                    const langIndex = this.languageManager.getLangIndex();
+                    const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+                    const lang = languages[langIndex] || 'en';
+
+                    pokemonList.forEach(pokemon => {
+                        fetch(`./data/pokemon_consolidated/${pokemon}.json`)
+                            .then(response => {
+                                if (!response.ok) {
+                                    throw new Error('Network response was not ok ' + response.statusText);
+                                }
+                                return response.json();
+                            })
+                            .then(data => {
+                                const pokemonCard = document.createElement('div');
+                                pokemonCard.classList.add('pokemon-card');
+
+                                const spritePath = `data/pokefront/${pokemon}.png`;
+
+                                const pokemonSprite = document.createElement('img');
+                                pokemonSprite.src = spritePath;
+                                pokemonSprite.alt = pokemon;
+                                pokemonSprite.classList.add('pokemon-sprite');
+
+                                const pokemonName = document.createElement('p');
+                                // Capitalize first letter of the dbSymbol for display
+                                pokemonName.textContent = data.forms[0].names[lang]
+                                // pokemonName.textContent = pokemon.charAt(0).toUpperCase() + pokemon.slice(1);
+                                pokemonName.classList.add('pokemon-name');
+
+                                pokemonCard.appendChild(pokemonSprite);
+                                pokemonCard.appendChild(pokemonName);
+                                pokemonCard.appendChild(document.createElement('br'));
+
+                                const type1French = this.removeAccents(this.translateTypeToFrench(data.forms[0].type1));
+                                const type2French = data.forms[0].type2 !== "__undef__" ? 
+                                    this.removeAccents(this.translateTypeToFrench(data.forms[0].type2)) : null;
+
+                                pokemonCard.classList.add(type1French);
+
+                                const typesDiv = document.createElement('div');
+                                typesDiv.style.cssText = 'display:flex;justify-content:center;gap:10px;';
+
+                                const type1Image = document.createElement('img');
+                                type1Image.src = `resources/icons/types/${type1French}.png`;
+                                type1Image.style.cssText = 'width:50px;';
+                                typesDiv.appendChild(type1Image);
+
+                                if (type2French) {
+                                    const type2Image = document.createElement('img');
+                                    type2Image.src = `resources/icons/types/${type2French}.png`;
+                                    type2Image.style.cssText = 'width:50px;';
+                                    typesDiv.appendChild(type2Image);
+                                }
+
+                                pokemonCard.appendChild(typesDiv);
+
+                                // Make the card clickable
+                                pokemonCard.addEventListener('click', () => {
+                                    window.location.href = `PokemonSearch.html?pokemon=${pokemon}`;
+                                });
+
+                                pokedexGrid.appendChild(pokemonCard);
+                            });
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading full Pokédex:', error);
+                    pokedexGrid.innerHTML = '<p>Failed to load Pokémon data. Please try again later.</p>';
+                });
+        });
+
+        function translateTypeToFrench(type) {
+            const translations = {
+                normal: 'normal', fire: 'feu', water: 'eau', electric: 'électrique',
+                grass: 'plante', ice: 'glace', fighting: 'combat', poison: 'poison',
+                ground: 'sol', flying: 'vol', psychic: 'psy', bug: 'insecte',
+                rock: 'roche', ghost: 'spectre', dragon: 'dragon', dark: 'ténèbres',
+                steel: 'acier', fairy: 'fée'
+            };
+            return translations[type.toLowerCase()] || type;
+        }
+
+        function removeAccents(str) {
+            return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        }
+    </script>
 </body>
 </html>
