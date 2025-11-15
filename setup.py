@@ -41,6 +41,7 @@ CSV_ABILITIES_NAMES_ID = '100004'
 CSV_ABILITIES_DESCRIPTIONS_ID = '100005'
 CSV_MOVES_NAMES_ID = '100006'
 CSV_ITEMS_NAMES_ID = '100012'
+CSV_POKEMON_DESCRIPTIONS_ID = '100002'
 
 # Language mapping for CSVs (assuming standard PSDK order)
 # Based on previous context: ['en', 'fr', 'it', 'de', 'es', 'ko', 'kana']
@@ -90,6 +91,7 @@ def run_setup():
     # 3. Load CSV data for translations
     print("Loading CSV translation files...")
     pokemon_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_POKEMON_NAMES_ID}.csv'))
+    pokemon_descriptions_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_POKEMON_DESCRIPTIONS_ID}.csv'))
     abilities_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_NAMES_ID}.csv'))
     abilities_descriptions_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_ABILITIES_DESCRIPTIONS_ID}.csv'))
     moves_names_csv = load_csv_as_dict(os.path.join(PSDK_CSV_DIALOGS_PATH, f'{CSV_MOVES_NAMES_ID}.csv'))
@@ -158,6 +160,13 @@ def run_setup():
             for i, lang in enumerate(LANGUAGES):
                 translated_names[lang] = get_translated_text_from_csv(pokemon_names_csv, text_id + 1, i)
             form['names'] = translated_names
+
+            # Consilidate description
+            translated_descriptions = {}
+            text_id = pokemon_data['id']
+            for i, lang in enumerate(LANGUAGES):
+                translated_descriptions[lang] = get_translated_text_from_csv(pokemon_descriptions_csv, text_id + 1, i)
+            form['descriptions'] = translated_descriptions
 
             # Consolidate Evolutions
             for i, evolution in enumerate(form.get('evolutions', [])):

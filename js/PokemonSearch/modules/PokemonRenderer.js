@@ -8,12 +8,13 @@ export class PokemonRenderer {
     }
 
     async renderPokemon(processedData, pokemonName) {
-        const { form, name, stats, abilities, moves, evolutions, breeding, types, navigation } = processedData;
+        const { form, name, description, stats, abilities, moves, evolutions, breeding, types, navigation } = processedData;
         
         const sections = await Promise.all([
             this.renderNavigation(navigation),
             this.renderMainInfo(pokemonName, name, types),
             this.renderStats(stats),
+            this.renderDescription(description),
             this.renderDetails(form),
             this.renderEvolution(evolutions),
             this.renderExperience(form),
@@ -101,6 +102,16 @@ export class PokemonRenderer {
                 </table>
             </div>
         </div>`;
+    }
+
+    async renderDescription(description) {
+        return `
+            <div class="grid-container-layer1">
+                <div class="grid-item" style="width:100%;height:auto;min-height:auto;">
+                    <p style="font-style:italic;color:#8e99ab;">${description}</p>
+                </div>
+            </div>
+        `;
     }
 
     async renderDetails(form) {

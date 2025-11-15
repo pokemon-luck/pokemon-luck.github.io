@@ -13,6 +13,7 @@ export class PokemonDataProcessor {
         return {
             form,
             name: this.processName(form),
+            description: this.processDescription(form),
             stats: await this.processStats(form),
             abilities: this.processAbilities(form),
             moves: await this.processMoves(form),
@@ -29,6 +30,14 @@ export class PokemonDataProcessor {
         const lang = languages[langIndex] || 'en';
 
         return form['names'][lang];
+    }
+
+    processDescription(form) {
+        const langIndex = this.languageManager.getLangIndex();
+        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+        const lang = languages[langIndex] || 'en';
+
+        return form['descriptions'][lang];
     }
 
     async processStats(form) {
