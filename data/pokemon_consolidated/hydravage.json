@@ -13,12 +13,12 @@
       "weight": 275.6,
       "type1": "water",
       "type2": "dragon",
-      "baseHp": 95,
-      "baseAtk": 70,
-      "baseDfe": 79,
-      "baseSpd": 71,
-      "baseAts": 125,
-      "baseDfs": 100,
+      "baseHp": 75,
+      "baseAtk": 65,
+      "baseDfe": 80,
+      "baseSpd": 95,
+      "baseAts": 120,
+      "baseDfs": 115,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -54,6 +54,21 @@
         "abyssal_call"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "210_i",
+        "iconShiny": "210_i_s",
+        "front": "210",
+        "frontShiny": "210_s",
+        "back": "210_b",
+        "backShiny": "210_b_s",
+        "footprint": "",
+        "character": "210_c",
+        "characterShiny": "210_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -141,21 +156,6 @@
           "level": 64
         }
       ],
-      "resources": {
-        "icon": "210_i",
-        "iconShiny": "210_i_s",
-        "front": "210",
-        "frontShiny": "210_s",
-        "back": "210_b",
-        "backShiny": "210_b_s",
-        "footprint": "",
-        "character": "210_c",
-        "characterShiny": "210_c_s",
-        "egg": "",
-        "iconEgg": "",
-        "cry": "",
-        "hasFemale": false
-      },
       "names": {
         "en": "Hydrench",
         "fr": "Hydravage",

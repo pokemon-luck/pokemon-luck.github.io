@@ -22,9 +22,19 @@ export class PokemonSearchBar {
 
     async loadPokemonList() {
         try {
+            const langIndex = this.languageManager.getLangIndex();
+            const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+            const lang = languages[langIndex] || 'en';
+
             const response = await fetch('data/national.json');
             const data = await response.json();
-            this.pokemonList = data.creatures.map(creature => creature.dbSymbol);
+            this.pokemonList = data.creatures.map(creature => {
+                return {
+                    dbSymbol: creature.dbSymbol,
+                    search: creature.names.en + ',' + creature.names.fr + ',' + this.removeAccents(creature.names.fr),
+                    name: creature.names[lang]
+                };
+            });
         } catch (error) {
             console.error('Error fetching Pokémon list:', error);
         }
@@ -37,7 +47,7 @@ export class PokemonSearchBar {
             
             if (query) {
                 const filteredPokemons = this.pokemonList.filter(pokemon => 
-                    pokemon.toLowerCase().includes(query)
+                    pokemon.search.toLowerCase().includes(query)
                 );
                 
                 filteredPokemons.forEach(pokemon => {
@@ -52,8 +62,9 @@ export class PokemonSearchBar {
     }
 
     navigateToPokemon(pokemon, currentLanguage) {
+        console.log(pokemon);
         const url = new URL(window.location.href);
-        url.searchParams.set('pokemon', pokemon);
+        url.searchParams.set('pokemon', pokemon.dbSymbol);
         url.searchParams.set('lang', currentLanguage);
         window.location.href = url.href;
     }
@@ -81,5 +92,9 @@ export class PokemonSearchBar {
         const processedData = await this.dataProcessor.processData(data);
         const html = await this.renderer.renderPokemon(processedData, pokemonName);
         this.uiManager.displayPokemonData(html);
+    }
+
+    removeAccents(str) {
+        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
 }

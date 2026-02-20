@@ -48,7 +48,7 @@
         ">
             <div style="display: flex;align-items: center; gap: 10px;">
                 <h2 data-translate="undead_type"></h2>
-                <img style="display:inline;width:100px;height:25px;" src="resources/icons/types/undead.png"/>
+                <img id="undead_icon" style="display:inline;width:100px;height:25px;" src="resources/icons/types/undead_fr.png"/>
             </div>
             <p data-translate="undead_type_description" style="color: #8e99ab;"></p>
         </div>
@@ -61,7 +61,7 @@
         ">
             <div style="display: flex;align-items: center; gap: 10px;">
                 <h2 data-translate="decay"></h2>
-                <img style="display:inline;width:50px;height:20px;image-rendering: pixelated;" src="resources/icons/decay.png"/>
+                <img id="decay_icon" style="display:inline;width:50px;height:20px;image-rendering: pixelated;" src="resources/icons/decay_fr.png"/>
             </div>
             <p data-translate="decay_description" style="color: #8e99ab;"></p>
         </div>
@@ -96,6 +96,16 @@
     <script src="js/LoadNavbar.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            const langIndex = this.languageManager.getLangIndex();
+            const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
+            const lang = languages[langIndex] || 'en';
+
+            const undeadIcon = document.getElementById('undead_icon');
+            undeadIcon.src = `resources/icons/types/undead_${lang}.png`
+
+            const decayIcon = document.getElementById('decay_icon');
+            decayIcon.src = `resources/icons/decay_${lang}.png`
+            
             const pokedexGrid = document.getElementById('pokedexGrid');
 
             fetch('data/national.json')
@@ -107,10 +117,6 @@
                 })
                 .then(data => {
                     const pokemonList = ['marmousse', 'tremplume', 'cramin'];
-
-                    const langIndex = this.languageManager.getLangIndex();
-                    const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-                    const lang = languages[langIndex] || 'en';
 
                     pokemonList.forEach(pokemon => {
                         fetch(`./data/pokemon_consolidated/${pokemon}.json`)

@@ -13,12 +13,12 @@
       "weight": 6.5,
       "type1": "water",
       "type2": "__undef__",
-      "baseHp": 40,
-      "baseAtk": 10,
-      "baseDfe": 35,
-      "baseSpd": 70,
-      "baseAts": 10,
-      "baseDfs": 35,
+      "baseHp": 25,
+      "baseAtk": 25,
+      "baseDfe": 20,
+      "baseSpd": 50,
+      "baseAts": 35,
+      "baseDfs": 30,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -65,6 +65,21 @@
         "gooey"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "209_i",
+        "iconShiny": "209_i_s",
+        "front": "209",
+        "frontShiny": "209_s",
+        "back": "209_b",
+        "backShiny": "209_b_s",
+        "footprint": "",
+        "character": "209_c",
+        "characterShiny": "209_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -82,21 +97,6 @@
           "level": 30
         }
       ],
-      "resources": {
-        "icon": "209_i",
-        "iconShiny": "209_i_s",
-        "front": "209",
-        "frontShiny": "209_s",
-        "back": "209_b",
-        "backShiny": "209_b_s",
-        "footprint": "",
-        "character": "209_c",
-        "characterShiny": "209_c_s",
-        "egg": "",
-        "iconEgg": "",
-        "cry": "",
-        "hasFemale": false
-      },
       "names": {
         "en": "Stupeel",
         "fr": "Angouille",

@@ -13,12 +13,12 @@
       "weight": 7.5,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -64,10 +64,10 @@
         "footprint": "",
         "character": "120_1_c",
         "characterShiny": "120_1_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
       "moveSet": [
         {
@@ -570,12 +570,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -621,12 +621,98 @@
         "footprint": "",
         "character": "120_2_c",
         "characterShiny": "120_2_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 2,
@@ -638,12 +724,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -689,12 +775,98 @@
         "footprint": "",
         "character": "120_3_c",
         "characterShiny": "120_3_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 3,
@@ -706,12 +878,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -757,12 +929,98 @@
         "footprint": "",
         "character": "120_4_c",
         "characterShiny": "120_4_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 4,
@@ -774,12 +1032,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -825,12 +1083,98 @@
         "footprint": "",
         "character": "120_5_c",
         "characterShiny": "120_5_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 5,
@@ -842,12 +1186,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -893,12 +1237,98 @@
         "footprint": "",
         "character": "120_6_c",
         "characterShiny": "120_6_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 6,
@@ -910,12 +1340,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -961,12 +1391,98 @@
         "footprint": "",
         "character": "120_7_c",
         "characterShiny": "120_7_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 7,
@@ -978,12 +1494,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1029,12 +1545,98 @@
         "footprint": "",
         "character": "120_8_c",
         "characterShiny": "120_8_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 8,
@@ -1046,12 +1648,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1097,12 +1699,98 @@
         "footprint": "",
         "character": "120_9_c",
         "characterShiny": "120_9_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 9,
@@ -1114,12 +1802,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1165,12 +1853,98 @@
         "footprint": "",
         "character": "120_10_c",
         "characterShiny": "120_10_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 10,
@@ -1182,12 +1956,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1233,12 +2007,98 @@
         "footprint": "",
         "character": "120_11_c",
         "characterShiny": "120_11_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 11,
@@ -1250,12 +2110,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1301,12 +2161,98 @@
         "footprint": "",
         "character": "120_12_c",
         "characterShiny": "120_12_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 12,
@@ -1318,12 +2264,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1369,12 +2315,98 @@
         "footprint": "",
         "character": "120_13_c",
         "characterShiny": "120_13_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 13,
@@ -1386,12 +2418,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1437,12 +2469,98 @@
         "footprint": "",
         "character": "120_14_c",
         "characterShiny": "120_14_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 14,
@@ -1454,12 +2572,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1505,12 +2623,98 @@
         "footprint": "",
         "character": "120_15_c",
         "characterShiny": "120_15_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 15,
@@ -1522,12 +2726,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1573,12 +2777,98 @@
         "footprint": "",
         "character": "120_16_c",
         "characterShiny": "120_16_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 16,
@@ -1590,12 +2880,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1641,12 +2931,98 @@
         "footprint": "",
         "character": "120_17_c",
         "characterShiny": "120_17_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 17,
@@ -1658,12 +3034,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1709,12 +3085,98 @@
         "footprint": "",
         "character": "120_18_c",
         "characterShiny": "120_18_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 18,
@@ -1726,12 +3188,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1777,12 +3239,98 @@
         "footprint": "",
         "character": "120_19_c",
         "characterShiny": "120_19_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 19,
@@ -1794,12 +3342,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1845,12 +3393,98 @@
         "footprint": "",
         "character": "120_20_c",
         "characterShiny": "120_20_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 20,
@@ -1862,12 +3496,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1913,12 +3547,98 @@
         "footprint": "",
         "character": "120_21_c",
         "characterShiny": "120_21_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 21,
@@ -1932,10 +3652,10 @@
       "type2": "rock",
       "baseHp": 70,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -1981,12 +3701,98 @@
         "footprint": "",
         "character": "120_22_c",
         "characterShiny": "120_22_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 22,
@@ -1998,12 +3804,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -2049,12 +3855,98 @@
         "footprint": "",
         "character": "120_23_c",
         "characterShiny": "120_23_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     },
     {
       "form": 23,
@@ -2066,12 +3958,12 @@
       "weight": 1,
       "type1": "electric",
       "type2": "rock",
-      "baseHp": 70,
+      "baseHp": 90,
       "baseAtk": 55,
-      "baseDfe": 50,
-      "baseSpd": 25,
-      "baseAts": 95,
-      "baseDfs": 50,
+      "baseDfe": 60,
+      "baseSpd": 50,
+      "baseAts": 70,
+      "baseDfs": 40,
       "evHp": 0,
       "evAtk": 0,
       "evDfe": 0,
@@ -2117,12 +4009,98 @@
         "footprint": "",
         "character": "120_24_c",
         "characterShiny": "120_24_c_s",
-        "cry": "",
-        "hasFemale": false,
         "egg": "egg",
-        "iconEgg": "egg"
+        "iconEgg": "egg",
+        "cry": "",
+        "hasFemale": false
       },
-      "moveSet": []
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zap_cannon",
+          "level": 65
+        }
+      ]
     }
   ]
 }

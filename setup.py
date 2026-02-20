@@ -139,7 +139,7 @@ def run_setup():
 
     pokemon_symbols_to_process = [creature['dbSymbol'] for creature in national_dex_data['creatures']]
 
-    for pokemon_symbol in pokemon_symbols_to_process:
+    for pokemon_index, pokemon_symbol in enumerate(pokemon_symbols_to_process):
         print(f"Processing {pokemon_symbol}...")
         try:
             # Load base Pokémon JSON
@@ -160,6 +160,8 @@ def run_setup():
             for i, lang in enumerate(LANGUAGES):
                 translated_names[lang] = get_translated_text_from_csv(pokemon_names_csv, text_id + 1, i)
             form['names'] = translated_names
+
+            national_dex_data['creatures'][pokemon_index]['names'] = translated_names
 
             # Consilidate description
             translated_descriptions = {}
@@ -313,6 +315,14 @@ def run_setup():
         except Exception as e:
             print(f"An unexpected error occurred while processing {pokemon_symbol}: {e}")
     
+    print("Adding pokémon names in national.json...")
+    try:
+        with open(WEB_NATIONAL_DEX_PATH, 'w', encoding='utf-8') as f:
+            json.dump(national_dex_data, f, indent=2, ensure_ascii=False)
+    except FileNotFoundError:
+        print(f"Error: national.json not found at {WEB_NATIONAL_DEX_PATH}. Make sure it's copied.")
+        return
+
     #6 Process types for the type chart
     consolidated_types = {}
     for type in [

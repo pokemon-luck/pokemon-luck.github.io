@@ -31,7 +31,7 @@ export class UIManager {
     }
 
     addSuggestion(pokemon, currentLanguage, onClick) {
-        const capitalizedPokemon = this.capitalizeFirstLetter(pokemon);
+        const capitalizedPokemon = this.capitalizeFirstLetter(pokemon.name);
         const li = document.createElement('li');
         li.textContent = capitalizedPokemon;
         li.addEventListener('click', () => onClick(pokemon, currentLanguage));
