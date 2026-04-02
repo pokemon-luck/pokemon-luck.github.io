@@ -1,0 +1,660 @@
+{
+  "klass": "Specie",
+  "id": 229,
+  "dbSymbol": "tricolem",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 266,
+        "description": 0
+      },
+      "height": 2.05,
+      "weight": 98.7,
+      "type1": "normal",
+      "type2": "ghost",
+      "baseHp": 200,
+      "baseAtk": 70,
+      "baseDfe": 95,
+      "baseSpd": 60,
+      "baseAts": 60,
+      "baseDfs": 70,
+      "evHp": 2,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 350,
+      "baseLoyalty": 70,
+      "catchRate": 65,
+      "femaleRate": 50,
+      "breedGroups": [
+        11,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "vaudoudou",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "cursed_body",
+        "aftermath",
+        "anger_point"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "229_i",
+        "iconShiny": "229_i_s",
+        "front": "229",
+        "frontShiny": "229_s",
+        "back": "229_b",
+        "backShiny": "229_b_s",
+        "footprint": "",
+        "character": "229_c",
+        "characterShiny": "229_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "disable",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mean_look",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "drain_punch",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_talk",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poltergeist",
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pin_barrage",
+          "level": 67
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
+        }
+      ],
+      "names": {
+        "en": "Oniidle",
+        "fr": "Tricolem",
+        "it": "Houndoom",
+        "de": "Hundemon",
+        "es": "Houndoom",
+        "ko": "헬가"
+      },
+      "descriptions": {
+        "en": "Able to patch itself up at will, Oniidle doesn't hesitate to venture in dangerous and remote places for food.",
+        "fr": "Capable de se rapiécer à volonté, Tricolem n'hésite pas à s'aventurer dans les endroits dangereux et reculés pour de la nourriture.",
+        "it": "Mette KO il nemico sputando fiamme che contengono una tossina. Divide equamente le prede con il resto del branco.",
+        "de": "Es bekämpft seine Gegner mit giftigen Flammen. Erlegte Beute wird im Rudel gerecht aufgeteilt.",
+        "es": "Remata a sus rivales exhalando llamas tóxicas. Si abate una presa, la compartirá a partes iguales con el resto de la manada.",
+        "ko": "독소가 섞인 불꽃을 불어 상대를 처리한다. 먹이는 무리가 공평에게 나눈다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "cursed_body",
+          "textId": 130,
+          "names": {
+            "en": "Cursed Body",
+            "fr": "Corps Maudit",
+            "it": "Corpofunesto",
+            "de": "Tastfluch",
+            "es": "Cuerpo Maldito",
+            "ko": "저주받은바디"
+          },
+          "descriptions": {
+            "en": "May disable a move used on the Pokémon.",
+            "fr": "Quand le Pokémon est touché par une capacité, il inflige parfois Entrave sur celle-ci.",
+            "it": "Può bloccare la mossa subita dal Pokémon.",
+            "de": "Blockiert eventuell die Attacke, mit welcher der Angreifer es getroffen hat.",
+            "es": "Puede anular el movimiento usado en su contra.",
+            "ko": "공격을 받으면 상대의 기술을 사슬묶기 상태로 만들 때가 있다."
+          }
+        },
+        {
+          "symbol": "aftermath",
+          "textId": 106,
+          "names": {
+            "en": "Aftermath",
+            "fr": "Boom Final",
+            "it": "Scoppio",
+            "de": "Finalschlag",
+            "es": "Detonación",
+            "ko": "유폭"
+          },
+          "descriptions": {
+            "en": "Damages the attacker if it contacts the Pokémon with a finishing hit.",
+            "fr": "Si le Pokémon est mis K.O. par une attaque directe, il inflige des dégâts à l’attaquant avant de s’évanouir.",
+            "it": "Chi manda KO questo Pokémon con un attacco diretto subisce dei danni.",
+            "de": "Wird das Pokémon durch eine direkte Attacke besiegt, fügt es dem Angreifer Schaden zu.",
+            "es": "Daña al agresor que le ha dado el golpe de gracia con un movimiento de contacto.",
+            "ko": "기절했을 때 접촉한 상대에게 데미지를 준다."
+          }
+        },
+        {
+          "symbol": "anger_point",
+          "textId": 83,
+          "names": {
+            "en": "Anger Point",
+            "fr": "Colérique",
+            "it": "Grancollera",
+            "de": "Kurzschluss",
+            "es": "Irascible",
+            "ko": "분노의경혈"
+          },
+          "descriptions": {
+            "en": "The Pokémon is angered when it takes a critical hit, and that maxes its Attack stat.",
+            "fr": "Si le Pokémon subit un coup critique, il entre dans une colère noire qui augmente son Attaque au maximum.",
+            "it": "Se il Pokémon subisce un brutto colpo, monta su tutte le furie e il suo Attacco aumenta al massimo.",
+            "de": "Wird nach Einstecken eines Volltreffers wütend und maximiert dabei seinen Angriffs-Wert.",
+            "es": "Si recibe un golpe crítico, monta en cólera y sube su Ataque hasta el máximo.",
+            "ko": "급소에 공격이 맞으면 크게 분노해 공격력이 최대가 된다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fury_swipes",
+          "id": 154,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
+        },
+        {
+          "symbol": "disable",
+          "id": 50,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Disable",
+            "fr": "Entrave",
+            "it": "Inibitore",
+            "de": "Aussetzer",
+            "es": "Anulación",
+            "ko": "사슬묶기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "spite",
+          "id": 180,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Spite",
+            "fr": "Dépit",
+            "it": "Dispetto",
+            "de": "Groll",
+            "es": "Rencor",
+            "ko": "원한"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mean_look",
+          "id": 212,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Mean Look",
+            "fr": "Regard Noir",
+            "it": "Malosguardo",
+            "de": "Horrorblick",
+            "es": "Mal de Ojo",
+            "ko": "검은눈빛"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bulk_up",
+          "id": 339,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Bulk Up",
+            "fr": "Gonflette",
+            "it": "Granfisico",
+            "de": "Protzer",
+            "es": "Corpulencia",
+            "ko": "벌크업"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "drain_punch",
+          "id": 409,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Drain Punch",
+            "fr": "Vampi-Poing",
+            "it": "Assorbipugno",
+            "de": "Ableithieb",
+            "es": "Puño Drenaje",
+            "ko": "드레인펀치"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_edge",
+          "id": 38,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Double-Edge",
+            "fr": "Damoclès",
+            "it": "Sdoppiatore",
+            "de": "Risikotackle",
+            "es": "Doble Filo",
+            "ko": "이판사판태클"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 51,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sleep_talk",
+          "id": 214,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Sleep Talk",
+            "fr": "Blabla Dodo",
+            "it": "Sonnolalia",
+            "de": "Schlafrede",
+            "es": "Sonámbulo",
+            "ko": "잠꼬대"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "poltergeist",
+          "id": 725,
+          "klass": "LevelLearnableMove",
+          "level": 63,
+          "names": {
+            "en": "Poltergeist",
+            "fr": "Esprit Frappeur",
+            "it": "Poltergeist",
+            "de": "Poltergeist",
+            "es": "Poltergeist",
+            "ko": "Poltergeist"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 90
+        },
+        {
+          "symbol": "pin_barrage",
+          "id": 763,
+          "klass": "LevelLearnableMove",
+          "level": 67,
+          "names": {
+            "en": "Pin Barrage",
+            "fr": "Barrage Épingles",
+            "it": "Dynagelo",
+            "de": "Dyna-Frost",
+            "es": "Maxihelada",
+            "ko": "다이아이스"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 25,
+          "accuracy": 95
+        },
+        {
+          "symbol": "destiny_bond",
+          "id": 194,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Destiny Bond",
+            "fr": "Lien du Destin",
+            "it": "Destinobbligato",
+            "de": "Abgangsbund",
+            "es": "Mismo Destino",
+            "ko": "길동무"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}

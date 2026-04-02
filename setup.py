@@ -147,12 +147,28 @@ def run_setup():
             with open(pokemon_json_path, 'r', encoding='utf-8') as f:
                 pokemon_data = json.load(f)
 
+            form = pokemon_data['forms'][0] # Get the first form for processing
+
+            # Renaming Images
+            sprite_path = os.path.join(WEB_POKEFRONT_UPSCALED_FOLDER, f'{form['resources']['front']}.png')
+            shiny_sprite_path = os.path.join(WEB_SHINY_UPSCALED_FOLDER, f'{form['resources']['frontShiny']}.png')
+            renamed = os.path.join(WEB_POKEFRONT_UPSCALED_FOLDER, f'{pokemon_symbol}.png')
+            renamed_shiny = os.path.join(WEB_SHINY_UPSCALED_FOLDER, f'{pokemon_symbol}.png')
+            try:
+                with Image.open(sprite_path) as img:
+                    img.save(renamed)
+            except Exception as e:
+                print(f"Error renaming sprite {filename}: {e}")
+            try:
+                with Image.open(shiny_sprite_path) as img:
+                    img.save(renamed_shiny)
+            except Exception as e:
+                print(f"Error renaming sprite {filename}: {e}")
+
             # Assuming there's only one form or we process the first one
             if not pokemon_data.get('forms'):
                 print(f"Warning: No forms found for {pokemon_symbol}, skipping consolidation.")
                 continue
-            
-            form = pokemon_data['forms'][0] # Get the first form for processing
 
             # Consolidate Name
             translated_names = {}

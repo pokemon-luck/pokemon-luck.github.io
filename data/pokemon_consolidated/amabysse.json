@@ -1,0 +1,703 @@
+{
+  "klass": "Specie",
+  "id": 226,
+  "dbSymbol": "amabysse",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 263,
+        "description": 0
+      },
+      "height": 0.53,
+      "weight": 5.6,
+      "type1": "water",
+      "type2": "__undef__",
+      "baseHp": 50,
+      "baseAtk": 55,
+      "baseDfe": 40,
+      "baseSpd": 60,
+      "baseAts": 45,
+      "baseDfs": 65,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [
+        {
+          "dbSymbol": "kapptaine",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "skill1",
+              "value": "thief",
+              "names": {
+                "en": "Thief",
+                "fr": "Larcin",
+                "it": "Furto",
+                "de": "Raub",
+                "es": "Ladrón",
+                "ko": "도둑질"
+              }
+            }
+          ]
+        }
+      ],
+      "experienceType": 1,
+      "baseExperience": 65,
+      "baseLoyalty": 70,
+      "catchRate": 220,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "amabysse",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "pickpocket",
+        "rain_dish",
+        "defiant"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "226_i",
+        "iconShiny": "226_i_s",
+        "front": "226",
+        "frontShiny": "226_s",
+        "back": "226_b",
+        "backShiny": "226_b_s",
+        "footprint": "",
+        "character": "226_c",
+        "characterShiny": "226_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "splash",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tail_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_gun",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charm",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_ring",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sing",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bubble_beam",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "covet",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brine",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thief",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "safeguard",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_jet",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dive",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "encore",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 60
+        }
+      ],
+      "names": {
+        "en": "Amabyss",
+        "fr": "Amabysse",
+        "it": "Mantine",
+        "de": "Mantax",
+        "es": "Mantine",
+        "ko": "만타인"
+      },
+      "descriptions": {
+        "en": "Amabyss builds its nest using seaweed, coral or any sunken item. It usually chooses a spot deep in the water, away from danger.",
+        "fr": "Amabysse construit son nid à l'aide d'algues, corail ou tout autre objet ayant coulé. Il choisit souvent un emplacement au fond de l'eau, à l'abri de tout danger.",
+        "it": "Volteggia con grazia sulle onde ed è raffigurato in cartoline e poster di Alola molto apprezzati come souvenir.",
+        "de": "Postkarten und Poster, auf denen Mantax elegant über die Wellen springt, sind beliebte Mitbringsel aus Alola.",
+        "es": "Un souvenir típico de Alola son las postales y pósteres con dibujos de Mantine saltando grácilmente sobre las olas del mar.",
+        "ko": "우아하게 파도 위를 튀어 오르는 만타인을 그린 그림엽서나 포스터는 인기 있는 알로라 특산품이다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "pickpocket",
+          "textId": 124,
+          "names": {
+            "en": "Pickpocket",
+            "fr": "Pickpocket",
+            "it": "Arraffalesto",
+            "de": "Langfinger",
+            "es": "Hurto",
+            "ko": "나쁜손버릇"
+          },
+          "descriptions": {
+            "en": "Steals an item from an attacker that made direct contact.",
+            "fr": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "de": "Stiehlt das Item des Angreifers bei Berührung.",
+            "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "ko": "접촉한 상대의 도구를 훔친다."
+          }
+        },
+        {
+          "symbol": "rain_dish",
+          "textId": 44,
+          "names": {
+            "en": "Rain Dish",
+            "fr": "Cuvette",
+            "it": "Copripioggia",
+            "de": "Regengenuss",
+            "es": "Cura Lluvia",
+            "ko": "젖은접시"
+          },
+          "descriptions": {
+            "en": "The Pokémon gradually regains HP in rain.",
+            "fr": "Le Pokémon récupère progressivement des PV lorsqu’il pleut.",
+            "it": "Il Pokémon recupera PS quando piove.",
+            "de": "Regeneriert bei Regen nach und nach KP.",
+            "es": "Recupera PS de forma gradual cuando llueve.",
+            "ko": "비가 오는 날씨일 때 조금씩 HP를 회복한다."
+          }
+        },
+        {
+          "symbol": "defiant",
+          "textId": 128,
+          "names": {
+            "en": "Defiant",
+            "fr": "Acharné",
+            "it": "Agonismo",
+            "de": "Siegeswille",
+            "es": "Competitivo",
+            "ko": "오기"
+          },
+          "descriptions": {
+            "en": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "fr": "Augmente beaucoup l’Attaque du Pokémon quand ses stats baissent.",
+            "it": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "de": "Erhöht den Angriff stark, wenn ein Statuswert gesenkt wurde.",
+            "es": "Sube mucho su Ataque cuando el rival le baja las características.",
+            "ko": "능력이 떨어지면 공격이 크게 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "splash",
+          "id": 150,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Splash",
+            "fr": "Trempette",
+            "it": "Splash",
+            "de": "Platscher",
+            "es": "Salpicadura",
+            "ko": "튀어오르기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "tail_whip",
+          "id": 39,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_gun",
+          "id": 55,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aqua_ring",
+          "id": 392,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Aqua Ring",
+            "fr": "Anneau Hydro",
+            "it": "Acquanello",
+            "de": "Wasserring",
+            "es": "Acua Aro",
+            "ko": "아쿠아링"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "sing",
+          "id": 47,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Sing",
+            "fr": "Berceuse",
+            "it": "Canto",
+            "de": "Gesang",
+            "es": "Canto",
+            "ko": "노래하기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 55
+        },
+        {
+          "symbol": "bubble_beam",
+          "id": 61,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Bubble Beam",
+            "fr": "Bulles d’O",
+            "it": "Bollaraggio",
+            "de": "Blubbstrahl",
+            "es": "Rayo Burbuja",
+            "ko": "거품광선"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "covet",
+          "id": 343,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Covet",
+            "fr": "Implore",
+            "it": "Supplica",
+            "de": "Bezirzer",
+            "es": "Antojo",
+            "ko": "탐내다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Brine",
+            "fr": "Saumure",
+            "it": "Acquadisale",
+            "de": "Lake",
+            "es": "Salmuera",
+            "ko": "소금물"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thief",
+          "id": 168,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Thief",
+            "fr": "Larcin",
+            "it": "Furto",
+            "de": "Raub",
+            "es": "Ladrón",
+            "ko": "도둑질"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "safeguard",
+          "id": 219,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Safeguard",
+            "fr": "Rune Protect",
+            "it": "Salvaguardia",
+            "de": "Bodyguard",
+            "es": "Velo Sagrado",
+            "ko": "신비의부적"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mirror_coat",
+          "id": 243,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Mirror Coat",
+            "fr": "Voile Miroir",
+            "it": "Specchiovelo",
+            "de": "Spiegelcape",
+            "es": "Manto Espejo",
+            "ko": "미러코트"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dive",
+          "id": 291,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Dive",
+            "fr": "Plongée",
+            "it": "Sub",
+            "de": "Taucher",
+            "es": "Buceo",
+            "ko": "다이빙"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "LevelLearnableMove",
+          "level": 51,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "encore",
+          "id": 227,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 80
+        }
+      ]
+    }
+  ]
+}

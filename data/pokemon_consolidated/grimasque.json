@@ -60,7 +60,7 @@
         }
       ],
       "abilities": [
-        "trace",
+        "mask_switch",
         "mask_switch",
         "emotion_sync"
       ],
@@ -68,8 +68,8 @@
       "resources": {
         "icon": "212_i",
         "iconShiny": "212_i_s",
-        "front": "212",
-        "frontShiny": "212_s",
+        "front": "212_calm",
+        "frontShiny": "212_s_calm",
         "back": "212_b",
         "backShiny": "212_b_s",
         "footprint": "",
@@ -204,26 +204,6 @@
         "ko": "강철 같은 몸을 가졌다. 완고하고 무거운 집게는 적을 잡기보다 때려눕히기에 적당하다."
       },
       "abilities_data": [
-        {
-          "symbol": "trace",
-          "textId": 36,
-          "names": {
-            "en": "Trace",
-            "fr": "Calque",
-            "it": "Traccia",
-            "de": "Erfassen",
-            "es": "Rastro",
-            "ko": "트레이스"
-          },
-          "descriptions": {
-            "en": "When it enters a battle, the Pokémon copies an opposing Pokémon’s Ability.",
-            "fr": "Lorsque le Pokémon entre au combat, il calque le talent d’un ennemi pour remplacer le sien.",
-            "it": "Quando il Pokémon entra in campo, copia l’abilità di un nemico.",
-            "de": "Kopiert bei Kampfantritt die Fähigkeit eines Gegners.",
-            "es": "Al entrar en combate copia la habilidad del rival.",
-            "ko": "등장했을 때 상대의 특성을 트레이스해서 같은 특성이 된다."
-          }
-        },
         {
           "symbol": "mask_switch",
           "textId": 304,
@@ -664,6 +644,931 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        }
+      ]
+    },
+    {
+      "form": 1,
+      "formTextId": {
+        "name": 253,
+        "description": 29
+      },
+      "height": 1.25,
+      "weight": 26.3,
+      "type1": "ghost",
+      "type2": "rock",
+      "baseHp": 50,
+      "baseAtk": 50,
+      "baseDfe": 105,
+      "baseSpd": 50,
+      "baseAts": 60,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tragenie",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 150,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "maskawaii",
+      "babyForm": 1,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mask_switch",
+        "mask_switch",
+        "emotion_sync"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_i",
+        "iconShiny": "212_i_s",
+        "front": "212_joy",
+        "frontShiny": "212_s_joy",
+        "back": "212_b_joy",
+        "backShiny": "212_b_s_joy",
+        "footprint": "",
+        "character": "212_c",
+        "characterShiny": "212_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "copycat",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metronome",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_move",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mimic",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trick_room",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "form": 2,
+      "formTextId": {
+        "name": 254,
+        "description": 30
+      },
+      "height": 1.25,
+      "weight": 26.3,
+      "type1": "ghost",
+      "type2": "rock",
+      "baseHp": 50,
+      "baseAtk": 50,
+      "baseDfe": 105,
+      "baseSpd": 50,
+      "baseAts": 60,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tragenie",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 150,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "maskawaii",
+      "babyForm": 2,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mask_switch",
+        "mask_switch",
+        "emotion_sync"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_i",
+        "iconShiny": "212_i_s",
+        "front": "212_rage",
+        "frontShiny": "212_s_rage",
+        "back": "212_b",
+        "backShiny": "212_b_s",
+        "footprint": "",
+        "character": "212_c",
+        "characterShiny": "212_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "copycat",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metronome",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_move",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mimic",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trick_room",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "form": 3,
+      "formTextId": {
+        "name": 255,
+        "description": 31
+      },
+      "height": 1.25,
+      "weight": 26.3,
+      "type1": "ghost",
+      "type2": "rock",
+      "baseHp": 50,
+      "baseAtk": 50,
+      "baseDfe": 105,
+      "baseSpd": 50,
+      "baseAts": 60,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tragenie",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 150,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "maskawaii",
+      "babyForm": 3,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mask_switch",
+        "mask_switch",
+        "emotion_sync"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_i",
+        "iconShiny": "212_i_s",
+        "front": "212_sad",
+        "frontShiny": "212_s_sad",
+        "back": "212_b",
+        "backShiny": "212_b_s",
+        "footprint": "",
+        "character": "212_c",
+        "characterShiny": "212_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "copycat",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metronome",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_move",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mimic",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trick_room",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "form": 4,
+      "formTextId": {
+        "name": 256,
+        "description": 32
+      },
+      "height": 1.25,
+      "weight": 26.3,
+      "type1": "ghost",
+      "type2": "rock",
+      "baseHp": 50,
+      "baseAtk": 50,
+      "baseDfe": 105,
+      "baseSpd": 50,
+      "baseAts": 60,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tragenie",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 150,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "maskawaii",
+      "babyForm": 4,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mask_switch",
+        "mask_switch",
+        "emotion_sync"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_i",
+        "iconShiny": "212_i_s",
+        "front": "212_fear",
+        "frontShiny": "212_s_fear",
+        "back": "212_b_fear",
+        "backShiny": "212_b_s_fear",
+        "footprint": "",
+        "character": "212_c",
+        "characterShiny": "212_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "copycat",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metronome",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_move",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mimic",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trick_room",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
+        }
+      ]
+    },
+    {
+      "form": 5,
+      "formTextId": {
+        "name": 257,
+        "description": 33
+      },
+      "height": 1.25,
+      "weight": 26.3,
+      "type1": "ghost",
+      "type2": "rock",
+      "baseHp": 50,
+      "baseAtk": 50,
+      "baseDfe": 105,
+      "baseSpd": 50,
+      "baseAts": 60,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 1,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [
+        {
+          "dbSymbol": "tragenie",
+          "form": 0,
+          "conditions": [
+            {
+              "type": "minLevel",
+              "value": 40
+            }
+          ]
+        }
+      ],
+      "experienceType": 3,
+      "baseExperience": 150,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        8,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "maskawaii",
+      "babyForm": 5,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "mask_switch",
+        "mask_switch",
+        "emotion_sync"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "212_i",
+        "iconShiny": "212_i_s",
+        "front": "212_amusement",
+        "frontShiny": "212_s_amusement",
+        "back": "212_b",
+        "backShiny": "212_b_s",
+        "footprint": "",
+        "character": "212_c",
+        "characterShiny": "212_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_throw",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "copycat",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metronome",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spite",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_polish",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_move",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "extrasensory",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "metal_sound",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mimic",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mirror_coat",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "trick_room",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 70
         }
       ]
     }

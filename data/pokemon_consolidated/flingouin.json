@@ -1,0 +1,684 @@
+{
+  "klass": "Specie",
+  "id": 230,
+  "dbSymbol": "flingouin",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 267,
+        "description": 0
+      },
+      "height": 1.26,
+      "weight": 45.8,
+      "type1": "water",
+      "type2": "fire",
+      "baseHp": 95,
+      "baseAtk": 65,
+      "baseDfe": 85,
+      "baseSpd": 70,
+      "baseAts": 105,
+      "baseDfs": 70,
+      "evHp": 1,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 180,
+      "baseLoyalty": 70,
+      "catchRate": 85,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        4
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "flingouin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "no_guard",
+        "sniper",
+        "railgun"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "230_i",
+        "iconShiny": "230_i_s",
+        "front": "230",
+        "frontShiny": "230_s",
+        "back": "230_b",
+        "backShiny": "230_b_s",
+        "footprint": "",
+        "character": "230_c",
+        "characterShiny": "230_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smokescreen",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_gun",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rapid_spin",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ember",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "weather_ball",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_charge",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bullet_seed",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bubble_beam",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "incinerate",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_jet",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_bomb",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_shell",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flamethrower",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "liquidation",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aura_sphere",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_cannon",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 71
+        }
+      ],
+      "names": {
+        "en": "Pingun",
+        "fr": "Flingouin",
+        "it": "Kingdra",
+        "de": "Seedraking",
+        "es": "Kingdra",
+        "ko": "킹드라"
+      },
+      "descriptions": {
+        "en": "Though its internal temperature is quite high, Pingun prefers cold environments. The steam emanating from its body forms hot springs that are highly popular with other pokémon.",
+        "fr": "Malgré sa température corporelle élevée, Flingouin préfère les environnements froids. La vapeur émanant de son corps forme des sources thermales très appréciées des autres pokémon.",
+        "it": "Kingdra dorme sui fondali marini dove di solito non esistono forme di vita. Si dice che in caso di tempesta Kingdra si svegli e vada in cerca di prede.",
+        "de": "Seedraking schläft auf dem Meeresboden, wo ansonsten niemand lebt. Wenn ein Sturm aufkommt, wacht es auf und macht sich auf die Suche nach Beute.",
+        "es": "Kingdra duerme en el lecho marino, donde apenas pueden encontrarse otras formas de vida. Cuando estalla una tormenta, dicen que se despierta y se pone a vagar en busca de su presa.",
+        "ko": "생물이 살지 않는 해저에서 자고 있다. 태풍이 오면 눈을 뜨고 먹이를 찾으러 돌아다닌다고 전해진다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "no_guard",
+          "textId": 99,
+          "names": {
+            "en": "No Guard",
+            "fr": "Annule Garde",
+            "it": "Nullodifesa",
+            "de": "Schildlos",
+            "es": "Indefenso",
+            "ko": "노가드"
+          },
+          "descriptions": {
+            "en": "The Pokémon employs no-guard tactics to ensure incoming and outgoing attacks always land.",
+            "fr": "Les capacités du Pokémon touchent l’ennemi à coup sûr, mais les capacités de l’ennemi le touchent aussi à coup sûr.",
+            "it": "Il Pokémon e chiunque lo attacchi abbassano la guardia e le loro mosse vanno sempre a segno.",
+            "de": "Alle Attacken des oder auf das Pokémon gelingen aufgrund seiner deckungslosen Kampftaktik.",
+            "es": "Al quedar ambos expuestos, tanto sus movimientos como los del rival acertarán siempre.",
+            "ko": "노가드전법에 따라 서로가 사용하는 기술이 반드시 맞게 된다."
+          }
+        },
+        {
+          "symbol": "sniper",
+          "textId": 97,
+          "names": {
+            "en": "Sniper",
+            "fr": "Sniper",
+            "it": "Cecchino",
+            "de": "Superschütze",
+            "es": "Francotirador",
+            "ko": "스나이퍼"
+          },
+          "descriptions": {
+            "en": "Powers up moves if they become critical hits when attacking.",
+            "fr": "Lorsque le Pokémon porte un coup critique, les dégâts infligés augmentent encore plus que d’habitude.",
+            "it": "Aumenta ulteriormente i danni inflitti dai brutti colpi.",
+            "de": "Erhöht bei Volltreffern die Stärke der Attacke noch weiter.",
+            "es": "Potencia los golpes críticos que asesta aún más de lo normal.",
+            "ko": "공격을 급소에 맞혔을 때 위력이 더욱 올라간다."
+          }
+        },
+        {
+          "symbol": "railgun",
+          "textId": 306,
+          "names": {
+            "en": "Railgun",
+            "fr": "Railgun",
+            "it": "Railgun",
+            "de": "Railgun",
+            "es": "Railgun",
+            "ko": "Railgun"
+          },
+          "descriptions": {
+            "en": "Boosts damage from bullet, gun or cannon moves.",
+            "fr": "Augmente les dégâts des attaques de balles, pistolets ou cannons.",
+            "it": "Augmente les dégâts des attaques de balles, pistolets ou cannons.",
+            "de": "Augmente les dégâts des attaques de balles, pistolets ou cannons.",
+            "es": "Augmente les dégâts des attaques de balles, pistolets ou cannons.",
+            "ko": "Augmente les dégâts des attaques de balles, pistolets ou cannons."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_gun",
+          "id": 55,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rapid_spin",
+          "id": 229,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Rapid Spin",
+            "fr": "Tour Rapide",
+            "it": "Rapigiro",
+            "de": "Turbodreher",
+            "es": "Giro Rápido",
+            "ko": "고속스핀"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 40,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ember",
+          "id": 52,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "weather_ball",
+          "id": 311,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Weather Ball",
+            "fr": "Ball’Météo",
+            "it": "Palla Clima",
+            "de": "Meteorologe",
+            "es": "Meteorobola",
+            "ko": "웨더볼"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flame_charge",
+          "id": 488,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Flame Charge",
+            "fr": "Nitrocharge",
+            "it": "Nitrocarica",
+            "de": "Nitroladung",
+            "es": "Nitrocarga",
+            "ko": "니트로차지"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bullet_seed",
+          "id": 331,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Bullet Seed",
+            "fr": "Balle Graine",
+            "it": "Semitraglia",
+            "de": "Kugelsaat",
+            "es": "Semilladora",
+            "ko": "기관총"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 30,
+          "power": 25,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bubble_beam",
+          "id": 61,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Bubble Beam",
+            "fr": "Bulles d’O",
+            "it": "Bollaraggio",
+            "de": "Blubbstrahl",
+            "es": "Rayo Burbuja",
+            "ko": "거품광선"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "incinerate",
+          "id": 510,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Incinerate",
+            "fr": "Calcination",
+            "it": "Bruciatutto",
+            "de": "Einäschern",
+            "es": "Calcinación",
+            "ko": "불태우기"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_bomb",
+          "id": 426,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Mud Bomb",
+            "fr": "Boue-Bombe",
+            "it": "Pantanobomba",
+            "de": "Schlammbombe",
+            "es": "Bomba Fango",
+            "ko": "진흙폭탄"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 85
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bulk_up",
+          "id": 339,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Bulk Up",
+            "fr": "Gonflette",
+            "it": "Granfisico",
+            "de": "Protzer",
+            "es": "Corpulencia",
+            "ko": "벌크업"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "razor_shell",
+          "id": 534,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Razor Shell",
+            "fr": "Coqui-Lame",
+            "it": "Conchilama",
+            "de": "Kalkklinge",
+            "es": "Concha Filo",
+            "ko": "셸블레이드"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "flamethrower",
+          "id": 53,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Flamethrower",
+            "fr": "Lance-Flammes",
+            "it": "Lanciafiamme",
+            "de": "Flammenwurf",
+            "es": "Lanzallamas",
+            "ko": "화염방사"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "liquidation",
+          "id": 710,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Liquidation",
+            "fr": "Aqua-Brèche",
+            "it": "Idrobreccia",
+            "de": "Aquadurchstoß",
+            "es": "Hidroariete",
+            "ko": "아쿠아브레이크"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flash_cannon",
+          "id": 430,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Flash Cannon",
+            "fr": "Luminocanon",
+            "it": "Cannonflash",
+            "de": "Lichtkanone",
+            "es": "Foco Resplandor",
+            "ko": "러스터캐논"
+          },
+          "category": "special",
+          "type": "steel",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
+          "klass": "LevelLearnableMove",
+          "level": 71,
+          "names": {
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 80
+        }
+      ]
+    }
+  ]
+}

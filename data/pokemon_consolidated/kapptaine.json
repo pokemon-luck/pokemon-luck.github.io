@@ -1,0 +1,660 @@
+{
+  "klass": "Specie",
+  "id": 227,
+  "dbSymbol": "kapptaine",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 264,
+        "description": 0
+      },
+      "height": 1.82,
+      "weight": 83.6,
+      "type1": "water",
+      "type2": "dark",
+      "baseHp": 80,
+      "baseAtk": 115,
+      "baseDfe": 70,
+      "baseSpd": 75,
+      "baseAts": 85,
+      "baseDfs": 95,
+      "evHp": 0,
+      "evAtk": 2,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 180,
+      "baseLoyalty": 70,
+      "catchRate": 80,
+      "femaleRate": 50,
+      "breedGroups": [
+        2,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "amabysse",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "pickpocket",
+        "rain_dish",
+        "defiant"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "227_i",
+        "iconShiny": "227_i_s",
+        "front": "227",
+        "frontShiny": "227_s",
+        "back": "227_b",
+        "backShiny": "227_b_s",
+        "footprint": "",
+        "character": "227_c",
+        "characterShiny": "227_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pursuit",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_gun",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "covet",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "torment",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brine",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swagger",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thief",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_shell",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "liquidation",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sucker_punch",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "parting_shot",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "coral_cleaver",
+          "level": 70
+        }
+      ],
+      "names": {
+        "en": "Kapptain",
+        "fr": "Kapptaine",
+        "it": "Skarmory",
+        "de": "Panzaeron",
+        "es": "Skarmory",
+        "ko": "무장조"
+      },
+      "descriptions": {
+        "en": "Kapptain uses its coral hook to fish, or simply to anchor itself as it rests in the strong currents.",
+        "fr": "Kapptaine utilise son crochet fait de corail pour pêcher, ou simplement pour s'ancrer lorsqu'il se repose dans les courants forts.",
+        "it": "Le piume che perde vengono usate per fabbricare coltelli affilatissimi, particolarmente apprezzati dai migliori cuochi.",
+        "de": "Die Federn, die ihm ausfallen, werden zu Küchenmessern verarbeitet, mit deren Schärfe auch erstklassige Köche zufrieden sind.",
+        "es": "Los cuchillos fabricados con las plumas que se le caen son reconocidos entre los cocineros más prestigiosos por la gran calidad de sus filos.",
+        "ko": "빠진 날개를 가공해서 만드는 식칼은 일류 요리사도 인정할 정도로 날카롭다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "pickpocket",
+          "textId": 124,
+          "names": {
+            "en": "Pickpocket",
+            "fr": "Pickpocket",
+            "it": "Arraffalesto",
+            "de": "Langfinger",
+            "es": "Hurto",
+            "ko": "나쁜손버릇"
+          },
+          "descriptions": {
+            "en": "Steals an item from an attacker that made direct contact.",
+            "fr": "Vole l’objet que tient l’attaquant quand le Pokémon subit une attaque directe.",
+            "it": "Se il Pokémon viene colpito da un attacco diretto, ruba lo strumento di chi lo ha attaccato.",
+            "de": "Stiehlt das Item des Angreifers bei Berührung.",
+            "es": "Si el rival usa un movimiento de contacto al atacar, le roba el objeto.",
+            "ko": "접촉한 상대의 도구를 훔친다."
+          }
+        },
+        {
+          "symbol": "rain_dish",
+          "textId": 44,
+          "names": {
+            "en": "Rain Dish",
+            "fr": "Cuvette",
+            "it": "Copripioggia",
+            "de": "Regengenuss",
+            "es": "Cura Lluvia",
+            "ko": "젖은접시"
+          },
+          "descriptions": {
+            "en": "The Pokémon gradually regains HP in rain.",
+            "fr": "Le Pokémon récupère progressivement des PV lorsqu’il pleut.",
+            "it": "Il Pokémon recupera PS quando piove.",
+            "de": "Regeneriert bei Regen nach und nach KP.",
+            "es": "Recupera PS de forma gradual cuando llueve.",
+            "ko": "비가 오는 날씨일 때 조금씩 HP를 회복한다."
+          }
+        },
+        {
+          "symbol": "defiant",
+          "textId": 128,
+          "names": {
+            "en": "Defiant",
+            "fr": "Acharné",
+            "it": "Agonismo",
+            "de": "Siegeswille",
+            "es": "Competitivo",
+            "ko": "오기"
+          },
+          "descriptions": {
+            "en": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "fr": "Augmente beaucoup l’Attaque du Pokémon quand ses stats baissent.",
+            "it": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "de": "Erhöht den Angriff stark, wenn ein Statuswert gesenkt wurde.",
+            "es": "Sube mucho su Ataque cuando el rival le baja las características.",
+            "ko": "능력이 떨어지면 공격이 크게 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "pursuit",
+          "id": 228,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pursuit",
+            "fr": "Poursuite",
+            "it": "Inseguimento",
+            "de": "Verfolgung",
+            "es": "Persecución",
+            "ko": "따라가때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "water_gun",
+          "id": 55,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fury_swipes",
+          "id": 154,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
+        },
+        {
+          "symbol": "covet",
+          "id": 343,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Covet",
+            "fr": "Implore",
+            "it": "Supplica",
+            "de": "Bezirzer",
+            "es": "Antojo",
+            "ko": "탐내다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "torment",
+          "id": 259,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Torment",
+            "fr": "Tourmente",
+            "it": "Attaccalite",
+            "de": "Folterknecht",
+            "es": "Tormento",
+            "ko": "트집"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Brine",
+            "fr": "Saumure",
+            "it": "Acquadisale",
+            "de": "Lake",
+            "es": "Salmuera",
+            "ko": "소금물"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "swagger",
+          "id": 207,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Swagger",
+            "fr": "Vantardise",
+            "it": "Bullo",
+            "de": "Angeberei",
+            "es": "Contoneo",
+            "ko": "뽐내기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "thief",
+          "id": 168,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Thief",
+            "fr": "Larcin",
+            "it": "Furto",
+            "de": "Raub",
+            "es": "Ladrón",
+            "ko": "도둑질"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "razor_shell",
+          "id": 534,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Razor Shell",
+            "fr": "Coqui-Lame",
+            "it": "Conchilama",
+            "de": "Kalkklinge",
+            "es": "Concha Filo",
+            "ko": "셸블레이드"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "liquidation",
+          "id": 710,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Liquidation",
+            "fr": "Aqua-Brèche",
+            "it": "Idrobreccia",
+            "de": "Aquadurchstoß",
+            "es": "Hidroariete",
+            "ko": "아쿠아브레이크"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sucker_punch",
+          "id": 389,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "night_slash",
+          "id": 400,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Night Slash",
+            "fr": "Tranche-Nuit",
+            "it": "Nottesferza",
+            "de": "Nachthieb",
+            "es": "Tajo Umbrío",
+            "ko": "깜짝베기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "parting_shot",
+          "id": 575,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Parting Shot",
+            "fr": "Dernier Mot",
+            "it": "Monito",
+            "de": "Abgangstirade",
+            "es": "Última Palabra",
+            "ko": "막말내뱉기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 80
+        },
+        {
+          "symbol": "coral_cleaver",
+          "id": 762,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Coral Cleaver",
+            "fr": "Masse Corail",
+            "it": "Dynavuoto",
+            "de": "Dyna-Spuk",
+            "es": "Maxiespectro",
+            "ko": "다이할로우"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        }
+      ]
+    }
+  ]
+}
