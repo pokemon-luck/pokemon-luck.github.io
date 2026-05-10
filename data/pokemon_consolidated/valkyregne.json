@@ -1,0 +1,684 @@
+{
+  "klass": "Specie",
+  "id": 235,
+  "dbSymbol": "valkyregne",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 272,
+        "description": 0
+      },
+      "height": 1.76,
+      "weight": 68.9,
+      "type1": "dark",
+      "type2": "celestial",
+      "baseHp": 65,
+      "baseAtk": 120,
+      "baseDfe": 50,
+      "baseSpd": 100,
+      "baseAts": 115,
+      "baseDfs": 70,
+      "evHp": 0,
+      "evAtk": 1,
+      "evDfe": 0,
+      "evSpd": 1,
+      "evAts": 1,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 2,
+      "baseExperience": 245,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        6,
+        8
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "terrubin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "justified",
+        "intimidate",
+        "defiant"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "",
+        "iconShiny": "",
+        "front": "236",
+        "frontShiny": "236_s",
+        "back": "",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_jab",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_snap",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_cutter",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glow",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "cleansing",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "exorciblade",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sacred_sword",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "luminous_prism",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sucker_punch",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "enchant",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soothing_twirl",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic_fangs",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gleam_beam",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brave_bird",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "lucky_chant",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 72
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "justice_hammer",
+          "level": 75
+        }
+      ],
+      "names": {
+        "en": "Valkyreign",
+        "fr": "Valkyrègne",
+        "it": "Smeargle",
+        "de": "Farbeagle",
+        "es": "Smeargle",
+        "ko": "루브도"
+      },
+      "descriptions": {
+        "en": " ",
+        "fr": "",
+        "it": "Dalla punta della coda secerne un fluido corporeo la cui tonalità cambia in base alle sue emozioni.",
+        "de": "Der Farbton der Flüssigkeit, die aus seiner Schweifspitze austritt, ändert sich je nach Gefühlslage.",
+        "es": "La tonalidad del líquido que libera por la cola cambia en función de su estado anímico.",
+        "ko": "꼬리 끝에서 나오는 체액은 루브도의 감정에 따라 색조가 변화한다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "justified",
+          "textId": 154,
+          "names": {
+            "en": "Justified",
+            "fr": "Cœur Noble",
+            "it": "Giustizia",
+            "de": "Redlichkeit",
+            "es": "Justiciero",
+            "ko": "정의의마음"
+          },
+          "descriptions": {
+            "en": "Being hit by a Dark-type move boosts the Attack stat of the Pokémon, for justice.",
+            "fr": "Réveille la noblesse du Pokémon lorsqu’il subit une capacité de type Ténèbres, ce qui augmente son Attaque.",
+            "it": "Quando il Pokémon viene colpito da una mossa di tipo Buio, il suo forte senso di giustizia fa sì che l’Attacco aumenti.",
+            "de": "Wird es von einer Unlicht-Attacke getroffen, meldet sich sein Sinn für Gerechtigkeit zu Wort und sein Angriff steigt.",
+            "es": "Si le alcanza un movimiento de tipo Siniestro, aumenta el Ataque debido a su integridad.",
+            "ko": "악타입 공격을 받으면 정의감으로 공격이 올라간다."
+          }
+        },
+        {
+          "symbol": "intimidate",
+          "textId": 22,
+          "names": {
+            "en": "Intimidate",
+            "fr": "Intimidation",
+            "it": "Prepotenza",
+            "de": "Bedroher",
+            "es": "Intimidación",
+            "ko": "위협"
+          },
+          "descriptions": {
+            "en": "The Pokémon intimidates opposing Pokémon upon entering battle, lowering their Attack stat.",
+            "fr": "Le Pokémon rugit lorsqu’il arrive au combat, ce qui intimide l’ennemi et baisse son Attaque.",
+            "it": "Quando il Pokémon entra in campo, la sua prepotenza intimidisce i nemici, riducendone l’Attacco.",
+            "de": "Senkt den Angriff der Gegner, indem es sie gleich zu Kampfantritt bedroht und einschüchtert.",
+            "es": "Al entrar en combate amilana al rival de tal manera que su Ataque disminuye.",
+            "ko": "등장했을 때 위협해서 상대를 위축시켜 상대의 공격을 떨어뜨린다."
+          }
+        },
+        {
+          "symbol": "defiant",
+          "textId": 128,
+          "names": {
+            "en": "Defiant",
+            "fr": "Acharné",
+            "it": "Agonismo",
+            "de": "Siegeswille",
+            "es": "Competitivo",
+            "ko": "오기"
+          },
+          "descriptions": {
+            "en": "Boosts the Pokémon’s Attack stat sharply when its stats are lowered.",
+            "fr": "Augmente beaucoup l’Attaque du Pokémon quand ses stats baissent.",
+            "it": "L’Attacco aumenta di molto quando le statistiche diminuiscono a causa di un nemico.",
+            "de": "Erhöht den Angriff stark, wenn ein Statuswert gesenkt wurde.",
+            "es": "Sube mucho su Ataque cuando el rival le baja las características.",
+            "ko": "능력이 떨어지면 공격이 크게 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "flash_snap",
+          "id": 775,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Flash Snap",
+            "fr": "Rapidoflash",
+            "it": "Dracofonia",
+            "de": "Seelentanz",
+            "es": "Estruendo Escama",
+            "ko": "소울비트"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fury_cutter",
+          "id": 210,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Fury Cutter",
+            "fr": "Taillade",
+            "it": "Tagliofuria",
+            "de": "Zornklinge",
+            "es": "Corte Furia",
+            "ko": "연속자르기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 95
+        },
+        {
+          "symbol": "night_slash",
+          "id": 400,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Night Slash",
+            "fr": "Tranche-Nuit",
+            "it": "Nottesferza",
+            "de": "Nachthieb",
+            "es": "Tajo Umbrío",
+            "ko": "깜짝베기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glow",
+          "id": 782,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Glow",
+            "fr": "Brillance",
+            "it": "Colpo Maestoso",
+            "de": "Gigantenstoß",
+            "es": "Embate Supremo",
+            "ko": "거수탄"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "cleansing",
+          "id": 778,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Cleansing",
+            "fr": "Épuration",
+            "it": "Tamburattacco",
+            "de": "Trommelschläge",
+            "es": "Batería Asalto",
+            "ko": "드럼어택"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "exorciblade",
+          "id": 768,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Exorciblade",
+            "fr": "Exorcilame",
+            "it": "Dynadragone",
+            "de": "Dyna-Wyrm",
+            "es": "Maxidraco",
+            "ko": "다이드라군"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 95
+        },
+        {
+          "symbol": "sacred_sword",
+          "id": 533,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Sacred Sword",
+            "fr": "Lame Sainte",
+            "it": "Spadasolenne",
+            "de": "Sanctoklinge",
+            "es": "Espada Santa",
+            "ko": "성스러운칼"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "luminous_prism",
+          "id": 780,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sucker_punch",
+          "id": 389,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "enchant",
+          "id": 788,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Enchant",
+            "fr": "Enchantement",
+            "it": "Forza G",
+            "de": "Gravitation",
+            "es": "Fuerza G",
+            "ko": "G의힘"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "soothing_twirl",
+          "id": 769,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Soothing Twirl",
+            "fr": "Tour Apaisant",
+            "it": "Dynapsiche",
+            "de": "Dyna-Kinese",
+            "es": "Maxionda",
+            "ko": "다이사이코"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "gleam_beam",
+          "id": 774,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Gleam Beam",
+            "fr": "Rayon Éclatant",
+            "it": "Dynametallo",
+            "de": "Dyna-Stahlzacken",
+            "es": "Maximetal",
+            "ko": "다이스틸"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brave_bird",
+          "id": 413,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Brave Bird",
+            "fr": "Rapace",
+            "it": "Baldeali",
+            "de": "Sturzflug",
+            "es": "Pájaro Osado",
+            "ko": "브레이브버드"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "lucky_chant",
+          "id": 381,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Lucky Chant",
+            "fr": "Air Veinard",
+            "it": "Fortuncanto",
+            "de": "Beschwörung",
+            "es": "Conjuro",
+            "ko": "주술"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 72,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "justice_hammer",
+          "id": 772,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Justice Hammer",
+            "fr": "Marteau Justice",
+            "it": "Dynatenebre",
+            "de": "Dyna-Dunkel",
+            "es": "Maxisombra",
+            "ko": "다이아크"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 95
+        }
+      ]
+    }
+  ]
+}

@@ -1,29 +1,29 @@
 {
   "klass": "Specie",
-  "id": 138,
+  "id": 236,
   "dbSymbol": "celestroll",
   "forms": [
     {
       "form": 0,
       "formTextId": {
-        "name": 26,
+        "name": 273,
         "description": 0
       },
-      "height": 1.42,
-      "weight": 43.7,
-      "type1": "psychic",
+      "height": 1.44,
+      "weight": 63.8,
+      "type1": "celestial",
       "type2": "__undef__",
-      "baseHp": 75,
-      "baseAtk": 60,
-      "baseDfe": 75,
-      "baseSpd": 90,
-      "baseAts": 100,
-      "baseDfs": 130,
-      "evHp": 0,
+      "baseHp": 110,
+      "baseAtk": 80,
+      "baseDfe": 70,
+      "baseSpd": 60,
+      "baseAts": 90,
+      "baseDfs": 120,
+      "evHp": 1,
       "evAtk": 0,
       "evDfe": 0,
       "evSpd": 0,
-      "evAts": 1,
+      "evAts": 0,
       "evDfs": 1,
       "evolutions": [],
       "experienceType": 1,
@@ -50,137 +50,152 @@
       ],
       "abilities": [
         "levitate",
-        "forewarn",
-        "magic_guard"
+        "filter",
+        "unaware"
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "138_2_i",
-        "iconShiny": "138_2_i_s",
-        "front": "138_2",
-        "frontShiny": "138_2_s",
-        "back": "138_2_b",
-        "backShiny": "138_2_b_s",
+        "icon": "",
+        "iconShiny": "",
+        "front": "231",
+        "frontShiny": "231_s",
+        "back": "231_b",
+        "backShiny": "231_b_s",
         "footprint": "",
-        "character": "138_2_c",
-        "characterShiny": "138_2_c_s",
-        "egg": "egg",
-        "iconEgg": "egg",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
         "cry": "",
         "hasFemale": false
       },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "sparkle_powder",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
+          "move": "rock_throw",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "disable",
-          "level": 4
+          "move": "counterbalance",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 8
+          "move": "light_jab",
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect",
-          "level": 12
+          "move": "smack_down",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_snap",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "atonement",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "cure_fang",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "body_slam",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protective_cascade",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 16
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "light_screen",
-          "level": 20
+          "move": "soothing_twirl",
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psyshock",
-          "level": 24
+          "move": "power_gem",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 28
+          "move": "lucky_chant",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 32
+          "move": "hammer_arm",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 36
+          "move": "gleam_beam",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "focus_blast",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hypnosis",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "knock_off",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dream_eater",
+          "move": "mirror_world",
           "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "comet_slam",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "starry_bolt",
+          "level": 75
         }
       ],
       "names": {
-        "en": "Folkomet",
+        "en": "Folklear",
         "fr": "Célestroll",
-        "it": "Omanyte",
-        "de": "Amonitas",
-        "es": "Omanyte",
-        "ko": "암나이트"
+        "it": "Tyrogue",
+        "de": "Rabauz",
+        "es": "Tyrogue",
+        "ko": "배루키"
       },
       "descriptions": {
-        "en": "People think that shooting stars are actually Folkomet traveling at very high speed.",
-        "fr": "Les gens pensent que les étoiles filantes sont en fait des Célestroll voyageant à très grande vitesse",
-        "it": "Pokémon che viveva nei mari ancestrali. Per via dei segni di zanne ritrovati sui fossili, si pensa che venisse cacciato dagli Archeops.",
-        "de": "Es lebte im urzeitlichen Meer. Bissspuren auf seinen Fossilien deuten darauf hin, dass es damals von Aeropteryx gejagt wurde.",
-        "es": "Pokémon prehistórico que vivía en el océano. Las marcas de mordeduras en sus fósiles indican que solía ser presa de los Archeops.",
-        "ko": "고대의 바다에 살았던 포켓몬. 아케오스의 먹이였던 것으로 추정되며 잇자국이 있는 화석이 발견된다."
+        "en": " ",
+        "fr": "",
+        "it": "Tyrogue ha bisogno di allenarsi ogni giorno per scaricare la sua energia. Gli Allenatori che lo allevano devono stabilire e praticare diverse metodologie di allenamento.",
+        "de": "Rabauz muss jeden Tag trainieren, sonst ist es nicht ausgelastet und reagiert gestresst. Wenn man dieses Pokémon trainiert, muss man zahlreiche Trainingsmethoden einsetzen und ausbauen.",
+        "es": "Tyrogue se pone demasiado nervioso si no lo sacan a entrenarse cada día. Su Entrenador debe establecer y mantener ciertos métodos de entrenamiento durante la cría.",
+        "ko": "매일 트레이닝하지 않으면 스트레스가 쌓이기 때문에 트레이너는 키울 때 스케줄 관리에 여러모로 고민해야 한다."
       },
       "abilities_data": [
         {
@@ -204,147 +219,280 @@
           }
         },
         {
-          "symbol": "forewarn",
-          "textId": 108,
+          "symbol": "filter",
+          "textId": 111,
           "names": {
-            "en": "Forewarn",
-            "fr": "Prédiction",
-            "it": "Premonizione",
-            "de": "Vorwarnung",
-            "es": "Alerta",
-            "ko": "예지몽"
+            "en": "Filter",
+            "fr": "Filtre",
+            "it": "Filtro",
+            "de": "Filter",
+            "es": "Filtro",
+            "ko": "필터"
           },
           "descriptions": {
-            "en": "When it enters a battle, the Pokémon can tell one of the moves an opposing Pokémon has.",
-            "fr": "Révèle l’une des capacités de l’ennemi quand le combat commence.",
-            "it": "Quando il Pokémon entra in campo, rivela una delle mosse del nemico.",
-            "de": "Gibt bei Kampfantritt Auskunft über eine Attacke aus dem gegnerischen Repertoire.",
-            "es": "Indica el movimiento más potente del rival al entrar en combate.",
-            "ko": "등장했을 때 상대가 지닌 기술을 하나만 꿰뚫어본다."
+            "en": "Reduces the power of supereffective attacks taken.",
+            "fr": "Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.",
+            "it": "Riduce i danni subiti dalle mosse superefficaci.",
+            "de": "Reduziert die Stärke von sehr effektiven Attacken und verringert damit den Schaden, den das Pokémon durch sie erleidet.",
+            "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
+            "ko": "효과가 굉장한 공격의 위력을 약하게 만든다."
           }
         },
         {
-          "symbol": "magic_guard",
-          "textId": 98,
+          "symbol": "unaware",
+          "textId": 109,
           "names": {
-            "en": "Magic Guard",
-            "fr": "Garde Magik",
-            "it": "Magicscudo",
-            "de": "Magieschild",
-            "es": "Muro Mágico",
-            "ko": "매직가드"
+            "en": "Unaware",
+            "fr": "Inconscient",
+            "it": "Imprudenza",
+            "de": "Unkenntnis",
+            "es": "Ignorante",
+            "ko": "천진"
           },
           "descriptions": {
-            "en": "The Pokémon only takes damage from attacks.",
-            "fr": "Seules les attaques peuvent blesser le Pokémon.",
-            "it": "Il Pokémon subisce danni solo dagli attacchi.",
-            "de": "Das Pokémon nimmt nur durch Offensiv-Attacken Schaden.",
-            "es": "Solo recibe daño de ataques.",
-            "ko": "공격 이외에는 데미지를 입지 않는다."
+            "en": "When attacking, the Pokémon ignores the target Pokémon’s stat changes.",
+            "fr": "Quand il attaque, le Pokémon ignore les changements de stats de l’ennemi.",
+            "it": "Quando il Pokémon attacca, ignora le modifiche alle statistiche del nemico.",
+            "de": "Greift das Pokémon an, ignoriert es sämtliche Statusveränderungen des Zieles.",
+            "es": "Pasa por alto las mejoras en las características del rival al atacar.",
+            "ko": "상대의 능력 변화를 무시하고 공격할 수 있다."
           }
         }
       ],
       "moves_data": [
         {
-          "symbol": "confusion",
-          "id": 93,
+          "symbol": "sparkle_powder",
+          "id": 773,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
+          "type": "celestial",
           "pp": 35,
           "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "disable",
-          "id": 50,
+          "symbol": "rock_throw",
+          "id": 88,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 1,
           "names": {
-            "en": "Disable",
-            "fr": "Entrave",
-            "it": "Inibitore",
-            "de": "Aussetzer",
-            "es": "Anulación",
-            "ko": "사슬묶기"
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
+          "symbol": "counterbalance",
+          "id": 790,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 1,
           "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "reflect",
-          "id": 115,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Reflect",
-            "fr": "Protection",
-            "it": "Riflesso",
-            "de": "Reflektor",
-            "es": "Reflejo",
-            "ko": "리플렉터"
+            "en": "Counterbalance",
+            "fr": "Compensation",
+            "it": "Vapore Incantato",
+            "de": "Wunderdampf",
+            "es": "Cautivapor",
+            "ko": "원더스팀"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "celestial",
+          "pp": 25,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smack_down",
+          "id": 479,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Smack Down",
+            "fr": "Anti-Air",
+            "it": "Abbattimento",
+            "de": "Katapult",
+            "es": "Antiaéreo",
+            "ko": "떨어뜨리기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flash_snap",
+          "id": 775,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Flash Snap",
+            "fr": "Rapidoflash",
+            "it": "Dracofonia",
+            "de": "Seelentanz",
+            "es": "Estruendo Escama",
+            "ko": "소울비트"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "atonement",
+          "id": 779,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Atonement",
+            "fr": "Expiation",
+            "it": "Tagliola",
+            "de": "Fangeisen",
+            "es": "Cepo",
+            "ko": "집게덫"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "body_slam",
+          "id": 34,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Body Slam",
+            "fr": "Plaquage",
+            "it": "Corposcontro",
+            "de": "Bodyslam",
+            "es": "Golpe Cuerpo",
+            "ko": "누르기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "protective_cascade",
+          "id": 777,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Protective Cascade",
+            "fr": "Chute Protect",
+            "it": "Decorazione",
+            "de": "Verzierung",
+            "es": "Decoración",
+            "ko": "데코레이션"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
         },
         {
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 41,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -360,250 +508,174 @@
           "accuracy": 90
         },
         {
-          "symbol": "light_screen",
-          "id": 113,
+          "symbol": "soothing_twirl",
+          "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 45,
           "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
+            "en": "Soothing Twirl",
+            "fr": "Tour Apaisant",
+            "it": "Dynapsiche",
+            "de": "Dyna-Kinese",
+            "es": "Maxionda",
+            "ko": "다이사이코"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_gem",
+          "id": 408,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "lucky_chant",
+          "id": 381,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Lucky Chant",
+            "fr": "Air Veinard",
+            "it": "Fortuncanto",
+            "de": "Beschwörung",
+            "es": "Conjuro",
+            "ko": "주술"
           },
           "category": "status",
-          "type": "psychic",
+          "type": "normal",
           "pp": 30,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "psyshock",
-          "id": 473,
+          "symbol": "hammer_arm",
+          "id": 359,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 57,
           "names": {
-            "en": "Psyshock",
-            "fr": "Choc Psy",
-            "it": "Psicoshock",
-            "de": "Psychoschock",
-            "es": "Psicocarga",
-            "ko": "사이코쇼크"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "psychic",
-          "id": 94,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Psychic",
-            "fr": "Psyko",
-            "it": "Psichico",
-            "de": "Psychokinese",
-            "es": "Psíquico",
-            "ko": "사이코키네시스"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "play_rough",
-          "id": 583,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
+            "en": "Hammer Arm",
+            "fr": "Marto-Poing",
+            "it": "Martelpugno",
+            "de": "Hammerarm",
+            "es": "Machada",
+            "ko": "암해머"
           },
           "category": "physical",
-          "type": "fairy",
+          "type": "fighting",
           "pp": 10,
-          "power": 90,
+          "power": 100,
           "accuracy": 90
         },
         {
-          "symbol": "focus_blast",
-          "id": 411,
+          "symbol": "gleam_beam",
+          "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 61,
           "names": {
-            "en": "Focus Blast",
-            "fr": "Exploforce",
-            "it": "Focalcolpo",
-            "de": "Fokusstoß",
-            "es": "Onda Certera",
-            "ko": "기합구슬"
+            "en": "Gleam Beam",
+            "fr": "Rayon Éclatant",
+            "it": "Dynametallo",
+            "de": "Dyna-Stahlzacken",
+            "es": "Maximetal",
+            "ko": "다이스틸"
           },
           "category": "special",
-          "type": "fighting",
-          "pp": 5,
-          "power": 120,
-          "accuracy": 70
+          "type": "celestial",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
         },
         {
-          "symbol": "recover",
-          "id": 105,
+          "symbol": "mirror_world",
+          "id": 787,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 65,
           "names": {
-            "en": "Recover",
-            "fr": "Soin",
-            "it": "Ripresa",
-            "de": "Genesung",
-            "es": "Recuperación",
-            "ko": "HP회복"
+            "en": "Mirror World",
+            "fr": "Monde Mirroir",
+            "it": "Acido Malico",
+            "de": "Apfelsäure",
+            "es": "Ácido Málico",
+            "ko": "사과산"
           },
           "category": "status",
-          "type": "normal",
+          "type": "celestial",
           "pp": 10,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "hypnosis",
-          "id": 95,
+          "symbol": "earth_power",
+          "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 69,
           "names": {
-            "en": "Hypnosis",
-            "fr": "Hypnose",
-            "it": "Ipnosi",
-            "de": "Hypnose",
-            "es": "Hipnosis",
-            "ko": "최면술"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 60
-        },
-        {
-          "symbol": "energy_ball",
-          "id": 412,
-          "klass": "LevelLearnableMove",
-          "level": 56,
-          "names": {
-            "en": "Energy Ball",
-            "fr": "Éco-Sphère",
-            "it": "Energipalla",
-            "de": "Energieball",
-            "es": "Energibola",
-            "ko": "에너지볼"
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
           },
           "category": "special",
-          "type": "grass",
+          "type": "ground",
           "pp": 10,
           "power": 90,
           "accuracy": 100
         },
         {
-          "symbol": "trick_room",
-          "id": 433,
+          "symbol": "comet_slam",
+          "id": 770,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 73,
           "names": {
-            "en": "Trick Room",
-            "fr": "Distorsion",
-            "it": "Distortozona",
-            "de": "Bizarroraum",
-            "es": "Espacio Raro",
-            "ko": "트릭룸"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "knock_off",
-          "id": 282,
-          "klass": "LevelLearnableMove",
-          "level": 64,
-          "names": {
-            "en": "Knock Off",
-            "fr": "Sabotage",
-            "it": "Privazione",
-            "de": "Abschlag",
-            "es": "Desarme",
-            "ko": "탁쳐서떨구기"
+            "en": "Comet Slam",
+            "fr": "Chute Comète",
+            "it": "Dynamacigno",
+            "de": "Dyna-Brocken",
+            "es": "Maxilito",
+            "ko": "다이록"
           },
           "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 65,
+          "type": "celestial",
+          "pp": 5,
+          "power": 95,
           "accuracy": 100
         },
         {
-          "symbol": "dream_eater",
-          "id": 138,
+          "symbol": "starry_bolt",
+          "id": 781,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 75,
           "names": {
-            "en": "Dream Eater",
-            "fr": "Dévorêve",
-            "it": "Mangiasogni",
-            "de": "Traumfresser",
-            "es": "Comesueños",
-            "ko": "꿈먹기"
+            "en": "Starry Bolt",
+            "fr": "Flèche Étoile",
+            "it": "Taglio Maestoso",
+            "de": "Gigantenhieb",
+            "es": "Tajo Supremo",
+            "ko": "거수참"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 15,
-          "power": 100,
+          "type": "celestial",
+          "pp": 5,
+          "power": 120,
           "accuracy": 100
         }
       ]

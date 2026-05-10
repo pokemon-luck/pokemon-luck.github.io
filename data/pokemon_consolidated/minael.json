@@ -12,7 +12,7 @@
       "height": 0.48,
       "weight": 3.9,
       "type1": "psychic",
-      "type2": "__undef__",
+      "type2": "celestial",
       "baseHp": 60,
       "baseAtk": 20,
       "baseDfe": 70,
@@ -91,7 +91,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "light_jab",
           "level": 1
         },
         {
@@ -101,27 +101,27 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "heal_pulse",
+          "move": "confusion",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
+          "move": "sparkle_powder",
           "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "light_screen",
+          "move": "glow",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
+          "move": "zen_headbutt",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "double_slap",
+          "move": "compassion",
           "level": 16
         },
         {
@@ -146,7 +146,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "gravity",
+          "move": "purify",
           "level": 36
         },
         {
@@ -171,8 +171,13 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "cosmic_power",
+          "move": "luminous_prism",
           "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "golden_ward",
+          "level": 62
         }
       ],
       "names": {
@@ -255,22 +260,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "confusion",
-          "id": 93,
+          "symbol": "light_jab",
+          "id": 764,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
           "accuracy": 100
         },
         {
@@ -293,99 +298,99 @@
           "accuracy": 0
         },
         {
-          "symbol": "heal_pulse",
-          "id": 505,
+          "symbol": "confusion",
+          "id": 93,
           "klass": "LevelLearnableMove",
           "level": 4,
           "names": {
-            "en": "Heal Pulse",
-            "fr": "Vibra Soin",
-            "it": "Ondasana",
-            "de": "Heilwoge",
-            "es": "Pulso Cura",
-            "ko": "치유파동"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "rock_throw",
-          "id": 88,
-          "klass": "LevelLearnableMove",
-          "level": 7,
-          "names": {
-            "en": "Rock Throw",
-            "fr": "Jet-Pierres",
-            "it": "Sassata",
-            "de": "Steinwurf",
-            "es": "Lanzarrocas",
-            "ko": "돌떨구기"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 15,
-          "power": 50,
-          "accuracy": 90
-        },
-        {
-          "symbol": "light_screen",
-          "id": 113,
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "draining_kiss",
-          "id": 577,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 10,
+          "type": "psychic",
+          "pp": 25,
           "power": 50,
           "accuracy": 100
         },
         {
-          "symbol": "double_slap",
-          "id": 3,
+          "symbol": "sparkle_powder",
+          "id": 773,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glow",
+          "id": 782,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Glow",
+            "fr": "Brillance",
+            "it": "Colpo Maestoso",
+            "de": "Gigantenstoß",
+            "es": "Embate Supremo",
+            "ko": "거수탄"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "compassion",
+          "id": 783,
           "klass": "LevelLearnableMove",
           "level": 16,
           "names": {
-            "en": "Double Slap",
-            "fr": "Torgnoles",
-            "it": "Doppiasberla",
-            "de": "Duplexhieb",
-            "es": "Doble Bofetón",
-            "ko": "연속뺨치기"
+            "en": "Compassion",
+            "fr": "Compassion",
+            "it": "Ruota d’Aura",
+            "de": "Aura-Rad",
+            "es": "Rueda Aural",
+            "ko": "오라휠"
           },
-          "category": "physical",
-          "type": "normal",
+          "category": "status",
+          "type": "celestial",
           "pp": 10,
-          "power": 15,
-          "accuracy": 85
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "safeguard",
@@ -464,21 +469,21 @@
           "accuracy": 100
         },
         {
-          "symbol": "gravity",
-          "id": 356,
+          "symbol": "purify",
+          "id": 685,
           "klass": "LevelLearnableMove",
           "level": 36,
           "names": {
-            "en": "Gravity",
-            "fr": "Gravité",
-            "it": "Gravità",
-            "de": "Erdanziehung",
-            "es": "Gravedad",
-            "ko": "중력"
+            "en": "Purify",
+            "fr": "Purification",
+            "it": "Purificazione",
+            "de": "Läuterung",
+            "es": "Purificación",
+            "ko": "정화"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 5,
+          "type": "poison",
+          "pp": 20,
           "power": 0,
           "accuracy": 0
         },
@@ -559,20 +564,39 @@
           "accuracy": 100
         },
         {
-          "symbol": "cosmic_power",
-          "id": 322,
+          "symbol": "luminous_prism",
+          "id": 780,
           "klass": "LevelLearnableMove",
           "level": 56,
           "names": {
-            "en": "Cosmic Power",
-            "fr": "Force Cosmique",
-            "it": "Cosmoforza",
-            "de": "Kosmik-Kraft",
-            "es": "Masa Cósmica",
-            "ko": "코스믹파워"
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "golden_ward",
+          "id": 784,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Golden Ward",
+            "fr": "Bulle Dorée",
+            "it": "Vastoimpatto",
+            "de": "Breitseite",
+            "es": "Vasto Impacto",
+            "ko": "와이드브레이커"
           },
           "category": "status",
-          "type": "psychic",
+          "type": "celestial",
           "pp": 20,
           "power": 0,
           "accuracy": 0

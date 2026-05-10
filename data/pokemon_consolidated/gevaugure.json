@@ -157,13 +157,18 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earth_power",
+          "move": "cure_fang",
           "level": 66
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "croc_dragon",
+          "move": "earth_power",
           "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "croc_dragon",
+          "level": 74
         }
       ],
       "names": {
@@ -550,10 +555,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 70,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -572,7 +596,7 @@
           "symbol": "croc_dragon",
           "id": 723,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 74,
           "names": {
             "en": "Draco-Fangs",
             "fr": "Crocs Dragon",

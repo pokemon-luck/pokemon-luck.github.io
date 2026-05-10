@@ -12,7 +12,7 @@
       "height": 1.24,
       "weight": 31.2,
       "type1": "psychic",
-      "type2": "fairy",
+      "type2": "celestial",
       "baseHp": 85,
       "baseAtk": 35,
       "baseDfe": 115,
@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "light_jab",
           "level": 1
         },
         {
@@ -82,7 +82,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "heal_pulse",
+          "move": "sparkle_powder",
           "level": 4
         },
         {
@@ -112,7 +112,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
+          "move": "compassion",
           "level": 28
         },
         {
@@ -132,12 +132,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
+          "move": "blinding_wave",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "cosmic_power",
+          "move": "mist",
           "level": 48
         },
         {
@@ -157,13 +157,23 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hurricane",
+          "move": "justice_hammer",
           "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wish",
           "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protective_cascade",
+          "level": 72
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counterbalance",
+          "level": 76
         }
       ],
       "names": {
@@ -246,22 +256,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "confusion",
-          "id": 93,
+          "symbol": "light_jab",
+          "id": 764,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
           "accuracy": 100
         },
         {
@@ -284,23 +294,23 @@
           "accuracy": 0
         },
         {
-          "symbol": "heal_pulse",
-          "id": 505,
+          "symbol": "sparkle_powder",
+          "id": 773,
           "klass": "LevelLearnableMove",
           "level": 4,
           "names": {
-            "en": "Heal Pulse",
-            "fr": "Vibra Soin",
-            "it": "Ondasana",
-            "de": "Heilwoge",
-            "es": "Pulso Cura",
-            "ko": "치유파동"
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
           },
-          "category": "status",
-          "type": "psychic",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
+          "category": "special",
+          "type": "celestial",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "light_screen",
@@ -398,23 +408,23 @@
           "accuracy": 90
         },
         {
-          "symbol": "dazzling_gleam",
-          "id": 605,
+          "symbol": "compassion",
+          "id": 783,
           "klass": "LevelLearnableMove",
           "level": 28,
           "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
+            "en": "Compassion",
+            "fr": "Compassion",
+            "it": "Ruota d’Aura",
+            "de": "Aura-Rad",
+            "es": "Rueda Aural",
+            "ko": "오라휠"
           },
-          "category": "special",
-          "type": "fairy",
+          "category": "status",
+          "type": "celestial",
           "pp": 10,
-          "power": 80,
-          "accuracy": 100
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "reflect",
@@ -474,40 +484,40 @@
           "accuracy": 0
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "blinding_wave",
+          "id": 776,
           "klass": "LevelLearnableMove",
           "level": 44,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Blinding Wave",
+            "fr": "Vague Aveuglante",
+            "it": "Schiacciacorpo",
+            "de": "Body Press",
+            "es": "Plancha Corporal",
+            "ko": "바디프레스"
           },
           "category": "special",
-          "type": "fairy",
+          "type": "celestial",
           "pp": 15,
-          "power": 95,
+          "power": 45,
           "accuracy": 100
         },
         {
-          "symbol": "cosmic_power",
-          "id": 322,
+          "symbol": "mist",
+          "id": 54,
           "klass": "LevelLearnableMove",
           "level": 48,
           "names": {
-            "en": "Cosmic Power",
-            "fr": "Force Cosmique",
-            "it": "Cosmoforza",
-            "de": "Kosmik-Kraft",
-            "es": "Masa Cósmica",
-            "ko": "코스믹파워"
+            "en": "Mist",
+            "fr": "Brume",
+            "it": "Nebbia",
+            "de": "Weißnebel",
+            "es": "Neblina",
+            "ko": "흰안개"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "ice",
+          "pp": 30,
           "power": 0,
           "accuracy": 0
         },
@@ -569,23 +579,23 @@
           "accuracy": 0
         },
         {
-          "symbol": "hurricane",
-          "id": 542,
+          "symbol": "justice_hammer",
+          "id": 772,
           "klass": "LevelLearnableMove",
           "level": 64,
           "names": {
-            "en": "Hurricane",
-            "fr": "Vent Violent",
-            "it": "Tifone",
-            "de": "Orkan",
-            "es": "Vendaval",
-            "ko": "폭풍"
+            "en": "Justice Hammer",
+            "fr": "Marteau Justice",
+            "it": "Dynatenebre",
+            "de": "Dyna-Dunkel",
+            "es": "Maxisombra",
+            "ko": "다이아크"
           },
-          "category": "special",
-          "type": "flying",
-          "pp": 10,
+          "category": "physical",
+          "type": "celestial",
+          "pp": 5,
           "power": 110,
-          "accuracy": 70
+          "accuracy": 95
         },
         {
           "symbol": "wish",
@@ -603,6 +613,44 @@
           "category": "status",
           "type": "normal",
           "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "protective_cascade",
+          "id": 777,
+          "klass": "LevelLearnableMove",
+          "level": 72,
+          "names": {
+            "en": "Protective Cascade",
+            "fr": "Chute Protect",
+            "it": "Decorazione",
+            "de": "Verzierung",
+            "es": "Decoración",
+            "ko": "데코레이션"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "counterbalance",
+          "id": 790,
+          "klass": "LevelLearnableMove",
+          "level": 76,
+          "names": {
+            "en": "Counterbalance",
+            "fr": "Compensation",
+            "it": "Vapore Incantato",
+            "de": "Wunderdampf",
+            "es": "Cautivapor",
+            "ko": "원더스팀"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 25,
           "power": 0,
           "accuracy": 0
         }

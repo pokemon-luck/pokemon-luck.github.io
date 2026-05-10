@@ -147,23 +147,28 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "focus_blast",
+          "move": "pure_punch",
           "level": 58
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder_punch",
+          "move": "focus_blast",
           "level": 62
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dynamic_punch",
+          "move": "thunder_punch",
           "level": 66
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "superpower",
+          "move": "dynamic_punch",
           "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "superpower",
+          "level": 73
         }
       ],
       "names": {
@@ -531,10 +536,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "pure_punch",
+          "id": 766,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Pure Punch",
+            "fr": "Poing Pur",
+            "it": "Dynajet",
+            "de": "Dyna-Düse",
+            "es": "Maxiciclón",
+            "ko": "다이제트"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 30,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 62,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -553,7 +577,7 @@
           "symbol": "thunder_punch",
           "id": 9,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 66,
           "names": {
             "en": "Thunder Punch",
             "fr": "Poing Éclair",
@@ -572,7 +596,7 @@
           "symbol": "dynamic_punch",
           "id": 223,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 70,
           "names": {
             "en": "Dynamic Punch",
             "fr": "Dynamo-Poing",
@@ -591,7 +615,7 @@
           "symbol": "superpower",
           "id": 276,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Superpower",
             "fr": "Surpuissance",

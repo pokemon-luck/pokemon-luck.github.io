@@ -12,7 +12,7 @@
       "height": 1.96,
       "weight": 103.9,
       "type1": "ground",
-      "type2": "fairy",
+      "type2": "celestial",
       "baseHp": 110,
       "baseAtk": 145,
       "baseDfe": 90,
@@ -77,7 +77,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "disarming_voice",
+          "move": "sparkle_powder",
           "level": 1
         },
         {
@@ -92,7 +92,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fairy_wind",
+          "move": "gleam_beam",
           "level": 15
         },
         {
@@ -102,7 +102,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "play_rough",
+          "move": "radiant_strike",
           "level": 25
         },
         {
@@ -117,7 +117,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
+          "move": "cleansing",
           "level": 40
         },
         {
@@ -137,7 +137,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
+          "move": "luminous_prism",
           "level": 60
         },
         {
@@ -152,12 +152,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "misty_terrain",
+          "move": "mirror_world",
           "level": 75
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
+          "move": "starry_bolt",
           "level": 80
         },
         {
@@ -270,23 +270,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "disarming_voice",
-          "id": 574,
+          "symbol": "sparkle_powder",
+          "id": 773,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Disarming Voice",
-            "fr": "Voix Enjôleuse",
-            "it": "Incantavoce",
-            "de": "Säuselstimme",
-            "es": "Voz Cautivadora",
-            "ko": "차밍보이스"
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 15,
+          "type": "celestial",
+          "pp": 35,
           "power": 40,
-          "accuracy": 0
+          "accuracy": 100
         },
         {
           "symbol": "mud_slap",
@@ -327,22 +327,22 @@
           "accuracy": 85
         },
         {
-          "symbol": "fairy_wind",
-          "id": 584,
+          "symbol": "gleam_beam",
+          "id": 774,
           "klass": "LevelLearnableMove",
           "level": 15,
           "names": {
-            "en": "Fairy Wind",
-            "fr": "Vent Féérique",
-            "it": "Vento di Fata",
-            "de": "Feenbrise",
-            "es": "Viento Feérico",
-            "ko": "요정의바람"
+            "en": "Gleam Beam",
+            "fr": "Rayon Éclatant",
+            "it": "Dynametallo",
+            "de": "Dyna-Stahlzacken",
+            "es": "Maximetal",
+            "ko": "다이스틸"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
+          "type": "celestial",
+          "pp": 15,
+          "power": 60,
           "accuracy": 100
         },
         {
@@ -365,23 +365,23 @@
           "accuracy": 0
         },
         {
-          "symbol": "play_rough",
-          "id": 583,
+          "symbol": "radiant_strike",
+          "id": 765,
           "klass": "LevelLearnableMove",
           "level": 25,
           "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
+            "en": "Radiant Strike",
+            "fr": "Frappe Radieuse",
+            "it": "Dynaflusso",
+            "de": "Dyna-Flut",
+            "es": "Maxichorro",
+            "ko": "다이스트림"
           },
           "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
+          "type": "celestial",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 100
         },
         {
           "symbol": "earth_power",
@@ -422,23 +422,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "dazzling_gleam",
-          "id": 605,
+          "symbol": "cleansing",
+          "id": 778,
           "klass": "LevelLearnableMove",
           "level": 40,
           "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
+            "en": "Cleansing",
+            "fr": "Épuration",
+            "it": "Tamburattacco",
+            "de": "Trommelschläge",
+            "es": "Batería Asalto",
+            "ko": "드럼어택"
           },
           "category": "special",
-          "type": "fairy",
+          "type": "celestial",
           "pp": 10,
-          "power": 80,
-          "accuracy": 100
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "earthquake",
@@ -498,22 +498,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "draining_kiss",
-          "id": 577,
+          "symbol": "luminous_prism",
+          "id": 780,
           "klass": "LevelLearnableMove",
           "level": 60,
           "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
           },
           "category": "special",
-          "type": "fairy",
+          "type": "celestial",
           "pp": 10,
-          "power": 50,
+          "power": 85,
           "accuracy": 100
         },
         {
@@ -555,41 +555,41 @@
           "accuracy": 100
         },
         {
-          "symbol": "misty_terrain",
-          "id": 581,
+          "symbol": "mirror_world",
+          "id": 787,
           "klass": "LevelLearnableMove",
           "level": 75,
           "names": {
-            "en": "Misty Terrain",
-            "fr": "Champ Brumeux",
-            "it": "Campo Nebbioso",
-            "de": "Nebelfeld",
-            "es": "Campo de Niebla",
-            "ko": "미스트필드"
+            "en": "Mirror World",
+            "fr": "Monde Mirroir",
+            "it": "Acido Malico",
+            "de": "Apfelsäure",
+            "es": "Ácido Málico",
+            "ko": "사과산"
           },
           "category": "status",
-          "type": "fairy",
+          "type": "celestial",
           "pp": 10,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "starry_bolt",
+          "id": 781,
           "klass": "LevelLearnableMove",
           "level": 80,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Starry Bolt",
+            "fr": "Flèche Étoile",
+            "it": "Taglio Maestoso",
+            "de": "Gigantenhieb",
+            "es": "Tajo Supremo",
+            "ko": "거수참"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
+          "type": "celestial",
+          "pp": 5,
+          "power": 120,
           "accuracy": 100
         },
         {

@@ -1,0 +1,660 @@
+{
+  "klass": "Specie",
+  "id": 237,
+  "dbSymbol": "meditamarin",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 274,
+        "description": 0
+      },
+      "height": 1.62,
+      "weight": 53.4,
+      "type1": "celestial",
+      "type2": "fighting",
+      "baseHp": 75,
+      "baseAtk": 95,
+      "baseDfe": 80,
+      "baseSpd": 70,
+      "baseAts": 85,
+      "baseDfs": 90,
+      "evHp": 0,
+      "evAtk": 1,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 1,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 180,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        5,
+        5
+      ],
+      "hatchSteps": 6400,
+      "babyDbSymbol": "meditamarin",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "pickup",
+        "vital_spirit",
+        "pure_power"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "",
+        "iconShiny": "",
+        "front": "237",
+        "frontShiny": "237_s",
+        "back": "",
+        "backShiny": "",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_jab",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "focus_energy",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sparkle_powder",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "detect",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "arm_thrust",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_snap",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "force_palm",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counterbalance",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aura_sphere",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soothing_twirl",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gleam_beam",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "drain_punch",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "enchant",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "luminous_prism",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 72
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "justice_hammer",
+          "level": 75
+        }
+      ],
+      "names": {
+        "en": "Meditamarin",
+        "fr": "Méditamarin",
+        "it": "Hitmontop",
+        "de": "Kapoera",
+        "es": "Hitmontop",
+        "ko": "카포에라"
+      },
+      "descriptions": {
+        "en": " ",
+        "fr": "",
+        "it": "Hitmontop rotea sulla testa ad alta velocità sferrando calci violenti. Questa tecnica è molto efficace sia in attacco che in difesa. Il Pokémon si muove molto più velocemente roteando che non camminando.",
+        "de": "Kapoera dreht sich auf dem Kopf stehend um die eigene Achse und teilt Tritte aus. Seine Technik ist eine bemerkenswerte Mischung aus Angriff und Verteidigung. Es bewegt sich drehend schneller voran als laufend.",
+        "es": "Hitmontop hace el pino con la cabeza y se pone a girar rápido al tiempo que reparte patadas. Esta es una técnica ofensiva y defensiva a la vez. Este Pokémon se desplaza más rápido girando sobre sí que caminando.",
+        "ko": "고속 회전하며 날리는 킥은 공격과 방어를 겸비한 훌륭한 기술이다. 걷는 것보다 회전하는 편이 빠르다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "pickup",
+          "textId": 53,
+          "names": {
+            "en": "Pickup",
+            "fr": "Ramassage",
+            "it": "Raccolta",
+            "de": "Mitnahme",
+            "es": "Recogida",
+            "ko": "픽업"
+          },
+          "descriptions": {
+            "en": "The Pokémon may pick up the item an opposing Pokémon used during a battle. It may pick up items outside of battle, too.",
+            "fr": "Permet parfois au Pokémon de ramasser les objets que ses ennemis ont utilisés. Il lui arrive aussi d’en trouver hors des combats.",
+            "it": "Il Pokémon può raccogliere lo strumento usato da un nemico durante la lotta. A volte potrebbe raccogliere strumenti anche fuori dalla lotta.",
+            "de": "Hebt gelegentlich von Gegnern benutzte Items auf. Dies geschieht nicht nur während Kämpfen, sondern auch unterwegs.",
+            "es": "Puede recoger objetos que el rival haya usado, o bien otros que encuentre en plena aventura.",
+            "ko": "상대가 사용한 도구를 주워올 때가 있다. 모험 중에도 주워온다."
+          }
+        },
+        {
+          "symbol": "vital_spirit",
+          "textId": 72,
+          "names": {
+            "en": "Vital Spirit",
+            "fr": "Esprit Vital",
+            "it": "Spiritovivo",
+            "de": "Munterkeit",
+            "es": "Espíritu Vital",
+            "ko": "의기양양"
+          },
+          "descriptions": {
+            "en": "The Pokémon is full of vitality, and that prevents it from falling asleep.",
+            "fr": "Empêche le Pokémon de s’endormir.",
+            "it": "Il Pokémon è talmente vivace che non può addormentarsi.",
+            "de": "Das Pokémon ist so munter, dass es nicht einschlafen kann.",
+            "es": "Su determinación le impide quedarse dormido.",
+            "ko": "의기양양해져서 잠듦 상태가 되지 않는다."
+          }
+        },
+        {
+          "symbol": "pure_power",
+          "textId": 74,
+          "names": {
+            "en": "Pure Power",
+            "fr": "Force Pure",
+            "it": "Forzapura",
+            "de": "Mentalkraft",
+            "es": "Energía Pura",
+            "ko": "순수한힘"
+          },
+          "descriptions": {
+            "en": "Using its pure power, the Pokémon doubles its Attack stat.",
+            "fr": "Le Pokémon utilise sa maîtrise du yoga pour doubler la puissance de ses capacités physiques.",
+            "it": "L’Attacco del Pokémon raddoppia grazie alla sua padronanza delle tecniche yoga.",
+            "de": "Verdoppelt mit reiner Willenskraft die Stärke seiner physischen Attacken.",
+            "es": "Duplica la potencia de sus ataques físicos gracias al yoga.",
+            "ko": "요가의 힘으로 물리공격의 위력이 2배가 된다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "focus_energy",
+          "id": 116,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Focus Energy",
+            "fr": "Puissance",
+            "it": "Focalenergia",
+            "de": "Energiefokus",
+            "es": "Foco Energía",
+            "ko": "기충전"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_smash",
+          "id": 249,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Rock Smash",
+            "fr": "Éclate-Roc",
+            "it": "Spaccaroccia",
+            "de": "Zertrümmerer",
+            "es": "Golpe Roca",
+            "ko": "바위깨기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sparkle_powder",
+          "id": 773,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "detect",
+          "id": 197,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Detect",
+            "fr": "Détection",
+            "it": "Individua",
+            "de": "Scanner",
+            "es": "Detección",
+            "ko": "판별"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "arm_thrust",
+          "id": 292,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Arm Thrust",
+            "fr": "Cogne",
+            "it": "Sberletese",
+            "de": "Armstoß",
+            "es": "Empujón",
+            "ko": "손바닥치기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 15,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "flash_snap",
+          "id": 775,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Flash Snap",
+            "fr": "Rapidoflash",
+            "it": "Dracofonia",
+            "de": "Seelentanz",
+            "es": "Estruendo Escama",
+            "ko": "소울비트"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "force_palm",
+          "id": 395,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Force Palm",
+            "fr": "Forte-Paume",
+            "it": "Palmoforza",
+            "de": "Kraftwelle",
+            "es": "Palmeo",
+            "ko": "발경"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "counterbalance",
+          "id": 790,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Counterbalance",
+            "fr": "Compensation",
+            "it": "Vapore Incantato",
+            "de": "Wunderdampf",
+            "es": "Cautivapor",
+            "ko": "원더스팀"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "soothing_twirl",
+          "id": 769,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Soothing Twirl",
+            "fr": "Tour Apaisant",
+            "it": "Dynapsiche",
+            "de": "Dyna-Kinese",
+            "es": "Maxionda",
+            "ko": "다이사이코"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bulk_up",
+          "id": 339,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Bulk Up",
+            "fr": "Gonflette",
+            "it": "Granfisico",
+            "de": "Protzer",
+            "es": "Corpulencia",
+            "ko": "벌크업"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "gleam_beam",
+          "id": 774,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Gleam Beam",
+            "fr": "Rayon Éclatant",
+            "it": "Dynametallo",
+            "de": "Dyna-Stahlzacken",
+            "es": "Maximetal",
+            "ko": "다이스틸"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "drain_punch",
+          "id": 409,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Drain Punch",
+            "fr": "Vampi-Poing",
+            "it": "Assorbipugno",
+            "de": "Ableithieb",
+            "es": "Puño Drenaje",
+            "ko": "드레인펀치"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "enchant",
+          "id": 788,
+          "klass": "LevelLearnableMove",
+          "level": 61,
+          "names": {
+            "en": "Enchant",
+            "fr": "Enchantement",
+            "it": "Forza G",
+            "de": "Gravitation",
+            "es": "Fuerza G",
+            "ko": "G의힘"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "luminous_prism",
+          "id": 780,
+          "klass": "LevelLearnableMove",
+          "level": 69,
+          "names": {
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 72,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "justice_hammer",
+          "id": 772,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Justice Hammer",
+            "fr": "Marteau Justice",
+            "it": "Dynatenebre",
+            "de": "Dyna-Dunkel",
+            "es": "Maxisombra",
+            "ko": "다이아크"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 95
+        }
+      ]
+    }
+  ]
+}
