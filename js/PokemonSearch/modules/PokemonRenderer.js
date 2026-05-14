@@ -208,7 +208,7 @@ export class PokemonRenderer {
         return `
         <div class="grid-container-layer4">
             <div class="grid-item-large">
-                <h2>Moves</h2>
+                <h2>${await this.languageManager.getTranslation('Moves')}</h2>
                 ${sections.join('')}
             </div>
         </div>`;
