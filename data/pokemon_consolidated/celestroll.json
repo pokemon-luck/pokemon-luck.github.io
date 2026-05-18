@@ -49,8 +49,8 @@
         }
       ],
       "abilities": [
+        "illuminap",
         "levitate",
-        "filter",
         "unaware"
       ],
       "frontOffsetY": 0,
@@ -122,7 +122,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "body_slam",
+          "move": "rest",
           "level": 33
         },
         {
@@ -199,6 +199,26 @@
       },
       "abilities_data": [
         {
+          "symbol": "illuminap",
+          "textId": 307,
+          "names": {
+            "en": "Illuminap",
+            "fr": "Illumina-sieste",
+            "it": "Illumina-sieste",
+            "de": "Illumina-sieste",
+            "es": "Illumina-sieste",
+            "ko": "Illumina-sieste"
+          },
+          "descriptions": {
+            "en": "When falling asleep, the Pokémon emits a blinding light, strongly lowering the accuracy of the other Pokémon.",
+            "fr": "En s'endormant, le pokémon émet une lueur intense, baissant beaucoup la précision des autres Pokémon.",
+            "it": "En s'endormant, le pokémon émet une lueur intense, baissant beaucoup la précision des autres Pokémon.",
+            "de": "En s'endormant, le pokémon émet une lueur intense, baissant beaucoup la précision des autres Pokémon.",
+            "es": "En s'endormant, le pokémon émet une lueur intense, baissant beaucoup la précision des autres Pokémon.",
+            "ko": "En s'endormant, le pokémon émet une lueur intense, baissant beaucoup la précision des autres Pokémon."
+          }
+        },
+        {
           "symbol": "levitate",
           "textId": 26,
           "names": {
@@ -216,26 +236,6 @@
             "de": "Verleiht volle Immunität gegen alle Boden-Attacken durch Schwebezustand.",
             "es": "Su capacidad de flotar sobre el suelo le proporciona inmunidad frente a los movimientos de tipo Tierra.",
             "ko": "땅에서 뜨는 것으로 땅타입의 기술을 받지 않는다."
-          }
-        },
-        {
-          "symbol": "filter",
-          "textId": 111,
-          "names": {
-            "en": "Filter",
-            "fr": "Filtre",
-            "it": "Filtro",
-            "de": "Filter",
-            "es": "Filtro",
-            "ko": "필터"
-          },
-          "descriptions": {
-            "en": "Reduces the power of supereffective attacks taken.",
-            "fr": "Réduit les dégâts subis lorsque le Pokémon est touché par une capacité super efficace.",
-            "it": "Riduce i danni subiti dalle mosse superefficaci.",
-            "de": "Reduziert die Stärke von sehr effektiven Attacken und verringert damit den Schaden, den das Pokémon durch sie erleidet.",
-            "es": "Mitiga el daño que le infligen los movimientos supereficaces.",
-            "ko": "효과가 굉장한 공격의 위력을 약하게 만든다."
           }
         },
         {
@@ -451,23 +451,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "body_slam",
-          "id": 34,
+          "symbol": "rest",
+          "id": 156,
           "klass": "LevelLearnableMove",
           "level": 33,
           "names": {
-            "en": "Body Slam",
-            "fr": "Plaquage",
-            "it": "Corposcontro",
-            "de": "Bodyslam",
-            "es": "Golpe Cuerpo",
-            "ko": "누르기"
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
           },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 85,
-          "accuracy": 100
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "protective_cascade",

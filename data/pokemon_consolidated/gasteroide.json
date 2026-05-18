@@ -54,6 +54,21 @@
         "solid_rock"
       ],
       "frontOffsetY": 0,
+      "resources": {
+        "icon": "241_i",
+        "iconShiny": "241_i_s",
+        "front": "241",
+        "frontShiny": "241_s",
+        "back": "241_b",
+        "backShiny": "241_b_s",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
@@ -72,7 +87,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
+          "move": "rollout",
           "level": 9
         },
         {
@@ -161,21 +176,6 @@
           "level": 75
         }
       ],
-      "resources": {
-        "icon": "241_i",
-        "iconShiny": "241_i_s",
-        "front": "241",
-        "frontShiny": "241_s",
-        "back": "241_b",
-        "backShiny": "241_b_s",
-        "footprint": "",
-        "character": "",
-        "characterShiny": "",
-        "egg": "",
-        "iconEgg": "",
-        "cry": "",
-        "hasFemale": false
-      },
       "names": {
         "en": "Gasteroid",
         "fr": "Gastéroïde",
@@ -313,22 +313,22 @@
           "accuracy": 0
         },
         {
-          "symbol": "rock_throw",
-          "id": 88,
+          "symbol": "rollout",
+          "id": 205,
           "klass": "LevelLearnableMove",
           "level": 9,
           "names": {
-            "en": "Rock Throw",
-            "fr": "Jet-Pierres",
-            "it": "Sassata",
-            "de": "Steinwurf",
-            "es": "Lanzarrocas",
-            "ko": "돌떨구기"
+            "en": "Rollout",
+            "fr": "Roulade",
+            "it": "Rotolamento",
+            "de": "Walzer",
+            "es": "Rodar",
+            "ko": "구르기"
           },
           "category": "physical",
           "type": "rock",
-          "pp": 15,
-          "power": 50,
+          "pp": 20,
+          "power": 30,
           "accuracy": 90
         },
         {

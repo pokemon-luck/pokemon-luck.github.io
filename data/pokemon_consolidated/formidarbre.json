@@ -1,0 +1,732 @@
+{
+  "klass": "Specie",
+  "id": 242,
+  "dbSymbol": "formidarbre",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 279,
+        "description": 0
+      },
+      "height": 2.32,
+      "weight": 212.4,
+      "type1": "grass",
+      "type2": "dark",
+      "baseHp": 100,
+      "baseAtk": 110,
+      "baseDfe": 80,
+      "baseSpd": 60,
+      "baseAts": 65,
+      "baseDfs": 60,
+      "evHp": 1,
+      "evAtk": 2,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 0,
+      "evolutions": [],
+      "experienceType": 3,
+      "baseExperience": 220,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        7,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "mimigraine",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "regenerator",
+        "natural_cure",
+        "magic_guard"
+      ],
+      "frontOffsetY": 0,
+      "resources": {
+        "icon": "242_i",
+        "iconShiny": "242_i_s",
+        "front": "242",
+        "frontShiny": "242_s",
+        "back": "242_b",
+        "backShiny": "242_b_s",
+        "footprint": "",
+        "character": "",
+        "characterShiny": "",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "absorb",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bite",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "disable",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mega_drain",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "feint_attack",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ingrain",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brutal_swing",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_powder",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "horn_leech",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "strength_sap",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "throat_chop",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_whip",
+          "level": 80
+        }
+      ],
+      "names": {
+        "en": "Formidabark",
+        "fr": "Formidarbre",
+        "it": "Blissey",
+        "de": "Heiteira",
+        "es": "Blissey",
+        "ko": "해피너스"
+      },
+      "descriptions": {
+        "en": "Their eggs are such a delicacy that some say eating one will bring you happiness. These eggs fetch the highest prices on the market.",
+        "fr": "",
+        "it": "Le sue uova sono talmente deliziose che si dice rendano felice chiunque le mangi. Per questo hanno prezzi altissimi sul mercato.",
+        "de": "Sein Ei ist eine Kostbarkeit, denn es heißt, wer davon esse, werde glücklich. Auf dem Markt erzielt es deshalb Spitzenpreise.",
+        "es": "Se dice que los huevos de Blissey están tan ricos que dan la felicidad a quien los prueba. Por eso alcanzan precios exorbitantes.",
+        "ko": "알을 먹으면 행복해진다고 전해질 정도로 맛이 일품이다. 시장에서 제일 가격이 비싸다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "regenerator",
+          "textId": 144,
+          "names": {
+            "en": "Regenerator",
+            "fr": "Régé-Force",
+            "it": "Rigenergia",
+            "de": "Belebekraft",
+            "es": "Regeneración",
+            "ko": "재생력"
+          },
+          "descriptions": {
+            "en": "Restores a little HP when withdrawn from battle.",
+            "fr": "Restaure un peu de PV si le Pokémon est retiré du combat.",
+            "it": "Il Pokémon recupera un po’ di PS quando lascia il campo.",
+            "de": "Wird das Pokémon ausgewechselt, regeneriert es eine kleine Menge an KP.",
+            "es": "Recupera unos pocos PS al ser cambiado por otro Pokémon.",
+            "ko": "지닌 포켓몬으로 돌아오면 HP를 조금 회복한다."
+          }
+        },
+        {
+          "symbol": "natural_cure",
+          "textId": 30,
+          "names": {
+            "en": "Natural Cure",
+            "fr": "Médic Nature",
+            "it": "Alternacura",
+            "de": "Innere Kraft",
+            "es": "Cura Natural",
+            "ko": "자연회복"
+          },
+          "descriptions": {
+            "en": "All status conditions heal when the Pokémon switches out.",
+            "fr": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "it": "Quando il Pokémon viene sostituito, guarisce dai problemi di stato.",
+            "de": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+            "es": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
+            "ko": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다."
+          }
+        },
+        {
+          "symbol": "magic_guard",
+          "textId": 98,
+          "names": {
+            "en": "Magic Guard",
+            "fr": "Garde Magik",
+            "it": "Magicscudo",
+            "de": "Magieschild",
+            "es": "Muro Mágico",
+            "ko": "매직가드"
+          },
+          "descriptions": {
+            "en": "The Pokémon only takes damage from attacks.",
+            "fr": "Seules les attaques peuvent blesser le Pokémon.",
+            "it": "Il Pokémon subisce danni solo dagli attacchi.",
+            "de": "Das Pokémon nimmt nur durch Offensiv-Attacken Schaden.",
+            "es": "Solo recibe daño de ataques.",
+            "ko": "공격 이외에는 데미지를 입지 않는다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "growth",
+          "id": 74,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "absorb",
+          "id": 71,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Absorb",
+            "fr": "Vole-Vie",
+            "it": "Assorbimento",
+            "de": "Absorber",
+            "es": "Absorber",
+            "ko": "흡수"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 25,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "vine_whip",
+          "id": 22,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "symbol": "disable",
+          "id": 50,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Disable",
+            "fr": "Entrave",
+            "it": "Inibitore",
+            "de": "Aussetzer",
+            "es": "Anulación",
+            "ko": "사슬묶기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "feint_attack",
+          "id": 185,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Feint Attack",
+            "fr": "Feinte",
+            "it": "Finta",
+            "de": "Finte",
+            "es": "Finta",
+            "ko": "속여때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ingrain",
+          "id": 275,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Ingrain",
+            "fr": "Racines",
+            "it": "Radicamento",
+            "de": "Verwurzler",
+            "es": "Arraigo",
+            "ko": "뿌리박기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "brutal_swing",
+          "id": 693,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Brutal Swing",
+            "fr": "Centrifugifle",
+            "it": "Vorticolpo",
+            "de": "Wirbler",
+            "es": "Giro Vil",
+            "ko": "세차게휘두르기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_powder",
+          "id": 77,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Poison Powder",
+            "fr": "Poudre Toxik",
+            "it": "Velenpolvere",
+            "de": "Giftpuder",
+            "es": "Polvo Veneno",
+            "ko": "독가루"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 35,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "horn_leech",
+          "id": 532,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Horn Leech",
+            "fr": "Encornebois",
+            "it": "Legnicorno",
+            "de": "Holzgeweih",
+            "es": "Asta Drenaje",
+            "ko": "우드호른"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "solar_beam",
+          "id": 76,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Solar Beam",
+            "fr": "Lance-Soleil",
+            "it": "Solarraggio",
+            "de": "Solarstrahl",
+            "es": "Rayo Solar",
+            "ko": "솔라빔"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "strength_sap",
+          "id": 668,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Strength Sap",
+            "fr": "Vole-Force",
+            "it": "Assorbiforza",
+            "de": "Kraftabsorber",
+            "es": "Absorbefuerza",
+            "ko": "힘흡수"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "throat_chop",
+          "id": 675,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Throat Chop",
+            "fr": "Exécu-Son",
+            "it": "Colpo Infernale",
+            "de": "Neck Strike",
+            "es": "Golpe Mordaza",
+            "ko": "지옥찌르기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_whip",
+          "id": 438,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Power Whip",
+            "fr": "Mégafouet",
+            "it": "Vigorcolpo",
+            "de": "Blattgeißel",
+            "es": "Latigazo",
+            "ko": "파워휩"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 85
+        }
+      ]
+    }
+  ]
+}
