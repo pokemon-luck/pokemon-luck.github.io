@@ -16,7 +16,6 @@ table, th, td {
   border-radius: 10px;
 }
 .table-bordered td, .table-bordered th {
-    cursor: pointer;
     position: relative;
 }
 .table-bordered td:hover::after,.table-bordered th:hover::after{ 
@@ -63,7 +62,7 @@ td, th {
     background-color: #006191;
 }
 .electric {
-    background-color: #ccab3f;
+    background-color: #b99b36;
 }
 .grass {
     background-color: #026e1e;
@@ -109,4 +108,7 @@ td, th {
 }
 .undead {
     background-color: #728059;
+}
+.celestial {
+    background-color: #c4b87f;
 }

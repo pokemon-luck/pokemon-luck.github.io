@@ -360,7 +360,8 @@ def run_setup():
         'dark',
         'steel',
         'fairy',
-        'undead'
+        'undead',
+        'celestial',
     ]:
         type_json_path = os.path.join(PSDK_TYPES_JSONS_FOLDER, f'{type}.json')
         with open(type_json_path, 'r', encoding='utf-8') as f:
