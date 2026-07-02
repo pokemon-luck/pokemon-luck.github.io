@@ -1,0 +1,74 @@
+/*
+Styles propres à la page d'accueil (index.html).
+Repris tels quels des anciens styles inline pour un rendu identique.
+Chargé APRÈS styles_main.css / styles_FullPokedex.css pour la cascade.
+*/
+
+.hub-hero {
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(rgba(29, 28, 34, 0.7), rgba(29, 28, 34, 1)), url('../resources/LaemuMap.png');
+    background-size: cover;
+    background-position-y: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hub-logo {
+    width: 500px;
+}
+
+/* S'ajoute à .container (partagé) sans écraser ses propriétés. */
+.hub-container {
+    text-align: justify;
+    width: 50%;
+    margin: auto;
+}
+
+.hub-container h1 {
+    text-align: center;
+}
+
+.hub-card {
+    width: 100%;
+    border: 2px solid #24222a;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.hub-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hub-muted {
+    color: #8e99ab;
+}
+
+.hub-type-icon {
+    display: inline;
+    width: 100px;
+    height: 25px;
+}
+
+.hub-decay-icon {
+    display: inline;
+    width: 50px;
+    height: 20px;
+    image-rendering: pixelated;
+}
+
+.hub-map {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+/* Override du .grid-container par défaut, uniquement sur l'accueil. */
+.hub-grid {
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+}

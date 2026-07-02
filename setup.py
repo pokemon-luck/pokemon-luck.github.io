@@ -179,6 +179,12 @@ def run_setup():
 
             national_dex_data['creatures'][pokemon_index]['names'] = translated_names
 
+            # Consolidate types into national.json so the Full Pokédex grid can be
+            # built from a single file (name + types), without fetching every
+            # consolidated Pokémon file one by one.
+            national_dex_data['creatures'][pokemon_index]['type1'] = form['type1']
+            national_dex_data['creatures'][pokemon_index]['type2'] = form['type2']
+
             # Consilidate description
             translated_descriptions = {}
             text_id = pokemon_data['id']

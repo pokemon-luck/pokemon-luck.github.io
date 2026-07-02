@@ -22,16 +22,13 @@ export class PokemonSearchBar {
 
     async loadPokemonList() {
         try {
-            const langIndex = this.languageManager.getLangIndex();
-            const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-            const lang = languages[langIndex] || 'en';
+            const lang = PokemonUtils.getLang(this.languageManager);
 
-            const response = await fetch('data/national.json');
-            const data = await response.json();
+            const data = await PokemonUtils.fetchJson('data/national.json');
             this.pokemonList = data.creatures.map(creature => {
                 return {
                     dbSymbol: creature.dbSymbol,
-                    search: creature.names.en + ',' + creature.names.fr + ',' + this.removeAccents(creature.names.fr),
+                    search: creature.names.en + ',' + creature.names.fr + ',' + PokemonUtils.removeAccents(creature.names.fr),
                     name: creature.names[lang]
                 };
             });
@@ -79,8 +76,7 @@ export class PokemonSearchBar {
 
     async fetchPokemonData(pokemonName) {
         try {
-            const response = await fetch(`./data/pokemon_consolidated/${pokemonName}.json`);
-            const data = await response.json();
+            const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${pokemonName}.json`);
             await this.displayPokemonData(data, pokemonName);
         } catch (error) {
             console.error('Error fetching Pokemon data:', error);
@@ -92,9 +88,5 @@ export class PokemonSearchBar {
         const processedData = await this.dataProcessor.processData(data);
         const html = await this.renderer.renderPokemon(processedData, pokemonName);
         this.uiManager.displayPokemonData(html);
-    }
-
-    removeAccents(str) {
-        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
 }

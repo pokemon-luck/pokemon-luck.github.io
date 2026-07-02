@@ -64,21 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function translateType(type) {
-    const langIndex = this.languageManager.getLangIndex();
-    const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-    const lang = languages[langIndex] || 'en';
+    const lang = PokemonUtils.getLang(languageManager);
 
     const translations = {
         normal: 'normal', fire: 'feu', water: 'eau', electric: 'électrique',
         grass: 'plante', ice: 'glace', fighting: 'combat', poison: 'poison',
         ground: 'sol', flying: 'vol', psychic: 'psy', bug: 'insecte',
         rock: 'roche', ghost: 'spectre', dragon: 'dragon', dark: 'ténèbres',
-        steel: 'acier', fairy: 'fée', undead: 'zombie'
+        steel: 'acier', fairy: 'fée', undead: 'zombie', celestial: 'céleste'
     };
     const result = lang == 'en' ? type : (translations[type.toLowerCase()] || type);
     return result.charAt(0).toUpperCase() + result.slice(1);
-}
-
-function removeAccents(str) {
-    return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 }

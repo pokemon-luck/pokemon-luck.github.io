@@ -9,9 +9,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const data = await response.json();
 
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
         // 👇 This is the key change
         for (const trainer of data) {

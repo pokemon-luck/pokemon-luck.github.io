@@ -25,17 +25,13 @@ export class PokemonDataProcessor {
     }
 
     processName(form) {
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
         return form['names'][lang];
     }
 
     processDescription(form) {
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
         return form['descriptions'][lang];
     }
@@ -75,9 +71,7 @@ export class PokemonDataProcessor {
         const ability = abilitiesData.find(a => a.symbol === abilitySymbol);
         if (!ability) return { name: abilitySymbol, description: "Data not found" };
         
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
         
         return {
             name: ability.names[lang] || ability.names.en || abilitySymbol,
@@ -105,7 +99,7 @@ export class PokemonDataProcessor {
             if (!moveData) continue;
 
             const categoryImage = await this.getCategoryImage(moveData.category);
-            const typeFrench = this.removeAccents(this.translateTypeToFrench(moveData.type));
+            const typeFrench = PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(moveData.type));
             const typeImage = `resources/icons/types/${typeFrench}.png`;
 
             const processedMove = {
@@ -144,9 +138,7 @@ export class PokemonDataProcessor {
         const move = movesData.find(m => m.symbol === moveSymbol);
         if (!move) return null;
         
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
         
         return {
             name: move.names[lang] || move.names.en || moveSymbol,
@@ -168,16 +160,13 @@ export class PokemonDataProcessor {
     }
 
     async processEvolutions(form) {
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
         let evolutions = [];
         for (let index = 0; index < form.evolutions.length; index++) {
             const evo = form.evolutions[index];
 
-            const response = await fetch(`./data/pokemon_consolidated/${evo.dbSymbol}.json`);
-            const data = await response.json();
+            const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${evo.dbSymbol}.json`);
 
             evolutions[index] = {
                 dbSymbol: evo.dbSymbol,
@@ -189,9 +178,7 @@ export class PokemonDataProcessor {
     }
 
     async processBreeding(form) {
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
         let groups = [];
         for (let index = 0; index < form.breedGroups.filter((value, index, array) => array.indexOf(value) === index).length; index++) {
@@ -200,8 +187,7 @@ export class PokemonDataProcessor {
             groups[index] = await this.languageManager.getTranslation("breed_" + group);
         }
 
-        const response = await fetch(`./data/pokemon_consolidated/${form.babyDbSymbol}.json`);
-        const data = await response.json();
+        const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${form.babyDbSymbol}.json`);
 
         return {
             breedGroups: groups,
@@ -211,20 +197,17 @@ export class PokemonDataProcessor {
     }
 
     processTypes(form) {
-        const type1French = this.removeAccents(this.translateTypeToFrench(form.type1));
-        const type2French = form.type2 !== "__undef__" ? 
-            this.removeAccents(this.translateTypeToFrench(form.type2)) : null;
+        const type1French = PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(form.type1));
+        const type2French = form.type2 !== "__undef__" ?
+            PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(form.type2)) : null;
         
         return { type1French, type2French };
     }
 
     async processNavigation(pokemon) {
-        const langIndex = this.languageManager.getLangIndex();
-        const languages = ['en', 'fr', 'it', 'de', 'es', 'ko'];
-        const lang = languages[langIndex] || 'en';
+        const lang = PokemonUtils.getLang(this.languageManager);
 
-        const response = await fetch(`./data/national.json`);
-        const data = await response.json();
+        const data = await PokemonUtils.fetchJson(`./data/national.json`);
 
         const index = data.creatures.findIndex(pk => pk.dbSymbol == pokemon.dbSymbol);
 
@@ -232,8 +215,7 @@ export class PokemonDataProcessor {
         let next = null;
 
         if (index > 0) {
-            const res = await fetch(`./data/pokemon_consolidated/${data.creatures[index - 1].dbSymbol}.json`);
-            const pk = await res.json();
+            const pk = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${data.creatures[index - 1].dbSymbol}.json`);
 
             previous = {
                 name: pk.forms[0].names[lang],
@@ -242,8 +224,7 @@ export class PokemonDataProcessor {
         }
 
         if (index < data.creatures.length - 1) {
-            const res = await fetch(`./data/pokemon_consolidated/${data.creatures[index + 1].dbSymbol}.json`);
-            const pk = await res.json();
+            const pk = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${data.creatures[index + 1].dbSymbol}.json`);
 
             next = {
                 name: pk.forms[0].names[lang],
@@ -255,20 +236,5 @@ export class PokemonDataProcessor {
             "previous": previous,
             "next": next
         }
-    }
-
-    translateTypeToFrench(type) {
-        const translations = {
-            normal: 'normal', fire: 'feu', water: 'eau', electric: 'électrique',
-            grass: 'plante', ice: 'glace', fighting: 'combat', poison: 'poison',
-            ground: 'sol', flying: 'vol', psychic: 'psy', bug: 'insecte',
-            rock: 'roche', ghost: 'spectre', dragon: 'dragon', dark: 'ténèbres',
-            steel: 'acier', fairy: 'fée'
-        };
-        return translations[type.toLowerCase()] || type;
-    }
-
-    removeAccents(str) {
-        return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     }
 }
