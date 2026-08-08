@@ -1,0 +1,1175 @@
+{
+  "klass": "Specie",
+  "id": 246,
+  "dbSymbol": "monarkene",
+  "forms": [
+    {
+      "form": 0,
+      "formTextId": {
+        "name": 283,
+        "description": 0
+      },
+      "height": 1.2,
+      "weight": 28.5,
+      "type1": "grass",
+      "type2": "celestial",
+      "baseHp": 90,
+      "baseAtk": 58,
+      "baseDfe": 82,
+      "baseSpd": 62,
+      "baseAts": 100,
+      "baseDfs": 123,
+      "evHp": 0,
+      "evAtk": 0,
+      "evDfe": 0,
+      "evSpd": 0,
+      "evAts": 0,
+      "evDfs": 2,
+      "evolutions": [],
+      "experienceType": 1,
+      "baseExperience": 190,
+      "baseLoyalty": 70,
+      "catchRate": 45,
+      "femaleRate": 50,
+      "breedGroups": [
+        7,
+        7
+      ],
+      "hatchSteps": 5120,
+      "babyDbSymbol": "akenini",
+      "babyForm": 0,
+      "itemHeld": [
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        },
+        {
+          "dbSymbol": "none",
+          "chance": 0
+        }
+      ],
+      "abilities": [
+        "natural_cure",
+        "harvest",
+        "chlorophyll"
+      ],
+      "frontOffsetY": 0,
+      "moveSet": [
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leafage",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "magical_leaf",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fairy_wind",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gleam_beam",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_leaf",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "radiant_strike",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "synthesis",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "luminous_prism",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "comet_slam",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aromatherapy",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "justice_hammer",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "starry_bolt",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leaf_storm",
+          "level": 65
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swift"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "mega_drain"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "razor_leaf"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "magical_leaf"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "giga_drain"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "seed_bomb"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "leaf_storm"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fairy_wind"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "draining_kiss"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "dazzling_gleam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "moonblast"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_jab"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sparkle_powder"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "soothing_twirl"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "flash_snap"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "gleam_beam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "luminous_prism"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "comet_slam"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "justice_hammer"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "swords_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "calm_mind"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "quiver_dance"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "glow"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "sunny_day"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "light_screen"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "reflect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "trick_room"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "leech_seed"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "charm"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "rest"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "protect"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "encore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "aromatherapy"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "pain_split"
+        }
+      ],
+      "resources": {
+        "icon": "246_i",
+        "iconShiny": "246_i_s",
+        "front": "246",
+        "frontShiny": "246_s",
+        "back": "246_b",
+        "backShiny": "246_b_s",
+        "footprint": "",
+        "character": "246_c",
+        "characterShiny": "246_c_s",
+        "egg": "",
+        "iconEgg": "",
+        "cry": "",
+        "hasFemale": false
+      },
+      "names": {
+        "en": "Monarchene",
+        "fr": "Monarkène",
+        "it": "Larvitar",
+        "de": "Larvitar",
+        "es": "Larvitar",
+        "ko": "애버라스"
+      },
+      "descriptions": {
+        "en": "Born underground, it eats its way through dirt to the surface, where its parents are. It doesn’t deal well with the bright light it finds there.",
+        "fr": "",
+        "it": "Nasce sottoterra e risale in superficie verso i genitori mangiando la terra lungo il cammino. Detesta la luce, che trova troppo abbagliante.",
+        "de": "Es wird unterirdisch geboren und frisst sich durchs Erdreich an die Oberfläche zu seinen Eltern. Es verabscheut grelles, blendendes Licht.",
+        "es": "Nace bajo el suelo y, para reunirse con sus progenitores en la superficie, asciende comiendo tierra. Evita la luz directa porque lo deslumbra.",
+        "ko": "지하에서 태어나 흙을 먹으면서 어버이가 있는 지상을 향해 올라간다. 눈이 부셔서 빛은 좋아하지 않는다."
+      },
+      "abilities_data": [
+        {
+          "symbol": "natural_cure",
+          "textId": 30,
+          "names": {
+            "en": "Natural Cure",
+            "fr": "Médic Nature",
+            "it": "Alternacura",
+            "de": "Innere Kraft",
+            "es": "Cura Natural",
+            "ko": "자연회복"
+          },
+          "descriptions": {
+            "en": "All status conditions heal when the Pokémon switches out.",
+            "fr": "Le Pokémon soigne ses altérations de statut en quittant le combat.",
+            "it": "Quando il Pokémon viene sostituito, guarisce dai problemi di stato.",
+            "de": "Wird das Pokémon ausgewechselt, werden seine Statusprobleme geheilt.",
+            "es": "Cura sus problemas de estado al cambiarse con otro Pokémon.",
+            "ko": "지닌 포켓몬으로 돌아오면 상태 이상이 회복된다."
+          }
+        },
+        {
+          "symbol": "harvest",
+          "textId": 139,
+          "names": {
+            "en": "Harvest",
+            "fr": "Récolte",
+            "it": "Coglibacche",
+            "de": "Reiche Ernte",
+            "es": "Cosecha",
+            "ko": "수확"
+          },
+          "descriptions": {
+            "en": "May create another Berry after one is used.",
+            "fr": "Permet de réutiliser une même Baie plusieurs fois.",
+            "it": "Può ricreare una bacca utilizzata.",
+            "de": "Dieselbe Beere kann mehrmals verwendet werden.",
+            "es": "Puede reutilizar varias veces una misma baya.",
+            "ko": "사용한 나무열매를 몇 번이고 만들어 낸다."
+          }
+        },
+        {
+          "symbol": "chlorophyll",
+          "textId": 34,
+          "names": {
+            "en": "Chlorophyll",
+            "fr": "Chlorophylle",
+            "it": "Clorofilla",
+            "de": "Chlorophyll",
+            "es": "Clorofila",
+            "ko": "엽록소"
+          },
+          "descriptions": {
+            "en": "Boosts the Pokémon’s Speed stat in harsh sunlight.",
+            "fr": "Augmente la Vitesse du Pokémon s’il y a du soleil.",
+            "it": "Se la luce del sole è intensa, la Velocità aumenta.",
+            "de": "Erhöht bei Sonnenschein die Initiative.",
+            "es": "Sube su Velocidad cuando hace sol.",
+            "ko": "날씨가 맑을 때 스피드가 올라간다."
+          }
+        }
+      ],
+      "moves_data": [
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "growth",
+          "id": 74,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "leafage",
+          "id": 670,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leafage",
+            "fr": "Feuillage",
+            "it": "Fogliame",
+            "de": "Blattwerk",
+            "es": "Follaje",
+            "ko": "나뭇잎"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 40,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "magical_leaf",
+          "id": 345,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "gleam_beam",
+          "id": 774,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Gleam Beam",
+            "fr": "Rayon Éclatant",
+            "it": "Dynametallo",
+            "de": "Dyna-Stahlzacken",
+            "es": "Maximetal",
+            "ko": "다이스틸"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "razor_leaf",
+          "id": 75,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Razor Leaf",
+            "fr": "Tranch’Herbe",
+            "it": "Foglielama",
+            "de": "Rasierblatt",
+            "es": "Hoja Afilada",
+            "ko": "잎날가르기"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "radiant_strike",
+          "id": 765,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Radiant Strike",
+            "fr": "Frappe Radieuse",
+            "it": "Dynaflusso",
+            "de": "Dyna-Flut",
+            "es": "Maxichorro",
+            "ko": "다이스트림"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "synthesis",
+          "id": 235,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Synthesis",
+            "fr": "Synthèse",
+            "it": "Sintesi",
+            "de": "Synthese",
+            "es": "Síntesis",
+            "ko": "광합성"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "luminous_prism",
+          "id": 780,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "comet_slam",
+          "id": 770,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Comet Slam",
+            "fr": "Chute Comète",
+            "it": "Dynamacigno",
+            "de": "Dyna-Brocken",
+            "es": "Maxilito",
+            "ko": "다이록"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 5,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aromatherapy",
+          "id": 312,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Aromatherapy",
+            "fr": "Aromathérapie",
+            "it": "Aromaterapia",
+            "de": "Aromakur",
+            "es": "Aromaterapia",
+            "ko": "아로마테라피"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "justice_hammer",
+          "id": 772,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Justice Hammer",
+            "fr": "Marteau Justice",
+            "it": "Dynatenebre",
+            "de": "Dyna-Dunkel",
+            "es": "Maxisombra",
+            "ko": "다이아크"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 95
+        },
+        {
+          "symbol": "starry_bolt",
+          "id": 781,
+          "klass": "LevelLearnableMove",
+          "level": 61,
+          "names": {
+            "en": "Starry Bolt",
+            "fr": "Flèche Étoile",
+            "it": "Taglio Maestoso",
+            "de": "Gigantenhieb",
+            "es": "Tajo Supremo",
+            "ko": "거수참"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leaf_storm",
+          "id": 437,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Leaf Storm",
+            "fr": "Tempête Verte",
+            "it": "Verdebufera",
+            "de": "Blättersturm",
+            "es": "Lluevehojas",
+            "ko": "리프스톰"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 5,
+          "power": 130,
+          "accuracy": 90
+        },
+        {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sparkle_powder",
+          "id": 773,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "soothing_twirl",
+          "id": 769,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Soothing Twirl",
+            "fr": "Tour Apaisant",
+            "it": "Dynapsiche",
+            "de": "Dyna-Kinese",
+            "es": "Maxionda",
+            "ko": "다이사이코"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "flash_snap",
+          "id": 775,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Flash Snap",
+            "fr": "Rapidoflash",
+            "it": "Dracofonia",
+            "de": "Seelentanz",
+            "es": "Estruendo Escama",
+            "ko": "소울비트"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "swords_dance",
+          "id": 14,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Swords Dance",
+            "fr": "Danse Lames",
+            "it": "Danzaspada",
+            "de": "Schwerttanz",
+            "es": "Danza Espada",
+            "ko": "칼춤"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "quiver_dance",
+          "id": 483,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Quiver Dance",
+            "fr": "Papillodanse",
+            "it": "Eledanza",
+            "de": "Falterreigen",
+            "es": "Danza Aleteo",
+            "ko": "나비춤"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "glow",
+          "id": 782,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Glow",
+            "fr": "Brillance",
+            "it": "Colpo Maestoso",
+            "de": "Gigantenstoß",
+            "es": "Embate Supremo",
+            "ko": "거수탄"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sunny_day",
+          "id": 241,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sunny Day",
+            "fr": "Zénith",
+            "it": "Giornodisole",
+            "de": "Sonnentag",
+            "es": "Día Soleado",
+            "ko": "쾌청"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "reflect",
+          "id": 115,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Reflect",
+            "fr": "Protection",
+            "it": "Riflesso",
+            "de": "Reflektor",
+            "es": "Reflejo",
+            "ko": "리플렉터"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "trick_room",
+          "id": 433,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Trick Room",
+            "fr": "Distorsion",
+            "it": "Distortozona",
+            "de": "Bizarroraum",
+            "es": "Espacio Raro",
+            "ko": "트릭룸"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "encore",
+          "id": 227,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pain_split",
+          "id": 220,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        }
+      ]
+    }
+  ]
+}
