@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "absorb",
           "level": 1
         },
         {
@@ -87,7 +87,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "absorb",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -102,12 +102,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mega_drain",
+          "move": "mud_shot",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "magical_leaf",
+          "move": "ancient_power",
           "level": 17
         },
         {
@@ -142,6 +142,11 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "body_slam",
           "level": 45
         },
@@ -157,12 +162,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leaf_blade",
+          "move": "moonblast",
           "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wood_hammer",
+          "move": "hyper_voice",
           "level": 61
         },
         {
@@ -252,6 +257,10 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "earth_power"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "zen_headbutt"
         },
         {
@@ -272,6 +281,10 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "ancient_power"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "snarl"
         },
         {
@@ -289,6 +302,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "iron_head"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "moonblast"
         },
         {
           "klass": "TechLearnableMove",
@@ -439,22 +456,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "absorb",
+          "id": 71,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Absorb",
+            "fr": "Vole-Vie",
+            "it": "Assorbimento",
+            "de": "Absorber",
+            "es": "Absorber",
+            "ko": "흡수"
           },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
+          "category": "special",
+          "type": "grass",
+          "pp": 25,
+          "power": 20,
           "accuracy": 100
         },
         {
@@ -496,22 +513,22 @@
           "accuracy": 90
         },
         {
-          "symbol": "absorb",
-          "id": 71,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Absorb",
-            "fr": "Vole-Vie",
-            "it": "Assorbimento",
-            "de": "Absorber",
-            "es": "Absorber",
-            "ko": "흡수"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "special",
-          "type": "grass",
-          "pp": 25,
-          "power": 20,
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -553,42 +570,42 @@
           "accuracy": 0
         },
         {
-          "symbol": "mega_drain",
-          "id": 72,
+          "symbol": "mud_shot",
+          "id": 341,
           "klass": "LevelLearnableMove",
           "level": 13,
           "names": {
-            "en": "Mega Drain",
-            "fr": "Méga-Sangsue",
-            "it": "Megassorbimento",
-            "de": "Megasauger",
-            "es": "Megaagotar",
-            "ko": "메가드레인"
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
           },
           "category": "special",
-          "type": "grass",
+          "type": "ground",
           "pp": 15,
-          "power": 40,
-          "accuracy": 100
+          "power": 55,
+          "accuracy": 95
         },
         {
-          "symbol": "magical_leaf",
-          "id": 345,
+          "symbol": "ancient_power",
+          "id": 246,
           "klass": "LevelLearnableMove",
           "level": 17,
           "names": {
-            "en": "Magical Leaf",
-            "fr": "Feuille Magik",
-            "it": "Fogliamagica",
-            "de": "Zauberblatt",
-            "es": "Hoja Mágica",
-            "ko": "메지컬리프"
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
           },
           "category": "special",
-          "type": "grass",
-          "pp": 20,
+          "type": "rock",
+          "pp": 5,
           "power": 60,
-          "accuracy": 0
+          "accuracy": 100
         },
         {
           "symbol": "stun_spore",
@@ -705,6 +722,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
@@ -762,41 +798,41 @@
           "accuracy": 85
         },
         {
-          "symbol": "leaf_blade",
-          "id": 348,
+          "symbol": "moonblast",
+          "id": 585,
           "klass": "LevelLearnableMove",
           "level": 57,
           "names": {
-            "en": "Leaf Blade",
-            "fr": "Lame Feuille",
-            "it": "Fendifoglia",
-            "de": "Laubklinge",
-            "es": "Hoja Aguda",
-            "ko": "리프블레이드"
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
           },
-          "category": "physical",
-          "type": "grass",
+          "category": "special",
+          "type": "fairy",
           "pp": 15,
-          "power": 90,
+          "power": 95,
           "accuracy": 100
         },
         {
-          "symbol": "wood_hammer",
-          "id": 452,
+          "symbol": "hyper_voice",
+          "id": 304,
           "klass": "LevelLearnableMove",
           "level": 61,
           "names": {
-            "en": "Wood Hammer",
-            "fr": "Martobois",
-            "it": "Mazzuolegno",
-            "de": "Holzhammer",
-            "es": "Mazazo",
-            "ko": "우드해머"
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
           },
-          "category": "physical",
-          "type": "grass",
-          "pp": 15,
-          "power": 120,
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
           "accuracy": 100
         },
         {
@@ -838,25 +874,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "hyper_voice",
-          "id": 304,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Hyper Voice",
-            "fr": "Mégaphone",
-            "it": "Granvoce",
-            "de": "Schallwelle",
-            "es": "Vozarrón",
-            "ko": "하이퍼보이스"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "double_edge",
           "id": 38,
           "klass": "TechLearnableMove",
@@ -874,6 +891,44 @@
           "pp": 15,
           "power": 120,
           "accuracy": 100
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "magical_leaf",
+          "id": 345,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
         },
         {
           "symbol": "seed_bomb",
@@ -1026,25 +1081,6 @@
           "pp": 10,
           "power": 20,
           "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "bulldoze",

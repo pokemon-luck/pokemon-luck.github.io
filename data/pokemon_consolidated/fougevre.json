@@ -243,6 +243,10 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "earth_power"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "zen_headbutt"
         },
         {
@@ -263,6 +267,10 @@
         },
         {
           "klass": "TechLearnableMove",
+          "move": "ancient_power"
+        },
+        {
+          "klass": "TechLearnableMove",
           "move": "snarl"
         },
         {
@@ -280,6 +288,10 @@
         {
           "klass": "TechLearnableMove",
           "move": "iron_head"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "moonblast"
         },
         {
           "klass": "TechLearnableMove",
@@ -981,6 +993,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "TechLearnableMove",
@@ -1076,6 +1107,25 @@
           "accuracy": 95
         },
         {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "snarl",
           "id": 555,
           "klass": "TechLearnableMove",
@@ -1168,6 +1218,25 @@
           "type": "steel",
           "pp": 15,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
           "accuracy": 100
         },
         {
