@@ -13,6 +13,17 @@
 
     <div class="container">
         <h1 data-translate="all_the_pokemons">Tous les Pokémon</h1>
+
+        <div class="type-filter-bar">
+            <div id="typeFilters" class="type-filters"></div>
+            <div class="type-filter-actions">
+                <button type="button" id="resetTypeFilters" class="type-filter-reset" data-translate="reset_filters" hidden>Tout afficher</button>
+                <span id="pokedexCount" class="pokedex-count"></span>
+            </div>
+        </div>
+
+        <p id="noPokemonFound" class="no-results" data-translate="no_pokemon_found" hidden>Aucun Pokémon ne correspond à ces types.</p>
+
         <div id="pokedexGrid" class="grid-container">
             </div>
     </div>

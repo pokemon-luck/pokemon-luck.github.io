@@ -13,7 +13,7 @@
 /* Styles for individual Pokémon cards (boxes) */
 .pokemon-card {
     background-color: #1d1c22;
-    border: 2px solid #24222a; /* Default border color */
+    border: 2px solid var(--type-color, #24222a); /* Default border color */
     border-radius: 10px;
     padding: 15px;
     text-align: center;
@@ -27,8 +27,14 @@
 }
 
 .pokemon-card:hover {
-    border-color: #3a3843; /* Accent color for the hover border */
+    border-color: var(--type-color-hover, #3a3843); /* Accent color for the hover border */
     /* No box-shadow for a simple contour effect */
+}
+
+/* Masquage d'une carte filtrée : nécessaire car .pokemon-card impose
+   display:flex, qui l'emporte sur le display:none par défaut de [hidden]. */
+.pokemon-card[hidden] {
+    display: none;
 }
 
 .pokemon-sprite {
@@ -38,125 +44,92 @@
     margin-bottom: 10px;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                             Couleurs des types                                                                       */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* Source unique de vérité : chaque classe de type expose sa couleur normale et
+   sa couleur accentuée. Les cartes du Pokédex (bordure) et les boutons de
+   filtre (bordure + halo à l'état actif) consomment les mêmes variables. */
+
 .normal {
-    border-color: #4b4743;
-}
-.normal:hover {
-    border-color: #9c958b;
+    --type-color: #4b4743;
+    --type-color-hover: #9c958b;
 }
 .feu {
-    border-color: #4d0f00;
-}
-.feu:hover {
-    border-color: #8a1b00;
+    --type-color: #4d0f00;
+    --type-color-hover: #8a1b00;
 }
 .eau {
-    border-color: #01354f;
-}
-.eau:hover {
-    border-color: #006191;
+    --type-color: #01354f;
+    --type-color-hover: #006191;
 }
 .electrique {
-    border-color: #6b5818;
-}
-.electrique:hover {
-    border-color: #ccab3f;
+    --type-color: #6b5818;
+    --type-color-hover: #ccab3f;
 }
 .plante {
-    border-color: #023b11;
-}
-.plante:hover {
-    border-color: #026e1e;
+    --type-color: #023b11;
+    --type-color-hover: #026e1e;
 }
 .glace {
-    border-color: #004a4f;
-}
-.glace:hover {
-    border-color: #008c96;
+    --type-color: #004a4f;
+    --type-color-hover: #008c96;
 }
 .combat {
-    border-color: #520f2c;
-}
-.combat:hover {
-    border-color: #9c1a52;
+    --type-color: #520f2c;
+    --type-color-hover: #9c1a52;
 }
 .poison {
-    border-color: #4e125c;
-}
-.poison:hover {
-    border-color: #8a18a3;
+    --type-color: #4e125c;
+    --type-color-hover: #8a18a3;
 }
 .sol {
-    border-color: #402815;
-}
-.sol:hover {
-    border-color: #7a4a23;
+    --type-color: #402815;
+    --type-color-hover: #7a4a23;
 }
 .vol {
-    border-color: #445463;
-}
-.vol:hover {
-    border-color: #7797b5;
+    --type-color: #445463;
+    --type-color-hover: #7797b5;
 }
 .psy {
-    border-color: #5e3340;
-}
-.psy:hover {
-    border-color: #ad5771;
+    --type-color: #5e3340;
+    --type-color-hover: #ad5771;
 }
 .insecte {
-    border-color: #314022;
-}
-.insecte:hover {
-    border-color: #638542;
+    --type-color: #314022;
+    --type-color-hover: #638542;
 }
 .roche {
-    border-color: #423e36;
-}
-.roche:hover {
-    border-color: #786950;
+    --type-color: #423e36;
+    --type-color-hover: #786950;
 }
 .spectre {
-    border-color: #2d2747;
-}
-.spectre:hover {
-    border-color: #53488a;
+    --type-color: #2d2747;
+    --type-color-hover: #53488a;
 }
 .dragon {
-    border-color: #28295c;
-}
-.dragon:hover {
-    border-color: #4345a3;
+    --type-color: #28295c;
+    --type-color-hover: #4345a3;
 }
 .tenebres {
-    border-color: #3a3843;
-}
-.tenebres:hover {
-    border-color: #534f61;
+    --type-color: #3a3843;
+    --type-color-hover: #534f61;
 }
 .acier {
-    border-color: #405155;
-}
-.acier:hover {
-    border-color: #73959e;
+    --type-color: #405155;
+    --type-color-hover: #73959e;
 }
 .fee {
-    border-color: #5a2657;
-}
-.fee:hover {
-    border-color: #b045a9;
+    --type-color: #5a2657;
+    --type-color-hover: #b045a9;
 }
 .undead {
-    border-color: #3a402e;
-}
-.undead:hover {
-    border-color: #728059;
+    --type-color: #3a402e;
+    --type-color-hover: #728059;
 }
 .celestial {
-    border-color: #635f47;
-}
-.celestial:hover {
-    border-color: #d7c985;
+    --type-color: #635f47;
+    --type-color-hover: #d7c985;
 }
 
 .pokemon-name {
@@ -165,4 +138,103 @@
     color: #e0e0e0;
     margin: 0;
     text-transform: capitalize;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*                                                             Filtres par type                                                                         */
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.type-filter-bar {
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.type-filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Un bouton = une icône de type. Inactif, il est désaturé pour que la
+   sélection courante ressorte immédiatement. */
+.type-filter {
+    padding: 0;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #1d1c22;
+    border: 2px solid var(--type-color, #24222a);
+    border-radius: 8px;
+    cursor: pointer;
+    opacity: 0.5;
+    filter: grayscale(0.85);
+    transition: border-color 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+}
+
+.type-filter img {
+    display: block;
+    width: 90px;
+    height: auto;
+}
+
+.type-filter:hover {
+    border-color: var(--type-color-hover, #3a3843);
+    opacity: 1;
+    filter: none;
+}
+
+.type-filter[aria-pressed="true"] {
+    border-color: var(--type-color-hover, #3a3843);
+    opacity: 1;
+    filter: none;
+    box-shadow: 0 0 8px var(--type-color-hover, #3a3843);
+}
+
+.type-filter:focus-visible {
+    outline: 2px solid #e0e0e0;
+    outline-offset: 2px;
+}
+
+.type-filter-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 12px;
+}
+
+.type-filter-reset {
+    background-color: transparent;
+    border: 1px solid #3a3843;
+    border-radius: 20px;
+    color: #e0e0e0;
+    font-size: 0.95em;
+    padding: 6px 16px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.type-filter-reset:hover {
+    border-color: #e0e0e0;
+}
+
+.pokedex-count {
+    color: #8e99ab;
+    font-weight: bold;
+    font-size: 0.95em;
+}
+
+.no-results {
+    color: #8e99ab;
+    margin: 30px 0 0;
+}
+
+@media (max-width: 600px) {
+    .type-filter img {
+        width: 70px;
+    }
 }
