@@ -1,5 +1,5 @@
 /*
-Classe principale pour la recherche et l'affichage des Pokémon
+Recherche d'un Pokémon et affichage de sa fiche.
 */
 
 import { PokemonDataProcessor } from './PokemonDataProcessor.js';
@@ -15,23 +15,29 @@ export class PokemonSearchBar {
     }
 
     async init() {
+        this.uiManager.setPlaceholder(await this.languageManager.getTranslation('search_placeholder'));
         await this.loadPokemonList();
         this.setupSearchInput();
-        this.fetchAndDisplayPokemon();
+        await this.showRequestedPokemon();
     }
 
     async loadPokemonList() {
         try {
             const lang = PokemonUtils.getLang(this.languageManager);
-
             const data = await PokemonUtils.fetchJson('data/national.json');
-            this.pokemonList = data.creatures.map(creature => {
-                return {
-                    dbSymbol: creature.dbSymbol,
-                    search: creature.names.en + ',' + creature.names.fr + ',' + PokemonUtils.removeAccents(creature.names.fr),
-                    name: creature.names[lang]
-                };
-            });
+
+            // `search` regroupe les deux langues et la version sans accent, pour
+            // que « tenebres » trouve « Ténèbres ».
+            this.pokemonList = data.creatures.map((creature, index) => ({
+                dbSymbol: creature.dbSymbol,
+                name: creature.names[lang] || creature.dbSymbol,
+                dexNumber: index + 1,
+                search: [
+                    creature.names.en,
+                    creature.names.fr,
+                    PokemonUtils.removeAccents(creature.names.fr)
+                ].join(',').toLowerCase()
+            }));
         } catch (error) {
             console.error('Error fetching Pokémon list:', error);
         }
@@ -40,53 +46,47 @@ export class PokemonSearchBar {
     setupSearchInput() {
         this.uiManager.setupSearchInput(() => {
             const query = this.uiManager.getSearchQuery();
-            this.uiManager.clearSuggestions();
-            
-            if (query) {
-                const filteredPokemons = this.pokemonList.filter(pokemon => 
-                    pokemon.search.toLowerCase().includes(query)
-                );
-                
-                filteredPokemons.forEach(pokemon => {
-                    this.uiManager.addSuggestion(
-                        pokemon, 
-                        this.languageManager.getCurrentLanguage(),
-                        this.navigateToPokemon.bind(this)
-                    );
-                });
+
+            if (!query) {
+                this.uiManager.hideSuggestions();
+                return;
             }
+
+            const matches = this.pokemonList.filter(pokemon => pokemon.search.includes(query));
+            this.uiManager.showSuggestions(matches, entry => this.navigateToPokemon(entry));
         });
     }
 
-    navigateToPokemon(pokemon, currentLanguage) {
-        console.log(pokemon);
+    navigateToPokemon(entry) {
         const url = new URL(window.location.href);
-        url.searchParams.set('pokemon', pokemon.dbSymbol);
-        url.searchParams.set('lang', currentLanguage);
+        url.searchParams.set('pokemon', entry.dbSymbol);
+        url.searchParams.set('lang', this.languageManager.getCurrentLanguage());
         window.location.href = url.href;
     }
 
-    fetchAndDisplayPokemon() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const pokemonName = urlParams.get('pokemon');
-        if (pokemonName) {
-            this.fetchPokemonData(pokemonName);
-        }
-    }
+    async showRequestedPokemon() {
+        const requested = new URLSearchParams(window.location.search).get('pokemon');
 
-    async fetchPokemonData(pokemonName) {
+        if (!requested) {
+            this.uiManager.showMessage(await this.languageManager.getTranslation('search_empty'));
+            return;
+        }
+
         try {
-            const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${pokemonName}.json`);
-            await this.displayPokemonData(data, pokemonName);
+            const data = await PokemonUtils.fetchJson(`data/pokemon_consolidated/${requested}.json`);
+            const processed = await this.dataProcessor.processData(data);
+
+            this.uiManager.displayPokemonData(await this.renderer.renderPokemon(processed));
+
+            // La fiche arrive après la passe de traduction initiale.
+            this.languageManager.retranslatePage();
+
+            // Après la retraduction : celle-ci réécrit le <title> depuis sa clé
+            // et écraserait le nom du Pokémon si on le posait avant.
+            document.title = `${processed.name} — Pokémon Luck`;
         } catch (error) {
             console.error('Error fetching Pokemon data:', error);
-            this.uiManager.showPokemonNotFound();
+            this.uiManager.showMessage(await this.languageManager.getTranslation('pokemon_not_found'));
         }
-    }
-
-    async displayPokemonData(data, pokemonName) {
-        const processedData = await this.dataProcessor.processData(data);
-        const html = await this.renderer.renderPokemon(processedData, pokemonName);
-        this.uiManager.displayPokemonData(html);
     }
 }

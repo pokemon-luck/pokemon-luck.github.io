@@ -1,5 +1,10 @@
 /*
-Traitement et transformation des données Pokémon
+Traitement et transformation des données Pokémon.
+
+Les noms des Pokémon voisins (précédent, suivant, évolutions, forme bébé) sont
+lus dans national.json, déjà chargé et mis en cache, plutôt qu'en téléchargeant
+leur fiche consolidée complète — une fiche pèse 41 Ko en moyenne, jusqu'à 183 Ko,
+et n'était ouverte que pour y prendre une chaîne de caractères.
 */
 
 export class PokemonDataProcessor {
@@ -7,234 +12,255 @@ export class PokemonDataProcessor {
         this.languageManager = languageManager;
     }
 
+    get lang() {
+        return PokemonUtils.getLang(this.languageManager);
+    }
+
+    // Index dbSymbol -> { name, position } construit une fois par page.
+    async getDexIndex() {
+        if (!this._dexIndex) {
+            const data = await PokemonUtils.fetchJson('data/national.json');
+            this._dexList = data.creatures;
+            this._dexIndex = new Map(
+                data.creatures.map((creature, position) => [
+                    creature.dbSymbol,
+                    { name: creature.names[this.lang] || creature.dbSymbol, position }
+                ])
+            );
+        }
+        return this._dexIndex;
+    }
+
+    async nameOf(dbSymbol) {
+        const index = await this.getDexIndex();
+        return index.get(dbSymbol)?.name || dbSymbol;
+    }
+
     async processData(data) {
         const form = data.forms[0];
-        
+        await this.getDexIndex();
+
         return {
             form,
-            name: this.processName(form),
-            description: this.processDescription(form),
+            dbSymbol: data.dbSymbol,
+            dexNumber: (this._dexIndex.get(data.dbSymbol)?.position ?? -1) + 1,
+            name: form.names[this.lang],
+            nameEn: form.names.en,
+            description: form.descriptions[this.lang],
             stats: await this.processStats(form),
             abilities: this.processAbilities(form),
-            moves: await this.processMoves(form),
-            evolutions: await this.processEvolutions(form),
+            moves: this.processMoves(form),
+            evolutionChain: await this.processEvolutionChain(data.dbSymbol, data),
             breeding: await this.processBreeding(form),
             types: this.processTypes(form),
             navigation: await this.processNavigation(data),
         };
     }
 
-    processName(form) {
-        const lang = PokemonUtils.getLang(this.languageManager);
-
-        return form['names'][lang];
-    }
-
-    processDescription(form) {
-        const lang = PokemonUtils.getLang(this.languageManager);
-
-        return form['descriptions'][lang];
-    }
-
     async processStats(form) {
-        const statLabels = await Promise.all([
+        const labels = await Promise.all([
             this.languageManager.getTranslation('HP'),
             this.languageManager.getTranslation('Attack'),
             this.languageManager.getTranslation('Defense'),
-            this.languageManager.getTranslation('Speed'),
             this.languageManager.getTranslation('Special Attack'),
-            this.languageManager.getTranslation('Special Defense')
+            this.languageManager.getTranslation('Special Defense'),
+            this.languageManager.getTranslation('Speed')
         ]);
 
+        // Ordre d'affichage des jeux officiels : la vitesse en dernier.
+        // `key` désigne la variable de couleur (--st-*) de css/styles_types.css.
         return [
-            { name: statLabels[0], value: form.baseHp },
-            { name: statLabels[1], value: form.baseAtk },
-            { name: statLabels[2], value: form.baseDfe },
-            { name: statLabels[3], value: form.baseSpd },
-            { name: statLabels[4], value: form.baseAts },
-            { name: statLabels[5], value: form.baseDfs }
+            { key: 'hp', name: labels[0], value: form.baseHp },
+            { key: 'atk', name: labels[1], value: form.baseAtk },
+            { key: 'def', name: labels[2], value: form.baseDfe },
+            { key: 'ats', name: labels[3], value: form.baseAts },
+            { key: 'dfs', name: labels[4], value: form.baseDfs },
+            { key: 'spd', name: labels[5], value: form.baseSpd }
         ];
     }
 
     processAbilities(form) {
-        const displayedAbilities = new Set();
-        return form.abilities.map(abilitySymbol => {
-            if (!displayedAbilities.has(abilitySymbol)) {
-                displayedAbilities.add(abilitySymbol);
-                return this.getAbilityData(abilitySymbol, form.abilities_data);
-            }
-            return null;
-        }).filter(Boolean);
+        const seen = new Set();
+
+        return form.abilities
+            .filter(symbol => {
+                if (seen.has(symbol)) return false;
+                seen.add(symbol);
+                return true;
+            })
+            .map((symbol, index) => {
+                const ability = form.abilities_data.find(a => a.symbol === symbol);
+                // Dans les données PSDK, la troisième entrée est le talent caché.
+                const hidden = form.abilities.indexOf(symbol) === 2;
+
+                if (!ability) return { name: symbol, description: '', hidden };
+
+                return {
+                    name: ability.names[this.lang] || ability.names.en || symbol,
+                    description: ability.descriptions[this.lang] || ability.descriptions.en || '',
+                    hidden
+                };
+            });
     }
 
-    getAbilityData(abilitySymbol, abilitiesData) {
-        const ability = abilitiesData.find(a => a.symbol === abilitySymbol);
-        if (!ability) return { name: abilitySymbol, description: "Data not found" };
-        
-        const lang = PokemonUtils.getLang(this.languageManager);
-        
-        return {
-            name: ability.names[lang] || ability.names.en || abilitySymbol,
-            description: ability.descriptions[lang] || ability.descriptions.en || "Description not found"
+    processMoves(form) {
+        const KLASS_TO_GROUP = {
+            LevelLearnableMove: 'level',
+            TutorLearnableMove: 'tutor',
+            TechLearnableMove: 'tech',
+            BreedLearnableMove: 'breed'
         };
-    }
+        const CATEGORY_CLASS = { physical: 'c-phy', special: 'c-spe', status: 'c-sta' };
 
-    async processMoves(form) {
-        const movesByType = {
-            level: new Set(),
-            tutor: new Set(),
-            tech: new Set(),
-            breed: new Set()
-        };
+        const groups = { level: [], tutor: [], tech: [], breed: [] };
+        const seen = { level: new Set(), tutor: new Set(), tech: new Set(), breed: new Set() };
 
-        const processedMoves = {
-            level: [],
-            tutor: [],
-            tech: [],
-            breed: []
-        };
+        for (const entry of form.moveSet) {
+            const group = KLASS_TO_GROUP[entry.klass];
+            if (!group || seen[group].has(entry.move)) continue;
 
-        for (const moveInfo of form.moveSet) {
-            const moveData = this.getMoveData(moveInfo.move, form.moves_data);
-            if (!moveData) continue;
+            const move = form.moves_data.find(m => m.symbol === entry.move);
+            if (!move) continue;
 
-            const categoryImage = await this.getCategoryImage(moveData.category);
-            const typeFrench = PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(moveData.type));
-            const typeImage = `resources/icons/types/${typeFrench}.png`;
-
-            const processedMove = {
-                level: moveInfo.level || '',
-                name: moveData.name,
-                typeImage,
-                categoryImage,
-                pp: moveData.pp,
-                power: moveData.power,
-                accuracy: moveData.accuracy,
-                type: typeFrench,
-                category: moveData.category
-            };
-
-            const moveType = this.getMoveType(moveInfo.klass);
-            if (moveType && !movesByType[moveType].has(moveInfo.move)) {
-                movesByType[moveType].add(moveInfo.move);
-                processedMoves[moveType].push(processedMove);
-            }
+            seen[group].add(entry.move);
+            groups[group].push({
+                level: entry.level || null,
+                name: move.names[this.lang] || move.names.en || entry.move,
+                type: move.type,
+                typeSlug: PokemonUtils.typeSlug(move.type),
+                typeLabel: PokemonUtils.typeLabel(move.type, this.lang),
+                categoryClass: CATEGORY_CLASS[move.category] || 'c-sta',
+                category: move.category,
+                pp: move.pp,
+                power: move.power,
+                accuracy: move.accuracy
+            });
         }
 
-        return processedMoves;
+        return groups;
     }
 
-    getMoveType(klass) {
-        const typeMap = {
-            'LevelLearnableMove': 'level',
-            'TutorLearnableMove': 'tutor',
-            'TechLearnableMove': 'tech',
-            'BreedLearnableMove': 'breed'
-        };
-        return typeMap[klass];
-    }
+    async readConditions(rawConditions) {
+        const KNOWN = ['minLevel', 'minLoyalty', 'skill1', 'stone', 'itemHold', 'func', 'gender'];
+        const conditions = [];
 
-    getMoveData(moveSymbol, movesData) {
-        const move = movesData.find(m => m.symbol === moveSymbol);
-        if (!move) return null;
-        
-        const lang = PokemonUtils.getLang(this.languageManager);
-        
-        return {
-            name: move.names[lang] || move.names.en || moveSymbol,
-            category: move.category,
-            type: move.type,
-            pp: move.pp,
-            power: move.power,
-            accuracy: move.accuracy
-        };
-    }
-
-    async getCategoryImage(category) {
-        const imageMap = {
-            'physical': 'physique.png',
-            'status': 'statut.png',
-            'special': 'special.png'
-        };
-        return `resources/icons/types/${imageMap[category] || 'placeholder.png'}`;
-    }
-
-    async processEvolutions(form) {
-        const lang = PokemonUtils.getLang(this.languageManager);
-
-        let evolutions = [];
-        for (let index = 0; index < form.evolutions.length; index++) {
-            const evo = form.evolutions[index];
-
-            const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${evo.dbSymbol}.json`);
-
-            evolutions[index] = {
-                dbSymbol: evo.dbSymbol,
-                name: data.forms[0].names[lang],
-                conditions: evo.conditions
-            }
+        for (const condition of rawConditions || []) {
+            if (!KNOWN.includes(condition.type)) continue;
+            conditions.push({
+                label: await this.languageManager.getTranslation(condition.type),
+                value: condition.names ? condition.names[this.lang] : condition.value
+            });
         }
-        return evolutions;
+
+        return conditions;
+    }
+
+    /*
+    Chaîne d'évolution complète, ancêtres compris.
+
+    `babyDbSymbol` désigne la racine de la chaîne — pas seulement la forme bébé
+    d'un œuf : pour Griffonde il vaut « tremplume ». On repart donc de la racine
+    et on descend, ce qui permet d'afficher la lignée entière plutôt que les
+    seules évolutions restantes.
+
+    Chaque palier est un tableau : neuf Pokémon du jeu se ramifient en plusieurs
+    évolutions possibles. La profondeur est bornée par sécurité, et un Pokémon
+    déjà vu n'est jamais réintroduit — une donnée circulaire boucherait sinon.
+    */
+    async processEvolutionChain(currentSymbol, currentData) {
+        const MAX_DEPTH = 5;
+        const form = currentData.forms[0];
+        const baby = form.babyDbSymbol;
+        const root = (baby && baby !== '__undef__') ? baby : currentSymbol;
+
+        const readForm = async (symbol) => {
+            if (symbol === currentSymbol) return form;
+            const data = await PokemonUtils.fetchJson(`data/pokemon_consolidated/${symbol}.json`);
+            return data.forms[0];
+        };
+
+        const chain = [];
+        const seen = new Set();
+        let pending = [{ dbSymbol: root, conditions: [] }];
+
+        for (let depth = 0; depth < MAX_DEPTH && pending.length > 0; depth++) {
+            const stage = [];
+            const next = [];
+
+            for (const entry of pending) {
+                if (seen.has(entry.dbSymbol)) continue;
+                seen.add(entry.dbSymbol);
+
+                let stageForm;
+                try {
+                    stageForm = await readForm(entry.dbSymbol);
+                } catch (error) {
+                    console.warn('Evolution chain: missing entry', entry.dbSymbol);
+                    continue;
+                }
+
+                stage.push({
+                    dbSymbol: entry.dbSymbol,
+                    name: await this.nameOf(entry.dbSymbol),
+                    dexNumber: (this._dexIndex.get(entry.dbSymbol)?.position ?? -1) + 1,
+                    current: entry.dbSymbol === currentSymbol,
+                    conditions: entry.conditions
+                });
+
+                for (const evo of stageForm.evolutions || []) {
+                    next.push({ dbSymbol: evo.dbSymbol, conditions: await this.readConditions(evo.conditions) });
+                }
+            }
+
+            if (stage.length > 0) chain.push(stage);
+            pending = next;
+        }
+
+        // Une chaîne d'un seul maillon n'est pas une chaîne.
+        return chain.length > 1 ? chain : [];
     }
 
     async processBreeding(form) {
-        const lang = PokemonUtils.getLang(this.languageManager);
+        // Déduplique la liste elle-même : l'ancienne version comptait les
+        // groupes uniques mais relisait le tableau brut, ce qui pouvait afficher
+        // deux fois le même groupe et en escamoter un autre.
+        const uniqueGroups = [...new Set(form.breedGroups)];
 
-        let groups = [];
-        for (let index = 0; index < form.breedGroups.filter((value, index, array) => array.indexOf(value) === index).length; index++) {
-            const group = form.breedGroups[index];
-
-            groups[index] = await this.languageManager.getTranslation("breed_" + group);
-        }
-
-        const data = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${form.babyDbSymbol}.json`);
+        const breedGroups = await Promise.all(
+            uniqueGroups.map(group => this.languageManager.getTranslation('breed_' + group))
+        );
 
         return {
-            breedGroups: groups,
+            breedGroups,
             hatchSteps: form.hatchSteps,
-            babyForm: data.forms[0].names[lang]
+            babyForm: form.babyDbSymbol ? await this.nameOf(form.babyDbSymbol) : null
         };
     }
 
     processTypes(form) {
-        const type1French = PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(form.type1));
-        const type2French = form.type2 !== "__undef__" ?
-            PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(form.type2)) : null;
-        
-        return { type1French, type2French };
+        return [form.type1, form.type2]
+            .filter(type => PokemonUtils.hasType(type))
+            .map(type => ({
+                slug: PokemonUtils.typeSlug(type),
+                label: PokemonUtils.typeLabel(type, this.lang)
+            }));
     }
 
     async processNavigation(pokemon) {
-        const lang = PokemonUtils.getLang(this.languageManager);
+        const index = await this.getDexIndex();
+        const position = index.get(pokemon.dbSymbol)?.position ?? -1;
+        if (position === -1) return { previous: null, next: null };
 
-        const data = await PokemonUtils.fetchJson(`./data/national.json`);
-
-        const index = data.creatures.findIndex(pk => pk.dbSymbol == pokemon.dbSymbol);
-
-        let previous = null;
-        let next = null;
-
-        if (index > 0) {
-            const pk = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${data.creatures[index - 1].dbSymbol}.json`);
-
-            previous = {
-                name: pk.forms[0].names[lang],
-                dbSymbol: pk.dbSymbol
+        const at = (offset) => {
+            const creature = this._dexList[position + offset];
+            if (!creature) return null;
+            return {
+                dbSymbol: creature.dbSymbol,
+                name: creature.names[this.lang] || creature.dbSymbol,
+                dexNumber: position + offset + 1
             };
-        }
+        };
 
-        if (index < data.creatures.length - 1) {
-            const pk = await PokemonUtils.fetchJson(`./data/pokemon_consolidated/${data.creatures[index + 1].dbSymbol}.json`);
-
-            next = {
-                name: pk.forms[0].names[lang],
-                dbSymbol: pk.dbSymbol
-            };
-        }
-
-        return {
-            "previous": previous,
-            "next": next
-        }
+        return { previous: at(-1), next: at(1) };
     }
 }

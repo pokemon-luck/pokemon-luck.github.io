@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title Full data-translate="Search Pokemon">Search Pokémon</title> <link rel="stylesheet" href="css/styles_main.css">
+    <title data-translate="Search Pokemon">Recherche Pokémon</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_types.css">
+    <link rel="stylesheet" href="css/styles_PokemonSearch.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <header>
-        <div id="searchContainer">
-            <input type="text" id="searchBar" placeholder="Search for a Pokémon..." autocomplete="off">
+    <main class="pk-page wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_entry">Fiche</div>
+            <h1 data-translate="Search Pokemon">Recherche Pokémon</h1>
         </div>
-        <ul id="suggestions"></ul>
-    </header>
 
-    <div class="container">
-        <div id="pokemonData" class="grid-container"></div>
-    </div>
+        <div class="pk-search">
+            <div class="pk-search-field">
+                <span class="lbl">NOM</span>
+                <input type="text" id="searchBar" autocomplete="off" spellcheck="false"
+                       data-translate-placeholder="search_placeholder" placeholder="Rechercher un Pokémon…">
+            </div>
+            <ul id="suggestions" class="pk-suggestions" hidden></ul>
+        </div>
+
+        <div id="pokemonData"></div>
+    </main>
+
+    <footer class="site-footer wrap">
+        <span data-translate="footer_note">Wiki communautaire de Pokémon Luck</span> ·
+        <a href="https://github.com/fuyutaaProjects" target="_blank" rel="noopener">@fuyutaaProjects</a>
+    </footer>
 
     <script src="js/PokemonUtils.js"></script>
     <script src="js/LanguageManager.js"></script>
     <script src="js/LoadNavbar.js"></script>
-
     <script type="module" src="js/PokemonSearch/PokemonSearch.js"></script>
 </body>
-
-<footer>
-    <a href="https://github.com/fuyutaaProjects" target="_blank">Built by @fuyutaaProjects on GitHub</a>
-</footer>
-
 </html>

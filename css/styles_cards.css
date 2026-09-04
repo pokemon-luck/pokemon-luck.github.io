@@ -1,0 +1,89 @@
+/* ============================================================================
+   CARTE POKÉMON — partagée par l'accueil (starters) et le Pokédex
+   À charger après styles_tokens.css, styles_base.css et styles_types.css.
+
+   La carte reprend le vocabulaire « Console » : une barre de repère en haut,
+   un écran à trame pour le sprite, puis l'identité. La couleur du type
+   principal est posée sur la carte via une classe .t-* et pilote la bordure
+   au survol comme le carré de la barre.
+   ========================================================================= */
+
+.poke-slot {
+    display: flex;
+    flex-direction: column;
+    background: var(--panel);
+    border: 1px solid var(--line-soft);
+    text-decoration: none;
+    color: inherit;
+    transition: border-color .15s, transform .15s, box-shadow .15s;
+}
+.poke-slot:hover {
+    border-color: var(--tc, var(--line));
+    transform: translateY(-2px);
+    box-shadow: 0 4px 0 color-mix(in srgb, var(--tc, var(--line)) 45%, transparent);
+}
+.poke-slot:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+.poke-slot-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--line-soft);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9.5px;
+    color: var(--faint);
+}
+.poke-slot-bar::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    background: var(--tc, var(--faint));
+}
+
+.poke-slot-stage {
+    display: grid;
+    place-items: center;
+    padding: 12px 0 6px;
+    background:
+        linear-gradient(var(--bg-grid) 1px, transparent 1px) 0 0 / 100% 8px,
+        linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px) 0 0 / 8px 100%;
+}
+.poke-slot-stage img {
+    width: 96px;
+    height: 96px;
+    image-rendering: pixelated;
+}
+
+.poke-slot-name {
+    padding: 9px 10px 4px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    /* Les noms longs ne doivent pas élargir la carte ni déborder. */
+    overflow-wrap: anywhere;
+}
+
+.poke-slot-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    padding: 0 8px 12px;
+}
+
+/* Pastilles resserrées par rapport au reste du site : dans la largeur d'une
+   carte, un couple de types aux noms longs — Ténèbres + Céleste, Poison +
+   Électrique — passait à la ligne sur 12 des 167 Pokémon bi-types. */
+.poke-slot .tp {
+    padding: 4px 7px;
+    font-size: 8.5px;
+}
+
+@media (max-width: 700px) {
+    .poke-slot-stage img { width: 80px; height: 80px; }
+    .poke-slot-name { font-size: 14px; }
+}

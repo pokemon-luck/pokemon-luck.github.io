@@ -1,0 +1,92 @@
+/* ============================================================================
+   TYPES, CATÉGORIES ET STATISTIQUES
+   ----------------------------------------------------------------------------
+   Les pastilles de type remplacent les anciennes images PNG, qui étaient figées
+   en français et imposaient une requête réseau par type affiché. Le libellé est
+   désormais du texte : il suit la langue et reste net à toutes les tailles.
+
+   La classe est dérivée du type sans accent (PokemonUtils.typeSlug) :
+   eau, feu, electrique, tenebres, fee, undead, celestial…
+   ========================================================================= */
+
+/* ------------------------------------------------------------------ TYPES --
+   Teintes dérivées des couleurs historiques du site, remontées en luminosité
+   pour rester lisibles en aplat sur fond clair comme sur fond sombre.
+   --tc     : couleur du type
+   --tc-ink : couleur du texte posé dessus
+   -------------------------------------------------------------------------*/
+.t-normal     { --tc: #9c958b; --tc-ink: #14140f; }
+.t-feu        { --tc: #c0392b; --tc-ink: #ffffff; }
+.t-eau        { --tc: #2b7fb8; --tc-ink: #ffffff; }
+.t-electrique { --tc: #ccab3f; --tc-ink: #201a05; }
+.t-plante     { --tc: #3e9142; --tc-ink: #ffffff; }
+.t-glace      { --tc: #56b8c0; --tc-ink: #06282b; }
+.t-combat     { --tc: #b02a5f; --tc-ink: #ffffff; }
+.t-poison     { --tc: #9b3fb0; --tc-ink: #ffffff; }
+.t-sol        { --tc: #a06a34; --tc-ink: #ffffff; }
+.t-vol        { --tc: #7797b5; --tc-ink: #0b1720; }
+.t-psy        { --tc: #c06584; --tc-ink: #ffffff; }
+.t-insecte    { --tc: #6f9648; --tc-ink: #0d1706; }
+.t-roche      { --tc: #8b7a5c; --tc-ink: #ffffff; }
+.t-spectre    { --tc: #6a5eaa; --tc-ink: #ffffff; }
+.t-dragon     { --tc: #5457bd; --tc-ink: #ffffff; }
+.t-tenebres   { --tc: #5f5a70; --tc-ink: #ffffff; }
+.t-acier      { --tc: #7fa3ad; --tc-ink: #0a1417; }
+.t-fee        { --tc: #c05ab7; --tc-ink: #ffffff; }
+.t-undead     { --tc: #7f8f60; --tc-ink: #0d1206; }
+.t-celestial  { --tc: #d7c985; --tc-ink: #2b2406; }
+
+/* Catégories de capacité (remplacent physique.png / special.png / statut.png) */
+.c-phy { --tc: #c0392b; --tc-ink: #ffffff; --tc-out: #a83322; }
+.c-spe { --tc: #3b6fb0; --tc-ink: #ffffff; --tc-out: #2f5c96; }
+.c-sta { --tc: #7d7a86; --tc-ink: #ffffff; --tc-out: #625f6b; }
+:root[data-theme="dark"] .c-phy { --tc-out: #f0806f; }
+:root[data-theme="dark"] .c-spe { --tc-out: #7fa9e0; }
+:root[data-theme="dark"] .c-sta { --tc-out: #a9a5b5; }
+
+/* --------------------------------------------------------------- PASTILLE --
+   Angles droits et police pixel : la pastille appartient au thème « Console ».
+   -------------------------------------------------------------------------*/
+.tp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 9px;
+    background: var(--tc);
+    color: var(--tc-ink);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9.5px;
+    letter-spacing: .06em;
+    line-height: 1;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/* Les catégories s'affichent en contour, les types en aplat : dans le tableau
+   des capacités, les colonnes Type et Catégorie restent distinguables même
+   quand leurs teintes sont proches (Eau / Spéciale). */
+.tp.c-phy, .tp.c-spe, .tp.c-sta {
+    background: color-mix(in srgb, var(--tc) 16%, transparent);
+    color: var(--tc-out);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--tc) 55%, transparent);
+}
+
+/* ---------------------------------------------------------- STATISTIQUES --
+   Une couleur par statistique, comme dans les jeux officiels.
+   -------------------------------------------------------------------------*/
+:root {
+    --st-hp:  #e0485a;
+    --st-atk: #e08a3c;
+    --st-def: #d4b02f;
+    --st-ats: #5b86e0;
+    --st-dfs: #5fae4a;
+    --st-spd: #e0699a;
+}
+:root[data-theme="dark"] {
+    --st-hp:  #f4626f;
+    --st-atk: #f0a05a;
+    --st-def: #edd05e;
+    --st-ats: #7fa2ef;
+    --st-dfs: #86c96b;
+    --st-spd: #f27ba6;
+}

@@ -1,0 +1,80 @@
+/* ============================================================================
+   PAGE CARTE DU MONDE (Map.html)
+   À charger après styles_tokens.css et styles_base.css.
+
+   La carte est une application externe (LegendKeeper) dans une iframe : c'est
+   le contenu principal de la page, elle doit donc occuper toute la hauteur
+   disponible plutôt qu'une boîte de taille arbitraire.
+   ========================================================================= */
+
+/* La page occupe exactement la fenêtre sous la barre de navigation, sans
+   provoquer de défilement vertical : la carte a son propre zoom interne. */
+.map-page {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - var(--nav-h));
+    padding-block: 26px 30px;
+}
+
+/* Plus large que le gabarit courant : une carte gagne à respirer. */
+.map-wrap { width: min(1560px, 100% - 36px); margin-inline: auto; }
+
+.map-head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 18px;
+}
+.map-head .sec-head { margin-bottom: 0; }
+
+/* --------------------------------------------------------------- L'ÉCRAN --
+   Le cadre reprend le vocabulaire du thème ; l'iframe garde évidemment sa
+   propre interface, sur laquelle le thème du site n'a pas prise.
+   -------------------------------------------------------------------------*/
+.map-screen {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 440px;
+    overflow: hidden;
+}
+
+.map-screen .panel-head { flex: none; }
+
+.map-screen iframe {
+    flex: 1;
+    display: block;
+    width: 100%;
+    border: 0;
+    /* Fond posé sous l'iframe : évite un rectangle blanc pendant le chargement,
+       qui serait éblouissant en thème sombre. */
+    background: var(--panel-2);
+}
+
+/* Indication de manipulation, dans la barre du panneau. */
+.map-hint {
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--faint);
+}
+
+/* Lien de repli sous le cadre : sert aussi quand l'iframe est bloquée par une
+   extension ou une connexion filtrée. */
+.map-foot {
+    margin-top: 12px;
+    color: var(--faint);
+    font-size: 13px;
+    text-align: center;
+}
+.map-foot a { color: var(--accent); }
+
+@media (max-width: 900px) {
+    .map-page { padding-block: 20px 24px; }
+    .map-screen { min-height: 60vh; }
+    .map-hint { display: none; }   /* la barre est trop étroite pour la porter */
+}

@@ -79,6 +79,10 @@ class LanguageManager {
 
     translatePage() {
         const doTranslation = () => {
+            // Indique la langue réelle du contenu aux lecteurs d'écran et aux
+            // moteurs de recherche : elle change sans rechargement du document.
+            document.documentElement.lang = this.currentLanguage;
+
             document.querySelectorAll('[data-translate]').forEach(element => {
                 const key = element.getAttribute('data-translate');
                 const translation = this.translations[key];
@@ -109,6 +113,16 @@ class LanguageManager {
                 const translation = this.translations[key];
                 if (translation) {
                     element.alt = translation;
+                }
+            });
+
+            // Infobulles des boutons de la navbar (langue, thème).
+            document.querySelectorAll('[data-translate-title]').forEach(element => {
+                const key = element.getAttribute('data-translate-title');
+                const translation = this.translations[key];
+                if (translation) {
+                    element.title = translation;
+                    element.setAttribute('aria-label', translation);
                 }
             });
         };

@@ -1,20 +1,45 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="Type Chart">Type Chart</title>
+    <title data-translate="Type Chart">Table des Types</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="css/styles_main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_types.css">
     <link rel="stylesheet" href="css/styles_TypeChart.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="container">
-        <h1 data-translate="Type Chart">Type Chart</h1>
-        <div id="typeGrid" class="grid-container"></div>
-    </div>
+    <main class="chart-page wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_battle">Combat</div>
+            <h1 data-translate="Type Chart">Table des Types</h1>
+        </div>
+
+        <div class="frame ticks chart-screen">
+            <div class="chart-scroll">
+                <div id="typeChart"></div>
+            </div>
+        </div>
+
+        <div class="chart-legend">
+            <span class="legend-item legend-x2" data-mark="2" data-translate="eff_super">Super efficace</span>
+            <span class="legend-item legend-x05" data-mark="½" data-translate="eff_weak">Peu efficace</span>
+            <span class="legend-item legend-x0" data-mark="0" data-translate="eff_none">Aucun effet</span>
+            <span class="legend-item" data-mark="—" data-translate="eff_neutral">Neutre</span>
+        </div>
+    </main>
 
     <script src="js/PokemonUtils.js"></script>
     <script src="js/LanguageManager.js"></script>

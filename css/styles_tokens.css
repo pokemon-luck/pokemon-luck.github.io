@@ -1,0 +1,50 @@
+/* ============================================================================
+   JETONS DE DESIGN — Pokémon Luck
+   ----------------------------------------------------------------------------
+   Ce fichier ne contient QUE des variables : aucune règle ne cible d'élément.
+   Il peut donc être chargé par n'importe quelle page, y compris celles qui
+   n'ont pas encore été refondues, sans rien modifier de leur apparence.
+
+   Direction retenue : « Console » — angles droits, traits de 1 px,
+   le violet du logo porte toute l'interaction. Pas de vert décoratif.
+   ========================================================================= */
+
+:root {
+    /* --- Couleurs de marque, extraites du logo --- */
+    --violet:  #7c3aed;
+    --lavande: #c4a0f5;
+    --ciel:    #9bd4f0;
+    --ambre:   #d99a2b;
+
+    /* --- Thème clair (valeurs par défaut) --- */
+    --bg:        #f2f0f7;   /* fond de page */
+    --bg-grid:   rgba(42, 18, 89, .05);   /* trame de grille du fond */
+    --panel:     #ffffff;   /* surface des cadres */
+    --panel-2:   #eae6f4;   /* surface secondaire : en-têtes, pistes, écrans */
+    --line:      #26203a;   /* trait franc : bordure principale */
+    --line-soft: #cdc5df;   /* trait discret : séparateurs internes */
+    --text:      #1a1526;
+    --muted:     #5f5878;
+    --faint:     #8f88a6;
+    --accent:    #6d28d9;   /* violet lisible sur fond clair */
+    --scan:      rgba(38, 32, 58, .045);  /* trame de scanlines */
+
+    /* --- Mesures --- */
+    --nav-h:   64px;
+    --wrap:    1180px;
+    --gap:     16px;
+}
+
+:root[data-theme="dark"] {
+    --bg:        #0c0a14;
+    --bg-grid:   rgba(196, 160, 245, .045);
+    --panel:     #14111f;
+    --panel-2:   #1b1730;
+    --line:      #3a3358;
+    --line-soft: #262040;
+    --text:      #ece9f5;
+    --muted:     #a49cc0;
+    --faint:     #6f6790;
+    --accent:    #c4a0f5;   /* lavande, lisible sur fond sombre */
+    --scan:      rgba(255, 255, 255, .028);
+}

@@ -1,74 +1,151 @@
-/*
-Styles propres à la page d'accueil (index.html).
-Repris tels quels des anciens styles inline pour un rendu identique.
-Chargé APRÈS styles_main.css / styles_FullPokedex.css pour la cascade.
-*/
+/* ============================================================================
+   PAGE D'ACCUEIL (index.html)
+   À charger après styles_tokens.css, styles_base.css et styles_types.css.
+   ========================================================================= */
 
-.hub-hero {
-    height: 500px;
-    width: 100%;
-    background-image: linear-gradient(rgba(29, 28, 34, 0.7), rgba(29, 28, 34, 1)), url('../resources/LaemuMap.png');
-    background-size: cover;
-    background-position-y: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.hub-logo {
-    width: 500px;
-}
-
-/* S'ajoute à .container (partagé) sans écraser ses propriétés. */
-.hub-container {
-    text-align: justify;
-    width: 50%;
-    margin: auto;
-}
-
-.hub-container h1 {
+/* ------------------------------------------------------------------ HERO --
+   La carte de Læmu en fond, voilée puis fondue vers le fond de page, avec la
+   trame de scanlines par-dessus : l'entrée du site annonce l'univers du jeu.
+   -------------------------------------------------------------------------*/
+.hero {
+    position: relative;
+    overflow: hidden;
+    padding: 66px 20px 56px;
+    border-bottom: 1px solid var(--line);
     text-align: center;
 }
 
-.hub-card {
-    width: 100%;
-    border: 2px solid #24222a;
-    border-radius: 10px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.hub-card-header {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.hub-muted {
-    color: #8e99ab;
-}
-
-.hub-type-icon {
-    display: inline;
-    width: 100px;
-    height: 25px;
-}
-
-.hub-decay-icon {
-    display: inline;
-    width: 50px;
-    height: 20px;
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(color-mix(in srgb, var(--bg) 74%, transparent), var(--bg)),
+        url('../resources/LaemuMap.png') center / cover;
     image-rendering: pixelated;
 }
 
-.hub-map {
-    width: 100%;
-    border-radius: 10px;
-    opacity: 0.7;
+.hero > * { position: relative; z-index: 1; }
+
+.hero-logo { width: min(400px, 74vw); }
+
+.hero-title {
+    margin-top: 22px;
+    font-size: clamp(22px, 3.4vw, 30px);
+    font-weight: 800;
 }
 
-/* Override du .grid-container par défaut, uniquement sur l'accueil. */
-.hub-grid {
-    grid-template-columns: auto auto auto;
-    padding: 0px;
+/* Le synopsis, à même le header : colonne étroite pour rester confortable à
+   lire, et aligné à gauche — centré sur cinq lignes, un paragraphe devient
+   pénible à suivre, chaque ligne repartant d'un bord différent. */
+.hero-lore {
+    max-width: 62ch;
+    margin: 26px auto 0;
+    padding-left: 18px;
+    border-left: 3px solid var(--accent);
+    color: var(--muted);
+    font-size: 15.5px;
+    text-align: left;
+}
+
+/* -------------------------------------------------------------- CONTENUS --
+   Les nouveautés du jeu, une par panneau encadré.
+   -------------------------------------------------------------------------*/
+.feature-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: var(--gap);
+}
+
+/* Les deux blocs qui portent une image large occupent toute la largeur. */
+.feature-wide { grid-column: 1 / -1; }
+
+.feature .panel-head {
+    /* Le titre de la nouveauté prime sur le libellé courant d'en-tête : il est
+       en Archivo, pas en police pixel, et peut passer à la ligne. */
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 14.5px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--text);
+}
+
+.feature .panel-body { color: var(--muted); font-size: 14.5px; }
+
+.feature-badge { display: flex; align-items: center; gap: 8px; flex: none; }
+
+/* Icône d'état venue du jeu (Décomposition) : pixel art, jamais lissée. */
+.feature-icon {
+    height: 18px;
+    width: auto;
+    image-rendering: pixelated;
+}
+
+.feature-map {
+    display: block;
+    width: 100%;
+    margin-top: 14px;
+    border: 1px solid var(--line-soft);
+    image-rendering: pixelated;
+}
+
+/* La carte est très lumineuse : sur fond sombre elle éclipsait le reste du
+   panneau. Légèrement atténuée en thème sombre uniquement — en thème clair
+   elle s'accorde déjà à la page. */
+:root[data-theme="dark"] .feature-map { opacity: .82; }
+
+/* -------------------------------------------------------------- STARTERS --
+   Mêmes cartes que le Pokédex : numéro, écran à trame, nom, types.
+   -------------------------------------------------------------------------*/
+/* Alignées à gauche : centrées, elles ne se calaient pas sur le titre et le
+   texte de la section, qui commencent au bord gauche.
+
+   Le lien vers le Pokédex reprend exactement la même grille : occupant une
+   colonne, il fait la largeur d'une carte sans qu'aucune valeur soit répétée
+   d'un bloc à l'autre. */
+.starter-grid,
+.dex-link-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 240px));
+    justify-content: start;
+    gap: var(--gap);
+}
+
+.dex-link-row { margin-top: var(--gap); }
+
+/* Le bouton s'étire sur sa colonne ; son contenu reste centré. Retrait latéral
+   réduit : à la largeur d'une carte, le libellé et le compteur passeraient sur
+   deux lignes avec le retrait standard de .btn. */
+.dex-link {
+    justify-content: center;
+    padding-inline: 14px;
+    white-space: nowrap;
+}
+
+.dex-link-count {
+    padding: 3px 7px;
+    background: color-mix(in srgb, var(--accent) 18%, transparent);
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent);
+    color: var(--accent);
+    font-size: 10px;
+}
+
+/* Les styles de .poke-slot vivent dans css/styles_cards.css : la même carte
+   sert ici pour les starters et sur la page Pokédex. */
+
+.load-error {
+    padding: 20px;
+    color: var(--muted);
+    text-align: center;
+}
+
+@media (max-width: 700px) {
+    .hero { padding: 44px 18px 40px; }
+    .hero-lore { margin-top: 20px; padding-left: 14px; font-size: 15px; }
+    .feature-list { grid-template-columns: 1fr; }
+    .starter-grid { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+    /* Les cartes deviennent trop étroites pour le libellé du bouton : il passe
+       en pleine largeur plutôt que de s'aligner sur elles. */
+    .dex-link-row { grid-template-columns: 1fr; }
 }

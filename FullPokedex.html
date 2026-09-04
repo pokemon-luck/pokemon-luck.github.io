@@ -1,32 +1,52 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="Full Pokedex">Full Pokédex</title>
+    <title data-translate="Full Pokedex">Pokédex Complet</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="css/styles_main.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_types.css">
+    <link rel="stylesheet" href="css/styles_cards.css">
     <link rel="stylesheet" href="css/styles_FullPokedex.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="container">
-        <h1 data-translate="all_the_pokemons">Tous les Pokémon</h1>
+    <main class="dex-page wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_creatures">Le Pokédex</div>
+            <h1 data-translate="all_the_pokemons">Tous les Pokémon</h1>
+        </div>
 
-        <div class="type-filter-bar">
-            <div id="typeFilters" class="type-filters"></div>
-            <div class="type-filter-actions">
-                <button type="button" id="resetTypeFilters" class="type-filter-reset" data-translate="reset_filters" hidden>Tout afficher</button>
-                <span id="pokedexCount" class="pokedex-count"></span>
+        <div class="frame dex-toolbar">
+            <div class="dex-toolbar-row">
+                <span class="dex-toolbar-label" data-translate="filter_types">Types</span>
+                <div id="typeChips" class="type-chips"></div>
+
+                <div class="dex-summary">
+                    <p class="dex-count">
+                        <span class="count"><span id="dexVisible">—</span> / <span id="dexTotal">—</span></span>
+                        <span data-translate="dex_shown_short">affichés</span>
+                    </p>
+                    <button type="button" id="resetFilters" class="dex-reset" data-translate="reset_filters" hidden>Tout afficher</button>
+                </div>
             </div>
         </div>
 
-        <p id="noPokemonFound" class="no-results" data-translate="no_pokemon_found" hidden>Aucun Pokémon ne correspond à ces types.</p>
+        <p id="dexEmpty" class="dex-empty" data-translate="no_pokemon_found" hidden>Aucun Pokémon ne correspond à ces types.</p>
 
-        <div id="pokedexGrid" class="grid-container">
-            </div>
-    </div>
+        <div id="dexGrid" class="dex-grid"></div>
+    </main>
 
     <script src="js/PokemonUtils.js"></script>
     <script src="js/LanguageManager.js"></script>

@@ -1,240 +1,174 @@
+/* ============================================================================
+   PAGE POKÉDEX (FullPokedex.html)
+   À charger après styles_tokens.css, styles_base.css, styles_types.css
+   et styles_cards.css — les cartes sont partagées avec l'accueil.
+   ========================================================================= */
 
-/* Grid layout for Pokémon cards */
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+.dex-page { padding-block: 20px 40px; }
+
+
+/* ------------------------------------------------------------ BARRE DE FILTRES --
+   Collée sous la navigation : avec 256 cartes, on filtre souvent après avoir
+   déjà descendu la grille, et remonter chercher les boutons serait pénible.
+   -------------------------------------------------------------------------*/
+.dex-toolbar {
+    position: sticky;
+    top: var(--nav-h);
+    z-index: 20;
+    padding: 12px 14px;
+    margin-bottom: 20px;
+    background: color-mix(in srgb, var(--panel) 96%, transparent);
+    backdrop-filter: blur(8px);
 }
 
-/* Styles for individual Pokémon cards (boxes) */
-.pokemon-card {
-    background-color: #1d1c22;
-    border: 2px solid var(--type-color, #24222a); /* Default border color */
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
+.dex-toolbar-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.dex-toolbar-label {
+    flex: none;
+    padding-top: 6px;
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--faint);
+}
+
+.type-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    flex: 1;
+    min-width: 0;
+}
+
+/* Une puce par type. Inactive, elle reste sobre : c'est la sélection qui doit
+   sauter aux yeux, pas la palette complète. */
+.type-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 11px;
+    background: transparent;
+    border: 1px solid var(--line-soft);
+    color: var(--muted);
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
     cursor: pointer;
-    transition: border-color 0.3s ease; /* Transition only for border-color */
+    transition: color .15s, border-color .15s, background .15s;
+}
+.type-chip::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    flex: none;
+    background: var(--tc, var(--faint));
+}
+.type-chip:hover { color: var(--text); border-color: var(--line); }
+.type-chip[aria-pressed="true"] {
+    background: color-mix(in srgb, var(--tc) 18%, transparent);
+    border-color: var(--tc);
+    box-shadow: inset 0 0 0 1px var(--tc);
+    color: var(--text);
+}
+
+/* ------------------------------------------------------------------ ENCART --
+   Le compteur revient dans la barre collante, mais à droite des puces plutôt
+   qu'en rangée sous elles : il occupe la place que les puces laissent vide sur
+   leur dernière ligne, donc sans coûter de hauteur. Il redevient ainsi visible
+   en permanence, ce que le déplacer sur la ligne du titre avait fait perdre.
+
+   Sa largeur fixe donne aussi une largeur stable à la zone des puces, qui se
+   répartissent plus régulièrement d'une ligne à l'autre.
+   -------------------------------------------------------------------------*/
+.dex-summary {
+    flex: none;
+    align-self: stretch;
+    width: 178px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 180px;
-}
-
-.pokemon-card:hover {
-    border-color: var(--type-color-hover, #3a3843); /* Accent color for the hover border */
-    /* No box-shadow for a simple contour effect */
-}
-
-/* Masquage d'une carte filtrée : nécessaire car .pokemon-card impose
-   display:flex, qui l'emporte sur le display:none par défaut de [hidden]. */
-.pokemon-card[hidden] {
-    display: none;
-}
-
-.pokemon-sprite {
-    width: 96px;
-    height: 96px;
-    image-rendering: pixelated;
-    margin-bottom: 10px;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
-/*                                                             Couleurs des types                                                                       */
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* Source unique de vérité : chaque classe de type expose sa couleur normale et
-   sa couleur accentuée. Les cartes du Pokédex (bordure) et les boutons de
-   filtre (bordure + halo à l'état actif) consomment les mêmes variables. */
-
-.normal {
-    --type-color: #4b4743;
-    --type-color-hover: #9c958b;
-}
-.feu {
-    --type-color: #4d0f00;
-    --type-color-hover: #8a1b00;
-}
-.eau {
-    --type-color: #01354f;
-    --type-color-hover: #006191;
-}
-.electrique {
-    --type-color: #6b5818;
-    --type-color-hover: #ccab3f;
-}
-.plante {
-    --type-color: #023b11;
-    --type-color-hover: #026e1e;
-}
-.glace {
-    --type-color: #004a4f;
-    --type-color-hover: #008c96;
-}
-.combat {
-    --type-color: #520f2c;
-    --type-color-hover: #9c1a52;
-}
-.poison {
-    --type-color: #4e125c;
-    --type-color-hover: #8a18a3;
-}
-.sol {
-    --type-color: #402815;
-    --type-color-hover: #7a4a23;
-}
-.vol {
-    --type-color: #445463;
-    --type-color-hover: #7797b5;
-}
-.psy {
-    --type-color: #5e3340;
-    --type-color-hover: #ad5771;
-}
-.insecte {
-    --type-color: #314022;
-    --type-color-hover: #638542;
-}
-.roche {
-    --type-color: #423e36;
-    --type-color-hover: #786950;
-}
-.spectre {
-    --type-color: #2d2747;
-    --type-color-hover: #53488a;
-}
-.dragon {
-    --type-color: #28295c;
-    --type-color-hover: #4345a3;
-}
-.tenebres {
-    --type-color: #3a3843;
-    --type-color-hover: #534f61;
-}
-.acier {
-    --type-color: #405155;
-    --type-color-hover: #73959e;
-}
-.fee {
-    --type-color: #5a2657;
-    --type-color-hover: #b045a9;
-}
-.undead {
-    --type-color: #3a402e;
-    --type-color-hover: #728059;
-}
-.celestial {
-    --type-color: #635f47;
-    --type-color-hover: #d7c985;
-}
-
-.pokemon-name {
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #e0e0e0;
-    margin: 0;
-    text-transform: capitalize;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
-/*                                                             Filtres par type                                                                         */
-/* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-.type-filter-bar {
-    width: 100%;
-    max-width: 1200px;
-    margin: 10px auto 0;
-    padding: 0 20px;
-    box-sizing: border-box;
-}
-
-.type-filters {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-start;
     gap: 8px;
+    padding-left: 14px;
+    border-left: 1px solid var(--line-soft);
 }
 
-/* Un bouton = une icône de type. Inactif, il est désaturé pour que la
-   sélection courante ressorte immédiatement. */
-.type-filter {
-    padding: 0;
-    line-height: 0;
-    overflow: hidden;
-    background-color: #1d1c22;
-    border: 2px solid var(--type-color, #24222a);
-    border-radius: 8px;
+.dex-count { font-size: 12.5px; color: var(--muted); white-space: nowrap; }
+.dex-count .count {
+    font-family: 'Silkscreen', monospace;
+    font-size: 11px;
+    color: var(--text);
+}
+
+/* Un vrai bouton plutôt qu'un texte souligné : c'est une action, pas un lien,
+   et elle mérite une cible de clic franche. */
+.dex-reset {
+    padding: 7px 12px;
+    background: var(--panel-2);
+    border: 1px solid var(--line-soft);
+    color: var(--text);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9.5px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
     cursor: pointer;
-    opacity: 0.5;
-    filter: grayscale(0.85);
-    transition: border-color 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+    transition: border-color .15s, color .15s, background .15s;
+}
+.dex-reset:hover { border-color: var(--accent); color: var(--accent); }
+
+/* -------------------------------------------------------------------- GRILLE -- */
+.dex-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(152px, 1fr));
+    gap: 12px;
 }
 
-.type-filter img {
-    display: block;
-    width: 90px;
-    height: auto;
+/* .poke-slot impose display:flex, qui l'emporte sur le display:none par
+   défaut de [hidden] : il faut donc le rétablir explicitement. */
+.poke-slot[hidden] { display: none; }
+
+.dex-empty,
+.dex-error {
+    padding: 40px 20px;
+    color: var(--muted);
+    text-align: center;
 }
 
-.type-filter:hover {
-    border-color: var(--type-color-hover, #3a3843);
-    opacity: 1;
-    filter: none;
-}
+@media (max-width: 700px) {
+    .dex-page { padding-block: 16px 28px; }
+    .dex-toolbar { padding: 10px; }
+    .dex-toolbar-label { display: none; }   /* les puces se suffisent */
 
-.type-filter[aria-pressed="true"] {
-    border-color: var(--type-color-hover, #3a3843);
-    opacity: 1;
-    filter: none;
-    box-shadow: 0 0 8px var(--type-color-hover, #3a3843);
-}
-
-.type-filter:focus-visible {
-    outline: 2px solid #e0e0e0;
-    outline-offset: 2px;
-}
-
-.type-filter-actions {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 12px;
-}
-
-.type-filter-reset {
-    background-color: transparent;
-    border: 1px solid #3a3843;
-    border-radius: 20px;
-    color: #e0e0e0;
-    font-size: 0.95em;
-    padding: 6px 16px;
-    cursor: pointer;
-    transition: border-color 0.3s ease;
-}
-
-.type-filter-reset:hover {
-    border-color: #e0e0e0;
-}
-
-.pokedex-count {
-    color: #8e99ab;
-    font-weight: bold;
-    font-size: 0.95em;
-}
-
-.no-results {
-    color: #8e99ab;
-    margin: 30px 0 0;
-}
-
-@media (max-width: 600px) {
-    .type-filter img {
-        width: 70px;
+    /* Sur 20 types, les puces réparties sur cinq lignes mangeaient un tiers de
+       l'écran en permanence. Elles passent sur une seule ligne défilante :
+       la barre reste accessible pendant la consultation sans l'écraser. */
+    .type-chips {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 4px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--line-soft) transparent;
     }
+    .type-chip { flex: none; }
+
+    /* L'encart passe sous les puces, à plat : une colonne de 178 px prendrait
+       la moitié de la largeur sur un téléphone. */
+    .dex-summary {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 8px 0 0;
+        border-left: 0;
+        border-top: 1px solid var(--line-soft);
+    }
+
+    .dex-grid { grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 10px; }
 }

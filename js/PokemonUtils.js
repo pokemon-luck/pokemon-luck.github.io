@@ -31,6 +31,45 @@ Accessible aussi bien depuis les scripts classiques que depuis les modules ES6.
         return TYPE_FR[type.toLowerCase()] || type;
     }
 
+    // Types propres à Pokémon Luck : absents des tables officielles.
+    const TYPE_LABELS = {
+        undead:    { fr: 'Zombie', en: 'Undead' },
+        celestial: { fr: 'Céleste', en: 'Celestial' }
+    };
+
+    // Un type non renseigné vaut "__undef__" dans les données PSDK.
+    function hasType(type) {
+        return Boolean(type) && type !== '__undef__';
+    }
+
+    // Identifiant de classe CSS d'un type : sans accent, en minuscules.
+    // 'dark' -> 'tenebres', 'electric' -> 'electrique', 'undead' -> 'undead'.
+    // Correspond aux classes .t-* de css/styles_types.css.
+    function typeSlug(type) {
+        return removeAccents(translateTypeToFrench(type)).toLowerCase();
+    }
+
+    // Libellé affiché d'un type, dans la langue demandée.
+    function typeLabel(type, lang) {
+        const key = type.toLowerCase();
+        if (TYPE_LABELS[key]) {
+            return TYPE_LABELS[key][lang] || TYPE_LABELS[key].en;
+        }
+        const word = lang === 'fr' ? translateTypeToFrench(key) : key;
+        return word.charAt(0).toUpperCase() + word.slice(1);
+    }
+
+    // Construit la pastille d'un type, ou null s'il est absent : permet de
+    // mapper directement sur [type1, type2] puis de filtrer.
+    function createTypePill(type, lang) {
+        if (!hasType(type)) return null;
+
+        const pill = document.createElement('span');
+        pill.className = 'tp t-' + typeSlug(type);
+        pill.textContent = typeLabel(type, lang);
+        return pill;
+    }
+
     // Résout le code langue courant à partir du LanguageManager.
     // Reproduit exactement l'ancien comportement : un index hors de LANGUAGES
     // (ex. 'kana' -> 6, ou langue inconnue -> -1) retombe sur 'en'.
@@ -62,6 +101,10 @@ Accessible aussi bien depuis les scripts classiques que depuis les modules ES6.
         TYPE_FR,
         removeAccents,
         translateTypeToFrench,
+        hasType,
+        typeSlug,
+        typeLabel,
+        createTypePill,
         getLang,
         fetchJson
     };

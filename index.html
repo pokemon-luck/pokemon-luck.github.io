@@ -1,161 +1,119 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="page_title">Pokédex Hub</title>
+    <title data-translate="page_title">Pokémon Luck</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="css/styles_main.css">
-    <link rel="stylesheet" href="css/styles_FullPokedex.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_types.css">
+    <link rel="stylesheet" href="css/styles_cards.css">
     <link rel="stylesheet" href="css/styles_index.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="hub-hero">
-        <img alt="Pokémon Luck" src="resources/logo.png" class="hub-logo">
-    </div>
+    <header class="hero">
+        <img class="hero-logo" src="resources/logo.png" alt="Pokémon Luck">
+        <h1 class="hero-title" data-translate="welcome_message">Bienvenue dans Pokémon Luck</h1>
+        <p class="hero-lore" data-translate="hub_description"></p>
+    </header>
 
-    <div class="container hub-container">
-        <h1 data-translate="welcome_message"></h1>
-        <p data-translate="hub_description" class="hub-muted"></p>
-        <br>
-        <h1 data-translate="game_contents"></h1>
-        <div class="hub-card">
-            <h2 data-translate="fakemon"></h2>
-            <p data-translate="fakemon_description" class="hub-muted"></p>
+    <!-- --------------------------------------------------------- CONTENUS -->
+    <section class="section wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_game">Le jeu</div>
+            <h2 data-translate="game_contents">Contenu du jeu</h2>
         </div>
-        <div class="hub-card">
-            <div class="hub-card-header">
-                <h2 data-translate="undead_type"></h2>
-                <img id="undead_icon" class="hub-type-icon" src="resources/icons/types/undead_fr.png"/>
-            </div>
-            <p data-translate="undead_type_description" class="hub-muted"></p>
+
+        <div class="feature-list">
+            <article class="frame feature">
+                <div class="panel-head"><span data-translate="fakemon">Fakémon</span></div>
+                <div class="panel-body"><p data-translate="fakemon_description"></p></div>
+            </article>
+
+            <article class="frame feature">
+                <div class="panel-head">
+                    <span data-translate="undead_type">Nouveau type : Zombie</span>
+                    <span class="feature-badge"><span class="tp t-undead" data-translate="type_undead">Zombie</span></span>
+                </div>
+                <div class="panel-body"><p data-translate="undead_type_description"></p></div>
+            </article>
+
+            <article class="frame feature">
+                <div class="panel-head">
+                    <span data-translate="celestial_type">Nouveau type : Céleste</span>
+                    <span class="feature-badge"><span class="tp t-celestial" data-translate="type_celestial">Céleste</span></span>
+                </div>
+                <div class="panel-body"><p data-translate="celestial_type_description"></p></div>
+            </article>
+
+            <article class="frame feature">
+                <div class="panel-head">
+                    <span data-translate="decay">Décomposition</span>
+                    <span class="feature-badge"><img id="decay-icon" class="feature-icon" src="resources/icons/decay_fr.png" alt=""></span>
+                </div>
+                <div class="panel-body"><p data-translate="decay_description"></p></div>
+            </article>
+
+            <article class="frame feature">
+                <div class="panel-head"><span data-translate="blessed_terrain">Terrain Béni</span></div>
+                <div class="panel-body"><p data-translate="blessed_terrain_description"></p></div>
+            </article>
+
+            <article class="frame feature">
+                <div class="panel-head"><span data-translate="scaling">Scaling de niveaux</span></div>
+                <div class="panel-body"><p data-translate="scaling_description"></p></div>
+            </article>
+
+            <article class="frame feature feature-wide">
+                <div class="panel-head"><span data-translate="open_world">Une région totalement ouverte</span></div>
+                <div class="panel-body">
+                    <p data-translate="open_world_description"></p>
+                    <img class="feature-map" src="resources/LaemuMap.png" alt="" loading="lazy">
+                </div>
+            </article>
         </div>
-        <div class="hub-card">
-            <div class="hub-card-header">
-                <h2 data-translate="celestial_type"></h2>
-                <img id="celestial_icon" class="hub-type-icon" src="resources/icons/types/celestial_fr.png"/>
-            </div>
-            <p data-translate="celestial_type_description" class="hub-muted"></p>
+    </section>
+
+    <!-- --------------------------------------------------------- STARTERS -->
+    <section class="section wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_team">Votre équipe</div>
+            <h2 data-translate="starters">Les Starters</h2>
+            <p data-translate="starters_description"></p>
         </div>
-        <div class="hub-card">
-            <div class="hub-card-header">
-                <h2 data-translate="decay"></h2>
-                <img id="decay_icon" class="hub-decay-icon" src="resources/icons/decay_fr.png"/>
-            </div>
-            <p data-translate="decay_description" class="hub-muted"></p>
+        <div id="starterGrid" class="starter-grid">
+            <p class="load-error" data-translate="loading">Chargement…</p>
         </div>
-        <div class="hub-card">
-            <div class="hub-card-header">
-                <h2 data-translate="blessed_terrain"></h2>
-            </div>
-            <p data-translate="blessed_terrain_description" class="hub-muted"></p>
+
+        <!-- Le compteur est rempli par Home.js depuis national.json : le libellé
+             et le nombre restent séparés pour être justes dans les deux langues. -->
+        <div class="dex-link-row">
+            <a class="btn dex-link" href="FullPokedex.html">
+                <span data-translate="see_full_dex">Pokédex complet</span>
+                <span class="dex-link-count" id="dexCount">—</span>
+            </a>
         </div>
-        <div class="hub-card">
-            <h2 data-translate="open_world"></h2>
-            <p data-translate="open_world_description" class="hub-muted"></p>
-            <img src="resources/LaemuMap.png" class="hub-map">
-        </div>
-        <div class="hub-card">
-            <h2 data-translate="scaling"></h2>
-            <p data-translate="scaling_description" class="hub-muted"></p>
-        </div>
-        <br>
-        <h1 data-translate="starters"></h1>
-        <p data-translate="starters_description" class="hub-muted"></p>
-        <div id="pokedexGrid" class="grid-container hub-grid"></div>
-    </div>
+    </section>
+
+    <footer class="site-footer wrap">
+        <span data-translate="footer_note">Wiki communautaire de Pokémon Luck</span> ·
+        <a href="https://github.com/fuyutaaProjects" target="_blank" rel="noopener">@fuyutaaProjects</a>
+    </footer>
 
     <script src="js/PokemonUtils.js"></script>
     <script src="js/LanguageManager.js"></script>
     <script src="js/LoadNavbar.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const lang = PokemonUtils.getLang(languageManager);
-
-            const undeadIcon = document.getElementById('undead_icon');
-            undeadIcon.src = `resources/icons/types/undead_${lang}.png`
-
-            const decayIcon = document.getElementById('decay_icon');
-            decayIcon.src = `resources/icons/decay_${lang}.png`
-            
-            const pokedexGrid = document.getElementById('pokedexGrid');
-
-            // Toutes les données nécessaires (nom + types) sont dans national.json :
-            // pas besoin de charger une fiche consolidée par starter.
-            const starterSymbols = ['marmousse', 'tremplume', 'cramin'];
-
-            PokemonUtils.fetchJson('data/national.json')
-                .then(data => {
-                    const bySymbol = new Map(data.creatures.map(c => [c.dbSymbol, c]));
-                    const fragment = document.createDocumentFragment();
-
-                    starterSymbols.forEach(symbol => {
-                        const creature = bySymbol.get(symbol);
-                        if (!creature) return;
-
-                        const pokemonCard = document.createElement('div');
-                        pokemonCard.classList.add('pokemon-card');
-
-                        const pokemonSprite = document.createElement('img');
-                        pokemonSprite.src = `data/pokefront/${symbol}.png`;
-                        pokemonSprite.alt = symbol;
-                        pokemonSprite.classList.add('pokemon-sprite');
-                        pokemonSprite.loading = 'lazy';
-                        pokemonSprite.decoding = 'async';
-
-                        const pokemonName = document.createElement('p');
-                        pokemonName.textContent = creature.names[lang];
-                        pokemonName.classList.add('pokemon-name');
-
-                        pokemonCard.appendChild(pokemonSprite);
-                        pokemonCard.appendChild(pokemonName);
-                        pokemonCard.appendChild(document.createElement('br'));
-
-                        const type1French = creature.type1
-                            ? PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(creature.type1))
-                            : null;
-                        const type2French = creature.type2 && creature.type2 !== "__undef__"
-                            ? PokemonUtils.removeAccents(PokemonUtils.translateTypeToFrench(creature.type2))
-                            : null;
-
-                        if (type1French) {
-                            pokemonCard.classList.add(type1French);
-
-                            const typesDiv = document.createElement('div');
-                            typesDiv.style.cssText = 'display:flex;justify-content:center;gap:10px;';
-
-                            const type1Image = document.createElement('img');
-                            type1Image.src = `resources/icons/types/${type1French}.png`;
-                            type1Image.style.cssText = 'width:50px;';
-                            typesDiv.appendChild(type1Image);
-
-                            if (type2French) {
-                                const type2Image = document.createElement('img');
-                                type2Image.src = `resources/icons/types/${type2French}.png`;
-                                type2Image.style.cssText = 'width:50px;';
-                                typesDiv.appendChild(type2Image);
-                            }
-
-                            pokemonCard.appendChild(typesDiv);
-                        }
-
-                        // Make the card clickable
-                        pokemonCard.addEventListener('click', () => {
-                            window.location.href = `PokemonSearch.html?pokemon=${symbol}`;
-                        });
-
-                        fragment.appendChild(pokemonCard);
-                    });
-
-                    pokedexGrid.appendChild(fragment);
-                })
-                .catch(error => {
-                    console.error('Error loading full Pokédex:', error);
-                    pokedexGrid.innerHTML = '<p>Failed to load Pokémon data. Please try again later.</p>';
-                });
-        });
-    </script>
+    <script src="js/Home.js"></script>
 </body>
 </html>

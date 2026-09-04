@@ -1,0 +1,73 @@
+/* Barre de navigation entre les 3 propositions — uniquement pour la démo,
+   elle ne fait pas partie des designs proposés. */
+.demo-switcher {
+    position: fixed;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 8px;
+    border-radius: 999px;
+    background: rgba(12, 8, 22, .92);
+    border: 1px solid rgba(255, 255, 255, .14);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, .5);
+    font: 600 12px/1 system-ui, sans-serif;
+    backdrop-filter: blur(12px);
+}
+
+.demo-switcher span {
+    color: #8a8496;
+    padding: 0 8px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.demo-switcher a {
+    color: #e8e4f0;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 999px;
+    transition: background .2s, color .2s;
+    white-space: nowrap;
+}
+
+.demo-switcher a:hover {
+    background: rgba(255, 255, 255, .1);
+}
+
+.demo-switcher a[aria-current="page"] {
+    background: linear-gradient(135deg, #7c3aed, #5cbf4a);
+    color: #fff;
+}
+
+/* Interrupteur de comparaison, présent uniquement sur les maquettes à menu
+   horizontal (Nébuleuse, Console). */
+.demo-switcher .demo-opt {
+    margin-left: 6px;
+    padding: 8px 13px;
+    border-radius: 999px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .18);
+    color: #b9b3c6;
+    font: 600 11px/1 system-ui, sans-serif;
+    transition: background .2s, color .2s, border-color .2s;
+}
+
+.demo-switcher .demo-opt:hover { border-color: rgba(255, 255, 255, .34); color: #fff; }
+
+.demo-switcher .demo-opt[aria-pressed="true"] {
+    background: rgba(255, 255, 255, .14);
+    border-color: rgba(255, 255, 255, .3);
+    color: #fff;
+}
+
+@media (max-width: 700px) {
+    .demo-switcher { font-size: 11px; }
+    .demo-switcher a { padding: 7px 10px; }
+    .demo-switcher span { display: none; }
+}

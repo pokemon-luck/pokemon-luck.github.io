@@ -1,25 +1,56 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="World Map">World Map</title>
+    <title data-translate="World Map">Carte du Monde</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="css/styles_main.css"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_map.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="container">
-        <h1 data-translate="World Map">World Map</h1>
-        <iframe
-            id="map"
-            width="100%"
-            height="100%"
-            src="https://www.legendkeeper.com/app/cm5qwycip1dzi13seft2o8j9n/jkk6cnxb"
-            style="min-height: 80vh;"
-        ></iframe>
-    </div>
+    <main class="map-page map-wrap">
+        <div class="map-head">
+            <div class="sec-head">
+                <div class="sec-tag" data-translate="tag_world">Le monde</div>
+                <h1 data-translate="World Map">Carte du Monde</h1>
+            </div>
+
+            <a class="btn"
+               href="https://www.legendkeeper.com/app/cm5qwycip1dzi13seft2o8j9n/jkk6cnxb"
+               target="_blank" rel="noopener"
+               data-translate="map_new_tab">Ouvrir en plein écran</a>
+        </div>
+
+        <div class="frame ticks map-screen">
+            <div class="panel-head">
+                <span data-translate="map_panel">Carte de Læmu</span>
+                <span class="map-hint" data-translate="map_hint">Clique et fais glisser pour te déplacer, la molette pour zoomer.</span>
+            </div>
+            <iframe
+                id="map"
+                src="https://www.legendkeeper.com/app/cm5qwycip1dzi13seft2o8j9n/jkk6cnxb"
+                title="Carte interactive de Læmu"
+                data-translate-title="World Map"
+                allowfullscreen></iframe>
+        </div>
+
+        <p class="map-foot">
+            <span data-translate="map_fallback">La carte ne s'affiche pas ? Ouvre-la directement chez LegendKeeper.</span>
+            <a href="https://www.legendkeeper.com/app/cm5qwycip1dzi13seft2o8j9n/jkk6cnxb" target="_blank" rel="noopener">legendkeeper.com</a>
+        </p>
+    </main>
 
     <script src="js/LanguageManager.js"></script>
     <script src="js/LoadNavbar.js"></script>

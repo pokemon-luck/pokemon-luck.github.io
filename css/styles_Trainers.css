@@ -1,0 +1,87 @@
+/* ============================================================================
+   PAGE DRESSEURS (Trainers.html)
+   À charger après styles_tokens.css et styles_base.css.
+
+   Les dresseurs sont regroupés par équipe : c'est la structure des données
+   (le champ `description` de trainers.json porte l'affiliation), et c'est
+   l'information qu'on cherche en premier devant un sbire.
+   ========================================================================= */
+
+.trainers-page { padding-block: 20px 32px; }
+
+/* Bandeau d'avertissement : la page est un chantier assumé, autant le dire. */
+.trainers-note {
+    margin-bottom: 20px;
+    padding: 12px 16px;
+    background: var(--panel);
+    border: 1px solid var(--line-soft);
+    border-left: 3px solid var(--accent);
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* --------------------------------------------------------------- ÉQUIPES -- */
+.team-list { display: grid; gap: var(--gap); }
+
+.team .panel-head {
+    /* Le nom d'équipe prime sur le libellé courant d'en-tête. */
+    font-family: 'Archivo', system-ui, sans-serif;
+    font-size: 14.5px;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--text);
+}
+.team .panel-head .count {
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .08em;
+    color: var(--faint);
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 180px));
+    justify-content: start;
+    gap: var(--gap);
+    padding: var(--gap);
+}
+
+/* -------------------------------------------------------------- DRESSEUR -- */
+.trainer-card {
+    display: flex;
+    flex-direction: column;
+    background: var(--panel);
+    border: 1px solid var(--line-soft);
+    transition: border-color .15s, transform .15s;
+}
+.trainer-card:hover { border-color: var(--line); transform: translateY(-2px); }
+
+.trainer-stage {
+    display: grid;
+    place-items: center;
+    padding: 10px 0 4px;
+    background:
+        linear-gradient(var(--bg-grid) 1px, transparent 1px) 0 0 / 100% 8px,
+        linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px) 0 0 / 8px 100%;
+}
+.trainer-stage img {
+    width: 120px;
+    height: 120px;
+    image-rendering: pixelated;
+}
+
+.trainer-name {
+    padding: 8px 10px 12px;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.trainers-error { padding: 24px; color: var(--muted); text-align: center; }
+
+@media (max-width: 700px) {
+    .trainers-page { padding-block: 16px 24px; }
+    .team-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
+    .trainer-stage img { width: 96px; height: 96px; }
+}

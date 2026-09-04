@@ -1,20 +1,36 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" data-themable>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-translate="Trainers">Trainers</title>
+    <title data-translate="Trainers">Dresseurs</title>
     <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
-    <link rel="stylesheet" href="css/styles_main.css"> 
-    <link rel="stylesheet" href="css/styles_FullPokedex.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles_tokens.css">
+    <link rel="stylesheet" href="css/styles_base.css">
+    <link rel="stylesheet" href="css/styles_Trainers.css">
+
+    <!-- Bloquant volontairement : le thème doit être posé avant le premier rendu. -->
+    <script src="js/ThemeManager.js"></script>
 </head>
 <body>
     <div id="navbar-placeholder"></div>
 
-    <div class="container">
-        <h1 data-translate="Trainers">Trainers</h1>
-        <div id="pokedexGrid" class="grid-container"></div>
-    </div>
+    <main class="trainers-page wrap">
+        <div class="sec-head">
+            <div class="sec-tag" data-translate="tag_people">Les personnages</div>
+            <h1 data-translate="Trainers">Dresseurs</h1>
+            <p><span id="trainerCount">—</span> <span data-translate="trainers_count">dresseurs répertoriés</span></p>
+        </div>
+
+        <p class="trainers-note" data-translate="trainers_wip">Cette page se remplit au fil du développement : seuls les sbires des deux équipes y figurent pour l'instant.</p>
+
+        <div id="teamList" class="team-list"></div>
+    </main>
 
     <script src="js/PokemonUtils.js"></script>
     <script src="js/LanguageManager.js"></script>

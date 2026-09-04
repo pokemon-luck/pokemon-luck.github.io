@@ -1,87 +1,131 @@
-.navbar {
-    background-color: #28242c;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+/* ============================================================================
+   BARRE DE NAVIGATION
+   ----------------------------------------------------------------------------
+   Chargée par Navbar.html lui-même, avec styles_tokens.css : la barre s'affiche
+   donc correctement sur toutes les pages, y compris celles pas encore refondues.
+   Elle ne dépend que des variables, jamais du socle styles_base.css.
+   ========================================================================= */
+
+/* C'est le conteneur d'injection qui est collant, pas la barre elle-même.
+   Un `position: sticky` sur .navbar serait enfermé dans ce conteneur, qui fait
+   exactement la hauteur de la barre : elle disparaîtrait au premier pixel de
+   défilement. Le conteneur, lui, a tout le corps de page pour se caler. */
+#navbar-placeholder {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-.navbar-brand a {
-    color: #e0e0e0;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: bold;
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    height: var(--nav-h);
+    padding: 0 20px;
+    background: color-mix(in srgb, var(--panel) 92%, transparent);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--line);
+    font-family: 'Archivo', system-ui, sans-serif;
 }
+
+/* flex: none — sans quoi la barre écrase le logo en largeur quand la place
+   manque, et le logo se déforme au lieu de garder ses proportions. */
+.navbar-brand { display: flex; align-items: center; flex: none; }
+
+/* Le logo occupe presque toute la hauteur de barre : la marge disponible
+   était bien plus grande que nécessaire. */
+.navbar-logo { height: 44px; width: auto; max-width: none; display: block; }
 
 .navbar-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    align-items: center; /* Aligner tous les éléments verticalement */
-}
-
-.navbar-links li {
-    margin-left: 20px;
+    gap: 2px;
+    margin: 0 0 0 auto;
+    padding: 0;
+    list-style: none;
 }
 
 .navbar-links a {
-    color: #e0e0e0;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.navbar-links a:hover {
-    background-color: #3a3843;
-}
-
-/* Styles pour les boutons de langue - contraintes sur le conteneur */
-.navbar-links button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 4px;
-    margin-left: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    /* Contraindre STRICTEMENT la taille du bouton */
-    width: 32px !important;
-    height: 24px !important;
-    overflow: hidden !important; /* CRUCIAL: couper tout ce qui dépasse */
-    flex-shrink: 0 !important;
+    gap: 7px;
+    padding: 8px 14px;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    font-family: 'Silkscreen', monospace;
+    font-size: 11px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color .15s, border-color .15s, background .15s;
+}
+.navbar-links a:hover { color: var(--text); background: var(--panel-2); }
+.navbar-links a[aria-current="page"] { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* shape-rendering: crispEdges coupe l'antialiasing : les traits restent durs
+   et s'accordent à la police pixel au lieu de paraître lissés à côté d'elle. */
+.navbar-links a svg {
+    width: 13px;
+    height: 13px;
+    flex: none;
+    shape-rendering: crispEdges;
 }
 
-.navbar-links button:hover {
-    background-color: #3a3843;
+.navbar-tools {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 16px;
+    border-left: 1px solid var(--line-soft);
 }
 
-/* Styles pour les flags - version "nucléaire" */
-.navbar-links button .language-flag {
-    width: 24px !important;
-    height: 16px !important;
-    max-width: 24px !important;
-    max-height: 16px !important;
-    min-width: 24px !important;
-    min-height: 16px !important;
-    object-fit: cover !important;
-    border-radius: 2px;
-    border: 1px solid #555;
-    display: block !important;
-    transform: scale(1) !important;
-    box-sizing: border-box !important;
-    /* Solution ultime si rien ne marche */
-    position: relative !important;
-    top: 0 !important;
-    left: 0 !important;
+.navbar-btn {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 30px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--line-soft);
+    color: var(--muted);
+    cursor: pointer;
+    transition: border-color .15s, color .15s, background .15s;
+}
+.navbar-btn:hover { border-color: var(--line); color: var(--text); background: var(--panel-2); }
+.navbar-btn.active { border-color: var(--accent); color: var(--accent); }
+
+.navbar-btn img {
+    width: 18px;
+    height: 12px;
+    display: block;
+    object-fit: cover;
+    image-rendering: pixelated;
+}
+.navbar-btn svg { width: 15px; height: 15px; }
+
+/* Icône du bouton de thème : soleil en clair, lune en sombre. */
+:root[data-theme="dark"] .icon-sun,
+:root:not([data-theme="dark"]) .icon-moon { display: none; }
+
+/* Tant qu'une page n'est pas refondue, elle reste en sombre et ne propose pas
+   la bascule de thème : le reste de sa mise en page ne la supporte pas encore.
+   À supprimer une fois toutes les pages reprises. */
+:root:not([data-themable]) .theme-toggle { display: none; }
+
+@media (max-width: 900px) {
+    .navbar { gap: 12px; padding: 0 12px; }
+    .navbar-logo { height: 36px; }
+    .navbar-links a { padding: 8px 9px; font-size: 10px; }
+    .navbar-links a span { display: none; }   /* icône seule, le texte déborderait */
+    .navbar-links a svg { width: 16px; height: 16px; }
 }
 
-.navbar-links button:hover .language-flag {
-    opacity: 0.8;
+/* Petits téléphones : tout doit tenir sur une ligne sans défilement latéral. */
+@media (max-width: 480px) {
+    .navbar { gap: 8px; padding: 0 8px; }
+    .navbar-logo { height: 30px; }
+    .navbar-links a { padding: 8px 6px; }
+    .navbar-tools { gap: 4px; padding-left: 8px; }
+    .navbar-btn { width: 28px; height: 28px; }
+    .navbar-btn img { width: 16px; height: 11px; }
+    .navbar-btn svg { width: 14px; height: 14px; }
 }

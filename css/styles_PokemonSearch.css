@@ -1,0 +1,429 @@
+/* ============================================================================
+   FICHE POKÉMON (PokemonSearch.html)
+   À charger après styles_tokens.css, styles_base.css et styles_types.css.
+
+   Colonne d'identité fixe à gauche — sprite, nom, types, fiche technique —
+   pendant que les données défilent à droite. C'est le motif emprunté à la
+   maquette « Codex », retenu par la communauté.
+   ========================================================================= */
+
+.pk-page { padding-block: 18px 40px; }
+
+/* ------------------------------------------------------------- RECHERCHE -- */
+.pk-search {
+    position: relative;
+    max-width: 520px;
+    margin-bottom: 22px;
+}
+
+.pk-search-field { display: flex; align-items: stretch; }
+
+.pk-search-field .lbl {
+    display: grid;
+    place-items: center;
+    padding: 0 12px;
+    background: var(--panel-2);
+    border: 1px solid var(--line);
+    border-right: 0;
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .1em;
+    color: var(--faint);
+}
+
+.pk-search-field input {
+    flex: 1;
+    min-width: 0;
+    height: 44px;
+    padding: 0 14px;
+    background: var(--panel);
+    border: 1px solid var(--line);
+    color: var(--text);
+    font: 500 15px 'Archivo', system-ui, sans-serif;
+    outline: none;
+}
+.pk-search-field input::placeholder { color: var(--faint); }
+.pk-search-field input:focus { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+
+.pk-suggestions {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    margin: -1px 0 0;
+    padding: 0;
+    list-style: none;
+    background: var(--panel);
+    border: 1px solid var(--line);
+}
+.pk-suggestions li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    border-bottom: 1px solid var(--line-soft);
+    cursor: pointer;
+    font-size: 14.5px;
+}
+.pk-suggestions li:last-child { border-bottom: 0; }
+.pk-suggestions li:hover,
+.pk-suggestions li.on { background: var(--panel-2); box-shadow: inset 3px 0 0 var(--accent); }
+.pk-suggestions img { width: 32px; height: 32px; image-rendering: pixelated; }
+.pk-suggestions .no {
+    margin-left: auto;
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    color: var(--faint);
+}
+
+/* --------------------------------------------------- PRÉCÉDENT / SUIVANT -- */
+.pk-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+.pk-nav a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 14px;
+    background: var(--panel);
+    border: 1px solid var(--line-soft);
+    color: var(--muted);
+    text-decoration: none;
+    transition: border-color .15s, color .15s;
+}
+.pk-nav a:hover { border-color: var(--line); color: var(--text); }
+.pk-nav img { width: 34px; height: 34px; image-rendering: pixelated; }
+.pk-nav .txt { display: grid; line-height: 1.25; }
+.pk-nav .no { font-family: 'Silkscreen', monospace; font-size: 9.5px; color: var(--faint); }
+.pk-nav .n2 { font-size: 14px; font-weight: 600; color: var(--text); }
+.pk-nav .arw { font-family: 'Silkscreen', monospace; font-size: 12px; color: var(--accent); }
+
+/* ------------------------------------------------------------- STRUCTURE -- */
+/* minmax(0, 1fr) et non 1fr : une piste de grille se dimensionne par défaut
+   sur le contenu le plus large, ici le tableau des capacités. Sans le minimum
+   à zéro, la colonne s'élargit au lieu de laisser le tableau défiler, et
+   toute la page déborde horizontalement. */
+.pk-layout {
+    display: grid;
+    grid-template-columns: 300px minmax(0, 1fr);
+    gap: 18px;
+    align-items: start;
+}
+
+/* Colonne fixe pendant que la droite défile. Le max-height évite qu'une carte
+   plus haute que l'écran devienne impossible à consulter : passé cette limite,
+   la colonne défile sur elle-même. */
+.pk-aside {
+    position: sticky;
+    top: calc(var(--nav-h) + 16px);
+    display: grid;
+    gap: 14px;
+    max-height: calc(100vh - var(--nav-h) - 32px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) transparent;
+}
+.pk-aside::-webkit-scrollbar { width: 6px; }
+.pk-aside::-webkit-scrollbar-thumb { background: var(--line); }
+
+.pk-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+}
+
+.pk-cols {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(268px, 100%), 1fr));
+    gap: 16px;
+}
+
+/* ------------------------------------------------------------------ ÉCRAN -- */
+.pk-view {
+    position: relative;
+    aspect-ratio: 5 / 4;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    background:
+        radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--tc, var(--accent)) 22%, transparent), transparent 62%),
+        linear-gradient(var(--bg-grid) 1px, transparent 1px) 0 0 / 100% 16px,
+        linear-gradient(90deg, var(--bg-grid) 1px, transparent 1px) 0 0 / 16px 100%,
+        var(--panel-2);
+}
+.pk-view::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom, var(--scan) 0 1px, transparent 1px 3px);
+    pointer-events: none;
+}
+/* Contraint sur les deux axes : le sprite occupe le cadre sans le déborder,
+   qu'il soit carré ou plus large que haut. */
+.pk-view img {
+    position: relative;
+    z-index: 1;
+    max-width: 76%;
+    max-height: 84%;
+    width: auto;
+    image-rendering: pixelated;
+}
+.pk-view .osd {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 2;
+    font-family: 'Silkscreen', monospace;
+    font-size: 9.5px;
+    color: var(--muted);
+}
+
+.pk-sprite-toggle { display: flex; border-top: 1px solid var(--line); }
+.pk-sprite-toggle button {
+    flex: 1;
+    padding: 9px 0;
+    background: var(--panel);
+    border: 0;
+    border-right: 1px solid var(--line-soft);
+    color: var(--muted);
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .06em;
+    cursor: pointer;
+    transition: background .15s, color .15s;
+}
+.pk-sprite-toggle button:last-child { border-right: 0; }
+.pk-sprite-toggle button:hover { color: var(--text); }
+.pk-sprite-toggle button.on { background: var(--violet); color: #fff; }
+
+/* --------------------------------------------------------------- IDENTITÉ -- */
+.pk-id { padding: 16px 18px; }
+.pk-id .line1 { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.pk-id .dexno {
+    padding: 3px 9px;
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    font-family: 'Silkscreen', monospace;
+    font-size: 12px;
+}
+/* Le nom doit tenir dans 300 px : il se réduit pour les noms longs plutôt que
+   de déborder. */
+.pk-id h1 { font-size: clamp(26px, 2.4vw, 34px); font-weight: 800; }
+.pk-id .alt { margin-top: 4px; font-size: 13px; color: var(--faint); }
+.pk-id .alt code { font-family: 'Silkscreen', monospace; font-size: 11px; }
+.pk-id .types { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
+.pk-id .types .tp { padding: 6px 12px; font-size: 11px; }
+
+/* ------------------------------------------- FICHE À POINTS DE CONDUITE -- */
+.pk-spec { display: grid; }
+.pk-spec .r { display: flex; align-items: baseline; gap: 8px; padding: 5px 0; font-size: 13.5px; }
+.pk-spec .r + .r { border-top: 1px solid var(--line-soft); }
+.pk-spec .k { color: var(--muted); }
+.pk-spec .lead { flex: 1; border-bottom: 1px dotted var(--line-soft); transform: translateY(-3px); }
+.pk-spec .v {
+    font-family: 'Silkscreen', monospace;
+    font-size: 12px;
+    color: var(--text);
+    text-align: right;
+}
+.pk-spec .v.txt { font-family: 'Archivo', sans-serif; font-size: 13.5px; font-weight: 600; }
+
+/* ------------------------------------------------------------ DESCRIPTION -- */
+.pk-flavor {
+    padding: 14px 16px;
+    background: var(--panel);
+    border: 1px solid var(--line-soft);
+    border-left: 3px solid var(--tc, var(--accent));
+    color: var(--muted);
+    font-size: 14.5px;
+    font-style: italic;
+}
+
+/* ---------------------------------------------------------- STATISTIQUES -- */
+.pk-stat {
+    display: grid;
+    grid-template-columns: 96px 40px 1fr;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 0;
+}
+.pk-stat + .pk-stat { border-top: 1px solid var(--line-soft); }
+.pk-stat .k { font-size: 13px; color: var(--muted); }
+.pk-stat .v { font-family: 'Silkscreen', monospace; font-size: 12px; text-align: right; }
+.pk-stat .bar { height: 8px; background: var(--panel-2); }
+.pk-stat .bar i { display: block; height: 100%; }
+
+.pk-stat-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding: 9px 12px;
+    background: var(--panel-2);
+    border: 1px solid var(--line-soft);
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .08em;
+    color: var(--muted);
+}
+.pk-stat-total b { font-size: 17px; color: var(--text); }
+
+/* ----------------------------------------------------------------- TALENTS -- */
+.pk-ability { padding: 11px 0; }
+.pk-ability:first-child { padding-top: 0; }
+.pk-ability:last-child { padding-bottom: 0; }
+.pk-ability + .pk-ability { border-top: 1px solid var(--line-soft); }
+.pk-ability h3 { display: flex; align-items: center; gap: 9px; font-size: 15.5px; }
+.pk-ability p { margin-top: 5px; font-size: 13.5px; color: var(--muted); }
+
+.tagx {
+    padding: 2px 7px;
+    border: 1px solid var(--line-soft);
+    color: var(--faint);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+.tagx.hid { border-color: var(--accent); color: var(--accent); }
+
+/* -------------------------------------------------------------- ÉVOLUTIONS --
+   Chaîne horizontale : la lignée se lit de gauche à droite comme une frise,
+   séparateurs et conditions entre les paliers. Elle défile latéralement si
+   elle est trop longue, plutôt que de casser l'alignement des paliers.
+   -------------------------------------------------------------------------*/
+.pk-evo-chain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    min-width: 0;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-soft) transparent;
+}
+
+/* Un palier = une colonne : les évolutions ramifiées s'empilent verticalement. */
+.pk-evo-stage {
+    display: grid;
+    gap: 6px;
+    flex: none;
+}
+
+/* Sauf quand elles sont nombreuses — Grimelin en compte dix, une par plaque :
+   la colonne devient alors une grille, et le palier reste consultable. */
+.pk-evo-stage[data-branches="many"] {
+    grid-template-columns: repeat(auto-fit, minmax(116px, 1fr));
+    max-width: 600px;
+}
+.pk-evo-stage[data-branches="many"] .pk-evo-node { padding: 8px 6px; }
+.pk-evo-stage[data-branches="many"] img { width: 64px; height: 64px; }
+.pk-evo-stage[data-branches="many"] .nm { font-size: 13px; }
+
+.pk-evo-node {
+    display: grid;
+    justify-items: center;
+    gap: 1px;
+    padding: 10px 14px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: inherit;
+    transition: background .15s, border-color .15s;
+}
+.pk-evo-node:hover { background: var(--panel-2); border-color: var(--line-soft); }
+
+/* Le Pokémon consulté : encadré, pour se repérer dans sa propre lignée. */
+.pk-evo-node.cur {
+    background: var(--panel-2);
+    border-color: var(--tc, var(--accent));
+    box-shadow: inset 0 0 0 1px var(--tc, var(--accent));
+}
+
+.pk-evo-node img { width: 80px; height: 80px; image-rendering: pixelated; }
+.pk-evo-node .nm { font-size: 14.5px; font-weight: 700; text-align: center; }
+.pk-evo-node .no {
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px;
+    color: var(--faint);
+}
+.pk-evo-node .conds { display: grid; gap: 3px; margin-top: 5px; }
+
+/* Séparateur entre deux paliers : condition puis chevron. */
+.pk-evo-step {
+    display: grid;
+    justify-items: center;
+    gap: 5px;
+    flex: none;
+    padding: 0 6px;
+}
+.pk-evo-step .chev {
+    font-family: 'Silkscreen', monospace;
+    font-size: 12px;
+    color: var(--faint);
+}
+
+.pk-evo-chain .cond {
+    padding: 2px 8px;
+    border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+    color: var(--accent);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9px;
+    white-space: nowrap;
+}
+
+/* ---------------------------------------------------------------- CAPACITÉS -- */
+.pk-tabs { display: flex; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+.pk-tab {
+    padding: 10px 16px;
+    margin-bottom: -1px;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    font-family: 'Silkscreen', monospace;
+    font-size: 10px;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color .15s, border-color .15s, background .15s;
+}
+.pk-tab:hover { color: var(--text); background: var(--panel-2); }
+.pk-tab[aria-selected="true"] { color: var(--accent); border-bottom-color: var(--accent); }
+.pk-tab .c { margin-left: 6px; color: var(--faint); }
+
+.pk-table-scroll { min-width: 0; overflow-x: auto; }
+
+table.pk-moves { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.pk-moves th {
+    padding: 9px 12px;
+    background: var(--panel-2);
+    border-bottom: 1px solid var(--line);
+    color: var(--faint);
+    font-family: 'Silkscreen', monospace;
+    font-size: 9.5px;
+    letter-spacing: .07em;
+    text-align: left;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+table.pk-moves td { padding: 7px 12px; border-bottom: 1px solid var(--line-soft); white-space: nowrap; }
+table.pk-moves tr:last-child td { border-bottom: 0; }
+table.pk-moves tbody tr:nth-child(even) { background: color-mix(in srgb, var(--panel-2) 45%, transparent); }
+table.pk-moves tbody tr:hover { background: color-mix(in srgb, var(--violet) 12%, transparent); }
+table.pk-moves .lv { width: 62px; font-family: 'Silkscreen', monospace; font-size: 11px; color: var(--faint); }
+table.pk-moves .nm { font-weight: 700; }
+table.pk-moves .n { width: 72px; text-align: right; font-family: 'Silkscreen', monospace; font-size: 11px; }
+
+/* ------------------------------------------------------------------ ÉTATS -- */
+.pk-empty { color: var(--muted); font-size: 14px; }
+.pk-empty-page { padding: 60px 20px; text-align: center; }
+
+@media (max-width: 900px) {
+    .pk-layout { grid-template-columns: minmax(0, 1fr); }
+    .pk-aside { position: static; max-height: none; overflow: visible; }
+    .pk-search { max-width: none; }
+}
