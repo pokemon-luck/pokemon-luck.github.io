@@ -167,6 +167,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "discharge"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "aurora_beam"
         }
       ],
       "names": {
@@ -646,6 +654,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "discharge",
+          "id": 435,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Discharge",
+            "fr": "Coup d’Jus",
+            "it": "Scarica",
+            "de": "Ladungsstoß",
+            "es": "Chispazo",
+            "ko": "방전"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aurora_beam",
+          "id": 62,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aurora Beam",
+            "fr": "Onde Boréale",
+            "it": "Raggiaurora",
+            "de": "Aurorastrahl",
+            "es": "Rayo Aurora",
+            "ko": "오로라빔"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
         }
       ]
     }

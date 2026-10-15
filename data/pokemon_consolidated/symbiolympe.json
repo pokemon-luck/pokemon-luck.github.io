@@ -72,118 +72,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "air_cutter",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "light_jab",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sparkle_powder",
-          "level": 5
+          "move": "defense_curl",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "night_shade",
-          "level": 9
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "glow",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 17
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "flash_snap",
-          "level": 21
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "curse",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "atonement",
-          "level": 33
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "counterbalance",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "silver_wind",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "steel_wing",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "luminous_prism",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "cleansing",
-          "level": 52
+          "move": "blinding_wave",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 56
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ominous_wind",
-          "level": 60
+          "move": "star_rush",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sparkle_powder",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glow",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flash_snap",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pure_punch",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "exorciblade",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protective_cascade",
-          "level": 64
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earthquake",
-          "level": 68
+          "move": "shadow_ball",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "luminous_prism",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_world",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "celestial_seal",
+          "level": 67
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
           "level": 72
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "compassion",
+          "level": 77
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "starry_bolt",
-          "level": 75
+          "level": 83
         },
         {
           "klass": "TechLearnableMove",
@@ -458,44 +443,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "air_cutter",
-          "id": 314,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
-        },
-        {
           "symbol": "light_jab",
           "id": 764,
           "klass": "LevelLearnableMove",
@@ -515,276 +462,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "sparkle_powder",
-          "id": 773,
+          "symbol": "defense_curl",
+          "id": 111,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 1,
           "names": {
-            "en": "Sparkle Powder",
-            "fr": "Poudre Paillettes",
-            "it": "Dynaflora",
-            "de": "Dyna-Flora",
-            "es": "Maxiflora",
-            "ko": "다이그래스"
-          },
-          "category": "special",
-          "type": "celestial",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "night_shade",
-          "id": 101,
-          "klass": "LevelLearnableMove",
-          "level": 9,
-          "names": {
-            "en": "Night Shade",
-            "fr": "Ombre Nocturne",
-            "it": "Ombra Notturna",
-            "de": "Nachtnebel",
-            "es": "Tinieblas",
-            "ko": "나이트헤드"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "glow",
-          "id": 782,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Glow",
-            "fr": "Brillance",
-            "it": "Colpo Maestoso",
-            "de": "Gigantenstoß",
-            "es": "Embate Supremo",
-            "ko": "거수탄"
+            "en": "Defense Curl",
+            "fr": "Boul’Armure",
+            "it": "Ricciolscudo",
+            "de": "Einigler",
+            "es": "Rizo Defensa",
+            "ko": "웅크리기"
           },
           "category": "status",
-          "type": "celestial",
-          "pp": 15,
+          "type": "normal",
+          "pp": 40,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "ancient_power",
-          "id": 246,
+          "symbol": "blinding_wave",
+          "id": 776,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 4,
           "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "flash_snap",
-          "id": 775,
-          "klass": "LevelLearnableMove",
-          "level": 21,
-          "names": {
-            "en": "Flash Snap",
-            "fr": "Rapidoflash",
-            "it": "Dracofonia",
-            "de": "Seelentanz",
-            "es": "Estruendo Escama",
-            "ko": "소울비트"
-          },
-          "category": "special",
-          "type": "celestial",
-          "pp": 20,
-          "power": 50,
-          "accuracy": 95
-        },
-        {
-          "symbol": "curse",
-          "id": 174,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Curse",
-            "fr": "Malédiction",
-            "it": "Maledizione",
-            "de": "Fluch",
-            "es": "Maldición",
-            "ko": "저주"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "shadow_sneak",
-          "id": 425,
-          "klass": "LevelLearnableMove",
-          "level": 29,
-          "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "atonement",
-          "id": 779,
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "names": {
-            "en": "Atonement",
-            "fr": "Expiation",
-            "it": "Tagliola",
-            "de": "Fangeisen",
-            "es": "Cepo",
-            "ko": "집게덫"
+            "en": "Blinding Wave",
+            "fr": "Vague Aveuglante",
+            "it": "Schiacciacorpo",
+            "de": "Body Press",
+            "es": "Plancha Corporal",
+            "ko": "바디프레스"
           },
           "category": "special",
           "type": "celestial",
           "pp": 15,
-          "power": 20,
+          "power": 45,
           "accuracy": 100
-        },
-        {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "LevelLearnableMove",
-          "level": 34,
-          "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "counterbalance",
-          "id": 790,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Counterbalance",
-            "fr": "Compensation",
-            "it": "Vapore Incantato",
-            "de": "Wunderdampf",
-            "es": "Cautivapor",
-            "ko": "원더스팀"
-          },
-          "category": "status",
-          "type": "celestial",
-          "pp": 25,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "silver_wind",
-          "id": 318,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Silver Wind",
-            "fr": "Vent Argenté",
-            "it": "Ventargenteo",
-            "de": "Silberhauch",
-            "es": "Viento Plata",
-            "ko": "은빛바람"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "steel_wing",
-          "id": 211,
-          "klass": "LevelLearnableMove",
-          "level": 44,
-          "names": {
-            "en": "Steel Wing",
-            "fr": "Ailes d’Acier",
-            "it": "Alacciaio",
-            "de": "Stahlflügel",
-            "es": "Ala de Acero",
-            "ko": "강철날개"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 25,
-          "power": 70,
-          "accuracy": 90
-        },
-        {
-          "symbol": "luminous_prism",
-          "id": 780,
-          "klass": "LevelLearnableMove",
-          "level": 48,
-          "names": {
-            "en": "Luminous Prism",
-            "fr": "Prisme Lumière",
-            "it": "Palla Infuocata",
-            "de": "Feuerball",
-            "es": "Balón Ígneo",
-            "ko": "화염볼"
-          },
-          "category": "special",
-          "type": "celestial",
-          "pp": 10,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "cleansing",
-          "id": 778,
-          "klass": "LevelLearnableMove",
-          "level": 52,
-          "names": {
-            "en": "Cleansing",
-            "fr": "Épuration",
-            "it": "Tamburattacco",
-            "de": "Trommelschläge",
-            "es": "Batería Asalto",
-            "ko": "드럼어택"
-          },
-          "category": "special",
-          "type": "celestial",
-          "pp": 10,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 9,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -800,29 +519,162 @@
           "accuracy": 0
         },
         {
-          "symbol": "ominous_wind",
-          "id": 466,
+          "symbol": "star_rush",
+          "id": 767,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 12,
           "names": {
-            "en": "Ominous Wind",
-            "fr": "Vent Mauvais",
-            "it": "Funestovento",
-            "de": "Unheilböen",
-            "es": "Viento Aciago",
-            "ko": "괴상한바람"
+            "en": "Star Rush",
+            "fr": "Ruétoilée",
+            "it": "Dynafata",
+            "de": "Dyna-Zauber",
+            "es": "Maxiestela",
+            "ko": "다이페어리"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 15,
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
           },
           "category": "special",
           "type": "ghost",
-          "pp": 5,
-          "power": 60,
+          "pp": 15,
+          "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "sparkle_powder",
+          "id": 773,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "glow",
+          "id": 782,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Glow",
+            "fr": "Brillance",
+            "it": "Colpo Maestoso",
+            "de": "Gigantenstoß",
+            "es": "Embate Supremo",
+            "ko": "거수탄"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "flash_snap",
+          "id": 775,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Flash Snap",
+            "fr": "Rapidoflash",
+            "it": "Dracofonia",
+            "de": "Seelentanz",
+            "es": "Estruendo Escama",
+            "ko": "소울비트"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "pure_punch",
+          "id": 766,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Pure Punch",
+            "fr": "Poing Pur",
+            "it": "Dynajet",
+            "de": "Dyna-Düse",
+            "es": "Maxiciclón",
+            "ko": "다이제트"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 30,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "exorciblade",
+          "id": 768,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Exorciblade",
+            "fr": "Exorcilame",
+            "it": "Dynadragone",
+            "de": "Dyna-Wyrm",
+            "es": "Maxidraco",
+            "ko": "다이드라군"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 95
         },
         {
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 47,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -838,29 +690,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "earthquake",
-          "id": 89,
+          "symbol": "shadow_ball",
+          "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 52,
           "names": {
-            "en": "Earthquake",
-            "fr": "Séisme",
-            "it": "Terremoto",
-            "de": "Erdbeben",
-            "es": "Terremoto",
-            "ko": "지진"
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
           },
-          "category": "physical",
-          "type": "ground",
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "luminous_prism",
+          "id": 780,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
           "pp": 10,
-          "power": 100,
+          "power": 85,
           "accuracy": 100
         },
         {
           "symbol": "mirror_world",
           "id": 787,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 62,
           "names": {
             "en": "Mirror World",
             "fr": "Monde Mirroir",
@@ -876,10 +747,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "celestial_seal",
+          "id": 786,
+          "klass": "LevelLearnableMove",
+          "level": 67,
+          "names": {
+            "en": "Celestial Seal",
+            "fr": "Sceau Céleste",
+            "it": "Overdrive",
+            "de": "Overdrive",
+            "es": "Amplificador",
+            "ko": "오버드라이브"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 72,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "compassion",
+          "id": 783,
+          "klass": "LevelLearnableMove",
+          "level": 77,
+          "names": {
+            "en": "Compassion",
+            "fr": "Compassion",
+            "it": "Ruota d’Aura",
+            "de": "Aura-Rad",
+            "es": "Rueda Aural",
+            "ko": "오라휠"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "starry_bolt",
           "id": 781,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 83,
           "names": {
             "en": "Starry Bolt",
             "fr": "Flèche Étoile",
@@ -952,6 +880,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
           "symbol": "gust",
           "id": 16,
           "klass": "TechLearnableMove",
@@ -1007,6 +954,25 @@
           "pp": 20,
           "power": 60,
           "accuracy": 0
+        },
+        {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
         },
         {
           "symbol": "air_slash",
@@ -1066,6 +1032,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "psyshock",
           "id": 473,
           "klass": "TechLearnableMove",
@@ -1104,6 +1089,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "power_gem",
           "id": 408,
           "klass": "TechLearnableMove",
@@ -1120,6 +1124,44 @@
           "type": "rock",
           "pp": 20,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ominous_wind",
+          "id": 466,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ominous Wind",
+            "fr": "Vent Mauvais",
+            "it": "Funestovento",
+            "de": "Unheilböen",
+            "es": "Viento Aciago",
+            "ko": "괴상한바람"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 5,
+          "power": 60,
           "accuracy": 100
         },
         {
@@ -1215,25 +1257,6 @@
           "type": "fairy",
           "pp": 10,
           "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
           "accuracy": 100
         },
         {

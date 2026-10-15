@@ -83,67 +83,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "defense_curl",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulldoze",
-          "level": 10
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 15
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dig",
-          "level": 25
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 30
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dig",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "x_scissor",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 35
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 40
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 45
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stealth_rock",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_press",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_slide",
-          "level": 55
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 60
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_slide",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 80
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 65
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -431,7 +456,7 @@
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Defense Curl",
             "fr": "Boul’Armure",
@@ -450,7 +475,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 7,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -469,7 +494,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 12,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -488,7 +513,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -504,29 +529,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "dig",
-          "id": 91,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Dig",
-            "fr": "Tunnel",
-            "it": "Fossa",
-            "de": "Schaufler",
-            "es": "Excavar",
-            "ko": "구멍파기"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 18,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -542,10 +548,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "dig",
+          "id": 91,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Dig",
+            "fr": "Tunnel",
+            "it": "Fossa",
+            "de": "Schaufler",
+            "es": "Excavar",
+            "ko": "구멍파기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "x_scissor",
+          "id": 404,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "X-Scissor",
+            "fr": "Plaie Croix",
+            "it": "Forbice X",
+            "de": "Kreuzschere",
+            "es": "Tijera X",
+            "ko": "시저크로스"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 38,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -564,7 +627,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 44,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -583,7 +646,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 49,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -599,10 +662,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "stealth_rock",
+          "id": 446,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Stealth Rock",
+            "fr": "Piège de Roc",
+            "it": "Levitoroccia",
+            "de": "Tarnsteine",
+            "es": "Trampa Rocas",
+            "ko": "스텔스록"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "body_press",
           "id": 720,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 59,
           "names": {
             "en": "Body Press",
             "fr": "Big Splash",
@@ -618,29 +700,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "rock_slide",
-          "id": 157,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Rock Slide",
-            "fr": "Éboulement",
-            "it": "Frana",
-            "de": "Steinhagel",
-            "es": "Avalancha",
-            "ko": "스톤샤워"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 90
-        },
-        {
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 64,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -656,10 +719,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "rock_slide",
+          "id": 157,
+          "klass": "LevelLearnableMove",
+          "level": 69,
+          "names": {
+            "en": "Rock Slide",
+            "fr": "Éboulement",
+            "it": "Frana",
+            "de": "Steinhagel",
+            "es": "Avalancha",
+            "ko": "스톤샤워"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 90
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 74,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 85,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -808,25 +928,6 @@
           "accuracy": 95
         },
         {
-          "symbol": "earth_power",
-          "id": 414,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Earth Power",
-            "fr": "Telluriforce",
-            "it": "Geoforza",
-            "de": "Erdkräfte",
-            "es": "Tierra Viva",
-            "ko": "대지의힘"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "fury_cutter",
           "id": 210,
           "klass": "TechLearnableMove",
@@ -862,25 +963,6 @@
           "type": "bug",
           "pp": 20,
           "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "x_scissor",
-          "id": 404,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "X-Scissor",
-            "fr": "Plaie Croix",
-            "it": "Forbice X",
-            "de": "Kreuzschere",
-            "es": "Tijera X",
-            "ko": "시저크로스"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -977,25 +1059,6 @@
           "pp": 5,
           "power": 60,
           "accuracy": 100
-        },
-        {
-          "symbol": "stone_edge",
-          "id": 444,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Stone Edge",
-            "fr": "Lame de Roc",
-            "it": "Pietrataglio",
-            "de": "Steinkante",
-            "es": "Roca Afilada",
-            "ko": "스톤에지"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 5,
-          "power": 100,
-          "accuracy": 80
         },
         {
           "symbol": "pursuit",
@@ -1112,25 +1175,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "stealth_rock",
-          "id": 446,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Stealth Rock",
-            "fr": "Piège de Roc",
-            "it": "Levitoroccia",
-            "de": "Tarnsteine",
-            "es": "Trampa Rocas",
-            "ko": "스텔스록"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "spikes",
           "id": 191,
           "klass": "TechLearnableMove",
@@ -1184,25 +1228,6 @@
           "category": "status",
           "type": "rock",
           "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "light_screen",
-          "id": 113,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
           "power": 0,
           "accuracy": 0
         },

@@ -114,72 +114,72 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 16
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "glow",
-          "level": 19
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "cleansing",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "cleansing",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 28
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 31
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "night_slash",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "enchant",
-          "level": 43
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 46
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 49
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 52
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "celestial_seal",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -448,6 +448,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "covet"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "power_trip"
         }
       ],
       "names": {
@@ -647,7 +655,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 17,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -666,7 +674,7 @@
           "symbol": "glow",
           "id": 782,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 21,
           "names": {
             "en": "Glow",
             "fr": "Brillance",
@@ -685,7 +693,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 25,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -704,7 +712,7 @@
           "symbol": "cleansing",
           "id": 778,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Cleansing",
             "fr": "Épuration",
@@ -723,7 +731,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -742,7 +750,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 36,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -761,7 +769,7 @@
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 40,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -780,7 +788,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 42,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -799,7 +807,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -818,7 +826,7 @@
           "symbol": "enchant",
           "id": 788,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 48,
           "names": {
             "en": "Enchant",
             "fr": "Enchantement",
@@ -837,7 +845,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 51,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -856,7 +864,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 54,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -875,7 +883,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -894,7 +902,7 @@
           "symbol": "celestial_seal",
           "id": 786,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 60,
           "names": {
             "en": "Celestial Seal",
             "fr": "Sceau Céleste",
@@ -1991,6 +1999,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "covet",
+          "id": 343,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Covet",
+            "fr": "Implore",
+            "it": "Supplica",
+            "de": "Bezirzer",
+            "es": "Antojo",
+            "ko": "탐내다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_trip",
+          "id": 681,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Power Trip",
+            "fr": "Arrogance",
+            "it": "Tracotanza",
+            "de": "Überheblichkeit",
+            "es": "Chulería",
+            "ko": "기어오르기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
         }
       ]
     }

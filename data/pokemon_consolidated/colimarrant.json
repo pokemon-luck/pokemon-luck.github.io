@@ -83,73 +83,73 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "defense_curl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "string_shot",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_bite",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid",
-          "level": 16
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rollout",
-          "level": 20
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "struggle_bug",
-          "level": 24
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 28
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shell_smash",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_life",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_breath",
-          "level": 44
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_buzz",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
@@ -311,6 +311,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "gastro_acid"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "megahorn"
         }
       ],
       "names": {
@@ -393,25 +401,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
@@ -431,10 +420,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "string_shot",
           "id": 81,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "String Shot",
             "fr": "Sécrétion",
@@ -453,7 +461,7 @@
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -472,7 +480,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -491,7 +499,7 @@
           "symbol": "acid",
           "id": 51,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 12,
           "names": {
             "en": "Acid",
             "fr": "Acide",
@@ -510,7 +518,7 @@
           "symbol": "rollout",
           "id": 205,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Rollout",
             "fr": "Roulade",
@@ -529,7 +537,7 @@
           "symbol": "struggle_bug",
           "id": 522,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Struggle Bug",
             "fr": "Survinsecte",
@@ -548,7 +556,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 24,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -567,7 +575,7 @@
           "symbol": "shell_smash",
           "id": 504,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Shell Smash",
             "fr": "Exuviation",
@@ -586,7 +594,7 @@
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -605,7 +613,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -624,7 +632,7 @@
           "symbol": "dragon_breath",
           "id": 225,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 42,
           "names": {
             "en": "Dragon Breath",
             "fr": "Draco-Souffle",
@@ -643,7 +651,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 47,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -1246,6 +1254,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "gastro_acid",
+          "id": 380,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Gastro Acid",
+            "fr": "Suc Digestif",
+            "it": "Gastroacido",
+            "de": "Magensäfte",
+            "es": "Bilis",
+            "ko": "위액"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "megahorn",
+          "id": 224,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Megahorn",
+            "fr": "Mégacorne",
+            "it": "Megacorno",
+            "de": "Vielender",
+            "es": "Megacuerno",
+            "ko": "메가폰"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 85
         }
       ]
     }

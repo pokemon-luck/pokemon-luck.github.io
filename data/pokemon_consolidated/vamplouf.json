@@ -108,57 +108,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "charge",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "bubble_beam",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spark",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "aqua_ring",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "air_cutter",
-          "level": 28
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_wave",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bubble_beam",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "water_pulse",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spark",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
-          "level": 36
+          "move": "aerial_ace",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "parabolic_charge",
+          "move": "aqua_ring",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "swift",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "parabolic_charge",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 44
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 48
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -375,6 +405,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "thunder"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "tri_attack"
         }
       ],
       "names": {
@@ -536,7 +574,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -555,7 +593,7 @@
           "symbol": "charge",
           "id": 268,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 11,
           "names": {
             "en": "Charge",
             "fr": "Chargeur",
@@ -571,86 +609,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "bubble_beam",
-          "id": 61,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Bubble Beam",
-            "fr": "Bulles d’O",
-            "it": "Bollaraggio",
-            "de": "Blubbstrahl",
-            "es": "Rayo Burbuja",
-            "ko": "거품광선"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "spark",
-          "id": 209,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Spark",
-            "fr": "Étincelle",
-            "it": "Scintilla",
-            "de": "Funkensprung",
-            "es": "Chispa",
-            "ko": "스파크"
-          },
-          "category": "physical",
-          "type": "electric",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "aqua_ring",
-          "id": 392,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Aqua Ring",
-            "fr": "Anneau Hydro",
-            "it": "Acquanello",
-            "de": "Wasserring",
-            "es": "Acua Aro",
-            "ko": "아쿠아링"
-          },
-          "category": "status",
-          "type": "water",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "air_cutter",
-          "id": 314,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
-        },
-        {
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 14,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -666,29 +628,181 @@
           "accuracy": 100
         },
         {
-          "symbol": "rain_dance",
-          "id": 240,
+          "symbol": "thunder_wave",
+          "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 16,
           "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "bubble_beam",
+          "id": 61,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Bubble Beam",
+            "fr": "Bulles d’O",
+            "it": "Bollaraggio",
+            "de": "Blubbstrahl",
+            "es": "Rayo Burbuja",
+            "ko": "거품광선"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shock_wave",
+          "id": 351,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "water_pulse",
+          "id": 352,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Water Pulse",
+            "fr": "Vibraqua",
+            "it": "Idropulsar",
+            "de": "Aquawelle",
+            "es": "Hidropulso",
+            "ko": "물의파동"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spark",
+          "id": 209,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Spark",
+            "fr": "Étincelle",
+            "it": "Scintilla",
+            "de": "Funkensprung",
+            "es": "Chispa",
+            "ko": "스파크"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aerial_ace",
+          "id": 332,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Aerial Ace",
+            "fr": "Aéropique",
+            "it": "Aeroassalto",
+            "de": "Aero-Ass",
+            "es": "Golpe Aéreo",
+            "ko": "제비반환"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "aqua_ring",
+          "id": 392,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Aqua Ring",
+            "fr": "Anneau Hydro",
+            "it": "Acquanello",
+            "de": "Wasserring",
+            "es": "Acua Aro",
+            "ko": "아쿠아링"
           },
           "category": "status",
           "type": "water",
-          "pp": 5,
+          "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
         },
         {
           "symbol": "parabolic_charge",
           "id": 570,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 50,
           "names": {
             "en": "Parabolic Charge",
             "fr": "Parabocharge",
@@ -704,10 +818,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 60,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -723,10 +856,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 70,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -759,25 +911,6 @@
           "pp": 30,
           "power": 40,
           "accuracy": 100
-        },
-        {
-          "symbol": "swift",
-          "id": 129,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "body_slam",
@@ -834,44 +967,6 @@
           "type": "normal",
           "pp": 15,
           "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "water_pulse",
-          "id": 352,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Water Pulse",
-            "fr": "Vibraqua",
-            "it": "Idropulsar",
-            "de": "Aquawelle",
-            "es": "Hidropulso",
-            "ko": "물의파동"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -949,25 +1044,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 80
-        },
-        {
-          "symbol": "shock_wave",
-          "id": 351,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shock Wave",
-            "fr": "Onde de Choc",
-            "it": "Ondashock",
-            "de": "Schockwelle",
-            "es": "Onda Voltio",
-            "ko": "전격파"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "volt_switch",
@@ -1063,25 +1139,6 @@
           "pp": 35,
           "power": 60,
           "accuracy": 100
-        },
-        {
-          "symbol": "aerial_ace",
-          "id": 332,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Aerial Ace",
-            "fr": "Aéropique",
-            "it": "Aeroassalto",
-            "de": "Aero-Ass",
-            "es": "Golpe Aéreo",
-            "ko": "제비반환"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "air_slash",
@@ -1502,25 +1559,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "thunder_wave",
-          "id": 86,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Thunder Wave",
-            "fr": "Cage Éclair",
-            "it": "Tuononda",
-            "de": "Donnerwelle",
-            "es": "Onda Trueno",
-            "ko": "전기자석파"
-          },
-          "category": "status",
-          "type": "electric",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
           "symbol": "metal_sound",
           "id": 319,
           "klass": "TechLearnableMove",
@@ -1633,6 +1671,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "thunder",
+          "id": 87,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder",
+            "fr": "Fatal-Foudre",
+            "it": "Tuono",
+            "de": "Donner",
+            "es": "Trueno",
+            "ko": "번개"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
+          "symbol": "tri_attack",
+          "id": 161,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Tri Attack",
+            "fr": "Triplattaque",
+            "it": "Tripletta",
+            "de": "Triplette",
+            "es": "Triataque",
+            "ko": "트라이어택"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

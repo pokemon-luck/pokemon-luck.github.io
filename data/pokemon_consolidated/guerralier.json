@@ -83,12 +83,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fury_attack",
-          "level": 9
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vacuum_wave",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
@@ -98,12 +103,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flame_charge",
-          "level": 17
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brick_break",
-          "level": 21
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
@@ -113,42 +123,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "bulldoze",
-          "level": 29
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thrash",
-          "level": 33
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "aura_sphere",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "close_combat",
-          "level": 41
+          "move": "aura_sphere",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "crunch",
+          "move": "payback",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 49
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swords_dance",
-          "level": 53
+          "level": 72
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "focus_blast",
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "outrage",
-          "level": 57
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -420,7 +450,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -439,7 +469,7 @@
           "symbol": "fury_attack",
           "id": 31,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Fury Attack",
             "fr": "Furie",
@@ -453,6 +483,25 @@
           "pp": 20,
           "power": 15,
           "accuracy": 85
+        },
+        {
+          "symbol": "vacuum_wave",
+          "id": 410,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Vacuum Wave",
+            "fr": "Onde Vide",
+            "it": "Vuotonda",
+            "de": "Vakuumwelle",
+            "es": "Onda Vacío",
+            "ko": "진공파"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "stomp",
@@ -477,7 +526,7 @@
           "symbol": "flame_charge",
           "id": 488,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 16,
           "names": {
             "en": "Flame Charge",
             "fr": "Nitrocharge",
@@ -493,10 +542,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "brick_break",
           "id": 280,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 23,
           "names": {
             "en": "Brick Break",
             "fr": "Casse-Brique",
@@ -534,7 +602,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 28,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -550,10 +618,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "thrash",
           "id": 37,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 37,
           "names": {
             "en": "Thrash",
             "fr": "Mania",
@@ -572,7 +659,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 42,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -588,48 +675,48 @@
           "accuracy": 0
         },
         {
-          "symbol": "close_combat",
-          "id": 370,
-          "klass": "LevelLearnableMove",
-          "level": 41,
-          "names": {
-            "en": "Close Combat",
-            "fr": "Close Combat",
-            "it": "Zuffa",
-            "de": "Nahkampf",
-            "es": "A Bocajarro",
-            "ko": "인파이트"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 5,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "crunch",
-          "id": 242,
+          "symbol": "payback",
+          "id": 371,
           "klass": "LevelLearnableMove",
           "level": 45,
           "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
+            "en": "Payback",
+            "fr": "Représailles",
+            "it": "Rivincita",
+            "de": "Gegenstoß",
+            "es": "Vendetta",
+            "ko": "보복"
           },
           "category": "physical",
           "type": "dark",
-          "pp": 15,
-          "power": 80,
+          "pp": 10,
+          "power": 50,
           "accuracy": 100
+        },
+        {
+          "symbol": "bulk_up",
+          "id": 339,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Bulk Up",
+            "fr": "Gonflette",
+            "it": "Granfisico",
+            "de": "Protzer",
+            "es": "Corpulencia",
+            "ko": "벌크업"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 56,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -645,10 +732,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 61,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "LevelLearnableMove",
+          "level": 67,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
           "symbol": "swords_dance",
           "id": 14,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 72,
           "names": {
             "en": "Swords Dance",
             "fr": "Danse Lames",
@@ -664,10 +789,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "focus_blast",
+          "id": 411,
+          "klass": "LevelLearnableMove",
+          "level": 78,
+          "names": {
+            "en": "Focus Blast",
+            "fr": "Exploforce",
+            "it": "Focalcolpo",
+            "de": "Fokusstoß",
+            "es": "Onda Certera",
+            "ko": "기합구슬"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 70
+        },
+        {
           "symbol": "outrage",
           "id": 200,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 84,
           "names": {
             "en": "Outrage",
             "fr": "Colère",
@@ -968,44 +1112,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "payback",
-          "id": 371,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Payback",
-            "fr": "Représailles",
-            "it": "Rivincita",
-            "de": "Gegenstoß",
-            "es": "Vendetta",
-            "ko": "보복"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "snarl",
-          "id": 555,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
-          },
-          "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
           "symbol": "knock_off",
           "id": 282,
           "klass": "TechLearnableMove",
@@ -1061,25 +1167,6 @@
           "pp": 15,
           "power": 100,
           "accuracy": 75
-        },
-        {
-          "symbol": "bulk_up",
-          "id": 339,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Bulk Up",
-            "fr": "Gonflette",
-            "it": "Granfisico",
-            "de": "Protzer",
-            "es": "Corpulencia",
-            "ko": "벌크업"
-          },
-          "category": "status",
-          "type": "fighting",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "agility",
@@ -1194,25 +1281,6 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
-        },
-        {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
         }
       ]
     }

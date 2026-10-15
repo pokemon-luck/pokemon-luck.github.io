@@ -83,27 +83,37 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stun_spore",
-          "level": 9
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 13
+          "move": "twin_charm",
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 17
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 21
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
@@ -112,53 +122,63 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "energy_ball",
+          "move": "glamour_strike",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 33
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "glamour_strike",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "giga_drain",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "strength_sap",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 53
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 57
+          "move": "energy_ball",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 61
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "strength_sap",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 79
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -418,7 +438,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -437,7 +457,7 @@
           "symbol": "stun_spore",
           "id": 78,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 5,
           "names": {
             "en": "Stun Spore",
             "fr": "Para-Spore",
@@ -453,29 +473,29 @@
           "accuracy": 75
         },
         {
-          "symbol": "draining_kiss",
-          "id": 577,
+          "symbol": "twin_charm",
+          "id": 792,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 8,
           "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
+            "en": "Twin Charm",
+            "fr": "Double Charme",
+            "it": "Twin Charm",
+            "de": "Twin Charm",
+            "es": "Twin Charm",
+            "ko": "Twin Charm"
           },
-          "category": "special",
+          "category": "physical",
           "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
+          "pp": 20,
+          "power": 25,
+          "accuracy": 95
         },
         {
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 11,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -494,7 +514,7 @@
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 13,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -508,6 +528,44 @@
           "pp": 35,
           "power": 0,
           "accuracy": 75
+        },
+        {
+          "symbol": "vine_whip",
+          "id": 22,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
         },
         {
           "symbol": "leech_seed",
@@ -529,48 +587,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "energy_ball",
-          "id": 412,
-          "klass": "LevelLearnableMove",
-          "level": 29,
-          "names": {
-            "en": "Energy Ball",
-            "fr": "Éco-Sphère",
-            "it": "Energipalla",
-            "de": "Energieball",
-            "es": "Energibola",
-            "ko": "에너지볼"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "protect",
-          "id": 182,
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "names": {
-            "en": "Protect",
-            "fr": "Abri",
-            "it": "Protezione",
-            "de": "Schutzschild",
-            "es": "Protección",
-            "ko": "방어"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "glamour_strike",
           "id": 793,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 29,
           "names": {
             "en": "Glamour Strike",
             "fr": "Coup d'Éclat",
@@ -586,29 +606,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "protect",
+          "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 34,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
           "accuracy": 100
+        },
+        {
+          "symbol": "moonlight",
+          "id": 236,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 49,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -627,7 +685,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 54,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -643,29 +701,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "strength_sap",
-          "id": 668,
-          "klass": "LevelLearnableMove",
-          "level": 49,
-          "names": {
-            "en": "Strength Sap",
-            "fr": "Vole-Force",
-            "it": "Assorbiforza",
-            "de": "Kraftabsorber",
-            "es": "Absorbefuerza",
-            "ko": "힘흡수"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 59,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -681,10 +720,86 @@
           "accuracy": 100
         },
         {
+          "symbol": "strength_sap",
+          "id": 668,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Strength Sap",
+            "fr": "Vole-Force",
+            "it": "Assorbiforza",
+            "de": "Kraftabsorber",
+            "es": "Absorbefuerza",
+            "ko": "힘흡수"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 69,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "LevelLearnableMove",
+          "level": 74,
+          "names": {
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 79,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 84,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -698,25 +813,6 @@
           "pp": 10,
           "power": 90,
           "accuracy": 100
-        },
-        {
-          "symbol": "moonlight",
-          "id": 236,
-          "klass": "LevelLearnableMove",
-          "level": 61,
-          "names": {
-            "en": "Moonlight",
-            "fr": "Rayon Lune",
-            "it": "Lucelunare",
-            "de": "Mondschein",
-            "es": "Luz Lunar",
-            "ko": "달의불빛"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "seed_bomb",
@@ -754,25 +850,6 @@
           "type": "poison",
           "pp": 10,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "sludge_bomb",
-          "id": 188,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sludge Bomb",
-            "fr": "Bombe Beurk",
-            "it": "Fangobomba",
-            "de": "Matschbombe",
-            "es": "Bomba Lodo",
-            "ko": "오물폭탄"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 90,
           "accuracy": 100
         },
         {

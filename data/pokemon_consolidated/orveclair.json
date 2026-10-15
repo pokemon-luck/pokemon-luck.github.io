@@ -83,28 +83,33 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder_shock",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "wrap",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "leer",
-          "level": 5
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 9
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 12
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
@@ -114,37 +119,52 @@
         {
           "klass": "LevelLearnableMove",
           "move": "poison_fang",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "charge",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "crunch",
-          "level": 28
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_fang",
-          "level": 32
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "coil",
-          "level": 36
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wild_charge",
-          "level": 40
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_tail",
-          "level": 44
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -317,6 +337,46 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "recover"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "hypnosis"
         }
       ],
       "names": {
@@ -399,25 +459,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "thunder_shock",
-          "id": 84,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Thunder Shock",
-            "fr": "Éclair",
-            "it": "Tuonoshock",
-            "de": "Donnerschock",
-            "es": "Impactrueno",
-            "ko": "전기쇼크"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "wrap",
           "id": 35,
           "klass": "LevelLearnableMove",
@@ -437,10 +478,29 @@
           "accuracy": 90
         },
         {
+          "symbol": "thunder_shock",
+          "id": 84,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Leer",
             "fr": "Groz’Yeux",
@@ -456,10 +516,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 10,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -478,7 +557,7 @@
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 14,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -516,7 +595,7 @@
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -532,48 +611,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "charge",
-          "id": 268,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Charge",
-            "fr": "Chargeur",
-            "it": "Sottocarica",
-            "de": "Ladevorgang",
-            "es": "Carga",
-            "ko": "충전"
-          },
-          "category": "status",
-          "type": "electric",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "crunch",
-          "id": 242,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "thunder_fang",
           "id": 422,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 23,
           "names": {
             "en": "Thunder Fang",
             "fr": "Crocs Éclair",
@@ -592,7 +633,7 @@
           "symbol": "coil",
           "id": 489,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Coil",
             "fr": "Enroulement",
@@ -608,10 +649,105 @@
           "accuracy": 0
         },
         {
+          "symbol": "shock_wave",
+          "id": 351,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charge",
+          "id": 268,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Charge",
+            "fr": "Chargeur",
+            "it": "Sottocarica",
+            "de": "Ladevorgang",
+            "es": "Carga",
+            "ko": "충전"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dark_pulse",
+          "id": 399,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "wild_charge",
           "id": 528,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 54,
           "names": {
             "en": "Wild Charge",
             "fr": "Éclair Fou",
@@ -630,7 +766,7 @@
           "symbol": "iron_tail",
           "id": 231,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 60,
           "names": {
             "en": "Iron Tail",
             "fr": "Queue de Fer",
@@ -720,25 +856,6 @@
           "pp": 15,
           "power": 90,
           "accuracy": 100
-        },
-        {
-          "symbol": "shock_wave",
-          "id": 351,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shock Wave",
-            "fr": "Onde de Choc",
-            "it": "Ondashock",
-            "de": "Schockwelle",
-            "es": "Onda Voltio",
-            "ko": "전격파"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "thunderbolt",
@@ -874,25 +991,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "mud_slap",
-          "id": 189,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud-Slap",
-            "fr": "Coud’Boue",
-            "it": "Fangosberla",
-            "de": "Lehmschelle",
-            "es": "Bofetón Lodo",
-            "ko": "진흙뿌리기"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
           "symbol": "mud_shot",
           "id": 341,
           "klass": "TechLearnableMove",
@@ -1007,25 +1105,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "dragon_pulse",
-          "id": 406,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dragon Pulse",
-            "fr": "Draco-Choc",
-            "it": "Dragopulsar",
-            "de": "Drachenpuls",
-            "es": "Pulso Dragón",
-            "ko": "용의파동"
-          },
-          "category": "special",
-          "type": "dragon",
-          "pp": 10,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
           "symbol": "pursuit",
           "id": 228,
           "klass": "TechLearnableMove",
@@ -1061,25 +1140,6 @@
           "type": "dark",
           "pp": 10,
           "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dark_pulse",
-          "id": 399,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dark Pulse",
-            "fr": "Vibrobscur",
-            "it": "Neropulsar",
-            "de": "Finsteraura",
-            "es": "Pulso Umbrío",
-            "ko": "악의파동"
-          },
-          "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -1328,6 +1388,177 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "recover",
+          "id": 105,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Recover",
+            "fr": "Soin",
+            "it": "Ripresa",
+            "de": "Genesung",
+            "es": "Recuperación",
+            "ko": "HP회복"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
         }
       ]
     }

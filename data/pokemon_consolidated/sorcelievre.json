@@ -72,16 +72,6 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "thunder_shock",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "encore",
           "level": 1
         },
@@ -92,88 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder_shock",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "electro_ball",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_team",
-          "level": 15
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 25
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magic_room",
-          "level": 30
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 35
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 45
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 50
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 55
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "trick",
-          "level": 60
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 65
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_blast",
-          "level": 70
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 75
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bounce",
-          "level": 80
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 85
+          "level": 74
         },
         {
           "klass": "TechLearnableMove",
@@ -448,44 +448,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "thunder_shock",
-          "id": 84,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Thunder Shock",
-            "fr": "Éclair",
-            "it": "Tuonoshock",
-            "de": "Donnerschock",
-            "es": "Impactrueno",
-            "ko": "전기쇼크"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "encore",
           "id": 227,
           "klass": "LevelLearnableMove",
@@ -524,10 +486,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thunder_shock",
+          "id": 84,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "light_screen",
           "id": 113,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Light Screen",
             "fr": "Mur Lumière",
@@ -546,7 +546,7 @@
           "symbol": "electro_ball",
           "id": 486,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Electro Ball",
             "fr": "Boule Élek",
@@ -565,7 +565,7 @@
           "symbol": "double_team",
           "id": 104,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 13,
           "names": {
             "en": "Double Team",
             "fr": "Reflet",
@@ -584,7 +584,7 @@
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -603,7 +603,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 21,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -622,7 +622,7 @@
           "symbol": "magic_room",
           "id": 478,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 23,
           "names": {
             "en": "Magic Room",
             "fr": "Zone Magique",
@@ -641,7 +641,7 @@
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 28,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -660,7 +660,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 33,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -679,7 +679,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 38,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -698,7 +698,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 40,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -717,7 +717,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 45,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -736,7 +736,7 @@
           "symbol": "trick",
           "id": 271,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 47,
           "names": {
             "en": "Trick",
             "fr": "Tour de Magie",
@@ -755,7 +755,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 52,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -774,7 +774,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 58,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -793,7 +793,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 63,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -812,7 +812,7 @@
           "symbol": "bounce",
           "id": 340,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 68,
           "names": {
             "en": "Bounce",
             "fr": "Rebond",
@@ -831,7 +831,7 @@
           "symbol": "zap_cannon",
           "id": 192,
           "klass": "LevelLearnableMove",
-          "level": 85,
+          "level": 74,
           "names": {
             "en": "Zap Cannon",
             "fr": "Élecanon",

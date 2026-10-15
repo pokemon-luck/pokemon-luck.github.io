@@ -72,17 +72,17 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_claw",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -127,12 +127,12 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hammer_arm",
+          "move": "earthquake",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earthquake",
+          "move": "hammer_arm",
           "level": 38
         },
         {
@@ -467,25 +467,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -522,6 +503,25 @@
           "pp": 35,
           "power": 50,
           "accuracy": 95
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "iron_defense",
@@ -676,29 +676,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "hammer_arm",
-          "id": 359,
-          "klass": "LevelLearnableMove",
-          "level": 34,
-          "names": {
-            "en": "Hammer Arm",
-            "fr": "Marto-Poing",
-            "it": "Martelpugno",
-            "de": "Hammerarm",
-            "es": "Machada",
-            "ko": "암해머"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 10,
-          "power": 100,
-          "accuracy": 90
-        },
-        {
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 34,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -712,6 +693,25 @@
           "pp": 10,
           "power": 100,
           "accuracy": 100
+        },
+        {
+          "symbol": "hammer_arm",
+          "id": 359,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Hammer Arm",
+            "fr": "Marto-Poing",
+            "it": "Martelpugno",
+            "de": "Hammerarm",
+            "es": "Machada",
+            "ko": "암해머"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 90
         },
         {
           "symbol": "play_rough",

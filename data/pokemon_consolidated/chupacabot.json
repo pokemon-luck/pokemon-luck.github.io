@@ -94,22 +94,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "howl",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 9
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fester",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 15
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
@@ -119,57 +119,57 @@
         {
           "klass": "LevelLearnableMove",
           "move": "dreadbind",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 22
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soul_siphon",
-          "level": 26
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 30
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bone_fist",
-          "level": 34
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "putrid_fangs",
-          "level": 38
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hone_claws",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "grave_vengeance",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "deaths_favour",
-          "level": 50
+          "move": "grave_vengeance",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
+          "move": "deaths_favour",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 63
+          "level": 66
         },
         {
           "klass": "TechLearnableMove",
@@ -374,6 +374,34 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
         }
       ],
       "names": {
@@ -497,7 +525,7 @@
           "symbol": "howl",
           "id": 336,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Howl",
             "fr": "Grondement",
@@ -516,7 +544,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 6,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -535,7 +563,7 @@
           "symbol": "fester",
           "id": 752,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Fester",
             "fr": "Envenimation",
@@ -554,7 +582,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 14,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -592,7 +620,7 @@
           "symbol": "dreadbind",
           "id": 754,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Dread Bind",
             "fr": "Lien Terreur",
@@ -611,7 +639,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 24,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -630,7 +658,7 @@
           "symbol": "soul_siphon",
           "id": 744,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 27,
           "names": {
             "en": "Soul Siphon",
             "fr": "Siphon'Âme",
@@ -649,7 +677,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 32,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -668,7 +696,7 @@
           "symbol": "bone_fist",
           "id": 734,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 37,
           "names": {
             "en": "Bone Fist",
             "fr": "Poing Osseux",
@@ -687,7 +715,7 @@
           "symbol": "putrid_fangs",
           "id": 733,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 41,
           "names": {
             "en": "Putrid Fangs",
             "fr": "Crocs Putrides",
@@ -706,7 +734,7 @@
           "symbol": "hone_claws",
           "id": 468,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 46,
           "names": {
             "en": "Hone Claws",
             "fr": "Aiguisage",
@@ -725,7 +753,7 @@
           "symbol": "grave_vengeance",
           "id": 748,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 51,
           "names": {
             "en": "Grave Vengeance",
             "fr": "Vengeance Tombale",
@@ -744,7 +772,7 @@
           "symbol": "deaths_favour",
           "id": 760,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Death's Favour",
             "fr": "Faveur Mortelle",
@@ -763,7 +791,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 61,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -782,7 +810,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 63,
+          "level": 66,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -1575,6 +1603,139 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
         }
       ]
     }

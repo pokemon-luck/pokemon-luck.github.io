@@ -98,67 +98,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 4
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disarming_voice",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "water_pulse",
+          "move": "aqua_jet",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "pixie_dash",
+          "move": "confuse_ray",
           "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aqua_ring",
-          "level": 16
+          "move": "water_pulse",
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 20
+          "move": "pixie_dash",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icy_wind",
+          "move": "double_kick",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 28
+          "move": "aqua_ring",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "whirlpool",
-          "level": 32
+          "move": "draining_kiss",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
+          "move": "icy_wind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
-          "level": 40
+          "move": "whirlpool",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hydro_pump",
+          "move": "dazzling_gleam",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 48
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -343,6 +363,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "protect"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "perish_song"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fake_tears"
         }
       ],
       "names": {
@@ -466,7 +494,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -485,7 +513,7 @@
           "symbol": "disarming_voice",
           "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Disarming Voice",
             "fr": "Voix Enjôleuse",
@@ -501,10 +529,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 18,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -523,7 +589,7 @@
           "symbol": "pixie_dash",
           "id": 791,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 21,
           "names": {
             "en": "Pixie Dash",
             "fr": "Ruée Lutine",
@@ -539,10 +605,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "double_kick",
+          "id": 24,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Double Kick",
+            "fr": "Double Pied",
+            "it": "Doppiocalcio",
+            "de": "Doppelkick",
+            "es": "Doble Patada",
+            "ko": "두번치기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 30,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 29,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -561,7 +646,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 33,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -580,7 +665,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 36,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -596,29 +681,10 @@
           "accuracy": 95
         },
         {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "whirlpool",
           "id": 250,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 39,
           "names": {
             "en": "Whirlpool",
             "fr": "Siphon",
@@ -634,10 +700,48 @@
           "accuracy": 85
         },
         {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 54,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -656,7 +760,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 59,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -672,29 +776,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "hydro_pump",
-          "id": 56,
-          "klass": "LevelLearnableMove",
-          "level": 44,
-          "names": {
-            "en": "Hydro Pump",
-            "fr": "Hydrocanon",
-            "it": "Idropompa",
-            "de": "Hydropumpe",
-            "es": "Hidrobomba",
-            "ko": "하이드로펌프"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 5,
-          "power": 110,
-          "accuracy": 80
-        },
-        {
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 64,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -708,6 +793,25 @@
           "pp": 10,
           "power": 90,
           "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 80
         },
         {
           "symbol": "quick_attack",
@@ -802,44 +906,6 @@
           "type": "normal",
           "pp": 15,
           "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "aqua_jet",
-          "id": 453,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Aqua Jet",
-            "fr": "Aqua-Jet",
-            "it": "Acquagetto",
-            "de": "Wasserdüse",
-            "es": "Acua Jet",
-            "ko": "아쿠아제트"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 20,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -955,25 +1021,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 70
-        },
-        {
-          "symbol": "double_kick",
-          "id": 24,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Double Kick",
-            "fr": "Double Pied",
-            "it": "Doppiocalcio",
-            "de": "Doppelkick",
-            "es": "Doble Patada",
-            "ko": "두번치기"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 30,
-          "power": 30,
-          "accuracy": 100
         },
         {
           "symbol": "low_sweep",
@@ -1318,25 +1365,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "charm",
           "id": 204,
           "klass": "TechLearnableMove",
@@ -1392,6 +1420,44 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "perish_song",
+          "id": 195,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Perish Song",
+            "fr": "Requiem",
+            "it": "Ultimocanto",
+            "de": "Abgesang",
+            "es": "Canto Mortal",
+            "ko": "멸망의노래"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "fake_tears",
+          "id": 313,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fake Tears",
+            "fr": "Croco Larme",
+            "it": "Falselacrime",
+            "de": "Trugträne",
+            "es": "Llanto Falso",
+            "ko": "거짓울음"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

@@ -72,88 +72,88 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 9
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 16
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "low_sweep",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 24
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 28
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_blast",
-          "level": 32
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "drain_punch",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scary_face",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "leaf_storm",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "leaf_storm",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "close_combat",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "stone_edge",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 67
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "solar_blade",
-          "level": 60
+          "level": 73
         },
         {
           "klass": "TechLearnableMove",
@@ -374,6 +374,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "dreadbind"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spore"
         }
       ],
       "names": {
@@ -456,25 +464,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -494,10 +483,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -516,7 +524,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 8,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -535,7 +543,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -554,7 +562,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 17,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -573,7 +581,7 @@
           "symbol": "low_sweep",
           "id": 490,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Low Sweep",
             "fr": "Balayette",
@@ -592,7 +600,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -611,7 +619,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -630,7 +638,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 37,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -649,7 +657,7 @@
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 42,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -668,7 +676,7 @@
           "symbol": "scary_face",
           "id": 184,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 44,
           "names": {
             "en": "Scary Face",
             "fr": "Grimace",
@@ -687,7 +695,7 @@
           "symbol": "leaf_storm",
           "id": 437,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 50,
           "names": {
             "en": "Leaf Storm",
             "fr": "Tempête Verte",
@@ -706,7 +714,7 @@
           "symbol": "close_combat",
           "id": 370,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 56,
           "names": {
             "en": "Close Combat",
             "fr": "Close Combat",
@@ -725,7 +733,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 61,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -744,7 +752,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 67,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -763,7 +771,7 @@
           "symbol": "solar_blade",
           "id": 669,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 73,
           "names": {
             "en": "Solar Blade",
             "fr": "Lame Solaire",
@@ -1613,6 +1621,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "dreadbind",
+          "id": 754,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dread Bind",
+            "fr": "Lien Terreur",
+            "it": "Beccoshock",
+            "de": "Schockschnabel",
+            "es": "Electropico",
+            "ko": "전격부리"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spore",
+          "id": 147,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spore",
+            "fr": "Spore",
+            "it": "Spora",
+            "de": "Pilzspore",
+            "es": "Espora",
+            "ko": "버섯포자"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

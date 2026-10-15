@@ -83,12 +83,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_throw",
-          "level": 8
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,42 +108,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 20
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_slide",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hammer_arm",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earthquake",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hammer_arm",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 42
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 48
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "superpower",
-          "level": 54
+          "level": 75
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_impact",
-          "level": 60
+          "level": 81
         },
         {
           "klass": "TechLearnableMove",
@@ -387,6 +417,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -510,7 +572,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -529,7 +591,7 @@
           "symbol": "rock_throw",
           "id": 88,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Rock Throw",
             "fr": "Jet-Pierres",
@@ -543,6 +605,25 @@
           "pp": 15,
           "power": 50,
           "accuracy": 90
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
         },
         {
           "symbol": "stomp",
@@ -586,7 +667,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -602,10 +683,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "rock_slide",
           "id": 157,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 36,
           "names": {
             "en": "Rock Slide",
             "fr": "Éboulement",
@@ -621,10 +759,29 @@
           "accuracy": 90
         },
         {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "hammer_arm",
           "id": 359,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 47,
           "names": {
             "en": "Hammer Arm",
             "fr": "Marto-Poing",
@@ -640,29 +797,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "earthquake",
-          "id": 89,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Earthquake",
-            "fr": "Séisme",
-            "it": "Terremoto",
-            "de": "Erdbeben",
-            "es": "Terremoto",
-            "ko": "지진"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 10,
-          "power": 100,
-          "accuracy": 100
-        },
-        {
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 52,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -678,10 +816,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rest",
+          "id": 156,
+          "klass": "LevelLearnableMove",
+          "level": 63,
+          "names": {
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 69,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -700,7 +876,7 @@
           "symbol": "superpower",
           "id": 276,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 75,
           "names": {
             "en": "Superpower",
             "fr": "Surpuissance",
@@ -719,7 +895,7 @@
           "symbol": "giga_impact",
           "id": 416,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 81,
           "names": {
             "en": "Giga Impact",
             "fr": "Giga Impact",
@@ -1172,63 +1348,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "mud_slap",
-          "id": 189,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud-Slap",
-            "fr": "Coud’Boue",
-            "it": "Fangosberla",
-            "de": "Lehmschelle",
-            "es": "Bofetón Lodo",
-            "ko": "진흙뿌리기"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "earth_power",
-          "id": 414,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Earth Power",
-            "fr": "Telluriforce",
-            "it": "Geoforza",
-            "de": "Erdkräfte",
-            "es": "Tierra Viva",
-            "ko": "대지의힘"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "TechLearnableMove",
@@ -1322,25 +1441,6 @@
           "pp": 15,
           "power": 60,
           "accuracy": 95
-        },
-        {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
         },
         {
           "symbol": "pursuit",
@@ -1552,25 +1652,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "iron_defense",
-          "id": 334,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Defense",
-            "fr": "Mur de Fer",
-            "it": "Ferroscudo",
-            "de": "Eisenabwehr",
-            "es": "Defensa Férrea",
-            "ko": "철벽"
-          },
-          "category": "status",
-          "type": "steel",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "TechLearnableMove",
@@ -1742,25 +1823,6 @@
           "accuracy": 85
         },
         {
-          "symbol": "rest",
-          "id": 156,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rest",
-            "fr": "Repos",
-            "it": "Riposo",
-            "de": "Erholung",
-            "es": "Descanso",
-            "ko": "잠자기"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "protect",
           "id": 182,
           "klass": "TechLearnableMove",
@@ -1797,6 +1859,158 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }

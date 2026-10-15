@@ -97,17 +97,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "tail_whip",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 9
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
@@ -116,33 +116,73 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "rot_claw",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 16
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_fang",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "soul_siphon",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 28
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 32
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "putrid_fangs",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "agility",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_edge",
-          "level": 36
+          "level": 64
         },
         {
           "klass": "TechLearnableMove",
@@ -359,6 +399,42 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "hyper_fang"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "rot_spikes"
         }
       ],
       "names": {
@@ -463,7 +539,7 @@
           "symbol": "tail_whip",
           "id": 39,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Tail Whip",
             "fr": "Mimi-Queue",
@@ -482,7 +558,7 @@
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 7,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -501,7 +577,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 10,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -536,10 +612,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "rot_claw",
+          "id": 732,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "screech",
+          "id": 103,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 21,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -558,7 +672,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -574,10 +688,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "soul_siphon",
+          "id": 744,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Soul Siphon",
+            "fr": "Siphon'Âme",
+            "it": "Cannone Dynamax",
+            "de": "Dynamax-Kanone",
+            "es": "Cañón Dinamax",
+            "ko": "다이맥스포"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 30,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -596,7 +729,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -615,7 +748,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 37,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -631,10 +764,105 @@
           "accuracy": 100
         },
         {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "agility",
+          "id": 97,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Agility",
+            "fr": "Hâte",
+            "it": "Agilità",
+            "de": "Agilität",
+            "es": "Agilidad",
+            "ko": "고속이동"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Withering Pulse",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "double_edge",
           "id": 38,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 64,
           "names": {
             "en": "Double-Edge",
             "fr": "Damoclès",
@@ -1125,82 +1353,6 @@
           "accuracy": 75
         },
         {
-          "symbol": "rot_claw",
-          "id": 732,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rot Claw",
-            "fr": "Pourrigriffe",
-            "it": "Pikasaetta",
-            "de": "Pika-Flash",
-            "es": "Pikatormenta",
-            "ko": "피카피카썬더"
-          },
-          "category": "physical",
-          "type": "undead",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "soul_siphon",
-          "id": 744,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Soul Siphon",
-            "fr": "Siphon'Âme",
-            "it": "Cannone Dynamax",
-            "de": "Dynamax-Kanone",
-            "es": "Cañón Dinamax",
-            "ko": "다이맥스포"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "putrid_fangs",
-          "id": 733,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Putrid Fangs",
-            "fr": "Crocs Putrides",
-            "it": "Bollaslurp",
-            "de": "Blubbsauger",
-            "es": "Vapodrenaje",
-            "ko": "생생버블"
-          },
-          "category": "physical",
-          "type": "undead",
-          "pp": 15,
-          "power": 60,
-          "accuracy": 85
-        },
-        {
-          "symbol": "withering_pulse",
-          "id": 745,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Withering Pulse",
-            "fr": "Flétri-Vague",
-            "it": "Tiromirato",
-            "de": "Präzisionsschuss",
-            "es": "Disparo Certero",
-            "ko": "노려맞히기"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 15,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "bone_pierce",
           "id": 736,
           "klass": "TechLearnableMove",
@@ -1258,25 +1410,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "TechLearnableMove",
@@ -1292,25 +1425,6 @@
           "category": "status",
           "type": "psychic",
           "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "agility",
-          "id": 97,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Agility",
-            "fr": "Hâte",
-            "it": "Agilità",
-            "de": "Agilität",
-            "es": "Agilidad",
-            "ko": "고속이동"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
           "power": 0,
           "accuracy": 0
         },
@@ -1429,25 +1543,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "will_o_wisp",
-          "id": 261,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Will-O-Wisp",
-            "fr": "Feu Follet",
-            "it": "Fuocofatuo",
-            "de": "Irrlicht",
-            "es": "Fuego Fatuo",
-            "ko": "도깨비불"
-          },
-          "category": "status",
-          "type": "fire",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 85
-        },
-        {
           "symbol": "fester",
           "id": 752,
           "klass": "TechLearnableMove",
@@ -1538,6 +1633,177 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hyper_fang",
+          "id": 158,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Hyper Fang",
+            "fr": "Croc de Mort",
+            "it": "Iperzanna",
+            "de": "Hyperzahn",
+            "es": "Hipercolmillo",
+            "ko": "필살앞니"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "rot_spikes",
+          "id": 758,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rot Spikes",
+            "fr": "Flétripics",
+            "it": "Dynainsetto",
+            "de": "Dyna-Schwarm",
+            "es": "Maxinsecto",
+            "ko": "다이웜"
+          },
+          "category": "status",
+          "type": "undead",
           "pp": 20,
           "power": 0,
           "accuracy": 0

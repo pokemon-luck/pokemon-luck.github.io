@@ -72,88 +72,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_claw",
+          "move": "pay_day",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "autotomize",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_blast",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sandstorm",
-          "level": 12
+          "move": "metal_claw",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "smack_down",
-          "level": 16
+          "move": "flatter",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flash_cannon",
-          "level": 20
+          "move": "mirror_shot",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bulldoze",
+          "move": "switcheroo",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 28
+          "move": "flash_cannon",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "iron_tail",
-          "level": 32
+          "move": "sandstorm",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "magnet_bomb",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "stone_edge",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_defense",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "foul_play",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 52
+          "level": 76
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hyper_beam",
-          "level": 60
+          "move": "meteor_mash",
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -448,25 +463,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -486,29 +482,86 @@
           "accuracy": 0
         },
         {
-          "symbol": "rock_throw",
-          "id": 88,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 1,
           "names": {
-            "en": "Rock Throw",
-            "fr": "Jet-Pierres",
-            "it": "Sassata",
-            "de": "Steinwurf",
-            "es": "Lanzarrocas",
-            "ko": "돌떨구기"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pay_day",
+          "id": 6,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Pay Day",
+            "fr": "Jackpot",
+            "it": "Giornopaga",
+            "de": "Zahltag",
+            "es": "Día de Pago",
+            "ko": "고양이돈받기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "autotomize",
+          "id": 475,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Autotomize",
+            "fr": "Allègement",
+            "it": "Sganciapesi",
+            "de": "Autotomie",
+            "es": "Aligerar",
+            "ko": "바디퍼지"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rock_blast",
+          "id": 350,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Rock Blast",
+            "fr": "Boule Roc",
+            "it": "Cadutamassi",
+            "de": "Felswurf",
+            "es": "Pedrada",
+            "ko": "락블레스트"
           },
           "category": "physical",
           "type": "rock",
-          "pp": 15,
-          "power": 50,
+          "pp": 10,
+          "power": 25,
           "accuracy": 90
         },
         {
           "symbol": "metal_claw",
           "id": 232,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 13,
           "names": {
             "en": "Metal Claw",
             "fr": "Griffe Acier",
@@ -524,48 +577,67 @@
           "accuracy": 95
         },
         {
-          "symbol": "sandstorm",
-          "id": 201,
+          "symbol": "flatter",
+          "id": 260,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 15,
           "names": {
-            "en": "Sandstorm",
-            "fr": "Tempête de Sable",
-            "it": "Terrempesta",
-            "de": "Sandsturm",
-            "es": "Tormenta Arena",
-            "ko": "모래바람"
+            "en": "Flatter",
+            "fr": "Flatterie",
+            "it": "Adulazione",
+            "de": "Schmeichler",
+            "es": "Camelo",
+            "ko": "부추기기"
           },
           "category": "status",
-          "type": "rock",
-          "pp": 10,
+          "type": "dark",
+          "pp": 15,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 100
         },
         {
-          "symbol": "smack_down",
-          "id": 479,
+          "symbol": "mirror_shot",
+          "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
-            "en": "Smack Down",
-            "fr": "Anti-Air",
-            "it": "Abbattimento",
-            "de": "Katapult",
-            "es": "Antiaéreo",
-            "ko": "떨어뜨리기"
+            "en": "Mirror Shot",
+            "fr": "Miroi-Tir",
+            "it": "Cristalcolpo",
+            "de": "Spiegelsalve",
+            "es": "Disparo Espejo",
+            "ko": "미러숏"
           },
-          "category": "physical",
-          "type": "rock",
-          "pp": 15,
-          "power": 50,
+          "category": "special",
+          "type": "steel",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 85
+        },
+        {
+          "symbol": "switcheroo",
+          "id": 415,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Switcheroo",
+            "fr": "Passe-Passe",
+            "it": "Rapidscambio",
+            "de": "Wechseldich",
+            "es": "Trapicheo",
+            "ko": "바꿔치기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 10,
+          "power": 0,
           "accuracy": 100
         },
         {
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 29,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -581,67 +653,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "bulldoze",
-          "id": 523,
+          "symbol": "sandstorm",
+          "id": 201,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 33,
           "names": {
-            "en": "Bulldoze",
-            "fr": "Piétisol",
-            "it": "Battiterra",
-            "de": "Dampfwalze",
-            "es": "Terratemblor",
-            "ko": "땅고르기"
+            "en": "Sandstorm",
+            "fr": "Tempête de Sable",
+            "it": "Terrempesta",
+            "de": "Sandsturm",
+            "es": "Tormenta Arena",
+            "ko": "모래바람"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "magnet_bomb",
+          "id": 443,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Magnet Bomb",
+            "fr": "Bombe Aimant",
+            "it": "Bombagnete",
+            "de": "Magnetbombe",
+            "es": "Bomba Imán",
+            "ko": "마그넷봄"
           },
           "category": "physical",
-          "type": "ground",
+          "type": "steel",
           "pp": 20,
           "power": 60,
-          "accuracy": 100
+          "accuracy": 0
         },
         {
-          "symbol": "ancient_power",
-          "id": 246,
+          "symbol": "iron_head",
+          "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 43,
           "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "iron_tail",
-          "id": 231,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Iron Tail",
-            "fr": "Queue de Fer",
-            "it": "Codacciaio",
-            "de": "Eisenschweif",
-            "es": "Cola Férrea",
-            "ko": "아이언테일"
+            "en": "Iron Head",
+            "fr": "Tête de Fer",
+            "it": "Metaltestata",
+            "de": "Eisenschädel",
+            "es": "Cabeza de Hierro",
+            "ko": "아이언헤드"
           },
           "category": "physical",
           "type": "steel",
           "pp": 15,
-          "power": 100,
-          "accuracy": 75
+          "power": 80,
+          "accuracy": 100
         },
         {
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 48,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -657,48 +729,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "stone_edge",
-          "id": 444,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Stone Edge",
-            "fr": "Lame de Roc",
-            "it": "Pietrataglio",
-            "de": "Steinkante",
-            "es": "Roca Afilada",
-            "ko": "스톤에지"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 5,
-          "power": 100,
-          "accuracy": 80
-        },
-        {
-          "symbol": "earth_power",
-          "id": 414,
-          "klass": "LevelLearnableMove",
-          "level": 44,
-          "names": {
-            "en": "Earth Power",
-            "fr": "Telluriforce",
-            "it": "Geoforza",
-            "de": "Erdkräfte",
-            "es": "Tierra Viva",
-            "ko": "대지의힘"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 53,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -714,10 +748,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "foul_play",
+          "id": 492,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Foul Play",
+            "fr": "Tricherie",
+            "it": "Ripicca",
+            "de": "Schmarotzer",
+            "es": "Juego Sucio",
+            "ko": "속임수"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 76,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -733,41 +824,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "psychic",
-          "id": 94,
+          "symbol": "meteor_mash",
+          "id": 309,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 82,
           "names": {
-            "en": "Psychic",
-            "fr": "Psyko",
-            "it": "Psichico",
-            "de": "Psychokinese",
-            "es": "Psíquico",
-            "ko": "사이코키네시스"
+            "en": "Meteor Mash",
+            "fr": "Poing Météore",
+            "it": "Meteorpugno",
+            "de": "Sternenhieb",
+            "es": "Puño Meteoro",
+            "ko": "코멧펀치"
           },
-          "category": "special",
-          "type": "psychic",
+          "category": "physical",
+          "type": "steel",
           "pp": 10,
           "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hyper_beam",
-          "id": 63,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Hyper Beam",
-            "fr": "Ultralaser",
-            "it": "Iper Raggio",
-            "de": "Hyperstrahl",
-            "es": "Hiperrayo",
-            "ko": "파괴광선"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 5,
-          "power": 150,
           "accuracy": 90
         },
         {
@@ -980,6 +1052,44 @@
           "accuracy": 95
         },
         {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "earthquake",
           "id": 89,
           "klass": "TechLearnableMove",
@@ -1015,6 +1125,25 @@
           "type": "psychic",
           "pp": 10,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
           "accuracy": 100
         },
         {
@@ -1075,6 +1204,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "TechLearnableMove",
@@ -1092,6 +1240,25 @@
           "pp": 15,
           "power": 60,
           "accuracy": 95
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
         },
         {
           "symbol": "rock_slide",
@@ -1205,44 +1372,6 @@
           "type": "dark",
           "pp": 20,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mirror_shot",
-          "id": 429,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mirror Shot",
-            "fr": "Miroi-Tir",
-            "it": "Cristalcolpo",
-            "de": "Spiegelsalve",
-            "es": "Disparo Espejo",
-            "ko": "미러숏"
-          },
-          "category": "special",
-          "type": "steel",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 85
-        },
-        {
-          "symbol": "iron_head",
-          "id": 442,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Head",
-            "fr": "Tête de Fer",
-            "it": "Metaltestata",
-            "de": "Eisenschädel",
-            "es": "Cabeza de Hierro",
-            "ko": "아이언헤드"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {

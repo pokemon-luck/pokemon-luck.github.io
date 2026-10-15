@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "light_jab",
+          "move": "protect",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "protect",
+          "move": "light_jab",
           "level": 1
         },
         {
@@ -88,7 +88,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,77 +103,77 @@
         {
           "klass": "LevelLearnableMove",
           "move": "safeguard",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 24
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "compassion",
-          "level": 28
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "air_slash",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "air_slash",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 40
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blinding_wave",
-          "level": 44
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 48
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sacred_sword",
-          "level": 52
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "healing_wish",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "justice_hammer",
           "level": 64
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "healing_wish",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "justice_hammer",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "wish",
-          "level": 68
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protective_cascade",
-          "level": 72
+          "level": 81
         },
         {
           "klass": "LevelLearnableMove",
           "move": "counterbalance",
-          "level": 76
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -412,25 +412,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "light_jab",
-          "id": 764,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Light Jab",
-            "fr": "Lumino-tacle",
-            "it": "Dynacorrosione",
-            "de": "Dyna-Giftschwall",
-            "es": "Maxiácido",
-            "ko": "다이애시드"
-          },
-          "category": "physical",
-          "type": "celestial",
-          "pp": 35,
-          "power": 35,
-          "accuracy": 100
-        },
-        {
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
@@ -448,6 +429,25 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
         },
         {
           "symbol": "sparkle_powder",
@@ -472,7 +472,7 @@
           "symbol": "light_screen",
           "id": 113,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Light Screen",
             "fr": "Mur Lumière",
@@ -529,7 +529,7 @@
           "symbol": "safeguard",
           "id": 219,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Safeguard",
             "fr": "Rune Protect",
@@ -548,7 +548,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -567,7 +567,7 @@
           "symbol": "compassion",
           "id": 783,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
             "en": "Compassion",
             "fr": "Compassion",
@@ -586,7 +586,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 36,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -605,7 +605,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 41,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -624,7 +624,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 46,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -643,7 +643,7 @@
           "symbol": "blinding_wave",
           "id": 776,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 49,
           "names": {
             "en": "Blinding Wave",
             "fr": "Vague Aveuglante",
@@ -662,7 +662,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 54,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -681,7 +681,7 @@
           "symbol": "sacred_sword",
           "id": 533,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 59,
           "names": {
             "en": "Sacred Sword",
             "fr": "Lame Sainte",
@@ -700,7 +700,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 64,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -719,7 +719,7 @@
           "symbol": "healing_wish",
           "id": 361,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 69,
           "names": {
             "en": "Healing Wish",
             "fr": "Vœu Soin",
@@ -738,7 +738,7 @@
           "symbol": "justice_hammer",
           "id": 772,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 73,
           "names": {
             "en": "Justice Hammer",
             "fr": "Marteau Justice",
@@ -757,7 +757,7 @@
           "symbol": "wish",
           "id": 273,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 77,
           "names": {
             "en": "Wish",
             "fr": "Vœu",
@@ -776,7 +776,7 @@
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 81,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -795,7 +795,7 @@
           "symbol": "counterbalance",
           "id": 790,
           "klass": "LevelLearnableMove",
-          "level": 76,
+          "level": 85,
           "names": {
             "en": "Counterbalance",
             "fr": "Compensation",

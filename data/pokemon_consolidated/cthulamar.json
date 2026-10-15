@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "bubble",
+          "move": "bite",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bite",
+          "move": "bubble",
           "level": 1
         },
         {
@@ -88,47 +88,47 @@
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swagger",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 25
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 28
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scary_face",
-          "level": 32
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 36
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -138,32 +138,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 56
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "superpower",
-          "level": 60
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 64
+          "level": 71
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_impact",
-          "level": 68
+          "level": 77
         },
         {
           "klass": "TechLearnableMove",
@@ -470,25 +470,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "bubble",
-          "id": 145,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Bubble",
-            "fr": "Écume",
-            "it": "Bolla",
-            "de": "Blubber",
-            "es": "Burbuja",
-            "ko": "거품"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
@@ -505,6 +486,25 @@
           "type": "dark",
           "pp": 25,
           "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bubble",
+          "id": 145,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Bubble",
+            "fr": "Écume",
+            "it": "Bolla",
+            "de": "Blubber",
+            "es": "Burbuja",
+            "ko": "거품"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -530,7 +530,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -549,7 +549,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -568,7 +568,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -587,7 +587,7 @@
           "symbol": "swagger",
           "id": 207,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Swagger",
             "fr": "Vantardise",
@@ -606,7 +606,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 21,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -625,7 +625,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 26,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -644,7 +644,7 @@
           "symbol": "scary_face",
           "id": 184,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 28,
           "names": {
             "en": "Scary Face",
             "fr": "Grimace",
@@ -663,7 +663,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 33,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -682,7 +682,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -720,7 +720,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -739,7 +739,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -758,7 +758,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -777,7 +777,7 @@
           "symbol": "superpower",
           "id": 276,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 65,
           "names": {
             "en": "Superpower",
             "fr": "Surpuissance",
@@ -796,7 +796,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 71,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -815,7 +815,7 @@
           "symbol": "giga_impact",
           "id": 416,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 77,
           "names": {
             "en": "Giga Impact",
             "fr": "Giga Impact",

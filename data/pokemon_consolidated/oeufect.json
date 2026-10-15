@@ -32,7 +32,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 25
+              "value": 20
             }
           ]
         }
@@ -94,82 +94,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "fester",
-          "level": 3
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fairy_wind",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rot_claw",
+          "move": "fairy_wind",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sweet_kiss",
+          "move": "rot_claw",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "sweet_kiss",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 15
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "defacement",
-          "level": 18
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 21
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 25
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "maggot_lash",
-          "level": 27
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 30
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 33
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "revenants_grasp",
-          "level": 36
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wish",
-          "level": 39
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "withering_pulse",
-          "level": 42
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "deaths_favour",
-          "level": 45
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -473,7 +473,7 @@
           "symbol": "fester",
           "id": 752,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 6,
           "names": {
             "en": "Fester",
             "fr": "Envenimation",
@@ -492,7 +492,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 9,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -511,7 +511,7 @@
           "symbol": "rot_claw",
           "id": 732,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 12,
           "names": {
             "en": "Rot Claw",
             "fr": "Pourrigriffe",
@@ -530,7 +530,7 @@
           "symbol": "sweet_kiss",
           "id": 186,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 14,
           "names": {
             "en": "Sweet Kiss",
             "fr": "Doux Baiser",
@@ -549,7 +549,7 @@
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 17,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -568,7 +568,7 @@
           "symbol": "defacement",
           "id": 753,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 20,
           "names": {
             "en": "Defacement",
             "fr": "Dégradation",
@@ -587,7 +587,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 24,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -606,7 +606,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -625,7 +625,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 31,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -644,7 +644,7 @@
           "symbol": "maggot_lash",
           "id": 735,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 35,
           "names": {
             "en": "Maggot Lash",
             "fr": "Fouet Grouillant",
@@ -663,7 +663,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 40,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -682,7 +682,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 43,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -701,7 +701,7 @@
           "symbol": "revenants_grasp",
           "id": 756,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 48,
           "names": {
             "en": "Revenant's Grasp",
             "fr": "Poigne Revenant",
@@ -720,7 +720,7 @@
           "symbol": "wish",
           "id": 273,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 52,
           "names": {
             "en": "Wish",
             "fr": "Vœu",
@@ -739,7 +739,7 @@
           "symbol": "withering_pulse",
           "id": 745,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 56,
           "names": {
             "en": "Withering Pulse",
             "fr": "Flétri-Vague",
@@ -758,7 +758,7 @@
           "symbol": "deaths_favour",
           "id": 760,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 60,
           "names": {
             "en": "Death's Favour",
             "fr": "Faveur Mortelle",

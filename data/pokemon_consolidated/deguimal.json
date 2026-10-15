@@ -83,7 +83,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "confusion",
           "level": 1
         },
         {
@@ -93,88 +93,88 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 3
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disable",
-          "level": 4
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pursuit",
-          "level": 8
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 16
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "torment",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 26
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hypnosis",
-          "level": 32
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "extrasensory",
-          "level": 32
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hypnosis",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 44
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 48
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "role_play",
-          "level": 52
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "future_sight",
-          "level": 56
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 60
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
@@ -431,22 +431,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "confusion",
+          "id": 93,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
           },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
           "accuracy": 100
         },
         {
@@ -469,29 +469,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "confusion",
-          "id": 93,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 5,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -510,7 +510,7 @@
           "symbol": "disable",
           "id": 50,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 7,
           "names": {
             "en": "Disable",
             "fr": "Entrave",
@@ -529,7 +529,7 @@
           "symbol": "pursuit",
           "id": 228,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 10,
           "names": {
             "en": "Pursuit",
             "fr": "Poursuite",
@@ -548,7 +548,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -567,7 +567,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 17,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -586,7 +586,7 @@
           "symbol": "torment",
           "id": 259,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Torment",
             "fr": "Tourmente",
@@ -605,7 +605,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -624,7 +624,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 27,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -643,7 +643,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -659,29 +659,10 @@
           "accuracy": 95
         },
         {
-          "symbol": "hypnosis",
-          "id": 95,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Hypnosis",
-            "fr": "Hypnose",
-            "it": "Ipnosi",
-            "de": "Hypnose",
-            "es": "Hipnosis",
-            "ko": "최면술"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 60
-        },
-        {
           "symbol": "extrasensory",
           "id": 326,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 36,
           "names": {
             "en": "Extrasensory",
             "fr": "Extrasenseur",
@@ -697,10 +678,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
+        },
+        {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 46,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -719,7 +719,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 51,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -738,7 +738,7 @@
           "symbol": "role_play",
           "id": 272,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 53,
           "names": {
             "en": "Role Play",
             "fr": "Imitation",
@@ -757,7 +757,7 @@
           "symbol": "future_sight",
           "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 58,
           "names": {
             "en": "Future Sight",
             "fr": "Prescience",
@@ -776,7 +776,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 63,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",

@@ -83,92 +83,102 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mud_slap",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_tomb",
-          "level": 10
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 15
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "radiant_strike",
-          "level": 25
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 30
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 35
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cleansing",
-          "level": 40
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 45
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 50
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 55
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 60
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 65
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "misfortune_sand",
-          "level": 70
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_world",
-          "level": 75
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "starry_bolt",
-          "level": 80
+          "level": 75
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 85
+          "level": 80
         },
         {
           "klass": "LevelLearnableMove",
           "move": "grudge",
-          "level": 90
+          "level": 84
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heal_block",
+          "level": 89
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fissure",
+          "level": 95
         },
         {
           "klass": "TechLearnableMove",
@@ -592,7 +602,7 @@
           "symbol": "mud_slap",
           "id": 189,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Mud-Slap",
             "fr": "Coud’Boue",
@@ -611,7 +621,7 @@
           "symbol": "sand_tomb",
           "id": 328,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 7,
           "names": {
             "en": "Sand Tomb",
             "fr": "Tourbi-Sable",
@@ -630,7 +640,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 11,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -649,7 +659,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -668,7 +678,7 @@
           "symbol": "radiant_strike",
           "id": 765,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 20,
           "names": {
             "en": "Radiant Strike",
             "fr": "Frappe Radieuse",
@@ -687,7 +697,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 25,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -706,7 +716,7 @@
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 30,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -725,7 +735,7 @@
           "symbol": "cleansing",
           "id": 778,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 34,
           "names": {
             "en": "Cleansing",
             "fr": "Épuration",
@@ -744,7 +754,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 40,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -763,7 +773,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 45,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -782,7 +792,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 48,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -801,7 +811,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 53,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -820,7 +830,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 59,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -839,7 +849,7 @@
           "symbol": "misfortune_sand",
           "id": 727,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 64,
           "names": {
             "en": "Misfortune Sand",
             "fr": "Malchansable",
@@ -858,7 +868,7 @@
           "symbol": "mirror_world",
           "id": 787,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 69,
           "names": {
             "en": "Mirror World",
             "fr": "Monde Mirroir",
@@ -877,7 +887,7 @@
           "symbol": "starry_bolt",
           "id": 781,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 75,
           "names": {
             "en": "Starry Bolt",
             "fr": "Flèche Étoile",
@@ -896,7 +906,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 85,
+          "level": 80,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -915,7 +925,7 @@
           "symbol": "grudge",
           "id": 288,
           "klass": "LevelLearnableMove",
-          "level": 90,
+          "level": 84,
           "names": {
             "en": "Grudge",
             "fr": "Rancune",
@@ -929,6 +939,44 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "heal_block",
+          "id": 377,
+          "klass": "LevelLearnableMove",
+          "level": 89,
+          "names": {
+            "en": "Heal Block",
+            "fr": "Anti-Soin",
+            "it": "Anticura",
+            "de": "Heilblockade",
+            "es": "Anticura",
+            "ko": "회복봉인"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fissure",
+          "id": 90,
+          "klass": "LevelLearnableMove",
+          "level": 95,
+          "names": {
+            "en": "Fissure",
+            "fr": "Abîme",
+            "it": "Abisso",
+            "de": "Geofissur",
+            "es": "Fisura",
+            "ko": "땅가르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 30
         },
         {
           "symbol": "quick_attack",

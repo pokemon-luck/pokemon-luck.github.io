@@ -72,16 +72,6 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "curse",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sand_attack",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
           "level": 1
         },
@@ -92,8 +82,18 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,82 +103,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 15
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stomping_tantrum",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 25
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 30
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 35
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 38
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "worlds_weight",
-          "level": 40
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 42
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "seed_bomb",
-          "level": 45
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 50
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 55
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hammer_arm",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "stone_edge",
           "level": 65
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 70
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 75
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fissure",
-          "level": 80
+          "level": 81
         },
         {
           "klass": "LevelLearnableMove",
@@ -430,44 +430,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "curse",
-          "id": 174,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Curse",
-            "fr": "Malédiction",
-            "it": "Maledizione",
-            "de": "Fluch",
-            "es": "Maldición",
-            "ko": "저주"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sand_attack",
-          "id": 28,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Sand Attack",
-            "fr": "Jet de Sable",
-            "it": "Turbosabbia",
-            "de": "Sandwirbel",
-            "es": "Ataque Arena",
-            "ko": "모래뿌리기"
-          },
-          "category": "status",
-          "type": "ground",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "tackle",
           "id": 33,
           "klass": "LevelLearnableMove",
@@ -506,10 +468,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -547,7 +547,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 13,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -566,7 +566,7 @@
           "symbol": "stomping_tantrum",
           "id": 707,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Stomping Tantrum",
             "fr": "Trépignement",
@@ -585,7 +585,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 21,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -604,7 +604,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 26,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -623,7 +623,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 31,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -642,7 +642,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 36,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -661,7 +661,7 @@
           "symbol": "worlds_weight",
           "id": 804,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 41,
           "names": {
             "en": "World's Weight",
             "fr": "Poids du Monde",
@@ -680,7 +680,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 46,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -699,7 +699,7 @@
           "symbol": "seed_bomb",
           "id": 402,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 51,
           "names": {
             "en": "Seed Bomb",
             "fr": "Canon Graine",
@@ -718,7 +718,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -737,7 +737,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 61,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -756,7 +756,7 @@
           "symbol": "hammer_arm",
           "id": 359,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 65,
           "names": {
             "en": "Hammer Arm",
             "fr": "Marto-Poing",
@@ -775,7 +775,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 69,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -794,7 +794,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -813,7 +813,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 77,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -832,7 +832,7 @@
           "symbol": "fissure",
           "id": 90,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 81,
           "names": {
             "en": "Fissure",
             "fr": "Abîme",

@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -88,7 +88,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
@@ -98,22 +98,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "revenge",
-          "level": 24
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
@@ -123,57 +123,57 @@
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 40
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 44
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "close_combat",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 56
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 60
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
           "move": "throat_chop",
-          "level": 65
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "high_jump_kick",
-          "level": 70
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 75
+          "level": 81
         },
         {
           "klass": "LevelLearnableMove",
           "move": "final_gambit",
-          "level": 80
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -488,25 +488,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -523,6 +504,25 @@
           "type": "normal",
           "pp": 30,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -548,7 +548,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -586,7 +586,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -605,7 +605,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -624,7 +624,7 @@
           "symbol": "revenge",
           "id": 279,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Revenge",
             "fr": "Vendetta",
@@ -643,7 +643,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -681,7 +681,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -700,7 +700,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 42,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -719,7 +719,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 47,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -738,7 +738,7 @@
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 52,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -757,7 +757,7 @@
           "symbol": "close_combat",
           "id": 370,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Close Combat",
             "fr": "Close Combat",
@@ -776,7 +776,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 62,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -795,7 +795,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 67,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -814,7 +814,7 @@
           "symbol": "throat_chop",
           "id": 675,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 72,
           "names": {
             "en": "Throat Chop",
             "fr": "Exécu-Son",
@@ -833,7 +833,7 @@
           "symbol": "high_jump_kick",
           "id": 136,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 77,
           "names": {
             "en": "High Jump Kick",
             "fr": "Pied Voltige",
@@ -852,7 +852,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 81,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -871,7 +871,7 @@
           "symbol": "final_gambit",
           "id": 515,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 85,
           "names": {
             "en": "Final Gambit",
             "fr": "Tout ou Rien",

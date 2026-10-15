@@ -78,72 +78,72 @@
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 2
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rapid_spin",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "withdraw",
-          "level": 6
+          "move": "rapid_spin",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "avalanche",
+          "move": "withdraw",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "brine",
+          "move": "avalanche",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "brine",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 16
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ice_beam",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "ice_beam",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 28
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "whirlpool",
-          "level": 32
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 41
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "yawn",
-          "level": 46
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "surf",
-          "level": 51
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
@@ -153,17 +153,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_coat",
-          "level": 62
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stealth_rock",
-          "level": 68
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sheer_cold",
-          "level": 73
+          "level": 71
         },
         {
           "klass": "TechLearnableMove",
@@ -424,7 +424,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 4,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -443,7 +443,7 @@
           "symbol": "rapid_spin",
           "id": 229,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 7,
           "names": {
             "en": "Rapid Spin",
             "fr": "Tour Rapide",
@@ -462,7 +462,7 @@
           "symbol": "withdraw",
           "id": 110,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 9,
           "names": {
             "en": "Withdraw",
             "fr": "Repli",
@@ -481,7 +481,7 @@
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 13,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -500,7 +500,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 17,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -519,7 +519,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -538,7 +538,7 @@
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -557,7 +557,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 29,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -576,7 +576,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 34,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -595,7 +595,7 @@
           "symbol": "whirlpool",
           "id": 250,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 37,
           "names": {
             "en": "Whirlpool",
             "fr": "Siphon",
@@ -614,7 +614,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 42,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -633,7 +633,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 47,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -652,7 +652,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 49,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -671,7 +671,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 51,
+          "level": 54,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -709,7 +709,7 @@
           "symbol": "mirror_coat",
           "id": 243,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 61,
           "names": {
             "en": "Mirror Coat",
             "fr": "Voile Miroir",
@@ -728,7 +728,7 @@
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 66,
           "names": {
             "en": "Stealth Rock",
             "fr": "Piège de Roc",
@@ -747,7 +747,7 @@
           "symbol": "sheer_cold",
           "id": 329,
           "klass": "LevelLearnableMove",
-          "level": 73,
+          "level": 71,
           "names": {
             "en": "Sheer Cold",
             "fr": "Glaciation",

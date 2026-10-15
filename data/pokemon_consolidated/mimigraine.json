@@ -83,83 +83,83 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growth",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 7
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 10
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psywave",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "psywave",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 16
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 20
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 24
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 28
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 32
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sleep_powder",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "petal_blizzard",
-          "level": 40
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 44
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 45
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "grass_knot",
-          "level": 52
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -268,6 +268,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "will_o_wisp"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "phantom_force"
         }
       ],
       "names": {
@@ -350,25 +358,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
@@ -388,10 +377,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -410,7 +418,7 @@
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 8,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -429,7 +437,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 13,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -448,7 +456,7 @@
           "symbol": "psywave",
           "id": 149,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 18,
           "names": {
             "en": "Psywave",
             "fr": "Vague Psy",
@@ -467,7 +475,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 21,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -486,7 +494,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 26,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -505,7 +513,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 30,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -524,7 +532,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 34,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -543,7 +551,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 37,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -562,7 +570,7 @@
           "symbol": "sleep_powder",
           "id": 79,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 42,
           "names": {
             "en": "Sleep Powder",
             "fr": "Poudre Dodo",
@@ -581,7 +589,7 @@
           "symbol": "petal_blizzard",
           "id": 572,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Petal Blizzard",
             "fr": "Tempête Florale",
@@ -600,7 +608,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 52,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -619,7 +627,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 56,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -638,7 +646,7 @@
           "symbol": "grass_knot",
           "id": 447,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 60,
           "names": {
             "en": "Grass Knot",
             "fr": "Nœud Herbe",
@@ -1013,6 +1021,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
         }
       ]
     }

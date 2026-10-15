@@ -91,12 +91,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "splash",
+          "move": "tail_whip",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "tail_whip",
+          "move": "splash",
           "level": 1
         },
         {
@@ -112,17 +112,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 16
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
@@ -132,72 +132,72 @@
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 22
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "covet",
-          "level": 25
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "thief",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "safeguard",
+          "move": "thief",
           "level": 33
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "safeguard",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 36
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_coat",
-          "level": 39
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dive",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "calm_mind",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dive",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "waterfall",
-          "level": 51
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 54
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "encore",
-          "level": 57
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 60
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -362,6 +362,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stomping_tantrum"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "moongeist_beam"
         }
       ],
       "names": {
@@ -444,25 +452,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "splash",
-          "id": 150,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Splash",
-            "fr": "Trempette",
-            "it": "Splash",
-            "de": "Platscher",
-            "es": "Salpicadura",
-            "ko": "튀어오르기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "tail_whip",
           "id": 39,
           "klass": "LevelLearnableMove",
@@ -480,6 +469,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "splash",
+          "id": 150,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Splash",
+            "fr": "Trempette",
+            "it": "Splash",
+            "de": "Platscher",
+            "es": "Salpicadura",
+            "ko": "튀어오르기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "water_gun",
@@ -523,7 +531,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -542,7 +550,7 @@
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -561,7 +569,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 17,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -599,7 +607,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 23,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -618,7 +626,7 @@
           "symbol": "covet",
           "id": 343,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 26,
           "names": {
             "en": "Covet",
             "fr": "Implore",
@@ -637,7 +645,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 30,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -656,7 +664,7 @@
           "symbol": "thief",
           "id": 168,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 33,
           "names": {
             "en": "Thief",
             "fr": "Larcin",
@@ -675,7 +683,7 @@
           "symbol": "safeguard",
           "id": 219,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 37,
           "names": {
             "en": "Safeguard",
             "fr": "Rune Protect",
@@ -694,7 +702,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 40,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -713,7 +721,7 @@
           "symbol": "mirror_coat",
           "id": 243,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 44,
           "names": {
             "en": "Mirror Coat",
             "fr": "Voile Miroir",
@@ -732,7 +740,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 48,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -751,7 +759,7 @@
           "symbol": "dive",
           "id": 291,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 52,
           "names": {
             "en": "Dive",
             "fr": "Plongée",
@@ -770,7 +778,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 56,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -789,7 +797,7 @@
           "symbol": "waterfall",
           "id": 127,
           "klass": "LevelLearnableMove",
-          "level": 51,
+          "level": 60,
           "names": {
             "en": "Waterfall",
             "fr": "Cascade",
@@ -808,7 +816,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 64,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -827,7 +835,7 @@
           "symbol": "encore",
           "id": 227,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 66,
           "names": {
             "en": "Encore",
             "fr": "Encore",
@@ -846,7 +854,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 70,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -1430,6 +1438,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "stomping_tantrum",
+          "id": 707,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Stomping Tantrum",
+            "fr": "Trépignement",
+            "it": "Battipiedi",
+            "de": "Fruststampfer",
+            "es": "Pataleta",
+            "ko": "분함의발구르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moongeist_beam",
+          "id": 714,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moongeist Beam",
+            "fr": "Rayon Spectral",
+            "it": "Raggio d’Ombra",
+            "de": "Schattenstrahl",
+            "es": "Rayo Umbrío",
+            "ko": "섀도레이"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 100
         }
       ]
     }

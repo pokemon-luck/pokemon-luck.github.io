@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
+          "move": "charm",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charm",
+          "move": "pound",
           "level": 1
         },
         {
@@ -99,22 +99,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sweet_kiss",
-          "level": 7
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 13
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -129,42 +129,42 @@
         {
           "klass": "LevelLearnableMove",
           "move": "electro_ball",
-          "level": 25
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 28
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "glare",
-          "level": 31
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nuzzle",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
+          "move": "nuzzle",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 40
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 44
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 48
+          "level": 57
         },
         {
           "klass": "TechLearnableMove",
@@ -333,6 +333,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "psystrike"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fiery_dance"
         }
       ],
       "names": {
@@ -415,25 +423,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
@@ -450,6 +439,25 @@
           "type": "fairy",
           "pp": 20,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -475,7 +483,7 @@
           "symbol": "sweet_kiss",
           "id": 186,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 6,
           "names": {
             "en": "Sweet Kiss",
             "fr": "Doux Baiser",
@@ -494,7 +502,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -513,7 +521,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 11,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -532,7 +540,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -589,7 +597,7 @@
           "symbol": "electro_ball",
           "id": 486,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 27,
           "names": {
             "en": "Electro Ball",
             "fr": "Boule Élek",
@@ -608,7 +616,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 32,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -627,7 +635,7 @@
           "symbol": "glare",
           "id": 137,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 34,
           "names": {
             "en": "Glare",
             "fr": "Regard Médusant",
@@ -646,7 +654,7 @@
           "symbol": "nuzzle",
           "id": 609,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 37,
           "names": {
             "en": "Nuzzle",
             "fr": "Frotte-Frimousse",
@@ -665,7 +673,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 42,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -684,7 +692,7 @@
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -703,7 +711,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 52,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -722,7 +730,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 57,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -1344,6 +1352,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "psystrike",
+          "id": 540,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psystrike",
+            "fr": "Frappe Psy",
+            "it": "Psicobotta",
+            "de": "Psychostoß",
+            "es": "Onda Mental",
+            "ko": "사이코브레이크"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fiery_dance",
+          "id": 552,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fiery Dance",
+            "fr": "Danse du Feu",
+            "it": "Voldifuoco",
+            "de": "Feuerreigen",
+            "es": "Danza Llama",
+            "ko": "불꽃춤"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

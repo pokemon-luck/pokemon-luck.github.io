@@ -109,78 +109,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "howl",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "echoed_voice",
-          "level": 16
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roar",
-          "level": 20
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 24
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 28
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 32
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 36
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hyper_voice",
-          "level": 40
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 44
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "take_down",
-          "level": 48
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 52
+          "level": 51
         },
         {
           "klass": "TechLearnableMove",
@@ -333,6 +333,46 @@
         {
           "klass": "TechLearnableMove",
           "move": "encore"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "mirror_world"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "shell_smash"
         }
       ],
       "names": {
@@ -415,25 +455,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -453,10 +474,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -475,7 +515,7 @@
           "symbol": "howl",
           "id": 336,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Howl",
             "fr": "Grondement",
@@ -494,7 +534,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -513,7 +553,7 @@
           "symbol": "echoed_voice",
           "id": 497,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 12,
           "names": {
             "en": "Echoed Voice",
             "fr": "Écho",
@@ -532,7 +572,7 @@
           "symbol": "roar",
           "id": 46,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 14,
           "names": {
             "en": "Roar",
             "fr": "Hurlement",
@@ -551,7 +591,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 17,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -570,7 +610,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 21,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -589,7 +629,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 26,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -608,7 +648,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 31,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -627,7 +667,7 @@
           "symbol": "hyper_voice",
           "id": 304,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 36,
           "names": {
             "en": "Hyper Voice",
             "fr": "Mégaphone",
@@ -646,7 +686,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 41,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -665,7 +705,7 @@
           "symbol": "take_down",
           "id": 36,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 46,
           "names": {
             "en": "Take Down",
             "fr": "Bélier",
@@ -684,7 +724,7 @@
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 51,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -1287,6 +1327,196 @@
           "pp": 5,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "mirror_world",
+          "id": 787,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mirror World",
+            "fr": "Monde Mirroir",
+            "it": "Acido Malico",
+            "de": "Apfelsäure",
+            "es": "Ácido Málico",
+            "ko": "사과산"
+          },
+          "category": "status",
+          "type": "celestial",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shell_smash",
+          "id": 504,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shell Smash",
+            "fr": "Exuviation",
+            "it": "Gettaguscio",
+            "de": "Hausbruch",
+            "es": "Rompecoraza",
+            "ko": "껍질깨기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     }

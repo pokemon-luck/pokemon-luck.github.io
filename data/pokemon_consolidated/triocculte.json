@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "shadow_sneak",
           "level": 1
         },
         {
@@ -82,88 +82,88 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
+          "move": "confuse_ray",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 3
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "night_shade",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 11
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 10
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 15
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "drain_punch",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aura_sphere",
+          "move": "drain_punch",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
+          "move": "aura_sphere",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
+          "move": "shadow_ball",
           "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psyshock",
+          "move": "nasty_plot",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "phantom_force",
+          "move": "psyshock",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "focus_blast",
+          "move": "phantom_force",
           "level": 50
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "focus_blast",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 55
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "close_combat",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poltergeist",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 70
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sabbath",
-          "level": 75
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 79
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poltergeist",
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -446,22 +446,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "confuse_ray",
-          "id": 109,
+          "symbol": "shadow_sneak",
+          "id": 425,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
           },
-          "category": "status",
+          "category": "physical",
           "type": "ghost",
-          "pp": 10,
-          "power": 0,
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -484,29 +484,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_sneak",
-          "id": 425,
+          "symbol": "confuse_ray",
+          "id": 109,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
           },
-          "category": "physical",
+          "category": "status",
           "type": "ghost",
-          "pp": 30,
-          "power": 40,
+          "pp": 10,
+          "power": 0,
           "accuracy": 100
         },
         {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 6,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -525,7 +525,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 11,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -544,7 +544,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 16,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -563,7 +563,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 20,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -582,7 +582,7 @@
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 25,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -601,7 +601,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 30,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -620,7 +620,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 35,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -639,7 +639,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 40,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -658,7 +658,7 @@
           "symbol": "psyshock",
           "id": 473,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Psyshock",
             "fr": "Choc Psy",
@@ -677,7 +677,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 50,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -696,7 +696,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -715,7 +715,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 61,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -734,7 +734,7 @@
           "symbol": "close_combat",
           "id": 370,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 67,
           "names": {
             "en": "Close Combat",
             "fr": "Close Combat",
@@ -750,29 +750,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "poltergeist",
-          "id": 725,
+          "symbol": "sabbath",
+          "id": 801,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 73,
           "names": {
-            "en": "Poltergeist",
-            "fr": "Esprit Frappeur",
-            "it": "Poltergeist",
-            "de": "Poltergeist",
-            "es": "Poltergeist",
-            "ko": "Poltergeist"
+            "en": "Sabbath",
+            "fr": "Sabbat",
+            "it": "Sabbath",
+            "de": "Sabbath",
+            "es": "Sabbath",
+            "ko": "Sabbath"
           },
-          "category": "physical",
+          "category": "special",
           "type": "ghost",
           "pp": 5,
-          "power": 110,
-          "accuracy": 90
+          "power": 100,
+          "accuracy": 100
         },
         {
           "symbol": "future_sight",
           "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 79,
           "names": {
             "en": "Future Sight",
             "fr": "Prescience",
@@ -788,23 +788,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "sabbath",
-          "id": 801,
+          "symbol": "poltergeist",
+          "id": 725,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 85,
           "names": {
-            "en": "Sabbath",
-            "fr": "Sabbat",
-            "it": "Sabbath",
-            "de": "Sabbath",
-            "es": "Sabbath",
-            "ko": "Sabbath"
+            "en": "Poltergeist",
+            "fr": "Esprit Frappeur",
+            "it": "Poltergeist",
+            "de": "Poltergeist",
+            "es": "Poltergeist",
+            "ko": "Poltergeist"
           },
-          "category": "special",
+          "category": "physical",
           "type": "ghost",
           "pp": 5,
-          "power": 100,
-          "accuracy": 100
+          "power": 110,
+          "accuracy": 90
         },
         {
           "symbol": "swift",

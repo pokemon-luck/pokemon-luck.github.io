@@ -72,58 +72,58 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "absorb",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 24
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -133,37 +133,37 @@
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 44
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 48
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leaf_storm",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "ingrain",
-          "level": 60
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 64
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 68
+          "level": 75
         },
         {
           "klass": "TechLearnableMove",
@@ -490,25 +490,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
@@ -528,10 +509,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -550,7 +550,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -569,7 +569,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -588,7 +588,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -607,7 +607,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -626,7 +626,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -645,7 +645,7 @@
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -664,7 +664,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -683,7 +683,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -721,7 +721,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 45,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -740,7 +740,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 50,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -759,7 +759,7 @@
           "symbol": "leaf_storm",
           "id": 437,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 56,
           "names": {
             "en": "Leaf Storm",
             "fr": "Tempête Verte",
@@ -778,7 +778,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 61,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -797,7 +797,7 @@
           "symbol": "ingrain",
           "id": 275,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 66,
           "names": {
             "en": "Ingrain",
             "fr": "Racines",
@@ -816,7 +816,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 72,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -835,7 +835,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 75,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",

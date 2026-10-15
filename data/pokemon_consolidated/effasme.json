@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "harden",
           "level": 1
         },
         {
@@ -82,93 +82,93 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_bite",
-          "level": 4
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "night_shade",
           "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leech_life",
+          "move": "night_shade",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "leech_life",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 14
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 18
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pursuit",
-          "level": 23
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "lunge",
-          "level": 27
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 32
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 37
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 42
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 48
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 53
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_buzz",
-          "level": 58
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 63
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quiver_dance",
-          "level": 68
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "throat_chop",
-          "level": 73
+          "level": 74
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 78
+          "level": 79
         },
         {
           "klass": "TechLearnableMove",
@@ -387,23 +387,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "harden",
+          "id": 106,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
           },
-          "category": "physical",
+          "category": "status",
           "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "string_shot",
@@ -425,29 +425,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "harden",
-          "id": 106,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Harden",
-            "fr": "Armure",
-            "it": "Rafforzatore",
-            "de": "Härtner",
-            "es": "Fortaleza",
-            "ko": "단단해지기"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "status",
+          "category": "physical",
           "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -466,7 +466,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 10,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -485,7 +485,7 @@
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 15,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -504,7 +504,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 19,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -523,7 +523,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 22,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -542,7 +542,7 @@
           "symbol": "pursuit",
           "id": 228,
           "klass": "LevelLearnableMove",
-          "level": 23,
+          "level": 25,
           "names": {
             "en": "Pursuit",
             "fr": "Poursuite",
@@ -561,7 +561,7 @@
           "symbol": "lunge",
           "id": 679,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 30,
           "names": {
             "en": "Lunge",
             "fr": "Furie-Bond",
@@ -580,7 +580,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 35,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -599,7 +599,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 40,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -618,7 +618,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 45,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -637,7 +637,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 50,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -656,7 +656,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 54,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -675,7 +675,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 59,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -694,7 +694,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 63,
+          "level": 64,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -713,7 +713,7 @@
           "symbol": "quiver_dance",
           "id": 483,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 69,
           "names": {
             "en": "Quiver Dance",
             "fr": "Papillodanse",
@@ -732,7 +732,7 @@
           "symbol": "throat_chop",
           "id": 675,
           "klass": "LevelLearnableMove",
-          "level": 73,
+          "level": 74,
           "names": {
             "en": "Throat Chop",
             "fr": "Exécu-Son",
@@ -751,7 +751,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 78,
+          "level": 79,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",

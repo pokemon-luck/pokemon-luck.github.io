@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "peck",
+          "move": "water_gun",
           "level": 1
         },
         {
@@ -82,23 +82,23 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "water_gun",
+          "move": "peck",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gust",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 7
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
@@ -108,27 +108,27 @@
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feather_dance",
-          "level": 25
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dive",
-          "level": 30
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_slash",
-          "level": 35
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scald",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -148,22 +148,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 60
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 65
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 70
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 75
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
@@ -424,22 +424,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "peck",
-          "id": 64,
+          "symbol": "water_gun",
+          "id": 55,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Peck",
-            "fr": "Picpic",
-            "it": "Beccata",
-            "de": "Pikser",
-            "es": "Picotazo",
-            "ko": "쪼기"
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
           },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 35,
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -462,29 +462,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "water_gun",
-          "id": 55,
+          "symbol": "peck",
+          "id": 64,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Water Gun",
-            "fr": "Pistolet à O",
-            "it": "Pistolacqua",
-            "de": "Aquaknarre",
-            "es": "Pistola Agua",
-            "ko": "물대포"
+            "en": "Peck",
+            "fr": "Picpic",
+            "it": "Beccata",
+            "de": "Pikser",
+            "es": "Picotazo",
+            "ko": "쪼기"
           },
-          "category": "special",
-          "type": "water",
-          "pp": 25,
-          "power": 40,
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 35,
           "accuracy": 100
         },
         {
           "symbol": "gust",
           "id": 16,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Gust",
             "fr": "Tornade",
@@ -503,7 +503,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 8,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -522,7 +522,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -560,7 +560,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -579,7 +579,7 @@
           "symbol": "feather_dance",
           "id": 297,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 24,
           "names": {
             "en": "Feather Dance",
             "fr": "Danse Plumes",
@@ -598,7 +598,7 @@
           "symbol": "dive",
           "id": 291,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 29,
           "names": {
             "en": "Dive",
             "fr": "Plongée",
@@ -617,7 +617,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 34,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -636,7 +636,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -712,7 +712,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 61,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -731,7 +731,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 66,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -750,7 +750,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 72,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -769,7 +769,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 77,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",

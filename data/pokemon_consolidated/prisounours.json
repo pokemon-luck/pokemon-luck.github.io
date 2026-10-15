@@ -83,58 +83,58 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_claw",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_energy",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "arm_thrust",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_smash",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "headbutt",
-          "level": 24
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aura_sphere",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -149,17 +149,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "force_palm",
-          "level": 52
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_blast",
-          "level": 56
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -364,6 +364,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "facade"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "counter"
         }
       ],
       "names": {
@@ -446,25 +454,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -484,10 +473,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "metal_claw",
           "id": 232,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Metal Claw",
             "fr": "Griffe Acier",
@@ -506,7 +514,7 @@
           "symbol": "focus_energy",
           "id": 116,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Focus Energy",
             "fr": "Puissance",
@@ -525,7 +533,7 @@
           "symbol": "arm_thrust",
           "id": 292,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Arm Thrust",
             "fr": "Cogne",
@@ -544,7 +552,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -563,7 +571,7 @@
           "symbol": "rock_smash",
           "id": 249,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Rock Smash",
             "fr": "Éclate-Roc",
@@ -582,7 +590,7 @@
           "symbol": "headbutt",
           "id": 29,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Headbutt",
             "fr": "Coup d’Boule",
@@ -601,7 +609,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -620,7 +628,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -639,7 +647,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -696,7 +704,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -715,7 +723,7 @@
           "symbol": "force_palm",
           "id": 395,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 53,
           "names": {
             "en": "Force Palm",
             "fr": "Forte-Paume",
@@ -734,7 +742,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -1565,6 +1573,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "facade",
+          "id": 263,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Facade",
+            "fr": "Façade",
+            "it": "Facciata",
+            "de": "Fassade",
+            "es": "Imagen",
+            "ko": "객기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "counter",
+          "id": 68,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Counter",
+            "fr": "Riposte",
+            "it": "Contrattacco",
+            "de": "Konter",
+            "es": "Contraataque",
+            "ko": "카운터"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

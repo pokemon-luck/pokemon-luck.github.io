@@ -72,63 +72,63 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "ember",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "bubble",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "ember",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "smokescreen",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 9
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scald",
-          "level": 24
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -138,22 +138,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "surf",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 57
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 62
+          "level": 66
         },
         {
           "klass": "TechLearnableMove",
@@ -516,25 +516,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "ember",
-          "id": 52,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Ember",
-            "fr": "Flammèche",
-            "it": "Braciere",
-            "de": "Glut",
-            "es": "Ascuas",
-            "ko": "불꽃세례"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "bubble",
           "id": 145,
           "klass": "LevelLearnableMove",
@@ -554,10 +535,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "ember",
+          "id": 52,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "smokescreen",
           "id": 108,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Smokescreen",
             "fr": "Brouillard",
@@ -576,7 +576,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 6,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -595,7 +595,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -614,7 +614,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -633,7 +633,7 @@
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -652,7 +652,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -671,7 +671,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -690,7 +690,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -709,7 +709,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -728,7 +728,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -766,7 +766,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -785,7 +785,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -804,7 +804,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 60,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -823,7 +823,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 66,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",

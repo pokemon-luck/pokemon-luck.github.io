@@ -78,72 +78,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "gust",
-          "level": 5
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 10
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wing_attack",
-          "level": 15
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_charge",
-          "level": 20
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 26
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 32
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mystical_fire",
-          "level": 35
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charm",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 38
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 44
+          "move": "sunny_day",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brave_bird",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
           "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heat_wave",
-          "level": 56
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 62
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "life_dew",
-          "level": 68
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 75
+          "level": 72
         },
         {
           "klass": "TechLearnableMove",
@@ -432,7 +442,7 @@
           "symbol": "gust",
           "id": 16,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 1,
           "names": {
             "en": "Gust",
             "fr": "Tornade",
@@ -451,7 +461,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 4,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -470,7 +480,7 @@
           "symbol": "wing_attack",
           "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 7,
           "names": {
             "en": "Wing Attack",
             "fr": "Cru-Ailes",
@@ -489,7 +499,7 @@
           "symbol": "flame_charge",
           "id": 488,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 11,
           "names": {
             "en": "Flame Charge",
             "fr": "Nitrocharge",
@@ -508,7 +518,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 15,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -527,7 +537,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 20,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -546,7 +556,7 @@
           "symbol": "mystical_fire",
           "id": 595,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 25,
           "names": {
             "en": "Mystical Fire",
             "fr": "Feu Ensorcelé",
@@ -562,10 +572,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 34,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -581,29 +610,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "play_rough",
-          "id": 583,
+          "symbol": "sunny_day",
+          "id": 241,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 39,
           "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
+            "en": "Sunny Day",
+            "fr": "Zénith",
+            "it": "Giornodisole",
+            "de": "Sonnentag",
+            "es": "Día Soleado",
+            "ko": "쾌청"
           },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
+          "category": "status",
+          "type": "fire",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "brave_bird",
           "id": 413,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 45,
           "names": {
             "en": "Brave Bird",
             "fr": "Rapace",
@@ -619,10 +648,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
           "symbol": "heat_wave",
           "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 55,
           "names": {
             "en": "Heat Wave",
             "fr": "Canicule",
@@ -641,7 +689,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 61,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -660,7 +708,7 @@
           "symbol": "life_dew",
           "id": 722,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 66,
           "names": {
             "en": "Life Dew",
             "fr": "Fontaine de Vie",
@@ -679,7 +727,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 72,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",
@@ -1208,25 +1256,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "sunny_day",
-          "id": 241,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sunny Day",
-            "fr": "Zénith",
-            "it": "Giornodisole",
-            "de": "Sonnentag",
-            "es": "Día Soleado",
-            "ko": "쾌청"
-          },
-          "category": "status",
-          "type": "fire",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "light_screen",
           "id": 113,
           "klass": "TechLearnableMove",
@@ -1282,25 +1311,6 @@
           "pp": 15,
           "power": 0,
           "accuracy": 85
-        },
-        {
-          "symbol": "charm",
-          "id": 204,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Charm",
-            "fr": "Charme",
-            "it": "Fascino",
-            "de": "Charme",
-            "es": "Encanto",
-            "ko": "애교부리기"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
         },
         {
           "symbol": "rest",

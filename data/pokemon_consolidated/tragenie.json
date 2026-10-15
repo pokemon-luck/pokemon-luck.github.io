@@ -82,73 +82,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -157,43 +152,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -474,135 +459,59 @@
           "accuracy": 100
         },
         {
-          "symbol": "rock_throw",
-          "id": 88,
+          "symbol": "tail_whip",
+          "id": 39,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
-            "en": "Rock Throw",
-            "fr": "Jet-Pierres",
-            "it": "Sassata",
-            "de": "Steinwurf",
-            "es": "Lanzarrocas",
-            "ko": "돌떨구기"
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_blast",
+          "id": 350,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Rock Blast",
+            "fr": "Boule Roc",
+            "it": "Cadutamassi",
+            "de": "Felswurf",
+            "es": "Pedrada",
+            "ko": "락블레스트"
           },
           "category": "physical",
           "type": "rock",
-          "pp": 15,
-          "power": 50,
+          "pp": 10,
+          "power": 25,
           "accuracy": 90
         },
         {
-          "symbol": "copycat",
-          "id": 383,
+          "symbol": "mind_reader",
+          "id": 170,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
-            "en": "Copycat",
-            "fr": "Photocopie",
-            "it": "Copione",
-            "de": "Imitator",
-            "es": "Copión",
-            "ko": "흉내쟁이"
+            "en": "Mind Reader",
+            "fr": "Lire-Esprit",
+            "it": "Leggimente",
+            "de": "Willensleser",
+            "es": "Telépata",
+            "ko": "마음의눈"
           },
           "category": "status",
           "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "metronome",
-          "id": 118,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Metronome",
-            "fr": "Métronome",
-            "it": "Metronomo",
-            "de": "Metronom",
-            "es": "Metrónomo",
-            "ko": "손가락흔들기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "spite",
-          "id": 180,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Spite",
-            "fr": "Dépit",
-            "it": "Dispetto",
-            "de": "Groll",
-            "es": "Rencor",
-            "ko": "원한"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "rock_polish",
-          "id": 397,
-          "klass": "LevelLearnableMove",
-          "level": 22,
-          "names": {
-            "en": "Rock Polish",
-            "fr": "Poliroche",
-            "it": "Lucidatura",
-            "de": "Steinpolitur",
-            "es": "Pulimento",
-            "ko": "록커트"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
           "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mirror_move",
-          "id": 119,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Mirror Move",
-            "fr": "Mimique",
-            "it": "Speculmossa",
-            "de": "Spiegeltrick",
-            "es": "Espejo",
-            "ko": "따라하기"
-          },
-          "category": "status",
-          "type": "flying",
-          "pp": 20,
           "power": 0,
           "accuracy": 0
         },
@@ -610,7 +519,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 12,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -626,59 +535,97 @@
           "accuracy": 100
         },
         {
-          "symbol": "extrasensory",
-          "id": 326,
+          "symbol": "tearful_look",
+          "id": 715,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 15,
           "names": {
-            "en": "Extrasensory",
-            "fr": "Extrasenseur",
-            "it": "Extrasenso",
-            "de": "Sondersensor",
-            "es": "Paranormal",
-            "ko": "신통력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "metal_sound",
-          "id": 319,
-          "klass": "LevelLearnableMove",
-          "level": 39,
-          "names": {
-            "en": "Metal Sound",
-            "fr": "Strido-Son",
-            "it": "Ferrostrido",
-            "de": "Metallsound",
-            "es": "Eco Metálico",
-            "ko": "금속음"
-          },
-          "category": "status",
-          "type": "steel",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 85
-        },
-        {
-          "symbol": "mimic",
-          "id": 102,
-          "klass": "LevelLearnableMove",
-          "level": 42,
-          "names": {
-            "en": "Mimic",
-            "fr": "Copie",
-            "it": "Mimica",
-            "de": "Mimikry",
-            "es": "Mimético",
-            "ko": "흉내내기"
+            "en": "Tearful Look",
+            "fr": "Larme à l’Œil",
+            "it": "Occhionilucidi",
+            "de": "Tränendrüse",
+            "es": "Ojos Llorosos",
+            "ko": "눈물그렁그렁"
           },
           "category": "status",
           "type": "normal",
-          "pp": 10,
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spotlight",
+          "id": 671,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Spotlight",
+            "fr": "Projecteur",
+            "it": "Riflettore",
+            "de": "Rampenlicht",
+            "es": "Foco",
+            "ko": "스포트라이트"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hold_hands",
+          "id": 607,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Hold Hands",
+            "fr": "Mains Jointes",
+            "it": "Mano nella Mano",
+            "de": "Händchenhalten",
+            "es": "Manos Juntas",
+            "ko": "손에손잡기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
           "power": 0,
           "accuracy": 0
         },
@@ -686,7 +633,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 36,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -702,42 +649,61 @@
           "accuracy": 0
         },
         {
-          "symbol": "power_gem",
-          "id": 408,
+          "symbol": "rock_slide",
+          "id": 157,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 41,
           "names": {
-            "en": "Power Gem",
-            "fr": "Rayon Gemme",
-            "it": "Gemmoforza",
-            "de": "Juwelenkraft",
-            "es": "Joya de Luz",
-            "ko": "파워젬"
+            "en": "Rock Slide",
+            "fr": "Éboulement",
+            "it": "Frana",
+            "de": "Steinhagel",
+            "es": "Avalancha",
+            "ko": "스톤샤워"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 90
+        },
+        {
+          "symbol": "extrasensory",
+          "id": 326,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Extrasensory",
+            "fr": "Extrasenseur",
+            "it": "Extrasenso",
+            "de": "Sondersensor",
+            "es": "Paranormal",
+            "ko": "신통력"
           },
           "category": "special",
-          "type": "rock",
+          "type": "psychic",
           "pp": 20,
           "power": 80,
           "accuracy": 100
         },
         {
-          "symbol": "mirror_coat",
-          "id": 243,
+          "symbol": "substitute",
+          "id": 164,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 51,
           "names": {
-            "en": "Mirror Coat",
-            "fr": "Voile Miroir",
-            "it": "Specchiovelo",
-            "de": "Spiegelcape",
-            "es": "Manto Espejo",
-            "ko": "미러코트"
+            "en": "Substitute",
+            "fr": "Clonage",
+            "it": "Sostituto",
+            "de": "Delegator",
+            "es": "Sustituto",
+            "ko": "대타출동"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
           "power": 0,
-          "accuracy": 100
+          "accuracy": 0
         },
         {
           "symbol": "shadow_ball",
@@ -759,29 +725,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "power_gem",
+          "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 61,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
+          "type": "rock",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "perish_song",
+          "id": 195,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Perish Song",
+            "fr": "Requiem",
+            "it": "Ultimocanto",
+            "de": "Abgesang",
+            "es": "Canto Mortal",
+            "ko": "멸망의노래"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "emotion_drain",
+          "id": 731,
+          "klass": "LevelLearnableMove",
+          "level": 71,
+          "names": {
+            "en": "Emotion Drain",
+            "fr": "Dévorémotion",
+            "it": "Piombaflap",
+            "de": "Schwebesturz",
+            "es": "Pikapicado",
+            "ko": "둥실둥실폴"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 80,
           "accuracy": 100
         },
         {
           "symbol": "reflect_type",
           "id": 513,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 73,
           "names": {
             "en": "Reflect Type",
             "fr": "Copie-Type",
@@ -797,29 +801,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "trick_room",
-          "id": 433,
-          "klass": "LevelLearnableMove",
-          "level": 68,
-          "names": {
-            "en": "Trick Room",
-            "fr": "Distorsion",
-            "it": "Distortozona",
-            "de": "Bizarroraum",
-            "es": "Espacio Raro",
-            "ko": "트릭룸"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 78,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -835,79 +820,22 @@
           "accuracy": 0
         },
         {
-          "symbol": "pain_split",
-          "id": 220,
+          "symbol": "moongeist_beam",
+          "id": 714,
           "klass": "LevelLearnableMove",
-          "level": 74,
+          "level": 84,
           "names": {
-            "en": "Pain Split",
-            "fr": "Balance",
-            "it": "Malcomune",
-            "de": "Leidteiler",
-            "es": "Divide Dolor",
-            "ko": "아픔나누기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "future_sight",
-          "id": 248,
-          "klass": "LevelLearnableMove",
-          "level": 78,
-          "names": {
-            "en": "Future Sight",
-            "fr": "Prescience",
-            "it": "Divinazione",
-            "de": "Seher",
-            "es": "Premonición",
-            "ko": "미래예지"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "recover",
-          "id": 105,
-          "klass": "LevelLearnableMove",
-          "level": 82,
-          "names": {
-            "en": "Recover",
-            "fr": "Soin",
-            "it": "Ripresa",
-            "de": "Genesung",
-            "es": "Recuperación",
-            "ko": "HP회복"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "emotion_drain",
-          "id": 731,
-          "klass": "LevelLearnableMove",
-          "level": 83,
-          "names": {
-            "en": "Emotion Drain",
-            "fr": "Dévorémotion",
-            "it": "Piombaflap",
-            "de": "Schwebesturz",
-            "es": "Pikapicado",
-            "ko": "둥실둥실폴"
+            "en": "Moongeist Beam",
+            "fr": "Rayon Spectral",
+            "it": "Raggio d’Ombra",
+            "de": "Schattenstrahl",
+            "es": "Rayo Umbrío",
+            "ko": "섀도레이"
           },
           "category": "special",
           "type": "ghost",
-          "pp": 10,
-          "power": 80,
+          "pp": 5,
+          "power": 100,
           "accuracy": 100
         },
         {
@@ -1006,6 +934,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "rock_throw",
+          "id": 88,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rock Throw",
+            "fr": "Jet-Pierres",
+            "it": "Sassata",
+            "de": "Steinwurf",
+            "es": "Lanzarrocas",
+            "ko": "돌떨구기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 90
+        },
+        {
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "TechLearnableMove",
@@ -1023,25 +970,6 @@
           "pp": 15,
           "power": 60,
           "accuracy": 95
-        },
-        {
-          "symbol": "rock_slide",
-          "id": 157,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rock Slide",
-            "fr": "Éboulement",
-            "it": "Frana",
-            "de": "Steinhagel",
-            "es": "Avalancha",
-            "ko": "스톤샤워"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 90
         },
         {
           "symbol": "stone_edge",
@@ -1098,25 +1026,6 @@
           "type": "ghost",
           "pp": 10,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
           "accuracy": 100
         },
         {
@@ -1348,6 +1257,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "TechLearnableMove",
@@ -1443,6 +1371,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "trick_room",
+          "id": 433,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Trick Room",
+            "fr": "Distorsion",
+            "it": "Distortozona",
+            "de": "Bizarroraum",
+            "es": "Espacio Raro",
+            "ko": "트릭룸"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "TechLearnableMove",
@@ -1479,6 +1426,25 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "metal_sound",
+          "id": 319,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Metal Sound",
+            "fr": "Strido-Son",
+            "it": "Ferrostrido",
+            "de": "Metallsound",
+            "es": "Eco Metálico",
+            "ko": "금속음"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
         },
         {
           "symbol": "rest",
@@ -1555,6 +1521,25 @@
           "pp": 5,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "pain_split",
+          "id": 220,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     },
@@ -1637,73 +1622,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -1712,43 +1692,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2011,73 +1981,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -2086,43 +2051,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2385,73 +2340,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -2460,43 +2410,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2759,73 +2699,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -2834,43 +2769,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -3133,73 +3058,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
-          "level": 5
+          "move": "tail_whip",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "copycat",
-          "level": 8
+          "move": "rock_blast",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metronome",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "spite",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_polish",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
-          "level": 28
+          "move": "mind_reader",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tearful_look",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spotlight",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hold_hands",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "calm_mind",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_sound",
-          "level": 39
+          "move": "rock_slide",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mimic",
-          "level": 42
+          "move": "extrasensory",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 52
+          "move": "substitute",
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
@@ -3208,43 +3128,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "power_gem",
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect_type",
-          "level": 64
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "trick_room",
-          "level": 68
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 74
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 78
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 82
+          "move": "perish_song",
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "emotion_drain",
-          "level": 83
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect_type",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "destiny_bond",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moongeist_beam",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",

@@ -83,73 +83,73 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "peck",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "poison_gas",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_spray",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 16
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 20
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 24
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bounce",
-          "level": 28
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acrobatics",
-          "level": 32
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 36
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 40
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 44
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "drill_run",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
@@ -159,12 +159,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 56
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 60
+          "level": 63
         },
         {
           "klass": "TechLearnableMove",
@@ -411,25 +411,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "peck",
           "id": 64,
           "klass": "LevelLearnableMove",
@@ -449,10 +430,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Poison Gas",
             "fr": "Gaz Toxik",
@@ -471,7 +471,7 @@
           "symbol": "acid_spray",
           "id": 491,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Acid Spray",
             "fr": "Bombe Acide",
@@ -490,7 +490,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -509,7 +509,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 12,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -528,7 +528,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -547,7 +547,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -566,7 +566,7 @@
           "symbol": "bounce",
           "id": 340,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 24,
           "names": {
             "en": "Bounce",
             "fr": "Rebond",
@@ -585,7 +585,7 @@
           "symbol": "acrobatics",
           "id": 512,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 27,
           "names": {
             "en": "Acrobatics",
             "fr": "Acrobatie",
@@ -604,7 +604,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 32,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -623,7 +623,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 37,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -642,7 +642,7 @@
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 42,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -661,7 +661,7 @@
           "symbol": "drill_run",
           "id": 529,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 47,
           "names": {
             "en": "Drill Run",
             "fr": "Tunnelier",
@@ -699,7 +699,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 57,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -718,7 +718,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 63,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",

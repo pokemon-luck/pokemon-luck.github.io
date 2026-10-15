@@ -94,57 +94,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rollout",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_bite",
-          "level": 11
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_slap",
-          "level": 14
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_cutter",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 17
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bulldoze",
-          "level": 20
+          "move": "mud_shot",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_buzz",
-          "level": 23
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_defense",
-          "level": 26
+          "move": "struggle_bug",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 29
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "spikes",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dig",
-          "level": 32
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sandstorm",
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 35
+          "level": 67
         },
         {
           "klass": "TechLearnableMove",
@@ -309,6 +344,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "protect"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "camouflage"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "smart_strike"
         }
       ],
       "names": {
@@ -432,7 +475,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -451,7 +494,7 @@
           "symbol": "rollout",
           "id": 205,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Rollout",
             "fr": "Roulade",
@@ -470,7 +513,7 @@
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 11,
+          "level": 10,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -489,7 +532,7 @@
           "symbol": "mud_slap",
           "id": 189,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 13,
           "names": {
             "en": "Mud-Slap",
             "fr": "Coud’Boue",
@@ -505,10 +548,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "screech",
+          "id": 103,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "fury_cutter",
+          "id": 210,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Fury Cutter",
+            "fr": "Taillade",
+            "it": "Tagliofuria",
+            "de": "Zornklinge",
+            "es": "Corte Furia",
+            "ko": "연속자르기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 95
+        },
+        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 21,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -524,10 +605,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "struggle_bug",
+          "id": 522,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Struggle Bug",
+            "fr": "Survinsecte",
+            "it": "Entomoblocco",
+            "de": "Käfertrutz",
+            "es": "Estoicismo",
+            "ko": "벌레의저항"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 34,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -546,7 +684,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 23,
+          "level": 39,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -565,7 +703,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 44,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -581,29 +719,48 @@
           "accuracy": 0
         },
         {
-          "symbol": "rock_tomb",
-          "id": 317,
+          "symbol": "spikes",
+          "id": 191,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 49,
           "names": {
-            "en": "Rock Tomb",
-            "fr": "Tomberoche",
-            "it": "Rocciotomba",
-            "de": "Felsgrab",
-            "es": "Tumba Rocas",
-            "ko": "암석봉인"
+            "en": "Spikes",
+            "fr": "Picots",
+            "it": "Punte",
+            "de": "Stachler",
+            "es": "Púas",
+            "ko": "압정뿌리기"
           },
-          "category": "physical",
+          "category": "status",
+          "type": "ground",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
           "type": "rock",
-          "pp": 15,
+          "pp": 5,
           "power": 60,
-          "accuracy": 95
+          "accuracy": 100
         },
         {
           "symbol": "dig",
           "id": 91,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 57,
           "names": {
             "en": "Dig",
             "fr": "Tunnel",
@@ -619,10 +776,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "sandstorm",
+          "id": 201,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Sandstorm",
+            "fr": "Tempête de Sable",
+            "it": "Terrempesta",
+            "de": "Sandsturm",
+            "es": "Tormenta Arena",
+            "ko": "모래바람"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 67,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -790,25 +966,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
           "symbol": "earth_power",
           "id": 414,
           "klass": "TechLearnableMove",
@@ -844,44 +1001,6 @@
           "type": "ground",
           "pp": 10,
           "power": 100,
-          "accuracy": 100
-        },
-        {
-          "symbol": "fury_cutter",
-          "id": 210,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Fury Cutter",
-            "fr": "Taillade",
-            "it": "Tagliofuria",
-            "de": "Zornklinge",
-            "es": "Corte Furia",
-            "ko": "연속자르기"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 20,
-          "power": 40,
-          "accuracy": 95
-        },
-        {
-          "symbol": "struggle_bug",
-          "id": 522,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Struggle Bug",
-            "fr": "Survinsecte",
-            "it": "Entomoblocco",
-            "de": "Käfertrutz",
-            "es": "Estoicismo",
-            "ko": "벌레의저항"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 20,
-          "power": 50,
           "accuracy": 100
         },
         {
@@ -940,25 +1059,6 @@
           "pp": 15,
           "power": 50,
           "accuracy": 90
-        },
-        {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
         },
         {
           "symbol": "rock_slide",
@@ -1132,25 +1232,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "spikes",
-          "id": 191,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Spikes",
-            "fr": "Picots",
-            "it": "Punte",
-            "de": "Stachler",
-            "es": "Púas",
-            "ko": "압정뿌리기"
-          },
-          "category": "status",
-          "type": "ground",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "TechLearnableMove",
@@ -1166,25 +1247,6 @@
           "category": "status",
           "type": "poison",
           "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sandstorm",
-          "id": 201,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sandstorm",
-            "fr": "Tempête de Sable",
-            "it": "Terrempesta",
-            "de": "Sandsturm",
-            "es": "Tormenta Arena",
-            "ko": "모래바람"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
@@ -1281,6 +1343,44 @@
           "type": "psychic",
           "pp": 10,
           "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "camouflage",
+          "id": 293,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Camouflage",
+            "fr": "Camouflage",
+            "it": "Camuffamento",
+            "de": "Tarnung",
+            "es": "Camuflaje",
+            "ko": "보호색"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "smart_strike",
+          "id": 684,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Smart Strike",
+            "fr": "Estocorne",
+            "it": "Sottilcorno",
+            "de": "Schmalhorn",
+            "es": "Cuerno Certero",
+            "ko": "스마트호른"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 10,
+          "power": 70,
           "accuracy": 0
         }
       ]

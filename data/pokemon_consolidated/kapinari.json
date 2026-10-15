@@ -72,88 +72,88 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "charge",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_shock",
-          "level": 10
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 13
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "defense_curl",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 20
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 24
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "electro_ball",
-          "level": 28
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rest",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "yawn",
-          "level": 40
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "muddy_water",
-          "level": 44
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 48
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 52
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 56
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 60
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
@@ -173,12 +173,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "swagger",
-          "level": 80
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 85
+          "level": 83
         },
         {
           "klass": "TechLearnableMove",
@@ -311,6 +311,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "parabolic_charge"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "heal_pulse"
         }
       ],
       "names": {
@@ -393,25 +401,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -431,10 +420,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "charge",
           "id": 268,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Charge",
             "fr": "Chargeur",
@@ -453,7 +461,7 @@
           "symbol": "thunder_shock",
           "id": 84,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 6,
           "names": {
             "en": "Thunder Shock",
             "fr": "Éclair",
@@ -472,7 +480,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 9,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -491,7 +499,7 @@
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 11,
           "names": {
             "en": "Defense Curl",
             "fr": "Boul’Armure",
@@ -510,7 +518,7 @@
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -529,7 +537,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -548,7 +556,7 @@
           "symbol": "electro_ball",
           "id": 486,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 24,
           "names": {
             "en": "Electro Ball",
             "fr": "Boule Élek",
@@ -567,7 +575,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -586,7 +594,7 @@
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -605,7 +613,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 36,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -624,7 +632,7 @@
           "symbol": "muddy_water",
           "id": 330,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 41,
           "names": {
             "en": "Muddy Water",
             "fr": "Ocroupi",
@@ -643,7 +651,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 43,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -662,7 +670,7 @@
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 48,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -681,7 +689,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 54,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -700,7 +708,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 59,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -776,7 +784,7 @@
           "symbol": "swagger",
           "id": 207,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 77,
           "names": {
             "en": "Swagger",
             "fr": "Vantardise",
@@ -795,7 +803,7 @@
           "symbol": "zap_cannon",
           "id": 192,
           "klass": "LevelLearnableMove",
-          "level": 85,
+          "level": 83,
           "names": {
             "en": "Zap Cannon",
             "fr": "Élecanon",
@@ -1282,6 +1290,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "parabolic_charge",
+          "id": 570,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Parabolic Charge",
+            "fr": "Parabocharge",
+            "it": "Caricaparabola",
+            "de": "Parabolladung",
+            "es": "Carga Parábola",
+            "ko": "파라볼라차지"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "heal_pulse",
+          "id": 505,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Heal Pulse",
+            "fr": "Vibra Soin",
+            "it": "Ondasana",
+            "de": "Heilwoge",
+            "es": "Pulso Cura",
+            "ko": "치유파동"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

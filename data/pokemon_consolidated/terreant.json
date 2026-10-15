@@ -83,7 +83,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "vine_whip",
           "level": 1
         },
         {
@@ -93,73 +93,73 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "vine_whip",
+          "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_shot",
-          "level": 15
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stomping_tantrum",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 25
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 30
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 35
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 40
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 50
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 55
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 60
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wood_hammer",
-          "level": 65
+          "level": 62
         },
         {
           "klass": "TechLearnableMove",
@@ -398,22 +398,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "vine_whip",
+          "id": 22,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
           },
           "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
+          "type": "grass",
+          "pp": 25,
+          "power": 45,
           "accuracy": 100
         },
         {
@@ -436,29 +436,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "vine_whip",
-          "id": 22,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Vine Whip",
-            "fr": "Fouet Lianes",
-            "it": "Frustata",
-            "de": "Rankenhieb",
-            "es": "Látigo Cepa",
-            "ko": "덩굴채찍"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
           "category": "physical",
-          "type": "grass",
-          "pp": 25,
-          "power": 45,
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -477,7 +477,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -496,7 +496,7 @@
           "symbol": "mud_shot",
           "id": 341,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 14,
           "names": {
             "en": "Mud Shot",
             "fr": "Tir de Boue",
@@ -515,7 +515,7 @@
           "symbol": "stomping_tantrum",
           "id": 707,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Stomping Tantrum",
             "fr": "Trépignement",
@@ -534,7 +534,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 24,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -553,7 +553,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 27,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -572,7 +572,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 30,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -591,7 +591,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 35,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -610,7 +610,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 40,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -629,7 +629,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 45,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -648,7 +648,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 50,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -667,7 +667,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 56,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -686,7 +686,7 @@
           "symbol": "wood_hammer",
           "id": 452,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 62,
           "names": {
             "en": "Wood Hammer",
             "fr": "Martobois",

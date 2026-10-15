@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
+          "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growl",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -99,7 +99,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 7
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
@@ -119,37 +119,37 @@
         {
           "klass": "LevelLearnableMove",
           "move": "work_up",
-          "level": 19
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_shot",
-          "level": 22
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 25
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 28
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vacuum_wave",
-          "level": 31
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "charm",
-          "level": 34
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disarming_voice",
-          "level": 37
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -164,7 +164,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "aura_sphere",
-          "level": 52
+          "level": 51
         },
         {
           "klass": "TechLearnableMove",
@@ -341,6 +341,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "high_jump_kick"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "respite"
         }
       ],
       "names": {
@@ -423,25 +431,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -458,6 +447,25 @@
           "type": "normal",
           "pp": 40,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -483,7 +491,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 6,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -559,7 +567,7 @@
           "symbol": "work_up",
           "id": 526,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 18,
           "names": {
             "en": "Work Up",
             "fr": "Rengorgement",
@@ -578,7 +586,7 @@
           "symbol": "mud_shot",
           "id": 341,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 21,
           "names": {
             "en": "Mud Shot",
             "fr": "Tir de Boue",
@@ -597,7 +605,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 24,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -616,7 +624,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 26,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -635,7 +643,7 @@
           "symbol": "vacuum_wave",
           "id": 410,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 29,
           "names": {
             "en": "Vacuum Wave",
             "fr": "Onde Vide",
@@ -654,7 +662,7 @@
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 32,
           "names": {
             "en": "Charm",
             "fr": "Charme",
@@ -673,7 +681,7 @@
           "symbol": "disarming_voice",
           "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 35,
           "names": {
             "en": "Disarming Voice",
             "fr": "Voix Enjôleuse",
@@ -730,7 +738,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 51,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -1407,6 +1415,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "high_jump_kick",
+          "id": 136,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "High Jump Kick",
+            "fr": "Pied Voltige",
+            "it": "Calcinvolo",
+            "de": "Turmkick",
+            "es": "Pat. Salto Alta",
+            "ko": "무릎차기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 130,
+          "accuracy": 90
+        },
+        {
+          "symbol": "respite",
+          "id": 761,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Respite",
+            "fr": "Répit",
+            "it": "Dynapugno",
+            "de": "Dyna-Faust",
+            "es": "Maxipuño",
+            "ko": "다이너클"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

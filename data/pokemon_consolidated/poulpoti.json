@@ -124,17 +124,22 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bubble_beam",
-          "level": 8
+          "move": "confusion",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wrap",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
+          "move": "bubble_beam",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "haze",
           "level": 16
         },
         {
@@ -144,38 +149,68 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "signal_beam",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "scary_face",
-          "level": 28
+          "move": "knock_off",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 32
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soak",
-          "level": 40
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swift",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "signal_beam",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scary_face",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "agility",
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 44
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 48
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -304,6 +339,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "smokescreen"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "parting_shot"
         }
       ],
       "names": {
@@ -443,29 +486,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "bubble_beam",
-          "id": 61,
+          "symbol": "confusion",
+          "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
-            "en": "Bubble Beam",
-            "fr": "Bulles d’O",
-            "it": "Bollaraggio",
-            "de": "Blubbstrahl",
-            "es": "Rayo Burbuja",
-            "ko": "거품광선"
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
           },
           "category": "special",
-          "type": "water",
-          "pp": 20,
-          "power": 65,
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
           "accuracy": 100
         },
         {
           "symbol": "wrap",
           "id": 35,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Wrap",
             "fr": "Ligotage",
@@ -481,21 +524,40 @@
           "accuracy": 90
         },
         {
-          "symbol": "rain_dance",
-          "id": 240,
+          "symbol": "bubble_beam",
+          "id": 61,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Bubble Beam",
+            "fr": "Bulles d’O",
+            "it": "Bollaraggio",
+            "de": "Blubbstrahl",
+            "es": "Rayo Burbuja",
+            "ko": "거품광선"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "haze",
+          "id": 114,
           "klass": "LevelLearnableMove",
           "level": 16,
           "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
           },
           "category": "status",
-          "type": "water",
-          "pp": 5,
+          "type": "ice",
+          "pp": 30,
           "power": 0,
           "accuracy": 0
         },
@@ -519,48 +581,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "signal_beam",
-          "id": 324,
+          "symbol": "knock_off",
+          "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
-            "en": "Signal Beam",
-            "fr": "Rayon Signal",
-            "it": "Segnoraggio",
-            "de": "Ampelleuchte",
-            "es": "Doble Rayo",
-            "ko": "시그널빔"
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
           },
-          "category": "special",
-          "type": "bug",
-          "pp": 15,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "scary_face",
-          "id": 184,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Scary Face",
-            "fr": "Grimace",
-            "it": "Visotruce",
-            "de": "Grimasse",
-            "es": "Cara Susto",
-            "ko": "겁나는얼굴"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
           "accuracy": 100
         },
         {
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 26,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -576,10 +619,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -598,7 +679,7 @@
           "symbol": "soak",
           "id": 487,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Soak",
             "fr": "Détrempage",
@@ -614,10 +695,105 @@
           "accuracy": 100
         },
         {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Signal Beam",
+            "fr": "Rayon Signal",
+            "it": "Segnoraggio",
+            "de": "Ampelleuchte",
+            "es": "Doble Rayo",
+            "ko": "시그널빔"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "scary_face",
+          "id": 184,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Scary Face",
+            "fr": "Grimace",
+            "it": "Visotruce",
+            "de": "Grimasse",
+            "es": "Cara Susto",
+            "ko": "겁나는얼굴"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "agility",
+          "id": 97,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Agility",
+            "fr": "Hâte",
+            "it": "Agilità",
+            "de": "Agilität",
+            "es": "Agilidad",
+            "ko": "고속이동"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 64,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -636,7 +812,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 70,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -671,25 +847,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "swift",
-          "id": 129,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
           "symbol": "body_slam",
           "id": 34,
           "klass": "TechLearnableMove",
@@ -706,25 +863,6 @@
           "type": "normal",
           "pp": 15,
           "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -785,25 +923,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "TechLearnableMove",
@@ -820,25 +939,6 @@
           "type": "poison",
           "pp": 10,
           "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
           "accuracy": 100
         },
         {
@@ -880,25 +980,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "knock_off",
-          "id": 282,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Knock Off",
-            "fr": "Sabotage",
-            "it": "Privazione",
-            "de": "Abschlag",
-            "es": "Desarme",
-            "ko": "탁쳐서떨구기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "TechLearnableMove",
@@ -918,25 +999,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "agility",
-          "id": 97,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Agility",
-            "fr": "Hâte",
-            "it": "Agilità",
-            "de": "Agilität",
-            "es": "Agilidad",
-            "ko": "고속이동"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "TechLearnableMove",
@@ -952,25 +1014,6 @@
           "category": "status",
           "type": "poison",
           "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "haze",
-          "id": 114,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Haze",
-            "fr": "Buée Noire",
-            "it": "Nube",
-            "de": "Dunkelnebel",
-            "es": "Niebla",
-            "ko": "흑안개"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 30,
           "power": 0,
           "accuracy": 0
         },
@@ -1144,6 +1187,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "parting_shot",
+          "id": 575,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Parting Shot",
+            "fr": "Dernier Mot",
+            "it": "Monito",
+            "de": "Abgangstirade",
+            "es": "Última Palabra",
+            "ko": "막말내뱉기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

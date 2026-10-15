@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -99,87 +99,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -360,6 +360,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ],
       "names": {
@@ -422,25 +430,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -458,6 +447,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
         },
         {
           "symbol": "confuse_ray",
@@ -482,7 +490,7 @@
           "symbol": "copycat",
           "id": 383,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Copycat",
             "fr": "Photocopie",
@@ -501,7 +509,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 7,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -520,7 +528,7 @@
           "symbol": "metronome",
           "id": 118,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Metronome",
             "fr": "Métronome",
@@ -539,7 +547,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 11,
+          "level": 13,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -558,7 +566,7 @@
           "symbol": "rock_polish",
           "id": 397,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 18,
           "names": {
             "en": "Rock Polish",
             "fr": "Poliroche",
@@ -577,7 +585,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 22,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -596,7 +604,7 @@
           "symbol": "mimic",
           "id": 102,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
             "en": "Mimic",
             "fr": "Copie",
@@ -615,7 +623,7 @@
           "symbol": "payback",
           "id": 371,
           "klass": "LevelLearnableMove",
-          "level": 23,
+          "level": 27,
           "names": {
             "en": "Payback",
             "fr": "Représailles",
@@ -634,7 +642,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 30,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -653,7 +661,7 @@
           "symbol": "mirror_move",
           "id": 119,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 32,
           "names": {
             "en": "Mirror Move",
             "fr": "Mimique",
@@ -672,7 +680,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 37,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -691,7 +699,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 41,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -710,7 +718,7 @@
           "symbol": "imprison",
           "id": 286,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 46,
           "names": {
             "en": "Imprison",
             "fr": "Possessif",
@@ -729,7 +737,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 50,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -748,7 +756,7 @@
           "symbol": "reflect_type",
           "id": 513,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 52,
           "names": {
             "en": "Reflect Type",
             "fr": "Copie-Type",
@@ -767,7 +775,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 56,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -786,7 +794,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 60,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -1484,6 +1492,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "play_nice",
+          "id": 589,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Play Nice",
+            "fr": "Camaraderie",
+            "it": "Simpatia",
+            "de": "Kameradschaft",
+            "es": "Camaradería",
+            "ko": "친해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "blinding_wave",
+          "id": 776,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Blinding Wave",
+            "fr": "Vague Aveuglante",
+            "it": "Schiacciacorpo",
+            "de": "Body Press",
+            "es": "Plancha Corporal",
+            "ko": "바디프레스"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 45,
+          "accuracy": 100
         }
       ]
     },
@@ -1567,12 +1613,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -1583,87 +1629,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -1844,6 +1890,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ]
     },
@@ -1927,12 +1981,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -1943,87 +1997,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -2204,6 +2258,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ]
     },
@@ -2287,12 +2349,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -2303,87 +2365,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -2564,6 +2626,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ]
     },
@@ -2647,12 +2717,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -2663,87 +2733,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -2924,6 +2994,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ]
     },
@@ -3007,12 +3085,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -3023,87 +3101,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metronome",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 11
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 14
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mimic",
-          "level": 20
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 23
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mirror_move",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 33
+          "move": "mirror_move",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "will_o_wisp",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "imprison",
+          "move": "ancient_power",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "imprison",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 45
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect_type",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 55
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -3284,6 +3362,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "play_nice"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "blinding_wave"
         }
       ]
     }

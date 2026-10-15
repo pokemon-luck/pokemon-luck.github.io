@@ -72,93 +72,98 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_gas",
-          "level": 4
+          "move": "tackle",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "acid",
+          "move": "withdraw",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bubble",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_gas",
           "level": 8
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "yawn",
-          "level": 12
+          "move": "acid",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_tail",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "recover",
-          "level": 24
+          "move": "wide_guard",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
+          "move": "dive",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "crunch",
-          "level": 36
+          "move": "ancient_power",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "waterfall",
-          "level": 40
+          "move": "life_dew",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_shell",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hydro_pump",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dragon_pulse",
-          "level": 60
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "haze",
-          "level": 64
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "gunk_shot",
+          "move": "sludge_wave",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
           "level": 68
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
-          "level": 72
+          "move": "muddy_water",
+          "level": 73
         },
         {
           "klass": "TechLearnableMove",
@@ -397,25 +402,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -435,10 +421,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "withdraw",
+          "id": 110,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Withdraw",
+            "fr": "Repli",
+            "it": "Ritirata",
+            "de": "Panzerschutz",
+            "es": "Refugio",
+            "ko": "껍질에숨기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bubble",
+          "id": 145,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Bubble",
+            "fr": "Écume",
+            "it": "Bolla",
+            "de": "Blubber",
+            "es": "Burbuja",
+            "ko": "거품"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 8,
           "names": {
             "en": "Poison Gas",
             "fr": "Gaz Toxik",
@@ -457,7 +500,7 @@
           "symbol": "acid",
           "id": 51,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 11,
           "names": {
             "en": "Acid",
             "fr": "Acide",
@@ -473,29 +516,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "yawn",
-          "id": 281,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Yawn",
-            "fr": "Bâillement",
-            "it": "Sbadiglio",
-            "de": "Gähner",
-            "es": "Bostezo",
-            "ko": "하품"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -514,7 +538,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -530,20 +554,20 @@
           "accuracy": 100
         },
         {
-          "symbol": "recover",
-          "id": 105,
+          "symbol": "wide_guard",
+          "id": 469,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
-            "en": "Recover",
-            "fr": "Soin",
-            "it": "Ripresa",
-            "de": "Genesung",
-            "es": "Recuperación",
-            "ko": "HP회복"
+            "en": "Wide Guard",
+            "fr": "Garde Large",
+            "it": "Bodyguard",
+            "de": "Rundumschutz",
+            "es": "Vastaguardia",
+            "ko": "와이드가드"
           },
           "category": "status",
-          "type": "normal",
+          "type": "rock",
           "pp": 10,
           "power": 0,
           "accuracy": 0
@@ -552,7 +576,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -568,67 +592,86 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic_spikes",
-          "id": 390,
+          "symbol": "dive",
+          "id": 291,
           "klass": "LevelLearnableMove",
           "level": 32,
           "names": {
-            "en": "Toxic Spikes",
-            "fr": "Pics Toxik",
-            "it": "Fielepunte",
-            "de": "Giftspitzen",
-            "es": "Púas Tóxicas",
-            "ko": "독압정"
+            "en": "Dive",
+            "fr": "Plongée",
+            "it": "Sub",
+            "de": "Taucher",
+            "es": "Buceo",
+            "ko": "다이빙"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "life_dew",
+          "id": 722,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Life Dew",
+            "fr": "Fontaine de Vie",
+            "it": "Life Dew",
+            "de": "Life Dew",
+            "es": "Life Dew",
+            "ko": "Life Dew"
           },
           "category": "status",
-          "type": "poison",
-          "pp": 20,
+          "type": "water",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "crunch",
-          "id": 242,
+          "symbol": "razor_shell",
+          "id": 534,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 47,
           "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
+            "en": "Razor Shell",
+            "fr": "Coqui-Lame",
+            "it": "Conchilama",
+            "de": "Kalkklinge",
+            "es": "Concha Filo",
+            "ko": "셸블레이드"
           },
           "category": "physical",
           "type": "water",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
+          "pp": 10,
+          "power": 75,
+          "accuracy": 95
         },
         {
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 52,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -644,48 +687,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "hydro_pump",
-          "id": 56,
-          "klass": "LevelLearnableMove",
-          "level": 56,
-          "names": {
-            "en": "Hydro Pump",
-            "fr": "Hydrocanon",
-            "it": "Idropompa",
-            "de": "Hydropumpe",
-            "es": "Hidrobomba",
-            "ko": "하이드로펌프"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 5,
-          "power": 110,
-          "accuracy": 80
-        },
-        {
-          "symbol": "dragon_pulse",
-          "id": 406,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Dragon Pulse",
-            "fr": "Draco-Choc",
-            "it": "Dragopulsar",
-            "de": "Drachenpuls",
-            "es": "Pulso Dragón",
-            "ko": "용의파동"
-          },
-          "category": "special",
-          "type": "dragon",
-          "pp": 10,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 57,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -701,42 +706,61 @@
           "accuracy": 0
         },
         {
-          "symbol": "gunk_shot",
-          "id": 441,
+          "symbol": "sludge_wave",
+          "id": 482,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Sludge Wave",
+            "fr": "Cradovague",
+            "it": "Fangonda",
+            "de": "Schlammwoge",
+            "es": "Onda Tóxica",
+            "ko": "오물웨이브"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
           "klass": "LevelLearnableMove",
           "level": 68,
           "names": {
-            "en": "Gunk Shot",
-            "fr": "Détricanon",
-            "it": "Sporcolancio",
-            "de": "Mülltreffer",
-            "es": "Lanzamugre",
-            "ko": "더스트슈트"
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
           },
-          "category": "physical",
-          "type": "poison",
+          "category": "special",
+          "type": "water",
           "pp": 5,
-          "power": 120,
+          "power": 110,
           "accuracy": 80
         },
         {
-          "symbol": "rain_dance",
-          "id": 240,
+          "symbol": "muddy_water",
+          "id": 330,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 73,
           "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
+            "en": "Muddy Water",
+            "fr": "Ocroupi",
+            "it": "Fanghiglia",
+            "de": "Lehmbrühe",
+            "es": "Agua Lodosa",
+            "ko": "탁류"
           },
-          "category": "status",
+          "category": "special",
           "type": "water",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
+          "pp": 10,
+          "power": 90,
+          "accuracy": 85
         },
         {
           "symbol": "swift",
@@ -812,6 +836,25 @@
           "type": "water",
           "pp": 20,
           "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -986,6 +1029,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
           "symbol": "pursuit",
           "id": 228,
           "klass": "TechLearnableMove",
@@ -1062,6 +1124,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "iron_tail",
           "id": 231,
           "klass": "TechLearnableMove",
@@ -1115,6 +1196,44 @@
           "category": "status",
           "type": "steel",
           "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         },

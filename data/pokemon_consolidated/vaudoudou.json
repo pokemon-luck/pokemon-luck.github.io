@@ -99,17 +99,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 7
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disable",
-          "level": 10
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "lick",
-          "level": 13
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
@@ -124,67 +124,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 22
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 25
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 28
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pain_split",
-          "level": 31
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 34
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "revenge",
-          "level": 37
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mean_look",
-          "level": 43
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "double_edge",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "mean_look",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 49
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 52
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 55
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hyper_voice",
-          "level": 58
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -333,6 +333,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spirit_shackle"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fell_stinger"
         }
       ],
       "names": {
@@ -475,7 +483,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 6,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -494,7 +502,7 @@
           "symbol": "disable",
           "id": 50,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 8,
           "names": {
             "en": "Disable",
             "fr": "Entrave",
@@ -513,7 +521,7 @@
           "symbol": "lick",
           "id": 122,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 11,
           "names": {
             "en": "Lick",
             "fr": "Léchouille",
@@ -570,7 +578,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 24,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -589,7 +597,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -608,7 +616,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -627,7 +635,7 @@
           "symbol": "pain_split",
           "id": 220,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 35,
           "names": {
             "en": "Pain Split",
             "fr": "Balance",
@@ -646,7 +654,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 38,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -665,7 +673,7 @@
           "symbol": "revenge",
           "id": 279,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 41,
           "names": {
             "en": "Revenge",
             "fr": "Vendetta",
@@ -684,7 +692,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 46,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -703,7 +711,7 @@
           "symbol": "mean_look",
           "id": 212,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 48,
           "names": {
             "en": "Mean Look",
             "fr": "Regard Noir",
@@ -722,7 +730,7 @@
           "symbol": "double_edge",
           "id": 38,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 53,
           "names": {
             "en": "Double-Edge",
             "fr": "Damoclès",
@@ -741,7 +749,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 58,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -760,7 +768,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 60,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -779,7 +787,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 65,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -798,7 +806,7 @@
           "symbol": "hyper_voice",
           "id": 304,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 70,
           "names": {
             "en": "Hyper Voice",
             "fr": "Mégaphone",
@@ -1362,6 +1370,44 @@
           "type": "normal",
           "pp": 5,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spirit_shackle",
+          "id": 662,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spirit Shackle",
+            "fr": "Tisse Ombre",
+            "it": "Cucitura d’Ombra",
+            "de": "Schattenfessel",
+            "es": "Puntada Sombría",
+            "ko": "그림자꿰매기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fell_stinger",
+          "id": 565,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fell Stinger",
+            "fr": "Dard Mortel",
+            "it": "Pungiglione",
+            "de": "Stachelfinale",
+            "es": "Aguijón Letal",
+            "ko": "마지막일침"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 25,
+          "power": 50,
           "accuracy": 100
         }
       ]

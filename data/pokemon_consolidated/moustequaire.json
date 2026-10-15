@@ -88,7 +88,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "focus_energy",
-          "level": 9
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vacuum_wave",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
@@ -98,57 +103,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 17
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aerial_ace",
+          "move": "air_cutter",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
           "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "agility",
+          "move": "low_sweep",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "drain_punch",
-          "level": 29
+          "move": "aerial_ace",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "lunge",
+          "move": "agility",
           "level": 33
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "drain_punch",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "lunge",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_slash",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "leech_life",
-          "level": 37
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "throat_chop",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "close_combat",
-          "level": 45
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 50
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "first_impression",
-          "level": 55
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "close_combat",
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swords_dance",
-          "level": 60
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -467,7 +497,7 @@
           "symbol": "focus_energy",
           "id": 116,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Focus Energy",
             "fr": "Puissance",
@@ -481,6 +511,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "vacuum_wave",
+          "id": 410,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Vacuum Wave",
+            "fr": "Onde Vide",
+            "it": "Vuotonda",
+            "de": "Vakuumwelle",
+            "es": "Onda Vacío",
+            "ko": "진공파"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "fury_cutter",
@@ -505,7 +554,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 16,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -521,10 +570,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "low_sweep",
+          "id": 490,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Low Sweep",
+            "fr": "Balayette",
+            "it": "Calciobasso",
+            "de": "Fußtritt",
+            "es": "Puntapié",
+            "ko": "로킥"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 28,
           "names": {
             "en": "Aerial Ace",
             "fr": "Aéropique",
@@ -543,7 +649,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 33,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -562,7 +668,7 @@
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 38,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -581,7 +687,7 @@
           "symbol": "lunge",
           "id": 679,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 43,
           "names": {
             "en": "Lunge",
             "fr": "Furie-Bond",
@@ -597,10 +703,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "air_slash",
+          "id": 403,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Air Slash",
+            "fr": "Lame d’Air",
+            "it": "Eterelama",
+            "de": "Luftschnitt",
+            "es": "Tajo Aéreo",
+            "ko": "에어슬래시"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 53,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -619,7 +744,7 @@
           "symbol": "throat_chop",
           "id": 675,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 58,
           "names": {
             "en": "Throat Chop",
             "fr": "Exécu-Son",
@@ -635,29 +760,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "close_combat",
-          "id": 370,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Close Combat",
-            "fr": "Close Combat",
-            "it": "Zuffa",
-            "de": "Nahkampf",
-            "es": "A Bocajarro",
-            "ko": "인파이트"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 5,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 63,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -673,10 +779,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "first_impression",
           "id": 660,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 73,
           "names": {
             "en": "First Impression",
             "fr": "Escarmouche",
@@ -692,10 +817,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "LevelLearnableMove",
+          "level": 79,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
           "symbol": "swords_dance",
           "id": 14,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 84,
           "names": {
             "en": "Swords Dance",
             "fr": "Danse Lames",
@@ -727,25 +871,6 @@
           "type": "normal",
           "pp": 15,
           "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hyper_voice",
-          "id": 304,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Hyper Voice",
-            "fr": "Mégaphone",
-            "it": "Granvoce",
-            "de": "Schallwelle",
-            "es": "Vozarrón",
-            "ko": "하이퍼보이스"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 90,
           "accuracy": 100
         },
         {
@@ -844,44 +969,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "vacuum_wave",
-          "id": 410,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Vacuum Wave",
-            "fr": "Onde Vide",
-            "it": "Vuotonda",
-            "de": "Vakuumwelle",
-            "es": "Onda Vacío",
-            "ko": "진공파"
-          },
-          "category": "special",
-          "type": "fighting",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "low_sweep",
-          "id": 490,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Low Sweep",
-            "fr": "Balayette",
-            "it": "Calciobasso",
-            "de": "Fußtritt",
-            "es": "Puntapié",
-            "ko": "로킥"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "brick_break",
           "id": 280,
           "klass": "TechLearnableMove",
@@ -956,44 +1043,6 @@
           "pp": 35,
           "power": 60,
           "accuracy": 100
-        },
-        {
-          "symbol": "air_cutter",
-          "id": 314,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
-        },
-        {
-          "symbol": "air_slash",
-          "id": 403,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Air Slash",
-            "fr": "Lame d’Air",
-            "it": "Eterelama",
-            "de": "Luftschnitt",
-            "es": "Tajo Aéreo",
-            "ko": "에어슬래시"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 15,
-          "power": 75,
-          "accuracy": 95
         },
         {
           "symbol": "struggle_bug",
@@ -1317,25 +1366,6 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
-        },
-        {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
         }
       ]
     }

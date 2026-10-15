@@ -32,7 +32,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 25
+              "value": 20
             }
           ]
         }
@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "defense_curl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "defense_curl",
+          "move": "astonish",
           "level": 1
         },
         {
@@ -104,92 +104,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 10
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "glow",
-          "level": 13
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "flash_snap",
           "level": 19
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "flash_snap",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "atonement",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hex",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "counterbalance",
+          "move": "atonement",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
-          "level": 34
+          "move": "hex",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ominous_wind",
+          "move": "counterbalance",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "lucky_chant",
+          "move": "shadow_sneak",
           "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ancient_power",
+          "move": "psybeam",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_armor",
-          "level": 49
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "soothing_twirl",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
+          "move": "ominous_wind",
           "level": 55
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 58
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "celestial_seal",
-          "level": 61
+          "move": "lucky_chant",
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -424,25 +399,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
@@ -460,6 +416,25 @@
           "pp": 40,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
         },
         {
           "symbol": "sparkle_powder",
@@ -503,7 +478,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 12,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -522,7 +497,7 @@
           "symbol": "glow",
           "id": 782,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 17,
           "names": {
             "en": "Glow",
             "fr": "Brillance",
@@ -541,7 +516,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -560,7 +535,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 23,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -579,7 +554,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 28,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -598,7 +573,7 @@
           "symbol": "atonement",
           "id": 779,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 31,
           "names": {
             "en": "Atonement",
             "fr": "Expiation",
@@ -617,7 +592,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 35,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -636,7 +611,7 @@
           "symbol": "counterbalance",
           "id": 790,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 40,
           "names": {
             "en": "Counterbalance",
             "fr": "Compensation",
@@ -655,7 +630,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 43,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -674,7 +649,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 46,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -690,10 +665,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "acid_armor",
+          "id": 151,
+          "klass": "LevelLearnableMove",
+          "level": 51,
+          "names": {
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "ominous_wind",
           "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 55,
           "names": {
             "en": "Ominous Wind",
             "fr": "Vent Mauvais",
@@ -712,7 +706,7 @@
           "symbol": "lucky_chant",
           "id": 381,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 60,
           "names": {
             "en": "Lucky Chant",
             "fr": "Air Veinard",
@@ -724,120 +718,6 @@
           "category": "status",
           "type": "normal",
           "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "LevelLearnableMove",
-          "level": 46,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "acid_armor",
-          "id": 151,
-          "klass": "LevelLearnableMove",
-          "level": 49,
-          "names": {
-            "en": "Acid Armor",
-            "fr": "Acidarmure",
-            "it": "Scudo Acido",
-            "de": "Säurepanzer",
-            "es": "Armadura Ácida",
-            "ko": "녹기"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "soothing_twirl",
-          "id": 769,
-          "klass": "LevelLearnableMove",
-          "level": 52,
-          "names": {
-            "en": "Soothing Twirl",
-            "fr": "Tour Apaisant",
-            "it": "Dynapsiche",
-            "de": "Dyna-Kinese",
-            "es": "Maxionda",
-            "ko": "다이사이코"
-          },
-          "category": "physical",
-          "type": "celestial",
-          "pp": 20,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "LevelLearnableMove",
-          "level": 58,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "celestial_seal",
-          "id": 786,
-          "klass": "LevelLearnableMove",
-          "level": 61,
-          "names": {
-            "en": "Celestial Seal",
-            "fr": "Sceau Céleste",
-            "it": "Overdrive",
-            "de": "Overdrive",
-            "es": "Amplificador",
-            "ko": "오버드라이브"
-          },
-          "category": "status",
-          "type": "celestial",
-          "pp": 5,
           "power": 0,
           "accuracy": 0
         },
@@ -956,6 +836,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "power_gem",
           "id": 408,
           "klass": "TechLearnableMove",
@@ -971,6 +870,25 @@
           "category": "special",
           "type": "rock",
           "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
           "power": 80,
           "accuracy": 100
         },
@@ -1048,6 +966,44 @@
           "type": "fairy",
           "pp": 10,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "soothing_twirl",
+          "id": 769,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Soothing Twirl",
+            "fr": "Tour Apaisant",
+            "it": "Dynapsiche",
+            "de": "Dyna-Kinese",
+            "es": "Maxionda",
+            "ko": "다이사이코"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 20,
+          "power": 50,
           "accuracy": 100
         },
         {

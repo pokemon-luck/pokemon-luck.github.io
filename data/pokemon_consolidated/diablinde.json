@@ -72,103 +72,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "metal_claw",
-          "level": 3
+          "move": "scratch",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_smash",
+          "move": "metal_claw",
           "level": 5
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 9
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 13
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 17
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "smack_down",
           "level": 21
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "smack_down",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 25
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 29
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 34
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spikes",
-          "level": 38
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 50
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gyro_ball",
-          "level": 54
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 58
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 62
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "stone_edge",
           "level": 66
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 77
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_burst",
-          "level": 70
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -479,25 +479,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -517,10 +498,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "metal_claw",
           "id": 232,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 5,
           "names": {
             "en": "Metal Claw",
             "fr": "Griffe Acier",
@@ -539,7 +539,7 @@
           "symbol": "rock_smash",
           "id": 249,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 8,
           "names": {
             "en": "Rock Smash",
             "fr": "Éclate-Roc",
@@ -558,7 +558,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -577,7 +577,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 16,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -596,7 +596,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 21,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -615,7 +615,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 24,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -634,7 +634,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 26,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -653,7 +653,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 31,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -672,7 +672,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 36,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -691,7 +691,7 @@
           "symbol": "spikes",
           "id": 191,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 41,
           "names": {
             "en": "Spikes",
             "fr": "Picots",
@@ -710,7 +710,7 @@
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 46,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -729,7 +729,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 51,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -748,7 +748,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -767,7 +767,7 @@
           "symbol": "gyro_ball",
           "id": 360,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 61,
           "names": {
             "en": "Gyro Ball",
             "fr": "Gyroballe",
@@ -786,7 +786,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 66,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -805,7 +805,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 71,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -824,7 +824,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 77,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -843,7 +843,7 @@
           "symbol": "metal_burst",
           "id": 368,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 82,
           "names": {
             "en": "Metal Burst",
             "fr": "Fulmifer",

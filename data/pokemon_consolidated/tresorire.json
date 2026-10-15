@@ -72,58 +72,58 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "harden",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 9
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 16
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_shot",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 24
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_burst",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -133,37 +133,37 @@
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 44
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "steel_beam",
           "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "body_slam",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
+          "move": "steel_beam",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "body_slam",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 60
+          "level": 71
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aura_sphere",
-          "level": 64
+          "level": 76
         },
         {
           "klass": "TechLearnableMove",
@@ -478,25 +478,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "harden",
-          "id": 106,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Harden",
-            "fr": "Armure",
-            "it": "Rafforzatore",
-            "de": "Härtner",
-            "es": "Fortaleza",
-            "ko": "단단해지기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "tackle",
           "id": 33,
           "klass": "LevelLearnableMove",
@@ -516,10 +497,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "harden",
+          "id": 106,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Harden",
+            "fr": "Armure",
+            "it": "Rafforzatore",
+            "de": "Härtner",
+            "es": "Fortaleza",
+            "ko": "단단해지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -538,7 +538,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 6,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -557,7 +557,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -576,7 +576,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 12,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -595,7 +595,7 @@
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Mirror Shot",
             "fr": "Miroi-Tir",
@@ -614,7 +614,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 20,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -633,7 +633,7 @@
           "symbol": "metal_burst",
           "id": 368,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Metal Burst",
             "fr": "Fulmifer",
@@ -652,7 +652,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -671,7 +671,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -709,7 +709,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 45,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -728,7 +728,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 50,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -747,7 +747,7 @@
           "symbol": "steel_beam",
           "id": 724,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Steel Beam",
             "fr": "Métalaser",
@@ -766,7 +766,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 61,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -785,7 +785,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 66,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -804,7 +804,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 71,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -823,7 +823,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 76,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",

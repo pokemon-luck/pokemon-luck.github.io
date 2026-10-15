@@ -75,14 +75,14 @@
       "frontOffsetY": 0,
       "resources": {
         "icon": "118_i",
-        "iconShiny": "118_i_s",
-        "front": "118",
-        "frontShiny": "118_s",
-        "back": "118_b",
-        "backShiny": "118_b_s",
+        "iconShiny": "118_2_i_s",
+        "front": "118_2",
+        "frontShiny": "118_2_s",
+        "back": "118_2_b",
+        "backShiny": "118_2_b_s",
         "footprint": "",
         "character": "118_c",
-        "characterShiny": "118_c_s",
+        "characterShiny": "118_2_c_s",
         "egg": "egg",
         "iconEgg": "egg",
         "cry": "",
@@ -101,8 +101,13 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "mud_slap",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
@@ -111,58 +116,83 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "night_shade",
-          "level": 12
+          "move": "shadow_sneak",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_tomb",
-          "level": 16
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_shade",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hex",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bulldoze",
+          "move": "mud_shot",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
+          "move": "hex",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 36
+          "move": "psybeam",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulldoze",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ominous_wind",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "curse",
-          "level": 45
+          "move": "nasty_plot",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 50
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "memento",
-          "level": 55
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -295,6 +325,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "mind_reader"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "defacement"
         }
       ],
       "names": {
@@ -415,10 +453,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "mud_slap",
           "id": 189,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Mud-Slap",
             "fr": "Coud’Boue",
@@ -453,29 +510,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "night_shade",
-          "id": 101,
+          "symbol": "shadow_sneak",
+          "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
-            "en": "Night Shade",
-            "fr": "Ombre Nocturne",
-            "it": "Ombra Notturna",
-            "de": "Nachtnebel",
-            "es": "Tinieblas",
-            "ko": "나이트헤드"
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
           },
-          "category": "special",
+          "category": "physical",
           "type": "ghost",
-          "pp": 15,
-          "power": 0,
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "sand_tomb",
           "id": 328,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Sand Tomb",
             "fr": "Tourbi-Sable",
@@ -491,10 +548,48 @@
           "accuracy": 85
         },
         {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -510,10 +605,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 32,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -529,10 +643,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 39,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -548,10 +681,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "ominous_wind",
+          "id": 466,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Ominous Wind",
+            "fr": "Vent Mauvais",
+            "it": "Funestovento",
+            "de": "Unheilböen",
+            "es": "Viento Aciago",
+            "ko": "괴상한바람"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 53,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -570,7 +741,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 58,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -586,48 +757,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "ominous_wind",
-          "id": 466,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Ominous Wind",
-            "fr": "Vent Mauvais",
-            "it": "Funestovento",
-            "de": "Unheilböen",
-            "es": "Viento Aciago",
-            "ko": "괴상한바람"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "curse",
-          "id": 174,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Curse",
-            "fr": "Malédiction",
-            "it": "Maledizione",
-            "de": "Fluch",
-            "es": "Maldición",
-            "ko": "저주"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 63,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -646,7 +779,7 @@
           "symbol": "memento",
           "id": 262,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 65,
           "names": {
             "en": "Memento",
             "fr": "Souvenir",
@@ -660,6 +793,25 @@
           "pp": 10,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "swift",
@@ -679,63 +831,6 @@
           "pp": 20,
           "power": 60,
           "accuracy": 0
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
         },
         {
           "symbol": "rock_tomb",
@@ -774,25 +869,6 @@
           "pp": 10,
           "power": 75,
           "accuracy": 90
-        },
-        {
-          "symbol": "shadow_sneak",
-          "id": 425,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
         },
         {
           "symbol": "pursuit",
@@ -888,25 +964,6 @@
           "pp": 15,
           "power": 80,
           "accuracy": 100
-        },
-        {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "calm_mind",
@@ -1042,25 +1099,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "rest",
           "id": 156,
           "klass": "TechLearnableMove",
@@ -1154,6 +1192,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "mind_reader",
+          "id": 170,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mind Reader",
+            "fr": "Lire-Esprit",
+            "it": "Leggimente",
+            "de": "Willensleser",
+            "es": "Telépata",
+            "ko": "마음의눈"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

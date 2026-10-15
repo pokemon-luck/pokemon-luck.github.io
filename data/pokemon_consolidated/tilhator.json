@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
+          "move": "confuse_ray",
           "level": 1
         },
         {
@@ -82,93 +82,93 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "astonish",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 3
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 7
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "bubble_beam",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "bubble_beam",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "ominous_wind",
-          "level": 15
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "waterfall",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 25
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scald",
-          "level": 28
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 30
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 40
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 45
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 50
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 55
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 60
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 65
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 70
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 75
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 80
+          "level": 83
         },
         {
           "klass": "TechLearnableMove",
@@ -419,22 +419,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "astonish",
-          "id": 310,
+          "symbol": "confuse_ray",
+          "id": 109,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
           },
-          "category": "physical",
+          "category": "status",
           "type": "ghost",
-          "pp": 15,
-          "power": 30,
+          "pp": 10,
+          "power": 0,
           "accuracy": 100
         },
         {
@@ -457,29 +457,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
+          "symbol": "astonish",
+          "id": 310,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
           },
-          "category": "status",
+          "category": "physical",
           "type": "ghost",
-          "pp": 10,
-          "power": 0,
+          "pp": 15,
+          "power": 30,
           "accuracy": 100
         },
         {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 5,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -498,7 +498,7 @@
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 10,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -517,7 +517,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 14,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -536,7 +536,7 @@
           "symbol": "ominous_wind",
           "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 18,
           "names": {
             "en": "Ominous Wind",
             "fr": "Vent Mauvais",
@@ -555,7 +555,7 @@
           "symbol": "waterfall",
           "id": 127,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Waterfall",
             "fr": "Cascade",
@@ -574,7 +574,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 27,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -593,7 +593,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 32,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -612,7 +612,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 37,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -631,7 +631,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 42,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -650,7 +650,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 47,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -669,7 +669,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -688,7 +688,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 58,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -707,7 +707,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 63,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -726,7 +726,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 68,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -745,7 +745,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -764,7 +764,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 78,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -783,7 +783,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 83,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",

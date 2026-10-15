@@ -103,67 +103,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "low_kick",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "meditate",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psywave",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "force_palm",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 24
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tail_slap",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psywave",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "coil",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psycho_cut",
+          "move": "psybeam",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aura_sphere",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "zen_headbutt",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "whip_lash",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psycho_cut",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "drain_punch",
-          "level": 52
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 56
+          "move": "calm_mind",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
@@ -172,8 +167,8 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "close_combat",
-          "level": 65
+          "move": "future_sight",
+          "level": 66
         },
         {
           "klass": "TechLearnableMove",
@@ -306,6 +301,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "attract"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spotlight"
         }
       ],
       "names": {
@@ -448,7 +451,7 @@
           "symbol": "low_kick",
           "id": 67,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Low Kick",
             "fr": "Balayage",
@@ -467,7 +470,7 @@
           "symbol": "meditate",
           "id": 96,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Meditate",
             "fr": "Yoga",
@@ -483,29 +486,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "psywave",
-          "id": 149,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Psywave",
-            "fr": "Vague Psy",
-            "it": "Psiconda",
-            "de": "Psywelle",
-            "es": "Psicoonda",
-            "ko": "사이코웨이브"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "force_palm",
           "id": 395,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Force Palm",
             "fr": "Forte-Paume",
@@ -521,29 +505,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "tail_slap",
           "id": 541,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 18,
           "names": {
             "en": "Tail Slap",
             "fr": "Plumo-Queue",
@@ -559,67 +524,67 @@
           "accuracy": 85
         },
         {
-          "symbol": "psycho_cut",
-          "id": 427,
+          "symbol": "psywave",
+          "id": 149,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 23,
           "names": {
-            "en": "Psycho Cut",
-            "fr": "Coupe Psycho",
-            "it": "Psicotaglio",
-            "de": "Psychoklinge",
-            "es": "Psicocorte",
-            "ko": "사이코커터"
+            "en": "Psywave",
+            "fr": "Vague Psy",
+            "it": "Psiconda",
+            "de": "Psywelle",
+            "es": "Psicoonda",
+            "ko": "사이코웨이브"
           },
-          "category": "physical",
+          "category": "special",
           "type": "psychic",
-          "pp": 20,
-          "power": 70,
+          "pp": 15,
+          "power": 0,
           "accuracy": 100
         },
         {
-          "symbol": "aura_sphere",
-          "id": 396,
+          "symbol": "coil",
+          "id": 489,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
-            "en": "Aura Sphere",
-            "fr": "Aurasphère",
-            "it": "Forzasfera",
-            "de": "Aurasphäre",
-            "es": "Esfera Aural",
-            "ko": "파동탄"
+            "en": "Coil",
+            "fr": "Enroulement",
+            "it": "Arrotola",
+            "de": "Einrollen",
+            "es": "Enrosque",
+            "ko": "똬리틀기"
           },
-          "category": "special",
-          "type": "fighting",
+          "category": "status",
+          "type": "poison",
           "pp": 20,
-          "power": 80,
+          "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "zen_headbutt",
-          "id": 428,
+          "symbol": "psybeam",
+          "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 32,
           "names": {
-            "en": "Zen Headbutt",
-            "fr": "Psykoud’Boul",
-            "it": "Cozzata Zen",
-            "de": "Zen-Kopfstoß",
-            "es": "Cabezazo Zen",
-            "ko": "사념의박치기"
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
           },
-          "category": "physical",
+          "category": "special",
           "type": "psychic",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 90
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
         },
         {
           "symbol": "whip_lash",
           "id": 726,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 37,
           "names": {
             "en": "Whip Lash",
             "fr": "Claque-Fouet",
@@ -635,29 +600,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "calm_mind",
-          "id": 347,
+          "symbol": "taunt",
+          "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 39,
           "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
           },
           "category": "status",
-          "type": "psychic",
+          "type": "dark",
           "pp": 20,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 100
+        },
+        {
+          "symbol": "psycho_cut",
+          "id": 427,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Psycho Cut",
+            "fr": "Coupe Psycho",
+            "it": "Psicotaglio",
+            "de": "Psychoklinge",
+            "es": "Psicocorte",
+            "ko": "사이코커터"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
         },
         {
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 49,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -673,23 +657,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "future_sight",
-          "id": 248,
+          "symbol": "calm_mind",
+          "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 54,
           "names": {
-            "en": "Future Sight",
-            "fr": "Prescience",
-            "it": "Divinazione",
-            "de": "Seher",
-            "es": "Premonición",
-            "ko": "미래예지"
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
           },
-          "category": "special",
+          "category": "status",
           "type": "psychic",
-          "pp": 10,
-          "power": 120,
-          "accuracy": 100
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "power_whip",
@@ -711,21 +695,21 @@
           "accuracy": 85
         },
         {
-          "symbol": "close_combat",
-          "id": 370,
+          "symbol": "future_sight",
+          "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 66,
           "names": {
-            "en": "Close Combat",
-            "fr": "Close Combat",
-            "it": "Zuffa",
-            "de": "Nahkampf",
-            "es": "A Bocajarro",
-            "ko": "인파이트"
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
           },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 5,
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
           "power": 120,
           "accuracy": 100
         },
@@ -861,6 +845,63 @@
           "pp": 15,
           "power": 75,
           "accuracy": 100
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
+          "symbol": "close_combat",
+          "id": 370,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Close Combat",
+            "fr": "Close Combat",
+            "it": "Zuffa",
+            "de": "Nahkampf",
+            "es": "A Bocajarro",
+            "ko": "인파이트"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 5,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
         },
         {
           "symbol": "psyshock",
@@ -1053,25 +1094,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "coil",
-          "id": 489,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Coil",
-            "fr": "Enroulement",
-            "it": "Arrotola",
-            "de": "Einrollen",
-            "es": "Enrosque",
-            "ko": "똬리틀기"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "light_screen",
           "id": 113,
           "klass": "TechLearnableMove",
@@ -1167,25 +1189,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "encore",
           "id": 227,
           "klass": "TechLearnableMove",
@@ -1220,6 +1223,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "attract",
+          "id": 213,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Attract",
+            "fr": "Attraction",
+            "it": "Attrazione",
+            "de": "Anziehung",
+            "es": "Atracción",
+            "ko": "헤롱헤롱"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "spotlight",
+          "id": 671,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spotlight",
+            "fr": "Projecteur",
+            "it": "Riflettore",
+            "de": "Rampenlicht",
+            "es": "Foco",
+            "ko": "스포트라이트"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
           "power": 0,
           "accuracy": 0
         }

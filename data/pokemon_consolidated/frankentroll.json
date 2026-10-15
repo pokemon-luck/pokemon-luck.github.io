@@ -72,17 +72,17 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "fester",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rot_claw",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "defacement",
           "level": 4
         },
         {
@@ -92,73 +92,78 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_throw",
+          "move": "dreadbind",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "miasma_veil",
-          "level": 14
+          "move": "rock_throw",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bulldoze",
+          "move": "miasma_veil",
           "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bone_fist",
-          "level": 22
+          "move": "bulldoze",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "defacement",
+          "move": "bone_fist",
           "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dreadbind",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_tomb",
-          "level": 31
+          "move": "ancient_power",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "revenants_grasp",
-          "level": 36
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "grave_vengeance",
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 41
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "grave_rend",
-          "level": 46
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stone_edge",
-          "level": 58
+          "move": "earth_power",
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "deaths_favour",
-          "level": 64
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stone_edge",
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rearise",
-          "level": 70
+          "level": 73
         },
         {
           "klass": "TechLearnableMove",
@@ -423,6 +428,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "poison_fang"
         }
       ],
       "names": {
@@ -505,25 +542,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "fester",
           "id": 752,
           "klass": "LevelLearnableMove",
@@ -543,22 +561,41 @@
           "accuracy": 95
         },
         {
-          "symbol": "rot_claw",
-          "id": 732,
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
           "klass": "LevelLearnableMove",
           "level": 4,
           "names": {
-            "en": "Rot Claw",
-            "fr": "Pourrigriffe",
-            "it": "Pikasaetta",
-            "de": "Pika-Flash",
-            "es": "Pikatormenta",
-            "ko": "피카피카썬더"
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
           },
-          "category": "physical",
+          "category": "status",
           "type": "undead",
-          "pp": 35,
-          "power": 40,
+          "pp": 20,
+          "power": 0,
           "accuracy": 100
         },
         {
@@ -581,10 +618,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "dreadbind",
+          "id": 754,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Dread Bind",
+            "fr": "Lien Terreur",
+            "it": "Beccoshock",
+            "de": "Schockschnabel",
+            "es": "Electropico",
+            "ko": "전격부리"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "rock_throw",
           "id": 88,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 13,
           "names": {
             "en": "Rock Throw",
             "fr": "Jet-Pierres",
@@ -603,7 +659,7 @@
           "symbol": "miasma_veil",
           "id": 755,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 18,
           "names": {
             "en": "Miasma Veil",
             "fr": "Voile Miasmique",
@@ -622,7 +678,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 21,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -641,7 +697,7 @@
           "symbol": "bone_fist",
           "id": 734,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 26,
           "names": {
             "en": "Bone Fist",
             "fr": "Poing Osseux",
@@ -657,67 +713,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "defacement",
-          "id": 753,
+          "symbol": "ancient_power",
+          "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 29,
           "names": {
-            "en": "Defacement",
-            "fr": "Dégradation",
-            "it": "Tentacolock",
-            "de": "Octoklammer",
-            "es": "Octopresa",
-            "ko": "문어굳히기"
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
           },
-          "category": "status",
-          "type": "undead",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dreadbind",
-          "id": 754,
-          "klass": "LevelLearnableMove",
-          "level": 30,
-          "names": {
-            "en": "Dread Bind",
-            "fr": "Lien Terreur",
-            "it": "Beccoshock",
-            "de": "Schockschnabel",
-            "es": "Electropico",
-            "ko": "전격부리"
-          },
-          "category": "status",
-          "type": "undead",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "rock_tomb",
-          "id": 317,
-          "klass": "LevelLearnableMove",
-          "level": 31,
-          "names": {
-            "en": "Rock Tomb",
-            "fr": "Tomberoche",
-            "it": "Rocciotomba",
-            "de": "Felsgrab",
-            "es": "Tumba Rocas",
-            "ko": "암석봉인"
-          },
-          "category": "physical",
+          "category": "special",
           "type": "rock",
-          "pp": 15,
+          "pp": 5,
           "power": 60,
-          "accuracy": 95
+          "accuracy": 100
         },
         {
           "symbol": "revenants_grasp",
           "id": 756,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Revenant's Grasp",
             "fr": "Poigne Revenant",
@@ -733,10 +751,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "grave_vengeance",
+          "id": 748,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Grave Vengeance",
+            "fr": "Vengeance Tombale",
+            "it": "Spalle al Muro",
+            "de": "Finalformation",
+            "es": "Bastión Final",
+            "ko": "배수의진"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 47,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -755,7 +811,7 @@
           "symbol": "grave_rend",
           "id": 737,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 52,
           "names": {
             "en": "Grave Rend",
             "fr": "Explotombe",
@@ -774,7 +830,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -790,29 +846,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "stone_edge",
-          "id": 444,
-          "klass": "LevelLearnableMove",
-          "level": 58,
-          "names": {
-            "en": "Stone Edge",
-            "fr": "Lame de Roc",
-            "it": "Pietrataglio",
-            "de": "Steinkante",
-            "es": "Roca Afilada",
-            "ko": "스톤에지"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 5,
-          "power": 100,
-          "accuracy": 80
-        },
-        {
           "symbol": "deaths_favour",
           "id": 760,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 62,
           "names": {
             "en": "Death's Favour",
             "fr": "Faveur Mortelle",
@@ -828,10 +865,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "stone_edge",
+          "id": 444,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Stone Edge",
+            "fr": "Lame de Roc",
+            "it": "Pietrataglio",
+            "de": "Steinkante",
+            "es": "Roca Afilada",
+            "ko": "스톤에지"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 80
+        },
+        {
           "symbol": "rearise",
           "id": 757,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Rearise",
             "fr": "Réviviscence",
@@ -1227,25 +1283,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "rock_slide",
           "id": 157,
           "klass": "TechLearnableMove",
@@ -1512,6 +1549,25 @@
           "accuracy": 90
         },
         {
+          "symbol": "rot_claw",
+          "id": 732,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rot Claw",
+            "fr": "Pourrigriffe",
+            "it": "Pikasaetta",
+            "de": "Pika-Flash",
+            "es": "Pikatormenta",
+            "ko": "피카피카썬더"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "soul_siphon",
           "id": 744,
           "klass": "TechLearnableMove",
@@ -1604,25 +1660,6 @@
           "type": "undead",
           "pp": 10,
           "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "grave_vengeance",
-          "id": 748,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Grave Vengeance",
-            "fr": "Vengeance Tombale",
-            "it": "Spalle al Muro",
-            "de": "Finalformation",
-            "es": "Bastión Final",
-            "ko": "배수의진"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 10,
-          "power": 90,
           "accuracy": 100
         },
         {
@@ -1928,6 +1965,158 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
         }
       ]
     }

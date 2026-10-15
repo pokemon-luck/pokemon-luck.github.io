@@ -94,57 +94,57 @@
         {
           "klass": "LevelLearnableMove",
           "move": "disarming_voice",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "baby_doll_eyes",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_nice",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "headbutt",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "low_sweep",
-          "level": 24
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "charm",
-          "level": 28
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reversal",
-          "level": 32
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 36
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 40
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 44
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
@@ -154,12 +154,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "close_combat",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonblast",
-          "level": 56
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -348,6 +348,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "encore"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "sing"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "high_horsepower"
         }
       ],
       "names": {
@@ -471,7 +479,7 @@
           "symbol": "disarming_voice",
           "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Disarming Voice",
             "fr": "Voix Enjôleuse",
@@ -490,7 +498,7 @@
           "symbol": "baby_doll_eyes",
           "id": 608,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Baby-Doll Eyes",
             "fr": "Regard Touchant",
@@ -509,7 +517,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -528,7 +536,7 @@
           "symbol": "play_nice",
           "id": 589,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 11,
           "names": {
             "en": "Play Nice",
             "fr": "Camaraderie",
@@ -547,7 +555,7 @@
           "symbol": "headbutt",
           "id": 29,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Headbutt",
             "fr": "Coup d’Boule",
@@ -566,7 +574,7 @@
           "symbol": "low_sweep",
           "id": 490,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 20,
           "names": {
             "en": "Low Sweep",
             "fr": "Balayette",
@@ -585,7 +593,7 @@
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 23,
           "names": {
             "en": "Charm",
             "fr": "Charme",
@@ -604,7 +612,7 @@
           "symbol": "reversal",
           "id": 179,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 28,
           "names": {
             "en": "Reversal",
             "fr": "Contre",
@@ -623,7 +631,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 33,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -642,7 +650,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 38,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -661,7 +669,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 43,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -699,7 +707,7 @@
           "symbol": "close_combat",
           "id": 370,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Close Combat",
             "fr": "Close Combat",
@@ -718,7 +726,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -1454,6 +1462,44 @@
           "pp": 5,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "sing",
+          "id": 47,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sing",
+            "fr": "Berceuse",
+            "it": "Canto",
+            "de": "Gesang",
+            "es": "Canto",
+            "ko": "노래하기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 55
+        },
+        {
+          "symbol": "high_horsepower",
+          "id": 667,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "High Horsepower",
+            "fr": "Cavalerie Lourde",
+            "it": "Forza Equina",
+            "de": "Pferdestärke",
+            "es": "Fuerza Equina",
+            "ko": "10만마력"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 95,
+          "accuracy": 95
         }
       ]
     }

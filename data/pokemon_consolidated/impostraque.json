@@ -93,72 +93,72 @@
         {
           "klass": "LevelLearnableMove",
           "move": "fester",
-          "level": 9
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 13
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulldoze",
-          "level": 17
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rot_spikes",
-          "level": 21
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "respite",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "withering_pulse",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "revenants_grasp",
+          "move": "withering_pulse",
           "level": 33
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "revenants_grasp",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "stomping_tantrum",
-          "level": 37
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "entomb",
-          "level": 41
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 45
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "grave_vengeance",
-          "level": 53
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earthquake",
           "level": 57
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "grave_vengeance",
+          "level": 62
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "severed_rush",
-          "level": 61
+          "level": 74
         },
         {
           "klass": "TechLearnableMove",
@@ -351,6 +351,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "deaths_favour"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spine_break"
         }
       ],
       "names": {
@@ -512,7 +520,7 @@
           "symbol": "fester",
           "id": 752,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 10,
           "names": {
             "en": "Fester",
             "fr": "Envenimation",
@@ -531,7 +539,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 15,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -550,7 +558,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 19,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -569,7 +577,7 @@
           "symbol": "rot_spikes",
           "id": 758,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 24,
           "names": {
             "en": "Rot Spikes",
             "fr": "Flétripics",
@@ -588,7 +596,7 @@
           "symbol": "respite",
           "id": 761,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Respite",
             "fr": "Répit",
@@ -607,7 +615,7 @@
           "symbol": "withering_pulse",
           "id": 745,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 33,
           "names": {
             "en": "Withering Pulse",
             "fr": "Flétri-Vague",
@@ -626,7 +634,7 @@
           "symbol": "revenants_grasp",
           "id": 756,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 38,
           "names": {
             "en": "Revenant's Grasp",
             "fr": "Poigne Revenant",
@@ -645,7 +653,7 @@
           "symbol": "stomping_tantrum",
           "id": 707,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 43,
           "names": {
             "en": "Stomping Tantrum",
             "fr": "Trépignement",
@@ -664,7 +672,7 @@
           "symbol": "entomb",
           "id": 739,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 47,
           "names": {
             "en": "Entomb",
             "fr": "Ensevelissement",
@@ -683,7 +691,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 52,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -702,7 +710,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 57,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -721,7 +729,7 @@
           "symbol": "grave_vengeance",
           "id": 748,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 62,
           "names": {
             "en": "Grave Vengeance",
             "fr": "Vengeance Tombale",
@@ -740,7 +748,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 68,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -759,7 +767,7 @@
           "symbol": "severed_rush",
           "id": 738,
           "klass": "LevelLearnableMove",
-          "level": 61,
+          "level": 74,
           "names": {
             "en": "Severed Rush",
             "fr": "Sprint Sectionné",
@@ -1514,6 +1522,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "spine_break",
+          "id": 742,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spine-Break",
+            "fr": "Brise-Dos",
+            "it": "Pugni Corazzati",
+            "de": "Panzerfäuste",
+            "es": "Ferropuño Doble",
+            "ko": "더블펀처"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
         }
       ]
     }

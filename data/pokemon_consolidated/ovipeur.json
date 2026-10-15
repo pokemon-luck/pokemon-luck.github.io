@@ -32,7 +32,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 40
+              "value": 30
             }
           ]
         }
@@ -93,93 +93,83 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fester",
-          "level": 3
+          "move": "dreadbind",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fairy_wind",
-          "level": 6
+          "move": "disarming_voice",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soul_siphon",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rot_claw",
-          "level": 9
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sweet_kiss",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 15
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "defacement",
+          "move": "fester",
           "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
-          "level": 21
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 25
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "maggot_lash",
-          "level": 28
+          "move": "draining_kiss",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
+          "move": "foul_breath",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
+          "move": "defacement",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 37
+          "move": "rot_spikes",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ingrain",
-          "level": 40
+          "move": "maggot_lash",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "revenants_grasp",
-          "level": 42
+          "move": "spectral_devourer",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wish",
-          "level": 45
+          "move": "respite",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "withering_pulse",
-          "level": 48
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "putrid_fangs",
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "deaths_favour",
-          "level": 52
+          "level": 65
         },
         {
           "klass": "TechLearnableMove",
@@ -480,40 +470,59 @@
           "accuracy": 100
         },
         {
-          "symbol": "fester",
-          "id": 752,
+          "symbol": "dreadbind",
+          "id": 754,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
-            "en": "Fester",
-            "fr": "Envenimation",
-            "it": "Ora del Tè",
-            "de": "Teatime",
-            "es": "Hora del Té",
-            "ko": "다과회"
+            "en": "Dread Bind",
+            "fr": "Lien Terreur",
+            "it": "Beccoshock",
+            "de": "Schockschnabel",
+            "es": "Electropico",
+            "ko": "전격부리"
           },
           "category": "status",
           "type": "undead",
-          "pp": 15,
+          "pp": 20,
           "power": 0,
-          "accuracy": 95
+          "accuracy": 100
         },
         {
-          "symbol": "fairy_wind",
-          "id": 584,
+          "symbol": "disarming_voice",
+          "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 7,
           "names": {
-            "en": "Fairy Wind",
-            "fr": "Vent Féérique",
-            "it": "Vento di Fata",
-            "de": "Feenbrise",
-            "es": "Viento Feérico",
-            "ko": "요정의바람"
+            "en": "Disarming Voice",
+            "fr": "Voix Enjôleuse",
+            "it": "Incantavoce",
+            "de": "Säuselstimme",
+            "es": "Voz Cautivadora",
+            "ko": "차밍보이스"
           },
           "category": "special",
           "type": "fairy",
-          "pp": 30,
+          "pp": 15,
+          "power": 40,
+          "accuracy": 0
+        },
+        {
+          "symbol": "soul_siphon",
+          "id": 744,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Soul Siphon",
+            "fr": "Siphon'Âme",
+            "it": "Cannone Dynamax",
+            "de": "Dynamax-Kanone",
+            "es": "Cañón Dinamax",
+            "ko": "다이맥스포"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
           "power": 40,
           "accuracy": 100
         },
@@ -521,7 +530,7 @@
           "symbol": "rot_claw",
           "id": 732,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 13,
           "names": {
             "en": "Rot Claw",
             "fr": "Pourrigriffe",
@@ -537,105 +546,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "sweet_kiss",
-          "id": 186,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Sweet Kiss",
-            "fr": "Doux Baiser",
-            "it": "Dolcebacio",
-            "de": "Bitterkuss",
-            "es": "Beso Dulce",
-            "ko": "천사의키스"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 75
-        },
-        {
-          "symbol": "draining_kiss",
-          "id": 577,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "defacement",
-          "id": 753,
+          "symbol": "fester",
+          "id": 752,
           "klass": "LevelLearnableMove",
           "level": 18,
           "names": {
-            "en": "Defacement",
-            "fr": "Dégradation",
-            "it": "Tentacolock",
-            "de": "Octoklammer",
-            "es": "Octopresa",
-            "ko": "문어굳히기"
+            "en": "Fester",
+            "fr": "Envenimation",
+            "it": "Ora del Tè",
+            "de": "Teatime",
+            "es": "Hora del Té",
+            "ko": "다과회"
           },
           "category": "status",
           "type": "undead",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 21,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
           "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
-          "symbol": "protect",
-          "id": 182,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Protect",
-            "fr": "Abri",
-            "it": "Protezione",
-            "de": "Schutzschild",
-            "es": "Protección",
-            "ko": "방어"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 95
         },
         {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 23,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -651,10 +584,86 @@
           "accuracy": 90
         },
         {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "foul_breath",
+          "id": 743,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Foul Breath",
+            "fr": "Haleine",
+            "it": "Dynabarriera",
+            "de": "Dyna-Wall",
+            "es": "Maxibarrera",
+            "ko": "다이월"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "defacement",
+          "id": 753,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Defacement",
+            "fr": "Dégradation",
+            "it": "Tentacolock",
+            "de": "Octoklammer",
+            "es": "Octopresa",
+            "ko": "문어굳히기"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rot_spikes",
+          "id": 758,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Rot Spikes",
+            "fr": "Flétripics",
+            "it": "Dynainsetto",
+            "de": "Dyna-Schwarm",
+            "es": "Maxinsecto",
+            "ko": "다이웜"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "maggot_lash",
           "id": 735,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 43,
           "names": {
             "en": "Maggot Lash",
             "fr": "Fouet Grouillant",
@@ -670,115 +679,39 @@
           "accuracy": 100
         },
         {
-          "symbol": "dazzling_gleam",
-          "id": 605,
+          "symbol": "spectral_devourer",
+          "id": 750,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 47,
           "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
+            "en": "Spectral Devourer",
+            "fr": "Dévorâme",
+            "it": "Magipolvere",
+            "de": "Magiepuder",
+            "es": "Polvo Mágico",
+            "ko": "마법가루"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
+          "symbol": "respite",
+          "id": 761,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 52,
           "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "pain_split",
-          "id": 220,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Pain Split",
-            "fr": "Balance",
-            "it": "Malcomune",
-            "de": "Leidteiler",
-            "es": "Divide Dolor",
-            "ko": "아픔나누기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "ingrain",
-          "id": 275,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Ingrain",
-            "fr": "Racines",
-            "it": "Radicamento",
-            "de": "Verwurzler",
-            "es": "Arraigo",
-            "ko": "뿌리박기"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "revenants_grasp",
-          "id": 756,
-          "klass": "LevelLearnableMove",
-          "level": 42,
-          "names": {
-            "en": "Revenant's Grasp",
-            "fr": "Poigne Revenant",
-            "it": "Cambiocampo",
-            "de": "Seitenwechsel",
-            "es": "Cambio de Cancha",
-            "ko": "코트체인지"
+            "en": "Respite",
+            "fr": "Répit",
+            "it": "Dynapugno",
+            "de": "Dyna-Faust",
+            "es": "Maxipuño",
+            "ko": "다이너클"
           },
           "category": "status",
           "type": "undead",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "wish",
-          "id": 273,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Wish",
-            "fr": "Vœu",
-            "it": "Desiderio",
-            "de": "Wunschtraum",
-            "es": "Deseo",
-            "ko": "희망사항"
-          },
-          "category": "status",
-          "type": "normal",
           "pp": 10,
           "power": 0,
           "accuracy": 0
@@ -787,7 +720,7 @@
           "symbol": "withering_pulse",
           "id": 745,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 56,
           "names": {
             "en": "Withering Pulse",
             "fr": "Flétri-Vague",
@@ -803,10 +736,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
           "symbol": "deaths_favour",
           "id": 760,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 65,
           "names": {
             "en": "Death's Favour",
             "fr": "Faveur Mortelle",
@@ -933,6 +885,25 @@
           "type": "grass",
           "pp": 10,
           "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
           "accuracy": 100
         },
         {
@@ -1164,6 +1135,44 @@
           "accuracy": 100
         },
         {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "moonblast",
           "id": 585,
           "klass": "TechLearnableMove",
@@ -1180,25 +1189,6 @@
           "type": "fairy",
           "pp": 15,
           "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "soul_siphon",
-          "id": 744,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Soul Siphon",
-            "fr": "Siphon'Âme",
-            "it": "Cannone Dynamax",
-            "de": "Dynamax-Kanone",
-            "es": "Cañón Dinamax",
-            "ko": "다이맥스포"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 15,
-          "power": 40,
           "accuracy": 100
         },
         {
@@ -1430,6 +1420,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "aromatherapy",
           "id": 312,
           "klass": "TechLearnableMove",
@@ -1445,6 +1454,25 @@
           "category": "status",
           "type": "grass",
           "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "pain_split",
+          "id": 220,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
           "power": 0,
           "accuracy": 0
         }

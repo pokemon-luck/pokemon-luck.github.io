@@ -83,53 +83,53 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "poison_gas",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "yawn",
-          "level": 12
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_tail",
-          "level": 16
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 28
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 32
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
@@ -139,32 +139,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "acid_armor",
-          "level": 40
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 44
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "haze",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "haze",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 56
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 60
+          "level": 65
         },
         {
           "klass": "TechLearnableMove",
@@ -301,6 +301,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "leech_seed"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "giga_drain"
         }
       ],
       "names": {
@@ -383,25 +391,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -421,10 +410,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Poison Gas",
             "fr": "Gaz Toxik",
@@ -443,7 +451,7 @@
           "symbol": "acid",
           "id": 51,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Acid",
             "fr": "Acide",
@@ -462,7 +470,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 8,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -481,7 +489,7 @@
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 13,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -500,7 +508,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -519,7 +527,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -538,7 +546,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 26,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -557,7 +565,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 31,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -595,7 +603,7 @@
           "symbol": "acid_armor",
           "id": 151,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 41,
           "names": {
             "en": "Acid Armor",
             "fr": "Acidarmure",
@@ -614,7 +622,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 46,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -633,7 +641,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 52,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -652,7 +660,7 @@
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -671,7 +679,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 60,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -690,7 +698,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 65,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -1198,6 +1206,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
         }
       ]
     }

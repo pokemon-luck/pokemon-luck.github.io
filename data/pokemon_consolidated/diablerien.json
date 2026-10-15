@@ -72,103 +72,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "peck",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "peck",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "gust",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 5
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "wing_attack",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "air_cutter",
+          "move": "wing_attack",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "roost",
+          "move": "air_cutter",
           "level": 17
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "roost",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 21
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aerial_ace",
-          "level": 25
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_slash",
-          "level": 29
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 34
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 38
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heat_wave",
-          "level": 42
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "defog",
-          "level": 46
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fly",
           "level": 54
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fly",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 58
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 62
+          "level": 74
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_pulse",
-          "level": 66
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sky_attack",
-          "level": 70
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -491,25 +491,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "peck",
-          "id": 64,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Peck",
-            "fr": "Picpic",
-            "it": "Beccata",
-            "de": "Pikser",
-            "es": "Picotazo",
-            "ko": "쪼기"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 35,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -529,10 +510,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "peck",
+          "id": 64,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Peck",
+            "fr": "Picpic",
+            "it": "Beccata",
+            "de": "Pikser",
+            "es": "Picotazo",
+            "ko": "쪼기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
           "symbol": "gust",
           "id": 16,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Gust",
             "fr": "Tornade",
@@ -551,7 +551,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 9,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -570,7 +570,7 @@
           "symbol": "wing_attack",
           "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 13,
           "names": {
             "en": "Wing Attack",
             "fr": "Cru-Ailes",
@@ -589,7 +589,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 17,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -608,7 +608,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 22,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -627,7 +627,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 27,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -646,7 +646,7 @@
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 31,
           "names": {
             "en": "Aerial Ace",
             "fr": "Aéropique",
@@ -665,7 +665,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 36,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -684,7 +684,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 41,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -703,7 +703,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 47,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -722,7 +722,7 @@
           "symbol": "heat_wave",
           "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 52,
           "names": {
             "en": "Heat Wave",
             "fr": "Canicule",
@@ -741,7 +741,7 @@
           "symbol": "defog",
           "id": 432,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 54,
           "names": {
             "en": "Defog",
             "fr": "Anti-Brume",
@@ -760,7 +760,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 59,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -779,7 +779,7 @@
           "symbol": "fly",
           "id": 19,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 64,
           "names": {
             "en": "Fly",
             "fr": "Vol",
@@ -798,7 +798,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 69,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -817,7 +817,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 74,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -836,7 +836,7 @@
           "symbol": "dragon_pulse",
           "id": 406,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 79,
           "names": {
             "en": "Dragon Pulse",
             "fr": "Draco-Choc",
@@ -855,7 +855,7 @@
           "symbol": "sky_attack",
           "id": 143,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 85,
           "names": {
             "en": "Sky Attack",
             "fr": "Piqué",

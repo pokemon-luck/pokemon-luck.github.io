@@ -98,27 +98,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 10
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 16
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 20
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aromatherapy",
-          "level": 24
+          "move": "poison_fang",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
@@ -128,41 +133,36 @@
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "venom_drench",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 43
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 46
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sludge_wave",
-          "level": 55
+          "move": "venom_drench",
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_wave",
           "level": 60
         },
         {
@@ -468,7 +468,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -487,7 +487,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 6,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -506,7 +506,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 9,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -525,7 +525,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 14,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -541,23 +541,42 @@
           "accuracy": 85
         },
         {
-          "symbol": "aromatherapy",
-          "id": 312,
+          "symbol": "poison_fang",
+          "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 18,
           "names": {
-            "en": "Aromatherapy",
-            "fr": "Aromathérapie",
-            "it": "Aromaterapia",
-            "de": "Aromakur",
-            "es": "Aromaterapia",
-            "ko": "아로마테라피"
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
           },
-          "category": "status",
-          "type": "grass",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
         },
         {
           "symbol": "dazzling_gleam",
@@ -582,7 +601,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -598,48 +617,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "venom_drench",
-          "id": 599,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Venom Drench",
-            "fr": "Piège de Venin",
-            "it": "Velenotrappola",
-            "de": "Giftfalle",
-            "es": "Trampa Venenosa",
-            "ko": "베놈트랩"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 38,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -655,29 +636,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic",
-          "id": 92,
+          "symbol": "venom_drench",
+          "id": 599,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 40,
           "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
+            "en": "Venom Drench",
+            "fr": "Piège de Venin",
+            "it": "Velenotrappola",
+            "de": "Giftfalle",
+            "es": "Trampa Venenosa",
+            "ko": "베놈트랩"
           },
           "category": "status",
           "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "curse",
+          "id": 174,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Curse",
+            "fr": "Malédiction",
+            "it": "Maledizione",
+            "de": "Fluch",
+            "es": "Maldición",
+            "ko": "저주"
+          },
+          "category": "status",
+          "type": "ghost",
           "pp": 10,
           "power": 0,
-          "accuracy": 90
+          "accuracy": 0
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
         },
         {
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 55,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -696,7 +715,7 @@
           "symbol": "sludge_wave",
           "id": 482,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 60,
           "names": {
             "en": "Sludge Wave",
             "fr": "Cradovague",
@@ -710,25 +729,6 @@
           "pp": 10,
           "power": 95,
           "accuracy": 100
-        },
-        {
-          "symbol": "curse",
-          "id": 174,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Curse",
-            "fr": "Malédiction",
-            "it": "Maledizione",
-            "de": "Fluch",
-            "es": "Maldición",
-            "ko": "저주"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "destiny_bond",
@@ -785,25 +785,6 @@
           "type": "normal",
           "pp": 10,
           "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "poison_fang",
-          "id": 305,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Poison Fang",
-            "fr": "Crochet Venin",
-            "it": "Velenodenti",
-            "de": "Giftzahn",
-            "es": "Colmillo Veneno",
-            "ko": "독엄니"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 15,
-          "power": 50,
           "accuracy": 100
         },
         {
@@ -975,25 +956,6 @@
           "type": "ghost",
           "pp": 5,
           "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
           "accuracy": 100
         },
         {
@@ -1263,6 +1225,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "TechLearnableMove",
@@ -1394,6 +1375,25 @@
           "pp": 5,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "aromatherapy",
+          "id": 312,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aromatherapy",
+            "fr": "Aromathérapie",
+            "it": "Aromaterapia",
+            "de": "Aromakur",
+            "es": "Aromaterapia",
+            "ko": "아로마테라피"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "pain_split",

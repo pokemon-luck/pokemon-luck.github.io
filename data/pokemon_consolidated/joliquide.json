@@ -83,83 +83,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "mist",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charm",
-          "level": 4
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "aqua_tail",
-          "level": 9
+          "move": "mist",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 14
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 18
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonlight",
-          "level": 28
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_shot",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "scald",
-          "level": 34
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 36
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
-          "level": 39
+          "move": "moonlight",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_tail",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
           "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 45
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scald",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 53
+          "level": 64
         },
         {
           "klass": "TechLearnableMove",
@@ -402,25 +397,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "mist",
-          "id": 54,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Mist",
-            "fr": "Brume",
-            "it": "Nebbia",
-            "de": "Weißnebel",
-            "es": "Neblina",
-            "ko": "흰안개"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -440,48 +416,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "charm",
-          "id": 204,
+          "symbol": "mist",
+          "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 1,
           "names": {
-            "en": "Charm",
-            "fr": "Charme",
-            "it": "Fascino",
-            "de": "Charme",
-            "es": "Encanto",
-            "ko": "애교부리기"
+            "en": "Mist",
+            "fr": "Brume",
+            "it": "Nebbia",
+            "de": "Weißnebel",
+            "es": "Neblina",
+            "ko": "흰안개"
           },
           "category": "status",
-          "type": "fairy",
-          "pp": 20,
+          "type": "ice",
+          "pp": 30,
           "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "aqua_tail",
-          "id": 401,
-          "klass": "LevelLearnableMove",
-          "level": 9,
-          "names": {
-            "en": "Aqua Tail",
-            "fr": "Hydro-Queue",
-            "it": "Idrondata",
-            "de": "Nassschweif",
-            "es": "Acua Cola",
-            "ko": "아쿠아테일"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
+          "accuracy": 0
         },
         {
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 5,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -497,67 +454,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "play_rough",
-          "id": 583,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
-          },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
-        },
-        {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonlight",
-          "id": 236,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Moonlight",
-            "fr": "Rayon Lune",
-            "it": "Lucelunare",
-            "de": "Mondschein",
-            "es": "Luz Lunar",
-            "ko": "달의불빛"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 8,
           "names": {
             "en": "Mirror Shot",
             "fr": "Miroi-Tir",
@@ -573,29 +473,10 @@
           "accuracy": 85
         },
         {
-          "symbol": "scald",
-          "id": 503,
-          "klass": "LevelLearnableMove",
-          "level": 34,
-          "names": {
-            "en": "Scald",
-            "fr": "Ébullition",
-            "it": "Idrovampata",
-            "de": "Siedewasser",
-            "es": "Escaldar",
-            "ko": "열탕"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 12,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -611,29 +492,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "rain_dance",
-          "id": 240,
+          "symbol": "moonlight",
+          "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 17,
           "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
           },
           "category": "status",
-          "type": "water",
+          "type": "fairy",
           "pp": 5,
           "power": 0,
           "accuracy": 0
         },
         {
+          "symbol": "aqua_tail",
+          "id": 401,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Aqua Tail",
+            "fr": "Hydro-Queue",
+            "it": "Idrondata",
+            "de": "Nassschweif",
+            "es": "Acua Cola",
+            "ko": "아쿠아테일"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 27,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -649,10 +549,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "waterfall",
+          "id": 127,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Waterfall",
+            "fr": "Cascade",
+            "it": "Cascata",
+            "de": "Kaskade",
+            "es": "Cascada",
+            "ko": "폭포오르기"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 47,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -668,10 +625,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "scald",
+          "id": 503,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Scald",
+            "fr": "Ébullition",
+            "it": "Idrovampata",
+            "de": "Siedewasser",
+            "es": "Escaldar",
+            "ko": "열탕"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 64,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -685,25 +680,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 80
-        },
-        {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 53,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
         },
         {
           "symbol": "swift",
@@ -760,25 +736,6 @@
           "type": "water",
           "pp": 20,
           "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "waterfall",
-          "id": 127,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Waterfall",
-            "fr": "Cascade",
-            "it": "Cascata",
-            "de": "Kaskade",
-            "es": "Cascada",
-            "ko": "폭포오르기"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -896,6 +853,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "psyshock",
           "id": 473,
           "klass": "TechLearnableMove",
@@ -991,25 +967,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "iron_tail",
-          "id": 231,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Tail",
-            "fr": "Queue de Fer",
-            "it": "Codacciaio",
-            "de": "Eisenschweif",
-            "es": "Cola Férrea",
-            "ko": "아이언테일"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 100,
-          "accuracy": 75
-        },
-        {
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "TechLearnableMove",
@@ -1045,6 +1002,25 @@
           "type": "fairy",
           "pp": 10,
           "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -1177,6 +1153,25 @@
           "category": "status",
           "type": "ghost",
           "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
           "power": 0,
           "accuracy": 100
         },

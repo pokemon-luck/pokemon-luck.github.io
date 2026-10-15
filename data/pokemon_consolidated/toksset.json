@@ -83,78 +83,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "poison_gas",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "acid",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "electroweb",
-          "level": 20
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 24
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 28
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shock_wave",
-          "level": 32
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 36
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 44
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 48
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 52
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magnet_rise",
-          "level": 56
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -291,6 +291,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "lucky_chant"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stored_power"
         }
       ],
       "names": {
@@ -373,25 +381,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
@@ -411,10 +400,29 @@
           "accuracy": 90
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "acid",
           "id": 51,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Acid",
             "fr": "Acide",
@@ -433,7 +441,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -452,7 +460,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -471,7 +479,7 @@
           "symbol": "electroweb",
           "id": 527,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 12,
           "names": {
             "en": "Electroweb",
             "fr": "Toile Élek",
@@ -490,7 +498,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 15,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -509,7 +517,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 20,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -528,7 +536,7 @@
           "symbol": "shock_wave",
           "id": 351,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 23,
           "names": {
             "en": "Shock Wave",
             "fr": "Onde de Choc",
@@ -547,7 +555,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -566,7 +574,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 33,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -585,7 +593,7 @@
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 38,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -604,7 +612,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 43,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -623,7 +631,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 49,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -642,7 +650,7 @@
           "symbol": "magnet_rise",
           "id": 393,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 54,
           "names": {
             "en": "Magnet Rise",
             "fr": "Vol Magnétik",
@@ -1168,6 +1176,44 @@
           "type": "dark",
           "pp": 20,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "lucky_chant",
+          "id": 381,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Lucky Chant",
+            "fr": "Air Veinard",
+            "it": "Fortuncanto",
+            "de": "Beschwörung",
+            "es": "Conjuro",
+            "ko": "주술"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "stored_power",
+          "id": 500,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Stored Power",
+            "fr": "Force Ajoutée",
+            "it": "Veicolaforza",
+            "de": "Kraftvorrat",
+            "es": "Poder Reserva",
+            "ko": "어시스트파워"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 20,
           "accuracy": 100
         }
       ]

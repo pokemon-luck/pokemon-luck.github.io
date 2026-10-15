@@ -82,88 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
-          "level": 5
+          "move": "baby_doll_eyes",
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
+          "move": "fairy_wind",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
+          "move": "aromatic_mist",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "curse",
-          "level": 16
+          "move": "acid_spray",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
+          "move": "dazzling_gleam",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_fang",
-          "level": 23
+          "move": "enchanted_fang",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
-          "level": 26
+          "move": "curse",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fairy_lock",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mystical_fire",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "leech_life",
-          "level": 36
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 40
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 45
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 55
+          "move": "moonblast",
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 60
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 65
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 70
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -384,6 +394,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -504,10 +546,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "baby_doll_eyes",
+          "id": 608,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Baby-Doll Eyes",
+            "fr": "Regard Touchant",
+            "it": "Occhioni Teneri",
+            "de": "Kulleraugen",
+            "es": "Ojitos Tiernos",
+            "ko": "초롱초롱눈동자"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 10,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -523,10 +603,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "aromatic_mist",
+          "id": 597,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Aromatic Mist",
+            "fr": "Brume Capiteuse",
+            "it": "Nebularoma",
+            "de": "Duftwolke",
+            "es": "Niebla Aromática",
+            "ko": "아로마미스트"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "acid_spray",
+          "id": 491,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 20,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -542,29 +660,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic_spikes",
-          "id": 390,
+          "symbol": "enchanted_fang",
+          "id": 795,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 24,
           "names": {
-            "en": "Toxic Spikes",
-            "fr": "Pics Toxik",
-            "it": "Fielepunte",
-            "de": "Giftspitzen",
-            "es": "Púas Tóxicas",
-            "ko": "독압정"
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
           },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
         },
         {
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 29,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -583,7 +701,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 34,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -602,7 +720,7 @@
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 23,
+          "level": 38,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -618,29 +736,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "dark_pulse",
-          "id": 399,
+          "symbol": "fairy_lock",
+          "id": 587,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 43,
           "names": {
-            "en": "Dark Pulse",
-            "fr": "Vibrobscur",
-            "it": "Neropulsar",
-            "de": "Finsteraura",
-            "es": "Pulso Umbrío",
-            "ko": "악의파동"
+            "en": "Fairy Lock",
+            "fr": "Verrou Enchanté",
+            "it": "Blocco Fatato",
+            "de": "Feenschloss",
+            "es": "Cerrojo Feérico",
+            "ko": "페어리록"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sludge",
+          "id": 124,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Sludge",
+            "fr": "Détritus",
+            "it": "Fango",
+            "de": "Schlammbad",
+            "es": "Residuos",
+            "ko": "오물공격"
           },
           "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
+          "type": "poison",
+          "pp": 20,
+          "power": 65,
           "accuracy": 100
         },
         {
           "symbol": "mystical_fire",
           "id": 595,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 52,
           "names": {
             "en": "Mystical Fire",
             "fr": "Feu Ensorcelé",
@@ -656,48 +793,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "leech_life",
-          "id": 141,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Leech Life",
-            "fr": "Vampirisme",
-            "it": "Sanguisuga",
-            "de": "Blutsauger",
-            "es": "Chupavidas",
-            "ko": "흡혈"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 57,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -716,7 +815,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 62,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -732,48 +831,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "psychic",
-          "id": 94,
+          "symbol": "moonblast",
+          "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 67,
           "names": {
-            "en": "Psychic",
-            "fr": "Psyko",
-            "it": "Psichico",
-            "de": "Psychokinese",
-            "es": "Psíquico",
-            "ko": "사이코키네시스"
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "earth_power",
-          "id": 414,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Earth Power",
-            "fr": "Telluriforce",
-            "it": "Geoforza",
-            "de": "Erdkräfte",
-            "es": "Tierra Viva",
-            "ko": "대지의힘"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 90,
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
           "accuracy": 100
         },
         {
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 72,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -792,7 +872,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 77,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -811,7 +891,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 82,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -998,6 +1078,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "earth_power",
+          "id": 414,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Earth Power",
+            "fr": "Telluriforce",
+            "it": "Geoforza",
+            "de": "Erdkräfte",
+            "es": "Tierra Viva",
+            "ko": "대지의힘"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "earthquake",
           "id": 89,
           "klass": "TechLearnableMove",
@@ -1074,6 +1173,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "u_turn",
           "id": 369,
           "klass": "TechLearnableMove",
@@ -1090,6 +1208,25 @@
           "type": "bug",
           "pp": 20,
           "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -1283,22 +1420,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "fairy_wind",
-          "id": 584,
+          "symbol": "dark_pulse",
+          "id": 399,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Fairy Wind",
-            "fr": "Vent Féérique",
-            "it": "Vento di Fata",
-            "de": "Feenbrise",
-            "es": "Viento Feérico",
-            "ko": "요정의바람"
+            "en": "Dark Pulse",
+            "fr": "Vibrobscur",
+            "it": "Neropulsar",
+            "de": "Finsteraura",
+            "es": "Pulso Umbrío",
+            "ko": "악의파동"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -1373,6 +1510,25 @@
           },
           "category": "status",
           "type": "ground",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
           "pp": 20,
           "power": 0,
           "accuracy": 0
@@ -1604,6 +1760,139 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }

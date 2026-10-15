@@ -93,18 +93,18 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charm",
-          "level": 5
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 8
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 12
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
@@ -113,43 +113,43 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icy_wind",
+          "move": "knock_off",
           "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 25
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonlight",
-          "level": 29
+          "move": "play_rough",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
+          "move": "liquidation",
           "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 37
+          "move": "moonlight",
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 41
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 45
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -310,6 +310,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "work_up"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "mud_bomb"
         }
       ],
       "names": {
@@ -430,29 +438,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "charm",
-          "id": 204,
-          "klass": "LevelLearnableMove",
-          "level": 5,
-          "names": {
-            "en": "Charm",
-            "fr": "Charme",
-            "it": "Fascino",
-            "de": "Charme",
-            "es": "Encanto",
-            "ko": "애교부리기"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 3,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -471,7 +460,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 7,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -485,6 +474,25 @@
           "pp": 20,
           "power": 65,
           "accuracy": 100
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "aqua_tail",
@@ -506,48 +514,29 @@
           "accuracy": 90
         },
         {
-          "symbol": "icy_wind",
-          "id": 196,
+          "symbol": "knock_off",
+          "id": 282,
           "klass": "LevelLearnableMove",
           "level": 18,
           "names": {
-            "en": "Icy Wind",
-            "fr": "Vent Glace",
-            "it": "Ventogelato",
-            "de": "Eissturm",
-            "es": "Viento Hielo",
-            "ko": "얼다바람"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "play_rough",
-          "id": 583,
-          "klass": "LevelLearnableMove",
-          "level": 22,
-          "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
           },
           "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
         },
         {
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 23,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -563,10 +552,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "liquidation",
+          "id": 710,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Liquidation",
+            "fr": "Aqua-Brèche",
+            "it": "Idrobreccia",
+            "de": "Aquadurchstoß",
+            "es": "Hidroariete",
+            "ko": "아쿠아브레이크"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 38,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -582,48 +609,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "rain_dance",
-          "id": 240,
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "names": {
-            "en": "Rain Dance",
-            "fr": "Danse Pluie",
-            "it": "Pioggiadanza",
-            "de": "Regentanz",
-            "es": "Danza Lluvia",
-            "ko": "비바라기"
-          },
-          "category": "status",
-          "type": "water",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 43,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -639,10 +628,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 54,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -769,25 +777,6 @@
           "type": "water",
           "pp": 15,
           "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "liquidation",
-          "id": 710,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Liquidation",
-            "fr": "Aqua-Brèche",
-            "it": "Idrobreccia",
-            "de": "Aquadurchstoß",
-            "es": "Hidroariete",
-            "ko": "아쿠아브레이크"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 10,
-          "power": 85,
           "accuracy": 100
         },
         {
@@ -981,25 +970,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "knock_off",
-          "id": 282,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Knock Off",
-            "fr": "Sabotage",
-            "it": "Privazione",
-            "de": "Abschlag",
-            "es": "Desarme",
-            "ko": "탁쳐서떨구기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "TechLearnableMove",
@@ -1133,6 +1103,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "rain_dance",
+          "id": 240,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rain Dance",
+            "fr": "Danse Pluie",
+            "it": "Pioggiadanza",
+            "de": "Regentanz",
+            "es": "Danza Lluvia",
+            "ko": "비바라기"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "light_screen",
           "id": 113,
           "klass": "TechLearnableMove",
@@ -1188,6 +1177,25 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         },
         {
           "symbol": "rest",
@@ -1264,6 +1272,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "work_up",
+          "id": 526,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Work Up",
+            "fr": "Rengorgement",
+            "it": "Cuordileone",
+            "de": "Kraftschub",
+            "es": "Avivar",
+            "ko": "분발"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "mud_bomb",
+          "id": 426,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mud Bomb",
+            "fr": "Boue-Bombe",
+            "it": "Pantanobomba",
+            "de": "Schlammbombe",
+            "es": "Bomba Fango",
+            "ko": "진흙폭탄"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 85
         }
       ]
     }

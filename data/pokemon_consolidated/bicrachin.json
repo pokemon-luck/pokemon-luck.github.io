@@ -83,33 +83,33 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "headbutt",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -124,22 +124,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "work_up",
-          "level": 28
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_shell",
-          "level": 32
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -149,17 +149,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crabhammer",
-          "level": 52
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 56
+          "level": 61
         },
         {
           "klass": "TechLearnableMove",
@@ -356,6 +356,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "take_down"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "strength_sap"
         }
       ],
       "names": {
@@ -438,25 +446,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -476,10 +465,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -498,7 +506,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -517,7 +525,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -536,7 +544,7 @@
           "symbol": "headbutt",
           "id": 29,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Headbutt",
             "fr": "Coup d’Boule",
@@ -593,7 +601,7 @@
           "symbol": "work_up",
           "id": 526,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 26,
           "names": {
             "en": "Work Up",
             "fr": "Rengorgement",
@@ -612,7 +620,7 @@
           "symbol": "razor_shell",
           "id": 534,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 31,
           "names": {
             "en": "Razor Shell",
             "fr": "Coqui-Lame",
@@ -631,7 +639,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -650,7 +658,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -688,7 +696,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -707,7 +715,7 @@
           "symbol": "crabhammer",
           "id": 152,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 55,
           "names": {
             "en": "Crabhammer",
             "fr": "Pince-Masse",
@@ -726,7 +734,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 61,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -1557,6 +1565,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "take_down",
+          "id": 36,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Take Down",
+            "fr": "Bélier",
+            "it": "Riduttore",
+            "de": "Bodycheck",
+            "es": "Derribo",
+            "ko": "돌진"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 90,
+          "accuracy": 85
+        },
+        {
+          "symbol": "strength_sap",
+          "id": 668,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Strength Sap",
+            "fr": "Vole-Force",
+            "it": "Assorbiforza",
+            "de": "Kraftabsorber",
+            "es": "Absorbefuerza",
+            "ko": "힘흡수"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

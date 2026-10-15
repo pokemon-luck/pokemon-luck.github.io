@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "ember",
+          "move": "confuse_ray",
           "level": 1
         },
         {
@@ -82,93 +82,93 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "ember",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 4
+          "move": "sunny_day",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hex",
-          "level": 7
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "quick_attack",
+          "move": "flame_charge",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fire_spin",
-          "level": 15
+          "move": "helping_hand",
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feint_attack",
-          "level": 20
+          "move": "will_o_wisp",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 25
+          "move": "flame_wheel",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flame_burst",
+          "move": "light_screen",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "extrasensory",
+          "move": "safeguard",
           "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "grudge",
-          "level": 40
+          "move": "incinerate",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fiery_dance",
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 45
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mystical_fire",
-          "level": 50
+          "move": "wish",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 55
+          "move": "shadow_ball",
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 60
+          "move": "heat_wave",
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "inferno",
-          "level": 65
+          "move": "phantom_force",
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flare_blitz",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "solar_beam",
+          "move": "sacred_fire",
           "level": 75
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 80
+          "move": "fire_blast",
+          "level": 81
         },
         {
           "klass": "TechLearnableMove",
@@ -435,22 +435,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "ember",
-          "id": 52,
+          "symbol": "confuse_ray",
+          "id": 109,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Ember",
-            "fr": "Flammèche",
-            "it": "Braciere",
-            "de": "Glut",
-            "es": "Ascuas",
-            "ko": "불꽃세례"
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
           },
-          "category": "special",
-          "type": "fire",
-          "pp": 25,
-          "power": 40,
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
           "accuracy": 100
         },
         {
@@ -473,29 +473,86 @@
           "accuracy": 100
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
+          "symbol": "ember",
+          "id": 52,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sunny_day",
+          "id": 241,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Sunny Day",
+            "fr": "Zénith",
+            "it": "Giornodisole",
+            "de": "Sonnentag",
+            "es": "Día Soleado",
+            "ko": "쾌청"
           },
           "category": "status",
-          "type": "ghost",
-          "pp": 10,
+          "type": "fire",
+          "pp": 5,
           "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "flame_charge",
+          "id": 488,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Flame Charge",
+            "fr": "Nitrocharge",
+            "it": "Nitrocarica",
+            "de": "Nitroladung",
+            "es": "Nitrocarga",
+            "ko": "니트로차지"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 20,
+          "power": 50,
           "accuracy": 100
+        },
+        {
+          "symbol": "helping_hand",
+          "id": 270,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Helping Hand",
+            "fr": "Coup d’Main",
+            "it": "Altruismo",
+            "de": "Rechte Hand",
+            "es": "Refuerzo",
+            "ko": "도우미"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 17,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -511,10 +568,48 @@
           "accuracy": 85
         },
         {
+          "symbol": "flame_wheel",
+          "id": 172,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Flame Wheel",
+            "fr": "Roue de Feu",
+            "it": "Ruotafuoco",
+            "de": "Flammenrad",
+            "es": "Rueda Fuego",
+            "ko": "화염자동차"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 30,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -530,143 +625,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "quick_attack",
-          "id": 98,
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "names": {
-            "en": "Quick Attack",
-            "fr": "Vive-Attaque",
-            "it": "Attacco Rapido",
-            "de": "Ruckzuckhieb",
-            "es": "Ataque Rápido",
-            "ko": "전광석화"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "fire_spin",
-          "id": 83,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Fire Spin",
-            "fr": "Danse Flammes",
-            "it": "Turbofuoco",
-            "de": "Feuerwirbel",
-            "es": "Giro Fuego",
-            "ko": "회오리불꽃"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 15,
-          "power": 35,
-          "accuracy": 85
-        },
-        {
-          "symbol": "feint_attack",
-          "id": 185,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Feint Attack",
-            "fr": "Feinte",
-            "it": "Finta",
-            "de": "Finte",
-            "es": "Finta",
-            "ko": "속여때리기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "LevelLearnableMove",
-          "level": 25,
-          "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "flame_burst",
-          "id": 481,
-          "klass": "LevelLearnableMove",
-          "level": 30,
-          "names": {
-            "en": "Flame Burst",
-            "fr": "Rebondifeu",
-            "it": "Pirolancio",
-            "de": "Funkenflug",
-            "es": "Pirotecnia",
-            "ko": "불꽃튀기기"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "extrasensory",
-          "id": 326,
+          "symbol": "safeguard",
+          "id": 219,
           "klass": "LevelLearnableMove",
           "level": 35,
           "names": {
-            "en": "Extrasensory",
-            "fr": "Extrasenseur",
-            "it": "Extrasenso",
-            "de": "Sondersensor",
-            "es": "Paranormal",
-            "ko": "신통력"
+            "en": "Safeguard",
+            "fr": "Rune Protect",
+            "it": "Salvaguardia",
+            "de": "Bodyguard",
+            "es": "Velo Sagrado",
+            "ko": "신비의부적"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "incinerate",
+          "id": 510,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Incinerate",
+            "fr": "Calcination",
+            "it": "Bruciatutto",
+            "de": "Einäschern",
+            "es": "Calcinación",
+            "ko": "불태우기"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 80,
+          "type": "fire",
+          "pp": 15,
+          "power": 60,
           "accuracy": 100
         },
         {
-          "symbol": "grudge",
-          "id": 288,
+          "symbol": "fiery_dance",
+          "id": 552,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 44,
           "names": {
-            "en": "Grudge",
-            "fr": "Rancune",
-            "it": "Rancore",
-            "de": "Nachspiel",
-            "es": "Rabia",
-            "ko": "원념"
+            "en": "Fiery Dance",
+            "fr": "Danse du Feu",
+            "it": "Voldifuoco",
+            "de": "Feuerreigen",
+            "es": "Danza Llama",
+            "ko": "불꽃춤"
           },
-          "category": "status",
-          "type": "ghost",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
+          "category": "special",
+          "type": "fire",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
         },
         {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 49,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -682,137 +701,137 @@
           "accuracy": 100
         },
         {
-          "symbol": "mystical_fire",
-          "id": 595,
+          "symbol": "wish",
+          "id": 273,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 54,
           "names": {
-            "en": "Mystical Fire",
-            "fr": "Feu Ensorcelé",
-            "it": "Magifiamma",
-            "de": "Magieflamme",
-            "es": "Llama Embrujada",
-            "ko": "매지컬플레임"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
+            "en": "Wish",
+            "fr": "Vœu",
+            "it": "Desiderio",
+            "de": "Wunschtraum",
+            "es": "Deseo",
+            "ko": "희망사항"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "normal",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "shadow_ball",
+          "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 59,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
           },
           "category": "special",
-          "type": "fairy",
+          "type": "ghost",
           "pp": 15,
-          "power": 95,
+          "power": 80,
           "accuracy": 100
         },
         {
-          "symbol": "inferno",
-          "id": 517,
+          "symbol": "heat_wave",
+          "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 64,
           "names": {
-            "en": "Inferno",
-            "fr": "Feu d’Enfer",
-            "it": "Marchiatura",
-            "de": "Inferno",
-            "es": "Infierno",
-            "ko": "연옥"
+            "en": "Heat Wave",
+            "fr": "Canicule",
+            "it": "Ondacalda",
+            "de": "Hitzewelle",
+            "es": "Onda Ígnea",
+            "ko": "열풍"
           },
           "category": "special",
           "type": "fire",
-          "pp": 5,
-          "power": 100,
-          "accuracy": 50
+          "pp": 10,
+          "power": 95,
+          "accuracy": 90
         },
         {
-          "symbol": "flare_blitz",
-          "id": 394,
+          "symbol": "phantom_force",
+          "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 69,
           "names": {
-            "en": "Flare Blitz",
-            "fr": "Boutefeu",
-            "it": "Fuococarica",
-            "de": "Flammenblitz",
-            "es": "Envite Ígneo",
-            "ko": "플레어드라이브"
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
           },
           "category": "physical",
-          "type": "fire",
-          "pp": 15,
-          "power": 120,
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
           "accuracy": 100
         },
         {
-          "symbol": "solar_beam",
-          "id": 76,
+          "symbol": "sacred_fire",
+          "id": 221,
           "klass": "LevelLearnableMove",
           "level": 75,
           "names": {
-            "en": "Solar Beam",
-            "fr": "Lance-Soleil",
-            "it": "Solarraggio",
-            "de": "Solarstrahl",
-            "es": "Rayo Solar",
-            "ko": "솔라빔"
+            "en": "Sacred Fire",
+            "fr": "Feu Sacré",
+            "it": "Magifuoco",
+            "de": "Läuterfeuer",
+            "es": "Fuego Sagrado",
+            "ko": "성스러운불꽃"
           },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 120,
-          "accuracy": 100
+          "category": "physical",
+          "type": "fire",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 95
         },
         {
-          "symbol": "destiny_bond",
-          "id": 194,
+          "symbol": "fire_blast",
+          "id": 126,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 81,
           "names": {
-            "en": "Destiny Bond",
-            "fr": "Lien du Destin",
-            "it": "Destinobbligato",
-            "de": "Abgangsbund",
-            "es": "Mismo Destino",
-            "ko": "길동무"
+            "en": "Fire Blast",
+            "fr": "Déflagration",
+            "it": "Fuocobomba",
+            "de": "Feuersturm",
+            "es": "Llamarada",
+            "ko": "불대문자"
           },
-          "category": "status",
-          "type": "ghost",
+          "category": "special",
+          "type": "fire",
           "pp": 5,
-          "power": 0,
-          "accuracy": 0
+          "power": 110,
+          "accuracy": 85
+        },
+        {
+          "symbol": "quick_attack",
+          "id": 98,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Quick Attack",
+            "fr": "Vive-Attaque",
+            "it": "Attacco Rapido",
+            "de": "Ruckzuckhieb",
+            "es": "Ataque Rápido",
+            "ko": "전광석화"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "swift",
@@ -872,25 +891,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "flame_charge",
-          "id": 488,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Flame Charge",
-            "fr": "Nitrocharge",
-            "it": "Nitrocarica",
-            "de": "Nitroladung",
-            "es": "Nitrocarga",
-            "ko": "니트로차지"
-          },
-          "category": "physical",
-          "type": "fire",
-          "pp": 20,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "flamethrower",
           "id": 53,
           "klass": "TechLearnableMove",
@@ -908,25 +908,6 @@
           "pp": 15,
           "power": 90,
           "accuracy": 100
-        },
-        {
-          "symbol": "heat_wave",
-          "id": 257,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Heat Wave",
-            "fr": "Canicule",
-            "it": "Ondacalda",
-            "de": "Hitzewelle",
-            "es": "Onda Ígnea",
-            "ko": "열풍"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 10,
-          "power": 95,
-          "accuracy": 90
         },
         {
           "symbol": "overheat",
@@ -1290,6 +1271,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
           "symbol": "swords_dance",
           "id": 14,
           "klass": "TechLearnableMove",
@@ -1328,6 +1328,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "agility",
           "id": 97,
           "klass": "TechLearnableMove",
@@ -1339,44 +1358,6 @@
             "de": "Agilität",
             "es": "Agilidad",
             "ko": "고속이동"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sunny_day",
-          "id": 241,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sunny Day",
-            "fr": "Zénith",
-            "it": "Giornodisole",
-            "de": "Sonnentag",
-            "es": "Día Soleado",
-            "ko": "쾌청"
-          },
-          "category": "status",
-          "type": "fire",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "light_screen",
-          "id": 113,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
           },
           "category": "status",
           "type": "psychic",

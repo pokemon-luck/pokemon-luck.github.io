@@ -83,98 +83,98 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "tail_whip",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 6
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 9
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "leaf_tornado",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "leaf_tornado",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 18
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acrobatics",
-          "level": 21
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "taunt",
-          "level": 27
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "aerial_ace",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aerial_ace",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "grass_knot",
-          "level": 33
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "slam",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "air_cutter",
-          "level": 39
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "agility",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "bounce",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "agility",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bounce",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "rest",
-          "level": 50
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leaf_storm",
-          "level": 55
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -411,6 +411,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "leech_life"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "first_impression"
         }
       ],
       "names": {
@@ -493,25 +501,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "tail_whip",
           "id": 39,
           "klass": "LevelLearnableMove",
@@ -531,10 +520,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -553,7 +561,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 7,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -572,7 +580,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 10,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -591,7 +599,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 15,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -610,7 +618,7 @@
           "symbol": "leaf_tornado",
           "id": 536,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 19,
           "names": {
             "en": "Leaf Tornado",
             "fr": "Phytomixeur",
@@ -629,7 +637,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 23,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -648,7 +656,7 @@
           "symbol": "acrobatics",
           "id": 512,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 26,
           "names": {
             "en": "Acrobatics",
             "fr": "Acrobatie",
@@ -667,7 +675,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 30,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -686,7 +694,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 32,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -705,7 +713,7 @@
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 35,
           "names": {
             "en": "Aerial Ace",
             "fr": "Aéropique",
@@ -724,7 +732,7 @@
           "symbol": "grass_knot",
           "id": 447,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 40,
           "names": {
             "en": "Grass Knot",
             "fr": "Nœud Herbe",
@@ -743,7 +751,7 @@
           "symbol": "slam",
           "id": 21,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 45,
           "names": {
             "en": "Slam",
             "fr": "Souplesse",
@@ -762,7 +770,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 48,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -781,7 +789,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 53,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -800,7 +808,7 @@
           "symbol": "bounce",
           "id": 340,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 58,
           "names": {
             "en": "Bounce",
             "fr": "Rebond",
@@ -819,7 +827,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 63,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -838,7 +846,7 @@
           "symbol": "leaf_storm",
           "id": 437,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 69,
           "names": {
             "en": "Leaf Storm",
             "fr": "Tempête Verte",
@@ -1802,6 +1810,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "first_impression",
+          "id": 660,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "First Impression",
+            "fr": "Escarmouche",
+            "it": "Schermaglia",
+            "de": "Überrumpler",
+            "es": "Escaramuza",
+            "ko": "만나자마자"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
         }
       ]
     }

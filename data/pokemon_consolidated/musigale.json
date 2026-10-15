@@ -93,67 +93,97 @@
         {
           "klass": "LevelLearnableMove",
           "move": "infestation",
-          "level": 6
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "round",
-          "level": 10
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "bug_buzz",
-          "level": 14
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "light_screen",
-          "level": 18
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 22
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "twin_charm",
-          "level": 22
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "uproar",
+          "move": "pin_missile",
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "round",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "encore",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
           "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hyper_voice",
-          "level": 34
+          "move": "bug_buzz",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 38
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 42
+          "move": "x_scissor",
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
+          "move": "dazzling_gleam",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "quiver_dance",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "uproar",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 80
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 50
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -447,7 +477,7 @@
           "symbol": "infestation",
           "id": 611,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 7,
           "names": {
             "en": "Infestation",
             "fr": "Harcèlement",
@@ -463,86 +493,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "round",
-          "id": 496,
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "names": {
-            "en": "Round",
-            "fr": "Chant Canon",
-            "it": "Coro",
-            "de": "Kanon",
-            "es": "Canon",
-            "ko": "돌림노래"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 15,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "bug_buzz",
-          "id": 405,
-          "klass": "LevelLearnableMove",
-          "level": 14,
-          "names": {
-            "en": "Bug Buzz",
-            "fr": "Bourdon",
-            "it": "Ronzio",
-            "de": "Käfergebrumm",
-            "es": "Zumbido",
-            "ko": "벌레의야단법석"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "light_screen",
-          "id": 113,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 22,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "twin_charm",
           "id": 792,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 10,
           "names": {
             "en": "Twin Charm",
             "fr": "Double Charme",
@@ -558,58 +512,115 @@
           "accuracy": 95
         },
         {
-          "symbol": "uproar",
-          "id": 253,
+          "symbol": "pin_missile",
+          "id": 42,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Pin Missile",
+            "fr": "Dard-Nuée",
+            "it": "Missilspillo",
+            "de": "Nadelrakete",
+            "es": "Pin Misil",
+            "ko": "바늘미사일"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 25,
+          "accuracy": 95
+        },
+        {
+          "symbol": "round",
+          "id": 496,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Round",
+            "fr": "Chant Canon",
+            "it": "Coro",
+            "de": "Kanon",
+            "es": "Canon",
+            "ko": "돌림노래"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "encore",
+          "id": 227,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
           "klass": "LevelLearnableMove",
           "level": 26,
           "names": {
-            "en": "Uproar",
-            "fr": "Brouhaha",
-            "it": "Baraonda",
-            "de": "Aufruhr",
-            "es": "Alboroto",
-            "ko": "소란피기"
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
           },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
         },
         {
-          "symbol": "moonblast",
-          "id": 585,
+          "symbol": "bug_buzz",
+          "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 31,
           "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
+            "en": "Bug Buzz",
+            "fr": "Bourdon",
+            "it": "Ronzio",
+            "de": "Käfergebrumm",
+            "es": "Zumbido",
+            "ko": "벌레의야단법석"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hyper_voice",
-          "id": 304,
-          "klass": "LevelLearnableMove",
-          "level": 34,
-          "names": {
-            "en": "Hyper Voice",
-            "fr": "Mégaphone",
-            "it": "Granvoce",
-            "de": "Schallwelle",
-            "es": "Vozarrón",
-            "ko": "하이퍼보이스"
-          },
-          "category": "special",
-          "type": "normal",
+          "type": "bug",
           "pp": 10,
           "power": 90,
           "accuracy": 100
@@ -618,7 +629,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 36,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -634,10 +645,86 @@
           "accuracy": 0
         },
         {
+          "symbol": "x_scissor",
+          "id": 404,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "X-Scissor",
+            "fr": "Plaie Croix",
+            "it": "Forbice X",
+            "de": "Kreuzschere",
+            "es": "Tijera X",
+            "ko": "시저크로스"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 46,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "quiver_dance",
+          "id": 483,
+          "klass": "LevelLearnableMove",
+          "level": 51,
+          "names": {
+            "en": "Quiver Dance",
+            "fr": "Papillodanse",
+            "it": "Eledanza",
+            "de": "Falterreigen",
+            "es": "Danza Aleteo",
+            "ko": "나비춤"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "uproar",
+          "id": 253,
+          "klass": "LevelLearnableMove",
+          "level": 56,
+          "names": {
+            "en": "Uproar",
+            "fr": "Brouhaha",
+            "it": "Baraonda",
+            "de": "Aufruhr",
+            "es": "Alboroto",
+            "ko": "소란피기"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 60,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -656,7 +743,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 65,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -672,10 +759,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 75,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 85,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -805,25 +949,6 @@
           "accuracy": 95
         },
         {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "psybeam",
           "id": 60,
           "klass": "TechLearnableMove",
@@ -934,25 +1059,6 @@
           "category": "status",
           "type": "psychic",
           "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "quiver_dance",
-          "id": 483,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Quiver Dance",
-            "fr": "Papillodanse",
-            "it": "Eledanza",
-            "de": "Falterreigen",
-            "es": "Danza Aleteo",
-            "ko": "나비춤"
-          },
-          "category": "status",
-          "type": "bug",
-          "pp": 20,
           "power": 0,
           "accuracy": 0
         },
@@ -1124,25 +1230,6 @@
           "category": "status",
           "type": "dark",
           "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "encore",
-          "id": 227,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Encore",
-            "fr": "Encore",
-            "it": "Ripeti",
-            "de": "Zugabe",
-            "es": "Otra Vez",
-            "ko": "앵콜"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 5,
           "power": 0,
           "accuracy": 100
         }

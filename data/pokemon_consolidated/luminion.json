@@ -98,58 +98,68 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "light_jab",
+          "level": 7
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "string_shot",
-          "level": 8
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "struggle_bug",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "light_screen",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "signal_beam",
-          "level": 19
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 23
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "struggle_bug",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "light_screen",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 27
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonlight",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_buzz",
-          "level": 33
+          "move": "signal_beam",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 36
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonlight",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 39
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 42
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -306,6 +316,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "protect"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "powder"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "destiny_bond"
         }
       ],
       "names": {
@@ -445,10 +463,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
           "symbol": "string_shot",
           "id": 81,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "String Shot",
             "fr": "Sécrétion",
@@ -464,10 +501,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "struggle_bug",
           "id": 522,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 16,
           "names": {
             "en": "Struggle Bug",
             "fr": "Survinsecte",
@@ -486,7 +542,7 @@
           "symbol": "light_screen",
           "id": 113,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 21,
           "names": {
             "en": "Light Screen",
             "fr": "Mur Lumière",
@@ -502,48 +558,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "signal_beam",
-          "id": 324,
+          "symbol": "bug_bite",
+          "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 25,
           "names": {
-            "en": "Signal Beam",
-            "fr": "Rayon Signal",
-            "it": "Segnoraggio",
-            "de": "Ampelleuchte",
-            "es": "Doble Rayo",
-            "ko": "시그널빔"
+            "en": "Bug Bite",
+            "fr": "Piqûre",
+            "it": "Coleomorso",
+            "de": "Käferbiss",
+            "es": "Picadura",
+            "ko": "벌레먹음"
           },
-          "category": "special",
+          "category": "physical",
           "type": "bug",
-          "pp": 15,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "LevelLearnableMove",
-          "level": 23,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
           "pp": 20,
-          "power": 65,
+          "power": 60,
           "accuracy": 100
         },
         {
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 30,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -559,10 +596,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Signal Beam",
+            "fr": "Rayon Signal",
+            "it": "Segnoraggio",
+            "de": "Ampelleuchte",
+            "es": "Doble Rayo",
+            "ko": "시그널빔"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 45,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -581,7 +656,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 50,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -597,29 +672,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 55,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -638,7 +694,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 60,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -1220,6 +1276,44 @@
           "category": "status",
           "type": "normal",
           "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "powder",
+          "id": 600,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Powder",
+            "fr": "Nuée de Poudre",
+            "it": "Pulviscoppio",
+            "de": "Pulverschleuder",
+            "es": "Polvo Explosivo",
+            "ko": "분진"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "destiny_bond",
+          "id": 194,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Destiny Bond",
+            "fr": "Lien du Destin",
+            "it": "Destinobbligato",
+            "de": "Abgangsbund",
+            "es": "Mismo Destino",
+            "ko": "길동무"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         }

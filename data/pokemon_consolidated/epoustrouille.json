@@ -72,93 +72,93 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "ember",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "astonish",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "ember",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 9
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
-          "level": 12
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "seed_bomb",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 25
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "flame_burst",
-          "level": 24
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 28
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 36
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_blast",
-          "level": 40
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "solar_beam",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "flare_blitz",
-          "level": 56
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 60
+          "level": 74
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heat_wave",
-          "level": 64
+          "level": 79
         },
         {
           "klass": "TechLearnableMove",
@@ -401,25 +401,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "ember",
-          "id": 52,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Ember",
-            "fr": "Flammèche",
-            "it": "Braciere",
-            "de": "Glut",
-            "es": "Ascuas",
-            "ko": "불꽃세례"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
@@ -439,10 +420,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "ember",
+          "id": 52,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -461,7 +461,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -480,7 +480,7 @@
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 15,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -499,7 +499,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 20,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -518,7 +518,7 @@
           "symbol": "seed_bomb",
           "id": 402,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 25,
           "names": {
             "en": "Seed Bomb",
             "fr": "Canon Graine",
@@ -537,7 +537,7 @@
           "symbol": "flame_burst",
           "id": 481,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 30,
           "names": {
             "en": "Flame Burst",
             "fr": "Rebondifeu",
@@ -556,7 +556,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -575,7 +575,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 38,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -594,7 +594,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 41,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -613,7 +613,7 @@
           "symbol": "fire_blast",
           "id": 126,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Fire Blast",
             "fr": "Déflagration",
@@ -632,7 +632,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 52,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -651,7 +651,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 57,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -670,7 +670,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 63,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -689,7 +689,7 @@
           "symbol": "flare_blitz",
           "id": 394,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 69,
           "names": {
             "en": "Flare Blitz",
             "fr": "Boutefeu",
@@ -708,7 +708,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 74,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -727,7 +727,7 @@
           "symbol": "heat_wave",
           "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 79,
           "names": {
             "en": "Heat Wave",
             "fr": "Canicule",

@@ -89,17 +89,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "growl",
-          "level": 2
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gust",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_shock",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -109,42 +109,42 @@
         {
           "klass": "LevelLearnableMove",
           "move": "charge",
-          "level": 18
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 22
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_smash",
-          "level": 26
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 30
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 34
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "whirlwind",
-          "level": 38
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 42
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sky_attack",
-          "level": 46
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
@@ -326,6 +326,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "glare"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "stealth_rock"
         }
       ],
       "names": {
@@ -430,7 +438,7 @@
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 3,
           "names": {
             "en": "Growl",
             "fr": "Rugissement",
@@ -449,7 +457,7 @@
           "symbol": "gust",
           "id": 16,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Gust",
             "fr": "Tornade",
@@ -468,7 +476,7 @@
           "symbol": "thunder_shock",
           "id": 84,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Thunder Shock",
             "fr": "Éclair",
@@ -506,7 +514,7 @@
           "symbol": "charge",
           "id": 268,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 16,
           "names": {
             "en": "Charge",
             "fr": "Chargeur",
@@ -525,7 +533,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 20,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -544,7 +552,7 @@
           "symbol": "rock_smash",
           "id": 249,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 23,
           "names": {
             "en": "Rock Smash",
             "fr": "Éclate-Roc",
@@ -563,7 +571,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 27,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -582,7 +590,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 32,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -601,7 +609,7 @@
           "symbol": "whirlwind",
           "id": 18,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 34,
           "names": {
             "en": "Whirlwind",
             "fr": "Cyclone",
@@ -620,7 +628,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 39,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -639,7 +647,7 @@
           "symbol": "sky_attack",
           "id": 143,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 45,
           "names": {
             "en": "Sky Attack",
             "fr": "Piqué",
@@ -1375,6 +1383,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "glare",
+          "id": 137,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Glare",
+            "fr": "Regard Médusant",
+            "it": "Sguardo Feroce",
+            "de": "Schlangenblick",
+            "es": "Deslumbrar",
+            "ko": "뱀눈초리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stealth_rock",
+          "id": 446,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Stealth Rock",
+            "fr": "Piège de Roc",
+            "it": "Levitoroccia",
+            "de": "Tarnsteine",
+            "es": "Trampa Rocas",
+            "ko": "스텔스록"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     }

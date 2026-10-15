@@ -83,63 +83,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "sing",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "struggle_bug",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "infestation",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "echoed_voice",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "infestation",
+          "move": "confuse_ray",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gust",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "round",
+          "move": "struggle_bug",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_buzz",
-          "level": 20
+          "move": "screech",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "screech",
-          "level": 24
+          "move": "aerial_ace",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disarming_voice",
-          "level": 28
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "uproar",
+          "move": "round",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "u_turn",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 36
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "uproar",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "quiver_dance",
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 40
+          "level": 67
         },
         {
           "klass": "TechLearnableMove",
@@ -272,6 +312,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "encore"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "dream_eater"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "pain_split"
         }
       ],
       "names": {
@@ -354,25 +402,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "sing",
           "id": 47,
           "klass": "LevelLearnableMove",
@@ -392,40 +421,21 @@
           "accuracy": 55
         },
         {
-          "symbol": "struggle_bug",
-          "id": 522,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 1,
           "names": {
-            "en": "Struggle Bug",
-            "fr": "Survinsecte",
-            "it": "Entomoblocco",
-            "de": "Käfertrutz",
-            "es": "Estoicismo",
-            "ko": "벌레의저항"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "special",
-          "type": "bug",
-          "pp": 20,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "echoed_voice",
-          "id": 497,
-          "klass": "LevelLearnableMove",
-          "level": 8,
-          "names": {
-            "en": "Echoed Voice",
-            "fr": "Écho",
-            "it": "Echeggiavoce",
-            "de": "Widerhall",
-            "es": "Eco Voz",
-            "ko": "에코보이스"
-          },
-          "category": "special",
+          "category": "physical",
           "type": "normal",
-          "pp": 15,
+          "pp": 35,
           "power": 40,
           "accuracy": 100
         },
@@ -433,7 +443,7 @@
           "symbol": "infestation",
           "id": 611,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 4,
           "names": {
             "en": "Infestation",
             "fr": "Harcèlement",
@@ -449,48 +459,86 @@
           "accuracy": 100
         },
         {
-          "symbol": "round",
-          "id": 496,
+          "symbol": "echoed_voice",
+          "id": 497,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 7,
           "names": {
-            "en": "Round",
-            "fr": "Chant Canon",
-            "it": "Coro",
-            "de": "Kanon",
-            "es": "Canon",
-            "ko": "돌림노래"
+            "en": "Echoed Voice",
+            "fr": "Écho",
+            "it": "Echeggiavoce",
+            "de": "Widerhall",
+            "es": "Eco Voz",
+            "ko": "에코보이스"
           },
           "category": "special",
           "type": "normal",
           "pp": 15,
-          "power": 60,
+          "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "bug_buzz",
-          "id": 405,
+          "symbol": "confuse_ray",
+          "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 9,
           "names": {
-            "en": "Bug Buzz",
-            "fr": "Bourdon",
-            "it": "Ronzio",
-            "de": "Käfergebrumm",
-            "es": "Zumbido",
-            "ko": "벌레의야단법석"
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "gust",
+          "id": 16,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Gust",
+            "fr": "Tornade",
+            "it": "Raffica",
+            "de": "Windstoß",
+            "es": "Tornado",
+            "ko": "바람일으키기"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "struggle_bug",
+          "id": 522,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Struggle Bug",
+            "fr": "Survinsecte",
+            "it": "Entomoblocco",
+            "de": "Käfertrutz",
+            "es": "Estoicismo",
+            "ko": "벌레의저항"
           },
           "category": "special",
           "type": "bug",
-          "pp": 10,
-          "power": 90,
+          "pp": 20,
+          "power": 50,
           "accuracy": 100
         },
         {
           "symbol": "screech",
           "id": 103,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Screech",
             "fr": "Grincement",
@@ -506,10 +554,48 @@
           "accuracy": 85
         },
         {
+          "symbol": "aerial_ace",
+          "id": 332,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Aerial Ace",
+            "fr": "Aéropique",
+            "it": "Aeroassalto",
+            "de": "Aero-Ass",
+            "es": "Golpe Aéreo",
+            "ko": "제비반환"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bug_bite",
+          "id": 450,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Bug Bite",
+            "fr": "Piqûre",
+            "it": "Coleomorso",
+            "de": "Käferbiss",
+            "es": "Picadura",
+            "ko": "벌레먹음"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "disarming_voice",
           "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 29,
           "names": {
             "en": "Disarming Voice",
             "fr": "Voix Enjôleuse",
@@ -525,29 +611,86 @@
           "accuracy": 0
         },
         {
-          "symbol": "uproar",
-          "id": 253,
+          "symbol": "round",
+          "id": 496,
           "klass": "LevelLearnableMove",
           "level": 32,
           "names": {
-            "en": "Uproar",
-            "fr": "Brouhaha",
-            "it": "Baraonda",
-            "de": "Aufruhr",
-            "es": "Alboroto",
-            "ko": "소란피기"
+            "en": "Round",
+            "fr": "Chant Canon",
+            "it": "Coro",
+            "de": "Kanon",
+            "es": "Canon",
+            "ko": "돌림노래"
           },
           "category": "special",
           "type": "normal",
-          "pp": 10,
-          "power": 90,
+          "pp": 15,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "u_turn",
+          "id": 369,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "U-turn",
+            "fr": "Demi-Tour",
+            "it": "Retromarcia",
+            "de": "Kehrtwende",
+            "es": "Ida y Vuelta",
+            "ko": "유턴"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 70,
           "accuracy": 100
         },
         {
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 47,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -563,10 +706,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "bug_buzz",
+          "id": 405,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Bug Buzz",
+            "fr": "Bourdon",
+            "it": "Ronzio",
+            "de": "Käfergebrumm",
+            "es": "Zumbido",
+            "ko": "벌레의야단법석"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "uproar",
+          "id": 253,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Uproar",
+            "fr": "Brouhaha",
+            "it": "Baraonda",
+            "de": "Aufruhr",
+            "es": "Alboroto",
+            "ko": "소란피기"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "quiver_dance",
+          "id": 483,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Quiver Dance",
+            "fr": "Papillodanse",
+            "it": "Eledanza",
+            "de": "Falterreigen",
+            "es": "Danza Aleteo",
+            "ko": "나비춤"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 67,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -658,25 +858,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "gust",
-          "id": 16,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Gust",
-            "fr": "Tornade",
-            "it": "Raffica",
-            "de": "Windstoß",
-            "es": "Tornado",
-            "ko": "바람일으키기"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "air_cutter",
           "id": 314,
           "klass": "TechLearnableMove",
@@ -734,25 +915,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "psyshock",
           "id": 473,
           "klass": "TechLearnableMove",
@@ -788,25 +950,6 @@
           "type": "psychic",
           "pp": 10,
           "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "u_turn",
-          "id": 369,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "U-turn",
-            "fr": "Demi-Tour",
-            "it": "Retromarcia",
-            "de": "Kehrtwende",
-            "es": "Ida y Vuelta",
-            "ko": "유턴"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 20,
-          "power": 70,
           "accuracy": 100
         },
         {
@@ -901,25 +1044,6 @@
           "category": "status",
           "type": "psychic",
           "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "quiver_dance",
-          "id": 483,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Quiver Dance",
-            "fr": "Papillodanse",
-            "it": "Eledanza",
-            "de": "Falterreigen",
-            "es": "Danza Aleteo",
-            "ko": "나비춤"
-          },
-          "category": "status",
-          "type": "bug",
-          "pp": 20,
           "power": 0,
           "accuracy": 0
         },
@@ -1019,25 +1143,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "charm",
           "id": 204,
           "klass": "TechLearnableMove",
@@ -1114,25 +1219,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "encore",
           "id": 227,
           "klass": "TechLearnableMove",
@@ -1150,6 +1236,44 @@
           "pp": 5,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "dream_eater",
+          "id": 138,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dream Eater",
+            "fr": "Dévorêve",
+            "it": "Mangiasogni",
+            "de": "Traumfresser",
+            "es": "Comesueños",
+            "ko": "꿈먹기"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "pain_split",
+          "id": 220,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Pain Split",
+            "fr": "Balance",
+            "it": "Malcomune",
+            "de": "Leidteiler",
+            "es": "Divide Dolor",
+            "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     }

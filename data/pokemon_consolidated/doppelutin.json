@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "fake_out",
+          "move": "charm",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charm",
+          "move": "fake_out",
           "level": 1
         },
         {
@@ -93,12 +93,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "copycat",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -108,7 +108,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 24
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,12 +118,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -138,12 +138,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
@@ -153,12 +153,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 60
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 65
+          "level": 66
         },
         {
           "klass": "TechLearnableMove",
@@ -395,6 +395,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "trick"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fiery_dance"
         }
       ],
       "names": {
@@ -437,25 +445,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "fake_out",
-          "id": 252,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Fake Out",
-            "fr": "Bluff",
-            "it": "Bruciapelo",
-            "de": "Mogelhieb",
-            "es": "Sorpresa",
-            "ko": "속이다"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 10,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
@@ -472,6 +461,25 @@
           "type": "fairy",
           "pp": 20,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fake_out",
+          "id": 252,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Fake Out",
+            "fr": "Bluff",
+            "it": "Bruciapelo",
+            "de": "Mogelhieb",
+            "es": "Sorpresa",
+            "ko": "속이다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -516,7 +524,7 @@
           "symbol": "copycat",
           "id": 383,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Copycat",
             "fr": "Photocopie",
@@ -535,7 +543,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -573,7 +581,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -611,7 +619,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -630,7 +638,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -687,7 +695,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -706,7 +714,7 @@
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -744,7 +752,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 61,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -763,7 +771,7 @@
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 66,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -1708,6 +1716,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "trick",
+          "id": 271,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Trick",
+            "fr": "Tour de Magie",
+            "it": "Raggiro",
+            "de": "Trickbetrug",
+            "es": "Truco",
+            "ko": "트릭"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fiery_dance",
+          "id": 552,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fiery Dance",
+            "fr": "Danse du Feu",
+            "it": "Voldifuoco",
+            "de": "Feuerreigen",
+            "es": "Danza Llama",
+            "ko": "불꽃춤"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

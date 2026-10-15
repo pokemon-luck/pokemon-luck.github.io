@@ -83,57 +83,57 @@
         {
           "klass": "LevelLearnableMove",
           "move": "rock_smash",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sparkle_powder",
-          "level": 9
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "detect",
-          "level": 13
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "arm_thrust",
-          "level": 17
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 21
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 25
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "force_palm",
-          "level": 29
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "counterbalance",
-          "level": 33
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 37
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aura_sphere",
-          "level": 41
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 45
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
@@ -148,32 +148,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "drain_punch",
-          "level": 57
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "enchant",
-          "level": 61
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "luminous_prism",
           "level": 69
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "luminous_prism",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 72
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
           "move": "justice_hammer",
-          "level": 75
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -418,6 +418,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "encore"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "psycho_cut"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "smack_down"
         }
       ],
       "names": {
@@ -541,7 +549,7 @@
           "symbol": "rock_smash",
           "id": 249,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Rock Smash",
             "fr": "Éclate-Roc",
@@ -560,7 +568,7 @@
           "symbol": "sparkle_powder",
           "id": 773,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Sparkle Powder",
             "fr": "Poudre Paillettes",
@@ -579,7 +587,7 @@
           "symbol": "detect",
           "id": 197,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 9,
           "names": {
             "en": "Detect",
             "fr": "Détection",
@@ -598,7 +606,7 @@
           "symbol": "arm_thrust",
           "id": 292,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 12,
           "names": {
             "en": "Arm Thrust",
             "fr": "Cogne",
@@ -617,7 +625,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 17,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -636,7 +644,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 21,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -655,7 +663,7 @@
           "symbol": "force_palm",
           "id": 395,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 25,
           "names": {
             "en": "Force Palm",
             "fr": "Forte-Paume",
@@ -674,7 +682,7 @@
           "symbol": "counterbalance",
           "id": 790,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 30,
           "names": {
             "en": "Counterbalance",
             "fr": "Compensation",
@@ -693,7 +701,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 35,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -712,7 +720,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 40,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -731,7 +739,7 @@
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 44,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -788,7 +796,7 @@
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 58,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -807,7 +815,7 @@
           "symbol": "enchant",
           "id": 788,
           "klass": "LevelLearnableMove",
-          "level": 61,
+          "level": 63,
           "names": {
             "en": "Enchant",
             "fr": "Enchantement",
@@ -826,7 +834,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 69,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -845,7 +853,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 69,
+          "level": 74,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -864,7 +872,7 @@
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 79,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -883,7 +891,7 @@
           "symbol": "justice_hammer",
           "id": 772,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 85,
           "names": {
             "en": "Justice Hammer",
             "fr": "Marteau Justice",
@@ -1770,6 +1778,44 @@
           "type": "normal",
           "pp": 5,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psycho_cut",
+          "id": 427,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psycho Cut",
+            "fr": "Coupe Psycho",
+            "it": "Psicotaglio",
+            "de": "Psychoklinge",
+            "es": "Psicocorte",
+            "ko": "사이코커터"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "smack_down",
+          "id": 479,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Smack Down",
+            "fr": "Anti-Air",
+            "it": "Abbattimento",
+            "de": "Katapult",
+            "es": "Antiaéreo",
+            "ko": "떨어뜨리기"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 50,
           "accuracy": 100
         }
       ]

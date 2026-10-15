@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -99,7 +99,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 9
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
@@ -114,7 +114,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
@@ -129,32 +129,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 32
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stealth_rock",
-          "level": 36
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_press",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 52
+          "level": 58
         },
         {
           "klass": "TechLearnableMove",
@@ -351,6 +351,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "shore_up"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "magnet_rise"
         }
       ],
       "names": {
@@ -433,25 +441,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -469,6 +458,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "rock_throw",
@@ -493,7 +501,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -550,7 +558,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -607,7 +615,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -626,7 +634,7 @@
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 38,
           "names": {
             "en": "Stealth Rock",
             "fr": "Piège de Roc",
@@ -645,7 +653,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -664,7 +672,7 @@
           "symbol": "body_press",
           "id": 720,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 48,
           "names": {
             "en": "Body Press",
             "fr": "Big Splash",
@@ -683,7 +691,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 53,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -702,7 +710,7 @@
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 58,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -1455,6 +1463,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "shore_up",
+          "id": 659,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shore Up",
+            "fr": "Amass’Sable",
+            "it": "Sabbiaccumulo",
+            "de": "Sandsammler",
+            "es": "Recogearena",
+            "ko": "모래모으기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "magnet_rise",
+          "id": 393,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Magnet Rise",
+            "fr": "Vol Magnétik",
+            "it": "Magnetascesa",
+            "de": "Magnetflug",
+            "es": "Levitón",
+            "ko": "전자부유"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

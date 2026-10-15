@@ -83,73 +83,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "string_shot",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mega_drain",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_bite",
+          "move": "leer",
           "level": 7
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "bug_bite",
+          "level": 11
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 10
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fury_cutter",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
+          "move": "fury_cutter",
           "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "screech",
+          "move": "confusion",
           "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leech_life",
+          "move": "poison_fang",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hex",
+          "move": "shadow_sneak",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "agility",
+          "move": "screech",
           "level": 31
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_life",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "agility",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 34
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psyshock",
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 37
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -346,6 +376,42 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "attack_order"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "night_slash"
         }
       ],
       "names": {
@@ -428,25 +494,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "string_shot",
           "id": 81,
           "klass": "LevelLearnableMove",
@@ -466,10 +513,48 @@
           "accuracy": 95
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 7,
           "names": {
             "en": "Leer",
             "fr": "Groz’Yeux",
@@ -488,7 +573,7 @@
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 11,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -507,7 +592,7 @@
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 14,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -526,7 +611,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 16,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -545,7 +630,7 @@
           "symbol": "fury_cutter",
           "id": 210,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Fury Cutter",
             "fr": "Taillade",
@@ -561,10 +646,48 @@
           "accuracy": 95
         },
         {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 28,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -583,7 +706,7 @@
           "symbol": "screech",
           "id": 103,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 31,
           "names": {
             "en": "Screech",
             "fr": "Grincement",
@@ -599,10 +722,29 @@
           "accuracy": 85
         },
         {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 41,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -621,7 +763,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 44,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -640,7 +782,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 49,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -659,7 +801,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 54,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -675,10 +817,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psyshock",
+          "id": 473,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Psyshock",
+            "fr": "Choc Psy",
+            "it": "Psicoshock",
+            "de": "Psychoschock",
+            "es": "Psicocarga",
+            "ko": "사이코쇼크"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 69,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -751,63 +931,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "mega_drain",
-          "id": 72,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mega Drain",
-            "fr": "Méga-Sangsue",
-            "it": "Megassorbimento",
-            "de": "Megasauger",
-            "es": "Megaagotar",
-            "ko": "메가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "giga_drain",
-          "id": 202,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "poison_fang",
-          "id": 305,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Poison Fang",
-            "fr": "Crochet Venin",
-            "it": "Velenodenti",
-            "de": "Giftzahn",
-            "es": "Colmillo Veneno",
-            "ko": "독엄니"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 15,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "TechLearnableMove",
@@ -827,25 +950,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "psybeam",
           "id": 60,
           "klass": "TechLearnableMove",
@@ -862,25 +966,6 @@
           "type": "psychic",
           "pp": 20,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psyshock",
-          "id": 473,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Psyshock",
-            "fr": "Choc Psy",
-            "it": "Psicoshock",
-            "de": "Psychoschock",
-            "es": "Psicocarga",
-            "ko": "사이코쇼크"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -1302,25 +1387,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "iron_defense",
           "id": 334,
           "klass": "TechLearnableMove",
@@ -1470,6 +1536,177 @@
           "type": "dark",
           "pp": 20,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "attack_order",
+          "id": 454,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Attack Order",
+            "fr": "Appel Attaque",
+            "it": "Comandourto",
+            "de": "Schlagbefehl",
+            "es": "Al Ataque",
+            "ko": "공격지령"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "night_slash",
+          "id": 400,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Night Slash",
+            "fr": "Tranche-Nuit",
+            "it": "Nottesferza",
+            "de": "Nachthieb",
+            "es": "Tajo Umbrío",
+            "ko": "깜짝베기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         }
       ]

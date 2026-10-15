@@ -55,15 +55,15 @@
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "119_i",
-        "iconShiny": "119_i_s",
-        "front": "119",
-        "frontShiny": "119_s",
-        "back": "119_b",
-        "backShiny": "119_b_s",
+        "icon": "119_2_i",
+        "iconShiny": "119_2_i_s",
+        "front": "119_2",
+        "frontShiny": "119_2_s",
+        "back": "119_2_b",
+        "backShiny": "119_2_b_s",
         "footprint": "",
-        "character": "119_c",
-        "characterShiny": "119_c_s",
+        "character": "119_2_c",
+        "characterShiny": "119_2_c_s",
         "egg": "egg",
         "iconEgg": "egg",
         "cry": "",
@@ -72,93 +72,93 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "sand_attack",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "glare",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_slap",
-          "level": 10
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 15
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mean_look",
-          "level": 20
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_tomb",
-          "level": 24
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hypnosis",
-          "level": 28
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_coat",
-          "level": 32
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 36
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 40
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dream_eater",
-          "level": 45
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 50
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nightmare",
-          "level": 55
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "counter",
-          "level": 60
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 65
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_press",
-          "level": 70
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 75
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -397,25 +397,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
@@ -435,10 +416,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
           "symbol": "glare",
           "id": 137,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Glare",
             "fr": "Regard Médusant",
@@ -457,7 +457,7 @@
           "symbol": "mud_slap",
           "id": 189,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 6,
           "names": {
             "en": "Mud-Slap",
             "fr": "Coud’Boue",
@@ -476,7 +476,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 11,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -495,7 +495,7 @@
           "symbol": "mean_look",
           "id": 212,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 13,
           "names": {
             "en": "Mean Look",
             "fr": "Regard Noir",
@@ -514,7 +514,7 @@
           "symbol": "sand_tomb",
           "id": 328,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 16,
           "names": {
             "en": "Sand Tomb",
             "fr": "Tourbi-Sable",
@@ -533,7 +533,7 @@
           "symbol": "hypnosis",
           "id": 95,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 21,
           "names": {
             "en": "Hypnosis",
             "fr": "Hypnose",
@@ -552,7 +552,7 @@
           "symbol": "mirror_coat",
           "id": 243,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 26,
           "names": {
             "en": "Mirror Coat",
             "fr": "Voile Miroir",
@@ -571,7 +571,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 31,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -590,7 +590,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 36,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -609,7 +609,7 @@
           "symbol": "dream_eater",
           "id": 138,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 42,
           "names": {
             "en": "Dream Eater",
             "fr": "Dévorêve",
@@ -628,7 +628,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 47,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -647,7 +647,7 @@
           "symbol": "nightmare",
           "id": 171,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 49,
           "names": {
             "en": "Nightmare",
             "fr": "Cauchemar",
@@ -666,7 +666,7 @@
           "symbol": "counter",
           "id": 68,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 54,
           "names": {
             "en": "Counter",
             "fr": "Riposte",
@@ -685,7 +685,7 @@
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 59,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -704,7 +704,7 @@
           "symbol": "body_press",
           "id": 720,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 64,
           "names": {
             "en": "Body Press",
             "fr": "Big Splash",
@@ -723,7 +723,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 69,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",

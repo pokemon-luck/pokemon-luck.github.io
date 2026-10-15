@@ -72,16 +72,6 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fury_swipes",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "disable",
           "level": 1
         },
@@ -92,18 +82,28 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "astonish",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fury_swipes",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "curse",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 10
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 14
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,17 +118,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mean_look",
-          "level": 26
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 30
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 35
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
@@ -138,7 +138,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "double_edge",
-          "level": 43
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
@@ -148,12 +148,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 51
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rest",
-          "level": 55
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
@@ -163,17 +163,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "poltergeist",
-          "level": 63
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pin_barrage",
-          "level": 67
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 70
+          "level": 73
         },
         {
           "klass": "TechLearnableMove",
@@ -408,44 +408,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "astonish",
-          "id": 310,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Astonish",
-            "fr": "Étonnement",
-            "it": "Sgomento",
-            "de": "Erstauner",
-            "es": "Impresionar",
-            "ko": "놀래키기"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
-          "symbol": "fury_swipes",
-          "id": 154,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Fury Swipes",
-            "fr": "Combo-Griffe",
-            "it": "Sfuriate",
-            "de": "Kratzfurie",
-            "es": "Golpes Furia",
-            "ko": "마구할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 18,
-          "accuracy": 80
-        },
-        {
           "symbol": "disable",
           "id": 50,
           "klass": "LevelLearnableMove",
@@ -484,6 +446,44 @@
           "accuracy": 100
         },
         {
+          "symbol": "astonish",
+          "id": 310,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Astonish",
+            "fr": "Étonnement",
+            "it": "Sgomento",
+            "de": "Erstauner",
+            "es": "Impresionar",
+            "ko": "놀래키기"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fury_swipes",
+          "id": 154,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
+        },
+        {
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
@@ -506,7 +506,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 8,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -525,7 +525,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 13,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -582,7 +582,7 @@
           "symbol": "mean_look",
           "id": 212,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 24,
           "names": {
             "en": "Mean Look",
             "fr": "Regard Noir",
@@ -601,7 +601,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 29,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -620,7 +620,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 34,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -658,7 +658,7 @@
           "symbol": "double_edge",
           "id": 38,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 45,
           "names": {
             "en": "Double-Edge",
             "fr": "Damoclès",
@@ -696,7 +696,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 51,
+          "level": 52,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -715,7 +715,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 57,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -753,7 +753,7 @@
           "symbol": "poltergeist",
           "id": 725,
           "klass": "LevelLearnableMove",
-          "level": 63,
+          "level": 65,
           "names": {
             "en": "Poltergeist",
             "fr": "Esprit Frappeur",
@@ -772,7 +772,7 @@
           "symbol": "pin_barrage",
           "id": 763,
           "klass": "LevelLearnableMove",
-          "level": 67,
+          "level": 68,
           "names": {
             "en": "Pin Barrage",
             "fr": "Barrage Épingles",
@@ -791,7 +791,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",

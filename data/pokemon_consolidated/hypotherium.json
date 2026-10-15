@@ -77,97 +77,102 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "encore",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "ice_shard",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_ball",
-          "level": 3
+          "move": "encore",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icy_wind",
+          "move": "icicle_spear",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mist",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 10
+          "move": "powder_snow",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "avalanche",
-          "level": 15
+          "move": "rest",
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "yawn",
+          "move": "frost_breath",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_talk",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psycho_cut",
-          "level": 25
+          "move": "avalanche",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aurora_veil",
-          "level": 30
+          "move": "haze",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_punch",
-          "level": 35
+          "move": "hail",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "glaciate",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "freeze_dry",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 40
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "blizzard",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earthquake",
-          "level": 55
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 60
+          "move": "dream_eater",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "icicle_crash",
-          "level": 70
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "future_sight",
-          "level": 75
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hibernation",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icicle_crash",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ice_beam",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blizzard",
           "level": 80
         },
         {
@@ -478,25 +483,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "encore",
-          "id": 227,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Encore",
-            "fr": "Encore",
-            "it": "Ripeti",
-            "de": "Zugabe",
-            "es": "Otra Vez",
-            "ko": "앵콜"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
@@ -516,67 +502,143 @@
           "accuracy": 100
         },
         {
-          "symbol": "ice_ball",
-          "id": 301,
+          "symbol": "encore",
+          "id": 227,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 1,
           "names": {
-            "en": "Ice Ball",
-            "fr": "Ball’Glace",
-            "it": "Palla Gelo",
-            "de": "Frostbeule",
-            "es": "Bola Hielo",
-            "ko": "아이스볼"
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icicle_spear",
+          "id": 333,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Icicle Spear",
+            "fr": "Stalactite",
+            "it": "Gelolancia",
+            "de": "Eisspeer",
+            "es": "Carámbano",
+            "ko": "고드름침"
           },
           "category": "physical",
           "type": "ice",
-          "pp": 20,
-          "power": 30,
-          "accuracy": 90
+          "pp": 30,
+          "power": 25,
+          "accuracy": 100
         },
         {
-          "symbol": "icy_wind",
-          "id": 196,
+          "symbol": "mist",
+          "id": 54,
           "klass": "LevelLearnableMove",
           "level": 6,
           "names": {
-            "en": "Icy Wind",
-            "fr": "Vent Glace",
-            "it": "Ventogelato",
-            "de": "Eissturm",
-            "es": "Viento Hielo",
-            "ko": "얼다바람"
+            "en": "Mist",
+            "fr": "Brume",
+            "it": "Nebbia",
+            "de": "Weißnebel",
+            "es": "Neblina",
+            "ko": "흰안개"
+          },
+          "category": "status",
+          "type": "ice",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "powder_snow",
+          "id": 181,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
           },
           "category": "special",
           "type": "ice",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
+          "symbol": "rest",
+          "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 14,
           "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
+            "en": "Rest",
+            "fr": "Repos",
+            "it": "Riposo",
+            "de": "Erholung",
+            "es": "Descanso",
+            "ko": "잠자기"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "frost_breath",
+          "id": 524,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Frost Breath",
+            "fr": "Souffle Glacé",
+            "it": "Alitogelido",
+            "de": "Eisesodem",
+            "es": "Vaho Gélido",
+            "ko": "얼음숨결"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
+          "type": "ice",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "sleep_talk",
+          "id": 214,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Sleep Talk",
+            "fr": "Blabla Dodo",
+            "it": "Sonnolalia",
+            "de": "Schlafrede",
+            "es": "Sonámbulo",
+            "ko": "잠꼬대"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 24,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -592,86 +654,86 @@
           "accuracy": 100
         },
         {
-          "symbol": "yawn",
-          "id": 281,
+          "symbol": "haze",
+          "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 29,
           "names": {
-            "en": "Yawn",
-            "fr": "Bâillement",
-            "it": "Sbadiglio",
-            "de": "Gähner",
-            "es": "Bostezo",
-            "ko": "하품"
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
           },
           "category": "status",
-          "type": "normal",
+          "type": "ice",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hail",
+          "id": 258,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Hail",
+            "fr": "Grêle",
+            "it": "Grandine",
+            "de": "Hagelsturm",
+            "es": "Granizo",
+            "ko": "싸라기눈"
+          },
+          "category": "status",
+          "type": "ice",
           "pp": 10,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "psycho_cut",
-          "id": 427,
+          "symbol": "glaciate",
+          "id": 549,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 38,
           "names": {
-            "en": "Psycho Cut",
-            "fr": "Coupe Psycho",
-            "it": "Psicotaglio",
-            "de": "Psychoklinge",
-            "es": "Psicocorte",
-            "ko": "사이코커터"
+            "en": "Glaciate",
+            "fr": "Ère Glaciaire",
+            "it": "Gelamondo",
+            "de": "Eiszeit",
+            "es": "Mundo Gélido",
+            "ko": "얼다세계"
           },
-          "category": "physical",
-          "type": "psychic",
+          "category": "special",
+          "type": "ice",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "freeze_dry",
+          "id": 573,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Freeze-Dry",
+            "fr": "Lyophilisation",
+            "it": "Liofilizzazione",
+            "de": "Gefriertrockner",
+            "es": "Liofilización",
+            "ko": "프리즈드라이"
+          },
+          "category": "special",
+          "type": "ice",
           "pp": 20,
           "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "aurora_veil",
-          "id": 694,
-          "klass": "LevelLearnableMove",
-          "level": 30,
-          "names": {
-            "en": "Aurora Veil",
-            "fr": "Voile Aurore",
-            "it": "Velaurora",
-            "de": "Auroraschleier",
-            "es": "Velo Aurora",
-            "ko": "오로라베일"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "ice_punch",
-          "id": 8,
-          "klass": "LevelLearnableMove",
-          "level": 35,
-          "names": {
-            "en": "Ice Punch",
-            "fr": "Poing Glace",
-            "it": "Gelopugno",
-            "de": "Eishieb",
-            "es": "Puño Hielo",
-            "ko": "냉동펀치"
-          },
-          "category": "physical",
-          "type": "ice",
-          "pp": 15,
-          "power": 75,
           "accuracy": 100
         },
         {
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 48,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -687,86 +749,29 @@
           "accuracy": 90
         },
         {
-          "symbol": "blizzard",
-          "id": 59,
+          "symbol": "dream_eater",
+          "id": 138,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 54,
           "names": {
-            "en": "Blizzard",
-            "fr": "Blizzard",
-            "it": "Bora",
-            "de": "Blizzard",
-            "es": "Ventisca",
-            "ko": "눈보라"
+            "en": "Dream Eater",
+            "fr": "Dévorêve",
+            "it": "Mangiasogni",
+            "de": "Traumfresser",
+            "es": "Comesueños",
+            "ko": "꿈먹기"
           },
           "category": "special",
-          "type": "ice",
-          "pp": 5,
-          "power": 110,
-          "accuracy": 70
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 50,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
-          },
-          "category": "status",
           "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "earthquake",
-          "id": 89,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Earthquake",
-            "fr": "Séisme",
-            "it": "Terremoto",
-            "de": "Erdbeben",
-            "es": "Terremoto",
-            "ko": "지진"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 10,
+          "pp": 15,
           "power": 100,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psychic",
-          "id": 94,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Psychic",
-            "fr": "Psyko",
-            "it": "Psichico",
-            "de": "Psychokinese",
-            "es": "Psíquico",
-            "ko": "사이코키네시스"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 90,
           "accuracy": 100
         },
         {
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 59,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -782,10 +787,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "hibernation",
+          "id": 803,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Hibernation",
+            "fr": "Hibernation",
+            "it": "Hibernation",
+            "de": "Hibernation",
+            "es": "Hibernation",
+            "ko": "Hibernation"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 10,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
           "symbol": "icicle_crash",
           "id": 556,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 69,
           "names": {
             "en": "Icicle Crash",
             "fr": "Chute Glace",
@@ -801,42 +825,42 @@
           "accuracy": 90
         },
         {
-          "symbol": "future_sight",
-          "id": 248,
+          "symbol": "ice_beam",
+          "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 74,
           "names": {
-            "en": "Future Sight",
-            "fr": "Prescience",
-            "it": "Divinazione",
-            "de": "Seher",
-            "es": "Premonición",
-            "ko": "미래예지"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hibernation",
-          "id": 803,
-          "klass": "LevelLearnableMove",
-          "level": 80,
-          "names": {
-            "en": "Hibernation",
-            "fr": "Hibernation",
-            "it": "Hibernation",
-            "de": "Hibernation",
-            "es": "Hibernation",
-            "ko": "Hibernation"
+            "en": "Ice Beam",
+            "fr": "Laser Glace",
+            "it": "Geloraggio",
+            "de": "Eisstrahl",
+            "es": "Rayo Hielo",
+            "ko": "냉동빔"
           },
           "category": "special",
           "type": "ice",
           "pp": 10,
-          "power": 70,
+          "power": 90,
           "accuracy": 100
+        },
+        {
+          "symbol": "blizzard",
+          "id": 59,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Blizzard",
+            "fr": "Blizzard",
+            "it": "Bora",
+            "de": "Blizzard",
+            "es": "Ventisca",
+            "ko": "눈보라"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 70
         },
         {
           "symbol": "swift",
@@ -934,41 +958,41 @@
           "accuracy": 100
         },
         {
-          "symbol": "powder_snow",
-          "id": 181,
+          "symbol": "icy_wind",
+          "id": 196,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
           },
           "category": "special",
           "type": "ice",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
-          "symbol": "ice_beam",
-          "id": 58,
+          "symbol": "ice_punch",
+          "id": 8,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Ice Beam",
-            "fr": "Laser Glace",
-            "it": "Geloraggio",
-            "de": "Eisstrahl",
-            "es": "Rayo Hielo",
-            "ko": "냉동빔"
+            "en": "Ice Punch",
+            "fr": "Poing Glace",
+            "it": "Gelopugno",
+            "de": "Eishieb",
+            "es": "Puño Hielo",
+            "ko": "냉동펀치"
           },
-          "category": "special",
+          "category": "physical",
           "type": "ice",
-          "pp": 10,
-          "power": 90,
+          "pp": 15,
+          "power": 75,
           "accuracy": 100
         },
         {
@@ -1124,6 +1148,44 @@
           "accuracy": 100
         },
         {
+          "symbol": "earthquake",
+          "id": 89,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "psyshock",
           "id": 473,
           "klass": "TechLearnableMove",
@@ -1140,6 +1202,25 @@
           "type": "psychic",
           "pp": 10,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
           "accuracy": 100
         },
         {
@@ -1371,6 +1452,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "bulk_up",
           "id": 339,
           "klass": "TechLearnableMove",
@@ -1405,44 +1505,6 @@
           "category": "status",
           "type": "steel",
           "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "haze",
-          "id": 114,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Haze",
-            "fr": "Buée Noire",
-            "it": "Nube",
-            "de": "Dunkelnebel",
-            "es": "Niebla",
-            "ko": "흑안개"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "hail",
-          "id": 258,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Hail",
-            "fr": "Grêle",
-            "it": "Grandine",
-            "de": "Hagelsturm",
-            "es": "Granizo",
-            "ko": "싸라기눈"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
@@ -1540,25 +1602,6 @@
           "pp": 40,
           "power": 0,
           "accuracy": 85
-        },
-        {
-          "symbol": "rest",
-          "id": 156,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rest",
-            "fr": "Repos",
-            "it": "Riposo",
-            "de": "Erholung",
-            "es": "Descanso",
-            "ko": "잠자기"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "protect",

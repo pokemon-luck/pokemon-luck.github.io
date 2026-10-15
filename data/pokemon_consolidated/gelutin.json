@@ -93,78 +93,83 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "haze",
-          "level": 4
+          "move": "mist",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icy_wind",
-          "level": 7
+          "move": "icicle_spear",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
-          "level": 10
+          "move": "teleport",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "double_team",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ice_shard",
+          "move": "night_shade",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_sneak",
+          "move": "icy_wind",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hypnosis",
+          "move": "aurora_beam",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "frost_breath",
-          "level": 28
+          "move": "hypnosis",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 32
+          "move": "nightmare",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_beam",
+          "move": "freeze_dry",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icicle_crash",
-          "level": 40
+          "move": "shadow_sneak",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
+          "move": "substitute",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "aurora_veil",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ice_beam",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 48
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "destiny_bond",
-          "level": 56
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -441,17 +446,17 @@
           "accuracy": 100
         },
         {
-          "symbol": "haze",
-          "id": 114,
+          "symbol": "mist",
+          "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
-            "en": "Haze",
-            "fr": "Buée Noire",
-            "it": "Nube",
-            "de": "Dunkelnebel",
-            "es": "Niebla",
-            "ko": "흑안개"
+            "en": "Mist",
+            "fr": "Brume",
+            "it": "Nebbia",
+            "de": "Weißnebel",
+            "es": "Neblina",
+            "ko": "흰안개"
           },
           "category": "status",
           "type": "ice",
@@ -460,10 +465,67 @@
           "accuracy": 0
         },
         {
+          "symbol": "icicle_spear",
+          "id": 333,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Icicle Spear",
+            "fr": "Stalactite",
+            "it": "Gelolancia",
+            "de": "Eisspeer",
+            "es": "Carámbano",
+            "ko": "고드름침"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 30,
+          "power": 25,
+          "accuracy": 100
+        },
+        {
+          "symbol": "teleport",
+          "id": 100,
+          "klass": "LevelLearnableMove",
+          "level": 11,
+          "names": {
+            "en": "Teleport",
+            "fr": "Téléport",
+            "it": "Teletrasporto",
+            "de": "Teleport",
+            "es": "Teletransporte",
+            "ko": "순간이동"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "night_shade",
+          "id": 101,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Night Shade",
+            "fr": "Ombre Nocturne",
+            "it": "Ombra Notturna",
+            "de": "Nachtnebel",
+            "es": "Tinieblas",
+            "ko": "나이트헤드"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 20,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -479,86 +541,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "confuse_ray",
-          "id": 109,
+          "symbol": "aurora_beam",
+          "id": 62,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 24,
           "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
+            "en": "Aurora Beam",
+            "fr": "Onde Boréale",
+            "it": "Raggiaurora",
+            "de": "Aurorastrahl",
+            "es": "Rayo Aurora",
+            "ko": "오로라빔"
           },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "double_team",
-          "id": 104,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Double Team",
-            "fr": "Reflet",
-            "it": "Doppioteam",
-            "de": "Doppelteam",
-            "es": "Doble Equipo",
-            "ko": "그림자분신"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "ice_shard",
-          "id": 420,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Ice Shard",
-            "fr": "Éclats Glace",
-            "it": "Geloscheggia",
-            "de": "Eissplitter",
-            "es": "Canto Helado",
-            "ko": "얼음뭉치"
-          },
-          "category": "physical",
+          "category": "special",
           "type": "ice",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_sneak",
-          "id": 425,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 40,
+          "pp": 20,
+          "power": 65,
           "accuracy": 100
         },
         {
           "symbol": "hypnosis",
           "id": 95,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 29,
           "names": {
             "en": "Hypnosis",
             "fr": "Hypnose",
@@ -574,48 +579,105 @@
           "accuracy": 60
         },
         {
-          "symbol": "frost_breath",
-          "id": 524,
+          "symbol": "nightmare",
+          "id": 171,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
-            "en": "Frost Breath",
-            "fr": "Souffle Glacé",
-            "it": "Alitogelido",
-            "de": "Eisesodem",
-            "es": "Vaho Gélido",
-            "ko": "얼음숨결"
+            "en": "Nightmare",
+            "fr": "Cauchemar",
+            "it": "Incubo",
+            "de": "Nachtmahr",
+            "es": "Pesadilla",
+            "ko": "악몽"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "freeze_dry",
+          "id": 573,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Freeze-Dry",
+            "fr": "Lyophilisation",
+            "it": "Liofilizzazione",
+            "de": "Gefriertrockner",
+            "es": "Liofilización",
+            "ko": "프리즈드라이"
           },
           "category": "special",
           "type": "ice",
-          "pp": 10,
-          "power": 60,
-          "accuracy": 90
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
         },
         {
-          "symbol": "shadow_ball",
-          "id": 247,
+          "symbol": "shadow_sneak",
+          "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 39,
           "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
           },
-          "category": "special",
+          "category": "physical",
           "type": "ghost",
-          "pp": 15,
-          "power": 80,
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
+        },
+        {
+          "symbol": "substitute",
+          "id": 164,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Substitute",
+            "fr": "Clonage",
+            "it": "Sostituto",
+            "de": "Delegator",
+            "es": "Sustituto",
+            "ko": "대타출동"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "aurora_veil",
+          "id": 694,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Aurora Veil",
+            "fr": "Voile Aurore",
+            "it": "Velaurora",
+            "de": "Auroraschleier",
+            "es": "Velo Aurora",
+            "ko": "오로라베일"
+          },
+          "category": "status",
+          "type": "ice",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 54,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -631,40 +693,21 @@
           "accuracy": 100
         },
         {
-          "symbol": "icicle_crash",
-          "id": 556,
+          "symbol": "shadow_ball",
+          "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 59,
           "names": {
-            "en": "Icicle Crash",
-            "fr": "Chute Glace",
-            "it": "Scagliagelo",
-            "de": "Eiszapfhagel",
-            "es": "Chuzos",
-            "ko": "고드름떨구기"
-          },
-          "category": "physical",
-          "type": "ice",
-          "pp": 10,
-          "power": 85,
-          "accuracy": 90
-        },
-        {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 44,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
           },
           "category": "special",
-          "type": "fairy",
-          "pp": 10,
+          "type": "ghost",
+          "pp": 15,
           "power": 80,
           "accuracy": 100
         },
@@ -672,7 +715,7 @@
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 64,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -691,7 +734,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 70,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -705,25 +748,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 70
-        },
-        {
-          "symbol": "destiny_bond",
-          "id": 194,
-          "klass": "LevelLearnableMove",
-          "level": 56,
-          "names": {
-            "en": "Destiny Bond",
-            "fr": "Lien du Destin",
-            "it": "Destinobbligato",
-            "de": "Abgangsbund",
-            "es": "Mismo Destino",
-            "ko": "길동무"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "quick_attack",
@@ -780,6 +804,25 @@
           "type": "normal",
           "pp": 10,
           "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ice_shard",
+          "id": 420,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Shard",
+            "fr": "Éclats Glace",
+            "it": "Geloscheggia",
+            "de": "Eissplitter",
+            "es": "Canto Helado",
+            "ko": "얼음뭉치"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -992,6 +1035,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "moonblast",
           "id": 585,
           "klass": "TechLearnableMove",
@@ -1063,6 +1125,25 @@
           },
           "category": "status",
           "type": "psychic",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "haze",
+          "id": 114,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
+          },
+          "category": "status",
+          "type": "ice",
           "pp": 30,
           "power": 0,
           "accuracy": 0
@@ -1142,6 +1223,25 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
         },
         {
           "symbol": "charm",

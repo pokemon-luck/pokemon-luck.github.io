@@ -72,108 +72,108 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "wing_attack",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "snarl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "air_cutter",
-          "level": 2
+          "move": "wing_attack",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bite",
-          "level": 4
+          "move": "roar",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gust",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hone_claws",
-          "level": 5
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feint_attack",
-          "level": 10
+          "move": "bite",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "taunt",
+          "move": "feather_dance",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "pluck",
-          "level": 20
+          "move": "acrobatics",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
-          "level": 25
+          "move": "taunt",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_slash",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 30
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 35
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "roost",
-          "level": 40
+          "move": "sucker_punch",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 45
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "brave_bird",
-          "level": 55
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dragon_pulse",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hurricane",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "knock_off",
-          "level": 70
+          "move": "oblivion_wing",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 75
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dragon_dance",
-          "level": 80
+          "move": "night_daze",
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 85
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aeroblast",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hurricane",
+          "level": 80
         },
         {
           "klass": "TechLearnableMove",
@@ -370,6 +370,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -452,25 +484,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "wing_attack",
-          "id": 17,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Wing Attack",
-            "fr": "Cru-Ailes",
-            "it": "Attacco d’Ala",
-            "de": "Flügelschlag",
-            "es": "Ataque Ala",
-            "ko": "날개치기"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
@@ -490,48 +503,67 @@
           "accuracy": 95
         },
         {
-          "symbol": "air_cutter",
-          "id": 314,
+          "symbol": "wing_attack",
+          "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 1,
           "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
+            "en": "Wing Attack",
+            "fr": "Cru-Ailes",
+            "it": "Attacco d’Ala",
+            "de": "Flügelschlag",
+            "es": "Ataque Ala",
+            "ko": "날개치기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "roar",
+          "id": 46,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Roar",
+            "fr": "Hurlement",
+            "it": "Boato",
+            "de": "Brüller",
+            "es": "Rugido",
+            "ko": "울부짖기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "gust",
+          "id": 16,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Gust",
+            "fr": "Tornade",
+            "it": "Raffica",
+            "de": "Windstoß",
+            "es": "Tornado",
+            "ko": "바람일으키기"
           },
           "category": "special",
           "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
-        },
-        {
-          "symbol": "bite",
-          "id": 44,
-          "klass": "LevelLearnableMove",
-          "level": 4,
-          "names": {
-            "en": "Bite",
-            "fr": "Morsure",
-            "it": "Morso",
-            "de": "Biss",
-            "es": "Mordisco",
-            "ko": "물기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 25,
-          "power": 60,
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "hone_claws",
           "id": 468,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 9,
           "names": {
             "en": "Hone Claws",
             "fr": "Aiguisage",
@@ -547,29 +579,67 @@
           "accuracy": 0
         },
         {
-          "symbol": "feint_attack",
-          "id": 185,
+          "symbol": "bite",
+          "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 13,
           "names": {
-            "en": "Feint Attack",
-            "fr": "Feinte",
-            "it": "Finta",
-            "de": "Finte",
-            "es": "Finta",
-            "ko": "속여때리기"
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
           },
           "category": "physical",
           "type": "dark",
-          "pp": 20,
+          "pp": 25,
           "power": 60,
-          "accuracy": 0
+          "accuracy": 100
+        },
+        {
+          "symbol": "feather_dance",
+          "id": 297,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Feather Dance",
+            "fr": "Danse Plumes",
+            "it": "Danzadipiume",
+            "de": "Daunenreigen",
+            "es": "Danza Pluma",
+            "ko": "깃털댄스"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "acrobatics",
+          "id": 512,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Acrobatics",
+            "fr": "Acrobatie",
+            "it": "Acrobazia",
+            "de": "Akrobatik",
+            "es": "Acróbata",
+            "ko": "애크러뱃"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 100
         },
         {
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 21,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -585,48 +655,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "pluck",
-          "id": 365,
+          "symbol": "crunch",
+          "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 26,
           "names": {
-            "en": "Pluck",
-            "fr": "Picore",
-            "it": "Spennata",
-            "de": "Pflücker",
-            "es": "Picoteo",
-            "ko": "쪼아대기"
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
           },
           "category": "physical",
-          "type": "flying",
-          "pp": 20,
-          "power": 60,
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
+          "symbol": "air_slash",
+          "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 31,
           "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
+            "en": "Air Slash",
+            "fr": "Lame d’Air",
+            "it": "Eterelama",
+            "de": "Luftschnitt",
+            "es": "Tajo Aéreo",
+            "ko": "에어슬래시"
           },
           "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
+          "type": "flying",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 38,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -642,48 +731,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_ball",
-          "id": 247,
+          "symbol": "sucker_punch",
+          "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 43,
           "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
           },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
+          "category": "physical",
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
           "accuracy": 100
-        },
-        {
-          "symbol": "roost",
-          "id": 355,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Roost",
-            "fr": "Atterrissage",
-            "it": "Trespolo",
-            "de": "Ruheort",
-            "es": "Respiro",
-            "ko": "날개쉬기"
-          },
-          "category": "status",
-          "type": "flying",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 48,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -699,105 +769,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "toxic_spikes",
-          "id": 390,
+          "symbol": "oblivion_wing",
+          "id": 613,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
-            "en": "Toxic Spikes",
-            "fr": "Pics Toxik",
-            "it": "Fielepunte",
-            "de": "Giftspitzen",
-            "es": "Púas Tóxicas",
-            "ko": "독압정"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "brave_bird",
-          "id": 413,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Brave Bird",
-            "fr": "Rapace",
-            "it": "Baldeali",
-            "de": "Sturzflug",
-            "es": "Pájaro Osado",
-            "ko": "브레이브버드"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 15,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dragon_pulse",
-          "id": 406,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Dragon Pulse",
-            "fr": "Draco-Choc",
-            "it": "Dragopulsar",
-            "de": "Drachenpuls",
-            "es": "Pulso Dragón",
-            "ko": "용의파동"
-          },
-          "category": "special",
-          "type": "dragon",
-          "pp": 10,
-          "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hurricane",
-          "id": 542,
-          "klass": "LevelLearnableMove",
-          "level": 65,
-          "names": {
-            "en": "Hurricane",
-            "fr": "Vent Violent",
-            "it": "Tifone",
-            "de": "Orkan",
-            "es": "Vendaval",
-            "ko": "폭풍"
+            "en": "Oblivion Wing",
+            "fr": "Mort’Ailes",
+            "it": "Ali del Fato",
+            "de": "Unheilsschwingen",
+            "es": "Ala Mortífera",
+            "ko": "데스윙"
           },
           "category": "special",
           "type": "flying",
           "pp": 10,
-          "power": 110,
-          "accuracy": 70
-        },
-        {
-          "symbol": "knock_off",
-          "id": 282,
-          "klass": "LevelLearnableMove",
-          "level": 70,
-          "names": {
-            "en": "Knock Off",
-            "fr": "Sabotage",
-            "it": "Privazione",
-            "de": "Abschlag",
-            "es": "Desarme",
-            "ko": "탁쳐서떨구기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 65,
+          "power": 80,
           "accuracy": 100
         },
         {
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 58,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -813,29 +807,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "dragon_dance",
-          "id": 349,
+          "symbol": "night_daze",
+          "id": 539,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 63,
           "names": {
-            "en": "Dragon Dance",
-            "fr": "Danse Draco",
-            "it": "Dragodanza",
-            "de": "Drachentanz",
-            "es": "Danza Dragón",
-            "ko": "용의춤"
+            "en": "Night Daze",
+            "fr": "Explonuit",
+            "it": "Urtoscuro",
+            "de": "Nachtflut",
+            "es": "Pulso Noche",
+            "ko": "나이트버스트"
           },
-          "category": "status",
-          "type": "dragon",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
+          "category": "special",
+          "type": "dark",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 95
         },
         {
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 85,
+          "level": 68,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -849,6 +843,44 @@
           "pp": 15,
           "power": 95,
           "accuracy": 100
+        },
+        {
+          "symbol": "aeroblast",
+          "id": 177,
+          "klass": "LevelLearnableMove",
+          "level": 74,
+          "names": {
+            "en": "Aeroblast",
+            "fr": "Aéroblast",
+            "it": "Aerocolpo",
+            "de": "Luftstoß",
+            "es": "Aerochorro",
+            "ko": "에어로블라스트"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 95
+        },
+        {
+          "symbol": "hurricane",
+          "id": 542,
+          "klass": "LevelLearnableMove",
+          "level": 80,
+          "names": {
+            "en": "Hurricane",
+            "fr": "Vent Violent",
+            "it": "Tifone",
+            "de": "Orkan",
+            "es": "Vendaval",
+            "ko": "폭풍"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
         },
         {
           "symbol": "quick_attack",
@@ -946,6 +978,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "TechLearnableMove",
@@ -984,25 +1035,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "gust",
-          "id": 16,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Gust",
-            "fr": "Tornade",
-            "it": "Raffica",
-            "de": "Windstoß",
-            "es": "Tornado",
-            "ko": "바람일으키기"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "TechLearnableMove",
@@ -1022,22 +1054,22 @@
           "accuracy": 0
         },
         {
-          "symbol": "air_slash",
-          "id": 403,
+          "symbol": "air_cutter",
+          "id": 314,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Air Slash",
-            "fr": "Lame d’Air",
-            "it": "Eterelama",
-            "de": "Luftschnitt",
-            "es": "Tajo Aéreo",
-            "ko": "에어슬래시"
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
           },
           "category": "special",
           "type": "flying",
-          "pp": 15,
-          "power": 75,
+          "pp": 25,
+          "power": 60,
           "accuracy": 95
         },
         {
@@ -1136,6 +1168,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "shadow_ball",
+          "id": 247,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "twister",
           "id": 239,
           "klass": "TechLearnableMove",
@@ -1171,6 +1222,25 @@
           "type": "dragon",
           "pp": 20,
           "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_pulse",
+          "id": 406,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dragon Pulse",
+            "fr": "Draco-Choc",
+            "it": "Dragopulsar",
+            "de": "Drachenpuls",
+            "es": "Pulso Dragón",
+            "ko": "용의파동"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 10,
+          "power": 85,
           "accuracy": 100
         },
         {
@@ -1231,22 +1301,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "crunch",
-          "id": 242,
+          "symbol": "knock_off",
+          "id": 282,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
           },
           "category": "physical",
           "type": "dark",
-          "pp": 15,
-          "power": 80,
+          "pp": 20,
+          "power": 65,
           "accuracy": 100
         },
         {
@@ -1307,6 +1377,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "dragon_dance",
+          "id": 349,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dragon Dance",
+            "fr": "Danse Draco",
+            "it": "Dragodanza",
+            "de": "Drachentanz",
+            "es": "Danza Dragón",
+            "ko": "용의춤"
+          },
+          "category": "status",
+          "type": "dragon",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "agility",
           "id": 97,
           "klass": "TechLearnableMove",
@@ -1322,6 +1411,25 @@
           "category": "status",
           "type": "psychic",
           "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "toxic_spikes",
+          "id": 390,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic Spikes",
+            "fr": "Pics Toxik",
+            "it": "Fielepunte",
+            "de": "Giftspitzen",
+            "es": "Púas Tóxicas",
+            "ko": "독압정"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
           "power": 0,
           "accuracy": 0
         },
@@ -1440,6 +1548,25 @@
           "accuracy": 85
         },
         {
+          "symbol": "roost",
+          "id": 355,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Roost",
+            "fr": "Atterrissage",
+            "it": "Trespolo",
+            "de": "Ruheort",
+            "es": "Respiro",
+            "ko": "날개쉬기"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "rest",
           "id": 156,
           "klass": "TechLearnableMove",
@@ -1514,6 +1641,158 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }

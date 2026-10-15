@@ -89,77 +89,77 @@
         {
           "klass": "LevelLearnableMove",
           "move": "withdraw",
-          "level": 2
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "powder_snow",
-          "level": 4
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 7
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 10
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rapid_spin",
-          "level": 13
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 16
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "avalanche",
-          "level": 19
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "body_slam",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "whirlpool",
-          "level": 28
+          "move": "protect",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "iron_defense",
+          "move": "body_slam",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_beam",
-          "level": 36
+          "move": "whirlpool",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "yawn",
+          "move": "iron_defense",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "surf",
+          "move": "ice_beam",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "yawn",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "surf",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "wide_guard",
-          "level": 50
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -300,6 +300,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "tailwind"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "echoed_voice"
         }
       ],
       "names": {
@@ -404,7 +412,7 @@
           "symbol": "withdraw",
           "id": 110,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 3,
           "names": {
             "en": "Withdraw",
             "fr": "Repli",
@@ -423,7 +431,7 @@
           "symbol": "powder_snow",
           "id": 181,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
             "en": "Powder Snow",
             "fr": "Poudreuse",
@@ -442,7 +450,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 9,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -461,7 +469,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 14,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -480,7 +488,7 @@
           "symbol": "rapid_spin",
           "id": 229,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 17,
           "names": {
             "en": "Rapid Spin",
             "fr": "Tour Rapide",
@@ -499,7 +507,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 21,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -518,7 +526,7 @@
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 25,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -537,7 +545,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 27,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -556,7 +564,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 32,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -575,7 +583,7 @@
           "symbol": "whirlpool",
           "id": 250,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 35,
           "names": {
             "en": "Whirlpool",
             "fr": "Siphon",
@@ -594,7 +602,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 40,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -613,7 +621,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 45,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -632,7 +640,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -651,7 +659,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 52,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -670,7 +678,7 @@
           "symbol": "wide_guard",
           "id": 469,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 54,
           "names": {
             "en": "Wide Guard",
             "fr": "Garde Large",
@@ -1216,6 +1224,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tailwind",
+          "id": 366,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Tailwind",
+            "fr": "Vent Arrière",
+            "it": "Ventoincoda",
+            "de": "Rückenwind",
+            "es": "Viento Afín",
+            "ko": "순풍"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "echoed_voice",
+          "id": 497,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Echoed Voice",
+            "fr": "Écho",
+            "it": "Echeggiavoce",
+            "de": "Widerhall",
+            "es": "Eco Voz",
+            "ko": "에코보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
         }
       ]
     }

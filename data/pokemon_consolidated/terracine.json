@@ -109,7 +109,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "confusion",
           "level": 1
         },
         {
@@ -119,78 +119,78 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 3
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 5
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 10
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 15
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ingrain",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 25
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 30
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stomping_tantrum",
-          "level": 35
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "extrasensory",
-          "level": 40
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 45
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wood_hammer",
-          "level": 50
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 55
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "grassy_terrain",
-          "level": 60
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 65
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
@@ -410,22 +410,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "confusion",
+          "id": 93,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
           },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
           "accuracy": 100
         },
         {
@@ -448,29 +448,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "confusion",
-          "id": 93,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 6,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -489,7 +489,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 9,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -508,7 +508,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 12,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -527,7 +527,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 16,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -546,7 +546,7 @@
           "symbol": "ingrain",
           "id": 275,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Ingrain",
             "fr": "Racines",
@@ -565,7 +565,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 26,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -584,7 +584,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 31,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -603,7 +603,7 @@
           "symbol": "stomping_tantrum",
           "id": 707,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 36,
           "names": {
             "en": "Stomping Tantrum",
             "fr": "Trépignement",
@@ -622,7 +622,7 @@
           "symbol": "extrasensory",
           "id": 326,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 41,
           "names": {
             "en": "Extrasensory",
             "fr": "Extrasenseur",
@@ -641,7 +641,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 46,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -660,7 +660,7 @@
           "symbol": "wood_hammer",
           "id": 452,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 51,
           "names": {
             "en": "Wood Hammer",
             "fr": "Martobois",
@@ -679,7 +679,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 56,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -698,7 +698,7 @@
           "symbol": "grassy_terrain",
           "id": 580,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 61,
           "names": {
             "en": "Grassy Terrain",
             "fr": "Champ Herbu",
@@ -717,7 +717,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 66,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",

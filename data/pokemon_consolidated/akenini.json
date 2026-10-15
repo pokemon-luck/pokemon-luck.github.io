@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "growth",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growth",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -114,62 +114,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 20
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 23
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 27
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "seed_bomb",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 38
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sleep_powder",
-          "level": 42
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 46
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 50
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sunny_day",
-          "level": 53
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 56
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -310,6 +310,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "petal_dance"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "aura_sphere"
         }
       ],
       "names": {
@@ -392,25 +400,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
@@ -428,6 +417,25 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "leafage",
@@ -509,7 +517,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -528,7 +536,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 22,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -547,7 +555,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 23,
+          "level": 26,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -566,7 +574,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 29,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -585,7 +593,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 34,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -604,7 +612,7 @@
           "symbol": "seed_bomb",
           "id": 402,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 39,
           "names": {
             "en": "Seed Bomb",
             "fr": "Canon Graine",
@@ -623,7 +631,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 44,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -642,7 +650,7 @@
           "symbol": "sleep_powder",
           "id": 79,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 49,
           "names": {
             "en": "Sleep Powder",
             "fr": "Poudre Dodo",
@@ -661,7 +669,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 54,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -680,7 +688,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 59,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -699,7 +707,7 @@
           "symbol": "sunny_day",
           "id": 241,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 64,
           "names": {
             "en": "Sunny Day",
             "fr": "Zénith",
@@ -718,7 +726,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 70,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -1187,6 +1195,44 @@
           "type": "normal",
           "pp": 20,
           "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "petal_dance",
+          "id": 80,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Petal Dance",
+            "fr": "Danse Fleurs",
+            "it": "Petalodanza",
+            "de": "Blättertanz",
+            "es": "Danza Pétalo",
+            "ko": "꽃잎댄스"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
           "accuracy": 0
         }
       ]

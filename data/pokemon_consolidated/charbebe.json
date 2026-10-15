@@ -102,22 +102,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "smokescreen",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smog",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "incinerate",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -126,58 +126,58 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flame_wheel",
-          "level": 24
+          "move": "rock_tomb",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_tomb",
-          "level": 24
+          "move": "flame_wheel",
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heat_wave",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "autotomize",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "autotomize",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 36
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "lava_plume",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "lava_plume",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "heavy_slam",
-          "level": 48
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 52
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 56
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "explosion",
-          "level": 60
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -322,6 +322,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "gyro_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "skull_bash"
         }
       ],
       "names": {
@@ -445,7 +453,7 @@
           "symbol": "smokescreen",
           "id": 108,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Smokescreen",
             "fr": "Brouillard",
@@ -464,7 +472,7 @@
           "symbol": "smog",
           "id": 123,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Smog",
             "fr": "Purédpois",
@@ -483,7 +491,7 @@
           "symbol": "incinerate",
           "id": 510,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Incinerate",
             "fr": "Calcination",
@@ -502,7 +510,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -537,29 +545,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "flame_wheel",
-          "id": 172,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Flame Wheel",
-            "fr": "Roue de Feu",
-            "it": "Ruotafuoco",
-            "de": "Flammenrad",
-            "es": "Rueda Fuego",
-            "ko": "화염자동차"
-          },
-          "category": "physical",
-          "type": "fire",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 23,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -575,10 +564,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "flame_wheel",
+          "id": 172,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Flame Wheel",
+            "fr": "Roue de Feu",
+            "it": "Ruotafuoco",
+            "de": "Flammenrad",
+            "es": "Rueda Fuego",
+            "ko": "화염자동차"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "heat_wave",
           "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 32,
           "names": {
             "en": "Heat Wave",
             "fr": "Canicule",
@@ -597,7 +605,7 @@
           "symbol": "autotomize",
           "id": 475,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 34,
           "names": {
             "en": "Autotomize",
             "fr": "Allègement",
@@ -616,7 +624,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 39,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -635,7 +643,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 44,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -654,7 +662,7 @@
           "symbol": "lava_plume",
           "id": 436,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 49,
           "names": {
             "en": "Lava Plume",
             "fr": "Ébullilave",
@@ -673,7 +681,7 @@
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 54,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -692,7 +700,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 59,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -711,7 +719,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 65,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",
@@ -730,7 +738,7 @@
           "symbol": "explosion",
           "id": 153,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 70,
           "names": {
             "en": "Explosion",
             "fr": "Explosion",
@@ -1257,6 +1265,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "gyro_ball",
+          "id": 360,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Gyro Ball",
+            "fr": "Gyroballe",
+            "it": "Vortexpalla",
+            "de": "Gyroball",
+            "es": "Giro Bola",
+            "ko": "자이로볼"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "skull_bash",
+          "id": 130,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Skull Bash",
+            "fr": "Coud’Krâne",
+            "it": "Capocciata",
+            "de": "Schädelwumme",
+            "es": "Cabezazo",
+            "ko": "로케트박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 130,
+          "accuracy": 100
         }
       ]
     }

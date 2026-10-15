@@ -94,47 +94,52 @@
         {
           "klass": "LevelLearnableMove",
           "move": "ember",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fury_swipes",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_spin",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 16
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "taunt",
-          "level": 24
+          "move": "shadow_claw",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_punch",
-          "level": 28
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "knock_off",
+          "move": "taunt",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
-          "level": 36
+          "move": "ominous_wind",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -143,13 +148,18 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "knock_off",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "flare_blitz",
-          "level": 44
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 48
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -398,6 +408,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "switcheroo"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "wish"
         }
       ],
       "names": {
@@ -521,7 +539,7 @@
           "symbol": "ember",
           "id": 52,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Ember",
             "fr": "Flammèche",
@@ -540,7 +558,7 @@
           "symbol": "fury_swipes",
           "id": 154,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Fury Swipes",
             "fr": "Combo-Griffe",
@@ -559,7 +577,7 @@
           "symbol": "fire_spin",
           "id": 83,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Fire Spin",
             "fr": "Danse Flammes",
@@ -578,7 +596,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 13,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -597,7 +615,7 @@
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -613,29 +631,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "taunt",
-          "id": 269,
+          "symbol": "snarl",
+          "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 20,
           "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
           },
-          "category": "status",
+          "category": "special",
           "type": "dark",
-          "pp": 20,
-          "power": 0,
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         },
         {
           "symbol": "fire_punch",
           "id": 7,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 30,
           "names": {
             "en": "Fire Punch",
             "fr": "Poing Feu",
@@ -651,41 +688,41 @@
           "accuracy": 100
         },
         {
-          "symbol": "knock_off",
-          "id": 282,
+          "symbol": "taunt",
+          "id": 269,
           "klass": "LevelLearnableMove",
           "level": 32,
           "names": {
-            "en": "Knock Off",
-            "fr": "Sabotage",
-            "it": "Privazione",
-            "de": "Abschlag",
-            "es": "Desarme",
-            "ko": "탁쳐서떨구기"
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
           },
-          "category": "physical",
+          "category": "status",
           "type": "dark",
           "pp": 20,
-          "power": 65,
+          "power": 0,
           "accuracy": 100
         },
         {
-          "symbol": "shadow_claw",
-          "id": 421,
+          "symbol": "ominous_wind",
+          "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
+            "en": "Ominous Wind",
+            "fr": "Vent Mauvais",
+            "it": "Funestovento",
+            "de": "Unheilböen",
+            "es": "Viento Aciago",
+            "ko": "괴상한바람"
           },
-          "category": "physical",
+          "category": "special",
           "type": "ghost",
-          "pp": 15,
-          "power": 70,
+          "pp": 5,
+          "power": 60,
           "accuracy": 100
         },
         {
@@ -708,10 +745,29 @@
           "accuracy": 85
         },
         {
+          "symbol": "knock_off",
+          "id": 282,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Knock Off",
+            "fr": "Sabotage",
+            "it": "Privazione",
+            "de": "Abschlag",
+            "es": "Desarme",
+            "ko": "탁쳐서떨구기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "flare_blitz",
           "id": 394,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 49,
           "names": {
             "en": "Flare Blitz",
             "fr": "Boutefeu",
@@ -730,7 +786,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 54,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -1297,25 +1353,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "ominous_wind",
-          "id": 466,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ominous Wind",
-            "fr": "Vent Mauvais",
-            "it": "Funestovento",
-            "de": "Unheilböen",
-            "es": "Viento Aciago",
-            "ko": "괴상한바람"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "hex",
           "id": 506,
           "klass": "TechLearnableMove",
@@ -1390,25 +1427,6 @@
           "pp": 10,
           "power": 50,
           "accuracy": 100
-        },
-        {
-          "symbol": "snarl",
-          "id": 555,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
-          },
-          "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "thief",
@@ -1783,6 +1801,44 @@
             "de": "Schutzschild",
             "es": "Protección",
             "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "switcheroo",
+          "id": 415,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Switcheroo",
+            "fr": "Passe-Passe",
+            "it": "Rapidscambio",
+            "de": "Wechseldich",
+            "es": "Trapicheo",
+            "ko": "바꿔치기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "wish",
+          "id": 273,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Wish",
+            "fr": "Vœu",
+            "it": "Desiderio",
+            "de": "Wunschtraum",
+            "es": "Deseo",
+            "ko": "희망사항"
           },
           "category": "status",
           "type": "normal",

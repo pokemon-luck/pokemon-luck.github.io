@@ -88,58 +88,93 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growl",
-          "level": 3
+          "move": "fairy_wind",
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
+          "move": "growl",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "confusion",
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "fake_tears",
-          "level": 9
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hypnosis",
+          "move": "metal_claw",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hex",
-          "level": 20
+          "move": "confuse_ray",
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 24
+          "move": "bite",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psyshock",
-          "level": 32
+          "move": "psybeam",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "charm",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hypnosis",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "draining_kiss",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "will_o_wisp",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psyshock",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 40
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -276,6 +311,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "ancient_power"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "safeguard"
         }
       ],
       "names": {
@@ -377,10 +420,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "fairy_wind",
+          "id": 584,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 6,
           "names": {
             "en": "Growl",
             "fr": "Rugissement",
@@ -399,7 +461,7 @@
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 10,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -418,7 +480,7 @@
           "symbol": "fake_tears",
           "id": 313,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 13,
           "names": {
             "en": "Fake Tears",
             "fr": "Croco Larme",
@@ -434,10 +496,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "metal_claw",
+          "id": 232,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Metal Claw",
+            "fr": "Griffe Acier",
+            "it": "Ferrartigli",
+            "de": "Metallklaue",
+            "es": "Garra Metal",
+            "ko": "메탈크로우"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 35,
+          "power": 50,
+          "accuracy": 95
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bite",
+          "id": 44,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 25,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -453,105 +572,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "hypnosis",
-          "id": 95,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Hypnosis",
-            "fr": "Hypnose",
-            "it": "Ipnosi",
-            "de": "Hypnose",
-            "es": "Hipnosis",
-            "ko": "최면술"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 60
-        },
-        {
-          "symbol": "hex",
-          "id": 506,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Hex",
-            "fr": "Châtiment",
-            "it": "Sciagura",
-            "de": "Bürde",
-            "es": "Infortunio",
-            "ko": "병상첨병"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "draining_kiss",
-          "id": 577,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psyshock",
-          "id": 473,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Psyshock",
-            "fr": "Choc Psy",
-            "it": "Psicoshock",
-            "de": "Psychoschock",
-            "es": "Psicocarga",
-            "ko": "사이코쇼크"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Charm",
             "fr": "Charme",
@@ -567,10 +591,162 @@
           "accuracy": 100
         },
         {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
+        },
+        {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "nasty_plot",
+          "id": 417,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Nasty Plot",
+            "fr": "Machination",
+            "it": "Congiura",
+            "de": "Ränkeschmied",
+            "es": "Maquinación",
+            "ko": "나쁜음모"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "psyshock",
+          "id": 473,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Psyshock",
+            "fr": "Choc Psy",
+            "it": "Psicoshock",
+            "de": "Psychoschock",
+            "es": "Psicocarga",
+            "ko": "사이코쇼크"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 69,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -681,25 +857,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "fairy_wind",
-          "id": 584,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Fairy Wind",
-            "fr": "Vent Féérique",
-            "it": "Vento di Fata",
-            "de": "Feenbrise",
-            "es": "Viento Feérico",
-            "ko": "요정의바람"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "TechLearnableMove",
@@ -736,25 +893,6 @@
           "pp": 15,
           "power": 95,
           "accuracy": 100
-        },
-        {
-          "symbol": "nasty_plot",
-          "id": 417,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Nasty Plot",
-            "fr": "Machination",
-            "it": "Congiura",
-            "de": "Ränkeschmied",
-            "es": "Maquinación",
-            "ko": "나쁜음모"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "haze",
@@ -909,44 +1047,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "will_o_wisp",
-          "id": 261,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Will-O-Wisp",
-            "fr": "Feu Follet",
-            "it": "Fuocofatuo",
-            "de": "Irrlicht",
-            "es": "Fuego Fatuo",
-            "ko": "도깨비불"
-          },
-          "category": "status",
-          "type": "fire",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 85
-        },
-        {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "TechLearnableMove",
@@ -1076,6 +1176,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "safeguard",
+          "id": 219,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Safeguard",
+            "fr": "Rune Protect",
+            "it": "Salvaguardia",
+            "de": "Bodyguard",
+            "es": "Velo Sagrado",
+            "ko": "신비의부적"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 25,
           "power": 0,
           "accuracy": 0
         }

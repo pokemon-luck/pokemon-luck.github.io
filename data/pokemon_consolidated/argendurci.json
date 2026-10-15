@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -104,57 +104,57 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sandstorm",
-          "level": 12
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulldoze",
-          "level": 24
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 28
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "heavy_slam",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "heavy_slam",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 40
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 44
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_press",
-          "level": 48
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gyro_ball",
-          "level": 52
+          "level": 62
         },
         {
           "klass": "TechLearnableMove",
@@ -437,25 +437,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -473,6 +454,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "rock_throw",
@@ -516,7 +516,7 @@
           "symbol": "sandstorm",
           "id": 201,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 14,
           "names": {
             "en": "Sandstorm",
             "fr": "Tempête de Sable",
@@ -535,7 +535,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -554,7 +554,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -573,7 +573,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -592,7 +592,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -611,7 +611,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 36,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -630,7 +630,7 @@
           "symbol": "heavy_slam",
           "id": 484,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 41,
           "names": {
             "en": "Heavy Slam",
             "fr": "Tacle Lourd",
@@ -649,7 +649,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -668,7 +668,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 52,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -687,7 +687,7 @@
           "symbol": "body_press",
           "id": 720,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 57,
           "names": {
             "en": "Body Press",
             "fr": "Big Splash",
@@ -706,7 +706,7 @@
           "symbol": "gyro_ball",
           "id": 360,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 62,
           "names": {
             "en": "Gyro Ball",
             "fr": "Gyroballe",

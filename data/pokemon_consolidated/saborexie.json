@@ -83,72 +83,102 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_spray",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mega_drain",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_sneak",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 13
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 17
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ominous_wind",
-          "level": 21
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "giga_drain",
-          "level": 25
+          "move": "thief",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 29
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
-          "level": 33
+          "move": "leech_life",
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "pain_split",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hyper_voice",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "phantom_force",
+          "move": "giga_drain",
           "level": 49
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pain_split",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 53
+          "level": 76
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_blast",
-          "level": 57
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -444,7 +474,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -463,7 +493,7 @@
           "symbol": "acid_spray",
           "id": 491,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 6,
           "names": {
             "en": "Acid Spray",
             "fr": "Bombe Acide",
@@ -479,10 +509,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_sneak",
+          "id": 425,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Shadow Sneak",
+            "fr": "Ombre Portée",
+            "it": "Furtivombra",
+            "de": "Schattenstoß",
+            "es": "Sombra Vil",
+            "ko": "야습"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "screech",
+          "id": 103,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 19,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -498,10 +585,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 27,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -520,7 +626,7 @@
           "symbol": "ominous_wind",
           "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 31,
           "names": {
             "en": "Ominous Wind",
             "fr": "Vent Mauvais",
@@ -536,29 +642,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "giga_drain",
-          "id": 202,
+          "symbol": "thief",
+          "id": 168,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 34,
           "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
+            "en": "Thief",
+            "fr": "Larcin",
+            "it": "Furto",
+            "de": "Raub",
+            "es": "Ladrón",
+            "ko": "도둑질"
           },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
+          "category": "physical",
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
           "accuracy": 100
         },
         {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 39,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -574,10 +680,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 54,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -596,7 +740,7 @@
           "symbol": "pain_split",
           "id": 220,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 56,
           "names": {
             "en": "Pain Split",
             "fr": "Balance",
@@ -612,29 +756,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "hyper_voice",
-          "id": 304,
-          "klass": "LevelLearnableMove",
-          "level": 41,
-          "names": {
-            "en": "Hyper Voice",
-            "fr": "Mégaphone",
-            "it": "Granvoce",
-            "de": "Schallwelle",
-            "es": "Vozarrón",
-            "ko": "하이퍼보이스"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 61,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -650,10 +775,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 66,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 71,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -672,7 +816,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 76,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -691,7 +835,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 82,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -802,25 +946,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "mega_drain",
-          "id": 72,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mega Drain",
-            "fr": "Méga-Sangsue",
-            "it": "Megassorbimento",
-            "de": "Megasauger",
-            "es": "Megaagotar",
-            "ko": "메가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "wild_charge",
           "id": 528,
           "klass": "TechLearnableMove",
@@ -874,25 +999,6 @@
           "category": "physical",
           "type": "fighting",
           "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
           "power": 65,
           "accuracy": 100
         },
@@ -1011,25 +1117,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "leech_life",
-          "id": 141,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Leech Life",
-            "fr": "Vampirisme",
-            "it": "Sanguisuga",
-            "de": "Blutsauger",
-            "es": "Chupavidas",
-            "ko": "흡혈"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "rock_slide",
           "id": 157,
           "klass": "TechLearnableMove",
@@ -1066,25 +1153,6 @@
           "pp": 5,
           "power": 100,
           "accuracy": 80
-        },
-        {
-          "symbol": "shadow_sneak",
-          "id": 425,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shadow Sneak",
-            "fr": "Ombre Portée",
-            "it": "Furtivombra",
-            "de": "Schattenstoß",
-            "es": "Sombra Vil",
-            "ko": "야습"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
         },
         {
           "symbol": "iron_head",

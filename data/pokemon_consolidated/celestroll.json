@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "sparkle_powder",
+          "move": "counterbalance",
           "level": 1
         },
         {
@@ -82,103 +82,103 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "counterbalance",
+          "move": "sparkle_powder",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_jab",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 9
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 13
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulldoze",
-          "level": 17
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "atonement",
-          "level": 21
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 25
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cure_fang",
-          "level": 29
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rest",
-          "level": 33
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protective_cascade",
-          "level": 37
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 41
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 45
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 49
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "lucky_chant",
-          "level": 53
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hammer_arm",
-          "level": 57
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 61
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_world",
-          "level": 65
+          "level": 67
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 69
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "comet_slam",
-          "level": 73
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "starry_bolt",
-          "level": 75
+          "level": 83
         },
         {
           "klass": "TechLearnableMove",
@@ -537,23 +537,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "sparkle_powder",
-          "id": 773,
+          "symbol": "counterbalance",
+          "id": 790,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Sparkle Powder",
-            "fr": "Poudre Paillettes",
-            "it": "Dynaflora",
-            "de": "Dyna-Flora",
-            "es": "Maxiflora",
-            "ko": "다이그래스"
+            "en": "Counterbalance",
+            "fr": "Compensation",
+            "it": "Vapore Incantato",
+            "de": "Wunderdampf",
+            "es": "Cautivapor",
+            "ko": "원더스팀"
           },
-          "category": "special",
+          "category": "status",
           "type": "celestial",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
+          "pp": 25,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "rock_throw",
@@ -575,29 +575,29 @@
           "accuracy": 90
         },
         {
-          "symbol": "counterbalance",
-          "id": 790,
+          "symbol": "sparkle_powder",
+          "id": 773,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Counterbalance",
-            "fr": "Compensation",
-            "it": "Vapore Incantato",
-            "de": "Wunderdampf",
-            "es": "Cautivapor",
-            "ko": "원더스팀"
+            "en": "Sparkle Powder",
+            "fr": "Poudre Paillettes",
+            "it": "Dynaflora",
+            "de": "Dyna-Flora",
+            "es": "Maxiflora",
+            "ko": "다이그래스"
           },
-          "category": "status",
+          "category": "special",
           "type": "celestial",
-          "pp": 25,
-          "power": 0,
-          "accuracy": 0
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "light_jab",
           "id": 764,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Light Jab",
             "fr": "Lumino-tacle",
@@ -616,7 +616,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -635,7 +635,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 11,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -654,7 +654,7 @@
           "symbol": "bulldoze",
           "id": 523,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 14,
           "names": {
             "en": "Bulldoze",
             "fr": "Piétisol",
@@ -673,7 +673,7 @@
           "symbol": "atonement",
           "id": 779,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 17,
           "names": {
             "en": "Atonement",
             "fr": "Expiation",
@@ -692,7 +692,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 20,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -711,7 +711,7 @@
           "symbol": "cure_fang",
           "id": 771,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 24,
           "names": {
             "en": "Cure Fang",
             "fr": "Guéridents",
@@ -730,7 +730,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 29,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -749,7 +749,7 @@
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 33,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -768,7 +768,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 38,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -787,7 +787,7 @@
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 42,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -806,7 +806,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 47,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -825,7 +825,7 @@
           "symbol": "lucky_chant",
           "id": 381,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 52,
           "names": {
             "en": "Lucky Chant",
             "fr": "Air Veinard",
@@ -844,7 +844,7 @@
           "symbol": "hammer_arm",
           "id": 359,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 58,
           "names": {
             "en": "Hammer Arm",
             "fr": "Marto-Poing",
@@ -863,7 +863,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 61,
+          "level": 62,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -882,7 +882,7 @@
           "symbol": "mirror_world",
           "id": 787,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 67,
           "names": {
             "en": "Mirror World",
             "fr": "Monde Mirroir",
@@ -901,7 +901,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 69,
+          "level": 72,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -920,7 +920,7 @@
           "symbol": "comet_slam",
           "id": 770,
           "klass": "LevelLearnableMove",
-          "level": 73,
+          "level": 77,
           "names": {
             "en": "Comet Slam",
             "fr": "Chute Comète",
@@ -939,7 +939,7 @@
           "symbol": "starry_bolt",
           "id": 781,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 83,
           "names": {
             "en": "Starry Bolt",
             "fr": "Flèche Étoile",

@@ -72,73 +72,113 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "confusion",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "life_dew",
+          "move": "confusion",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sing",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "twin_charm",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hypnosis",
-          "level": 12
+          "move": "echoed_voice",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 16
+          "move": "psybeam",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "heal_pulse",
+          "move": "sweet_scent",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "life_dew",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 26
+          "move": "draining_kiss",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 30
+          "move": "hypnosis",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "light_screen",
+          "move": "charm",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stored_power",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "reflect",
-          "level": 38
+          "move": "swift",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wish",
+          "move": "heal_pulse",
           "level": 42
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "body_slam",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 46
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aromatherapy",
-          "level": 50
+          "level": 67
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect",
+          "level": 72
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wish",
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "healing_wish",
-          "level": 56
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -357,25 +397,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "confusion",
-          "id": 93,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Confusion",
-            "fr": "Choc Mental",
-            "it": "Confusione",
-            "de": "Konfusion",
-            "es": "Confusión",
-            "ko": "염동력"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 25,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -395,10 +416,124 @@
           "accuracy": 100
         },
         {
+          "symbol": "confusion",
+          "id": 93,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Confusion",
+            "fr": "Choc Mental",
+            "it": "Confusione",
+            "de": "Konfusion",
+            "es": "Confusión",
+            "ko": "염동력"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 25,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sing",
+          "id": 47,
+          "klass": "LevelLearnableMove",
+          "level": 3,
+          "names": {
+            "en": "Sing",
+            "fr": "Berceuse",
+            "it": "Canto",
+            "de": "Gesang",
+            "es": "Canto",
+            "ko": "노래하기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 55
+        },
+        {
+          "symbol": "twin_charm",
+          "id": 792,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Twin Charm",
+            "fr": "Double Charme",
+            "it": "Twin Charm",
+            "de": "Twin Charm",
+            "es": "Twin Charm",
+            "ko": "Twin Charm"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 20,
+          "power": 25,
+          "accuracy": 95
+        },
+        {
+          "symbol": "echoed_voice",
+          "id": 497,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Echoed Voice",
+            "fr": "Écho",
+            "it": "Echeggiavoce",
+            "de": "Widerhall",
+            "es": "Eco Voz",
+            "ko": "에코보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sweet_scent",
+          "id": 230,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Sweet Scent",
+            "fr": "Doux Parfum",
+            "it": "Profumino",
+            "de": "Lockduft",
+            "es": "Dulce Aroma",
+            "ko": "달콤한향기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "life_dew",
           "id": 722,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 20,
           "names": {
             "en": "Life Dew",
             "fr": "Fontaine de Vie",
@@ -414,29 +549,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "hypnosis",
-          "id": 95,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Hypnosis",
-            "fr": "Hypnose",
-            "it": "Ipnosi",
-            "de": "Hypnose",
-            "es": "Hipnosis",
-            "ko": "최면술"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 60
-        },
-        {
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 23,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -452,10 +568,86 @@
           "accuracy": 100
         },
         {
+          "symbol": "hypnosis",
+          "id": 95,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Hypnosis",
+            "fr": "Hypnose",
+            "it": "Ipnosi",
+            "de": "Hypnose",
+            "es": "Hipnosis",
+            "ko": "최면술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 60
+        },
+        {
+          "symbol": "charm",
+          "id": 204,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Charm",
+            "fr": "Charme",
+            "it": "Fascino",
+            "de": "Charme",
+            "es": "Encanto",
+            "ko": "애교부리기"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stored_power",
+          "id": 500,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Stored Power",
+            "fr": "Force Ajoutée",
+            "it": "Veicolaforza",
+            "de": "Kraftvorrat",
+            "es": "Poder Reserva",
+            "ko": "어시스트파워"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
           "symbol": "heal_pulse",
           "id": 505,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 42,
           "names": {
             "en": "Heal Pulse",
             "fr": "Vibra Soin",
@@ -471,21 +663,59 @@
           "accuracy": 0
         },
         {
-          "symbol": "calm_mind",
-          "id": 347,
+          "symbol": "body_slam",
+          "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 47,
           "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
+            "en": "Body Slam",
+            "fr": "Plaquage",
+            "it": "Corposcontro",
+            "de": "Bodyslam",
+            "es": "Golpe Cuerpo",
+            "ko": "누르기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 15,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "moonlight",
+          "id": 236,
+          "klass": "LevelLearnableMove",
+          "level": 57,
+          "names": {
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "fairy",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         },
@@ -493,7 +723,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 62,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -509,21 +739,21 @@
           "accuracy": 100
         },
         {
-          "symbol": "light_screen",
-          "id": 113,
+          "symbol": "aromatherapy",
+          "id": 312,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 67,
           "names": {
-            "en": "Light Screen",
-            "fr": "Mur Lumière",
-            "it": "Schermoluce",
-            "de": "Lichtschild",
-            "es": "Pantalla de Luz",
-            "ko": "빛의장막"
+            "en": "Aromatherapy",
+            "fr": "Aromathérapie",
+            "it": "Aromaterapia",
+            "de": "Aromakur",
+            "es": "Aromaterapia",
+            "ko": "아로마테라피"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 30,
+          "type": "grass",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         },
@@ -531,7 +761,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 72,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -550,7 +780,7 @@
           "symbol": "wish",
           "id": 273,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 77,
           "names": {
             "en": "Wish",
             "fr": "Vœu",
@@ -566,48 +796,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "moonlight",
-          "id": 236,
-          "klass": "LevelLearnableMove",
-          "level": 46,
-          "names": {
-            "en": "Moonlight",
-            "fr": "Rayon Lune",
-            "it": "Lucelunare",
-            "de": "Mondschein",
-            "es": "Luz Lunar",
-            "ko": "달의불빛"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "aromatherapy",
-          "id": 312,
-          "klass": "LevelLearnableMove",
-          "level": 50,
-          "names": {
-            "en": "Aromatherapy",
-            "fr": "Aromathérapie",
-            "it": "Aromaterapia",
-            "de": "Aromakur",
-            "es": "Aromaterapia",
-            "ko": "아로마테라피"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "healing_wish",
           "id": 361,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 82,
           "names": {
             "en": "Healing Wish",
             "fr": "Vœu Soin",
@@ -620,25 +812,6 @@
           "type": "psychic",
           "pp": 10,
           "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "swift",
-          "id": 129,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 20,
-          "power": 60,
           "accuracy": 0
         },
         {
@@ -677,25 +850,6 @@
           "type": "grass",
           "pp": 10,
           "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "psybeam",
-          "id": 60,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
           "accuracy": 100
         },
         {
@@ -851,6 +1005,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "haze",
           "id": 114,
           "klass": "TechLearnableMove",
@@ -923,6 +1096,25 @@
           "category": "status",
           "type": "ice",
           "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "light_screen",
+          "id": 113,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Light Screen",
+            "fr": "Mur Lumière",
+            "it": "Schermoluce",
+            "de": "Lichtschild",
+            "es": "Pantalla de Luz",
+            "ko": "빛의장막"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 30,
           "power": 0,
           "accuracy": 0
         },
@@ -1020,25 +1212,6 @@
           "pp": 10,
           "power": 0,
           "accuracy": 90
-        },
-        {
-          "symbol": "charm",
-          "id": 204,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Charm",
-            "fr": "Charme",
-            "it": "Fascino",
-            "de": "Charme",
-            "es": "Encanto",
-            "ko": "애교부리기"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
         },
         {
           "symbol": "rest",

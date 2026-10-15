@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "poison_gas",
           "level": 1
         },
         {
@@ -82,7 +82,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_gas",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -98,7 +98,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
@@ -108,67 +108,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bounce",
-          "level": 25
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 30
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acrobatics",
-          "level": 35
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 40
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 45
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "drill_run",
-          "level": 50
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 55
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_slash",
-          "level": 60
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 65
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 70
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 75
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 80
+          "level": 79
         },
         {
           "klass": "TechLearnableMove",
@@ -415,23 +415,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
+          "symbol": "poison_gas",
+          "id": 139,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
+            "en": "Poison Gas",
+            "fr": "Gaz Toxik",
+            "it": "Velenogas",
+            "de": "Giftwolke",
+            "es": "Gas Venenoso",
+            "ko": "독가스"
           },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
+          "category": "status",
+          "type": "poison",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 90
         },
         {
           "symbol": "peck",
@@ -453,23 +453,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "poison_gas",
-          "id": 139,
+          "symbol": "tackle",
+          "id": 33,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Poison Gas",
-            "fr": "Gaz Toxik",
-            "it": "Velenogas",
-            "de": "Giftwolke",
-            "es": "Gas Venenoso",
-            "ko": "독가스"
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
           },
-          "category": "status",
-          "type": "poison",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 90
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "quick_attack",
@@ -513,7 +513,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -551,7 +551,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -570,7 +570,7 @@
           "symbol": "bounce",
           "id": 340,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 23,
           "names": {
             "en": "Bounce",
             "fr": "Rebond",
@@ -589,7 +589,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 28,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -608,7 +608,7 @@
           "symbol": "acrobatics",
           "id": 512,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 32,
           "names": {
             "en": "Acrobatics",
             "fr": "Acrobatie",
@@ -627,7 +627,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 37,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -646,7 +646,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 42,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -665,7 +665,7 @@
           "symbol": "drill_run",
           "id": 529,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 47,
           "names": {
             "en": "Drill Run",
             "fr": "Tunnelier",
@@ -684,7 +684,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 52,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -703,7 +703,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 57,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -722,7 +722,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 62,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -741,7 +741,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 68,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -760,7 +760,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 73,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -779,7 +779,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 79,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",

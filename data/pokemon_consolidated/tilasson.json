@@ -89,92 +89,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 5
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "haze",
           "level": 7
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "haze",
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 13
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 16
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ominous_wind",
-          "level": 19
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 22
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 25
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 28
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 31
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "waterfall",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rain_dance",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "scald",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "waterfall",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rain_dance",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "scald",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 44
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 48
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 52
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 56
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -315,6 +315,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "rearise"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "signal_beam"
         }
       ],
       "names": {
@@ -419,7 +427,7 @@
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -438,7 +446,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 7,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -457,7 +465,7 @@
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 9,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -476,7 +484,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -495,7 +503,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 15,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -514,7 +522,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 20,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -533,7 +541,7 @@
           "symbol": "ominous_wind",
           "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 24,
           "names": {
             "en": "Ominous Wind",
             "fr": "Vent Mauvais",
@@ -552,7 +560,7 @@
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 29,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -571,7 +579,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 32,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -590,7 +598,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 36,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -609,7 +617,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 40,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -628,7 +636,7 @@
           "symbol": "waterfall",
           "id": 127,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 45,
           "names": {
             "en": "Waterfall",
             "fr": "Cascade",
@@ -647,7 +655,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 50,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -666,7 +674,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 54,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -685,7 +693,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 58,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -704,7 +712,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 62,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -723,7 +731,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 66,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -742,7 +750,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 70,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -1212,6 +1220,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "rearise",
+          "id": 757,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rearise",
+            "fr": "Réviviscence",
+            "it": "Dynafiammata",
+            "de": "Dyna-Brand",
+            "es": "Maxignición",
+            "ko": "다이번"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 1,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Signal Beam",
+            "fr": "Rayon Signal",
+            "it": "Segnoraggio",
+            "de": "Ampelleuchte",
+            "es": "Doble Rayo",
+            "ko": "시그널빔"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
         }
       ]
     }

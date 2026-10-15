@@ -83,58 +83,58 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 6
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wing_attack",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "water_pulse",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aerial_ace",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feather_dance",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
@@ -144,17 +144,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 44
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 48
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 52
+          "level": 57
         },
         {
           "klass": "TechLearnableMove",
@@ -323,6 +323,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "drill_peck"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "aqua_tail"
         }
       ],
       "names": {
@@ -405,25 +413,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -443,10 +432,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 4,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -465,7 +473,7 @@
           "symbol": "wing_attack",
           "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Wing Attack",
             "fr": "Cru-Ailes",
@@ -484,7 +492,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -503,7 +511,7 @@
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Aerial Ace",
             "fr": "Aéropique",
@@ -522,7 +530,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -541,7 +549,7 @@
           "symbol": "feather_dance",
           "id": 297,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Feather Dance",
             "fr": "Danse Plumes",
@@ -560,7 +568,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -579,7 +587,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -598,7 +606,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -636,7 +644,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 46,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -655,7 +663,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 52,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -674,7 +682,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -1315,6 +1323,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "drill_peck",
+          "id": 65,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Drill Peck",
+            "fr": "Bec Vrille",
+            "it": "Perforbecco",
+            "de": "Bohrschnabel",
+            "es": "Pico Taladro",
+            "ko": "회전부리"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aqua_tail",
+          "id": 401,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aqua Tail",
+            "fr": "Hydro-Queue",
+            "it": "Idrondata",
+            "de": "Nassschweif",
+            "es": "Acua Cola",
+            "ko": "아쿠아테일"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
         }
       ]
     }

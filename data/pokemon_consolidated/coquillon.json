@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "peck",
+          "move": "tail_whip",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "tail_whip",
+          "move": "peck",
           "level": 1
         },
         {
@@ -98,27 +98,27 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fake_tears",
+          "move": "powder_snow",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "quick_attack",
+          "move": "fake_tears",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charm",
+          "move": "quick_attack",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "swift",
+          "move": "gust",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "wing_attack",
+          "move": "charm",
           "level": 18
         },
         {
@@ -128,23 +128,58 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "double_team",
-          "level": 24
+          "move": "swift",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "encore",
-          "level": 27
+          "move": "aerial_ace",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_team",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 30
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "encore",
+          "level": 36
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 40
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "avalanche",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wing_attack",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "haze",
-          "level": 33
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_slash",
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -301,6 +336,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "encore"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "power_gem"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "mirror_coat"
         }
       ],
       "names": {
@@ -383,25 +426,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "peck",
-          "id": 64,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Peck",
-            "fr": "Picpic",
-            "it": "Beccata",
-            "de": "Pikser",
-            "es": "Picotazo",
-            "ko": "쪼기"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 35,
-          "accuracy": 100
-        },
-        {
           "symbol": "tail_whip",
           "id": 39,
           "klass": "LevelLearnableMove",
@@ -418,6 +442,25 @@
           "type": "normal",
           "pp": 30,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "peck",
+          "id": 64,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Peck",
+            "fr": "Picpic",
+            "it": "Beccata",
+            "de": "Pikser",
+            "es": "Picotazo",
+            "ko": "쪼기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 35,
           "accuracy": 100
         },
         {
@@ -440,10 +483,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "powder_snow",
+          "id": 181,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "fake_tears",
           "id": 313,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 9,
           "names": {
             "en": "Fake Tears",
             "fr": "Croco Larme",
@@ -462,7 +524,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 12,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -478,10 +540,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "gust",
+          "id": 16,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Gust",
+            "fr": "Tornade",
+            "it": "Raffica",
+            "de": "Windstoß",
+            "es": "Tornado",
+            "ko": "바람일으키기"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "charm",
           "id": 204,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 18,
           "names": {
             "en": "Charm",
             "fr": "Charme",
@@ -494,44 +575,6 @@
           "type": "fairy",
           "pp": 20,
           "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "swift",
-          "id": 129,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
-          "symbol": "wing_attack",
-          "id": 17,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Wing Attack",
-            "fr": "Cru-Ailes",
-            "it": "Attacco d’Ala",
-            "de": "Flügelschlag",
-            "es": "Ataque Ala",
-            "ko": "날개치기"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 60,
           "accuracy": 100
         },
         {
@@ -554,10 +597,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "aerial_ace",
+          "id": 332,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Aerial Ace",
+            "fr": "Aéropique",
+            "it": "Aeroassalto",
+            "de": "Aero-Ass",
+            "es": "Golpe Aéreo",
+            "ko": "제비반환"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
           "symbol": "double_team",
           "id": 104,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 31,
           "names": {
             "en": "Double Team",
             "fr": "Reflet",
@@ -573,29 +654,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "encore",
-          "id": 227,
-          "klass": "LevelLearnableMove",
-          "level": 27,
-          "names": {
-            "en": "Encore",
-            "fr": "Encore",
-            "it": "Ripeti",
-            "de": "Zugabe",
-            "es": "Otra Vez",
-            "ko": "앵콜"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 34,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -611,10 +673,86 @@
           "accuracy": 95
         },
         {
+          "symbol": "encore",
+          "id": 227,
+          "klass": "LevelLearnableMove",
+          "level": 36,
+          "names": {
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "avalanche",
+          "id": 419,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Avalanche",
+            "fr": "Avalanche",
+            "it": "Slavina",
+            "de": "Lawine",
+            "es": "Alud",
+            "ko": "눈사태"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "wing_attack",
+          "id": 17,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Wing Attack",
+            "fr": "Cru-Ailes",
+            "it": "Attacco d’Ala",
+            "de": "Flügelschlag",
+            "es": "Ataque Ala",
+            "ko": "날개치기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 49,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -628,6 +766,44 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "iron_defense",
+          "id": 334,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Iron Defense",
+            "fr": "Mur de Fer",
+            "it": "Ferroscudo",
+            "de": "Eisenabwehr",
+            "es": "Defensa Férrea",
+            "ko": "철벽"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "air_slash",
+          "id": 403,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Air Slash",
+            "fr": "Lame d’Air",
+            "it": "Eterelama",
+            "de": "Luftschnitt",
+            "es": "Tajo Aéreo",
+            "ko": "에어슬래시"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
         },
         {
           "symbol": "body_slam",
@@ -668,44 +844,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "powder_snow",
-          "id": 181,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "avalanche",
-          "id": 419,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Avalanche",
-            "fr": "Avalanche",
-            "it": "Slavina",
-            "de": "Lawine",
-            "es": "Alud",
-            "ko": "눈사태"
-          },
-          "category": "physical",
-          "type": "ice",
-          "pp": 10,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "ice_beam",
           "id": 58,
           "klass": "TechLearnableMove",
@@ -742,82 +880,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 70
-        },
-        {
-          "symbol": "gust",
-          "id": 16,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Gust",
-            "fr": "Tornade",
-            "it": "Raffica",
-            "de": "Windstoß",
-            "es": "Tornado",
-            "ko": "바람일으키기"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "aerial_ace",
-          "id": 332,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Aerial Ace",
-            "fr": "Aéropique",
-            "it": "Aeroassalto",
-            "de": "Aero-Ass",
-            "es": "Golpe Aéreo",
-            "ko": "제비반환"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
-          "symbol": "air_cutter",
-          "id": 314,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
-        },
-        {
-          "symbol": "air_slash",
-          "id": 403,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Air Slash",
-            "fr": "Lame d’Air",
-            "it": "Eterelama",
-            "de": "Luftschnitt",
-            "es": "Tajo Aéreo",
-            "ko": "에어슬래시"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 15,
-          "power": 75,
-          "accuracy": 95
         },
         {
           "symbol": "hurricane",
@@ -1086,25 +1148,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "iron_defense",
-          "id": 334,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Defense",
-            "fr": "Mur de Fer",
-            "it": "Ferroscudo",
-            "de": "Eisenabwehr",
-            "es": "Defensa Férrea",
-            "ko": "철벽"
-          },
-          "category": "status",
-          "type": "steel",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "defog",
           "id": 432,
           "klass": "TechLearnableMove",
@@ -1214,6 +1257,44 @@
           },
           "category": "status",
           "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_gem",
+          "id": 408,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mirror_coat",
+          "id": 243,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mirror Coat",
+            "fr": "Voile Miroir",
+            "it": "Specchiovelo",
+            "de": "Spiegelcape",
+            "es": "Manto Espejo",
+            "ko": "미러코트"
+          },
+          "category": "special",
+          "type": "psychic",
           "pp": 20,
           "power": 0,
           "accuracy": 100

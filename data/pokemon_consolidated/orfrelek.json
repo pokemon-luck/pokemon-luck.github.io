@@ -83,77 +83,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 5
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 10
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 14
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "charge",
-          "level": 18
+          "move": "shock_wave",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "charge",
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "tailwind",
           "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "volt_switch",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "tailwind",
+          "move": "iron_head",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 33
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roost",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 40
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_move",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hurricane",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wild_charge",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heat_wave",
-          "level": 56
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hurricane",
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder",
-          "level": 60
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "brave_bird",
+          "level": 77
         },
         {
           "klass": "TechLearnableMove",
@@ -453,7 +463,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -469,29 +479,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "shock_wave",
-          "id": 351,
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "names": {
-            "en": "Shock Wave",
-            "fr": "Onde de Choc",
-            "it": "Ondashock",
-            "de": "Schockwelle",
-            "es": "Onda Voltio",
-            "ko": "전격파"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 7,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -507,29 +498,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "charge",
-          "id": 268,
+          "symbol": "shock_wave",
+          "id": 351,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 11,
           "names": {
-            "en": "Charge",
-            "fr": "Chargeur",
-            "it": "Sottocarica",
-            "de": "Ladevorgang",
-            "es": "Carga",
-            "ko": "충전"
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
           },
-          "category": "status",
+          "category": "special",
           "type": "electric",
           "pp": 20,
-          "power": 0,
+          "power": 60,
           "accuracy": 0
         },
         {
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 15,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -545,29 +536,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "volt_switch",
-          "id": 521,
+          "symbol": "charge",
+          "id": 268,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 17,
           "names": {
-            "en": "Volt Switch",
-            "fr": "Change Éclair",
-            "it": "Invertivolt",
-            "de": "Voltwechsel",
-            "es": "Voltiocambio",
-            "ko": "볼트체인지"
+            "en": "Charge",
+            "fr": "Chargeur",
+            "it": "Sottocarica",
+            "de": "Ladevorgang",
+            "es": "Carga",
+            "ko": "충전"
           },
-          "category": "special",
+          "category": "status",
           "type": "electric",
           "pp": 20,
-          "power": 70,
-          "accuracy": 100
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 22,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -583,10 +574,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "volt_switch",
+          "id": 521,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Volt Switch",
+            "fr": "Change Éclair",
+            "it": "Invertivolt",
+            "de": "Voltwechsel",
+            "es": "Voltiocambio",
+            "ko": "볼트체인지"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "iron_head",
+          "id": 442,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Iron Head",
+            "fr": "Tête de Fer",
+            "it": "Metaltestata",
+            "de": "Eisenschädel",
+            "es": "Cabeza de Hierro",
+            "ko": "아이언헤드"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 37,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -605,7 +634,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 42,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -624,7 +653,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -643,7 +672,7 @@
           "symbol": "mirror_move",
           "id": 119,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 49,
           "names": {
             "en": "Mirror Move",
             "fr": "Mimique",
@@ -659,29 +688,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "hurricane",
-          "id": 542,
-          "klass": "LevelLearnableMove",
-          "level": 48,
-          "names": {
-            "en": "Hurricane",
-            "fr": "Vent Violent",
-            "it": "Tifone",
-            "de": "Orkan",
-            "es": "Vendaval",
-            "ko": "폭풍"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 10,
-          "power": 110,
-          "accuracy": 70
-        },
-        {
           "symbol": "wild_charge",
           "id": 528,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Wild Charge",
             "fr": "Éclair Fou",
@@ -700,7 +710,7 @@
           "symbol": "heat_wave",
           "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Heat Wave",
             "fr": "Canicule",
@@ -716,10 +726,29 @@
           "accuracy": 90
         },
         {
+          "symbol": "hurricane",
+          "id": 542,
+          "klass": "LevelLearnableMove",
+          "level": 65,
+          "names": {
+            "en": "Hurricane",
+            "fr": "Vent Violent",
+            "it": "Tifone",
+            "de": "Orkan",
+            "es": "Vendaval",
+            "ko": "폭풍"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
           "symbol": "thunder",
           "id": 87,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 71,
           "names": {
             "en": "Thunder",
             "fr": "Fatal-Foudre",
@@ -733,6 +762,25 @@
           "pp": 10,
           "power": 110,
           "accuracy": 70
+        },
+        {
+          "symbol": "brave_bird",
+          "id": 413,
+          "klass": "LevelLearnableMove",
+          "level": 77,
+          "names": {
+            "en": "Brave Bird",
+            "fr": "Rapace",
+            "it": "Baldeali",
+            "de": "Sturzflug",
+            "es": "Pájaro Osado",
+            "ko": "브레이브버드"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
         },
         {
           "symbol": "quick_attack",
@@ -1151,25 +1199,6 @@
           "pp": 35,
           "power": 50,
           "accuracy": 95
-        },
-        {
-          "symbol": "iron_head",
-          "id": 442,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Head",
-            "fr": "Tête de Fer",
-            "it": "Metaltestata",
-            "de": "Eisenschädel",
-            "es": "Cabeza de Hierro",
-            "ko": "아이언헤드"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
         },
         {
           "symbol": "calm_mind",

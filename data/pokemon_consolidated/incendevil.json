@@ -93,92 +93,97 @@
         {
           "klass": "LevelLearnableMove",
           "move": "growl",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_fang",
-          "level": 9
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "headbutt",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "double_kick",
-          "level": 17
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "work_up",
-          "level": 21
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cinder_hoof",
-          "level": 22
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vacuum_wave",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
-          "level": 25
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sucker_punch",
-          "level": 29
+          "move": "taunt",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_punch",
-          "level": 29
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stomp",
-          "level": 33
+          "move": "sucker_punch",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flamethrower",
-          "level": 35
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "zen_headbutt",
+          "move": "swords_dance",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "take_down",
-          "level": 45
+          "move": "zen_headbutt",
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "flare_blitz",
-          "level": 47
+          "move": "take_down",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heat_wave",
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "high_horsepower",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "crunch",
-          "level": 53
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "double_edge",
           "level": 61
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "flare_blitz",
+          "level": 67
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 73
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "crunch",
+          "level": 78
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "giga_impact",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -548,7 +553,7 @@
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Growl",
             "fr": "Rugissement",
@@ -567,7 +572,7 @@
           "symbol": "fire_fang",
           "id": 424,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Fire Fang",
             "fr": "Crocs Feu",
@@ -583,48 +588,10 @@
           "accuracy": 95
         },
         {
-          "symbol": "headbutt",
-          "id": 29,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Headbutt",
-            "fr": "Coup d’Boule",
-            "it": "Bottintesta",
-            "de": "Kopfnuss",
-            "es": "Golpe Cabeza",
-            "ko": "박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "double_kick",
-          "id": 24,
-          "klass": "LevelLearnableMove",
-          "level": 17,
-          "names": {
-            "en": "Double Kick",
-            "fr": "Double Pied",
-            "it": "Doppiocalcio",
-            "de": "Doppelkick",
-            "es": "Doble Patada",
-            "ko": "두번치기"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 30,
-          "power": 30,
-          "accuracy": 100
-        },
-        {
           "symbol": "work_up",
           "id": 526,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 9,
           "names": {
             "en": "Work Up",
             "fr": "Rengorgement",
@@ -643,7 +610,7 @@
           "symbol": "cinder_hoof",
           "id": 799,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 12,
           "names": {
             "en": "Cinder Hoof",
             "fr": "Braisabot",
@@ -659,10 +626,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "vacuum_wave",
+          "id": 410,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Vacuum Wave",
+            "fr": "Onde Vide",
+            "it": "Vuotonda",
+            "de": "Vakuumwelle",
+            "es": "Onda Vacío",
+            "ko": "진공파"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 19,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -678,29 +664,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "sucker_punch",
-          "id": 389,
+          "symbol": "taunt",
+          "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 21,
           "names": {
-            "en": "Sucker Punch",
-            "fr": "Coup Bas",
-            "it": "Sbigoattacco",
-            "de": "Tiefschlag",
-            "es": "Golpe Bajo",
-            "ko": "기습"
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
           },
-          "category": "physical",
+          "category": "status",
           "type": "dark",
-          "pp": 5,
-          "power": 70,
+          "pp": 20,
+          "power": 0,
           "accuracy": 100
         },
         {
           "symbol": "fire_punch",
           "id": 7,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 26,
           "names": {
             "en": "Fire Punch",
             "fr": "Poing Feu",
@@ -716,29 +702,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "stomp",
-          "id": 23,
+          "symbol": "sucker_punch",
+          "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 31,
           "names": {
-            "en": "Stomp",
-            "fr": "Écrasement",
-            "it": "Pestone",
-            "de": "Stampfer",
-            "es": "Pisotón",
-            "ko": "짓밟기"
+            "en": "Sucker Punch",
+            "fr": "Coup Bas",
+            "it": "Sbigoattacco",
+            "de": "Tiefschlag",
+            "es": "Golpe Bajo",
+            "ko": "기습"
           },
           "category": "physical",
-          "type": "normal",
-          "pp": 20,
-          "power": 65,
+          "type": "dark",
+          "pp": 5,
+          "power": 70,
           "accuracy": 100
         },
         {
           "symbol": "flamethrower",
           "id": 53,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 36,
           "names": {
             "en": "Flamethrower",
             "fr": "Lance-Flammes",
@@ -754,10 +740,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "swords_dance",
+          "id": 14,
+          "klass": "LevelLearnableMove",
+          "level": 41,
+          "names": {
+            "en": "Swords Dance",
+            "fr": "Danse Lames",
+            "it": "Danzaspada",
+            "de": "Schwerttanz",
+            "es": "Danza Espada",
+            "ko": "칼춤"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 46,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -776,7 +781,7 @@
           "symbol": "take_down",
           "id": 36,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 51,
           "names": {
             "en": "Take Down",
             "fr": "Bélier",
@@ -792,29 +797,29 @@
           "accuracy": 85
         },
         {
-          "symbol": "flare_blitz",
-          "id": 394,
+          "symbol": "heat_wave",
+          "id": 257,
           "klass": "LevelLearnableMove",
-          "level": 47,
+          "level": 56,
           "names": {
-            "en": "Flare Blitz",
-            "fr": "Boutefeu",
-            "it": "Fuococarica",
-            "de": "Flammenblitz",
-            "es": "Envite Ígneo",
-            "ko": "플레어드라이브"
+            "en": "Heat Wave",
+            "fr": "Canicule",
+            "it": "Ondacalda",
+            "de": "Hitzewelle",
+            "es": "Onda Ígnea",
+            "ko": "열풍"
           },
-          "category": "physical",
+          "category": "special",
           "type": "fire",
-          "pp": 15,
-          "power": 120,
-          "accuracy": 100
+          "pp": 10,
+          "power": 95,
+          "accuracy": 90
         },
         {
           "symbol": "high_horsepower",
           "id": 667,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 61,
           "names": {
             "en": "High Horsepower",
             "fr": "Cavalerie Lourde",
@@ -830,29 +835,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "crunch",
-          "id": 242,
+          "symbol": "flare_blitz",
+          "id": 394,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 67,
           "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
+            "en": "Flare Blitz",
+            "fr": "Boutefeu",
+            "it": "Fuococarica",
+            "de": "Flammenblitz",
+            "es": "Envite Ígneo",
+            "ko": "플레어드라이브"
           },
           "category": "physical",
-          "type": "dark",
+          "type": "fire",
           "pp": 15,
-          "power": 80,
+          "power": 120,
           "accuracy": 100
         },
         {
           "symbol": "double_edge",
           "id": 38,
           "klass": "LevelLearnableMove",
-          "level": 61,
+          "level": 73,
           "names": {
             "en": "Double-Edge",
             "fr": "Damoclès",
@@ -868,10 +873,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 78,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "giga_impact",
           "id": 416,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 84,
           "names": {
             "en": "Giga Impact",
             "fr": "Giga Impact",
@@ -944,25 +968,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "heat_wave",
-          "id": 257,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Heat Wave",
-            "fr": "Canicule",
-            "it": "Ondacalda",
-            "de": "Hitzewelle",
-            "es": "Onda Ígnea",
-            "ko": "열풍"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 10,
-          "power": 95,
-          "accuracy": 90
-        },
-        {
           "symbol": "overheat",
           "id": 315,
           "klass": "TechLearnableMove",
@@ -1020,6 +1025,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "double_kick",
+          "id": 24,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Double Kick",
+            "fr": "Double Pied",
+            "it": "Doppiocalcio",
+            "de": "Doppelkick",
+            "es": "Doble Patada",
+            "ko": "두번치기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 30,
+          "power": 30,
+          "accuracy": 100
+        },
+        {
           "symbol": "rock_smash",
           "id": 249,
           "klass": "TechLearnableMove",
@@ -1035,25 +1059,6 @@
           "category": "physical",
           "type": "fighting",
           "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "vacuum_wave",
-          "id": 410,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Vacuum Wave",
-            "fr": "Onde Vide",
-            "it": "Vuotonda",
-            "de": "Vakuumwelle",
-            "es": "Onda Vacío",
-            "ko": "진공파"
-          },
-          "category": "special",
-          "type": "fighting",
-          "pp": 30,
           "power": 40,
           "accuracy": 100
         },
@@ -1438,25 +1443,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "swords_dance",
-          "id": 14,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Swords Dance",
-            "fr": "Danse Lames",
-            "it": "Danzaspada",
-            "de": "Schwerttanz",
-            "es": "Danza Espada",
-            "ko": "칼춤"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "bulk_up",
           "id": 339,
           "klass": "TechLearnableMove",
@@ -1645,25 +1631,6 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
-        },
-        {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
         },
         {
           "symbol": "encore",

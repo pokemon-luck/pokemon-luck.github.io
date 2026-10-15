@@ -83,23 +83,23 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_claw",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_breath",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -109,7 +109,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
@@ -119,47 +119,47 @@
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_tail",
-          "level": 24
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_shot",
-          "level": 28
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dragon_claw",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dragon_claw",
+          "level": 41
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 40
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 45
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_tail",
-          "level": 50
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_pulse",
-          "level": 55
+          "level": 62
         },
         {
           "klass": "TechLearnableMove",
@@ -384,6 +384,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "amnesia"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "spiky_shield"
         }
       ],
       "names": {
@@ -466,25 +474,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -504,10 +493,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "metal_claw",
           "id": 232,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Metal Claw",
             "fr": "Griffe Acier",
@@ -526,7 +534,7 @@
           "symbol": "dragon_breath",
           "id": 225,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Dragon Breath",
             "fr": "Draco-Souffle",
@@ -564,7 +572,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -602,7 +610,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -621,7 +629,7 @@
           "symbol": "dragon_tail",
           "id": 525,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 27,
           "names": {
             "en": "Dragon Tail",
             "fr": "Draco-Queue",
@@ -640,7 +648,7 @@
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 31,
           "names": {
             "en": "Mirror Shot",
             "fr": "Miroi-Tir",
@@ -659,7 +667,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 36,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -678,7 +686,7 @@
           "symbol": "dragon_claw",
           "id": 337,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 41,
           "names": {
             "en": "Dragon Claw",
             "fr": "Draco-Griffe",
@@ -697,7 +705,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 46,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -716,7 +724,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 51,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -735,7 +743,7 @@
           "symbol": "iron_tail",
           "id": 231,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 57,
           "names": {
             "en": "Iron Tail",
             "fr": "Queue de Fer",
@@ -754,7 +762,7 @@
           "symbol": "dragon_pulse",
           "id": 406,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 62,
           "names": {
             "en": "Dragon Pulse",
             "fr": "Draco-Choc",
@@ -1583,6 +1591,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "spiky_shield",
+          "id": 596,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spiky Shield",
+            "fr": "Pico-Défense",
+            "it": "Agodifesa",
+            "de": "Schutzstacheln",
+            "es": "Barrera Espinosa",
+            "ko": "니들가드"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

@@ -88,12 +88,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 5
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sand_attack",
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 10
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
@@ -102,58 +107,78 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "vine_whip",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_tomb",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 24
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "magical_leaf",
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 20
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 30
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "surf",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "amnesia",
           "level": 38
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "surf",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "amnesia",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 42
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 47
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 52
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 57
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 62
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 67
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -468,7 +493,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -484,10 +509,29 @@
           "accuracy": 90
         },
         {
+          "symbol": "sand_attack",
+          "id": 28,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Sand Attack",
+            "fr": "Jet de Sable",
+            "it": "Turbosabbia",
+            "de": "Sandwirbel",
+            "es": "Ataque Arena",
+            "ko": "모래뿌리기"
+          },
+          "category": "status",
+          "type": "ground",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 12,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -522,10 +566,86 @@
           "accuracy": 100
         },
         {
+          "symbol": "vine_whip",
+          "id": 22,
+          "klass": "LevelLearnableMove",
+          "level": 18,
+          "names": {
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 45,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_tomb",
+          "id": 317,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Rock Tomb",
+            "fr": "Tomberoche",
+            "it": "Rocciotomba",
+            "de": "Felsgrab",
+            "es": "Tumba Rocas",
+            "ko": "암석봉인"
+          },
+          "category": "physical",
+          "type": "rock",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "magical_leaf",
+          "id": 345,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 33,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -544,7 +664,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 38,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -563,7 +683,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 43,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -582,7 +702,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 48,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -601,7 +721,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 53,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -620,7 +740,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 58,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -639,7 +759,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 47,
+          "level": 63,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -658,7 +778,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 68,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -677,7 +797,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 73,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -696,7 +816,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 79,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -715,7 +835,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 67,
+          "level": 84,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -786,25 +906,6 @@
           "pp": 25,
           "power": 55,
           "accuracy": 95
-        },
-        {
-          "symbol": "magical_leaf",
-          "id": 345,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Magical Leaf",
-            "fr": "Feuille Magik",
-            "it": "Fogliamagica",
-            "de": "Zauberblatt",
-            "es": "Hoja Mágica",
-            "ko": "메지컬리프"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "seed_bomb",
@@ -995,25 +1096,6 @@
           "pp": 10,
           "power": 100,
           "accuracy": 100
-        },
-        {
-          "symbol": "rock_tomb",
-          "id": 317,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rock Tomb",
-            "fr": "Tomberoche",
-            "it": "Rocciotomba",
-            "de": "Felsgrab",
-            "es": "Tumba Rocas",
-            "ko": "암석봉인"
-          },
-          "category": "physical",
-          "type": "rock",
-          "pp": 15,
-          "power": 60,
-          "accuracy": 95
         },
         {
           "symbol": "ancient_power",

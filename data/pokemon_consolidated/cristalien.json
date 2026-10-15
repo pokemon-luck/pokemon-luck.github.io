@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
+          "move": "defense_curl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "defense_curl",
+          "move": "pound",
           "level": 1
         },
         {
@@ -93,22 +93,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "reflect",
-          "level": 12
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rollout",
-          "level": 24
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,42 +118,42 @@
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 32
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 36
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psychic",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "psychic",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 52
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stealth_rock",
-          "level": 56
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "future_sight",
-          "level": 60
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -302,6 +302,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "recover"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "freeze_dry"
         }
       ],
       "names": {
@@ -384,25 +392,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
@@ -420,6 +409,25 @@
           "pp": 40,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "confusion",
@@ -463,7 +471,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 14,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -482,7 +490,7 @@
           "symbol": "rock_polish",
           "id": 397,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Rock Polish",
             "fr": "Poliroche",
@@ -501,7 +509,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -520,7 +528,7 @@
           "symbol": "rollout",
           "id": 205,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Rollout",
             "fr": "Roulade",
@@ -558,7 +566,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -577,7 +585,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 38,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -596,7 +604,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -615,7 +623,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 48,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -634,7 +642,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 53,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -653,7 +661,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 59,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -672,7 +680,7 @@
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 64,
           "names": {
             "en": "Stealth Rock",
             "fr": "Piège de Roc",
@@ -691,7 +699,7 @@
           "symbol": "future_sight",
           "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 70,
           "names": {
             "en": "Future Sight",
             "fr": "Prescience",
@@ -1199,6 +1207,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "recover",
+          "id": 105,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Recover",
+            "fr": "Soin",
+            "it": "Ripresa",
+            "de": "Genesung",
+            "es": "Recuperación",
+            "ko": "HP회복"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "freeze_dry",
+          "id": 573,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Freeze-Dry",
+            "fr": "Lyophilisation",
+            "it": "Liofilizzazione",
+            "de": "Gefriertrockner",
+            "es": "Liofilización",
+            "ko": "프리즈드라이"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 20,
+          "power": 70,
+          "accuracy": 100
         }
       ]
     }

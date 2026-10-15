@@ -97,73 +97,88 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pursuit",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_team",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 5
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "disable",
-          "level": 8
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "teleport",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "snarl",
+          "move": "ominous_wind",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "feint_attack",
+          "move": "thief",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "hex",
+          "move": "feint_attack",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "substitute",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hex",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "torment",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "will_o_wisp",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "foul_play",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "embargo",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 44
+          "move": "spirit_shackle",
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic_fangs",
-          "level": 48
+          "move": "shadow_ball",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_daze",
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 52
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 56
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -328,6 +343,42 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "poison_fang"
         }
       ],
       "names": {
@@ -448,10 +499,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "pursuit",
+          "id": 228,
+          "klass": "LevelLearnableMove",
+          "level": 4,
+          "names": {
+            "en": "Pursuit",
+            "fr": "Poursuite",
+            "it": "Inseguimento",
+            "de": "Verfolgung",
+            "es": "Persecución",
+            "ko": "따라가때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_team",
+          "id": 104,
+          "klass": "LevelLearnableMove",
+          "level": 6,
+          "names": {
+            "en": "Double Team",
+            "fr": "Reflet",
+            "it": "Doppioteam",
+            "de": "Doppelteam",
+            "es": "Doble Equipo",
+            "ko": "그림자분신"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 10,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -467,67 +556,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "disable",
-          "id": 50,
-          "klass": "LevelLearnableMove",
-          "level": 8,
-          "names": {
-            "en": "Disable",
-            "fr": "Entrave",
-            "it": "Inibitore",
-            "de": "Aussetzer",
-            "es": "Anulación",
-            "ko": "사슬묶기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "confuse_ray",
-          "id": 109,
+          "symbol": "teleport",
+          "id": 100,
           "klass": "LevelLearnableMove",
           "level": 12,
           "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
+            "en": "Teleport",
+            "fr": "Téléport",
+            "it": "Teletrasporto",
+            "de": "Teleport",
+            "es": "Teletransporte",
+            "ko": "순간이동"
           },
           "category": "status",
-          "type": "ghost",
-          "pp": 10,
+          "type": "psychic",
+          "pp": 20,
           "power": 0,
-          "accuracy": 100
+          "accuracy": 0
         },
         {
-          "symbol": "snarl",
-          "id": 555,
+          "symbol": "ominous_wind",
+          "id": 466,
           "klass": "LevelLearnableMove",
           "level": 16,
           "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
+            "en": "Ominous Wind",
+            "fr": "Vent Mauvais",
+            "it": "Funestovento",
+            "de": "Unheilböen",
+            "es": "Viento Aciago",
+            "ko": "괴상한바람"
           },
           "category": "special",
+          "type": "ghost",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "thief",
+          "id": 168,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Thief",
+            "fr": "Larcin",
+            "it": "Furto",
+            "de": "Raub",
+            "es": "Ladrón",
+            "ko": "도둑질"
+          },
+          "category": "physical",
           "type": "dark",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
+          "pp": 25,
+          "power": 60,
+          "accuracy": 100
         },
         {
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -543,10 +632,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "substitute",
+          "id": 164,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Substitute",
+            "fr": "Clonage",
+            "it": "Sostituto",
+            "de": "Delegator",
+            "es": "Sustituto",
+            "ko": "대타출동"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 33,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -562,10 +670,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "torment",
+          "id": 259,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Torment",
+            "fr": "Tourmente",
+            "it": "Attaccalite",
+            "de": "Folterknecht",
+            "es": "Tormento",
+            "ko": "트집"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 40,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -581,67 +708,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "will_o_wisp",
-          "id": 261,
+          "symbol": "spirit_shackle",
+          "id": 662,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 45,
           "names": {
-            "en": "Will-O-Wisp",
-            "fr": "Feu Follet",
-            "it": "Fuocofatuo",
-            "de": "Irrlicht",
-            "es": "Fuego Fatuo",
-            "ko": "도깨비불"
-          },
-          "category": "status",
-          "type": "fire",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 85
-        },
-        {
-          "symbol": "foul_play",
-          "id": 492,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Foul Play",
-            "fr": "Tricherie",
-            "it": "Ripicca",
-            "de": "Schmarotzer",
-            "es": "Juego Sucio",
-            "ko": "속임수"
+            "en": "Spirit Shackle",
+            "fr": "Tisse Ombre",
+            "it": "Cucitura d’Ombra",
+            "de": "Schattenfessel",
+            "es": "Puntada Sombría",
+            "ko": "그림자꿰매기"
           },
           "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "embargo",
-          "id": 373,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Embargo",
-            "fr": "Embargo",
-            "it": "Divieto",
-            "de": "Itemsperre",
-            "es": "Embargo",
-            "ko": "금제"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 15,
-          "power": 0,
+          "type": "ghost",
+          "pp": 10,
+          "power": 80,
           "accuracy": 100
         },
         {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 50,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -657,29 +746,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "psychic_fangs",
-          "id": 706,
+          "symbol": "night_daze",
+          "id": 539,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 55,
           "names": {
-            "en": "Psychic Fangs",
-            "fr": "Psycho-Croc",
-            "it": "Psicozanna",
-            "de": "Psychobeißer",
-            "es": "Psicocolmillo",
-            "ko": "사이코팽"
+            "en": "Night Daze",
+            "fr": "Explonuit",
+            "it": "Urtoscuro",
+            "de": "Nachtflut",
+            "es": "Pulso Noche",
+            "ko": "나이트버스트"
           },
-          "category": "physical",
-          "type": "psychic",
+          "category": "special",
+          "type": "dark",
           "pp": 10,
           "power": 85,
-          "accuracy": 100
+          "accuracy": 95
         },
         {
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 60,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -698,7 +787,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 65,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -712,6 +801,25 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
         },
         {
           "symbol": "quick_attack",
@@ -904,25 +1012,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "ominous_wind",
-          "id": 466,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ominous Wind",
-            "fr": "Vent Mauvais",
-            "it": "Funestovento",
-            "de": "Unheilböen",
-            "es": "Viento Aciago",
-            "ko": "괴상한바람"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "TechLearnableMove",
@@ -939,25 +1028,6 @@
           "type": "ghost",
           "pp": 15,
           "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "pursuit",
-          "id": 228,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Pursuit",
-            "fr": "Poursuite",
-            "it": "Inseguimento",
-            "de": "Verfolgung",
-            "es": "Persecución",
-            "ko": "따라가때리기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 40,
           "accuracy": 100
         },
         {
@@ -980,23 +1050,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "thief",
-          "id": 168,
+          "symbol": "snarl",
+          "id": 555,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Thief",
-            "fr": "Larcin",
-            "it": "Furto",
-            "de": "Raub",
-            "es": "Ladrón",
-            "ko": "도둑질"
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
           },
-          "category": "physical",
+          "category": "special",
           "type": "dark",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 100
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "knock_off",
@@ -1227,6 +1297,44 @@
           "accuracy": 90
         },
         {
+          "symbol": "will_o_wisp",
+          "id": 261,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Will-O-Wisp",
+            "fr": "Feu Follet",
+            "it": "Fuocofatuo",
+            "de": "Irrlicht",
+            "es": "Fuego Fatuo",
+            "ko": "도깨비불"
+          },
+          "category": "status",
+          "type": "fire",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 85
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "charm",
           "id": 204,
           "klass": "TechLearnableMove",
@@ -1358,6 +1466,177 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
         }
       ]
     }

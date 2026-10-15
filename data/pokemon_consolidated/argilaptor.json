@@ -93,28 +93,33 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fury_cutter",
-          "level": 16
+          "move": "ember",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 24
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "payback",
-          "level": 28
+          "move": "snarl",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 32
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "payback",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
@@ -123,28 +128,38 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "stealth_rock",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rock_slide",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_tail",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "rock_slide",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 52
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_tail",
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 56
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -333,6 +348,50 @@
         {
           "klass": "TechLearnableMove",
           "move": "agility"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "poison_fang"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "bone_pierce"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "dragon_rush"
         }
       ],
       "resources": {
@@ -525,29 +584,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "fury_cutter",
-          "id": 210,
+          "symbol": "ember",
+          "id": 52,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
-            "en": "Fury Cutter",
-            "fr": "Taillade",
-            "it": "Tagliofuria",
-            "de": "Zornklinge",
-            "es": "Corte Furia",
-            "ko": "연속자르기"
+            "en": "Ember",
+            "fr": "Flammèche",
+            "it": "Braciere",
+            "de": "Glut",
+            "es": "Ascuas",
+            "ko": "불꽃세례"
           },
-          "category": "physical",
-          "type": "bug",
-          "pp": 20,
+          "category": "special",
+          "type": "fire",
+          "pp": 25,
           "power": 40,
-          "accuracy": 95
+          "accuracy": 100
         },
         {
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -566,7 +625,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 21,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -582,29 +641,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "payback",
-          "id": 371,
+          "symbol": "snarl",
+          "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
-            "en": "Payback",
-            "fr": "Représailles",
-            "it": "Rivincita",
-            "de": "Gegenstoß",
-            "es": "Vendetta",
-            "ko": "보복"
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
           },
-          "category": "physical",
+          "category": "special",
           "type": "dark",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -617,6 +676,25 @@
           "type": "rock",
           "pp": 5,
           "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "payback",
+          "id": 371,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Payback",
+            "fr": "Représailles",
+            "it": "Rivincita",
+            "de": "Gegenstoß",
+            "es": "Vendetta",
+            "ko": "보복"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 10,
+          "power": 50,
           "accuracy": 100
         },
         {
@@ -639,10 +717,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "taunt",
+          "id": 269,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "stealth_rock",
+          "id": 446,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Stealth Rock",
+            "fr": "Piège de Roc",
+            "it": "Levitoroccia",
+            "de": "Tarnsteine",
+            "es": "Trampa Rocas",
+            "ko": "스텔스록"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 48,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -661,7 +777,7 @@
           "symbol": "rock_slide",
           "id": 157,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 53,
           "names": {
             "en": "Rock Slide",
             "fr": "Éboulement",
@@ -677,29 +793,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "iron_tail",
-          "id": 231,
-          "klass": "LevelLearnableMove",
-          "level": 48,
-          "names": {
-            "en": "Iron Tail",
-            "fr": "Queue de Fer",
-            "it": "Codacciaio",
-            "de": "Eisenschweif",
-            "es": "Cola Férrea",
-            "ko": "아이언테일"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 100,
-          "accuracy": 75
-        },
-        {
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -715,10 +812,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "iron_tail",
+          "id": 231,
+          "klass": "LevelLearnableMove",
+          "level": 63,
+          "names": {
+            "en": "Iron Tail",
+            "fr": "Queue de Fer",
+            "it": "Codacciaio",
+            "de": "Eisenschweif",
+            "es": "Cola Férrea",
+            "ko": "아이언테일"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 75
+        },
+        {
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 69,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -751,25 +867,6 @@
           "pp": 20,
           "power": 80,
           "accuracy": 100
-        },
-        {
-          "symbol": "stealth_rock",
-          "id": 446,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Stealth Rock",
-            "fr": "Piège de Roc",
-            "it": "Levitoroccia",
-            "de": "Tarnsteine",
-            "es": "Trampa Rocas",
-            "ko": "스텔스록"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "sandstorm",
@@ -810,25 +907,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "snarl",
-          "id": 555,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
-          },
-          "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
           "symbol": "thief",
           "id": 168,
           "klass": "TechLearnableMove",
@@ -867,25 +945,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "TechLearnableMove",
@@ -903,25 +962,6 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
-        },
-        {
-          "symbol": "ember",
-          "id": 52,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ember",
-            "fr": "Flammèche",
-            "it": "Braciere",
-            "de": "Glut",
-            "es": "Ascuas",
-            "ko": "불꽃세례"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
         },
         {
           "symbol": "fire_punch",
@@ -1304,6 +1344,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "fury_cutter",
+          "id": 210,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fury Cutter",
+            "fr": "Taillade",
+            "it": "Tagliofuria",
+            "de": "Zornklinge",
+            "es": "Corte Furia",
+            "ko": "연속자르기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 95
+        },
+        {
           "symbol": "x_scissor",
           "id": 404,
           "klass": "TechLearnableMove",
@@ -1397,6 +1456,215 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bone_pierce",
+          "id": 736,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Bone Pierce",
+            "fr": "Perce Os",
+            "it": "Auraswoosh",
+            "de": "Pulsieraura",
+            "es": "Espeaura",
+            "ko": "콸콸오라"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dragon_rush",
+          "id": 407,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dragon Rush",
+            "fr": "Draco-Charge",
+            "it": "Dragofuria",
+            "de": "Drachenstoß",
+            "es": "Carga Dragón",
+            "ko": "드래곤다이브"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 75
         }
       ]
     }

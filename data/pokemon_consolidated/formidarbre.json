@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "growth",
           "level": 1
         },
         {
@@ -82,28 +82,28 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growth",
+          "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 5
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 9
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disable",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,12 +118,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "ingrain",
-          "level": 24
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
@@ -133,62 +133,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 35
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 39
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 42
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "curse",
           "level": 46
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "seed_bomb",
-          "level": 50
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 54
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dark_pulse",
           "level": 58
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dark_pulse",
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "horn_leech",
-          "level": 62
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 66
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "strength_sap",
-          "level": 70
+          "level": 77
         },
         {
           "klass": "LevelLearnableMove",
           "move": "throat_chop",
-          "level": 75
+          "level": 81
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_whip",
-          "level": 80
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -365,6 +365,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -447,23 +479,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "leer",
-          "id": 43,
+          "symbol": "growth",
+          "id": 74,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Leer",
-            "fr": "Groz’Yeux",
-            "it": "Fulmisguardo",
-            "de": "Silberblick",
-            "es": "Malicioso",
-            "ko": "째려보기"
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
           },
           "category": "status",
           "type": "normal",
-          "pp": 30,
+          "pp": 20,
           "power": 0,
-          "accuracy": 100
+          "accuracy": 0
         },
         {
           "symbol": "astonish",
@@ -485,29 +517,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "growth",
-          "id": 74,
+          "symbol": "leer",
+          "id": 43,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Growth",
-            "fr": "Croissance",
-            "it": "Crescita",
-            "de": "Wachstum",
-            "es": "Desarrollo",
-            "ko": "성장"
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
           },
           "category": "status",
           "type": "normal",
-          "pp": 20,
+          "pp": 30,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 100
         },
         {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -526,7 +558,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 8,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -545,7 +577,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -564,7 +596,7 @@
           "symbol": "disable",
           "id": 50,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Disable",
             "fr": "Entrave",
@@ -621,7 +653,7 @@
           "symbol": "ingrain",
           "id": 275,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 25,
           "names": {
             "en": "Ingrain",
             "fr": "Racines",
@@ -640,7 +672,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -678,7 +710,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 36,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -697,7 +729,7 @@
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 41,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -716,7 +748,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 46,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -735,7 +767,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 51,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -754,7 +786,7 @@
           "symbol": "seed_bomb",
           "id": 402,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 56,
           "names": {
             "en": "Seed Bomb",
             "fr": "Canon Graine",
@@ -773,7 +805,7 @@
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 58,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -792,7 +824,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 63,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -811,7 +843,7 @@
           "symbol": "horn_leech",
           "id": 532,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 68,
           "names": {
             "en": "Horn Leech",
             "fr": "Encornebois",
@@ -830,7 +862,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 73,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -849,7 +881,7 @@
           "symbol": "strength_sap",
           "id": 668,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 77,
           "names": {
             "en": "Strength Sap",
             "fr": "Vole-Force",
@@ -868,7 +900,7 @@
           "symbol": "throat_chop",
           "id": 675,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 81,
           "names": {
             "en": "Throat Chop",
             "fr": "Exécu-Son",
@@ -887,7 +919,7 @@
           "symbol": "power_whip",
           "id": 438,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 85,
           "names": {
             "en": "Power Whip",
             "fr": "Mégafouet",
@@ -1604,6 +1636,158 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }

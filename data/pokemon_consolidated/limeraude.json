@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -103,62 +103,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_ring",
-          "level": 20
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 24
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_tail",
-          "level": 28
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 32
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "surf",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "iron_defense",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "iron_defense",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "scald",
-          "level": 44
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "earth_power",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "calm_mind",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earth_power",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 66
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 60
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 64
+          "level": 77
         },
         {
           "klass": "TechLearnableMove",
@@ -307,6 +307,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "luminous_prism"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "rock_polish"
         }
       ],
       "names": {
@@ -389,25 +397,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -425,6 +414,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "water_gun",
@@ -506,7 +514,7 @@
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 21,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -525,7 +533,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 25,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -544,7 +552,7 @@
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 30,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -563,7 +571,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 35,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -582,7 +590,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 40,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -601,7 +609,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -620,7 +628,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 50,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -639,7 +647,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 56,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -658,7 +666,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 61,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -677,7 +685,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 66,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -696,7 +704,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 72,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -715,7 +723,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 77,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -1220,6 +1228,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "luminous_prism",
+          "id": 780,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Luminous Prism",
+            "fr": "Prisme Lumière",
+            "it": "Palla Infuocata",
+            "de": "Feuerball",
+            "es": "Balón Ígneo",
+            "ko": "화염볼"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rock_polish",
+          "id": 397,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Rock Polish",
+            "fr": "Poliroche",
+            "it": "Lucidatura",
+            "de": "Steinpolitur",
+            "es": "Pulimento",
+            "ko": "록커트"
+          },
+          "category": "status",
+          "type": "rock",
           "pp": 20,
           "power": 0,
           "accuracy": 0

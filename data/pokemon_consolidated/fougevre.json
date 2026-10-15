@@ -83,48 +83,48 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 4
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "headbutt",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 24
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stun_spore",
-          "level": 28
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
@@ -134,7 +134,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -144,12 +144,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "cotton_guard",
-          "level": 44
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
@@ -159,7 +159,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "horn_leech",
-          "level": 56
+          "level": 57
         },
         {
           "klass": "TechLearnableMove",
@@ -360,6 +360,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "growth"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "heal_bell"
         }
       ],
       "names": {
@@ -442,25 +450,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -480,10 +469,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -502,7 +510,7 @@
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -521,7 +529,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -540,7 +548,7 @@
           "symbol": "headbutt",
           "id": 29,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Headbutt",
             "fr": "Coup d’Boule",
@@ -559,7 +567,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -578,7 +586,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 27,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -597,7 +605,7 @@
           "symbol": "stun_spore",
           "id": 78,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 29,
           "names": {
             "en": "Stun Spore",
             "fr": "Para-Spore",
@@ -635,7 +643,7 @@
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -673,7 +681,7 @@
           "symbol": "cotton_guard",
           "id": 538,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 42,
           "names": {
             "en": "Cotton Guard",
             "fr": "Cotogarde",
@@ -692,7 +700,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 47,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -730,7 +738,7 @@
           "symbol": "horn_leech",
           "id": 532,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 57,
           "names": {
             "en": "Horn Leech",
             "fr": "Encornebois",
@@ -1540,6 +1548,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "growth",
+          "id": 74,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "heal_bell",
+          "id": 215,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Heal Bell",
+            "fr": "Glas de Soin",
+            "it": "Rintoccasana",
+            "de": "Vitalglocke",
+            "es": "Campana Cura",
+            "ko": "치료방울"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
           "power": 0,
           "accuracy": 0
         }

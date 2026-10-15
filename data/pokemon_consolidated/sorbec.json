@@ -91,12 +91,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "powder_snow",
+          "move": "peck",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "peck",
+          "move": "powder_snow",
           "level": 1
         },
         {
@@ -107,92 +107,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 7
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 10
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sweet_kiss",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
-          "level": 19
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hail",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "play_rough",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "play_rough",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "aurora_beam",
-          "level": 28
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 30
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_coat",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "aqua_jet",
-          "level": 35
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "freeze_dry",
-          "level": 38
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hyper_voice",
           "level": 41
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
+          "move": "aqua_jet",
           "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icicle_crash",
+          "move": "freeze_dry",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 52
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 56
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icicle_crash",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "sweet_scent",
-          "level": 51
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 54
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sheer_cold",
-          "level": 60
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -373,6 +373,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "icicle_spear"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "misty_terrain"
         }
       ],
       "names": {
@@ -455,25 +463,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "powder_snow",
-          "id": 181,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "peck",
           "id": 64,
           "klass": "LevelLearnableMove",
@@ -490,6 +479,25 @@
           "type": "flying",
           "pp": 35,
           "power": 35,
+          "accuracy": 100
+        },
+        {
+          "symbol": "powder_snow",
+          "id": 181,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 25,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -515,7 +523,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 8,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -534,7 +542,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 12,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -553,7 +561,7 @@
           "symbol": "sweet_kiss",
           "id": 186,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Sweet Kiss",
             "fr": "Doux Baiser",
@@ -572,7 +580,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -591,7 +599,7 @@
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 21,
           "names": {
             "en": "Ice Shard",
             "fr": "Éclats Glace",
@@ -610,7 +618,7 @@
           "symbol": "hail",
           "id": 258,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 25,
           "names": {
             "en": "Hail",
             "fr": "Grêle",
@@ -629,7 +637,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -648,7 +656,7 @@
           "symbol": "aurora_beam",
           "id": 62,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Aurora Beam",
             "fr": "Onde Boréale",
@@ -667,7 +675,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 37,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -686,7 +694,7 @@
           "symbol": "mirror_coat",
           "id": 243,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 41,
           "names": {
             "en": "Mirror Coat",
             "fr": "Voile Miroir",
@@ -705,7 +713,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 44,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -724,7 +732,7 @@
           "symbol": "freeze_dry",
           "id": 573,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 48,
           "names": {
             "en": "Freeze-Dry",
             "fr": "Lyophilisation",
@@ -743,7 +751,7 @@
           "symbol": "hyper_voice",
           "id": 304,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 52,
           "names": {
             "en": "Hyper Voice",
             "fr": "Mégaphone",
@@ -762,7 +770,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 56,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -781,7 +789,7 @@
           "symbol": "icicle_crash",
           "id": 556,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 60,
           "names": {
             "en": "Icicle Crash",
             "fr": "Chute Glace",
@@ -800,7 +808,7 @@
           "symbol": "sweet_scent",
           "id": 230,
           "klass": "LevelLearnableMove",
-          "level": 51,
+          "level": 62,
           "names": {
             "en": "Sweet Scent",
             "fr": "Doux Parfum",
@@ -819,7 +827,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 66,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -838,7 +846,7 @@
           "symbol": "sheer_cold",
           "id": 329,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 70,
           "names": {
             "en": "Sheer Cold",
             "fr": "Glaciation",
@@ -1477,6 +1485,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "icicle_spear",
+          "id": 333,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Icicle Spear",
+            "fr": "Stalactite",
+            "it": "Gelolancia",
+            "de": "Eisspeer",
+            "es": "Carámbano",
+            "ko": "고드름침"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 30,
+          "power": 25,
+          "accuracy": 100
+        },
+        {
+          "symbol": "misty_terrain",
+          "id": 581,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Misty Terrain",
+            "fr": "Champ Brumeux",
+            "it": "Campo Nebbioso",
+            "de": "Nebelfeld",
+            "es": "Campo de Niebla",
+            "ko": "미스트필드"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

@@ -94,67 +94,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "stun_spore",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 9
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 13
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mega_drain",
-          "level": 17
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 21
+          "level": 13
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "pixie_dash",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "razor_leaf",
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ingrain",
-          "level": 25
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ominous_wind",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "seed_bomb",
-          "level": 33
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 37
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "giga_drain",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 45
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic",
+          "move": "seed_bomb",
           "level": 49
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "strength_sap",
-          "level": 53
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -414,7 +439,7 @@
           "symbol": "stun_spore",
           "id": 78,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Stun Spore",
             "fr": "Para-Spore",
@@ -433,7 +458,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 5,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -452,7 +477,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 8,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -471,7 +496,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 11,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -490,7 +515,7 @@
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 13,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -506,10 +531,67 @@
           "accuracy": 75
         },
         {
+          "symbol": "pixie_dash",
+          "id": 791,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Pixie Dash",
+            "fr": "Ruée Lutine",
+            "it": "Pixie Dash",
+            "de": "Pixie Dash",
+            "es": "Pixie Dash",
+            "ko": "Pixie Dash"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "razor_leaf",
+          "id": 75,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Razor Leaf",
+            "fr": "Tranch’Herbe",
+            "it": "Foglielama",
+            "de": "Rasierblatt",
+            "es": "Hoja Afilada",
+            "ko": "잎날가르기"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "ingrain",
           "id": 275,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Ingrain",
             "fr": "Racines",
@@ -525,10 +607,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ominous_wind",
+          "id": 466,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Ominous Wind",
+            "fr": "Vent Mauvais",
+            "it": "Funestovento",
+            "de": "Unheilböen",
+            "es": "Viento Aciago",
+            "ko": "괴상한바람"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 39,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -544,29 +664,10 @@
           "accuracy": 90
         },
         {
-          "symbol": "seed_bomb",
-          "id": 402,
-          "klass": "LevelLearnableMove",
-          "level": 33,
-          "names": {
-            "en": "Seed Bomb",
-            "fr": "Canon Graine",
-            "it": "Semebomba",
-            "de": "Samenbomben",
-            "es": "Bomba Germen",
-            "ko": "씨폭탄"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 44,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -582,10 +683,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "LevelLearnableMove",
+          "level": 49,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 59,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -604,7 +743,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 64,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -620,29 +759,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic",
-          "id": 92,
-          "klass": "LevelLearnableMove",
-          "level": 49,
-          "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
           "symbol": "strength_sap",
           "id": 668,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 69,
           "names": {
             "en": "Strength Sap",
             "fr": "Vole-Force",
@@ -674,25 +794,6 @@
           "type": "grass",
           "pp": 10,
           "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
           "accuracy": 100
         },
         {
@@ -732,25 +833,6 @@
           "pp": 10,
           "power": 20,
           "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "earth_power",
@@ -826,44 +908,6 @@
           "type": "bug",
           "pp": 10,
           "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "ominous_wind",
-          "id": 466,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Ominous Wind",
-            "fr": "Vent Mauvais",
-            "it": "Funestovento",
-            "de": "Unheilböen",
-            "es": "Viento Aciago",
-            "ko": "괴상한바람"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 5,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "pixie_dash",
-          "id": 791,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Pixie Dash",
-            "fr": "Ruée Lutine",
-            "it": "Pixie Dash",
-            "de": "Pixie Dash",
-            "es": "Pixie Dash",
-            "ko": "Pixie Dash"
-          },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
           "accuracy": 100
         },
         {

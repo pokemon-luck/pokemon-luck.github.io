@@ -72,23 +72,23 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
@@ -98,17 +98,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 17
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_punch",
-          "level": 21
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,7 +118,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "curse",
-          "level": 29
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
@@ -128,12 +128,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 38
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 42
+          "level": 41
         },
         {
           "klass": "LevelLearnableMove",
@@ -143,12 +143,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "pain_split",
-          "level": 50
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "phantom_force",
-          "level": 54
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
@@ -158,17 +158,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 62
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 66
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 70
+          "level": 73
         },
         {
           "klass": "TechLearnableMove",
@@ -451,25 +451,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -489,10 +470,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -511,7 +511,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -549,7 +549,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -568,7 +568,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 18,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -587,7 +587,7 @@
           "symbol": "shadow_punch",
           "id": 325,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 22,
           "names": {
             "en": "Shadow Punch",
             "fr": "Poing Ombre",
@@ -625,7 +625,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 30,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -663,7 +663,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 39,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -682,7 +682,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 41,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -720,7 +720,7 @@
           "symbol": "pain_split",
           "id": 220,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 48,
           "names": {
             "en": "Pain Split",
             "fr": "Balance",
@@ -739,7 +739,7 @@
           "symbol": "phantom_force",
           "id": 566,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 53,
           "names": {
             "en": "Phantom Force",
             "fr": "Hantise",
@@ -777,7 +777,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 63,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -796,7 +796,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 68,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -815,7 +815,7 @@
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 73,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",

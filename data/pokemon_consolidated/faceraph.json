@@ -83,7 +83,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
+          "move": "light_jab",
           "level": 1
         },
         {
@@ -93,23 +93,23 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "light_jab",
+          "move": "pound",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 9
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 13
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
@@ -119,72 +119,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "fury_cutter",
-          "level": 21
+          "level": 20
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cleansing",
-          "level": 25
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 29
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 33
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "exorciblade",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 40
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "enchant",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sacred_sword",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_jab",
-          "level": 56
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 60
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 64
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 68
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "celestial_seal",
-          "level": 72
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -543,22 +533,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
+          "symbol": "light_jab",
+          "id": 764,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
           },
           "category": "physical",
-          "type": "normal",
+          "type": "celestial",
           "pp": 35,
-          "power": 40,
+          "power": 35,
           "accuracy": 100
         },
         {
@@ -581,29 +571,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "light_jab",
-          "id": 764,
+          "symbol": "pound",
+          "id": 1,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Light Jab",
-            "fr": "Lumino-tacle",
-            "it": "Dynacorrosione",
-            "de": "Dyna-Giftschwall",
-            "es": "Maxiácido",
-            "ko": "다이애시드"
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
           },
           "category": "physical",
-          "type": "celestial",
+          "type": "normal",
           "pp": 35,
-          "power": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -622,7 +612,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 8,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -641,7 +631,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 12,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -679,7 +669,7 @@
           "symbol": "fury_cutter",
           "id": 210,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 20,
           "names": {
             "en": "Fury Cutter",
             "fr": "Taillade",
@@ -698,7 +688,7 @@
           "symbol": "cleansing",
           "id": 778,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 24,
           "names": {
             "en": "Cleansing",
             "fr": "Épuration",
@@ -717,7 +707,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 27,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -736,7 +726,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 32,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -755,7 +745,7 @@
           "symbol": "exorciblade",
           "id": 768,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Exorciblade",
             "fr": "Exorcilame",
@@ -774,7 +764,7 @@
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 42,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -793,7 +783,7 @@
           "symbol": "enchant",
           "id": 788,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 47,
           "names": {
             "en": "Enchant",
             "fr": "Enchantement",
@@ -809,29 +799,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "sacred_sword",
-          "id": 533,
-          "klass": "LevelLearnableMove",
-          "level": 48,
-          "names": {
-            "en": "Sacred Sword",
-            "fr": "Lame Sainte",
-            "it": "Spadasolenne",
-            "de": "Sanctoklinge",
-            "es": "Espada Santa",
-            "ko": "성스러운칼"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 15,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 51,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -847,29 +818,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "poison_jab",
-          "id": 398,
-          "klass": "LevelLearnableMove",
-          "level": 56,
-          "names": {
-            "en": "Poison Jab",
-            "fr": "Direct Toxik",
-            "it": "Velenpuntura",
-            "de": "Gifthieb",
-            "es": "Puya Nociva",
-            "ko": "독찌르기"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 55,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -888,7 +840,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 60,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -907,7 +859,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 65,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -926,7 +878,7 @@
           "symbol": "celestial_seal",
           "id": 786,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 70,
           "names": {
             "en": "Celestial Seal",
             "fr": "Sceau Céleste",
@@ -1167,6 +1119,25 @@
           "type": "fighting",
           "pp": 5,
           "power": 120,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
           "accuracy": 100
         },
         {

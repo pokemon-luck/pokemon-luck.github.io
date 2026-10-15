@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "light_jab",
+          "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growl",
+          "move": "light_jab",
           "level": 1
         },
         {
@@ -99,82 +99,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 7
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 10
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thief",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wing_attack",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 19
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "star_rush",
-          "level": 22
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mist",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "mist",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 31
+          "level": 36
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gleam_beam",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "roost",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "soothing_twirl",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "roost",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soothing_twirl",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 43
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "u_turn",
-          "level": 46
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protective_cascade",
-          "level": 50
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 55
+          "level": 68
         },
         {
           "klass": "TechLearnableMove",
@@ -339,6 +339,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "acrobatics"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "seed_bomb"
         }
       ],
       "names": {
@@ -421,25 +429,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "light_jab",
-          "id": 764,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Light Jab",
-            "fr": "Lumino-tacle",
-            "it": "Dynacorrosione",
-            "de": "Dyna-Giftschwall",
-            "es": "Maxiácido",
-            "ko": "다이애시드"
-          },
-          "category": "physical",
-          "type": "celestial",
-          "pp": 35,
-          "power": 35,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -456,6 +445,25 @@
           "type": "normal",
           "pp": 40,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "light_jab",
+          "id": 764,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Light Jab",
+            "fr": "Lumino-tacle",
+            "it": "Dynacorrosione",
+            "de": "Dyna-Giftschwall",
+            "es": "Maxiácido",
+            "ko": "다이애시드"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 35,
+          "power": 35,
           "accuracy": 100
         },
         {
@@ -481,7 +489,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 8,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -500,7 +508,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 11,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -519,7 +527,7 @@
           "symbol": "thief",
           "id": 168,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Thief",
             "fr": "Larcin",
@@ -538,7 +546,7 @@
           "symbol": "wing_attack",
           "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Wing Attack",
             "fr": "Cru-Ailes",
@@ -557,7 +565,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 21,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -576,7 +584,7 @@
           "symbol": "star_rush",
           "id": 767,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 24,
           "names": {
             "en": "Star Rush",
             "fr": "Ruétoilée",
@@ -595,7 +603,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -614,7 +622,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 33,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -633,7 +641,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 36,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -652,7 +660,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 40,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -671,7 +679,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 45,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -690,7 +698,7 @@
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 49,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -709,7 +717,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 54,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -728,7 +736,7 @@
           "symbol": "u_turn",
           "id": 369,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 59,
           "names": {
             "en": "U-turn",
             "fr": "Demi-Tour",
@@ -747,7 +755,7 @@
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 63,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -766,7 +774,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 68,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -1293,6 +1301,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "acrobatics",
+          "id": 512,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Acrobatics",
+            "fr": "Acrobatie",
+            "it": "Acrobazia",
+            "de": "Akrobatik",
+            "es": "Acróbata",
+            "ko": "애크러뱃"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

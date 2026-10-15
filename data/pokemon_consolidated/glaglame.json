@@ -83,18 +83,18 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "powder_snow",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "astonish",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "powder_snow",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "haze",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
@@ -104,67 +104,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_team",
-          "level": 13
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 19
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hypnosis",
-          "level": 22
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "frost_breath",
-          "level": 25
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 28
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 32
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 45
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 50
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "destiny_bond",
-          "level": 55
+          "level": 58
         },
         {
           "klass": "TechLearnableMove",
@@ -321,6 +321,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "revenants_grasp"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "king_s_shield"
         }
       ],
       "names": {
@@ -403,25 +411,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "powder_snow",
-          "id": 181,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
@@ -441,10 +430,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "powder_snow",
+          "id": 181,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -482,7 +490,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -501,7 +509,7 @@
           "symbol": "double_team",
           "id": 104,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 11,
           "names": {
             "en": "Double Team",
             "fr": "Reflet",
@@ -520,7 +528,7 @@
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Ice Shard",
             "fr": "Éclats Glace",
@@ -539,7 +547,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 18,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -558,7 +566,7 @@
           "symbol": "hypnosis",
           "id": 95,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 23,
           "names": {
             "en": "Hypnosis",
             "fr": "Hypnose",
@@ -577,7 +585,7 @@
           "symbol": "frost_breath",
           "id": 524,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 27,
           "names": {
             "en": "Frost Breath",
             "fr": "Souffle Glacé",
@@ -596,7 +604,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 30,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -615,7 +623,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 35,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -634,7 +642,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -653,7 +661,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -672,7 +680,7 @@
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 48,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -691,7 +699,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -710,7 +718,7 @@
           "symbol": "destiny_bond",
           "id": 194,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 58,
           "names": {
             "en": "Destiny Bond",
             "fr": "Lien du Destin",
@@ -1273,6 +1281,44 @@
           "category": "status",
           "type": "normal",
           "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "revenants_grasp",
+          "id": 756,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Revenant's Grasp",
+            "fr": "Poigne Revenant",
+            "it": "Cambiocampo",
+            "de": "Seitenwechsel",
+            "es": "Cambio de Cancha",
+            "ko": "코트체인지"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "king_s_shield",
+          "id": 588,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "King’s Shield",
+            "fr": "Bouclier Royal",
+            "it": "Scudo Reale",
+            "de": "Königsschild",
+            "es": "Escudo Real",
+            "ko": "킹실드"
+          },
+          "category": "status",
+          "type": "steel",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

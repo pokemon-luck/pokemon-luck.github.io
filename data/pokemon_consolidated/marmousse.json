@@ -83,28 +83,28 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 6
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_slap",
-          "level": 10
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -114,7 +114,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -124,7 +124,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "magnitude",
-          "level": 24
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
@@ -134,12 +134,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 32
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
@@ -149,22 +149,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "synthesis",
-          "level": 44
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 48
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "seed_bomb",
-          "level": 52
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 56
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -321,6 +321,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "aromatherapy"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "horn_leech"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "grassy_terrain"
         }
       ],
       "names": {
@@ -403,25 +411,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -441,10 +430,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 4,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -463,7 +471,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -482,7 +490,7 @@
           "symbol": "mud_slap",
           "id": 189,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 9,
           "names": {
             "en": "Mud-Slap",
             "fr": "Coud’Boue",
@@ -520,7 +528,7 @@
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -558,7 +566,7 @@
           "symbol": "magnitude",
           "id": 222,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 25,
           "names": {
             "en": "Magnitude",
             "fr": "Ampleur",
@@ -596,7 +604,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -615,7 +623,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -653,7 +661,7 @@
           "symbol": "synthesis",
           "id": 235,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 45,
           "names": {
             "en": "Synthesis",
             "fr": "Synthèse",
@@ -672,7 +680,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 50,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -691,7 +699,7 @@
           "symbol": "seed_bomb",
           "id": 402,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 55,
           "names": {
             "en": "Seed Bomb",
             "fr": "Canon Graine",
@@ -710,7 +718,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 60,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -1311,6 +1319,44 @@
           "category": "status",
           "type": "grass",
           "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "horn_leech",
+          "id": 532,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Horn Leech",
+            "fr": "Encornebois",
+            "it": "Legnicorno",
+            "de": "Holzgeweih",
+            "es": "Asta Drenaje",
+            "ko": "우드호른"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grassy_terrain",
+          "id": 580,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Grassy Terrain",
+            "fr": "Champ Herbu",
+            "it": "Campo Erboso",
+            "de": "Grasfeld",
+            "es": "Campo de Hierba",
+            "ko": "그래스필드"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
           "power": 0,
           "accuracy": 0
         }

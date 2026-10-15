@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "water_gun",
+          "move": "defense_curl",
           "level": 1
         },
         {
@@ -82,98 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "defense_curl",
+          "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rollout",
-          "level": 9
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bubble_beam",
-          "level": 13
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_jab",
-          "level": 17
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 21
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "whirlpool",
-          "level": 25
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_snap",
-          "level": 29
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 33
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "power_gem",
-          "level": 37
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 41
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protective_cascade",
-          "level": 45
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dive",
-          "level": 49
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 53
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 57
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 61
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "surf",
-          "level": 65
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 69
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 72
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "starry_bolt",
-          "level": 75
+          "level": 79
         },
         {
           "klass": "TechLearnableMove",
@@ -342,6 +342,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "dazzling_gleam"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "future_sight"
         }
       ],
       "names": {
@@ -424,23 +432,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "water_gun",
-          "id": 55,
+          "symbol": "defense_curl",
+          "id": 111,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Water Gun",
-            "fr": "Pistolet à O",
-            "it": "Pistolacqua",
-            "de": "Aquaknarre",
-            "es": "Pistola Agua",
-            "ko": "물대포"
+            "en": "Defense Curl",
+            "fr": "Boul’Armure",
+            "it": "Ricciolscudo",
+            "de": "Einigler",
+            "es": "Rizo Defensa",
+            "ko": "웅크리기"
           },
-          "category": "special",
-          "type": "water",
-          "pp": 25,
-          "power": 40,
-          "accuracy": 100
+          "category": "status",
+          "type": "normal",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "sparkle_powder",
@@ -462,29 +470,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "defense_curl",
-          "id": 111,
+          "symbol": "water_gun",
+          "id": 55,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Defense Curl",
-            "fr": "Boul’Armure",
-            "it": "Ricciolscudo",
-            "de": "Einigler",
-            "es": "Rizo Defensa",
-            "ko": "웅크리기"
+            "en": "Water Gun",
+            "fr": "Pistolet à O",
+            "it": "Pistolacqua",
+            "de": "Aquaknarre",
+            "es": "Pistola Agua",
+            "ko": "물대포"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 0
+          "category": "special",
+          "type": "water",
+          "pp": 25,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "rollout",
           "id": 205,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 4,
           "names": {
             "en": "Rollout",
             "fr": "Roulade",
@@ -503,7 +511,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 8,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -522,7 +530,7 @@
           "symbol": "light_jab",
           "id": 764,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 11,
           "names": {
             "en": "Light Jab",
             "fr": "Lumino-tacle",
@@ -541,7 +549,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 14,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -560,7 +568,7 @@
           "symbol": "whirlpool",
           "id": 250,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 17,
           "names": {
             "en": "Whirlpool",
             "fr": "Siphon",
@@ -579,7 +587,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 21,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -598,7 +606,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 26,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -617,7 +625,7 @@
           "symbol": "power_gem",
           "id": 408,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 31,
           "names": {
             "en": "Power Gem",
             "fr": "Rayon Gemme",
@@ -636,7 +644,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 35,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -655,7 +663,7 @@
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 39,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -674,7 +682,7 @@
           "symbol": "dive",
           "id": 291,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 44,
           "names": {
             "en": "Dive",
             "fr": "Plongée",
@@ -693,7 +701,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 49,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -712,7 +720,7 @@
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 53,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -731,7 +739,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 61,
+          "level": 58,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -750,7 +758,7 @@
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 63,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -769,7 +777,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 69,
+          "level": 68,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -788,7 +796,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 73,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -807,7 +815,7 @@
           "symbol": "starry_bolt",
           "id": 781,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 79,
           "names": {
             "en": "Starry Bolt",
             "fr": "Flèche Étoile",
@@ -1410,6 +1418,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "future_sight",
+          "id": 248,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Future Sight",
+            "fr": "Prescience",
+            "it": "Divinazione",
+            "de": "Seher",
+            "es": "Premonición",
+            "ko": "미래예지"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 120,
+          "accuracy": 100
         }
       ]
     }

@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
+          "move": "fury_swipes",
           "level": 1
         },
         {
@@ -82,98 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "fury_swipes",
+          "move": "scratch",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_bite",
-          "level": 3
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "struggle_bug",
           "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "struggle_bug",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 11
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_life",
-          "level": 17
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 21
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "lunge",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
+          "move": "lunge",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "nasty_plot",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "x_scissor",
-          "level": 38
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 42
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 46
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "first_impression",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
           "level": 54
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "first_impression",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sludge_bomb",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "megahorn",
-          "level": 58
+          "level": 70
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bug_buzz",
-          "level": 62
+          "level": 75
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quiver_dance",
-          "level": 66
+          "level": 80
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fell_stinger",
-          "level": 70
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -480,23 +480,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
+          "symbol": "fury_swipes",
+          "id": 154,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
+            "en": "Fury Swipes",
+            "fr": "Combo-Griffe",
+            "it": "Sfuriate",
+            "de": "Kratzfurie",
+            "es": "Golpes Furia",
+            "ko": "마구할퀴기"
           },
           "category": "physical",
           "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
+          "pp": 15,
+          "power": 18,
+          "accuracy": 80
         },
         {
           "symbol": "taunt",
@@ -518,29 +518,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "fury_swipes",
-          "id": 154,
+          "symbol": "scratch",
+          "id": 10,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Fury Swipes",
-            "fr": "Combo-Griffe",
-            "it": "Sfuriate",
-            "de": "Kratzfurie",
-            "es": "Golpes Furia",
-            "ko": "마구할퀴기"
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
           },
           "category": "physical",
           "type": "normal",
-          "pp": 15,
-          "power": 18,
-          "accuracy": 80
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 5,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -559,7 +559,7 @@
           "symbol": "struggle_bug",
           "id": 522,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 9,
           "names": {
             "en": "Struggle Bug",
             "fr": "Survinsecte",
@@ -578,7 +578,7 @@
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -597,7 +597,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -616,7 +616,7 @@
           "symbol": "leech_life",
           "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 19,
           "names": {
             "en": "Leech Life",
             "fr": "Vampirisme",
@@ -635,7 +635,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 24,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -654,7 +654,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -673,7 +673,7 @@
           "symbol": "lunge",
           "id": 679,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 34,
           "names": {
             "en": "Lunge",
             "fr": "Furie-Bond",
@@ -692,7 +692,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 39,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -711,7 +711,7 @@
           "symbol": "x_scissor",
           "id": 404,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 44,
           "names": {
             "en": "X-Scissor",
             "fr": "Plaie Croix",
@@ -730,7 +730,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 49,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -749,7 +749,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 54,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -768,7 +768,7 @@
           "symbol": "first_impression",
           "id": 660,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 59,
           "names": {
             "en": "First Impression",
             "fr": "Escarmouche",
@@ -787,7 +787,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 64,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -806,7 +806,7 @@
           "symbol": "megahorn",
           "id": 224,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 70,
           "names": {
             "en": "Megahorn",
             "fr": "Mégacorne",
@@ -825,7 +825,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 75,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -844,7 +844,7 @@
           "symbol": "quiver_dance",
           "id": 483,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 80,
           "names": {
             "en": "Quiver Dance",
             "fr": "Papillodanse",
@@ -863,7 +863,7 @@
           "symbol": "fell_stinger",
           "id": 565,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 84,
           "names": {
             "en": "Fell Stinger",
             "fr": "Dard Mortel",

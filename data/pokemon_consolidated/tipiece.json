@@ -91,73 +91,73 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "defense_curl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 9
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "payback",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_shot",
-          "level": 24
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 28
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gyro_ball",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "charge_beam",
-          "level": 36
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 40
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 44
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_burst",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
@@ -331,6 +331,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "pay_day"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "amnesia"
         }
       ],
       "names": {
@@ -413,25 +421,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "defense_curl",
           "id": 111,
           "klass": "LevelLearnableMove",
@@ -451,10 +440,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -473,7 +481,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 8,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -492,7 +500,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -511,7 +519,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -530,7 +538,7 @@
           "symbol": "payback",
           "id": 371,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Payback",
             "fr": "Représailles",
@@ -549,7 +557,7 @@
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 21,
           "names": {
             "en": "Mirror Shot",
             "fr": "Miroi-Tir",
@@ -568,7 +576,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 24,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -587,7 +595,7 @@
           "symbol": "gyro_ball",
           "id": 360,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Gyro Ball",
             "fr": "Gyroballe",
@@ -606,7 +614,7 @@
           "symbol": "charge_beam",
           "id": 451,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 32,
           "names": {
             "en": "Charge Beam",
             "fr": "Rayon Chargé",
@@ -625,7 +633,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 37,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -644,7 +652,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 42,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -663,7 +671,7 @@
           "symbol": "metal_burst",
           "id": 368,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 47,
           "names": {
             "en": "Metal Burst",
             "fr": "Fulmifer",
@@ -1301,6 +1309,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "pay_day",
+          "id": 6,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Pay Day",
+            "fr": "Jackpot",
+            "it": "Giornopaga",
+            "de": "Zahltag",
+            "es": "Día de Pago",
+            "ko": "고양이돈받기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
           "pp": 20,
           "power": 0,
           "accuracy": 0

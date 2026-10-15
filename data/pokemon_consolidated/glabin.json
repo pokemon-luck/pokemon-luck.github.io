@@ -94,12 +94,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "encore",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
@@ -109,62 +109,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "fury_swipes",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "avalanche",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "yawn",
-          "level": 28
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
-          "level": 32
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 36
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_ball",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 44
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icicle_crash",
-          "level": 48
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 52
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 56
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 62
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -369,6 +369,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "throat_chop"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "dig"
         }
       ],
       "names": {
@@ -492,7 +500,7 @@
           "symbol": "encore",
           "id": 227,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Encore",
             "fr": "Encore",
@@ -511,7 +519,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -549,7 +557,7 @@
           "symbol": "fury_swipes",
           "id": 154,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Fury Swipes",
             "fr": "Combo-Griffe",
@@ -568,7 +576,7 @@
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -587,7 +595,7 @@
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -606,7 +614,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 24,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -625,7 +633,7 @@
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 27,
           "names": {
             "en": "Ice Shard",
             "fr": "Éclats Glace",
@@ -644,7 +652,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 30,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -663,7 +671,7 @@
           "symbol": "ice_ball",
           "id": 301,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 33,
           "names": {
             "en": "Ice Ball",
             "fr": "Ball’Glace",
@@ -682,7 +690,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 38,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -701,7 +709,7 @@
           "symbol": "icicle_crash",
           "id": 556,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 43,
           "names": {
             "en": "Icicle Crash",
             "fr": "Chute Glace",
@@ -720,7 +728,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 48,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -739,7 +747,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 53,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -758,7 +766,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 59,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -1551,6 +1559,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "throat_chop",
+          "id": 675,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Throat Chop",
+            "fr": "Exécu-Son",
+            "it": "Colpo Infernale",
+            "de": "Neck Strike",
+            "es": "Golpe Mordaza",
+            "ko": "지옥찌르기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "dig",
+          "id": 91,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Dig",
+            "fr": "Tunnel",
+            "it": "Fossa",
+            "de": "Schaufler",
+            "es": "Excavar",
+            "ko": "구멍파기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

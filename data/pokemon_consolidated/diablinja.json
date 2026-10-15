@@ -72,23 +72,23 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "vacuum_wave",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_energy",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
@@ -98,17 +98,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_punch",
-          "level": 17
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aura_sphere",
-          "level": 21
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,27 +118,27 @@
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_punch",
-          "level": 34
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 38
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "drain_punch",
-          "level": 42
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 46
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_punch",
-          "level": 50
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
@@ -148,27 +148,27 @@
         {
           "klass": "LevelLearnableMove",
           "move": "pure_punch",
-          "level": 58
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "focus_blast",
-          "level": 62
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_punch",
-          "level": 66
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dynamic_punch",
-          "level": 70
+          "level": 74
         },
         {
           "klass": "LevelLearnableMove",
           "move": "superpower",
-          "level": 73
+          "level": 80
         },
         {
           "klass": "TechLearnableMove",
@@ -451,25 +451,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -489,10 +470,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "vacuum_wave",
           "id": 410,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Vacuum Wave",
             "fr": "Onde Vide",
@@ -511,7 +511,7 @@
           "symbol": "focus_energy",
           "id": 116,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Focus Energy",
             "fr": "Puissance",
@@ -549,7 +549,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -568,7 +568,7 @@
           "symbol": "fire_punch",
           "id": 7,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 19,
           "names": {
             "en": "Fire Punch",
             "fr": "Poing Feu",
@@ -587,7 +587,7 @@
           "symbol": "aura_sphere",
           "id": 396,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 24,
           "names": {
             "en": "Aura Sphere",
             "fr": "Aurasphère",
@@ -625,7 +625,7 @@
           "symbol": "shadow_punch",
           "id": 325,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 32,
           "names": {
             "en": "Shadow Punch",
             "fr": "Poing Ombre",
@@ -644,7 +644,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 34,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -663,7 +663,7 @@
           "symbol": "drain_punch",
           "id": 409,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 39,
           "names": {
             "en": "Drain Punch",
             "fr": "Vampi-Poing",
@@ -682,7 +682,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 44,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -701,7 +701,7 @@
           "symbol": "ice_punch",
           "id": 8,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 49,
           "names": {
             "en": "Ice Punch",
             "fr": "Poing Glace",
@@ -739,7 +739,7 @@
           "symbol": "pure_punch",
           "id": 766,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 57,
           "names": {
             "en": "Pure Punch",
             "fr": "Poing Pur",
@@ -758,7 +758,7 @@
           "symbol": "focus_blast",
           "id": 411,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 63,
           "names": {
             "en": "Focus Blast",
             "fr": "Exploforce",
@@ -777,7 +777,7 @@
           "symbol": "thunder_punch",
           "id": 9,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 68,
           "names": {
             "en": "Thunder Punch",
             "fr": "Poing Éclair",
@@ -796,7 +796,7 @@
           "symbol": "dynamic_punch",
           "id": 223,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 74,
           "names": {
             "en": "Dynamic Punch",
             "fr": "Dynamo-Poing",
@@ -815,7 +815,7 @@
           "symbol": "superpower",
           "id": 276,
           "klass": "LevelLearnableMove",
-          "level": 73,
+          "level": 80,
           "names": {
             "en": "Superpower",
             "fr": "Surpuissance",

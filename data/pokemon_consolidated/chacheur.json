@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "quick_attack",
+          "move": "sand_attack",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sand_attack",
+          "move": "quick_attack",
           "level": 1
         },
         {
@@ -98,22 +98,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "work_up",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "echoed_voice",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "snarl",
-          "level": 24
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brick_break",
-          "level": 24
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "snarl",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
@@ -123,42 +123,42 @@
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 32
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 36
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "play_rough",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hyper_voice",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "submission",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "submission",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "grass_knot",
-          "level": 52
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "retaliate",
-          "level": 56
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "close_combat",
-          "level": 60
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -461,25 +461,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "quick_attack",
-          "id": 98,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Quick Attack",
-            "fr": "Vive-Attaque",
-            "it": "Attacco Rapido",
-            "de": "Ruckzuckhieb",
-            "es": "Ataque Rápido",
-            "ko": "전광석화"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
@@ -496,6 +477,25 @@
           "type": "ground",
           "pp": 15,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "quick_attack",
+          "id": 98,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Quick Attack",
+            "fr": "Vive-Attaque",
+            "it": "Attacco Rapido",
+            "de": "Ruckzuckhieb",
+            "es": "Ataque Rápido",
+            "ko": "전광석화"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -559,7 +559,7 @@
           "symbol": "work_up",
           "id": 526,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Work Up",
             "fr": "Rengorgement",
@@ -578,7 +578,7 @@
           "symbol": "echoed_voice",
           "id": 497,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Echoed Voice",
             "fr": "Écho",
@@ -594,29 +594,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "snarl",
-          "id": 555,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Snarl",
-            "fr": "Aboiement",
-            "it": "Urlorabbia",
-            "de": "Standpauke",
-            "es": "Alarido",
-            "ko": "바크아웃"
-          },
-          "category": "special",
-          "type": "dark",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
           "symbol": "brick_break",
           "id": 280,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Brick Break",
             "fr": "Casse-Brique",
@@ -630,6 +611,25 @@
           "pp": 15,
           "power": 75,
           "accuracy": 100
+        },
+        {
+          "symbol": "snarl",
+          "id": 555,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Snarl",
+            "fr": "Aboiement",
+            "it": "Urlorabbia",
+            "de": "Standpauke",
+            "es": "Alarido",
+            "ko": "바크아웃"
+          },
+          "category": "special",
+          "type": "dark",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "power_up_punch",
@@ -654,7 +654,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -673,7 +673,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 38,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -692,7 +692,7 @@
           "symbol": "play_rough",
           "id": 583,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Play Rough",
             "fr": "Câlinerie",
@@ -711,7 +711,7 @@
           "symbol": "hyper_voice",
           "id": 304,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 48,
           "names": {
             "en": "Hyper Voice",
             "fr": "Mégaphone",
@@ -730,7 +730,7 @@
           "symbol": "submission",
           "id": 66,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 53,
           "names": {
             "en": "Submission",
             "fr": "Sacrifice",
@@ -749,7 +749,7 @@
           "symbol": "grass_knot",
           "id": 447,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 58,
           "names": {
             "en": "Grass Knot",
             "fr": "Nœud Herbe",
@@ -768,7 +768,7 @@
           "symbol": "retaliate",
           "id": 514,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 63,
           "names": {
             "en": "Retaliate",
             "fr": "Vengeance",
@@ -787,7 +787,7 @@
           "symbol": "close_combat",
           "id": 370,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 69,
           "names": {
             "en": "Close Combat",
             "fr": "Close Combat",

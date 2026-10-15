@@ -83,38 +83,43 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "absorb",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "stun_spore",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
+          "level": 5
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vine_whip",
           "level": 8
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "growth",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "mega_drain",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 20
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "magical_leaf",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "growth",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
@@ -123,23 +128,18 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leech_seed",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "giga_drain",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "moonlight",
-          "level": 40
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "toxic",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -148,13 +148,18 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 48
+          "move": "leech_life",
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 52
+          "level": 59
         },
         {
           "klass": "TechLearnableMove",
@@ -291,6 +296,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "aromatherapy"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fairy_lock"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "hammer_arm"
         }
       ],
       "names": {
@@ -373,25 +386,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
@@ -411,10 +405,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "stun_spore",
           "id": 78,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Stun Spore",
             "fr": "Para-Spore",
@@ -433,7 +446,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 5,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -449,48 +462,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "growth",
-          "id": 74,
+          "symbol": "vine_whip",
+          "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 8,
           "names": {
-            "en": "Growth",
-            "fr": "Croissance",
-            "it": "Crescita",
-            "de": "Wachstum",
-            "es": "Desarrollo",
-            "ko": "성장"
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "mega_drain",
-          "id": 72,
-          "klass": "LevelLearnableMove",
-          "level": 16,
-          "names": {
-            "en": "Mega Drain",
-            "fr": "Méga-Sangsue",
-            "it": "Megassorbimento",
-            "de": "Megasauger",
-            "es": "Megaagotar",
-            "ko": "메가드레인"
-          },
-          "category": "special",
+          "category": "physical",
           "type": "grass",
-          "pp": 15,
-          "power": 40,
+          "pp": 25,
+          "power": 45,
           "accuracy": 100
         },
         {
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 10,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -504,6 +498,44 @@
           "pp": 35,
           "power": 0,
           "accuracy": 75
+        },
+        {
+          "symbol": "magical_leaf",
+          "id": 345,
+          "klass": "LevelLearnableMove",
+          "level": 14,
+          "names": {
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "growth",
+          "id": 74,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Growth",
+            "fr": "Croissance",
+            "it": "Crescita",
+            "de": "Wachstum",
+            "es": "Desarrollo",
+            "ko": "성장"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "ingrain",
@@ -525,10 +557,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "moonlight",
+          "id": 236,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Moonlight",
+            "fr": "Rayon Lune",
+            "it": "Lucelunare",
+            "de": "Mondschein",
+            "es": "Luz Lunar",
+            "ko": "달의불빛"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 34,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -544,61 +595,23 @@
           "accuracy": 90
         },
         {
-          "symbol": "protect",
-          "id": 182,
+          "symbol": "toxic",
+          "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 39,
           "names": {
-            "en": "Protect",
-            "fr": "Abri",
-            "it": "Protezione",
-            "de": "Schutzschild",
-            "es": "Protección",
-            "ko": "방어"
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
           },
           "category": "status",
-          "type": "normal",
+          "type": "poison",
           "pp": 10,
           "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "giga_drain",
-          "id": 202,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonlight",
-          "id": 236,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Moonlight",
-            "fr": "Rayon Lune",
-            "it": "Lucelunare",
-            "de": "Mondschein",
-            "es": "Luz Lunar",
-            "ko": "달의불빛"
-          },
-          "category": "status",
-          "type": "fairy",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
+          "accuracy": 90
         },
         {
           "symbol": "spore",
@@ -620,29 +633,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic",
-          "id": 92,
+          "symbol": "leech_life",
+          "id": 141,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
           },
-          "category": "status",
-          "type": "poison",
+          "category": "physical",
+          "type": "bug",
           "pp": 10,
-          "power": 0,
-          "accuracy": 90
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
         },
         {
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 59,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -655,6 +687,25 @@
           "type": "grass",
           "pp": 10,
           "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mega_drain",
+          "id": 72,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mega Drain",
+            "fr": "Méga-Sangsue",
+            "it": "Megassorbimento",
+            "de": "Megasauger",
+            "es": "Megaagotar",
+            "ko": "메가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 15,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -807,25 +858,6 @@
           "type": "bug",
           "pp": 20,
           "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "leech_life",
-          "id": 141,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Leech Life",
-            "fr": "Vampirisme",
-            "it": "Sanguisuga",
-            "de": "Blutsauger",
-            "es": "Chupavidas",
-            "ko": "흡혈"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 10,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -1171,6 +1203,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "aromatherapy",
           "id": 312,
           "klass": "TechLearnableMove",
@@ -1188,6 +1239,44 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "fairy_lock",
+          "id": 587,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fairy Lock",
+            "fr": "Verrou Enchanté",
+            "it": "Blocco Fatato",
+            "de": "Feenschloss",
+            "es": "Cerrojo Feérico",
+            "ko": "페어리록"
+          },
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hammer_arm",
+          "id": 359,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Hammer Arm",
+            "fr": "Marto-Poing",
+            "it": "Martelpugno",
+            "de": "Hammerarm",
+            "es": "Machada",
+            "ko": "암해머"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 100,
+          "accuracy": 90
         }
       ]
     }

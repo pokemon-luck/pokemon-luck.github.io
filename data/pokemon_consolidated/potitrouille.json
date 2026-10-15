@@ -83,18 +83,18 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pound",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growth",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pound",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "ember",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
@@ -104,62 +104,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "will_o_wisp",
-          "level": 16
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_burst",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "vine_whip",
-          "level": 24
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 28
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 32
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "incinerate",
-          "level": 36
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 40
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
-          "level": 44
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 48
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "solar_beam",
-          "level": 52
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 56
+          "level": 63
         },
         {
           "klass": "TechLearnableMove",
@@ -320,6 +320,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "synthesis"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "quiver_dance"
         }
       ],
       "names": {
@@ -402,25 +410,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pound",
-          "id": 1,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pound",
-            "fr": "Écras’Face",
-            "it": "Botta",
-            "de": "Klaps",
-            "es": "Destructor",
-            "ko": "막치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
@@ -440,10 +429,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "pound",
+          "id": 1,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pound",
+            "fr": "Écras’Face",
+            "it": "Botta",
+            "de": "Klaps",
+            "es": "Destructor",
+            "ko": "막치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "ember",
           "id": 52,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Ember",
             "fr": "Flammèche",
@@ -481,7 +489,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -500,7 +508,7 @@
           "symbol": "will_o_wisp",
           "id": 261,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Will-O-Wisp",
             "fr": "Feu Follet",
@@ -519,7 +527,7 @@
           "symbol": "flame_burst",
           "id": 481,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Flame Burst",
             "fr": "Rebondifeu",
@@ -538,7 +546,7 @@
           "symbol": "vine_whip",
           "id": 22,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 26,
           "names": {
             "en": "Vine Whip",
             "fr": "Fouet Lianes",
@@ -557,7 +565,7 @@
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 29,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -576,7 +584,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 33,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -595,7 +603,7 @@
           "symbol": "incinerate",
           "id": 510,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 37,
           "names": {
             "en": "Incinerate",
             "fr": "Calcination",
@@ -614,7 +622,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 42,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -633,7 +641,7 @@
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 46,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -652,7 +660,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 51,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -671,7 +679,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 57,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",
@@ -690,7 +698,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 63,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",
@@ -1290,6 +1298,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "synthesis",
+          "id": 235,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Synthesis",
+            "fr": "Synthèse",
+            "it": "Sintesi",
+            "de": "Synthese",
+            "es": "Síntesis",
+            "ko": "광합성"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "quiver_dance",
+          "id": 483,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Quiver Dance",
+            "fr": "Papillodanse",
+            "it": "Eledanza",
+            "de": "Falterreigen",
+            "es": "Danza Aleteo",
+            "ko": "나비춤"
+          },
+          "category": "status",
+          "type": "bug",
           "pp": 20,
           "power": 0,
           "accuracy": 0

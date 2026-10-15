@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
+          "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -99,92 +99,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "peck",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 7
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hone_claws",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "hone_claws",
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "fury_swipes",
-          "level": 13
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 16
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 19
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "taunt",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_fang",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sucker_punch",
-          "level": 31
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "nasty_plot",
           "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "air_cutter",
+          "move": "sucker_punch",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "night_slash",
+          "move": "nasty_plot",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "night_slash",
+          "level": 46
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 44
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 47
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venom_drench",
-          "level": 50
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fell_stinger",
           "level": 54
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "fell_stinger",
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 58
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -365,6 +365,46 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "fake_out"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "lava_plume"
         }
       ],
       "names": {
@@ -447,25 +487,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -482,6 +503,25 @@
           "type": "normal",
           "pp": 30,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -507,7 +547,7 @@
           "symbol": "peck",
           "id": 64,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Peck",
             "fr": "Picpic",
@@ -526,7 +566,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 10,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -545,7 +585,7 @@
           "symbol": "hone_claws",
           "id": 468,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 14,
           "names": {
             "en": "Hone Claws",
             "fr": "Aiguisage",
@@ -564,7 +604,7 @@
           "symbol": "fury_swipes",
           "id": 154,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 17,
           "names": {
             "en": "Fury Swipes",
             "fr": "Combo-Griffe",
@@ -583,7 +623,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 21,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -602,7 +642,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 25,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -621,7 +661,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 27,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -640,7 +680,7 @@
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 30,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -659,7 +699,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 34,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -678,7 +718,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 37,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -697,7 +737,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 40,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -716,7 +756,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 43,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -735,7 +775,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 46,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -754,7 +794,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 49,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -773,7 +813,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 47,
+          "level": 52,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -792,7 +832,7 @@
           "symbol": "venom_drench",
           "id": 599,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 54,
           "names": {
             "en": "Venom Drench",
             "fr": "Piège de Venin",
@@ -811,7 +851,7 @@
           "symbol": "fell_stinger",
           "id": 565,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 57,
           "names": {
             "en": "Fell Stinger",
             "fr": "Dard Mortel",
@@ -830,7 +870,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 60,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -1528,6 +1568,196 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "fake_out",
+          "id": 252,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fake Out",
+            "fr": "Bluff",
+            "it": "Bruciapelo",
+            "de": "Mogelhieb",
+            "es": "Sorpresa",
+            "ko": "속이다"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 10,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "lava_plume",
+          "id": 436,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Lava Plume",
+            "fr": "Ébullilave",
+            "it": "Lavasbuffo",
+            "de": "Flammensturm",
+            "es": "Humareda",
+            "ko": "분연"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
         }
       ]
     }

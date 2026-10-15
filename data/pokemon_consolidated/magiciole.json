@@ -92,68 +92,88 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "fury_cutter",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 10
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "signal_beam",
-          "level": 14
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 18
+          "move": "screech",
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hypnosis",
-          "level": 24
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bug_buzz",
-          "level": 27
+          "move": "bug_bite",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 32
+          "move": "calm_mind",
+          "level": 30
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "signal_beam",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dream_eater",
-          "level": 41
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "reflect",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
+          "move": "reflect",
           "level": 50
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonlight",
+          "move": "bug_buzz",
           "level": 55
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "future_sight",
+          "move": "psychic",
           "level": 60
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "baton_pass",
+          "move": "shadow_ball",
           "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dream_eater",
+          "level": 71
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonlight",
+          "level": 76
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "future_sight",
+          "level": 82
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "baton_pass",
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -468,10 +488,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "fury_cutter",
+          "id": 210,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Fury Cutter",
+            "fr": "Taillade",
+            "it": "Tagliofuria",
+            "de": "Zornklinge",
+            "es": "Corte Furia",
+            "ko": "연속자르기"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 95
+        },
+        {
           "symbol": "light_screen",
           "id": 113,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 13,
           "names": {
             "en": "Light Screen",
             "fr": "Mur Lumière",
@@ -487,48 +526,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "signal_beam",
-          "id": 324,
+          "symbol": "screech",
+          "id": 103,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 16,
           "names": {
-            "en": "Signal Beam",
-            "fr": "Rayon Signal",
-            "it": "Segnoraggio",
-            "de": "Ampelleuchte",
-            "es": "Doble Rayo",
-            "ko": "시그널빔"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 15,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "calm_mind",
-          "id": 347,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "normal",
+          "pp": 40,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 85
         },
         {
           "symbol": "hypnosis",
           "id": 95,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 21,
           "names": {
             "en": "Hypnosis",
             "fr": "Hypnose",
@@ -544,10 +564,124 @@
           "accuracy": 60
         },
         {
+          "symbol": "bug_bite",
+          "id": 450,
+          "klass": "LevelLearnableMove",
+          "level": 25,
+          "names": {
+            "en": "Bug Bite",
+            "fr": "Piqûre",
+            "it": "Coleomorso",
+            "de": "Käferbiss",
+            "es": "Picadura",
+            "ko": "벌레먹음"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "signal_beam",
+          "id": 324,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Signal Beam",
+            "fr": "Rayon Signal",
+            "it": "Segnoraggio",
+            "de": "Ampelleuchte",
+            "es": "Doble Rayo",
+            "ko": "시그널빔"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "dazzling_gleam",
+          "id": 605,
+          "klass": "LevelLearnableMove",
+          "level": 45,
+          "names": {
+            "en": "Dazzling Gleam",
+            "fr": "Éclat Magique",
+            "it": "Magibrillio",
+            "de": "Zauberschein",
+            "es": "Brillo Mágico",
+            "ko": "매지컬샤인"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "reflect",
+          "id": 115,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Reflect",
+            "fr": "Protection",
+            "it": "Riflesso",
+            "de": "Reflektor",
+            "es": "Reflejo",
+            "ko": "리플렉터"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 55,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -566,7 +700,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 60,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -582,67 +716,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "dazzling_gleam",
-          "id": 605,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Dazzling Gleam",
-            "fr": "Éclat Magique",
-            "it": "Magibrillio",
-            "de": "Zauberschein",
-            "es": "Brillo Mágico",
-            "ko": "매지컬샤인"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dream_eater",
-          "id": 138,
-          "klass": "LevelLearnableMove",
-          "level": 41,
-          "names": {
-            "en": "Dream Eater",
-            "fr": "Dévorêve",
-            "it": "Mangiasogni",
-            "de": "Traumfresser",
-            "es": "Comesueños",
-            "ko": "꿈먹기"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 15,
-          "power": 100,
-          "accuracy": 100
-        },
-        {
-          "symbol": "reflect",
-          "id": 115,
-          "klass": "LevelLearnableMove",
-          "level": 45,
-          "names": {
-            "en": "Reflect",
-            "fr": "Protection",
-            "it": "Riflesso",
-            "de": "Reflektor",
-            "es": "Reflejo",
-            "ko": "리플렉터"
-          },
-          "category": "status",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 65,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -658,10 +735,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "dream_eater",
+          "id": 138,
+          "klass": "LevelLearnableMove",
+          "level": 71,
+          "names": {
+            "en": "Dream Eater",
+            "fr": "Dévorêve",
+            "it": "Mangiasogni",
+            "de": "Traumfresser",
+            "es": "Comesueños",
+            "ko": "꿈먹기"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 15,
+          "power": 100,
+          "accuracy": 100
+        },
+        {
           "symbol": "moonlight",
           "id": 236,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 76,
           "names": {
             "en": "Moonlight",
             "fr": "Rayon Lune",
@@ -680,7 +776,7 @@
           "symbol": "future_sight",
           "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 82,
           "names": {
             "en": "Future Sight",
             "fr": "Prescience",
@@ -699,7 +795,7 @@
           "symbol": "baton_pass",
           "id": 226,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 84,
           "names": {
             "en": "Baton Pass",
             "fr": "Relais",

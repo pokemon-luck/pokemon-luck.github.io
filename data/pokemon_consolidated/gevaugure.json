@@ -72,103 +72,103 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "scratch",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_fang",
-          "level": 5
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hone_claws",
-          "level": 9
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_fang",
-          "level": 13
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_fang",
-          "level": 17
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 21
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flamethrower",
-          "level": 25
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "howl",
-          "level": 34
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 38
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "croc_dragon",
-          "level": 41
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_fang",
-          "level": 42
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hyper_fang",
-          "level": 46
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 50
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic_fangs",
-          "level": 54
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dragon_dance",
           "level": 58
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dragon_dance",
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "outrage",
-          "level": 62
+          "level": 69
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cure_fang",
-          "level": 66
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 70
+          "level": 77
         },
         {
           "klass": "TechLearnableMove",
@@ -393,6 +393,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -475,25 +507,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "leer",
-          "id": 43,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Leer",
-            "fr": "Groz’Yeux",
-            "it": "Fulmisguardo",
-            "de": "Silberblick",
-            "es": "Malicioso",
-            "ko": "째려보기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "scratch",
           "id": 10,
           "klass": "LevelLearnableMove",
@@ -513,10 +526,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -535,7 +567,7 @@
           "symbol": "fire_fang",
           "id": 424,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 7,
           "names": {
             "en": "Fire Fang",
             "fr": "Crocs Feu",
@@ -554,7 +586,7 @@
           "symbol": "hone_claws",
           "id": 468,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 12,
           "names": {
             "en": "Hone Claws",
             "fr": "Aiguisage",
@@ -573,7 +605,7 @@
           "symbol": "ice_fang",
           "id": 423,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 15,
           "names": {
             "en": "Ice Fang",
             "fr": "Crocs Givre",
@@ -592,7 +624,7 @@
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 18,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -611,7 +643,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 23,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -630,7 +662,7 @@
           "symbol": "flamethrower",
           "id": 53,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Flamethrower",
             "fr": "Lance-Flammes",
@@ -649,7 +681,7 @@
           "symbol": "howl",
           "id": 336,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 30,
           "names": {
             "en": "Howl",
             "fr": "Grondement",
@@ -668,7 +700,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 35,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -687,7 +719,7 @@
           "symbol": "croc_dragon",
           "id": 723,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 40,
           "names": {
             "en": "Draco-Fangs",
             "fr": "Crocs Dragon",
@@ -706,7 +738,7 @@
           "symbol": "thunder_fang",
           "id": 422,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 43,
           "names": {
             "en": "Thunder Fang",
             "fr": "Crocs Éclair",
@@ -725,7 +757,7 @@
           "symbol": "hyper_fang",
           "id": 158,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 48,
           "names": {
             "en": "Hyper Fang",
             "fr": "Croc de Mort",
@@ -744,7 +776,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -763,7 +795,7 @@
           "symbol": "psychic_fangs",
           "id": 706,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 58,
           "names": {
             "en": "Psychic Fangs",
             "fr": "Psycho-Croc",
@@ -782,7 +814,7 @@
           "symbol": "dragon_dance",
           "id": 349,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 63,
           "names": {
             "en": "Dragon Dance",
             "fr": "Danse Draco",
@@ -801,7 +833,7 @@
           "symbol": "outrage",
           "id": 200,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 69,
           "names": {
             "en": "Outrage",
             "fr": "Colère",
@@ -820,7 +852,7 @@
           "symbol": "cure_fang",
           "id": 771,
           "klass": "LevelLearnableMove",
-          "level": 66,
+          "level": 72,
           "names": {
             "en": "Cure Fang",
             "fr": "Guéridents",
@@ -839,7 +871,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 77,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -1784,6 +1816,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }

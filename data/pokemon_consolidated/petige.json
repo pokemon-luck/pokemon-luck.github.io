@@ -83,18 +83,18 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "string_shot",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "tackle",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "string_shot",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
@@ -109,7 +109,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "camouflage",
-          "level": 14
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
@@ -119,7 +119,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "night_shade",
-          "level": 21
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
@@ -129,27 +129,27 @@
         {
           "klass": "LevelLearnableMove",
           "move": "infestation",
-          "level": 30
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "scary_face",
-          "level": 34
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 38
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "agility",
-          "level": 43
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "lunge",
-          "level": 47
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
@@ -388,25 +388,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "string_shot",
-          "id": 81,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "String Shot",
-            "fr": "Sécrétion",
-            "it": "Millebave",
-            "de": "Fadenschuss",
-            "es": "Disparo Demora",
-            "ko": "실뿜기"
-          },
-          "category": "status",
-          "type": "bug",
-          "pp": 40,
-          "power": 0,
-          "accuracy": 95
-        },
-        {
           "symbol": "tackle",
           "id": 33,
           "klass": "LevelLearnableMove",
@@ -426,10 +407,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "string_shot",
+          "id": 81,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "String Shot",
+            "fr": "Sécrétion",
+            "it": "Millebave",
+            "de": "Fadenschuss",
+            "es": "Disparo Demora",
+            "ko": "실뿜기"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 40,
+          "power": 0,
+          "accuracy": 95
+        },
+        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -486,7 +486,7 @@
           "symbol": "camouflage",
           "id": 293,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 12,
           "names": {
             "en": "Camouflage",
             "fr": "Camouflage",
@@ -524,7 +524,7 @@
           "symbol": "night_shade",
           "id": 101,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 22,
           "names": {
             "en": "Night Shade",
             "fr": "Ombre Nocturne",
@@ -562,7 +562,7 @@
           "symbol": "infestation",
           "id": 611,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 28,
           "names": {
             "en": "Infestation",
             "fr": "Harcèlement",
@@ -581,7 +581,7 @@
           "symbol": "scary_face",
           "id": 184,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 30,
           "names": {
             "en": "Scary Face",
             "fr": "Grimace",
@@ -600,7 +600,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 35,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -619,7 +619,7 @@
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 40,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -638,7 +638,7 @@
           "symbol": "lunge",
           "id": 679,
           "klass": "LevelLearnableMove",
-          "level": 47,
+          "level": 45,
           "names": {
             "en": "Lunge",
             "fr": "Furie-Bond",

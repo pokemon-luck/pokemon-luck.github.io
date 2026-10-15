@@ -10,7 +10,7 @@ from PIL import Image
 # WEB_PROJECT_ROOT_FOLDER: The root directory of your web Pokédex project.
 
 FANGAME_ROOT_FOLDER = r'E:\Bureau\GameDev\PokemonFangames\PokemonLuck' # e.g., r'C:\Users\YourUser\Documents\RPG XP Projects\MyPokemonGame'
-WEB_PROJECT_ROOT_FOLDER = r'E:\Bureau\GameDev\PokemonFangames\pokemon-luck.github.io' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
+WEB_PROJECT_ROOT_FOLDER = r'E:\Bureau\GameDev\PokemonFangames\Tools\pokemon-luck.github.io' # e.g., r'C:\Users\YourUser\Documents\GitHub\my-pokedex-web'
 
 # Output directory within the web project for processed assets
 OUTPUT_DATA_FOLDER = os.path.join(WEB_PROJECT_ROOT_FOLDER, 'data')

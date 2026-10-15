@@ -89,62 +89,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 4
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leech_seed",
+          "move": "vine_whip",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 16
+          "level": 14
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_seed",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "payback",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 20
+          "level": 26
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sleep_powder",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "giga_drain",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 36
+          "move": "venoshock",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
+          "move": "sleep_powder",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "shadow_ball",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 50
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leech_life",
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 60
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 44
+          "level": 65
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonblast",
-          "level": 48
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -441,7 +466,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -460,7 +485,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -476,29 +501,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "leech_seed",
-          "id": 73,
+          "symbol": "vine_whip",
+          "id": 22,
           "klass": "LevelLearnableMove",
           "level": 12,
           "names": {
-            "en": "Leech Seed",
-            "fr": "Vampigraine",
-            "it": "Parassiseme",
-            "de": "Egelsamen",
-            "es": "Drenadoras",
-            "ko": "씨뿌리기"
+            "en": "Vine Whip",
+            "fr": "Fouet Lianes",
+            "it": "Frustata",
+            "de": "Rankenhieb",
+            "es": "Látigo Cepa",
+            "ko": "덩굴채찍"
           },
-          "category": "status",
+          "category": "physical",
           "type": "grass",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
+          "pp": 25,
+          "power": 45,
+          "accuracy": 100
         },
         {
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -514,10 +539,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "leech_seed",
+          "id": 73,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "payback",
+          "id": 371,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Payback",
+            "fr": "Représailles",
+            "it": "Rivincita",
+            "de": "Gegenstoß",
+            "es": "Vendetta",
+            "ko": "보복"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 26,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -533,10 +596,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 32,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -552,10 +634,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "sleep_powder",
           "id": 79,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 40,
           "names": {
             "en": "Sleep Powder",
             "fr": "Poudre Dodo",
@@ -571,48 +672,10 @@
           "accuracy": 75
         },
         {
-          "symbol": "giga_drain",
-          "id": 202,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "energy_ball",
-          "id": 412,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Energy Ball",
-            "fr": "Éco-Sphère",
-            "it": "Energipalla",
-            "de": "Energieball",
-            "es": "Energibola",
-            "ko": "에너지볼"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -628,10 +691,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "giga_drain",
+          "id": 202,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leech_life",
+          "id": 141,
+          "klass": "LevelLearnableMove",
+          "level": 55,
+          "names": {
+            "en": "Leech Life",
+            "fr": "Vampirisme",
+            "it": "Sanguisuga",
+            "de": "Blutsauger",
+            "es": "Chupavidas",
+            "ko": "흡혈"
+          },
+          "category": "physical",
+          "type": "bug",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 65,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -650,7 +770,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 70,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -761,25 +881,6 @@
           "accuracy": 90
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "TechLearnableMove",
@@ -816,25 +917,6 @@
           "pp": 10,
           "power": 20,
           "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "earth_power",
@@ -932,25 +1014,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "leech_life",
-          "id": 141,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Leech Life",
-            "fr": "Vampirisme",
-            "it": "Sanguisuga",
-            "de": "Blutsauger",
-            "es": "Chupavidas",
-            "ko": "흡혈"
-          },
-          "category": "physical",
-          "type": "bug",
-          "pp": 10,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "TechLearnableMove",
@@ -1024,25 +1087,6 @@
           "type": "ghost",
           "pp": 15,
           "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "payback",
-          "id": 371,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Payback",
-            "fr": "Représailles",
-            "it": "Rivincita",
-            "de": "Gegenstoß",
-            "es": "Vendetta",
-            "ko": "보복"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 10,
-          "power": 50,
           "accuracy": 100
         },
         {

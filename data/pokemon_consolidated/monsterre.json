@@ -72,98 +72,98 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "aqua_jet",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "mud_shot",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "yawn",
-          "level": 2
+          "move": "aqua_jet",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_tomb",
+          "move": "yawn",
           "level": 3
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "water_pulse",
-          "level": 5
+          "move": "rock_tomb",
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "curse",
+          "move": "water_pulse",
           "level": 10
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "scald",
+          "move": "curse",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rock_slide",
+          "move": "scald",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
+          "move": "rock_slide",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earth_power",
+          "move": "toxic_spikes",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aqua_tail",
+          "move": "earth_power",
           "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "stealth_rock",
+          "move": "aqua_tail",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earthquake",
+          "move": "stealth_rock",
           "level": 45
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "earthquake",
+          "level": 51
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 50
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 55
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 60
+          "level": 68
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 65
+          "level": 74
         },
         {
           "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 70
+          "level": 79
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fissure",
-          "level": 75
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -454,25 +454,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "aqua_jet",
-          "id": 453,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Aqua Jet",
-            "fr": "Aqua-Jet",
-            "it": "Acquagetto",
-            "de": "Wasserdüse",
-            "es": "Acua Jet",
-            "ko": "아쿠아제트"
-          },
-          "category": "physical",
-          "type": "water",
-          "pp": 20,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "mud_shot",
           "id": 341,
           "klass": "LevelLearnableMove",
@@ -492,10 +473,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "aqua_jet",
+          "id": 453,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Aqua Jet",
+            "fr": "Aqua-Jet",
+            "it": "Acquagetto",
+            "de": "Wasserdüse",
+            "es": "Acua Jet",
+            "ko": "아쿠아제트"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 3,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -514,7 +514,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 6,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -533,7 +533,7 @@
           "symbol": "water_pulse",
           "id": 352,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 10,
           "names": {
             "en": "Water Pulse",
             "fr": "Vibraqua",
@@ -552,7 +552,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 15,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -571,7 +571,7 @@
           "symbol": "scald",
           "id": 503,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 20,
           "names": {
             "en": "Scald",
             "fr": "Ébullition",
@@ -590,7 +590,7 @@
           "symbol": "rock_slide",
           "id": 157,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 25,
           "names": {
             "en": "Rock Slide",
             "fr": "Éboulement",
@@ -609,7 +609,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 30,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -628,7 +628,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 35,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -647,7 +647,7 @@
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 40,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -666,7 +666,7 @@
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Stealth Rock",
             "fr": "Piège de Roc",
@@ -685,7 +685,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 51,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -704,7 +704,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 57,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -723,7 +723,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 63,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -742,7 +742,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 68,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -761,7 +761,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 74,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -780,7 +780,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 79,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -799,7 +799,7 @@
           "symbol": "fissure",
           "id": 90,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 84,
           "names": {
             "en": "Fissure",
             "fr": "Abîme",

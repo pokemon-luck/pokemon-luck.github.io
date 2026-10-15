@@ -57,103 +57,93 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "powder_snow",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icicle_spear",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "acid",
-          "level": 8
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "harden",
-          "level": 12
+          "move": "smog",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
-          "level": 16
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_spray",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "horn_attack",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "avalanche",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "smokescreen",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "venoshock",
-          "level": 28
+          "move": "poison_jab",
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "icy_wind",
-          "level": 36
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 40
+          "move": "venoshock",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aurora_beam",
-          "level": 44
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_jab",
-          "level": 48
+          "move": "aurora_veil",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 52
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cross_poison",
-          "level": 56
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
-          "level": 60
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_armor",
-          "level": 64
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 68
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 72
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -451,25 +441,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -489,67 +460,67 @@
           "accuracy": 100
         },
         {
-          "symbol": "powder_snow",
-          "id": 181,
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "icicle_spear",
+          "id": 333,
           "klass": "LevelLearnableMove",
           "level": 4,
           "names": {
-            "en": "Powder Snow",
-            "fr": "Poudreuse",
-            "it": "Polneve",
-            "de": "Pulverschnee",
-            "es": "Nieve Polvo",
-            "ko": "눈싸라기"
+            "en": "Icicle Spear",
+            "fr": "Stalactite",
+            "it": "Gelolancia",
+            "de": "Eisspeer",
+            "es": "Carámbano",
+            "ko": "고드름침"
           },
-          "category": "special",
+          "category": "physical",
           "type": "ice",
-          "pp": 25,
-          "power": 40,
+          "pp": 30,
+          "power": 25,
           "accuracy": 100
         },
         {
-          "symbol": "acid",
-          "id": 51,
+          "symbol": "smog",
+          "id": 123,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
-            "en": "Acid",
-            "fr": "Acide",
-            "it": "Acido",
-            "de": "Säure",
-            "es": "Ácido",
-            "ko": "용해액"
+            "en": "Smog",
+            "fr": "Purédpois",
+            "it": "Smog",
+            "de": "Smog",
+            "es": "Polución",
+            "ko": "스모그"
           },
           "category": "special",
           "type": "poison",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "harden",
-          "id": 106,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Harden",
-            "fr": "Armure",
-            "it": "Rafforzatore",
-            "de": "Härtner",
-            "es": "Fortaleza",
-            "ko": "단단해지기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
+          "pp": 20,
+          "power": 30,
+          "accuracy": 70
         },
         {
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 10,
           "names": {
             "en": "Ice Shard",
             "fr": "Éclats Glace",
@@ -565,10 +536,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "acid_spray",
+          "id": 491,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Acid Spray",
+            "fr": "Bombe Acide",
+            "it": "Acidobomba",
+            "de": "Säurespeier",
+            "es": "Bomba Ácida",
+            "ko": "애시드봄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "horn_attack",
           "id": 30,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Horn Attack",
             "fr": "Koud’Korne",
@@ -584,124 +574,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "smokescreen",
-          "id": 108,
+          "symbol": "avalanche",
+          "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 20,
           "names": {
-            "en": "Smokescreen",
-            "fr": "Brouillard",
-            "it": "Muro di Fumo",
-            "de": "Rauchwolke",
-            "es": "Pantalla de Humo",
-            "ko": "연막"
+            "en": "Avalanche",
+            "fr": "Avalanche",
+            "it": "Slavina",
+            "de": "Lawine",
+            "es": "Alud",
+            "ko": "눈사태"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
+          "category": "physical",
+          "type": "ice",
           "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "ancient_power",
-          "id": 246,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Ancient Power",
-            "fr": "Pouvoir Antique",
-            "it": "Forzantica",
-            "de": "Antik-Kraft",
-            "es": "Poder Pasado",
-            "ko": "원시의힘"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 5,
           "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "icy_wind",
-          "id": 196,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Icy Wind",
-            "fr": "Vent Glace",
-            "it": "Ventogelato",
-            "de": "Eissturm",
-            "es": "Viento Hielo",
-            "ko": "얼다바람"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "toxic",
-          "id": 92,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
-          "symbol": "aurora_beam",
-          "id": 62,
-          "klass": "LevelLearnableMove",
-          "level": 44,
-          "names": {
-            "en": "Aurora Beam",
-            "fr": "Onde Boréale",
-            "it": "Raggiaurora",
-            "de": "Aurorastrahl",
-            "es": "Rayo Aurora",
-            "ko": "오로라빔"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 20,
-          "power": 65,
           "accuracy": 100
         },
         {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 25,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -717,10 +612,86 @@
           "accuracy": 100
         },
         {
+          "symbol": "ancient_power",
+          "id": 246,
+          "klass": "LevelLearnableMove",
+          "level": 30,
+          "names": {
+            "en": "Ancient Power",
+            "fr": "Pouvoir Antique",
+            "it": "Forzantica",
+            "de": "Antik-Kraft",
+            "es": "Poder Pasado",
+            "ko": "원시의힘"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 5,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 34,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aurora_beam",
+          "id": 62,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Aurora Beam",
+            "fr": "Onde Boréale",
+            "it": "Raggiaurora",
+            "de": "Aurorastrahl",
+            "es": "Rayo Aurora",
+            "ko": "오로라빔"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "aurora_veil",
+          "id": 694,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Aurora Veil",
+            "fr": "Voile Aurore",
+            "it": "Velaurora",
+            "de": "Auroraschleier",
+            "es": "Velo Aurora",
+            "ko": "오로라베일"
+          },
+          "category": "status",
+          "type": "ice",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 48,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -739,7 +710,7 @@
           "symbol": "cross_poison",
           "id": 440,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 53,
           "names": {
             "en": "Cross Poison",
             "fr": "Poison Croix",
@@ -755,29 +726,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "sludge_bomb",
-          "id": 188,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Sludge Bomb",
-            "fr": "Bombe Beurk",
-            "it": "Fangobomba",
-            "de": "Matschbombe",
-            "es": "Bomba Lodo",
-            "ko": "오물폭탄"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "acid_armor",
           "id": 151,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 58,
           "names": {
             "en": "Acid Armor",
             "fr": "Acidarmure",
@@ -796,7 +748,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 64,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -815,7 +767,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 70,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -831,23 +783,42 @@
           "accuracy": 70
         },
         {
-          "symbol": "avalanche",
-          "id": 419,
+          "symbol": "powder_snow",
+          "id": 181,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Avalanche",
-            "fr": "Avalanche",
-            "it": "Slavina",
-            "de": "Lawine",
-            "es": "Alud",
-            "ko": "눈사태"
+            "en": "Powder Snow",
+            "fr": "Poudreuse",
+            "it": "Polneve",
+            "de": "Pulverschnee",
+            "es": "Nieve Polvo",
+            "ko": "눈싸라기"
           },
-          "category": "physical",
+          "category": "special",
           "type": "ice",
-          "pp": 10,
-          "power": 60,
+          "pp": 25,
+          "power": 40,
           "accuracy": 100
+        },
+        {
+          "symbol": "icy_wind",
+          "id": 196,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "haze",
@@ -886,6 +857,44 @@
           "pp": 10,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "sludge_bomb",
+          "id": 188,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sludge Bomb",
+            "fr": "Bombe Beurk",
+            "it": "Fangobomba",
+            "de": "Matschbombe",
+            "es": "Bomba Lodo",
+            "ko": "오물폭탄"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
         },
         {
           "symbol": "toxic_spikes",

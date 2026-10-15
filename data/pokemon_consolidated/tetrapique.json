@@ -33,7 +33,7 @@
       "femaleRate": 50,
       "breedGroups": [
         4,
-        15
+        4
       ],
       "hatchSteps": 6400,
       "babyDbSymbol": "tetrapique",
@@ -83,22 +83,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_throw",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smack_down",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -108,52 +108,52 @@
         {
           "klass": "LevelLearnableMove",
           "move": "wyrm_dart",
-          "level": 22
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_slash",
-          "level": 25
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 30
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 34
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stealth_rock",
-          "level": 38
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sandstorm",
-          "level": 45
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "drill_peck",
-          "level": 50
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 55
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "whirlwind",
-          "level": 60
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brave_bird",
-          "level": 64
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
@@ -163,7 +163,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 72
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
@@ -178,7 +178,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 86
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -351,6 +351,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "feather_dance"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "steel_wing"
         }
       ],
       "names": {
@@ -474,7 +482,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -493,7 +501,7 @@
           "symbol": "rock_throw",
           "id": 88,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Rock Throw",
             "fr": "Jet-Pierres",
@@ -512,7 +520,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -531,7 +539,7 @@
           "symbol": "smack_down",
           "id": 479,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Smack Down",
             "fr": "Anti-Air",
@@ -569,7 +577,7 @@
           "symbol": "wyrm_dart",
           "id": 796,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 23,
           "names": {
             "en": "Wyrm Dart",
             "fr": "Dard Draconique",
@@ -588,7 +596,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -607,7 +615,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 33,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -626,7 +634,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 37,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -645,7 +653,7 @@
           "symbol": "stealth_rock",
           "id": 446,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 42,
           "names": {
             "en": "Stealth Rock",
             "fr": "Piège de Roc",
@@ -664,7 +672,7 @@
           "symbol": "sandstorm",
           "id": 201,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 47,
           "names": {
             "en": "Sandstorm",
             "fr": "Tempête de Sable",
@@ -683,7 +691,7 @@
           "symbol": "drill_peck",
           "id": 65,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 52,
           "names": {
             "en": "Drill Peck",
             "fr": "Bec Vrille",
@@ -702,7 +710,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 56,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -721,7 +729,7 @@
           "symbol": "whirlwind",
           "id": 18,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 58,
           "names": {
             "en": "Whirlwind",
             "fr": "Cyclone",
@@ -740,7 +748,7 @@
           "symbol": "brave_bird",
           "id": 413,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 63,
           "names": {
             "en": "Brave Bird",
             "fr": "Rapace",
@@ -778,7 +786,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 73,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -835,7 +843,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 86,
+          "level": 85,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -1457,6 +1465,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "feather_dance",
+          "id": 297,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Feather Dance",
+            "fr": "Danse Plumes",
+            "it": "Danzadipiume",
+            "de": "Daunenreigen",
+            "es": "Danza Pluma",
+            "ko": "깃털댄스"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "steel_wing",
+          "id": 211,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Steel Wing",
+            "fr": "Ailes d’Acier",
+            "it": "Alacciaio",
+            "de": "Stahlflügel",
+            "es": "Ala de Acero",
+            "ko": "강철날개"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 25,
+          "power": 70,
+          "accuracy": 90
         }
       ]
     }

@@ -83,78 +83,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "play_nice",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "poison_gas",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fairy_wind",
-          "level": 8
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_spray",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spite",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 20
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 24
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disarming_voice",
-          "level": 28
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 32
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "torment",
-          "level": 36
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 40
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 45
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 50
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 55
+          "level": 47
         },
         {
           "klass": "TechLearnableMove",
@@ -331,6 +331,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "flatter"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "copycat"
         }
       ],
       "names": {
@@ -413,25 +421,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "play_nice",
           "id": 589,
           "klass": "LevelLearnableMove",
@@ -451,10 +440,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Poison Gas",
             "fr": "Gaz Toxik",
@@ -473,7 +481,7 @@
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 6,
           "names": {
             "en": "Fairy Wind",
             "fr": "Vent Féérique",
@@ -492,7 +500,7 @@
           "symbol": "acid_spray",
           "id": 491,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Acid Spray",
             "fr": "Bombe Acide",
@@ -511,7 +519,7 @@
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 11,
           "names": {
             "en": "Spite",
             "fr": "Dépit",
@@ -530,7 +538,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 14,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -549,7 +557,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -568,7 +576,7 @@
           "symbol": "disarming_voice",
           "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 22,
           "names": {
             "en": "Disarming Voice",
             "fr": "Voix Enjôleuse",
@@ -587,7 +595,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 26,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -606,7 +614,7 @@
           "symbol": "torment",
           "id": 259,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Torment",
             "fr": "Tourmente",
@@ -625,7 +633,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 32,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -644,7 +652,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 37,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -663,7 +671,7 @@
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 42,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -682,7 +690,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 47,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -1412,6 +1420,44 @@
             "de": "Leidteiler",
             "es": "Divide Dolor",
             "ko": "아픔나누기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "flatter",
+          "id": 260,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Flatter",
+            "fr": "Flatterie",
+            "it": "Adulazione",
+            "de": "Schmeichler",
+            "es": "Camelo",
+            "ko": "부추기기"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "copycat",
+          "id": 383,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Copycat",
+            "fr": "Photocopie",
+            "it": "Copione",
+            "de": "Imitator",
+            "es": "Copión",
+            "ko": "흉내쟁이"
           },
           "category": "status",
           "type": "normal",

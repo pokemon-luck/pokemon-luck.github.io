@@ -99,62 +99,72 @@
         {
           "klass": "LevelLearnableMove",
           "move": "bug_bite",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 8
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "struggle_bug",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "struggle_bug",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "vacuum_wave",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 18
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "endure",
-          "level": 21
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "counter",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "endure",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "counter",
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "reversal",
-          "level": 33
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "rest",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "reversal",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "bug_buzz",
-          "level": 41
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bulk_up",
-          "level": 45
+          "level": 57
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hyper_voice",
+          "level": 62
         },
         {
           "klass": "TechLearnableMove",
@@ -417,7 +427,7 @@
           "symbol": "bug_bite",
           "id": 450,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Bug Bite",
             "fr": "Piqûre",
@@ -436,7 +446,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 10,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -455,7 +465,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 15,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -474,7 +484,7 @@
           "symbol": "struggle_bug",
           "id": 522,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 19,
           "names": {
             "en": "Struggle Bug",
             "fr": "Survinsecte",
@@ -490,10 +500,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "vacuum_wave",
+          "id": 410,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Vacuum Wave",
+            "fr": "Onde Vide",
+            "it": "Vuotonda",
+            "de": "Vakuumwelle",
+            "es": "Onda Vacío",
+            "ko": "진공파"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 25,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -512,7 +541,7 @@
           "symbol": "endure",
           "id": 203,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 27,
           "names": {
             "en": "Endure",
             "fr": "Ténacité",
@@ -531,7 +560,7 @@
           "symbol": "counter",
           "id": 68,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 32,
           "names": {
             "en": "Counter",
             "fr": "Riposte",
@@ -550,7 +579,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 37,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -569,7 +598,7 @@
           "symbol": "reversal",
           "id": 179,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 42,
           "names": {
             "en": "Reversal",
             "fr": "Contre",
@@ -588,7 +617,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 47,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -607,7 +636,7 @@
           "symbol": "bug_buzz",
           "id": 405,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 52,
           "names": {
             "en": "Bug Buzz",
             "fr": "Bourdon",
@@ -626,7 +655,7 @@
           "symbol": "bulk_up",
           "id": 339,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 57,
           "names": {
             "en": "Bulk Up",
             "fr": "Gonflette",
@@ -640,6 +669,25 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "hyper_voice",
+          "id": 304,
+          "klass": "LevelLearnableMove",
+          "level": 62,
+          "names": {
+            "en": "Hyper Voice",
+            "fr": "Mégaphone",
+            "it": "Granvoce",
+            "de": "Schallwelle",
+            "es": "Vozarrón",
+            "ko": "하이퍼보이스"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
         },
         {
           "symbol": "quick_attack",
@@ -680,25 +728,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "hyper_voice",
-          "id": 304,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Hyper Voice",
-            "fr": "Mégaphone",
-            "it": "Granvoce",
-            "de": "Schallwelle",
-            "es": "Vozarrón",
-            "ko": "하이퍼보이스"
-          },
-          "category": "special",
-          "type": "normal",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
           "symbol": "double_edge",
           "id": 38,
           "klass": "TechLearnableMove",
@@ -734,25 +763,6 @@
           "type": "fighting",
           "pp": 30,
           "power": 30,
-          "accuracy": 100
-        },
-        {
-          "symbol": "vacuum_wave",
-          "id": 410,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Vacuum Wave",
-            "fr": "Onde Vide",
-            "it": "Vuotonda",
-            "de": "Vakuumwelle",
-            "es": "Onda Vacío",
-            "ko": "진공파"
-          },
-          "category": "special",
-          "type": "fighting",
-          "pp": 30,
-          "power": 40,
           "accuracy": 100
         },
         {

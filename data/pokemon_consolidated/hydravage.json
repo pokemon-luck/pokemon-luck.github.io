@@ -32,8 +32,8 @@
       "catchRate": 45,
       "femaleRate": 50,
       "breedGroups": [
-        15,
-        15
+        2,
+        14
       ],
       "hatchSteps": 5120,
       "babyDbSymbol": "angouille",
@@ -72,28 +72,28 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tail_whip",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tail_whip",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_breath",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flail",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,22 +103,22 @@
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_tail",
-          "level": 24
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swagger",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_fang",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "coil",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -128,12 +128,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "waterfall",
-          "level": 44
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "haze",
-          "level": 48
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
@@ -143,17 +143,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 56
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 60
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draco_meteor",
-          "level": 64
+          "level": 69
         },
         {
           "klass": "TechLearnableMove",
@@ -302,6 +302,42 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "poison_fang"
         }
       ],
       "names": {
@@ -384,25 +420,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tail_whip",
-          "id": 39,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tail Whip",
-            "fr": "Mimi-Queue",
-            "it": "Colpocoda",
-            "de": "Rutenschlag",
-            "es": "Látigo",
-            "ko": "꼬리흔들기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -422,10 +439,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tail_whip",
+          "id": 39,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tail Whip",
+            "fr": "Mimi-Queue",
+            "it": "Colpocoda",
+            "de": "Rutenschlag",
+            "es": "Látigo",
+            "ko": "꼬리흔들기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -444,7 +480,7 @@
           "symbol": "dragon_breath",
           "id": 225,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Dragon Breath",
             "fr": "Draco-Souffle",
@@ -463,7 +499,7 @@
           "symbol": "flail",
           "id": 175,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Flail",
             "fr": "Gigotage",
@@ -501,7 +537,7 @@
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 25,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -520,7 +556,7 @@
           "symbol": "swagger",
           "id": 207,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Swagger",
             "fr": "Vantardise",
@@ -539,7 +575,7 @@
           "symbol": "ice_fang",
           "id": 423,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Ice Fang",
             "fr": "Crocs Givre",
@@ -558,7 +594,7 @@
           "symbol": "coil",
           "id": 489,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Coil",
             "fr": "Enroulement",
@@ -596,7 +632,7 @@
           "symbol": "waterfall",
           "id": 127,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 45,
           "names": {
             "en": "Waterfall",
             "fr": "Cascade",
@@ -615,7 +651,7 @@
           "symbol": "haze",
           "id": 114,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 47,
           "names": {
             "en": "Haze",
             "fr": "Buée Noire",
@@ -653,7 +689,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 57,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -672,7 +708,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 63,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -691,7 +727,7 @@
           "symbol": "draco_meteor",
           "id": 434,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 69,
           "names": {
             "en": "Draco Meteor",
             "fr": "Draco-Météore",
@@ -1237,6 +1273,158 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "thunder_fang",
+          "id": 422,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Thunder Fang",
+            "fr": "Crocs Éclair",
+            "it": "Fulmindenti",
+            "de": "Donnerzahn",
+            "es": "Colmillo Rayo",
+            "ko": "번개엄니"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "poison_fang",
+          "id": 305,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
+          "accuracy": 100
         }
       ]
     }

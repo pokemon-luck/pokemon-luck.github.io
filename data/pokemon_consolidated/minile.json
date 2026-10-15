@@ -102,67 +102,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 8
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "haze",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leech_seed",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "bubble_beam",
           "level": 16
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mega_drain",
+          "move": "bubble_beam",
           "level": 20
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aqua_ring",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "magical_leaf",
-          "level": 28
+          "move": "mega_drain",
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 32
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "giga_drain",
+          "move": "razor_leaf",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "aqua_ring",
           "level": 36
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rain_dance",
+          "move": "magical_leaf",
           "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 44
+          "move": "rain_dance",
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "giga_drain",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "surf",
-          "level": 48
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 60
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 52
+          "level": 65
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -335,6 +350,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "aromatherapy"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "ingrain"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "heavy_slam"
         }
       ],
       "names": {
@@ -458,7 +481,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -477,7 +500,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -493,10 +516,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "haze",
+          "id": 114,
+          "klass": "LevelLearnableMove",
+          "level": 11,
+          "names": {
+            "en": "Haze",
+            "fr": "Buée Noire",
+            "it": "Nube",
+            "de": "Dunkelnebel",
+            "es": "Niebla",
+            "ko": "흑안개"
+          },
+          "category": "status",
+          "type": "ice",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "leech_seed",
           "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 16,
           "names": {
             "en": "Leech Seed",
             "fr": "Vampigraine",
@@ -515,7 +557,7 @@
           "symbol": "bubble_beam",
           "id": 61,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 20,
           "names": {
             "en": "Bubble Beam",
             "fr": "Bulles d’O",
@@ -534,7 +576,7 @@
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -550,10 +592,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "brine",
+          "id": 362,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Brine",
+            "fr": "Saumure",
+            "it": "Acquadisale",
+            "de": "Lake",
+            "es": "Salmuera",
+            "ko": "소금물"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "razor_leaf",
+          "id": 75,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Razor Leaf",
+            "fr": "Tranch’Herbe",
+            "it": "Foglielama",
+            "de": "Rasierblatt",
+            "es": "Hoja Afilada",
+            "ko": "잎날가르기"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "aqua_ring",
           "id": 392,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 36,
           "names": {
             "en": "Aqua Ring",
             "fr": "Anneau Hydro",
@@ -572,7 +652,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 40,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -588,48 +668,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "brine",
-          "id": 362,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Brine",
-            "fr": "Saumure",
-            "it": "Acquadisale",
-            "de": "Lake",
-            "es": "Salmuera",
-            "ko": "소금물"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "giga_drain",
-          "id": 202,
-          "klass": "LevelLearnableMove",
-          "level": 36,
-          "names": {
-            "en": "Giga Drain",
-            "fr": "Giga-Sangsue",
-            "it": "Gigassorbimento",
-            "de": "Gigasauger",
-            "es": "Gigadrenado",
-            "ko": "기가드레인"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 10,
-          "power": 75,
-          "accuracy": 100
-        },
-        {
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -645,29 +687,29 @@
           "accuracy": 0
         },
         {
-          "symbol": "energy_ball",
-          "id": 412,
+          "symbol": "giga_drain",
+          "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 50,
           "names": {
-            "en": "Energy Ball",
-            "fr": "Éco-Sphère",
-            "it": "Energipalla",
-            "de": "Energieball",
-            "es": "Energibola",
-            "ko": "에너지볼"
+            "en": "Giga Drain",
+            "fr": "Giga-Sangsue",
+            "it": "Gigassorbimento",
+            "de": "Gigasauger",
+            "es": "Gigadrenado",
+            "ko": "기가드레인"
           },
           "category": "special",
           "type": "grass",
           "pp": 10,
-          "power": 90,
+          "power": 75,
           "accuracy": 100
         },
         {
           "symbol": "surf",
           "id": 57,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 55,
           "names": {
             "en": "Surf",
             "fr": "Surf",
@@ -683,10 +725,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 65,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -697,6 +758,25 @@
           },
           "category": "special",
           "type": "ground",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
+          },
+          "category": "special",
+          "type": "grass",
           "pp": 10,
           "power": 90,
           "accuracy": 100
@@ -776,44 +856,6 @@
           "pp": 5,
           "power": 110,
           "accuracy": 80
-        },
-        {
-          "symbol": "razor_leaf",
-          "id": 75,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Razor Leaf",
-            "fr": "Tranch’Herbe",
-            "it": "Foglielama",
-            "de": "Rasierblatt",
-            "es": "Hoja Afilada",
-            "ko": "잎날가르기"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 25,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "seed_bomb",
-          "id": 402,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Seed Bomb",
-            "fr": "Canon Graine",
-            "it": "Semebomba",
-            "de": "Samenbomben",
-            "es": "Bomba Germen",
-            "ko": "씨폭탄"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
         },
         {
           "symbol": "leaf_storm",
@@ -1177,25 +1219,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "haze",
-          "id": 114,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Haze",
-            "fr": "Buée Noire",
-            "it": "Nube",
-            "de": "Dunkelnebel",
-            "es": "Niebla",
-            "ko": "흑안개"
-          },
-          "category": "status",
-          "type": "ice",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "sunny_day",
           "id": 241,
           "klass": "TechLearnableMove",
@@ -1365,6 +1388,44 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "ingrain",
+          "id": 275,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ingrain",
+            "fr": "Racines",
+            "it": "Radicamento",
+            "de": "Verwurzler",
+            "es": "Arraigo",
+            "ko": "뿌리박기"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "heavy_slam",
+          "id": 484,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Heavy Slam",
+            "fr": "Tacle Lourd",
+            "it": "Pesobomba",
+            "de": "Rammboss",
+            "es": "Cuerpo Pesado",
+            "ko": "헤비봄버"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

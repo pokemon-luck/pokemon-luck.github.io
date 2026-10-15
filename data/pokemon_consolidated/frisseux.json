@@ -83,7 +83,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_shard",
+          "move": "encore",
           "level": 1
         },
         {
@@ -93,83 +93,83 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "encore",
+          "move": "ice_shard",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_ball",
-          "level": 2
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "icy_wind",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "icy_wind",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "slack_off",
-          "level": 6
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 10
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "avalanche",
-          "level": 15
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "yawn",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psycho_cut",
-          "level": 25
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aurora_veil",
-          "level": 30
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_punch",
-          "level": 35
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zen_headbutt",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 45
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 50
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 55
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 60
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icicle_crash",
-          "level": 65
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
@@ -461,22 +461,22 @@
       ],
       "moves_data": [
         {
-          "symbol": "ice_shard",
-          "id": 420,
+          "symbol": "encore",
+          "id": 227,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Ice Shard",
-            "fr": "Éclats Glace",
-            "it": "Geloscheggia",
-            "de": "Eissplitter",
-            "es": "Canto Helado",
-            "ko": "얼음뭉치"
+            "en": "Encore",
+            "fr": "Encore",
+            "it": "Ripeti",
+            "de": "Zugabe",
+            "es": "Otra Vez",
+            "ko": "앵콜"
           },
-          "category": "physical",
-          "type": "ice",
-          "pp": 30,
-          "power": 40,
+          "category": "status",
+          "type": "normal",
+          "pp": 5,
+          "power": 0,
           "accuracy": 100
         },
         {
@@ -499,29 +499,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "encore",
-          "id": 227,
+          "symbol": "ice_shard",
+          "id": 420,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Encore",
-            "fr": "Encore",
-            "it": "Ripeti",
-            "de": "Zugabe",
-            "es": "Otra Vez",
-            "ko": "앵콜"
+            "en": "Ice Shard",
+            "fr": "Éclats Glace",
+            "it": "Geloscheggia",
+            "de": "Eissplitter",
+            "es": "Canto Helado",
+            "ko": "얼음뭉치"
           },
-          "category": "status",
-          "type": "normal",
-          "pp": 5,
-          "power": 0,
+          "category": "physical",
+          "type": "ice",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "ice_ball",
           "id": 301,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 4,
           "names": {
             "en": "Ice Ball",
             "fr": "Ball’Glace",
@@ -540,7 +540,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 8,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -559,7 +559,7 @@
           "symbol": "slack_off",
           "id": 303,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 13,
           "names": {
             "en": "Slack Off",
             "fr": "Paresse",
@@ -578,7 +578,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 17,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -597,7 +597,7 @@
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 21,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -616,7 +616,7 @@
           "symbol": "yawn",
           "id": 281,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Yawn",
             "fr": "Bâillement",
@@ -635,7 +635,7 @@
           "symbol": "psycho_cut",
           "id": 427,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Psycho Cut",
             "fr": "Coupe Psycho",
@@ -654,7 +654,7 @@
           "symbol": "aurora_veil",
           "id": 694,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 33,
           "names": {
             "en": "Aurora Veil",
             "fr": "Voile Aurore",
@@ -673,7 +673,7 @@
           "symbol": "ice_punch",
           "id": 8,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 38,
           "names": {
             "en": "Ice Punch",
             "fr": "Poing Glace",
@@ -692,7 +692,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -711,7 +711,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 48,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -730,7 +730,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -749,7 +749,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 58,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -768,7 +768,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 62,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -787,7 +787,7 @@
           "symbol": "icicle_crash",
           "id": 556,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 66,
           "names": {
             "en": "Icicle Crash",
             "fr": "Chute Glace",

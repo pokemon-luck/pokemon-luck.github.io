@@ -72,108 +72,108 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "tail_whip",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "absorb",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
-          "level": 5
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "peck",
-          "level": 9
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 12
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_leaf",
-          "level": 16
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acrobatics",
-          "level": 20
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "magical_leaf",
-          "level": 24
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "air_slash",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "taunt",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "taunt",
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "aerial_ace",
-          "level": 36
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_drain",
-          "level": 40
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leaf_blade",
-          "level": 44
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hurricane",
           "level": 48
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "hurricane",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "energy_ball",
-          "level": 52
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 56
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "leaf_storm",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sky_attack",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonblast",
           "level": 70
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "solar_beam",
+          "move": "sky_attack",
           "level": 75
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "moonblast",
+          "level": 80
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "solar_beam",
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -500,25 +500,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "tail_whip",
           "id": 39,
           "klass": "LevelLearnableMove",
@@ -538,10 +519,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "absorb",
           "id": 71,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Absorb",
             "fr": "Vole-Vie",
@@ -560,7 +560,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 7,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -579,7 +579,7 @@
           "symbol": "peck",
           "id": 64,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 10,
           "names": {
             "en": "Peck",
             "fr": "Picpic",
@@ -598,7 +598,7 @@
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 15,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -617,7 +617,7 @@
           "symbol": "razor_leaf",
           "id": 75,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Razor Leaf",
             "fr": "Tranch’Herbe",
@@ -636,7 +636,7 @@
           "symbol": "acrobatics",
           "id": 512,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 23,
           "names": {
             "en": "Acrobatics",
             "fr": "Acrobatie",
@@ -655,7 +655,7 @@
           "symbol": "magical_leaf",
           "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 27,
           "names": {
             "en": "Magical Leaf",
             "fr": "Feuille Magik",
@@ -674,7 +674,7 @@
           "symbol": "air_slash",
           "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 32,
           "names": {
             "en": "Air Slash",
             "fr": "Lame d’Air",
@@ -693,7 +693,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 34,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -712,7 +712,7 @@
           "symbol": "aerial_ace",
           "id": 332,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 38,
           "names": {
             "en": "Aerial Ace",
             "fr": "Aéropique",
@@ -731,7 +731,7 @@
           "symbol": "giga_drain",
           "id": 202,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 43,
           "names": {
             "en": "Giga Drain",
             "fr": "Giga-Sangsue",
@@ -750,7 +750,7 @@
           "symbol": "leaf_blade",
           "id": 348,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 48,
           "names": {
             "en": "Leaf Blade",
             "fr": "Lame Feuille",
@@ -769,7 +769,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 54,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -788,7 +788,7 @@
           "symbol": "energy_ball",
           "id": 412,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 59,
           "names": {
             "en": "Energy Ball",
             "fr": "Éco-Sphère",
@@ -807,7 +807,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 64,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -826,7 +826,7 @@
           "symbol": "leaf_storm",
           "id": 437,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 70,
           "names": {
             "en": "Leaf Storm",
             "fr": "Tempête Verte",
@@ -845,7 +845,7 @@
           "symbol": "sky_attack",
           "id": 143,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 75,
           "names": {
             "en": "Sky Attack",
             "fr": "Piqué",
@@ -864,7 +864,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 80,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -883,7 +883,7 @@
           "symbol": "solar_beam",
           "id": 76,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 85,
           "names": {
             "en": "Solar Beam",
             "fr": "Lance-Soleil",

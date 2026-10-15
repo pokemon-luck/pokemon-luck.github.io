@@ -32,7 +32,7 @@
           "conditions": [
             {
               "type": "minLevel",
-              "value": 30
+              "value": 35
             },
             {
               "type": "itemHold",
@@ -121,7 +121,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "dragon_tail",
-          "level": 13
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
@@ -131,67 +131,62 @@
         {
           "klass": "LevelLearnableMove",
           "move": "wyrm_dart",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "smokescreen",
           "level": 19
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "venoshock",
-          "level": 22
+          "move": "smokescreen",
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "dragon_breath",
+          "move": "venoshock",
           "level": 25
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scale_rake",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_breath",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 28
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spikes",
-          "level": 31
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "crunch",
-          "level": 34
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "sludge_bomb",
-          "level": 37
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic_spikes",
-          "level": 40
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dragon_pulse",
           "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "rest",
-          "level": 46
+          "move": "sludge_bomb",
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "toxic",
-          "level": 50
+          "move": "toxic_spikes",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_pulse",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rest",
+          "level": 63
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 55
+          "level": 68
         },
         {
           "klass": "TechLearnableMove",
@@ -396,6 +391,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "liquidation"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "coil"
         }
       ],
       "names": {
@@ -576,7 +579,7 @@
           "symbol": "dragon_tail",
           "id": 525,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 14,
           "names": {
             "en": "Dragon Tail",
             "fr": "Draco-Queue",
@@ -614,7 +617,7 @@
           "symbol": "wyrm_dart",
           "id": 796,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 19,
           "names": {
             "en": "Wyrm Dart",
             "fr": "Dard Draconique",
@@ -633,7 +636,7 @@
           "symbol": "smokescreen",
           "id": 108,
           "klass": "LevelLearnableMove",
-          "level": 19,
+          "level": 21,
           "names": {
             "en": "Smokescreen",
             "fr": "Brouillard",
@@ -652,7 +655,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 25,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -668,10 +671,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scale_rake",
+          "id": 797,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Scale Rake",
+            "fr": "Râpe-Écailles",
+            "it": "Scale Rake",
+            "de": "Scale Rake",
+            "es": "Scale Rake",
+            "ko": "Scale Rake"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 20,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
           "symbol": "dragon_breath",
           "id": 225,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 33,
           "names": {
             "en": "Dragon Breath",
             "fr": "Draco-Souffle",
@@ -690,7 +712,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 38,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -709,7 +731,7 @@
           "symbol": "spikes",
           "id": 191,
           "klass": "LevelLearnableMove",
-          "level": 31,
+          "level": 43,
           "names": {
             "en": "Spikes",
             "fr": "Picots",
@@ -725,29 +747,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "crunch",
-          "id": 242,
-          "klass": "LevelLearnableMove",
-          "level": 34,
-          "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 48,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -766,7 +769,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 53,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -785,7 +788,7 @@
           "symbol": "dragon_pulse",
           "id": 406,
           "klass": "LevelLearnableMove",
-          "level": 43,
+          "level": 58,
           "names": {
             "en": "Dragon Pulse",
             "fr": "Draco-Choc",
@@ -804,7 +807,7 @@
           "symbol": "rest",
           "id": 156,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 63,
           "names": {
             "en": "Rest",
             "fr": "Repos",
@@ -820,29 +823,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "toxic",
-          "id": 92,
-          "klass": "LevelLearnableMove",
-          "level": 50,
-          "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 68,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -1314,6 +1298,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "metal_claw",
           "id": 232,
           "klass": "TechLearnableMove",
@@ -1504,6 +1507,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
           "symbol": "metal_sound",
           "id": 319,
           "klass": "TechLearnableMove",
@@ -1594,6 +1616,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "liquidation",
+          "id": 710,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Liquidation",
+            "fr": "Aqua-Brèche",
+            "it": "Idrobreccia",
+            "de": "Aquadurchstoß",
+            "es": "Hidroariete",
+            "ko": "아쿠아브레이크"
+          },
+          "category": "physical",
+          "type": "water",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "coil",
+          "id": 489,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Coil",
+            "fr": "Enroulement",
+            "it": "Arrotola",
+            "de": "Einrollen",
+            "es": "Enrosque",
+            "ko": "똬리틀기"
+          },
+          "category": "status",
+          "type": "poison",
           "pp": 20,
           "power": 0,
           "accuracy": 0

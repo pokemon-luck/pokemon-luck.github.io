@@ -89,7 +89,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "water_gun",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
@@ -104,12 +104,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "mud_shot",
-          "level": 12
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_jet",
-          "level": 15
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
@@ -124,12 +124,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sludge",
-          "level": 25
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 29
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
@@ -139,32 +139,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 37
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aqua_tail",
-          "level": 41
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 45
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
           "move": "muddy_water",
-          "level": 49
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "curse",
           "level": 53
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "curse",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "fissure",
-          "level": 57
+          "level": 63
         },
         {
           "klass": "TechLearnableMove",
@@ -373,6 +373,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "acid_armor"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "nightmare"
         }
       ],
       "names": {
@@ -477,7 +485,7 @@
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Water Gun",
             "fr": "Pistolet à O",
@@ -534,7 +542,7 @@
           "symbol": "mud_shot",
           "id": 341,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 13,
           "names": {
             "en": "Mud Shot",
             "fr": "Tir de Boue",
@@ -553,7 +561,7 @@
           "symbol": "aqua_jet",
           "id": 453,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 16,
           "names": {
             "en": "Aqua Jet",
             "fr": "Aqua-Jet",
@@ -610,7 +618,7 @@
           "symbol": "sludge",
           "id": 124,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 24,
           "names": {
             "en": "Sludge",
             "fr": "Détritus",
@@ -629,7 +637,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 28,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -667,7 +675,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 38,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -686,7 +694,7 @@
           "symbol": "aqua_tail",
           "id": 401,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 43,
           "names": {
             "en": "Aqua Tail",
             "fr": "Hydro-Queue",
@@ -705,7 +713,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 48,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -724,7 +732,7 @@
           "symbol": "muddy_water",
           "id": 330,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 53,
           "names": {
             "en": "Muddy Water",
             "fr": "Ocroupi",
@@ -743,7 +751,7 @@
           "symbol": "curse",
           "id": 174,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 58,
           "names": {
             "en": "Curse",
             "fr": "Malédiction",
@@ -762,7 +770,7 @@
           "symbol": "fissure",
           "id": 90,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 63,
           "names": {
             "en": "Fissure",
             "fr": "Abîme",
@@ -1650,6 +1658,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "acid_armor",
+          "id": 151,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "nightmare",
+          "id": 171,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Nightmare",
+            "fr": "Cauchemar",
+            "it": "Incubo",
+            "de": "Nachtmahr",
+            "es": "Pesadilla",
+            "ko": "악몽"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

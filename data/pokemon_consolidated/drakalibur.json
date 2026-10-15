@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "harden",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "harden",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sacred_sword",
+          "move": "earthquake",
           "level": 40
         },
         {
@@ -142,7 +142,7 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "earthquake",
+          "move": "sacred_sword",
           "level": 50
         },
         {
@@ -483,25 +483,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
@@ -519,6 +500,25 @@
           "pp": 30,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "metal_claw",
@@ -711,22 +711,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "sacred_sword",
-          "id": 533,
+          "symbol": "earthquake",
+          "id": 89,
           "klass": "LevelLearnableMove",
           "level": 40,
           "names": {
-            "en": "Sacred Sword",
-            "fr": "Lame Sainte",
-            "it": "Spadasolenne",
-            "de": "Sanctoklinge",
-            "es": "Espada Santa",
-            "ko": "성스러운칼"
+            "en": "Earthquake",
+            "fr": "Séisme",
+            "it": "Terremoto",
+            "de": "Erdbeben",
+            "es": "Terremoto",
+            "ko": "지진"
           },
           "category": "physical",
-          "type": "fighting",
-          "pp": 15,
-          "power": 90,
+          "type": "ground",
+          "pp": 10,
+          "power": 100,
           "accuracy": 100
         },
         {
@@ -749,22 +749,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "earthquake",
-          "id": 89,
+          "symbol": "sacred_sword",
+          "id": 533,
           "klass": "LevelLearnableMove",
           "level": 50,
           "names": {
-            "en": "Earthquake",
-            "fr": "Séisme",
-            "it": "Terremoto",
-            "de": "Erdbeben",
-            "es": "Terremoto",
-            "ko": "지진"
+            "en": "Sacred Sword",
+            "fr": "Lame Sainte",
+            "it": "Spadasolenne",
+            "de": "Sanctoklinge",
+            "es": "Espada Santa",
+            "ko": "성스러운칼"
           },
           "category": "physical",
-          "type": "ground",
-          "pp": 10,
-          "power": 100,
+          "type": "fighting",
+          "pp": 15,
+          "power": 90,
           "accuracy": 100
         },
         {

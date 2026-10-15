@@ -94,6 +94,11 @@
         {
           "klass": "LevelLearnableMove",
           "move": "string_shot",
+          "level": 3
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "minimize",
           "level": 5
         },
         {
@@ -103,53 +108,63 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "minimize",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "bullet_seed",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sleep_powder",
-          "level": 18
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "powder",
-          "level": 22
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "acid_armor",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 30
+          "move": "struggle_bug",
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_powder",
-          "level": 34
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "powder",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_powder",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "acid_armor",
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "first_impression",
-          "level": 45
+          "level": 37
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bug_buzz",
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "egg_bomb",
-          "level": 50
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "attack_order",
-          "level": 60
+          "level": 58
         },
         {
           "klass": "TechLearnableMove",
@@ -286,6 +301,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "body_press"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "recover"
         }
       ],
       "names": {
@@ -409,7 +432,7 @@
           "symbol": "string_shot",
           "id": 81,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "String Shot",
             "fr": "Sécrétion",
@@ -423,6 +446,25 @@
           "pp": 40,
           "power": 0,
           "accuracy": 95
+        },
+        {
+          "symbol": "minimize",
+          "id": 107,
+          "klass": "LevelLearnableMove",
+          "level": 5,
+          "names": {
+            "en": "Minimize",
+            "fr": "Lilliput",
+            "it": "Minimizzato",
+            "de": "Komprimator",
+            "es": "Reducción",
+            "ko": "작아지기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "infestation",
@@ -444,29 +486,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "minimize",
-          "id": 107,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Minimize",
-            "fr": "Lilliput",
-            "it": "Minimizzato",
-            "de": "Komprimator",
-            "es": "Reducción",
-            "ko": "작아지기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "bullet_seed",
           "id": 331,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 11,
           "names": {
             "en": "Bullet Seed",
             "fr": "Balle Graine",
@@ -482,86 +505,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "sleep_powder",
-          "id": 79,
+          "symbol": "struggle_bug",
+          "id": 522,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 15,
           "names": {
-            "en": "Sleep Powder",
-            "fr": "Poudre Dodo",
-            "it": "Sonnifero",
-            "de": "Schlafpuder",
-            "es": "Somnífero",
-            "ko": "수면가루"
+            "en": "Struggle Bug",
+            "fr": "Survinsecte",
+            "it": "Entomoblocco",
+            "de": "Käfertrutz",
+            "es": "Estoicismo",
+            "ko": "벌레의저항"
           },
-          "category": "status",
-          "type": "grass",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 75
-        },
-        {
-          "symbol": "powder",
-          "id": 600,
-          "klass": "LevelLearnableMove",
-          "level": 22,
-          "names": {
-            "en": "Powder",
-            "fr": "Nuée de Poudre",
-            "it": "Pulviscoppio",
-            "de": "Pulverschleuder",
-            "es": "Polvo Explosivo",
-            "ko": "분진"
-          },
-          "category": "status",
+          "category": "special",
           "type": "bug",
           "pp": 20,
-          "power": 0,
+          "power": 50,
           "accuracy": 100
-        },
-        {
-          "symbol": "acid_armor",
-          "id": 151,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Acid Armor",
-            "fr": "Acidarmure",
-            "it": "Scudo Acido",
-            "de": "Säurepanzer",
-            "es": "Armadura Ácida",
-            "ko": "녹기"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "protect",
-          "id": 182,
-          "klass": "LevelLearnableMove",
-          "level": 30,
-          "names": {
-            "en": "Protect",
-            "fr": "Abri",
-            "it": "Protezione",
-            "de": "Schutzschild",
-            "es": "Protección",
-            "ko": "방어"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
         },
         {
           "symbol": "poison_powder",
           "id": 77,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 17,
           "names": {
             "en": "Poison Powder",
             "fr": "Poudre Toxik",
@@ -577,10 +543,86 @@
           "accuracy": 75
         },
         {
+          "symbol": "powder",
+          "id": 600,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Powder",
+            "fr": "Nuée de Poudre",
+            "it": "Pulviscoppio",
+            "de": "Pulverschleuder",
+            "es": "Polvo Explosivo",
+            "ko": "분진"
+          },
+          "category": "status",
+          "type": "bug",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sleep_powder",
+          "id": 79,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Sleep Powder",
+            "fr": "Poudre Dodo",
+            "it": "Sonnifero",
+            "de": "Schlafpuder",
+            "es": "Somnífero",
+            "ko": "수면가루"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "acid_armor",
+          "id": 151,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Acid Armor",
+            "fr": "Acidarmure",
+            "it": "Scudo Acido",
+            "de": "Säurepanzer",
+            "es": "Armadura Ácida",
+            "ko": "녹기"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "first_impression",
           "id": 660,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 37,
           "names": {
             "en": "First Impression",
             "fr": "Escarmouche",
@@ -596,10 +638,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "LevelLearnableMove",
+          "level": 42,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "bug_buzz",
+          "id": 405,
+          "klass": "LevelLearnableMove",
+          "level": 47,
+          "names": {
+            "en": "Bug Buzz",
+            "fr": "Bourdon",
+            "it": "Ronzio",
+            "de": "Käfergebrumm",
+            "es": "Zumbido",
+            "ko": "벌레의야단법석"
+          },
+          "category": "special",
+          "type": "bug",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "egg_bomb",
           "id": 121,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 53,
           "names": {
             "en": "Egg Bomb",
             "fr": "Bombe Œuf",
@@ -618,7 +698,7 @@
           "symbol": "attack_order",
           "id": 454,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 58,
           "names": {
             "en": "Attack Order",
             "fr": "Appel Attaque",
@@ -729,25 +809,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "TechLearnableMove",
@@ -784,25 +845,6 @@
           "pp": 20,
           "power": 40,
           "accuracy": 95
-        },
-        {
-          "symbol": "struggle_bug",
-          "id": 522,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Struggle Bug",
-            "fr": "Survinsecte",
-            "it": "Entomoblocco",
-            "de": "Käfertrutz",
-            "es": "Estoicismo",
-            "ko": "벌레의저항"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 20,
-          "power": 50,
-          "accuracy": 100
         },
         {
           "symbol": "bug_bite",
@@ -878,25 +920,6 @@
           "type": "bug",
           "pp": 10,
           "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "bug_buzz",
-          "id": 405,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Bug Buzz",
-            "fr": "Bourdon",
-            "it": "Ronzio",
-            "de": "Käfergebrumm",
-            "es": "Zumbido",
-            "ko": "벌레의야단법석"
-          },
-          "category": "special",
-          "type": "bug",
-          "pp": 10,
-          "power": 90,
           "accuracy": 100
         },
         {
@@ -1259,6 +1282,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "body_press",
+          "id": 720,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Body Press",
+            "fr": "Big Splash",
+            "it": "Body Press",
+            "de": "Body Press",
+            "es": "Body Press",
+            "ko": "Body Press"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "recover",
+          "id": 105,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Recover",
+            "fr": "Soin",
+            "it": "Ripresa",
+            "de": "Genesung",
+            "es": "Recuperación",
+            "ko": "HP회복"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     }

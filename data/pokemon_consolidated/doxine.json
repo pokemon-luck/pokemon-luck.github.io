@@ -94,72 +94,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "smog",
-          "level": 5
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 9
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "acid_spray",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "heal_pulse",
-          "level": 16
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic_spikes",
-          "level": 28
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_jab",
-          "level": 32
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_claw",
-          "level": 36
+          "level": 32
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 40
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 44
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "toxic",
           "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 56
+          "level": 57
         },
         {
           "klass": "TechLearnableMove",
@@ -324,6 +319,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "life_dew"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "venom_drench"
         }
       ],
       "names": {
@@ -447,7 +450,7 @@
           "symbol": "smog",
           "id": 123,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Smog",
             "fr": "Purédpois",
@@ -466,7 +469,7 @@
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 7,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -485,7 +488,7 @@
           "symbol": "acid_spray",
           "id": 491,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Acid Spray",
             "fr": "Bombe Acide",
@@ -504,7 +507,7 @@
           "symbol": "heal_pulse",
           "id": 505,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 15,
           "names": {
             "en": "Heal Pulse",
             "fr": "Vibra Soin",
@@ -523,7 +526,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -542,7 +545,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -561,7 +564,7 @@
           "symbol": "toxic_spikes",
           "id": 390,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Toxic Spikes",
             "fr": "Pics Toxik",
@@ -577,29 +580,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "poison_jab",
-          "id": 398,
-          "klass": "LevelLearnableMove",
-          "level": 32,
-          "names": {
-            "en": "Poison Jab",
-            "fr": "Direct Toxik",
-            "it": "Velenpuntura",
-            "de": "Gifthieb",
-            "es": "Puya Nociva",
-            "ko": "독찌르기"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "shadow_claw",
           "id": 421,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 32,
           "names": {
             "en": "Shadow Claw",
             "fr": "Griffe Ombre",
@@ -615,10 +599,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 37,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 42,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -637,7 +640,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 47,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -656,7 +659,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 52,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -672,29 +675,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "toxic",
-          "id": 92,
-          "klass": "LevelLearnableMove",
-          "level": 52,
-          "names": {
-            "en": "Toxic",
-            "fr": "Toxik",
-            "it": "Tossina",
-            "de": "Toxin",
-            "es": "Tóxico",
-            "ko": "맹독"
-          },
-          "category": "status",
-          "type": "poison",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 57,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -1147,6 +1131,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "toxic",
+          "id": 92,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic",
+            "fr": "Toxik",
+            "it": "Tossina",
+            "de": "Toxin",
+            "es": "Tóxico",
+            "ko": "맹독"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "TechLearnableMove",
@@ -1278,6 +1281,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "life_dew",
+          "id": 722,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Life Dew",
+            "fr": "Fontaine de Vie",
+            "it": "Life Dew",
+            "de": "Life Dew",
+            "es": "Life Dew",
+            "ko": "Life Dew"
+          },
+          "category": "status",
+          "type": "water",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "venom_drench",
+          "id": 599,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Venom Drench",
+            "fr": "Piège de Venin",
+            "it": "Velenotrappola",
+            "de": "Giftfalle",
+            "es": "Trampa Venenosa",
+            "ko": "베놈트랩"
+          },
+          "category": "status",
+          "type": "poison",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

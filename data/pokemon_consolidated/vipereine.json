@@ -72,7 +72,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder_shock",
+          "move": "thunder_wave",
           "level": 1
         },
         {
@@ -82,98 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder_wave",
+          "move": "thunder_shock",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bite",
-          "level": 2
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "glare",
+          "move": "disarming_voice",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
+          "move": "glare",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "spark",
-          "level": 10
+          "move": "bite",
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "electro_ball",
-          "level": 15
+          "move": "pixie_dash",
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 20
+          "move": "electroweb",
+          "level": 16
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "teeter_dance",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 25
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 30
+          "move": "spotlight",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "nuzzle",
-          "level": 35
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 40
+          "move": "will_shatter",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 45
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "parabolic_charge",
-          "level": 50
+          "move": "attract",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "power_gem",
-          "level": 55
+          "move": "moonblast",
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "misty_terrain",
-          "level": 60
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "thunder",
-          "level": 65
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "psychic",
-          "level": 70
+          "move": "revelation_dance",
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "foul_play",
-          "level": 75
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunder",
+          "level": 70
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "fleur_cannon",
+          "level": 76
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 80
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -428,23 +428,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "thunder_shock",
-          "id": 84,
+          "symbol": "thunder_wave",
+          "id": 86,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Thunder Shock",
-            "fr": "Éclair",
-            "it": "Tuonoshock",
-            "de": "Donnerschock",
-            "es": "Impactrueno",
-            "ko": "전기쇼크"
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
           },
-          "category": "special",
+          "category": "status",
           "type": "electric",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
         },
         {
           "symbol": "sweet_kiss",
@@ -466,48 +466,48 @@
           "accuracy": 75
         },
         {
-          "symbol": "thunder_wave",
-          "id": 86,
+          "symbol": "thunder_shock",
+          "id": 84,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Thunder Wave",
-            "fr": "Cage Éclair",
-            "it": "Tuononda",
-            "de": "Donnerwelle",
-            "es": "Onda Trueno",
-            "ko": "전기자석파"
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
           },
-          "category": "status",
+          "category": "special",
           "type": "electric",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 90
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
         },
         {
-          "symbol": "bite",
-          "id": 44,
+          "symbol": "disarming_voice",
+          "id": 574,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 4,
           "names": {
-            "en": "Bite",
-            "fr": "Morsure",
-            "it": "Morso",
-            "de": "Biss",
-            "es": "Mordisco",
-            "ko": "물기"
+            "en": "Disarming Voice",
+            "fr": "Voix Enjôleuse",
+            "it": "Incantavoce",
+            "de": "Säuselstimme",
+            "es": "Voz Cautivadora",
+            "ko": "차밍보이스"
           },
-          "category": "physical",
-          "type": "dark",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 100
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 0
         },
         {
           "symbol": "glare",
           "id": 137,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 6,
           "names": {
             "en": "Glare",
             "fr": "Regard Médusant",
@@ -523,86 +523,105 @@
           "accuracy": 100
         },
         {
-          "symbol": "draining_kiss",
-          "id": 577,
+          "symbol": "bite",
+          "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 9,
           "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "spark",
-          "id": 209,
-          "klass": "LevelLearnableMove",
-          "level": 10,
-          "names": {
-            "en": "Spark",
-            "fr": "Étincelle",
-            "it": "Scintilla",
-            "de": "Funkensprung",
-            "es": "Chispa",
-            "ko": "스파크"
+            "en": "Bite",
+            "fr": "Morsure",
+            "it": "Morso",
+            "de": "Biss",
+            "es": "Mordisco",
+            "ko": "물기"
           },
           "category": "physical",
-          "type": "electric",
-          "pp": 20,
-          "power": 65,
+          "type": "dark",
+          "pp": 25,
+          "power": 60,
           "accuracy": 100
         },
         {
-          "symbol": "electro_ball",
-          "id": 486,
+          "symbol": "pixie_dash",
+          "id": 791,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 12,
           "names": {
-            "en": "Electro Ball",
-            "fr": "Boule Élek",
-            "it": "Energisfera",
-            "de": "Elektroball",
-            "es": "Bola Voltio",
-            "ko": "일렉트릭볼"
+            "en": "Pixie Dash",
+            "fr": "Ruée Lutine",
+            "it": "Pixie Dash",
+            "de": "Pixie Dash",
+            "es": "Pixie Dash",
+            "ko": "Pixie Dash"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "electroweb",
+          "id": 527,
+          "klass": "LevelLearnableMove",
+          "level": 16,
+          "names": {
+            "en": "Electroweb",
+            "fr": "Toile Élek",
+            "it": "Elettrotela",
+            "de": "Elektronetz",
+            "es": "Electrotela",
+            "ko": "일렉트릭네트"
           },
           "category": "special",
           "type": "electric",
-          "pp": 10,
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
+          "symbol": "teeter_dance",
+          "id": 298,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Teeter Dance",
+            "fr": "Danse Folle",
+            "it": "Strampadanza",
+            "de": "Taumeltanz",
+            "es": "Danza Caos",
+            "ko": "흔들흔들댄스"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
           "power": 0,
           "accuracy": 100
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
+          "symbol": "poison_fang",
+          "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 24,
           "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
+            "en": "Poison Fang",
+            "fr": "Crochet Venin",
+            "it": "Velenodenti",
+            "de": "Giftzahn",
+            "es": "Colmillo Veneno",
+            "ko": "독엄니"
           },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
+          "category": "physical",
+          "type": "poison",
+          "pp": 15,
+          "power": 50,
           "accuracy": 100
         },
         {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 29,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -618,67 +637,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "calm_mind",
-          "id": 347,
+          "symbol": "spotlight",
+          "id": 671,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 34,
           "names": {
-            "en": "Calm Mind",
-            "fr": "Plénitude",
-            "it": "Calmamente",
-            "de": "Gedankengut",
-            "es": "Paz Mental",
-            "ko": "명상"
+            "en": "Spotlight",
+            "fr": "Projecteur",
+            "it": "Riflettore",
+            "de": "Rampenlicht",
+            "es": "Foco",
+            "ko": "스포트라이트"
           },
           "category": "status",
-          "type": "psychic",
-          "pp": 20,
+          "type": "normal",
+          "pp": 15,
           "power": 0,
           "accuracy": 0
         },
         {
-          "symbol": "nuzzle",
-          "id": 609,
+          "symbol": "will_shatter",
+          "id": 794,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 39,
           "names": {
-            "en": "Nuzzle",
-            "fr": "Frotte-Frimousse",
-            "it": "Elettrococcola",
-            "de": "Wangenrubbler",
-            "es": "Moflete Estático",
-            "ko": "볼부비부비"
+            "en": "Will Shatter",
+            "fr": "Brise-Volonté",
+            "it": "Will Shatter",
+            "de": "Will Shatter",
+            "es": "Will Shatter",
+            "ko": "Will Shatter"
           },
           "category": "physical",
-          "type": "electric",
-          "pp": 20,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "LevelLearnableMove",
-          "level": 40,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
           "type": "fairy",
           "pp": 15,
-          "power": 95,
+          "power": 75,
           "accuracy": 100
         },
         {
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 44,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -694,97 +694,59 @@
           "accuracy": 100
         },
         {
-          "symbol": "parabolic_charge",
-          "id": 570,
+          "symbol": "attract",
+          "id": 213,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 49,
           "names": {
-            "en": "Parabolic Charge",
-            "fr": "Parabocharge",
-            "it": "Caricaparabola",
-            "de": "Parabolladung",
-            "es": "Carga Parábola",
-            "ko": "파라볼라차지"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "power_gem",
-          "id": 408,
-          "klass": "LevelLearnableMove",
-          "level": 55,
-          "names": {
-            "en": "Power Gem",
-            "fr": "Rayon Gemme",
-            "it": "Gemmoforza",
-            "de": "Juwelenkraft",
-            "es": "Joya de Luz",
-            "ko": "파워젬"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "misty_terrain",
-          "id": 581,
-          "klass": "LevelLearnableMove",
-          "level": 60,
-          "names": {
-            "en": "Misty Terrain",
-            "fr": "Champ Brumeux",
-            "it": "Campo Nebbioso",
-            "de": "Nebelfeld",
-            "es": "Campo de Niebla",
-            "ko": "미스트필드"
+            "en": "Attract",
+            "fr": "Attraction",
+            "it": "Attrazione",
+            "de": "Anziehung",
+            "es": "Atracción",
+            "ko": "헤롱헤롱"
           },
           "category": "status",
-          "type": "fairy",
-          "pp": 10,
+          "type": "normal",
+          "pp": 15,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 100
         },
         {
-          "symbol": "thunder",
-          "id": 87,
+          "symbol": "moonblast",
+          "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 54,
           "names": {
-            "en": "Thunder",
-            "fr": "Fatal-Foudre",
-            "it": "Tuono",
-            "de": "Donner",
-            "es": "Trueno",
-            "ko": "번개"
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
           },
           "category": "special",
-          "type": "electric",
-          "pp": 10,
-          "power": 110,
-          "accuracy": 70
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
+          "accuracy": 100
         },
         {
-          "symbol": "psychic",
-          "id": 94,
+          "symbol": "revelation_dance",
+          "id": 686,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 59,
           "names": {
-            "en": "Psychic",
-            "fr": "Psyko",
-            "it": "Psichico",
-            "de": "Psychokinese",
-            "es": "Psíquico",
-            "ko": "사이코키네시스"
+            "en": "Revelation Dance",
+            "fr": "Danse Éveil",
+            "it": "Mutadanza",
+            "de": "Wecktanz",
+            "es": "Danza Despertar",
+            "ko": "잠재댄스"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 10,
+          "type": "normal",
+          "pp": 15,
           "power": 90,
           "accuracy": 100
         },
@@ -792,7 +754,7 @@
           "symbol": "foul_play",
           "id": 492,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 64,
           "names": {
             "en": "Foul Play",
             "fr": "Tricherie",
@@ -808,10 +770,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "thunder",
+          "id": 87,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Thunder",
+            "fr": "Fatal-Foudre",
+            "it": "Tuono",
+            "de": "Donner",
+            "es": "Trueno",
+            "ko": "번개"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 10,
+          "power": 110,
+          "accuracy": 70
+        },
+        {
+          "symbol": "fleur_cannon",
+          "id": 705,
+          "klass": "LevelLearnableMove",
+          "level": 76,
+          "names": {
+            "en": "Fleur Cannon",
+            "fr": "Canon Floral",
+            "it": "Cannonfiore",
+            "de": "Kanonenbouquet",
+            "es": "Cañón Floral",
+            "ko": "플뢰르캐논"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 5,
+          "power": 130,
+          "accuracy": 90
+        },
+        {
           "symbol": "zap_cannon",
           "id": 192,
           "klass": "LevelLearnableMove",
-          "level": 80,
+          "level": 82,
           "names": {
             "en": "Zap Cannon",
             "fr": "Élecanon",
@@ -903,6 +903,25 @@
           "accuracy": 0
         },
         {
+          "symbol": "spark",
+          "id": 209,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Spark",
+            "fr": "Étincelle",
+            "it": "Scintilla",
+            "de": "Funkensprung",
+            "es": "Chispa",
+            "ko": "스파크"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
           "symbol": "volt_switch",
           "id": 521,
           "klass": "TechLearnableMove",
@@ -960,25 +979,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "poison_fang",
-          "id": 305,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Poison Fang",
-            "fr": "Crochet Venin",
-            "it": "Velenodenti",
-            "de": "Giftzahn",
-            "es": "Colmillo Veneno",
-            "ko": "독엄니"
-          },
-          "category": "physical",
-          "type": "poison",
-          "pp": 15,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
           "symbol": "confusion",
           "id": 93,
           "klass": "TechLearnableMove",
@@ -995,6 +995,25 @@
           "type": "psychic",
           "pp": 25,
           "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
           "accuracy": 100
         },
         {
@@ -1032,6 +1051,44 @@
           "category": "special",
           "type": "psychic",
           "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "psychic",
+          "id": 94,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic",
+            "fr": "Psyko",
+            "it": "Psichico",
+            "de": "Psychokinese",
+            "es": "Psíquico",
+            "ko": "사이코키네시스"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "power_gem",
+          "id": 408,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 20,
           "power": 80,
           "accuracy": 100
         },
@@ -1150,25 +1207,6 @@
           "accuracy": 75
         },
         {
-          "symbol": "pixie_dash",
-          "id": 791,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Pixie Dash",
-            "fr": "Ruée Lutine",
-            "it": "Pixie Dash",
-            "de": "Pixie Dash",
-            "es": "Pixie Dash",
-            "ko": "Pixie Dash"
-          },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "fairy_wind",
           "id": 584,
           "klass": "TechLearnableMove",
@@ -1188,22 +1226,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "will_shatter",
-          "id": 794,
+          "symbol": "draining_kiss",
+          "id": 577,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Will Shatter",
-            "fr": "Brise-Volonté",
-            "it": "Will Shatter",
-            "de": "Will Shatter",
-            "es": "Will Shatter",
-            "ko": "Will Shatter"
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
           },
-          "category": "physical",
+          "category": "special",
           "type": "fairy",
-          "pp": 15,
-          "power": 75,
+          "pp": 10,
+          "power": 50,
           "accuracy": 100
         },
         {
@@ -1240,6 +1278,25 @@
           },
           "category": "status",
           "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "calm_mind",
+          "id": 347,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Calm Mind",
+            "fr": "Plénitude",
+            "it": "Calmamente",
+            "de": "Gedankengut",
+            "es": "Paz Mental",
+            "ko": "명상"
+          },
+          "category": "status",
+          "type": "psychic",
           "pp": 20,
           "power": 0,
           "accuracy": 0

@@ -72,12 +72,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "water_pulse",
+          "move": "iron_defense",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "iron_defense",
+          "move": "water_pulse",
           "level": 1
         },
         {
@@ -88,7 +88,7 @@
         {
           "klass": "LevelLearnableMove",
           "move": "metal_burst",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
@@ -103,12 +103,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 25
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
@@ -118,12 +118,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 32
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 36
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
@@ -133,37 +133,37 @@
         {
           "klass": "LevelLearnableMove",
           "move": "iron_head",
-          "level": 44
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 48
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hydro_pump",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "swords_dance",
           "level": 56
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "swords_dance",
+          "level": 61
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 60
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "steel_beam",
-          "level": 64
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "giga_impact",
-          "level": 68
+          "level": 78
         },
         {
           "klass": "TechLearnableMove",
@@ -418,25 +418,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "water_pulse",
-          "id": 352,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Water Pulse",
-            "fr": "Vibraqua",
-            "it": "Idropulsar",
-            "de": "Aquawelle",
-            "es": "Hidropulso",
-            "ko": "물의파동"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
@@ -454,6 +435,25 @@
           "pp": 15,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "water_pulse",
+          "id": 352,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Water Pulse",
+            "fr": "Vibraqua",
+            "it": "Idropulsar",
+            "de": "Aquawelle",
+            "es": "Hidropulso",
+            "ko": "물의파동"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
         },
         {
           "symbol": "aqua_jet",
@@ -478,7 +478,7 @@
           "symbol": "metal_burst",
           "id": 368,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Metal Burst",
             "fr": "Fulmifer",
@@ -535,7 +535,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -554,7 +554,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 23,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -592,7 +592,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 30,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -611,7 +611,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -649,7 +649,7 @@
           "symbol": "iron_head",
           "id": 442,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 45,
           "names": {
             "en": "Iron Head",
             "fr": "Tête de Fer",
@@ -668,7 +668,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 50,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -687,7 +687,7 @@
           "symbol": "hydro_pump",
           "id": 56,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 56,
           "names": {
             "en": "Hydro Pump",
             "fr": "Hydrocanon",
@@ -706,7 +706,7 @@
           "symbol": "swords_dance",
           "id": 14,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 61,
           "names": {
             "en": "Swords Dance",
             "fr": "Danse Lames",
@@ -725,7 +725,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 66,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -744,7 +744,7 @@
           "symbol": "steel_beam",
           "id": 724,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 72,
           "names": {
             "en": "Steel Beam",
             "fr": "Métalaser",
@@ -763,7 +763,7 @@
           "symbol": "giga_impact",
           "id": 416,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 78,
           "names": {
             "en": "Giga Impact",
             "fr": "Giga Impact",

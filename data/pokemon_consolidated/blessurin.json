@@ -91,12 +91,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
+          "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -122,32 +122,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 20
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swift",
-          "level": 24
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_shot",
-          "level": 30
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 36
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 40
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
@@ -157,12 +157,12 @@
         {
           "klass": "LevelLearnableMove",
           "move": "flash_cannon",
-          "level": 48
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swords_dance",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -311,6 +311,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "sacred_sword"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "amnesia"
         }
       ],
       "names": {
@@ -393,25 +401,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -428,6 +417,25 @@
           "type": "normal",
           "pp": 30,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -510,7 +518,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 18,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -529,7 +537,7 @@
           "symbol": "swift",
           "id": 129,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 21,
           "names": {
             "en": "Swift",
             "fr": "Météores",
@@ -548,7 +556,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -567,7 +575,7 @@
           "symbol": "mirror_shot",
           "id": 429,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 29,
           "names": {
             "en": "Mirror Shot",
             "fr": "Miroi-Tir",
@@ -586,7 +594,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -605,7 +613,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -643,7 +651,7 @@
           "symbol": "flash_cannon",
           "id": 430,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 49,
           "names": {
             "en": "Flash Cannon",
             "fr": "Luminocanon",
@@ -662,7 +670,7 @@
           "symbol": "swords_dance",
           "id": 14,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Swords Dance",
             "fr": "Danse Lames",
@@ -1167,6 +1175,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "sacred_sword",
+          "id": 533,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sacred Sword",
+            "fr": "Lame Sainte",
+            "it": "Spadasolenne",
+            "de": "Sanctoklinge",
+            "es": "Espada Santa",
+            "ko": "성스러운칼"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
           "pp": 20,
           "power": 0,
           "accuracy": 0

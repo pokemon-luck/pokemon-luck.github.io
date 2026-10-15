@@ -72,16 +72,6 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "pursuit",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "leer",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "water_gun",
           "level": 1
         },
@@ -92,88 +82,98 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "pursuit",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "leer",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "covet",
-          "level": 6
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 10
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "torment",
-          "level": 14
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "brine",
-          "level": 18
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 22
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swagger",
-          "level": 26
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thief",
-          "level": 30
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "razor_shell",
-          "level": 34
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "taunt",
-          "level": 38
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 42
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "liquidation",
-          "level": 46
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sucker_punch",
-          "level": 50
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rain_dance",
-          "level": 54
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 58
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "parting_shot",
-          "level": 62
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hydro_pump",
-          "level": 66
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "coral_cleaver",
-          "level": 70
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "hydro_pump",
+          "level": 68
         },
         {
           "klass": "TechLearnableMove",
@@ -480,44 +480,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "pursuit",
-          "id": 228,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Pursuit",
-            "fr": "Poursuite",
-            "it": "Inseguimento",
-            "de": "Verfolgung",
-            "es": "Persecución",
-            "ko": "따라가때리기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 20,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "leer",
-          "id": 43,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Leer",
-            "fr": "Groz’Yeux",
-            "it": "Fulmisguardo",
-            "de": "Silberblick",
-            "es": "Malicioso",
-            "ko": "째려보기"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "water_gun",
           "id": 55,
           "klass": "LevelLearnableMove",
@@ -556,10 +518,48 @@
           "accuracy": 80
         },
         {
+          "symbol": "pursuit",
+          "id": 228,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Pursuit",
+            "fr": "Poursuite",
+            "it": "Inseguimento",
+            "de": "Verfolgung",
+            "es": "Persecución",
+            "ko": "따라가때리기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 20,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
+          "symbol": "leer",
+          "id": 43,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Leer",
+            "fr": "Groz’Yeux",
+            "it": "Fulmisguardo",
+            "de": "Silberblick",
+            "es": "Malicioso",
+            "ko": "째려보기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "covet",
           "id": 343,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 4,
           "names": {
             "en": "Covet",
             "fr": "Implore",
@@ -578,7 +578,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 7,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -597,7 +597,7 @@
           "symbol": "torment",
           "id": 259,
           "klass": "LevelLearnableMove",
-          "level": 14,
+          "level": 9,
           "names": {
             "en": "Torment",
             "fr": "Tourmente",
@@ -616,7 +616,7 @@
           "symbol": "brine",
           "id": 362,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 13,
           "names": {
             "en": "Brine",
             "fr": "Saumure",
@@ -635,7 +635,7 @@
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 22,
+          "level": 17,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -654,7 +654,7 @@
           "symbol": "swagger",
           "id": 207,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 19,
           "names": {
             "en": "Swagger",
             "fr": "Vantardise",
@@ -673,7 +673,7 @@
           "symbol": "thief",
           "id": 168,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 23,
           "names": {
             "en": "Thief",
             "fr": "Larcin",
@@ -692,7 +692,7 @@
           "symbol": "razor_shell",
           "id": 534,
           "klass": "LevelLearnableMove",
-          "level": 34,
+          "level": 28,
           "names": {
             "en": "Razor Shell",
             "fr": "Coqui-Lame",
@@ -711,7 +711,7 @@
           "symbol": "taunt",
           "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 38,
+          "level": 30,
           "names": {
             "en": "Taunt",
             "fr": "Provoc",
@@ -730,7 +730,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 35,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -749,7 +749,7 @@
           "symbol": "liquidation",
           "id": 710,
           "klass": "LevelLearnableMove",
-          "level": 46,
+          "level": 40,
           "names": {
             "en": "Liquidation",
             "fr": "Aqua-Brèche",
@@ -768,7 +768,7 @@
           "symbol": "sucker_punch",
           "id": 389,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 45,
           "names": {
             "en": "Sucker Punch",
             "fr": "Coup Bas",
@@ -787,7 +787,7 @@
           "symbol": "rain_dance",
           "id": 240,
           "klass": "LevelLearnableMove",
-          "level": 54,
+          "level": 50,
           "names": {
             "en": "Rain Dance",
             "fr": "Danse Pluie",
@@ -806,7 +806,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 58,
+          "level": 55,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -825,7 +825,7 @@
           "symbol": "parting_shot",
           "id": 575,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 57,
           "names": {
             "en": "Parting Shot",
             "fr": "Dernier Mot",
@@ -841,29 +841,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "hydro_pump",
-          "id": 56,
-          "klass": "LevelLearnableMove",
-          "level": 66,
-          "names": {
-            "en": "Hydro Pump",
-            "fr": "Hydrocanon",
-            "it": "Idropompa",
-            "de": "Hydropumpe",
-            "es": "Hidrobomba",
-            "ko": "하이드로펌프"
-          },
-          "category": "special",
-          "type": "water",
-          "pp": 5,
-          "power": 110,
-          "accuracy": 80
-        },
-        {
           "symbol": "coral_cleaver",
           "id": 762,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 63,
           "names": {
             "en": "Coral Cleaver",
             "fr": "Masse Corail",
@@ -877,6 +858,25 @@
           "pp": 10,
           "power": 90,
           "accuracy": 100
+        },
+        {
+          "symbol": "hydro_pump",
+          "id": 56,
+          "klass": "LevelLearnableMove",
+          "level": 68,
+          "names": {
+            "en": "Hydro Pump",
+            "fr": "Hydrocanon",
+            "it": "Idropompa",
+            "de": "Hydropumpe",
+            "es": "Hidrobomba",
+            "ko": "하이드로펌프"
+          },
+          "category": "special",
+          "type": "water",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 80
         },
         {
           "symbol": "quick_attack",

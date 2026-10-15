@@ -72,83 +72,113 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "peck",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "spite",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "astonish",
-          "level": 5
+          "move": "peck",
+          "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "air_cutter",
-          "level": 10
+          "move": "astonish",
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "gust",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "confuse_ray",
-          "level": 15
+          "level": 9
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "soul_siphon",
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 20
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "air_cutter",
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hex",
-          "level": 25
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "air_slash",
+          "move": "aerial_ace",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "withering_pulse",
           "level": 30
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ominous_wind",
-          "level": 35
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "phantom_force",
-          "level": 40
+          "move": "air_slash",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 45
+          "level": 49
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "roost",
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "phantom_force",
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "perish_song",
-          "level": 50
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hurricane",
-          "level": 55
+          "level": 70
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_ball",
-          "level": 60
+          "level": 75
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 65
+          "level": 80
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonblast",
-          "level": 70
+          "level": 85
         },
         {
           "klass": "TechLearnableMove",
@@ -341,6 +371,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "whirlwind"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "scary_face"
         }
       ],
       "names": {
@@ -423,25 +461,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "peck",
-          "id": 64,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Peck",
-            "fr": "Picpic",
-            "it": "Beccata",
-            "de": "Pikser",
-            "es": "Picotazo",
-            "ko": "쪼기"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 35,
-          "power": 35,
-          "accuracy": 100
-        },
-        {
           "symbol": "spite",
           "id": 180,
           "klass": "LevelLearnableMove",
@@ -461,10 +480,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "peck",
+          "id": 64,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Peck",
+            "fr": "Picpic",
+            "it": "Beccata",
+            "de": "Pikser",
+            "es": "Picotazo",
+            "ko": "쪼기"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 35,
+          "power": 35,
+          "accuracy": 100
+        },
+        {
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -480,29 +518,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "air_cutter",
-          "id": 314,
+          "symbol": "gust",
+          "id": 16,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 7,
           "names": {
-            "en": "Air Cutter",
-            "fr": "Tranch’Air",
-            "it": "Aerasoio",
-            "de": "Windschnitt",
-            "es": "Aire Afilado",
-            "ko": "에어컷터"
+            "en": "Gust",
+            "fr": "Tornade",
+            "it": "Raffica",
+            "de": "Windstoß",
+            "es": "Tornado",
+            "ko": "바람일으키기"
           },
           "category": "special",
           "type": "flying",
-          "pp": 25,
-          "power": 60,
-          "accuracy": 95
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "confuse_ray",
           "id": 109,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 9,
           "names": {
             "en": "Confuse Ray",
             "fr": "Onde Folie",
@@ -518,10 +556,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "soul_siphon",
+          "id": 744,
+          "klass": "LevelLearnableMove",
+          "level": 12,
+          "names": {
+            "en": "Soul Siphon",
+            "fr": "Siphon'Âme",
+            "it": "Cannone Dynamax",
+            "de": "Dynamax-Kanone",
+            "es": "Cañón Dinamax",
+            "ko": "다이맥스포"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -537,10 +594,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "air_cutter",
+          "id": 314,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Air Cutter",
+            "fr": "Tranch’Air",
+            "it": "Aerasoio",
+            "de": "Windschnitt",
+            "es": "Aire Afilado",
+            "ko": "에어컷터"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 25,
+          "power": 60,
+          "accuracy": 95
+        },
+        {
           "symbol": "hex",
           "id": 506,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 23,
           "names": {
             "en": "Hex",
             "fr": "Châtiment",
@@ -556,29 +632,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "air_slash",
-          "id": 403,
+          "symbol": "aerial_ace",
+          "id": 332,
+          "klass": "LevelLearnableMove",
+          "level": 27,
+          "names": {
+            "en": "Aerial Ace",
+            "fr": "Aéropique",
+            "it": "Aeroassalto",
+            "de": "Aero-Ass",
+            "es": "Golpe Aéreo",
+            "ko": "제비반환"
+          },
+          "category": "physical",
+          "type": "flying",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "withering_pulse",
+          "id": 745,
           "klass": "LevelLearnableMove",
           "level": 30,
           "names": {
-            "en": "Air Slash",
-            "fr": "Lame d’Air",
-            "it": "Eterelama",
-            "de": "Luftschnitt",
-            "es": "Tajo Aéreo",
-            "ko": "에어슬래시"
+            "en": "Withering Pulse",
+            "fr": "Flétri-Vague",
+            "it": "Tiromirato",
+            "de": "Präzisionsschuss",
+            "es": "Disparo Certero",
+            "ko": "노려맞히기"
           },
           "category": "special",
-          "type": "flying",
+          "type": "undead",
           "pp": 15,
-          "power": 75,
-          "accuracy": 95
+          "power": 65,
+          "accuracy": 100
         },
         {
           "symbol": "ominous_wind",
           "id": 466,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 34,
           "names": {
             "en": "Ominous Wind",
             "fr": "Vent Mauvais",
@@ -594,29 +689,48 @@
           "accuracy": 100
         },
         {
-          "symbol": "phantom_force",
-          "id": 566,
+          "symbol": "air_slash",
+          "id": 403,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 39,
           "names": {
-            "en": "Phantom Force",
-            "fr": "Hantise",
-            "it": "Spettrotuffo",
-            "de": "Phantomkraft",
-            "es": "Golpe Fantasma",
-            "ko": "고스트다이브"
+            "en": "Air Slash",
+            "fr": "Lame d’Air",
+            "it": "Eterelama",
+            "de": "Luftschnitt",
+            "es": "Tajo Aéreo",
+            "ko": "에어슬래시"
+          },
+          "category": "special",
+          "type": "flying",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 44,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
           },
           "category": "physical",
           "type": "ghost",
-          "pp": 10,
-          "power": 90,
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         },
         {
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 49,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -632,10 +746,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "roost",
+          "id": 355,
+          "klass": "LevelLearnableMove",
+          "level": 54,
+          "names": {
+            "en": "Roost",
+            "fr": "Atterrissage",
+            "it": "Trespolo",
+            "de": "Ruheort",
+            "es": "Respiro",
+            "ko": "날개쉬기"
+          },
+          "category": "status",
+          "type": "flying",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "phantom_force",
+          "id": 566,
+          "klass": "LevelLearnableMove",
+          "level": 59,
+          "names": {
+            "en": "Phantom Force",
+            "fr": "Hantise",
+            "it": "Spettrotuffo",
+            "de": "Phantomkraft",
+            "es": "Golpe Fantasma",
+            "ko": "고스트다이브"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "perish_song",
           "id": 195,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 64,
           "names": {
             "en": "Perish Song",
             "fr": "Requiem",
@@ -654,7 +806,7 @@
           "symbol": "hurricane",
           "id": 542,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 70,
           "names": {
             "en": "Hurricane",
             "fr": "Vent Violent",
@@ -673,7 +825,7 @@
           "symbol": "shadow_ball",
           "id": 247,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 75,
           "names": {
             "en": "Shadow Ball",
             "fr": "Ball’Ombre",
@@ -692,7 +844,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 80,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -711,7 +863,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 85,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -822,25 +974,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "gust",
-          "id": 16,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Gust",
-            "fr": "Tornade",
-            "it": "Raffica",
-            "de": "Windstoß",
-            "es": "Tornado",
-            "ko": "바람일으키기"
-          },
-          "category": "special",
-          "type": "flying",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "wing_attack",
           "id": 17,
           "klass": "TechLearnableMove",
@@ -858,25 +991,6 @@
           "pp": 35,
           "power": 60,
           "accuracy": 100
-        },
-        {
-          "symbol": "aerial_ace",
-          "id": 332,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Aerial Ace",
-            "fr": "Aéropique",
-            "it": "Aeroassalto",
-            "de": "Aero-Ass",
-            "es": "Golpe Aéreo",
-            "ko": "제비반환"
-          },
-          "category": "physical",
-          "type": "flying",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "fury_cutter",
@@ -933,25 +1047,6 @@
           "type": "bug",
           "pp": 15,
           "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
           "accuracy": 100
         },
         {
@@ -1126,44 +1221,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "soul_siphon",
-          "id": 744,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Soul Siphon",
-            "fr": "Siphon'Âme",
-            "it": "Cannone Dynamax",
-            "de": "Dynamax-Kanone",
-            "es": "Cañón Dinamax",
-            "ko": "다이맥스포"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "withering_pulse",
-          "id": 745,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Withering Pulse",
-            "fr": "Flétri-Vague",
-            "it": "Tiromirato",
-            "de": "Präzisionsschuss",
-            "es": "Disparo Certero",
-            "ko": "노려맞히기"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 15,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "swords_dance",
           "id": 14,
           "klass": "TechLearnableMove",
@@ -1316,25 +1373,6 @@
           "accuracy": 85
         },
         {
-          "symbol": "roost",
-          "id": 355,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Roost",
-            "fr": "Atterrissage",
-            "it": "Trespolo",
-            "de": "Ruheort",
-            "es": "Respiro",
-            "ko": "날개쉬기"
-          },
-          "category": "status",
-          "type": "flying",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "rest",
           "id": 156,
           "klass": "TechLearnableMove",
@@ -1428,6 +1466,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "whirlwind",
+          "id": 18,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Whirlwind",
+            "fr": "Cyclone",
+            "it": "Turbine",
+            "de": "Wirbelwind",
+            "es": "Remolino",
+            "ko": "날려버리기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "scary_face",
+          "id": 184,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Scary Face",
+            "fr": "Grimace",
+            "it": "Visotruce",
+            "de": "Grimasse",
+            "es": "Cara Susto",
+            "ko": "겁나는얼굴"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
+          "move": "poison_gas",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_gas",
+          "move": "scratch",
           "level": 1
         },
         {
@@ -104,47 +104,47 @@
         {
           "klass": "LevelLearnableMove",
           "move": "thief",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smokescreen",
-          "level": 16
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 20
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 28
+          "level": 25
         },
         {
           "klass": "LevelLearnableMove",
           "move": "metal_sound",
-          "level": 32
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "cross_poison",
-          "level": 36
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "slash",
-          "level": 40
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_tail",
-          "level": 44
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
@@ -154,17 +154,17 @@
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 52
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 56
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fake_out",
-          "level": 60
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
@@ -416,25 +416,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_gas",
           "id": 139,
           "klass": "LevelLearnableMove",
@@ -452,6 +433,25 @@
           "pp": 40,
           "power": 0,
           "accuracy": 90
+        },
+        {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "quick_attack",
@@ -495,7 +495,7 @@
           "symbol": "thief",
           "id": 168,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Thief",
             "fr": "Larcin",
@@ -514,7 +514,7 @@
           "symbol": "smokescreen",
           "id": 108,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 13,
           "names": {
             "en": "Smokescreen",
             "fr": "Brouillard",
@@ -533,7 +533,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 17,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -552,7 +552,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -571,7 +571,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 25,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -590,7 +590,7 @@
           "symbol": "metal_sound",
           "id": 319,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 27,
           "names": {
             "en": "Metal Sound",
             "fr": "Strido-Son",
@@ -609,7 +609,7 @@
           "symbol": "cross_poison",
           "id": 440,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 32,
           "names": {
             "en": "Cross Poison",
             "fr": "Poison Croix",
@@ -628,7 +628,7 @@
           "symbol": "slash",
           "id": 163,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 37,
           "names": {
             "en": "Slash",
             "fr": "Tranche",
@@ -647,7 +647,7 @@
           "symbol": "iron_tail",
           "id": 231,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 43,
           "names": {
             "en": "Iron Tail",
             "fr": "Queue de Fer",
@@ -685,7 +685,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 53,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -704,7 +704,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -723,7 +723,7 @@
           "symbol": "fake_out",
           "id": 252,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 62,
           "names": {
             "en": "Fake Out",
             "fr": "Bluff",

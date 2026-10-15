@@ -83,107 +83,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "wing_attack",
-          "level": 2
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "flash_snap",
           "level": 5
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "quick_attack",
+          "move": "flash_snap",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "quick_attack",
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "air_cutter",
-          "level": 13
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "star_rush",
-          "level": 17
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pluck",
-          "level": 21
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mist",
-          "level": 25
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "exorciblade",
-          "level": 26
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "gleam_beam",
-          "level": 29
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "roost",
           "level": 33
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "zen_headbutt",
+          "move": "gleam_beam",
           "level": 37
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "roost",
+          "level": 42
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "soothing_twirl",
-          "level": 41
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "u_turn",
-          "level": 45
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "tailwind",
-          "level": 49
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 53
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protective_cascade",
-          "level": 57
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
           "level": 61
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "luminous_prism",
+          "move": "protective_cascade",
           "level": 65
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "brave_bird",
-          "level": 69
+          "move": "luminous_prism",
+          "level": 70
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aura_sphere",
-          "level": 72
+          "move": "brave_bird",
+          "level": 76
         },
         {
           "klass": "LevelLearnableMove",
           "move": "justice_hammer",
-          "level": 75
+          "level": 82
         },
         {
           "klass": "TechLearnableMove",
@@ -519,7 +504,7 @@
           "symbol": "wing_attack",
           "id": 17,
           "klass": "LevelLearnableMove",
-          "level": 2,
+          "level": 5,
           "names": {
             "en": "Wing Attack",
             "fr": "Cru-Ailes",
@@ -538,7 +523,7 @@
           "symbol": "flash_snap",
           "id": 775,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 9,
           "names": {
             "en": "Flash Snap",
             "fr": "Rapidoflash",
@@ -557,7 +542,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 12,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -576,7 +561,7 @@
           "symbol": "air_cutter",
           "id": 314,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 16,
           "names": {
             "en": "Air Cutter",
             "fr": "Tranch’Air",
@@ -595,7 +580,7 @@
           "symbol": "star_rush",
           "id": 767,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 19,
           "names": {
             "en": "Star Rush",
             "fr": "Ruétoilée",
@@ -614,7 +599,7 @@
           "symbol": "pluck",
           "id": 365,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 23,
           "names": {
             "en": "Pluck",
             "fr": "Picore",
@@ -633,7 +618,7 @@
           "symbol": "mist",
           "id": 54,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 28,
           "names": {
             "en": "Mist",
             "fr": "Brume",
@@ -652,7 +637,7 @@
           "symbol": "exorciblade",
           "id": 768,
           "klass": "LevelLearnableMove",
-          "level": 26,
+          "level": 33,
           "names": {
             "en": "Exorciblade",
             "fr": "Exorcilame",
@@ -671,7 +656,7 @@
           "symbol": "gleam_beam",
           "id": 774,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 37,
           "names": {
             "en": "Gleam Beam",
             "fr": "Rayon Éclatant",
@@ -690,7 +675,7 @@
           "symbol": "roost",
           "id": 355,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 42,
           "names": {
             "en": "Roost",
             "fr": "Atterrissage",
@@ -706,29 +691,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "zen_headbutt",
-          "id": 428,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Zen Headbutt",
-            "fr": "Psykoud’Boul",
-            "it": "Cozzata Zen",
-            "de": "Zen-Kopfstoß",
-            "es": "Cabezazo Zen",
-            "ko": "사념의박치기"
-          },
-          "category": "physical",
-          "type": "psychic",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 90
-        },
-        {
           "symbol": "soothing_twirl",
           "id": 769,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 46,
           "names": {
             "en": "Soothing Twirl",
             "fr": "Tour Apaisant",
@@ -747,7 +713,7 @@
           "symbol": "u_turn",
           "id": 369,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 51,
           "names": {
             "en": "U-turn",
             "fr": "Demi-Tour",
@@ -766,7 +732,7 @@
           "symbol": "tailwind",
           "id": 366,
           "klass": "LevelLearnableMove",
-          "level": 49,
+          "level": 56,
           "names": {
             "en": "Tailwind",
             "fr": "Vent Arrière",
@@ -785,7 +751,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 61,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -804,7 +770,7 @@
           "symbol": "protective_cascade",
           "id": 777,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 65,
           "names": {
             "en": "Protective Cascade",
             "fr": "Chute Protect",
@@ -820,29 +786,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "LevelLearnableMove",
-          "level": 61,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 70,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -861,7 +808,7 @@
           "symbol": "brave_bird",
           "id": 413,
           "klass": "LevelLearnableMove",
-          "level": 69,
+          "level": 76,
           "names": {
             "en": "Brave Bird",
             "fr": "Rapace",
@@ -877,29 +824,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "aura_sphere",
-          "id": 396,
-          "klass": "LevelLearnableMove",
-          "level": 72,
-          "names": {
-            "en": "Aura Sphere",
-            "fr": "Aurasphère",
-            "it": "Forzasfera",
-            "de": "Aurasphäre",
-            "es": "Esfera Aural",
-            "ko": "파동탄"
-          },
-          "category": "special",
-          "type": "fighting",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 0
-        },
-        {
           "symbol": "justice_hammer",
           "id": 772,
           "klass": "LevelLearnableMove",
-          "level": 75,
+          "level": 82,
           "names": {
             "en": "Justice Hammer",
             "fr": "Marteau Justice",
@@ -1086,6 +1014,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "aura_sphere",
+          "id": 396,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aura Sphere",
+            "fr": "Aurasphère",
+            "it": "Forzasfera",
+            "de": "Aurasphäre",
+            "es": "Esfera Aural",
+            "ko": "파동탄"
+          },
+          "category": "special",
+          "type": "fighting",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 0
+        },
+        {
           "symbol": "gust",
           "id": 16,
           "klass": "TechLearnableMove",
@@ -1181,6 +1128,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
           "symbol": "psychic",
           "id": 94,
           "klass": "TechLearnableMove",
@@ -1235,6 +1201,25 @@
           "type": "bug",
           "pp": 15,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         },
         {

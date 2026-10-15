@@ -45,7 +45,7 @@
             {
               "type": "maps",
               "value": [
-                0
+                6
               ]
             }
           ]
@@ -132,52 +132,87 @@
         {
           "klass": "LevelLearnableMove",
           "move": "sand_attack",
-          "level": 5
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "quick_attack",
+          "level": 6
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
           "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "double_kick",
-          "level": 13
+          "level": 12
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_charge",
+          "level": 15
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "swift",
+          "level": 19
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stomp",
-          "level": 17
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "agility",
-          "level": 21
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "take_down",
-          "level": 25
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "heal_pulse",
+          "move": "bulldoze",
           "level": 29
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "bounce",
-          "level": 33
+          "move": "agility",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "zen_headbutt",
-          "level": 37
+          "move": "take_down",
+          "level": 39
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "heal_pulse",
+          "level": 44
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bounce",
+          "level": 49
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hyper_voice",
-          "level": 41
+          "level": 54
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 59
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "iron_head",
+          "level": 64
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "double_edge",
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -286,11 +321,19 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "grudge"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "memento"
         }
       ],
       "names": {
         "en": "Cavalypse",
-        "fr": "Cavalypse",
+        "fr": "Apocavale",
         "it": "Gloom",
         "de": "Duflor",
         "es": "Gloom",
@@ -298,7 +341,7 @@
       },
       "descriptions": {
         "en": "Cavalypse exists only on the border between life and death.",
-        "fr": "Cavalypse n'existe que sur la frontière entre la vie et la mort.",
+        "fr": "Apocavale n'existe que sur la frontière entre la vie et la mort.",
         "it": "Dalla bocca di Gloom fuoriesce una resina maleodorante e disgustosa. Evidentemente adora questo fetido olezzo, poiché lo annusa avidamente producendo poi altra resina.",
         "de": "Aus Duflors Mund tropft übelst riechender Honig. Diesen Gestank scheint es zu lieben, denn es schnieft die giftigen Dämpfe ein und sabbert danach noch mehr Honig.",
         "es": "Gloom babea un néctar que tiene un olor realmente horrible, aunque parece ser que a él le gusta. De hecho, aspira los gases nocivos y libera más néctar aún.",
@@ -409,7 +452,7 @@
           "symbol": "sand_attack",
           "id": 28,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 3,
           "names": {
             "en": "Sand Attack",
             "fr": "Jet de Sable",
@@ -428,7 +471,7 @@
           "symbol": "quick_attack",
           "id": 98,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 6,
           "names": {
             "en": "Quick Attack",
             "fr": "Vive-Attaque",
@@ -444,10 +487,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 9,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 12,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -463,10 +525,67 @@
           "accuracy": 100
         },
         {
+          "symbol": "flame_charge",
+          "id": 488,
+          "klass": "LevelLearnableMove",
+          "level": 15,
+          "names": {
+            "en": "Flame Charge",
+            "fr": "Nitrocharge",
+            "it": "Nitrocarica",
+            "de": "Nitroladung",
+            "es": "Nitrocarga",
+            "ko": "니트로차지"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 20,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
+          "symbol": "swift",
+          "id": 129,
+          "klass": "LevelLearnableMove",
+          "level": 19,
+          "names": {
+            "en": "Swift",
+            "fr": "Météores",
+            "it": "Comete",
+            "de": "Sternschauer",
+            "es": "Rapidez",
+            "ko": "스피드스타"
+          },
+          "category": "special",
+          "type": "normal",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "stomp",
           "id": 23,
           "klass": "LevelLearnableMove",
-          "level": 17,
+          "level": 26,
           "names": {
             "en": "Stomp",
             "fr": "Écrasement",
@@ -482,10 +601,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "bulldoze",
+          "id": 523,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Bulldoze",
+            "fr": "Piétisol",
+            "it": "Battiterra",
+            "de": "Dampfwalze",
+            "es": "Terratemblor",
+            "ko": "땅고르기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
           "symbol": "agility",
           "id": 97,
           "klass": "LevelLearnableMove",
-          "level": 21,
+          "level": 34,
           "names": {
             "en": "Agility",
             "fr": "Hâte",
@@ -504,7 +642,7 @@
           "symbol": "take_down",
           "id": 36,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 39,
           "names": {
             "en": "Take Down",
             "fr": "Bélier",
@@ -523,7 +661,7 @@
           "symbol": "heal_pulse",
           "id": 505,
           "klass": "LevelLearnableMove",
-          "level": 29,
+          "level": 44,
           "names": {
             "en": "Heal Pulse",
             "fr": "Vibra Soin",
@@ -542,7 +680,7 @@
           "symbol": "bounce",
           "id": 340,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 49,
           "names": {
             "en": "Bounce",
             "fr": "Rebond",
@@ -558,29 +696,10 @@
           "accuracy": 85
         },
         {
-          "symbol": "zen_headbutt",
-          "id": 428,
-          "klass": "LevelLearnableMove",
-          "level": 37,
-          "names": {
-            "en": "Zen Headbutt",
-            "fr": "Psykoud’Boul",
-            "it": "Cozzata Zen",
-            "de": "Zen-Kopfstoß",
-            "es": "Cabezazo Zen",
-            "ko": "사념의박치기"
-          },
-          "category": "physical",
-          "type": "psychic",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 90
-        },
-        {
           "symbol": "hyper_voice",
           "id": 304,
           "klass": "LevelLearnableMove",
-          "level": 41,
+          "level": 54,
           "names": {
             "en": "Hyper Voice",
             "fr": "Mégaphone",
@@ -596,23 +715,61 @@
           "accuracy": 100
         },
         {
-          "symbol": "swift",
-          "id": 129,
-          "klass": "TechLearnableMove",
-          "level": null,
+          "symbol": "zen_headbutt",
+          "id": 428,
+          "klass": "LevelLearnableMove",
+          "level": 59,
           "names": {
-            "en": "Swift",
-            "fr": "Météores",
-            "it": "Comete",
-            "de": "Sternschauer",
-            "es": "Rapidez",
-            "ko": "스피드스타"
+            "en": "Zen Headbutt",
+            "fr": "Psykoud’Boul",
+            "it": "Cozzata Zen",
+            "de": "Zen-Kopfstoß",
+            "es": "Cabezazo Zen",
+            "ko": "사념의박치기"
           },
-          "category": "special",
+          "category": "physical",
+          "type": "psychic",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 90
+        },
+        {
+          "symbol": "iron_head",
+          "id": 442,
+          "klass": "LevelLearnableMove",
+          "level": 64,
+          "names": {
+            "en": "Iron Head",
+            "fr": "Tête de Fer",
+            "it": "Metaltestata",
+            "de": "Eisenschädel",
+            "es": "Cabeza de Hierro",
+            "ko": "아이언헤드"
+          },
+          "category": "physical",
+          "type": "steel",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "double_edge",
+          "id": 38,
+          "klass": "LevelLearnableMove",
+          "level": 70,
+          "names": {
+            "en": "Double-Edge",
+            "fr": "Damoclès",
+            "it": "Sdoppiatore",
+            "de": "Risikotackle",
+            "es": "Doble Filo",
+            "ko": "이판사판태클"
+          },
+          "category": "physical",
           "type": "normal",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
+          "pp": 15,
+          "power": 120,
+          "accuracy": 100
         },
         {
           "symbol": "body_slam",
@@ -631,44 +788,6 @@
           "type": "normal",
           "pp": 15,
           "power": 85,
-          "accuracy": 100
-        },
-        {
-          "symbol": "double_edge",
-          "id": 38,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Double-Edge",
-            "fr": "Damoclès",
-            "it": "Sdoppiatore",
-            "de": "Risikotackle",
-            "es": "Doble Filo",
-            "ko": "이판사판태클"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 15,
-          "power": 120,
-          "accuracy": 100
-        },
-        {
-          "symbol": "flame_charge",
-          "id": 488,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Flame Charge",
-            "fr": "Nitrocharge",
-            "it": "Nitrocarica",
-            "de": "Nitroladung",
-            "es": "Nitrocarga",
-            "ko": "니트로차지"
-          },
-          "category": "physical",
-          "type": "fire",
-          "pp": 20,
-          "power": 50,
           "accuracy": 100
         },
         {
@@ -707,63 +826,6 @@
           "type": "fighting",
           "pp": 20,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mud_slap",
-          "id": 189,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud-Slap",
-            "fr": "Coud’Boue",
-            "it": "Fangosberla",
-            "de": "Lehmschelle",
-            "es": "Bofetón Lodo",
-            "ko": "진흙뿌리기"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
-          "symbol": "bulldoze",
-          "id": 523,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Bulldoze",
-            "fr": "Piétisol",
-            "it": "Battiterra",
-            "de": "Dampfwalze",
-            "es": "Terratemblor",
-            "ko": "땅고르기"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 20,
-          "power": 60,
           "accuracy": 100
         },
         {
@@ -841,25 +903,6 @@
           "pp": 5,
           "power": 100,
           "accuracy": 80
-        },
-        {
-          "symbol": "iron_head",
-          "id": 442,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Iron Head",
-            "fr": "Tête de Fer",
-            "it": "Metaltestata",
-            "de": "Eisenschädel",
-            "es": "Cabeza de Hierro",
-            "ko": "아이언헤드"
-          },
-          "category": "physical",
-          "type": "steel",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
         },
         {
           "symbol": "iron_tail",
@@ -1010,6 +1053,44 @@
           "category": "status",
           "type": "dark",
           "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grudge",
+          "id": 288,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Grudge",
+            "fr": "Rancune",
+            "it": "Rancore",
+            "de": "Nachspiel",
+            "es": "Rabia",
+            "ko": "원념"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "memento",
+          "id": 262,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Memento",
+            "fr": "Souvenir",
+            "it": "Memento",
+            "de": "Memento-Mori",
+            "es": "Legado",
+            "ko": "추억의선물"
+          },
+          "category": "status",
+          "type": "dark",
+          "pp": 10,
           "power": 0,
           "accuracy": 100
         }

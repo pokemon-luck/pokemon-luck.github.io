@@ -83,78 +83,78 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 8
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "disable",
-          "level": 12
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "pursuit",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "torment",
-          "level": 24
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "shadow_sneak",
-          "level": 28
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "snarl",
-          "level": 32
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hypnosis",
-          "level": 36
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "night_slash",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "extrasensory",
-          "level": 44
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "role_play",
-          "level": 48
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dark_pulse",
-          "level": 52
+          "level": 45
         },
         {
           "klass": "LevelLearnableMove",
           "move": "future_sight",
-          "level": 56
+          "level": 51
         },
         {
           "klass": "TechLearnableMove",
@@ -319,6 +319,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "reflect_type"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "poltergeist"
         }
       ],
       "names": {
@@ -401,25 +409,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -439,10 +428,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -461,7 +469,7 @@
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 9,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -480,7 +488,7 @@
           "symbol": "disable",
           "id": 50,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 11,
           "names": {
             "en": "Disable",
             "fr": "Entrave",
@@ -499,7 +507,7 @@
           "symbol": "pursuit",
           "id": 228,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Pursuit",
             "fr": "Poursuite",
@@ -518,7 +526,7 @@
           "symbol": "torment",
           "id": 259,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 16,
           "names": {
             "en": "Torment",
             "fr": "Tourmente",
@@ -537,7 +545,7 @@
           "symbol": "shadow_sneak",
           "id": 425,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 19,
           "names": {
             "en": "Shadow Sneak",
             "fr": "Ombre Portée",
@@ -556,7 +564,7 @@
           "symbol": "snarl",
           "id": 555,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 23,
           "names": {
             "en": "Snarl",
             "fr": "Aboiement",
@@ -575,7 +583,7 @@
           "symbol": "hypnosis",
           "id": 95,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Hypnosis",
             "fr": "Hypnose",
@@ -594,7 +602,7 @@
           "symbol": "night_slash",
           "id": 400,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 33,
           "names": {
             "en": "Night Slash",
             "fr": "Tranche-Nuit",
@@ -613,7 +621,7 @@
           "symbol": "extrasensory",
           "id": 326,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 38,
           "names": {
             "en": "Extrasensory",
             "fr": "Extrasenseur",
@@ -632,7 +640,7 @@
           "symbol": "role_play",
           "id": 272,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 40,
           "names": {
             "en": "Role Play",
             "fr": "Imitation",
@@ -651,7 +659,7 @@
           "symbol": "dark_pulse",
           "id": 399,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 45,
           "names": {
             "en": "Dark Pulse",
             "fr": "Vibrobscur",
@@ -670,7 +678,7 @@
           "symbol": "future_sight",
           "id": 248,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 51,
           "names": {
             "en": "Future Sight",
             "fr": "Prescience",
@@ -1368,6 +1376,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "reflect_type",
+          "id": 513,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Reflect Type",
+            "fr": "Copie-Type",
+            "it": "Riflettipo",
+            "de": "Typenspiegel",
+            "es": "Clonatipo",
+            "ko": "미러타입"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "poltergeist",
+          "id": 725,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Poltergeist",
+            "fr": "Esprit Frappeur",
+            "it": "Poltergeist",
+            "de": "Poltergeist",
+            "es": "Poltergeist",
+            "ko": "Poltergeist"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 90
         }
       ]
     }

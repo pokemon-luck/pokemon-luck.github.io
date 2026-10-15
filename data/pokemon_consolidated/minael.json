@@ -102,82 +102,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "confusion",
-          "level": 4
+          "level": 5
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sparkle_powder",
-          "level": 7
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "glow",
-          "level": 10
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "zen_headbutt",
           "level": 13
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "zen_headbutt",
+          "level": 18
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "compassion",
-          "level": 16
+          "level": 23
         },
         {
           "klass": "LevelLearnableMove",
           "move": "safeguard",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dazzling_gleam",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "reflect",
           "level": 28
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "dazzling_gleam",
+          "level": 33
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "reflect",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "body_slam",
-          "level": 32
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "purify",
-          "level": 36
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "recover",
-          "level": 40
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 44
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "healing_wish",
-          "level": 48
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonblast",
-          "level": 52
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "luminous_prism",
-          "level": 56
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "golden_ward",
-          "level": 62
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -334,6 +334,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "aromatherapy"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "atonement"
         }
       ],
       "names": {
@@ -457,7 +465,7 @@
           "symbol": "confusion",
           "id": 93,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 5,
           "names": {
             "en": "Confusion",
             "fr": "Choc Mental",
@@ -476,7 +484,7 @@
           "symbol": "sparkle_powder",
           "id": 773,
           "klass": "LevelLearnableMove",
-          "level": 7,
+          "level": 8,
           "names": {
             "en": "Sparkle Powder",
             "fr": "Poudre Paillettes",
@@ -495,7 +503,7 @@
           "symbol": "glow",
           "id": 782,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 13,
           "names": {
             "en": "Glow",
             "fr": "Brillance",
@@ -514,7 +522,7 @@
           "symbol": "zen_headbutt",
           "id": 428,
           "klass": "LevelLearnableMove",
-          "level": 13,
+          "level": 18,
           "names": {
             "en": "Zen Headbutt",
             "fr": "Psykoud’Boul",
@@ -533,7 +541,7 @@
           "symbol": "compassion",
           "id": 783,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 23,
           "names": {
             "en": "Compassion",
             "fr": "Compassion",
@@ -552,7 +560,7 @@
           "symbol": "safeguard",
           "id": 219,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 28,
           "names": {
             "en": "Safeguard",
             "fr": "Rune Protect",
@@ -571,7 +579,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 33,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -590,7 +598,7 @@
           "symbol": "reflect",
           "id": 115,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 38,
           "names": {
             "en": "Reflect",
             "fr": "Protection",
@@ -609,7 +617,7 @@
           "symbol": "body_slam",
           "id": 34,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 42,
           "names": {
             "en": "Body Slam",
             "fr": "Plaquage",
@@ -628,7 +636,7 @@
           "symbol": "purify",
           "id": 685,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 46,
           "names": {
             "en": "Purify",
             "fr": "Purification",
@@ -647,7 +655,7 @@
           "symbol": "recover",
           "id": 105,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 50,
           "names": {
             "en": "Recover",
             "fr": "Soin",
@@ -666,7 +674,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 54,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -685,7 +693,7 @@
           "symbol": "healing_wish",
           "id": 361,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 58,
           "names": {
             "en": "Healing Wish",
             "fr": "Vœu Soin",
@@ -704,7 +712,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 62,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -723,7 +731,7 @@
           "symbol": "luminous_prism",
           "id": 780,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 66,
           "names": {
             "en": "Luminous Prism",
             "fr": "Prisme Lumière",
@@ -742,7 +750,7 @@
           "symbol": "golden_ward",
           "id": 784,
           "klass": "LevelLearnableMove",
-          "level": 62,
+          "level": 70,
           "names": {
             "en": "Golden Ward",
             "fr": "Bulle Dorée",
@@ -1269,6 +1277,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "aromatherapy",
+          "id": 312,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Aromatherapy",
+            "fr": "Aromathérapie",
+            "it": "Aromaterapia",
+            "de": "Aromakur",
+            "es": "Aromaterapia",
+            "ko": "아로마테라피"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "atonement",
+          "id": 779,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Atonement",
+            "fr": "Expiation",
+            "it": "Tagliola",
+            "de": "Fangeisen",
+            "es": "Cepo",
+            "ko": "집게덫"
+          },
+          "category": "special",
+          "type": "celestial",
+          "pp": 15,
+          "power": 20,
+          "accuracy": 100
         }
       ]
     }

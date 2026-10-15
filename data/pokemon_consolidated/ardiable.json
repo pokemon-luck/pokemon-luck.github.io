@@ -119,68 +119,73 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "smokescreen",
-          "level": 5
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "feint_attack",
-          "level": 9
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_wheel",
-          "level": 12
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "smokescreen",
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "incinerate",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shadow_claw",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "flame_burst",
-          "level": 24
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "knock_off",
-          "level": 28
+          "level": 17
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "flame_burst",
+          "level": 22
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "confuse_ray",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_punch",
-          "level": 32
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nasty_plot",
-          "level": 36
+          "level": 34
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flare_blitz",
-          "level": 40
+          "level": 45
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bulk_up",
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 44
+          "level": 55
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 48
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 52
+          "level": 61
         },
         {
           "klass": "TechLearnableMove",
@@ -549,29 +554,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "smokescreen",
-          "id": 108,
-          "klass": "LevelLearnableMove",
-          "level": 5,
-          "names": {
-            "en": "Smokescreen",
-            "fr": "Brouillard",
-            "it": "Muro di Fumo",
-            "de": "Rauchwolke",
-            "es": "Pantalla de Humo",
-            "ko": "연막"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "feint_attack",
           "id": 185,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 4,
           "names": {
             "en": "Feint Attack",
             "fr": "Feinte",
@@ -590,7 +576,7 @@
           "symbol": "flame_wheel",
           "id": 172,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 8,
           "names": {
             "en": "Flame Wheel",
             "fr": "Roue de Feu",
@@ -606,10 +592,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "smokescreen",
+          "id": 108,
+          "klass": "LevelLearnableMove",
+          "level": 10,
+          "names": {
+            "en": "Smokescreen",
+            "fr": "Brouillard",
+            "it": "Muro di Fumo",
+            "de": "Rauchwolke",
+            "es": "Pantalla de Humo",
+            "ko": "연막"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "incinerate",
           "id": 510,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Incinerate",
             "fr": "Calcination",
@@ -625,48 +630,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_claw",
-          "id": 421,
-          "klass": "LevelLearnableMove",
-          "level": 20,
-          "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
-          },
-          "category": "physical",
-          "type": "ghost",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "flame_burst",
-          "id": 481,
-          "klass": "LevelLearnableMove",
-          "level": 24,
-          "names": {
-            "en": "Flame Burst",
-            "fr": "Rebondifeu",
-            "it": "Pirolancio",
-            "de": "Funkenflug",
-            "es": "Pirotecnia",
-            "ko": "불꽃튀기기"
-          },
-          "category": "special",
-          "type": "fire",
-          "pp": 15,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
           "symbol": "knock_off",
           "id": 282,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 17,
           "names": {
             "en": "Knock Off",
             "fr": "Sabotage",
@@ -682,10 +649,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "flame_burst",
+          "id": 481,
+          "klass": "LevelLearnableMove",
+          "level": 22,
+          "names": {
+            "en": "Flame Burst",
+            "fr": "Rebondifeu",
+            "it": "Pirolancio",
+            "de": "Funkenflug",
+            "es": "Pirotecnia",
+            "ko": "불꽃튀기기"
+          },
+          "category": "special",
+          "type": "fire",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
+          },
+          "category": "status",
+          "type": "ghost",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
           "symbol": "fire_punch",
           "id": 7,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 29,
           "names": {
             "en": "Fire Punch",
             "fr": "Poing Feu",
@@ -704,7 +709,7 @@
           "symbol": "nasty_plot",
           "id": 417,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 34,
           "names": {
             "en": "Nasty Plot",
             "fr": "Machination",
@@ -720,10 +725,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "shadow_claw",
+          "id": 421,
+          "klass": "LevelLearnableMove",
+          "level": 39,
+          "names": {
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
+          },
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
           "symbol": "flare_blitz",
           "id": 394,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 45,
           "names": {
             "en": "Flare Blitz",
             "fr": "Boutefeu",
@@ -739,10 +763,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "bulk_up",
+          "id": 339,
+          "klass": "LevelLearnableMove",
+          "level": 50,
+          "names": {
+            "en": "Bulk Up",
+            "fr": "Gonflette",
+            "it": "Granfisico",
+            "de": "Protzer",
+            "es": "Corpulencia",
+            "ko": "벌크업"
+          },
+          "category": "status",
+          "type": "fighting",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 55,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -761,7 +804,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 61,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",
@@ -774,25 +817,6 @@
           "type": "fire",
           "pp": 5,
           "power": 130,
-          "accuracy": 90
-        },
-        {
-          "symbol": "play_rough",
-          "id": 583,
-          "klass": "LevelLearnableMove",
-          "level": 52,
-          "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
-          },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
           "accuracy": 90
         },
         {
@@ -1537,6 +1561,25 @@
           "accuracy": 75
         },
         {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
           "symbol": "swords_dance",
           "id": 14,
           "klass": "TechLearnableMove",
@@ -1570,25 +1613,6 @@
           },
           "category": "status",
           "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "bulk_up",
-          "id": 339,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Bulk Up",
-            "fr": "Gonflette",
-            "it": "Granfisico",
-            "de": "Protzer",
-            "es": "Corpulencia",
-            "ko": "벌크업"
-          },
-          "category": "status",
-          "type": "fighting",
           "pp": 20,
           "power": 0,
           "accuracy": 0
@@ -1725,25 +1749,6 @@
           "pp": 15,
           "power": 0,
           "accuracy": 85
-        },
-        {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
         },
         {
           "symbol": "charm",

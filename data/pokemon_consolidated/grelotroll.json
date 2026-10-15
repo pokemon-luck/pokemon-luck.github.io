@@ -72,63 +72,63 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "powder_snow",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "tackle",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 4
+          "level": 3
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 12
+          "level": 10
         },
         {
           "klass": "LevelLearnableMove",
           "move": "avalanche",
-          "level": 16
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
           "move": "hail",
-          "level": 20
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_ball",
-          "level": 24
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "iron_defense",
-          "level": 28
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "freeze_dry",
-          "level": 36
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "amnesia",
-          "level": 40
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "blizzard",
-          "level": 44
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
@@ -138,32 +138,32 @@
         {
           "klass": "LevelLearnableMove",
           "move": "earthquake",
-          "level": 52
+          "level": 54
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 56
+          "level": 59
         },
         {
           "klass": "LevelLearnableMove",
           "move": "protect",
-          "level": 60
+          "level": 61
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mirror_coat",
-          "level": 64
+          "level": 66
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 68
+          "level": 72
         },
         {
           "klass": "LevelLearnableMove",
           "move": "counter",
-          "level": 72
+          "level": 77
         },
         {
           "klass": "TechLearnableMove",
@@ -494,25 +494,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "powder_snow",
           "id": 181,
           "klass": "LevelLearnableMove",
@@ -532,10 +513,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 4,
+          "level": 3,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -554,7 +554,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -573,7 +573,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -592,7 +592,7 @@
           "symbol": "avalanche",
           "id": 419,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 14,
           "names": {
             "en": "Avalanche",
             "fr": "Avalanche",
@@ -611,7 +611,7 @@
           "symbol": "hail",
           "id": 258,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 19,
           "names": {
             "en": "Hail",
             "fr": "Grêle",
@@ -630,7 +630,7 @@
           "symbol": "ice_ball",
           "id": 301,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 22,
           "names": {
             "en": "Ice Ball",
             "fr": "Ball’Glace",
@@ -649,7 +649,7 @@
           "symbol": "iron_defense",
           "id": 334,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 27,
           "names": {
             "en": "Iron Defense",
             "fr": "Mur de Fer",
@@ -668,7 +668,7 @@
           "symbol": "freeze_dry",
           "id": 573,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 32,
           "names": {
             "en": "Freeze-Dry",
             "fr": "Lyophilisation",
@@ -687,7 +687,7 @@
           "symbol": "amnesia",
           "id": 133,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 37,
           "names": {
             "en": "Amnesia",
             "fr": "Amnésie",
@@ -706,7 +706,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 43,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -744,7 +744,7 @@
           "symbol": "earthquake",
           "id": 89,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 54,
           "names": {
             "en": "Earthquake",
             "fr": "Séisme",
@@ -763,7 +763,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 59,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -782,7 +782,7 @@
           "symbol": "protect",
           "id": 182,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 61,
           "names": {
             "en": "Protect",
             "fr": "Abri",
@@ -801,7 +801,7 @@
           "symbol": "mirror_coat",
           "id": 243,
           "klass": "LevelLearnableMove",
-          "level": 64,
+          "level": 66,
           "names": {
             "en": "Mirror Coat",
             "fr": "Voile Miroir",
@@ -820,7 +820,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 68,
+          "level": 72,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -839,7 +839,7 @@
           "symbol": "counter",
           "id": 68,
           "klass": "LevelLearnableMove",
-          "level": 72,
+          "level": 77,
           "names": {
             "en": "Counter",
             "fr": "Riposte",

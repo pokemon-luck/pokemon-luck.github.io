@@ -93,58 +93,58 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mud_slap",
+          "move": "double_kick",
           "level": 4
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "double_kick",
+          "move": "horn_attack",
           "level": 8
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "horn_attack",
-          "level": 12
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 16
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "mud_shot",
-          "level": 20
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "echoed_voice",
-          "level": 24
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "dig",
-          "level": 28
+          "move": "taunt",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stomp",
-          "level": 32
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sandstorm",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
           "move": "swagger",
-          "level": 36
+          "level": 28
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dig",
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "facade",
-          "level": 40
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 44
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
@@ -153,13 +153,8 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "play_rough",
-          "level": 52
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "superpower",
-          "level": 56
+          "level": 54
         },
         {
           "klass": "TechLearnableMove",
@@ -332,6 +327,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "high_horsepower"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "amnesia"
         }
       ],
       "names": {
@@ -452,29 +455,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "mud_slap",
-          "id": 189,
-          "klass": "LevelLearnableMove",
-          "level": 4,
-          "names": {
-            "en": "Mud-Slap",
-            "fr": "Coud’Boue",
-            "it": "Fangosberla",
-            "de": "Lehmschelle",
-            "es": "Bofetón Lodo",
-            "ko": "진흙뿌리기"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 20,
-          "accuracy": 100
-        },
-        {
           "symbol": "double_kick",
           "id": 24,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 4,
           "names": {
             "en": "Double Kick",
             "fr": "Double Pied",
@@ -493,7 +477,7 @@
           "symbol": "horn_attack",
           "id": 30,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 8,
           "names": {
             "en": "Horn Attack",
             "fr": "Koud’Korne",
@@ -512,7 +496,7 @@
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 11,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -531,7 +515,7 @@
           "symbol": "mud_shot",
           "id": 341,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Mud Shot",
             "fr": "Tir de Boue",
@@ -547,48 +531,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "echoed_voice",
-          "id": 497,
+          "symbol": "taunt",
+          "id": 269,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 17,
           "names": {
-            "en": "Echoed Voice",
-            "fr": "Écho",
-            "it": "Echeggiavoce",
-            "de": "Widerhall",
-            "es": "Eco Voz",
-            "ko": "에코보이스"
+            "en": "Taunt",
+            "fr": "Provoc",
+            "it": "Provocazione",
+            "de": "Verhöhner",
+            "es": "Mofa",
+            "ko": "도발"
           },
-          "category": "special",
-          "type": "normal",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dig",
-          "id": 91,
-          "klass": "LevelLearnableMove",
-          "level": 28,
-          "names": {
-            "en": "Dig",
-            "fr": "Tunnel",
-            "it": "Fossa",
-            "de": "Schaufler",
-            "es": "Excavar",
-            "ko": "구멍파기"
-          },
-          "category": "physical",
-          "type": "ground",
-          "pp": 10,
-          "power": 80,
+          "category": "status",
+          "type": "dark",
+          "pp": 20,
+          "power": 0,
           "accuracy": 100
         },
         {
           "symbol": "stomp",
           "id": 23,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 21,
           "names": {
             "en": "Stomp",
             "fr": "Écrasement",
@@ -604,10 +569,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "sandstorm",
+          "id": 201,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Sandstorm",
+            "fr": "Tempête de Sable",
+            "it": "Terrempesta",
+            "de": "Sandsturm",
+            "es": "Tormenta Arena",
+            "ko": "모래바람"
+          },
+          "category": "status",
+          "type": "rock",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
           "symbol": "swagger",
           "id": 207,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Swagger",
             "fr": "Vantardise",
@@ -623,10 +607,29 @@
           "accuracy": 85
         },
         {
+          "symbol": "dig",
+          "id": 91,
+          "klass": "LevelLearnableMove",
+          "level": 33,
+          "names": {
+            "en": "Dig",
+            "fr": "Tunnel",
+            "it": "Fossa",
+            "de": "Schaufler",
+            "es": "Excavar",
+            "ko": "구멍파기"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "facade",
           "id": 263,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 38,
           "names": {
             "en": "Facade",
             "fr": "Façade",
@@ -645,7 +648,7 @@
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 43,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -680,29 +683,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "play_rough",
-          "id": 583,
-          "klass": "LevelLearnableMove",
-          "level": 52,
-          "names": {
-            "en": "Play Rough",
-            "fr": "Câlinerie",
-            "it": "Carineria",
-            "de": "Knuddler",
-            "es": "Carantoña",
-            "ko": "치근거리기"
-          },
-          "category": "physical",
-          "type": "fairy",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 90
-        },
-        {
           "symbol": "superpower",
           "id": 276,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 54,
           "names": {
             "en": "Superpower",
             "fr": "Surpuissance",
@@ -829,6 +813,25 @@
           "type": "fighting",
           "pp": 20,
           "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
           "accuracy": 100
         },
         {
@@ -1098,6 +1101,25 @@
           "accuracy": 75
         },
         {
+          "symbol": "play_rough",
+          "id": 583,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Play Rough",
+            "fr": "Câlinerie",
+            "it": "Carineria",
+            "de": "Knuddler",
+            "es": "Carantoña",
+            "ko": "치근거리기"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 90
+        },
+        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "TechLearnableMove",
@@ -1189,25 +1211,6 @@
           "category": "status",
           "type": "ground",
           "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sandstorm",
-          "id": 201,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Sandstorm",
-            "fr": "Tempête de Sable",
-            "it": "Terrempesta",
-            "de": "Sandsturm",
-            "es": "Tormenta Arena",
-            "ko": "모래바람"
-          },
-          "category": "status",
-          "type": "rock",
-          "pp": 10,
           "power": 0,
           "accuracy": 0
         },
@@ -1345,25 +1348,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "taunt",
-          "id": 269,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Taunt",
-            "fr": "Provoc",
-            "it": "Provocazione",
-            "de": "Verhöhner",
-            "es": "Mofa",
-            "ko": "도발"
-          },
-          "category": "status",
-          "type": "dark",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
           "symbol": "encore",
           "id": 227,
           "klass": "TechLearnableMove",
@@ -1397,6 +1381,44 @@
           },
           "category": "status",
           "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "high_horsepower",
+          "id": 667,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "High Horsepower",
+            "fr": "Cavalerie Lourde",
+            "it": "Forza Equina",
+            "de": "Pferdestärke",
+            "es": "Fuerza Equina",
+            "ko": "10만마력"
+          },
+          "category": "physical",
+          "type": "ground",
+          "pp": 10,
+          "power": 95,
+          "accuracy": 95
+        },
+        {
+          "symbol": "amnesia",
+          "id": 133,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Amnesia",
+            "fr": "Amnésie",
+            "it": "Amnesia",
+            "de": "Amnesie",
+            "es": "Amnesia",
+            "ko": "망각술"
+          },
+          "category": "status",
+          "type": "psychic",
           "pp": 20,
           "power": 0,
           "accuracy": 0

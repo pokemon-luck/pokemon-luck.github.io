@@ -83,12 +83,12 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "tackle",
+          "move": "leer",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "leer",
+          "move": "tackle",
           "level": 1
         },
         {
@@ -99,67 +99,67 @@
         {
           "klass": "LevelLearnableMove",
           "move": "acid",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_shard",
-          "level": 16
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "horn_attack",
-          "level": 20
+          "level": 15
         },
         {
           "klass": "LevelLearnableMove",
           "move": "smokescreen",
-          "level": 24
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "venoshock",
-          "level": 28
+          "level": 21
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ancient_power",
-          "level": 32
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "icy_wind",
-          "level": 36
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "toxic",
-          "level": 40
+          "level": 33
         },
         {
           "klass": "LevelLearnableMove",
           "move": "aurora_beam",
-          "level": 44
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "poison_jab",
-          "level": 48
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "ice_beam",
-          "level": 52
+          "level": 47
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sludge_bomb",
-          "level": 56
+          "level": 52
         },
         {
           "klass": "TechLearnableMove",
@@ -332,6 +332,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "sludge_wave"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "toxic_thread"
         }
       ],
       "names": {
@@ -414,25 +422,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "tackle",
-          "id": 33,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Tackle",
-            "fr": "Charge",
-            "it": "Azione",
-            "de": "Tackle",
-            "es": "Placaje",
-            "ko": "몸통박치기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "leer",
           "id": 43,
           "klass": "LevelLearnableMove",
@@ -449,6 +438,25 @@
           "type": "normal",
           "pp": 30,
           "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "tackle",
+          "id": 33,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Tackle",
+            "fr": "Charge",
+            "it": "Azione",
+            "de": "Tackle",
+            "es": "Placaje",
+            "ko": "몸통박치기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
           "accuracy": 100
         },
         {
@@ -474,7 +482,7 @@
           "symbol": "acid",
           "id": 51,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Acid",
             "fr": "Acide",
@@ -493,7 +501,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -512,7 +520,7 @@
           "symbol": "ice_shard",
           "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 12,
           "names": {
             "en": "Ice Shard",
             "fr": "Éclats Glace",
@@ -531,7 +539,7 @@
           "symbol": "horn_attack",
           "id": 30,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 15,
           "names": {
             "en": "Horn Attack",
             "fr": "Koud’Korne",
@@ -550,7 +558,7 @@
           "symbol": "smokescreen",
           "id": 108,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 17,
           "names": {
             "en": "Smokescreen",
             "fr": "Brouillard",
@@ -569,7 +577,7 @@
           "symbol": "venoshock",
           "id": 474,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 21,
           "names": {
             "en": "Venoshock",
             "fr": "Choc Venin",
@@ -588,7 +596,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 24,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -607,7 +615,7 @@
           "symbol": "icy_wind",
           "id": 196,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 28,
           "names": {
             "en": "Icy Wind",
             "fr": "Vent Glace",
@@ -626,7 +634,7 @@
           "symbol": "toxic",
           "id": 92,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 33,
           "names": {
             "en": "Toxic",
             "fr": "Toxik",
@@ -645,7 +653,7 @@
           "symbol": "aurora_beam",
           "id": 62,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 37,
           "names": {
             "en": "Aurora Beam",
             "fr": "Onde Boréale",
@@ -664,7 +672,7 @@
           "symbol": "poison_jab",
           "id": 398,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 42,
           "names": {
             "en": "Poison Jab",
             "fr": "Direct Toxik",
@@ -683,7 +691,7 @@
           "symbol": "ice_beam",
           "id": 58,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 47,
           "names": {
             "en": "Ice Beam",
             "fr": "Laser Glace",
@@ -702,7 +710,7 @@
           "symbol": "sludge_bomb",
           "id": 188,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 52,
           "names": {
             "en": "Sludge Bomb",
             "fr": "Bombe Beurk",
@@ -1359,6 +1367,44 @@
           },
           "category": "status",
           "type": "dark",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sludge_wave",
+          "id": 482,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sludge Wave",
+            "fr": "Cradovague",
+            "it": "Fangonda",
+            "de": "Schlammwoge",
+            "es": "Onda Tóxica",
+            "ko": "오물웨이브"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 95,
+          "accuracy": 100
+        },
+        {
+          "symbol": "toxic_thread",
+          "id": 672,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Toxic Thread",
+            "fr": "Fil Toxique",
+            "it": "Velenotela",
+            "de": "Giftfaden",
+            "es": "Hilo Venenoso",
+            "ko": "독실"
+          },
+          "category": "status",
+          "type": "poison",
           "pp": 20,
           "power": 0,
           "accuracy": 100

@@ -82,97 +82,97 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "lucky_chant",
-          "level": 3
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "fester",
           "level": 6
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "aurora_beam",
-          "level": 9
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "draining_kiss",
-          "level": 13
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "hex",
-          "level": 18
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "icy_wind",
-          "level": 23
+          "move": "lucky_chant",
+          "level": 11
         },
         {
           "klass": "LevelLearnableMove",
           "move": "defacement",
-          "level": 27
+          "level": 14
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mirror_coat",
-          "level": 32
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "poison_jab",
-          "level": 38
+          "move": "ice_shard",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
           "move": "revenants_grasp",
-          "level": 42
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "calm_mind",
-          "level": 47
+          "move": "aurora_beam",
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "blizzard",
-          "level": 53
+          "move": "bone_pierce",
+          "level": 31
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "grave_vengeance",
-          "level": 58
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "icy_omen",
-          "level": 63
+          "move": "avalanche",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
           "move": "deaths_favour",
-          "level": 68
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "moonblast",
-          "level": 74
+          "move": "hex",
+          "level": 43
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "blightstorm",
-          "level": 80
+          "move": "grave_vengeance",
+          "level": 48
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "shadow_ball",
-          "level": 86
+          "move": "mirror_coat",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rearise",
+          "level": 58
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_jab",
+          "level": 63
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blightstorm",
+          "level": 69
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "icy_omen",
+          "level": 74
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "calm_mind",
+          "level": 79
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "blizzard",
+          "level": 85
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shadow_claw",
           "level": 90
         },
         {
@@ -515,25 +515,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "lucky_chant",
-          "id": 381,
-          "klass": "LevelLearnableMove",
-          "level": 3,
-          "names": {
-            "en": "Lucky Chant",
-            "fr": "Air Veinard",
-            "it": "Fortuncanto",
-            "de": "Beschwörung",
-            "es": "Conjuro",
-            "ko": "주술"
-          },
-          "category": "status",
-          "type": "normal",
-          "pp": 30,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "fester",
           "id": 752,
           "klass": "LevelLearnableMove",
@@ -553,86 +534,29 @@
           "accuracy": 95
         },
         {
-          "symbol": "aurora_beam",
-          "id": 62,
+          "symbol": "lucky_chant",
+          "id": 381,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 11,
           "names": {
-            "en": "Aurora Beam",
-            "fr": "Onde Boréale",
-            "it": "Raggiaurora",
-            "de": "Aurorastrahl",
-            "es": "Rayo Aurora",
-            "ko": "오로라빔"
+            "en": "Lucky Chant",
+            "fr": "Air Veinard",
+            "it": "Fortuncanto",
+            "de": "Beschwörung",
+            "es": "Conjuro",
+            "ko": "주술"
           },
-          "category": "special",
-          "type": "ice",
-          "pp": 20,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "draining_kiss",
-          "id": 577,
-          "klass": "LevelLearnableMove",
-          "level": 13,
-          "names": {
-            "en": "Draining Kiss",
-            "fr": "Vampibaiser",
-            "it": "Assorbibacio",
-            "de": "Diebeskuss",
-            "es": "Beso Drenaje",
-            "ko": "드레인키스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 10,
-          "power": 50,
-          "accuracy": 100
-        },
-        {
-          "symbol": "hex",
-          "id": 506,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Hex",
-            "fr": "Châtiment",
-            "it": "Sciagura",
-            "de": "Bürde",
-            "es": "Infortunio",
-            "ko": "병상첨병"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "icy_wind",
-          "id": 196,
-          "klass": "LevelLearnableMove",
-          "level": 23,
-          "names": {
-            "en": "Icy Wind",
-            "fr": "Vent Glace",
-            "it": "Ventogelato",
-            "de": "Eissturm",
-            "es": "Viento Hielo",
-            "ko": "얼다바람"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
+          "category": "status",
+          "type": "normal",
+          "pp": 30,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "defacement",
           "id": 753,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 14,
           "names": {
             "en": "Defacement",
             "fr": "Dégradation",
@@ -648,48 +572,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "mirror_coat",
-          "id": 243,
+          "symbol": "ice_shard",
+          "id": 420,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 17,
           "names": {
-            "en": "Mirror Coat",
-            "fr": "Voile Miroir",
-            "it": "Specchiovelo",
-            "de": "Spiegelcape",
-            "es": "Manto Espejo",
-            "ko": "미러코트"
-          },
-          "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "poison_jab",
-          "id": 398,
-          "klass": "LevelLearnableMove",
-          "level": 38,
-          "names": {
-            "en": "Poison Jab",
-            "fr": "Direct Toxik",
-            "it": "Velenpuntura",
-            "de": "Gifthieb",
-            "es": "Puya Nociva",
-            "ko": "독찌르기"
+            "en": "Ice Shard",
+            "fr": "Éclats Glace",
+            "it": "Geloscheggia",
+            "de": "Eissplitter",
+            "es": "Canto Helado",
+            "ko": "얼음뭉치"
           },
           "category": "physical",
-          "type": "poison",
-          "pp": 20,
-          "power": 80,
+          "type": "ice",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
           "symbol": "revenants_grasp",
           "id": 756,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 22,
           "names": {
             "en": "Revenant's Grasp",
             "fr": "Poigne Revenant",
@@ -705,10 +610,219 @@
           "accuracy": 100
         },
         {
+          "symbol": "aurora_beam",
+          "id": 62,
+          "klass": "LevelLearnableMove",
+          "level": 26,
+          "names": {
+            "en": "Aurora Beam",
+            "fr": "Onde Boréale",
+            "it": "Raggiaurora",
+            "de": "Aurorastrahl",
+            "es": "Rayo Aurora",
+            "ko": "오로라빔"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "bone_pierce",
+          "id": 736,
+          "klass": "LevelLearnableMove",
+          "level": 31,
+          "names": {
+            "en": "Bone Pierce",
+            "fr": "Perce Os",
+            "it": "Auraswoosh",
+            "de": "Pulsieraura",
+            "es": "Espeaura",
+            "ko": "콸콸오라"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 10,
+          "power": 75,
+          "accuracy": 100
+        },
+        {
+          "symbol": "avalanche",
+          "id": 419,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Avalanche",
+            "fr": "Avalanche",
+            "it": "Slavina",
+            "de": "Lawine",
+            "es": "Alud",
+            "ko": "눈사태"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "deaths_favour",
+          "id": 760,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Death's Favour",
+            "fr": "Faveur Mortelle",
+            "it": "Dynattacco",
+            "de": "Dyna-Angriff",
+            "es": "Maxiataque",
+            "ko": "다이어택"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 5,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "hex",
+          "id": 506,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Hex",
+            "fr": "Châtiment",
+            "it": "Sciagura",
+            "de": "Bürde",
+            "es": "Infortunio",
+            "ko": "병상첨병"
+          },
+          "category": "special",
+          "type": "ghost",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "grave_vengeance",
+          "id": 748,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Grave Vengeance",
+            "fr": "Vengeance Tombale",
+            "it": "Spalle al Muro",
+            "de": "Finalformation",
+            "es": "Bastión Final",
+            "ko": "배수의진"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "mirror_coat",
+          "id": 243,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Mirror Coat",
+            "fr": "Voile Miroir",
+            "it": "Specchiovelo",
+            "de": "Spiegelcape",
+            "es": "Manto Espejo",
+            "ko": "미러코트"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "rearise",
+          "id": 757,
+          "klass": "LevelLearnableMove",
+          "level": 58,
+          "names": {
+            "en": "Rearise",
+            "fr": "Réviviscence",
+            "it": "Dynafiammata",
+            "de": "Dyna-Brand",
+            "es": "Maxignición",
+            "ko": "다이번"
+          },
+          "category": "status",
+          "type": "undead",
+          "pp": 1,
+          "power": 0,
+          "accuracy": 100
+        },
+        {
+          "symbol": "poison_jab",
+          "id": 398,
+          "klass": "LevelLearnableMove",
+          "level": 63,
+          "names": {
+            "en": "Poison Jab",
+            "fr": "Direct Toxik",
+            "it": "Velenpuntura",
+            "de": "Gifthieb",
+            "es": "Puya Nociva",
+            "ko": "독찌르기"
+          },
+          "category": "physical",
+          "type": "poison",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "blightstorm",
+          "id": 747,
+          "klass": "LevelLearnableMove",
+          "level": 69,
+          "names": {
+            "en": "Blightstorm",
+            "fr": "Tempêterreur",
+            "it": "Riempiguance",
+            "de": "Backenstopfer",
+            "es": "Atiborramiento",
+            "ko": "볼가득넣기"
+          },
+          "category": "special",
+          "type": "undead",
+          "pp": 5,
+          "power": 110,
+          "accuracy": 85
+        },
+        {
+          "symbol": "icy_omen",
+          "id": 728,
+          "klass": "LevelLearnableMove",
+          "level": 74,
+          "names": {
+            "en": "Icy Omen",
+            "fr": "Présage Glacial",
+            "it": "Dracofonia Divampante",
+            "de": "Rasselnder Seelentanz",
+            "es": "Estruendo Implacable",
+            "ko": "브레이징소울비트"
+          },
+          "category": "special",
+          "type": "ice",
+          "pp": 10,
+          "power": 70,
+          "accuracy": 100
+        },
+        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 47,
+          "level": 79,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -727,7 +841,7 @@
           "symbol": "blizzard",
           "id": 59,
           "klass": "LevelLearnableMove",
-          "level": 53,
+          "level": 85,
           "names": {
             "en": "Blizzard",
             "fr": "Blizzard",
@@ -743,136 +857,22 @@
           "accuracy": 70
         },
         {
-          "symbol": "grave_vengeance",
-          "id": 748,
-          "klass": "LevelLearnableMove",
-          "level": 58,
-          "names": {
-            "en": "Grave Vengeance",
-            "fr": "Vengeance Tombale",
-            "it": "Spalle al Muro",
-            "de": "Finalformation",
-            "es": "Bastión Final",
-            "ko": "배수의진"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 10,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "icy_omen",
-          "id": 728,
-          "klass": "LevelLearnableMove",
-          "level": 63,
-          "names": {
-            "en": "Icy Omen",
-            "fr": "Présage Glacial",
-            "it": "Dracofonia Divampante",
-            "de": "Rasselnder Seelentanz",
-            "es": "Estruendo Implacable",
-            "ko": "브레이징소울비트"
-          },
-          "category": "special",
-          "type": "ice",
-          "pp": 10,
-          "power": 70,
-          "accuracy": 100
-        },
-        {
-          "symbol": "deaths_favour",
-          "id": 760,
-          "klass": "LevelLearnableMove",
-          "level": 68,
-          "names": {
-            "en": "Death's Favour",
-            "fr": "Faveur Mortelle",
-            "it": "Dynattacco",
-            "de": "Dyna-Angriff",
-            "es": "Maxiataque",
-            "ko": "다이어택"
-          },
-          "category": "status",
-          "type": "undead",
-          "pp": 5,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
-          "symbol": "moonblast",
-          "id": 585,
-          "klass": "LevelLearnableMove",
-          "level": 74,
-          "names": {
-            "en": "Moonblast",
-            "fr": "Pouvoir Lunaire",
-            "it": "Forza Lunare",
-            "de": "Mondgewalt",
-            "es": "Fuerza Lunar",
-            "ko": "문포스"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 15,
-          "power": 95,
-          "accuracy": 100
-        },
-        {
-          "symbol": "blightstorm",
-          "id": 747,
-          "klass": "LevelLearnableMove",
-          "level": 80,
-          "names": {
-            "en": "Blightstorm",
-            "fr": "Tempêterreur",
-            "it": "Riempiguance",
-            "de": "Backenstopfer",
-            "es": "Atiborramiento",
-            "ko": "볼가득넣기"
-          },
-          "category": "special",
-          "type": "undead",
-          "pp": 5,
-          "power": 110,
-          "accuracy": 85
-        },
-        {
-          "symbol": "shadow_ball",
-          "id": 247,
-          "klass": "LevelLearnableMove",
-          "level": 86,
-          "names": {
-            "en": "Shadow Ball",
-            "fr": "Ball’Ombre",
-            "it": "Palla Ombra",
-            "de": "Spukball",
-            "es": "Bola Sombra",
-            "ko": "섀도볼"
-          },
-          "category": "special",
-          "type": "ghost",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
-          "symbol": "rearise",
-          "id": 757,
+          "symbol": "shadow_claw",
+          "id": 421,
           "klass": "LevelLearnableMove",
           "level": 90,
           "names": {
-            "en": "Rearise",
-            "fr": "Réviviscence",
-            "it": "Dynafiammata",
-            "de": "Dyna-Brand",
-            "es": "Maxignición",
-            "ko": "다이번"
+            "en": "Shadow Claw",
+            "fr": "Griffe Ombre",
+            "it": "Ombrartigli",
+            "de": "Dunkelklaue",
+            "es": "Garra Umbría",
+            "ko": "섀도크루"
           },
-          "category": "status",
-          "type": "undead",
-          "pp": 1,
-          "power": 0,
+          "category": "physical",
+          "type": "ghost",
+          "pp": 15,
+          "power": 70,
           "accuracy": 100
         },
         {
@@ -971,42 +971,23 @@
           "accuracy": 100
         },
         {
-          "symbol": "ice_shard",
-          "id": 420,
+          "symbol": "icy_wind",
+          "id": 196,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Ice Shard",
-            "fr": "Éclats Glace",
-            "it": "Geloscheggia",
-            "de": "Eissplitter",
-            "es": "Canto Helado",
-            "ko": "얼음뭉치"
+            "en": "Icy Wind",
+            "fr": "Vent Glace",
+            "it": "Ventogelato",
+            "de": "Eissturm",
+            "es": "Viento Hielo",
+            "ko": "얼다바람"
           },
-          "category": "physical",
+          "category": "special",
           "type": "ice",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "avalanche",
-          "id": 419,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Avalanche",
-            "fr": "Avalanche",
-            "it": "Slavina",
-            "de": "Lawine",
-            "es": "Alud",
-            "ko": "눈사태"
-          },
-          "category": "physical",
-          "type": "ice",
-          "pp": 10,
-          "power": 60,
-          "accuracy": 100
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "ice_beam",
@@ -1104,22 +1085,22 @@
           "accuracy": 100
         },
         {
-          "symbol": "shadow_claw",
-          "id": 421,
+          "symbol": "shadow_ball",
+          "id": 247,
           "klass": "TechLearnableMove",
           "level": null,
           "names": {
-            "en": "Shadow Claw",
-            "fr": "Griffe Ombre",
-            "it": "Ombrartigli",
-            "de": "Dunkelklaue",
-            "es": "Garra Umbría",
-            "ko": "섀도크루"
+            "en": "Shadow Ball",
+            "fr": "Ball’Ombre",
+            "it": "Palla Ombra",
+            "de": "Spukball",
+            "es": "Bola Sombra",
+            "ko": "섀도볼"
           },
-          "category": "physical",
+          "category": "special",
           "type": "ghost",
           "pp": 15,
-          "power": 70,
+          "power": 80,
           "accuracy": 100
         },
         {
@@ -1275,6 +1256,25 @@
           "accuracy": 100
         },
         {
+          "symbol": "draining_kiss",
+          "id": 577,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draining Kiss",
+            "fr": "Vampibaiser",
+            "it": "Assorbibacio",
+            "de": "Diebeskuss",
+            "es": "Beso Drenaje",
+            "ko": "드레인키스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 10,
+          "power": 50,
+          "accuracy": 100
+        },
+        {
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "TechLearnableMove",
@@ -1291,6 +1291,25 @@
           "type": "fairy",
           "pp": 10,
           "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "moonblast",
+          "id": 585,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Moonblast",
+            "fr": "Pouvoir Lunaire",
+            "it": "Forza Lunare",
+            "de": "Mondgewalt",
+            "es": "Fuerza Lunar",
+            "ko": "문포스"
+          },
+          "category": "special",
+          "type": "fairy",
+          "pp": 15,
+          "power": 95,
           "accuracy": 100
         },
         {
@@ -1348,25 +1367,6 @@
           "type": "undead",
           "pp": 15,
           "power": 65,
-          "accuracy": 100
-        },
-        {
-          "symbol": "bone_pierce",
-          "id": 736,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Bone Pierce",
-            "fr": "Perce Os",
-            "it": "Auraswoosh",
-            "de": "Pulsieraura",
-            "es": "Espeaura",
-            "ko": "콸콸오라"
-          },
-          "category": "physical",
-          "type": "undead",
-          "pp": 10,
-          "power": 75,
           "accuracy": 100
         },
         {

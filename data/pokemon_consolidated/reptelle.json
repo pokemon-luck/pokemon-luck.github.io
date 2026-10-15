@@ -83,7 +83,7 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "thunder_shock",
+          "move": "sweet_kiss",
           "level": 1
         },
         {
@@ -93,83 +93,83 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sweet_kiss",
+          "move": "thunder_shock",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 3
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "glare",
-          "level": 5
+          "level": 6
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 10
+          "level": 8
         },
         {
           "klass": "LevelLearnableMove",
           "move": "draining_kiss",
-          "level": 15
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psybeam",
-          "level": 25
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "dazzling_gleam",
-          "level": 30
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "nuzzle",
-          "level": 35
+          "level": 27
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 40
+          "level": 32
         },
         {
           "klass": "LevelLearnableMove",
           "move": "discharge",
-          "level": 45
+          "level": 37
         },
         {
           "klass": "LevelLearnableMove",
           "move": "moonblast",
-          "level": 50
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "parabolic_charge",
-          "level": 55
+          "level": 46
         },
         {
           "klass": "LevelLearnableMove",
           "move": "misty_terrain",
-          "level": 60
+          "level": 51
         },
         {
           "klass": "LevelLearnableMove",
           "move": "psychic",
-          "level": 65
+          "level": 56
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder",
-          "level": 70
+          "level": 62
         },
         {
           "klass": "TechLearnableMove",
@@ -420,23 +420,23 @@
       ],
       "moves_data": [
         {
-          "symbol": "thunder_shock",
-          "id": 84,
+          "symbol": "sweet_kiss",
+          "id": 186,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Thunder Shock",
-            "fr": "Éclair",
-            "it": "Tuonoshock",
-            "de": "Donnerschock",
-            "es": "Impactrueno",
-            "ko": "전기쇼크"
+            "en": "Sweet Kiss",
+            "fr": "Doux Baiser",
+            "it": "Dolcebacio",
+            "de": "Bitterkuss",
+            "es": "Beso Dulce",
+            "ko": "천사의키스"
           },
-          "category": "special",
-          "type": "electric",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
+          "category": "status",
+          "type": "fairy",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 75
         },
         {
           "symbol": "charm",
@@ -458,29 +458,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "sweet_kiss",
-          "id": 186,
+          "symbol": "thunder_shock",
+          "id": 84,
           "klass": "LevelLearnableMove",
           "level": 1,
           "names": {
-            "en": "Sweet Kiss",
-            "fr": "Doux Baiser",
-            "it": "Dolcebacio",
-            "de": "Bitterkuss",
-            "es": "Beso Dulce",
-            "ko": "천사의키스"
+            "en": "Thunder Shock",
+            "fr": "Éclair",
+            "it": "Tuonoshock",
+            "de": "Donnerschock",
+            "es": "Impactrueno",
+            "ko": "전기쇼크"
           },
-          "category": "status",
-          "type": "fairy",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 75
+          "category": "special",
+          "type": "electric",
+          "pp": 30,
+          "power": 40,
+          "accuracy": 100
         },
         {
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -499,7 +499,7 @@
           "symbol": "glare",
           "id": 137,
           "klass": "LevelLearnableMove",
-          "level": 5,
+          "level": 6,
           "names": {
             "en": "Glare",
             "fr": "Regard Médusant",
@@ -518,7 +518,7 @@
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 10,
+          "level": 8,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -537,7 +537,7 @@
           "symbol": "draining_kiss",
           "id": 577,
           "klass": "LevelLearnableMove",
-          "level": 15,
+          "level": 12,
           "names": {
             "en": "Draining Kiss",
             "fr": "Vampibaiser",
@@ -556,7 +556,7 @@
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -575,7 +575,7 @@
           "symbol": "psybeam",
           "id": 60,
           "klass": "LevelLearnableMove",
-          "level": 25,
+          "level": 19,
           "names": {
             "en": "Psybeam",
             "fr": "Rafale Psy",
@@ -594,7 +594,7 @@
           "symbol": "dazzling_gleam",
           "id": 605,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 24,
           "names": {
             "en": "Dazzling Gleam",
             "fr": "Éclat Magique",
@@ -613,7 +613,7 @@
           "symbol": "nuzzle",
           "id": 609,
           "klass": "LevelLearnableMove",
-          "level": 35,
+          "level": 27,
           "names": {
             "en": "Nuzzle",
             "fr": "Frotte-Frimousse",
@@ -632,7 +632,7 @@
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 32,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -651,7 +651,7 @@
           "symbol": "discharge",
           "id": 435,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 37,
           "names": {
             "en": "Discharge",
             "fr": "Coup d’Jus",
@@ -670,7 +670,7 @@
           "symbol": "moonblast",
           "id": 585,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 42,
           "names": {
             "en": "Moonblast",
             "fr": "Pouvoir Lunaire",
@@ -689,7 +689,7 @@
           "symbol": "parabolic_charge",
           "id": 570,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 46,
           "names": {
             "en": "Parabolic Charge",
             "fr": "Parabocharge",
@@ -708,7 +708,7 @@
           "symbol": "misty_terrain",
           "id": 581,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 51,
           "names": {
             "en": "Misty Terrain",
             "fr": "Champ Brumeux",
@@ -727,7 +727,7 @@
           "symbol": "psychic",
           "id": 94,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 56,
           "names": {
             "en": "Psychic",
             "fr": "Psyko",
@@ -746,7 +746,7 @@
           "symbol": "thunder",
           "id": 87,
           "klass": "LevelLearnableMove",
-          "level": 70,
+          "level": 62,
           "names": {
             "en": "Thunder",
             "fr": "Fatal-Foudre",

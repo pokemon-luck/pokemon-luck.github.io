@@ -89,67 +89,82 @@
         {
           "klass": "LevelLearnableMove",
           "move": "astonish",
-          "level": 3
+          "level": 4
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "bullet_seed",
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "growth",
-          "level": 6
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "fairy_wind",
-          "level": 9
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "leech_seed",
           "level": 12
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "confuse_ray",
+          "move": "mega_drain",
           "level": 15
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "magical_leaf",
+          "move": "fairy_wind",
           "level": 18
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "sleep_powder",
-          "level": 21
+          "move": "magical_leaf",
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "mega_drain",
+          "move": "confuse_ray",
           "level": 24
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "psybeam",
-          "level": 27
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "protect",
-          "level": 30
+          "move": "razor_leaf",
+          "level": 28
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sweet_scent",
-          "level": 33
+          "level": 30
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "energy_ball",
-          "level": 36
+          "move": "leech_seed",
+          "level": 35
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "psybeam",
+          "level": 38
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "sleep_powder",
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "protect",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "seed_bomb",
+          "level": 53
         },
         {
           "klass": "LevelLearnableMove",
           "move": "grudge",
-          "level": 39
+          "level": 55
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "energy_ball",
+          "level": 60
         },
         {
           "klass": "TechLearnableMove",
@@ -342,6 +357,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "recover"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "disable"
         }
       ],
       "names": {
@@ -446,7 +469,7 @@
           "symbol": "astonish",
           "id": 310,
           "klass": "LevelLearnableMove",
-          "level": 3,
+          "level": 4,
           "names": {
             "en": "Astonish",
             "fr": "Étonnement",
@@ -462,10 +485,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "bullet_seed",
+          "id": 331,
+          "klass": "LevelLearnableMove",
+          "level": 7,
+          "names": {
+            "en": "Bullet Seed",
+            "fr": "Balle Graine",
+            "it": "Semitraglia",
+            "de": "Kugelsaat",
+            "es": "Semilladora",
+            "ko": "기관총"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 30,
+          "power": 25,
+          "accuracy": 100
+        },
+        {
           "symbol": "growth",
           "id": 74,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 12,
           "names": {
             "en": "Growth",
             "fr": "Croissance",
@@ -481,105 +523,10 @@
           "accuracy": 0
         },
         {
-          "symbol": "fairy_wind",
-          "id": 584,
-          "klass": "LevelLearnableMove",
-          "level": 9,
-          "names": {
-            "en": "Fairy Wind",
-            "fr": "Vent Féérique",
-            "it": "Vento di Fata",
-            "de": "Feenbrise",
-            "es": "Viento Feérico",
-            "ko": "요정의바람"
-          },
-          "category": "special",
-          "type": "fairy",
-          "pp": 30,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "leech_seed",
-          "id": 73,
-          "klass": "LevelLearnableMove",
-          "level": 12,
-          "names": {
-            "en": "Leech Seed",
-            "fr": "Vampigraine",
-            "it": "Parassiseme",
-            "de": "Egelsamen",
-            "es": "Drenadoras",
-            "ko": "씨뿌리기"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 90
-        },
-        {
-          "symbol": "confuse_ray",
-          "id": 109,
-          "klass": "LevelLearnableMove",
-          "level": 15,
-          "names": {
-            "en": "Confuse Ray",
-            "fr": "Onde Folie",
-            "it": "Stordiraggio",
-            "de": "Konfusstrahl",
-            "es": "Rayo Confuso",
-            "ko": "이상한빛"
-          },
-          "category": "status",
-          "type": "ghost",
-          "pp": 10,
-          "power": 0,
-          "accuracy": 100
-        },
-        {
-          "symbol": "magical_leaf",
-          "id": 345,
-          "klass": "LevelLearnableMove",
-          "level": 18,
-          "names": {
-            "en": "Magical Leaf",
-            "fr": "Feuille Magik",
-            "it": "Fogliamagica",
-            "de": "Zauberblatt",
-            "es": "Hoja Mágica",
-            "ko": "메지컬리프"
-          },
-          "category": "special",
-          "type": "grass",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
-        },
-        {
-          "symbol": "sleep_powder",
-          "id": 79,
-          "klass": "LevelLearnableMove",
-          "level": 21,
-          "names": {
-            "en": "Sleep Powder",
-            "fr": "Poudre Dodo",
-            "it": "Sonnifero",
-            "de": "Schlafpuder",
-            "es": "Somnífero",
-            "ko": "수면가루"
-          },
-          "category": "status",
-          "type": "grass",
-          "pp": 15,
-          "power": 0,
-          "accuracy": 75
-        },
-        {
           "symbol": "mega_drain",
           "id": 72,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 15,
           "names": {
             "en": "Mega Drain",
             "fr": "Méga-Sangsue",
@@ -595,48 +542,86 @@
           "accuracy": 100
         },
         {
-          "symbol": "psybeam",
-          "id": 60,
+          "symbol": "fairy_wind",
+          "id": 584,
           "klass": "LevelLearnableMove",
-          "level": 27,
+          "level": 18,
           "names": {
-            "en": "Psybeam",
-            "fr": "Rafale Psy",
-            "it": "Psicoraggio",
-            "de": "Psystrahl",
-            "es": "Psicorrayo",
-            "ko": "환상빔"
+            "en": "Fairy Wind",
+            "fr": "Vent Féérique",
+            "it": "Vento di Fata",
+            "de": "Feenbrise",
+            "es": "Viento Feérico",
+            "ko": "요정의바람"
           },
           "category": "special",
-          "type": "psychic",
-          "pp": 20,
-          "power": 65,
+          "type": "fairy",
+          "pp": 30,
+          "power": 40,
           "accuracy": 100
         },
         {
-          "symbol": "protect",
-          "id": 182,
+          "symbol": "magical_leaf",
+          "id": 345,
           "klass": "LevelLearnableMove",
-          "level": 30,
+          "level": 22,
           "names": {
-            "en": "Protect",
-            "fr": "Abri",
-            "it": "Protezione",
-            "de": "Schutzschild",
-            "es": "Protección",
-            "ko": "방어"
+            "en": "Magical Leaf",
+            "fr": "Feuille Magik",
+            "it": "Fogliamagica",
+            "de": "Zauberblatt",
+            "es": "Hoja Mágica",
+            "ko": "메지컬리프"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
+          "symbol": "confuse_ray",
+          "id": 109,
+          "klass": "LevelLearnableMove",
+          "level": 24,
+          "names": {
+            "en": "Confuse Ray",
+            "fr": "Onde Folie",
+            "it": "Stordiraggio",
+            "de": "Konfusstrahl",
+            "es": "Rayo Confuso",
+            "ko": "이상한빛"
           },
           "category": "status",
-          "type": "normal",
+          "type": "ghost",
           "pp": 10,
           "power": 0,
-          "accuracy": 0
+          "accuracy": 100
+        },
+        {
+          "symbol": "razor_leaf",
+          "id": 75,
+          "klass": "LevelLearnableMove",
+          "level": 28,
+          "names": {
+            "en": "Razor Leaf",
+            "fr": "Tranch’Herbe",
+            "it": "Foglielama",
+            "de": "Rasierblatt",
+            "es": "Hoja Afilada",
+            "ko": "잎날가르기"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 25,
+          "power": 55,
+          "accuracy": 95
         },
         {
           "symbol": "sweet_scent",
           "id": 230,
           "klass": "LevelLearnableMove",
-          "level": 33,
+          "level": 30,
           "names": {
             "en": "Sweet Scent",
             "fr": "Doux Parfum",
@@ -652,29 +637,105 @@
           "accuracy": 100
         },
         {
-          "symbol": "energy_ball",
-          "id": 412,
+          "symbol": "leech_seed",
+          "id": 73,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 35,
           "names": {
-            "en": "Energy Ball",
-            "fr": "Éco-Sphère",
-            "it": "Energipalla",
-            "de": "Energieball",
-            "es": "Energibola",
-            "ko": "에너지볼"
+            "en": "Leech Seed",
+            "fr": "Vampigraine",
+            "it": "Parassiseme",
+            "de": "Egelsamen",
+            "es": "Drenadoras",
+            "ko": "씨뿌리기"
           },
-          "category": "special",
+          "category": "status",
           "type": "grass",
           "pp": 10,
-          "power": 90,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "psybeam",
+          "id": 60,
+          "klass": "LevelLearnableMove",
+          "level": 38,
+          "names": {
+            "en": "Psybeam",
+            "fr": "Rafale Psy",
+            "it": "Psicoraggio",
+            "de": "Psystrahl",
+            "es": "Psicorrayo",
+            "ko": "환상빔"
+          },
+          "category": "special",
+          "type": "psychic",
+          "pp": 20,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sleep_powder",
+          "id": 79,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Sleep Powder",
+            "fr": "Poudre Dodo",
+            "it": "Sonnifero",
+            "de": "Schlafpuder",
+            "es": "Somnífero",
+            "ko": "수면가루"
+          },
+          "category": "status",
+          "type": "grass",
+          "pp": 15,
+          "power": 0,
+          "accuracy": 75
+        },
+        {
+          "symbol": "protect",
+          "id": 182,
+          "klass": "LevelLearnableMove",
+          "level": 48,
+          "names": {
+            "en": "Protect",
+            "fr": "Abri",
+            "it": "Protezione",
+            "de": "Schutzschild",
+            "es": "Protección",
+            "ko": "방어"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "seed_bomb",
+          "id": 402,
+          "klass": "LevelLearnableMove",
+          "level": 53,
+          "names": {
+            "en": "Seed Bomb",
+            "fr": "Canon Graine",
+            "it": "Semebomba",
+            "de": "Samenbomben",
+            "es": "Bomba Germen",
+            "ko": "씨폭탄"
+          },
+          "category": "physical",
+          "type": "grass",
+          "pp": 15,
+          "power": 80,
           "accuracy": 100
         },
         {
           "symbol": "grudge",
           "id": 288,
           "klass": "LevelLearnableMove",
-          "level": 39,
+          "level": 55,
           "names": {
             "en": "Grudge",
             "fr": "Rancune",
@@ -688,6 +749,25 @@
           "pp": 5,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "LevelLearnableMove",
+          "level": 60,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
         },
         {
           "symbol": "hyper_voice",
@@ -709,25 +789,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "razor_leaf",
-          "id": 75,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Razor Leaf",
-            "fr": "Tranch’Herbe",
-            "it": "Foglielama",
-            "de": "Rasierblatt",
-            "es": "Hoja Afilada",
-            "ko": "잎날가르기"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 25,
-          "power": 55,
-          "accuracy": 95
-        },
-        {
           "symbol": "giga_drain",
           "id": 202,
           "klass": "TechLearnableMove",
@@ -744,25 +805,6 @@
           "type": "grass",
           "pp": 10,
           "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "seed_bomb",
-          "id": 402,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Seed Bomb",
-            "fr": "Canon Graine",
-            "it": "Semebomba",
-            "de": "Samenbomben",
-            "es": "Bomba Germen",
-            "ko": "씨폭탄"
-          },
-          "category": "physical",
-          "type": "grass",
-          "pp": 15,
-          "power": 80,
           "accuracy": 100
         },
         {
@@ -1448,6 +1490,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "recover",
+          "id": 105,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Recover",
+            "fr": "Soin",
+            "it": "Ripresa",
+            "de": "Genesung",
+            "es": "Recuperación",
+            "ko": "HP회복"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 10,
+          "power": 0,
+          "accuracy": 0
+        },
+        {
+          "symbol": "disable",
+          "id": 50,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Disable",
+            "fr": "Entrave",
+            "it": "Inibitore",
+            "de": "Aussetzer",
+            "es": "Anulación",
+            "ko": "사슬묶기"
+          },
+          "category": "status",
+          "type": "normal",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 100
         }
       ]
     }

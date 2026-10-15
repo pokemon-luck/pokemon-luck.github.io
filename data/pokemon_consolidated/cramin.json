@@ -83,83 +83,83 @@
       "moveSet": [
         {
           "klass": "LevelLearnableMove",
-          "move": "scratch",
-          "level": 1
-        },
-        {
-          "klass": "LevelLearnableMove",
           "move": "growl",
           "level": 1
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "scratch",
+          "level": 1
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "ember",
-          "level": 6
+          "level": 4
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_shock",
-          "level": 8
+          "level": 7
         },
         {
           "klass": "LevelLearnableMove",
           "move": "howl",
-          "level": 12
+          "level": 9
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flame_charge",
-          "level": 16
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_fang",
-          "level": 20
+          "level": 16
         },
         {
           "klass": "LevelLearnableMove",
           "move": "bite",
-          "level": 24
+          "level": 19
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_spin",
-          "level": 28
+          "level": 22
         },
         {
           "klass": "LevelLearnableMove",
           "move": "roar",
-          "level": 32
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "crunch",
-          "level": 36
+          "level": 29
         },
         {
           "klass": "LevelLearnableMove",
           "move": "flamethrower",
-          "level": 40
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "wild_charge",
-          "level": 44
+          "level": 39
         },
         {
           "klass": "LevelLearnableMove",
           "move": "sunny_day",
-          "level": 48
+          "level": 44
         },
         {
           "klass": "LevelLearnableMove",
           "move": "overheat",
-          "level": 52
+          "level": 50
         },
         {
           "klass": "LevelLearnableMove",
           "move": "volt_switch",
-          "level": 56
+          "level": 55
         },
         {
           "klass": "TechLearnableMove",
@@ -364,6 +364,46 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "extreme_speed"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "sacred_fire"
         }
       ],
       "names": {
@@ -446,25 +486,6 @@
       ],
       "moves_data": [
         {
-          "symbol": "scratch",
-          "id": 10,
-          "klass": "LevelLearnableMove",
-          "level": 1,
-          "names": {
-            "en": "Scratch",
-            "fr": "Griffe",
-            "it": "Graffio",
-            "de": "Kratzer",
-            "es": "Arañazo",
-            "ko": "할퀴기"
-          },
-          "category": "physical",
-          "type": "normal",
-          "pp": 35,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
           "symbol": "growl",
           "id": 45,
           "klass": "LevelLearnableMove",
@@ -484,10 +505,29 @@
           "accuracy": 100
         },
         {
+          "symbol": "scratch",
+          "id": 10,
+          "klass": "LevelLearnableMove",
+          "level": 1,
+          "names": {
+            "en": "Scratch",
+            "fr": "Griffe",
+            "it": "Graffio",
+            "de": "Kratzer",
+            "es": "Arañazo",
+            "ko": "할퀴기"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 35,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "ember",
           "id": 52,
           "klass": "LevelLearnableMove",
-          "level": 6,
+          "level": 4,
           "names": {
             "en": "Ember",
             "fr": "Flammèche",
@@ -506,7 +546,7 @@
           "symbol": "thunder_shock",
           "id": 84,
           "klass": "LevelLearnableMove",
-          "level": 8,
+          "level": 7,
           "names": {
             "en": "Thunder Shock",
             "fr": "Éclair",
@@ -525,7 +565,7 @@
           "symbol": "howl",
           "id": 336,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 9,
           "names": {
             "en": "Howl",
             "fr": "Grondement",
@@ -544,7 +584,7 @@
           "symbol": "flame_charge",
           "id": 488,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 13,
           "names": {
             "en": "Flame Charge",
             "fr": "Nitrocharge",
@@ -563,7 +603,7 @@
           "symbol": "thunder_fang",
           "id": 422,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 16,
           "names": {
             "en": "Thunder Fang",
             "fr": "Crocs Éclair",
@@ -582,7 +622,7 @@
           "symbol": "bite",
           "id": 44,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 19,
           "names": {
             "en": "Bite",
             "fr": "Morsure",
@@ -601,7 +641,7 @@
           "symbol": "fire_spin",
           "id": 83,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 22,
           "names": {
             "en": "Fire Spin",
             "fr": "Danse Flammes",
@@ -620,7 +660,7 @@
           "symbol": "roar",
           "id": 46,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 24,
           "names": {
             "en": "Roar",
             "fr": "Hurlement",
@@ -639,7 +679,7 @@
           "symbol": "crunch",
           "id": 242,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 29,
           "names": {
             "en": "Crunch",
             "fr": "Mâchouille",
@@ -658,7 +698,7 @@
           "symbol": "flamethrower",
           "id": 53,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 34,
           "names": {
             "en": "Flamethrower",
             "fr": "Lance-Flammes",
@@ -677,7 +717,7 @@
           "symbol": "wild_charge",
           "id": 528,
           "klass": "LevelLearnableMove",
-          "level": 44,
+          "level": 39,
           "names": {
             "en": "Wild Charge",
             "fr": "Éclair Fou",
@@ -696,7 +736,7 @@
           "symbol": "sunny_day",
           "id": 241,
           "klass": "LevelLearnableMove",
-          "level": 48,
+          "level": 44,
           "names": {
             "en": "Sunny Day",
             "fr": "Zénith",
@@ -715,7 +755,7 @@
           "symbol": "overheat",
           "id": 315,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 50,
           "names": {
             "en": "Overheat",
             "fr": "Surchauffe",
@@ -734,7 +774,7 @@
           "symbol": "volt_switch",
           "id": 521,
           "klass": "LevelLearnableMove",
-          "level": 56,
+          "level": 55,
           "names": {
             "en": "Volt Switch",
             "fr": "Change Éclair",
@@ -1546,6 +1586,177 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
+        },
+        {
+          "symbol": "extreme_speed",
+          "id": 245,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Extreme Speed",
+            "fr": "Vitesse Extrême",
+            "it": "Extrarapido",
+            "de": "Turbotempo",
+            "es": "Veloc. Extrema",
+            "ko": "신속"
+          },
+          "category": "physical",
+          "type": "normal",
+          "pp": 5,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "sacred_fire",
+          "id": 221,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Sacred Fire",
+            "fr": "Feu Sacré",
+            "it": "Magifuoco",
+            "de": "Läuterfeuer",
+            "es": "Fuego Sagrado",
+            "ko": "성스러운불꽃"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 5,
+          "power": 100,
+          "accuracy": 95
         }
       ]
     }

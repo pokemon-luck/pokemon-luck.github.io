@@ -93,67 +93,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -290,6 +315,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ],
       "names": {
@@ -451,7 +484,7 @@
           "symbol": "harden",
           "id": 106,
           "klass": "LevelLearnableMove",
-          "level": 12,
+          "level": 10,
           "names": {
             "en": "Harden",
             "fr": "Armure",
@@ -467,10 +500,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "mud_slap",
+          "id": 189,
+          "klass": "LevelLearnableMove",
+          "level": 13,
+          "names": {
+            "en": "Mud-Slap",
+            "fr": "Coud’Boue",
+            "it": "Fangosberla",
+            "de": "Lehmschelle",
+            "es": "Bofetón Lodo",
+            "ko": "진흙뿌리기"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 10,
+          "power": 20,
+          "accuracy": 100
+        },
+        {
           "symbol": "rock_polish",
           "id": 397,
           "klass": "LevelLearnableMove",
-          "level": 16,
+          "level": 18,
           "names": {
             "en": "Rock Polish",
             "fr": "Poliroche",
@@ -486,10 +538,48 @@
           "accuracy": 0
         },
         {
+          "symbol": "thunder_wave",
+          "id": 86,
+          "klass": "LevelLearnableMove",
+          "level": 20,
+          "names": {
+            "en": "Thunder Wave",
+            "fr": "Cage Éclair",
+            "it": "Tuononda",
+            "de": "Donnerwelle",
+            "es": "Onda Trueno",
+            "ko": "전기자석파"
+          },
+          "category": "status",
+          "type": "electric",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 90
+        },
+        {
+          "symbol": "rock_smash",
+          "id": 249,
+          "klass": "LevelLearnableMove",
+          "level": 23,
+          "names": {
+            "en": "Rock Smash",
+            "fr": "Éclate-Roc",
+            "it": "Spaccaroccia",
+            "de": "Zertrümmerer",
+            "es": "Golpe Roca",
+            "ko": "바위깨기"
+          },
+          "category": "physical",
+          "type": "fighting",
+          "pp": 15,
+          "power": 40,
+          "accuracy": 100
+        },
+        {
           "symbol": "shock_wave",
           "id": 351,
           "klass": "LevelLearnableMove",
-          "level": 20,
+          "level": 27,
           "names": {
             "en": "Shock Wave",
             "fr": "Onde de Choc",
@@ -508,7 +598,7 @@
           "symbol": "ancient_power",
           "id": 246,
           "klass": "LevelLearnableMove",
-          "level": 24,
+          "level": 31,
           "names": {
             "en": "Ancient Power",
             "fr": "Pouvoir Antique",
@@ -524,29 +614,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "thunder_wave",
-          "id": 86,
+          "symbol": "screech",
+          "id": 103,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 34,
           "names": {
-            "en": "Thunder Wave",
-            "fr": "Cage Éclair",
-            "it": "Tuononda",
-            "de": "Donnerwelle",
-            "es": "Onda Trueno",
-            "ko": "전기자석파"
+            "en": "Screech",
+            "fr": "Grincement",
+            "it": "Stridio",
+            "de": "Kreideschrei",
+            "es": "Chirrido",
+            "ko": "싫은소리"
           },
           "category": "status",
-          "type": "electric",
-          "pp": 20,
+          "type": "normal",
+          "pp": 40,
           "power": 0,
-          "accuracy": 90
+          "accuracy": 85
         },
         {
           "symbol": "rock_tomb",
           "id": 317,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 38,
           "names": {
             "en": "Rock Tomb",
             "fr": "Tomberoche",
@@ -565,7 +655,7 @@
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 36,
+          "level": 42,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -584,7 +674,7 @@
           "symbol": "light_screen",
           "id": 113,
           "klass": "LevelLearnableMove",
-          "level": 40,
+          "level": 47,
           "names": {
             "en": "Light Screen",
             "fr": "Mur Lumière",
@@ -600,10 +690,29 @@
           "accuracy": 0
         },
         {
+          "symbol": "power_gem",
+          "id": 408,
+          "klass": "LevelLearnableMove",
+          "level": 52,
+          "names": {
+            "en": "Power Gem",
+            "fr": "Rayon Gemme",
+            "it": "Gemmoforza",
+            "de": "Juwelenkraft",
+            "es": "Joya de Luz",
+            "ko": "파워젬"
+          },
+          "category": "special",
+          "type": "rock",
+          "pp": 20,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
           "symbol": "earth_power",
           "id": 414,
           "klass": "LevelLearnableMove",
-          "level": 45,
+          "level": 57,
           "names": {
             "en": "Earth Power",
             "fr": "Telluriforce",
@@ -622,7 +731,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 50,
+          "level": 62,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -641,7 +750,7 @@
           "symbol": "stone_edge",
           "id": 444,
           "klass": "LevelLearnableMove",
-          "level": 55,
+          "level": 68,
           "names": {
             "en": "Stone Edge",
             "fr": "Lame de Roc",
@@ -657,10 +766,29 @@
           "accuracy": 80
         },
         {
+          "symbol": "wild_charge",
+          "id": 528,
+          "klass": "LevelLearnableMove",
+          "level": 73,
+          "names": {
+            "en": "Wild Charge",
+            "fr": "Éclair Fou",
+            "it": "Sprizzalampo",
+            "de": "Stromstoß",
+            "es": "Voltio Cruel",
+            "ko": "와일드볼트"
+          },
+          "category": "physical",
+          "type": "electric",
+          "pp": 15,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
           "symbol": "calm_mind",
           "id": 347,
           "klass": "LevelLearnableMove",
-          "level": 60,
+          "level": 78,
           "names": {
             "en": "Calm Mind",
             "fr": "Plénitude",
@@ -679,7 +807,7 @@
           "symbol": "zap_cannon",
           "id": 192,
           "klass": "LevelLearnableMove",
-          "level": 65,
+          "level": 84,
           "names": {
             "en": "Zap Cannon",
             "fr": "Élecanon",
@@ -730,63 +858,6 @@
           "type": "electric",
           "pp": 15,
           "power": 75,
-          "accuracy": 100
-        },
-        {
-          "symbol": "wild_charge",
-          "id": 528,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Wild Charge",
-            "fr": "Éclair Fou",
-            "it": "Sprizzalampo",
-            "de": "Stromstoß",
-            "es": "Voltio Cruel",
-            "ko": "와일드볼트"
-          },
-          "category": "physical",
-          "type": "electric",
-          "pp": 15,
-          "power": 90,
-          "accuracy": 100
-        },
-        {
-          "symbol": "rock_smash",
-          "id": 249,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Rock Smash",
-            "fr": "Éclate-Roc",
-            "it": "Spaccaroccia",
-            "de": "Zertrümmerer",
-            "es": "Golpe Roca",
-            "ko": "바위깨기"
-          },
-          "category": "physical",
-          "type": "fighting",
-          "pp": 15,
-          "power": 40,
-          "accuracy": 100
-        },
-        {
-          "symbol": "mud_slap",
-          "id": 189,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud-Slap",
-            "fr": "Coud’Boue",
-            "it": "Fangosberla",
-            "de": "Lehmschelle",
-            "es": "Bofetón Lodo",
-            "ko": "진흙뿌리기"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 10,
-          "power": 20,
           "accuracy": 100
         },
         {
@@ -864,25 +935,6 @@
           "pp": 10,
           "power": 75,
           "accuracy": 90
-        },
-        {
-          "symbol": "power_gem",
-          "id": 408,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Power Gem",
-            "fr": "Rayon Gemme",
-            "it": "Gemmoforza",
-            "de": "Juwelenkraft",
-            "es": "Joya de Luz",
-            "ko": "파워젬"
-          },
-          "category": "special",
-          "type": "rock",
-          "pp": 20,
-          "power": 80,
-          "accuracy": 100
         },
         {
           "symbol": "iron_head",
@@ -1111,6 +1163,44 @@
           "pp": 20,
           "power": 0,
           "accuracy": 0
+        },
+        {
+          "symbol": "energy_ball",
+          "id": 412,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Energy Ball",
+            "fr": "Éco-Sphère",
+            "it": "Energipalla",
+            "de": "Energieball",
+            "es": "Energibola",
+            "ko": "에너지볼"
+          },
+          "category": "special",
+          "type": "grass",
+          "pp": 10,
+          "power": 90,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cosmic_power",
+          "id": 322,
+          "klass": "BreedLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cosmic Power",
+            "fr": "Force Cosmique",
+            "it": "Cosmoforza",
+            "de": "Kosmik-Kraft",
+            "es": "Masa Cósmica",
+            "ko": "코스믹파워"
+          },
+          "category": "status",
+          "type": "psychic",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         }
       ]
     },
@@ -1204,67 +1294,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -1401,6 +1516,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -1494,67 +1617,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -1691,6 +1839,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -1784,67 +1940,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -1981,6 +2162,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -2074,67 +2263,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2271,6 +2485,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -2364,67 +2586,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2561,6 +2808,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -2654,67 +2909,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -2851,6 +3131,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -2944,67 +3232,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -3141,6 +3454,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -3234,67 +3555,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -3431,6 +3777,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -3524,67 +3878,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -3721,6 +4100,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -3814,67 +4201,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -4011,6 +4423,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -4104,67 +4524,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -4301,6 +4746,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -4394,67 +4847,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -4591,6 +5069,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -4684,67 +5170,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -4881,6 +5392,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -4974,67 +5493,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -5171,6 +5715,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -5264,67 +5816,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -5461,6 +6038,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -5554,67 +6139,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -5751,6 +6361,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -5844,67 +6462,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -6041,6 +6684,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -6134,67 +6785,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -6331,6 +7007,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -6424,67 +7108,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -6621,6 +7330,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -6714,67 +7431,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -6911,6 +7653,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -7004,67 +7754,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -7201,6 +7976,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -7294,67 +8077,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -7491,6 +8299,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     },
@@ -7584,67 +8400,92 @@
         {
           "klass": "LevelLearnableMove",
           "move": "harden",
-          "level": 12
+          "level": 10
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "mud_slap",
+          "level": 13
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_polish",
-          "level": 16
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "shock_wave",
-          "level": 20
-        },
-        {
-          "klass": "LevelLearnableMove",
-          "move": "ancient_power",
-          "level": 24
+          "level": 18
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 20
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "rock_smash",
+          "level": 23
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "shock_wave",
+          "level": 27
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "ancient_power",
+          "level": 31
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "screech",
+          "level": 34
         },
         {
           "klass": "LevelLearnableMove",
           "move": "rock_tomb",
-          "level": 32
+          "level": 38
         },
         {
           "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 36
+          "level": 42
         },
         {
           "klass": "LevelLearnableMove",
           "move": "light_screen",
-          "level": 40
+          "level": 47
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "power_gem",
+          "level": 52
         },
         {
           "klass": "LevelLearnableMove",
           "move": "earth_power",
-          "level": 45
+          "level": 57
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunderbolt",
-          "level": 50
+          "level": 62
         },
         {
           "klass": "LevelLearnableMove",
           "move": "stone_edge",
-          "level": 55
+          "level": 68
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "wild_charge",
+          "level": 73
         },
         {
           "klass": "LevelLearnableMove",
           "move": "calm_mind",
-          "level": 60
+          "level": 78
         },
         {
           "klass": "LevelLearnableMove",
           "move": "zap_cannon",
-          "level": 65
+          "level": 84
         },
         {
           "klass": "TechLearnableMove",
@@ -7781,6 +8622,14 @@
         {
           "klass": "TechLearnableMove",
           "move": "pain_split"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "energy_ball"
+        },
+        {
+          "klass": "BreedLearnableMove",
+          "move": "cosmic_power"
         }
       ]
     }

@@ -106,8 +106,13 @@
         },
         {
           "klass": "LevelLearnableMove",
+          "move": "mud_shot",
+          "level": 8
+        },
+        {
+          "klass": "LevelLearnableMove",
           "move": "spark",
-          "level": 9
+          "level": 12
         },
         {
           "klass": "LevelLearnableMove",
@@ -116,48 +121,73 @@
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "poison_fang",
-          "level": 18
+          "move": "dragon_tail",
+          "level": 17
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "crunch",
-          "level": 23
+          "move": "shock_wave",
+          "level": 21
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "poison_fang",
+          "level": 24
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder_wave",
-          "level": 28
+          "level": 26
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "coil",
+          "move": "dragon_breath",
+          "level": 29
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "venoshock",
           "level": 32
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "thunderbolt",
-          "level": 37
+          "move": "ice_fang",
+          "level": 35
         },
         {
           "klass": "LevelLearnableMove",
-          "move": "ice_fang",
-          "level": 42
+          "move": "crunch",
+          "level": 40
         },
         {
           "klass": "LevelLearnableMove",
           "move": "fire_fang",
-          "level": 47
+          "level": 43
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "coil",
+          "level": 48
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "thunderbolt",
+          "level": 53
+        },
+        {
+          "klass": "LevelLearnableMove",
+          "move": "dragon_dance",
+          "level": 58
         },
         {
           "klass": "LevelLearnableMove",
           "move": "thunder",
-          "level": 52
+          "level": 64
         },
         {
           "klass": "LevelLearnableMove",
           "move": "gunk_shot",
-          "level": 57
+          "level": 70
         },
         {
           "klass": "TechLearnableMove",
@@ -418,6 +448,38 @@
         {
           "klass": "TechLearnableMove",
           "move": "taunt"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "enchanted_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "fire_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "ice_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "thunder_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "croc_dragon"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "psychic_fangs"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "cure_fang"
+        },
+        {
+          "klass": "TechLearnableMove",
+          "move": "putrid_fangs"
         }
       ],
       "names": {
@@ -557,10 +619,29 @@
           "accuracy": 95
         },
         {
+          "symbol": "mud_shot",
+          "id": 341,
+          "klass": "LevelLearnableMove",
+          "level": 8,
+          "names": {
+            "en": "Mud Shot",
+            "fr": "Tir de Boue",
+            "it": "Colpodifango",
+            "de": "Lehmschuss",
+            "es": "Disparo Lodo",
+            "ko": "머드숏"
+          },
+          "category": "special",
+          "type": "ground",
+          "pp": 15,
+          "power": 55,
+          "accuracy": 95
+        },
+        {
           "symbol": "spark",
           "id": 209,
           "klass": "LevelLearnableMove",
-          "level": 9,
+          "level": 12,
           "names": {
             "en": "Spark",
             "fr": "Étincelle",
@@ -595,10 +676,48 @@
           "accuracy": 100
         },
         {
+          "symbol": "dragon_tail",
+          "id": 525,
+          "klass": "LevelLearnableMove",
+          "level": 17,
+          "names": {
+            "en": "Dragon Tail",
+            "fr": "Draco-Queue",
+            "it": "Codadrago",
+            "de": "Drachenrute",
+            "es": "Cola Dragón",
+            "ko": "드래곤테일"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 10,
+          "power": 60,
+          "accuracy": 90
+        },
+        {
+          "symbol": "shock_wave",
+          "id": 351,
+          "klass": "LevelLearnableMove",
+          "level": 21,
+          "names": {
+            "en": "Shock Wave",
+            "fr": "Onde de Choc",
+            "it": "Ondashock",
+            "de": "Schockwelle",
+            "es": "Onda Voltio",
+            "ko": "전격파"
+          },
+          "category": "special",
+          "type": "electric",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 0
+        },
+        {
           "symbol": "poison_fang",
           "id": 305,
           "klass": "LevelLearnableMove",
-          "level": 18,
+          "level": 24,
           "names": {
             "en": "Poison Fang",
             "fr": "Crochet Venin",
@@ -614,29 +733,10 @@
           "accuracy": 100
         },
         {
-          "symbol": "crunch",
-          "id": 242,
-          "klass": "LevelLearnableMove",
-          "level": 23,
-          "names": {
-            "en": "Crunch",
-            "fr": "Mâchouille",
-            "it": "Sgranocchio",
-            "de": "Knirscher",
-            "es": "Triturar",
-            "ko": "깨물어부수기"
-          },
-          "category": "physical",
-          "type": "dark",
-          "pp": 15,
-          "power": 80,
-          "accuracy": 100
-        },
-        {
           "symbol": "thunder_wave",
           "id": 86,
           "klass": "LevelLearnableMove",
-          "level": 28,
+          "level": 26,
           "names": {
             "en": "Thunder Wave",
             "fr": "Cage Éclair",
@@ -652,10 +752,105 @@
           "accuracy": 90
         },
         {
+          "symbol": "dragon_breath",
+          "id": 225,
+          "klass": "LevelLearnableMove",
+          "level": 29,
+          "names": {
+            "en": "Dragon Breath",
+            "fr": "Draco-Souffle",
+            "it": "Dragospiro",
+            "de": "Feuerodem",
+            "es": "Dragoaliento",
+            "ko": "용의숨결"
+          },
+          "category": "special",
+          "type": "dragon",
+          "pp": 20,
+          "power": 60,
+          "accuracy": 100
+        },
+        {
+          "symbol": "venoshock",
+          "id": 474,
+          "klass": "LevelLearnableMove",
+          "level": 32,
+          "names": {
+            "en": "Venoshock",
+            "fr": "Choc Venin",
+            "it": "Velenoshock",
+            "de": "Giftschock",
+            "es": "Carga Tóxica",
+            "ko": "베놈쇼크"
+          },
+          "category": "special",
+          "type": "poison",
+          "pp": 10,
+          "power": 65,
+          "accuracy": 100
+        },
+        {
+          "symbol": "ice_fang",
+          "id": 423,
+          "klass": "LevelLearnableMove",
+          "level": 35,
+          "names": {
+            "en": "Ice Fang",
+            "fr": "Crocs Givre",
+            "it": "Gelodenti",
+            "de": "Eiszahn",
+            "es": "Colmillo Hielo",
+            "ko": "얼음엄니"
+          },
+          "category": "physical",
+          "type": "ice",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "crunch",
+          "id": 242,
+          "klass": "LevelLearnableMove",
+          "level": 40,
+          "names": {
+            "en": "Crunch",
+            "fr": "Mâchouille",
+            "it": "Sgranocchio",
+            "de": "Knirscher",
+            "es": "Triturar",
+            "ko": "깨물어부수기"
+          },
+          "category": "physical",
+          "type": "dark",
+          "pp": 15,
+          "power": 80,
+          "accuracy": 100
+        },
+        {
+          "symbol": "fire_fang",
+          "id": 424,
+          "klass": "LevelLearnableMove",
+          "level": 43,
+          "names": {
+            "en": "Fire Fang",
+            "fr": "Crocs Feu",
+            "it": "Rogodenti",
+            "de": "Feuerzahn",
+            "es": "Colmillo Ígneo",
+            "ko": "불꽃엄니"
+          },
+          "category": "physical",
+          "type": "fire",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
           "symbol": "coil",
           "id": 489,
           "klass": "LevelLearnableMove",
-          "level": 32,
+          "level": 48,
           "names": {
             "en": "Coil",
             "fr": "Enroulement",
@@ -674,7 +869,7 @@
           "symbol": "thunderbolt",
           "id": 85,
           "klass": "LevelLearnableMove",
-          "level": 37,
+          "level": 53,
           "names": {
             "en": "Thunderbolt",
             "fr": "Tonnerre",
@@ -690,48 +885,29 @@
           "accuracy": 100
         },
         {
-          "symbol": "ice_fang",
-          "id": 423,
+          "symbol": "dragon_dance",
+          "id": 349,
           "klass": "LevelLearnableMove",
-          "level": 42,
+          "level": 58,
           "names": {
-            "en": "Ice Fang",
-            "fr": "Crocs Givre",
-            "it": "Gelodenti",
-            "de": "Eiszahn",
-            "es": "Colmillo Hielo",
-            "ko": "얼음엄니"
+            "en": "Dragon Dance",
+            "fr": "Danse Draco",
+            "it": "Dragodanza",
+            "de": "Drachentanz",
+            "es": "Danza Dragón",
+            "ko": "용의춤"
           },
-          "category": "physical",
-          "type": "ice",
-          "pp": 15,
-          "power": 65,
-          "accuracy": 95
-        },
-        {
-          "symbol": "fire_fang",
-          "id": 424,
-          "klass": "LevelLearnableMove",
-          "level": 47,
-          "names": {
-            "en": "Fire Fang",
-            "fr": "Crocs Feu",
-            "it": "Rogodenti",
-            "de": "Feuerzahn",
-            "es": "Colmillo Ígneo",
-            "ko": "불꽃엄니"
-          },
-          "category": "physical",
-          "type": "fire",
-          "pp": 15,
-          "power": 65,
-          "accuracy": 95
+          "category": "status",
+          "type": "dragon",
+          "pp": 20,
+          "power": 0,
+          "accuracy": 0
         },
         {
           "symbol": "thunder",
           "id": 87,
           "klass": "LevelLearnableMove",
-          "level": 52,
+          "level": 64,
           "names": {
             "en": "Thunder",
             "fr": "Fatal-Foudre",
@@ -750,7 +926,7 @@
           "symbol": "gunk_shot",
           "id": 441,
           "klass": "LevelLearnableMove",
-          "level": 57,
+          "level": 70,
           "names": {
             "en": "Gunk Shot",
             "fr": "Détricanon",
@@ -878,25 +1054,6 @@
           "pp": 30,
           "power": 40,
           "accuracy": 100
-        },
-        {
-          "symbol": "shock_wave",
-          "id": 351,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Shock Wave",
-            "fr": "Onde de Choc",
-            "it": "Ondashock",
-            "de": "Schockwelle",
-            "es": "Onda Voltio",
-            "ko": "전격파"
-          },
-          "category": "special",
-          "type": "electric",
-          "pp": 20,
-          "power": 60,
-          "accuracy": 0
         },
         {
           "symbol": "thunder_punch",
@@ -1127,25 +1284,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "venoshock",
-          "id": 474,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Venoshock",
-            "fr": "Choc Venin",
-            "it": "Velenoshock",
-            "de": "Giftschock",
-            "es": "Carga Tóxica",
-            "ko": "베놈쇼크"
-          },
-          "category": "special",
-          "type": "poison",
-          "pp": 10,
-          "power": 65,
-          "accuracy": 100
-        },
-        {
           "symbol": "poison_jab",
           "id": 398,
           "klass": "TechLearnableMove",
@@ -1201,25 +1339,6 @@
           "pp": 10,
           "power": 20,
           "accuracy": 100
-        },
-        {
-          "symbol": "mud_shot",
-          "id": 341,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Mud Shot",
-            "fr": "Tir de Boue",
-            "it": "Colpodifango",
-            "de": "Lehmschuss",
-            "es": "Disparo Lodo",
-            "ko": "머드숏"
-          },
-          "category": "special",
-          "type": "ground",
-          "pp": 15,
-          "power": 55,
-          "accuracy": 95
         },
         {
           "symbol": "earth_power",
@@ -1412,25 +1531,6 @@
           "accuracy": 100
         },
         {
-          "symbol": "dragon_tail",
-          "id": 525,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dragon Tail",
-            "fr": "Draco-Queue",
-            "it": "Codadrago",
-            "de": "Drachenrute",
-            "es": "Cola Dragón",
-            "ko": "드래곤테일"
-          },
-          "category": "physical",
-          "type": "dragon",
-          "pp": 10,
-          "power": 60,
-          "accuracy": 90
-        },
-        {
           "symbol": "breaking_sweep",
           "id": 798,
           "klass": "TechLearnableMove",
@@ -1446,25 +1546,6 @@
           "category": "physical",
           "type": "dragon",
           "pp": 15,
-          "power": 60,
-          "accuracy": 100
-        },
-        {
-          "symbol": "dragon_breath",
-          "id": 225,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dragon Breath",
-            "fr": "Draco-Souffle",
-            "it": "Dragospiro",
-            "de": "Feuerodem",
-            "es": "Dragoaliento",
-            "ko": "용의숨결"
-          },
-          "category": "special",
-          "type": "dragon",
-          "pp": 20,
           "power": 60,
           "accuracy": 100
         },
@@ -1697,25 +1778,6 @@
           "accuracy": 0
         },
         {
-          "symbol": "dragon_dance",
-          "id": 349,
-          "klass": "TechLearnableMove",
-          "level": null,
-          "names": {
-            "en": "Dragon Dance",
-            "fr": "Danse Draco",
-            "it": "Dragodanza",
-            "de": "Drachentanz",
-            "es": "Danza Dragón",
-            "ko": "용의춤"
-          },
-          "category": "status",
-          "type": "dragon",
-          "pp": 20,
-          "power": 0,
-          "accuracy": 0
-        },
-        {
           "symbol": "agility",
           "id": 97,
           "klass": "TechLearnableMove",
@@ -1885,6 +1947,101 @@
           "pp": 20,
           "power": 0,
           "accuracy": 100
+        },
+        {
+          "symbol": "enchanted_fang",
+          "id": 795,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Enchanted Fang",
+            "fr": "Croc Enchanté",
+            "it": "Enchanted Fang",
+            "de": "Enchanted Fang",
+            "es": "Enchanted Fang",
+            "ko": "Enchanted Fang"
+          },
+          "category": "physical",
+          "type": "fairy",
+          "pp": 15,
+          "power": 65,
+          "accuracy": 95
+        },
+        {
+          "symbol": "croc_dragon",
+          "id": 723,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Draco-Fangs",
+            "fr": "Crocs Dragon",
+            "it": "Draco-Fangs",
+            "de": "Draco-Fangs",
+            "es": "Draco-Fangs",
+            "ko": "Draco-Fangs"
+          },
+          "category": "physical",
+          "type": "dragon",
+          "pp": 15,
+          "power": 75,
+          "accuracy": 95
+        },
+        {
+          "symbol": "psychic_fangs",
+          "id": 706,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Psychic Fangs",
+            "fr": "Psycho-Croc",
+            "it": "Psicozanna",
+            "de": "Psychobeißer",
+            "es": "Psicocolmillo",
+            "ko": "사이코팽"
+          },
+          "category": "physical",
+          "type": "psychic",
+          "pp": 10,
+          "power": 85,
+          "accuracy": 100
+        },
+        {
+          "symbol": "cure_fang",
+          "id": 771,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Cure Fang",
+            "fr": "Guéridents",
+            "it": "Dynasisma",
+            "de": "Dyna-Erdstoß",
+            "es": "Maxitemblor",
+            "ko": "다이어스"
+          },
+          "category": "physical",
+          "type": "celestial",
+          "pp": 10,
+          "power": 55,
+          "accuracy": 100
+        },
+        {
+          "symbol": "putrid_fangs",
+          "id": 733,
+          "klass": "TechLearnableMove",
+          "level": null,
+          "names": {
+            "en": "Putrid Fangs",
+            "fr": "Crocs Putrides",
+            "it": "Bollaslurp",
+            "de": "Blubbsauger",
+            "es": "Vapodrenaje",
+            "ko": "생생버블"
+          },
+          "category": "physical",
+          "type": "undead",
+          "pp": 15,
+          "power": 60,
+          "accuracy": 85
         }
       ]
     }
