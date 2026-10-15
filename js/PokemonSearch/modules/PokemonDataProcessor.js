@@ -49,7 +49,7 @@ export class PokemonDataProcessor {
             description: form.descriptions[this.lang],
             stats: await this.processStats(form),
             abilities: this.processAbilities(form),
-            moves: this.processMoves(form),
+            moves: await this.processMoves(form, data.dbSymbol),
             evolutionChain: await this.processEvolutionChain(data.dbSymbol, data),
             breeding: await this.processBreeding(form),
             types: this.processTypes(form),
@@ -103,7 +103,31 @@ export class PokemonDataProcessor {
             });
     }
 
-    processMoves(form) {
+    async processMoves(form, dbSymbol) {
+        const groups = this.collectMoves(form);
+
+        // Les capacités de reproduction ne sont définies que sur la base de la
+        // lignée : on va les y chercher pour les évolutions, au prix d'une
+        // requête supplémentaire dans ce seul cas.
+        const base = form.babyDbSymbol;
+        if (groups.breed.length === 0 && base && base !== dbSymbol) {
+            const baseForm = await this.loadBaseForm(base);
+            if (baseForm) groups.breed = this.collectMoves(baseForm).breed;
+        }
+
+        return groups;
+    }
+
+    async loadBaseForm(dbSymbol) {
+        try {
+            const data = await PokemonUtils.fetchJson(`data/pokemon_consolidated/${dbSymbol}.json`);
+            return data.forms[0] || null;
+        } catch {
+            return null;
+        }
+    }
+
+    collectMoves(form) {
         const KLASS_TO_GROUP = {
             LevelLearnableMove: 'level',
             TutorLearnableMove: 'tutor',
