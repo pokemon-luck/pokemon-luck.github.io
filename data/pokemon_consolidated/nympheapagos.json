@@ -10,7 +10,7 @@
         "description": 0
       },
       "height": 1.5,
-      "weight": 162.0,
+      "weight": 162,
       "type1": "grass",
       "type2": "poison",
       "baseHp": 95,
@@ -55,12 +55,16 @@
       ],
       "frontOffsetY": 0,
       "resources": {
-        "icon": "",
-        "iconShiny": "",
+        "icon": "259_m_i",
+        "iconShiny": "259_m_i_s",
         "front": "259_m",
+        "frontF": "259_f",
         "frontShiny": "259_m_s",
+        "frontShinyF": "259_f_s",
         "back": "259_m_b",
+        "backF": "259_f_b",
         "backShiny": "259_m_b_s",
+        "backShinyF": "259_f_b_s",
         "footprint": "",
         "character": "",
         "characterShiny": "",
@@ -68,10 +72,8 @@
         "iconEgg": "",
         "cry": "",
         "hasFemale": true,
-        "frontF": "259_f",
-        "backF": "259_f_b",
-        "frontShinyF": "259_f_s",
-        "backShinyF": "259_f_b_s"
+        "iconF": "259_f_i",
+        "iconShinyF": "259_f_i_s"
       },
       "moveSet": [
         {
